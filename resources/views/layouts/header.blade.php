@@ -8,12 +8,12 @@
 
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="{{ route('home') }}" class="active">Home</a></li>
                     <li><a href="#industries">Industries</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="{{ route('case.studies') }}">Case Studies</a></li>
                     <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#about">About Us</a></li>
+                    <li><a href="{{ route('about.us') }}">About Us</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </nav>

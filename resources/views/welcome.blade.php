@@ -62,8 +62,8 @@
             <div class="section-header">
                 <h2>Our Digital Services</h2>
                 <p>
-                    Comprehensive digital solutions designed to transform your business and accelerate
-                    growth in today’s competitive landscape.
+                    We deliver complete digital solutions including marketing, design, development, branding, SEO and
+                    product growth to elevate your business online.
                 </p>
             </div>
 
@@ -72,7 +72,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-blue">Digital Marketing</div>
                     <h3>Digital Marketing</h3>
-                    <p>Comprehensive digital marketing strategies to grow your online presence.</p>
+                    <p>Digital marketing solutions designed to boost visibility and drive sales.</p>
                     <ul class="service-list">
                         <li>Social Media Marketing</li>
                         <li>PPC Advertising</li>
@@ -85,7 +85,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-purple">UI/UX Design</div>
                     <h3>UI/UX Design</h3>
-                    <p>User-centered design that converts visitors into customers.</p>
+                    <p>End-to-end UI/UX design that aligns business goals with user needs.</p>
                     <ul class="service-list">
                         <li>User Research</li>
                         <li>Wireframing</li>
@@ -98,7 +98,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-green">Web Development</div>
                     <h3>Web Development</h3>
-                    <p>Custom websites built with modern technologies and best practices.</p>
+                    <p>Fast, responsive websites developed for seamless user experiences.</p>
                     <ul class="service-list">
                         <li>Responsive Design</li>
                         <li>CMS Integration</li>
@@ -111,7 +111,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-orange">Branding</div>
                     <h3>Branding</h3>
-                    <p>Complete brand identity that resonates with your target audience.</p>
+                    <p>Bold branding that captures attention and elevates your presence.</p>
                     <ul class="service-list">
                         <li>Logo Design</li>
                         <li>Brand Guidelines</li>
@@ -124,12 +124,12 @@
                 <article class="card service-card">
                     <div class="card-tag tag-teal">SEO</div>
                     <h3>SEO</h3>
-                    <p>Search engine optimization to improve your online visibility.</p>
+                    <p>Powerful SEO that improves rankings, traffic, and conversions.</p>
                     <ul class="service-list">
-                        <li>Keyword Research</li>
-                        <li>On-page SEO</li>
-                        <li>Technical SEO</li>
-                        <li>Link Building</li>
+                        <li>Local SEO</li>
+                        <li>Regional SEO</li>
+                        <li>National SEO</li>
+                        <li>International SEO</li>
                     </ul>
                 </article>
 
@@ -137,7 +137,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-pink">Product Marketing</div>
                     <h3>Product Marketing</h3>
-                    <p>Strategic marketing to launch and grow your products successfully.</p>
+                    <p>Complete product marketing solutions designed to maximize product success.</p>
                     <ul class="service-list">
                         <li>Go-to-Market Strategy</li>
                         <li>Product Positioning</li>
@@ -155,7 +155,8 @@
             <div class="section-header">
                 <h2>Our Design &amp; Development Process</h2>
                 <p>
-                    A proven methodology that ensures exceptional results from concept to launch and beyond.
+                    Our design and development process blends creativity, strategy, and precision to turn ideas into
+                    polished, high-performing digital experiences.
                 </p>
             </div>
 
@@ -164,31 +165,31 @@
                     <div class="process-step">01</div>
                     <h3>Discovery &amp; Research</h3>
                     <p>
-                        We start by understanding your business goals, target audience, and competitive landscape.
-                    </p>
+                        We uncover insights, analyze user needs, and gather essential data to build a strong foundation for
+                        your project. </p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">02</div>
                     <h3>Strategy &amp; Planning</h3>
                     <p>
-                        Develop a comprehensive digital strategy tailored to your specific needs and objectives.
-                    </p>
+                        We translate insights into a clear roadmap, aligning goals, timelines, and resources to ensure a
+                        successful project outcome. </p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">03</div>
                     <h3>Design &amp; Development</h3>
                     <p>
-                        Create stunning designs and develop robust solutions using cutting-edge technologies.
-                    </p>
+                        Designing with intent and developing with precision to deliver results that are both functional and
+                        impactful. </p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">04</div>
                     <h3>Launch &amp; Optimize</h3>
                     <p>
-                        Deploy your solution and continuously optimize for better performance and results.
+                        We launch your project, monitor results, and make improvements to keep everything running smoothly.
                     </p>
                 </article>
             </div>
@@ -201,17 +202,19 @@
             <div class="section-header">
                 <h2>Industries We Serve</h2>
                 <p>
-                    Specialized digital transformation solutions tailored for diverse industry verticals across the globe.
-                </p>
+                    We work with businesses in many sectors, providing solutions that fit their goals and audiences. </p>
             </div>
 
             <div class="grid grid-3 industries-grid">
                 <!-- Healthcare -->
                 <article class="card industry-card">
                     <div class="card-tag tag-blue">Healthcare Solutions</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
                     <h3>Healthcare Solutions</h3>
                     <p>
-                        Comprehensive digital solutions for hospitals, clinics, and healthcare providers with appointment systems and patient management.
+                        Complete digital tools for healthcare providers, offering easy appointment scheduling and efficient
+                        patient management in one platform.
                     </p>
                     <a href="#" class="link-arrow">Learn More</a>
                 </article>
@@ -219,9 +222,13 @@
                 <!-- Care Home -->
                 <article class="card industry-card">
                     <div class="card-tag tag-purple">Care Home Management</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>Care Home Management</h3>
                     <p>
-                        CQC-compliant websites and management systems for care homes with subscription growth models and resident management.
+                        Digital solutions for care homes that include CQC-ready websites, easy resident management, and
+                        flexible subscription models to support growth.
                     </p>
                     <a href="#" class="link-arrow">Learn More</a>
                 </article>
@@ -229,9 +236,13 @@
                 <!-- Education -->
                 <article class="card industry-card">
                     <div class="card-tag tag-green">Education Technology</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>Education Technology</h3>
                     <p>
-                        School digitalization solutions including admission CRM, parent apps, and comprehensive educational management systems.
+                        End-to-end school digitalization solutions featuring admission CRM, parent communication apps, and
+                        fully integrated educational management systems.
                     </p>
                     <a href="#" class="link-arrow">Learn More</a>
                 </article>
@@ -239,9 +250,13 @@
                 <!-- Travel -->
                 <article class="card industry-card">
                     <div class="card-tag tag-orange">Travel &amp; Tourism</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>Travel &amp; Tourism</h3>
                     <p>
-                        Live API integrations with Expedia and Viator, comprehensive booking systems, and travel management platforms.
+                        Travel solutions with real-time Expedia and Viator integrations, easy booking tools, and full travel
+                        management features.
                     </p>
                     <a href="#" class="link-arrow">Learn More</a>
                 </article>
@@ -249,9 +264,13 @@
                 <!-- Recruitment -->
                 <article class="card industry-card">
                     <div class="card-tag tag-teal">Recruitment Solutions</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>Recruitment Solutions</h3>
                     <p>
-                        Advanced ATS, CRM systems, and AI-powered shortlisting connecting exceptional talent with global opportunities.
+                        AI-enhanced recruitment systems combining powerful ATS, intelligent CRM workflows, and automated
+                        shortlisting to source and place talent worldwide.
                     </p>
                     <a href="#" class="link-arrow">Learn More</a>
                 </article>
@@ -259,9 +278,13 @@
                 <!-- Public Sector -->
                 <article class="card industry-card">
                     <div class="card-tag tag-pink">Public Sector</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>Public Sector</h3>
                     <p>
-                        Governance, QA, and delivery management solutions specifically designed for UK councils and public organizations.
+                        Specialized public-sector platforms that streamline governance, enhance QA processes, and support
+                        efficient delivery management for UK organizations.
                     </p>
                     <a href="#" class="link-arrow">Learn More</a>
                 </article>
@@ -275,56 +298,81 @@
             <div class="section-header">
                 <h2>AI Powered Innovation</h2>
                 <p>
-                    Cutting-edge artificial intelligence solutions that transform how your organization operates and serves customers.
+                    Next-generation AI innovations that help organizations stay ahead with smarter automation, predictive
+                    intelligence, and adaptive learning models.
                 </p>
             </div>
 
             <div class="grid grid-3 ai-grid">
                 <article class="card ai-card">
                     <div class="card-tag tag-blue">AI Chatbot Assistant</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>AI Chatbot Assistant</h3>
                     <p>
-                        Intelligent conversational AI that handles customer inquiries, appointment booking, and 24/7 support across your digital platforms.
+                        A powerful AI-driven chatbot that automates customer queries, streamlines appointment booking, and
+                        provides round-the-clock service across web and mobile.
                     </p>
                 </article>
 
                 <article class="card ai-card">
                     <div class="card-tag tag-purple">AI Recruiter</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>AI Recruiter</h3>
                     <p>
-                        Advanced AI-powered recruitment system that screens candidates, schedules interviews, and matches talent with opportunities.
+                        AI-driven recruitment technology that automates candidate screening, interview scheduling, and
+                        talent matching through powerful machine-learning insights.
                     </p>
                 </article>
 
                 <article class="card ai-card">
                     <div class="card-tag tag-green">AI Itinerary Builder</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>AI Itinerary Builder</h3>
                     <p>
-                        Smart travel planning AI that creates personalized itineraries and optimizes travel routes with real-time data.
+                        AI-powered itinerary technology that customizes travel plans, curates destination ideas, and adjusts
+                        routes dynamically with real-time insights.
                     </p>
                 </article>
 
                 <article class="card ai-card">
                     <div class="card-tag tag-orange">AI Healthcare Assistant</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>AI Healthcare Assistant</h3>
                     <p>
-                        Medical AI that assists with patient scheduling, symptom assessment, and healthcare information while maintaining compliance.
+                        AI-powered healthcare support that automates appointment booking, analyzes symptoms, and offers
+                        accurate medical guidance with strict HIPAA-compliant data protection.
                     </p>
                 </article>
 
                 <article class="card ai-card">
                     <div class="card-tag tag-teal">AI Learning Platform</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>AI Learning Platform</h3>
                     <p>
-                        Educational AI that personalizes learning experiences, tracks student progress, and provides intelligent tutoring.
+                        An AI-driven learning platform that personalizes lessons, tracks student progress, and delivers
+                        intelligent tutoring to improve educational outcomes.
                     </p>
                 </article>
 
                 <article class="card ai-card">
                     <div class="card-tag tag-pink">AI Care Coordinator</div>
+                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image">
+
                     <h3>AI Care Coordinator</h3>
                     <p>
-                        Specialized AI for care homes that manages resident care plans, medication reminders, and family communication.
+                        AI-powered care coordination that centralizes resident care plans, supports medication management,
+                        and enhances family engagement with CQC-aligned processes.
                     </p>
                 </article>
             </div>
@@ -332,7 +380,8 @@
             <div class="ai-cta">
                 <h3>Ready to Transform Your Business with AI?</h3>
                 <p>
-                    Our AI solutions are designed to integrate seamlessly with your existing systems while providing measurable improvements in efficiency and customer satisfaction.
+                    Empower your business with intelligent automation, predictive insights, and next-generation AI
+                    capabilities.
                 </p>
                 <div class="ai-cta-actions">
                     <a href="#contact" class="btn btn-primary">Schedule AI Demo</a>
@@ -348,8 +397,7 @@
             <div class="section-header">
                 <h2>Choose Your Plan</h2>
                 <p>
-                    Flexible pricing options designed to scale with your business needs and growth objectives.
-                </p>
+                    Pick the ideal plan to scale your business with the right tools and support. </p>
             </div>
 
             <div class="grid grid-3 pricing-grid">
@@ -427,8 +475,7 @@
             <div class="section-header">
                 <h2>Case Studies</h2>
                 <p>
-                    Real-world success stories showcasing our digital transformation expertise across diverse industries.
-                </p>
+                    See how our strategies and solutions have helped clients achieve outstanding outcomes. </p>
             </div>
 
             <div class="grid grid-2 case-grid">
@@ -437,7 +484,8 @@
                     <div class="card-tag tag-blue">Travel &amp; Tourism</div>
                     <h3>BookMyGetaway.co.uk</h3>
                     <p>
-                        Complete digital transformation of a UK-based travel agency with integrated booking systems, live API connections to major travel providers, and AI-powered itinerary planning.
+                        Complete digital transformation of a UK-based travel agency with integrated booking systems, live
+                        API connections to major travel providers, and AI-powered itinerary planning.
                     </p>
                     <ul class="case-results">
                         <li>300% increase in online bookings</li>
@@ -455,7 +503,8 @@
                     <div class="card-tag tag-purple">Healthcare</div>
                     <h3>NHS Trust Digital Portal</h3>
                     <p>
-                        Comprehensive patient management system for a major NHS Trust including appointment booking, patient records, and staff scheduling with full GDPR compliance.
+                        Comprehensive patient management system for a major NHS Trust including appointment booking, patient
+                        records, and staff scheduling with full GDPR compliance.
                     </p>
                     <ul class="case-results">
                         <li>60% reduction in appointment no-shows</li>
@@ -473,7 +522,8 @@
                     <div class="card-tag tag-green">Care Management</div>
                     <h3>Sunshine Care Homes</h3>
                     <p>
-                        CQC-compliant care home management platform with resident tracking, medication management, and family communication portal.
+                        CQC-compliant care home management platform with resident tracking, medication management, and
+                        family communication portal.
                     </p>
                     <ul class="case-results">
                         <li>CQC Outstanding rating achieved</li>
@@ -491,7 +541,8 @@
                     <div class="card-tag tag-orange">Recruitment</div>
                     <h3>Global Talent Solutions</h3>
                     <p>
-                        AI-powered recruitment platform connecting international talent with UK opportunities, featuring automated screening and video interviewing.
+                        AI-powered recruitment platform connecting international talent with UK opportunities, featuring
+                        automated screening and video interviewing.
                     </p>
                     <ul class="case-results">
                         <li>80% faster candidate screening</li>
@@ -518,8 +569,7 @@
             <div class="section-header">
                 <h2>Global Presence</h2>
                 <p>
-                    Operating across 25+ countries worldwide, bringing British expertise to global markets.
-                </p>
+                    A worldwide footprint that allows us to support clients across diverse markets and time zones. </p>
             </div>
 
             <div class="grid grid-4 global-grid">
@@ -608,7 +658,8 @@
                 <div class="cta-main">
                     <h2>Start Your Digital Transformation Journey Today</h2>
                     <p>
-                        Join hundreds of organizations worldwide who have transformed their operations with our British-built digital solutions. Let’s discuss how we can accelerate your digital transformation.
+                        Join hundreds of organizations worldwide who have transformed their operations with our
+                        British-built digital solutions. Let’s discuss how we can accelerate your digital transformation.
                     </p>
                     <div class="cta-actions">
                         <a href="#contact-form" class="btn btn-primary">Book Free Consultation</a>

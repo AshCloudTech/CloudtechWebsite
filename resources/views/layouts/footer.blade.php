@@ -48,7 +48,7 @@
 
         <div class="footer-bottom">
             <div class="container footer-bottom-inner">
-                <p>© 2024 Cloud Technologies Ltd. All rights reserved.</p>
+                <p>© 2025 Cloud Technologies Ltd. All rights reserved.</p>
                 <p>Powered by Readdy</p>
             </div>
         </div>

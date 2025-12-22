@@ -70,7 +70,7 @@
             <div class="grid grid-3 services-grid">
                 <!-- Digital Marketing -->
                 <article class="card service-card">
-                    <div class="card-tag tag-blue">Digital Marketing</div>
+                    <div class="card-tag tag-blue"><a href="#">Digital Marketing</a></div>
                     <h3>Digital Marketing</h3>
                     <p>Digital marketing solutions designed to boost visibility and drive sales.</p>
                     <ul class="service-list">
@@ -216,7 +216,7 @@
                         Complete digital tools for healthcare providers, offering easy appointment scheduling and efficient
                         patient management in one platform.
                     </p>
-                    <a href="#" class="link-arrow">Learn More</a>
+                    <a href="{{ route('services.cloudhealth') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Care Home -->
@@ -230,7 +230,7 @@
                         Digital solutions for care homes that include CQC-ready websites, easy resident management, and
                         flexible subscription models to support growth.
                     </p>
-                    <a href="#" class="link-arrow">Learn More</a>
+                    <a href="{{ route('services.cloudcare') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Education -->
@@ -244,7 +244,7 @@
                         End-to-end school digitalization solutions featuring admission CRM, parent communication apps, and
                         fully integrated educational management systems.
                     </p>
-                    <a href="#" class="link-arrow">Learn More</a>
+                    <a href="{{ route('services.cloudedu') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Travel -->
@@ -258,7 +258,7 @@
                         Travel solutions with real-time Expedia and Viator integrations, easy booking tools, and full travel
                         management features.
                     </p>
-                    <a href="#" class="link-arrow">Learn More</a>
+                    <a href="{{ route('services.cloudtravel') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Recruitment -->
@@ -272,7 +272,7 @@
                         AI-enhanced recruitment systems combining powerful ATS, intelligent CRM workflows, and automated
                         shortlisting to source and place talent worldwide.
                     </p>
-                    <a href="#" class="link-arrow">Learn More</a>
+                    <a href="{{ route('services.cloudrecruit') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Public Sector -->
@@ -286,7 +286,7 @@
                         Specialized public-sector platforms that streamline governance, enhance QA processes, and support
                         efficient delivery management for UK organizations.
                     </p>
-                    <a href="#" class="link-arrow">Learn More</a>
+                    <a href="{{ route('services.cloudpublic') }}" class="link-arrow">Learn More</a>
                 </article>
             </div>
         </div>

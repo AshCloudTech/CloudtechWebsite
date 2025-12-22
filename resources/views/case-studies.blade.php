@@ -4,6 +4,8 @@
 @section('meta_title', 'Cloud Technologies Ltd – Case Studies')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/case-studies/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/case-studies/js/script.js') }}" defer></script>

@@ -14,12 +14,12 @@
                 <div class="footer-column">
                     <h4>Our Services</h4>
                     <ul>
-                        <li><a href="#">CloudHealth</a></li>
-                        <li><a href="#">CloudCare</a></li>
-                        <li><a href="#">CloudEdu</a></li>
-                        <li><a href="#">CloudTravel</a></li>
-                        <li><a href="#">CloudRecruit</a></li>
-                        <li><a href="#">CloudPublic</a></li>
+                        <li><a href="{{ route('services.cloudhealth') }}">CloudHealth</a></li>
+                        <li><a href="{{ route('services.cloudcare') }}">CloudCare</a></li>
+                        <li><a href="{{ route('services.cloudedu') }}">CloudEdu</a></li>
+                        <li><a href="{{ route('services.cloudtravel') }}">CloudTravel</a></li>
+                        <li><a href="{{ route('services.cloudrecruit') }}">CloudRecruit</a></li>
+                        <li><a href="{{ route('services.cloudpublic') }}">CloudPublic</a></li>
                     </ul>
                 </div>
 

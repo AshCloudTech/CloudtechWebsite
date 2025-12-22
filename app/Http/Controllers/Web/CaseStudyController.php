@@ -11,4 +11,8 @@ class CaseStudyController extends Controller
     {
         return view('case-studies');
     }
+    public function detail($slug)
+    {
+        return view('case-study-detail', ['slug' => $slug]);
+    }
 }

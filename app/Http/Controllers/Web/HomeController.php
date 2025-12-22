@@ -11,4 +11,21 @@ class HomeController extends Controller
     {
         return view('welcome');
     }
+
+    public function careers()
+    {
+        return view('careers');
+    }
+    public function careerDetail($slug)
+    {
+        return view('career-detail', ['slug' => $slug]);
+    }
+    public function termsOfService()
+    {
+        return view('terms-of-service');
+    }
+    public function privacyPolicy()
+    {
+        return view('privacy-policy');
+    }
 }

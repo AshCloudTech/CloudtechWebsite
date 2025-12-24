@@ -7,6 +7,10 @@
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/about/js/script.js') }}" defer></script>
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
 @endpush
 
 @section('content')
@@ -434,24 +438,50 @@
         </div>
     </section>
 
-    <!-- CTA SECTION -->
-    <section class="section about-cta" id="contact">
-        <div class="container">
-            <div class="cta-inner about-cta-inner">
-                <div class="cta-main">
-                    <h2>Ready to Transform Your Business?</h2>
-                    <p>
-                        Join hundreds of companies that trust Cloud Technologies to power their
-                        digital transformation journey.
-                    </p>
-                </div>
-                <div class="cta-actions about-cta-actions">
-                    <a href="#contact-form" class="btn btn-primary">Get Started Today</a>
-                    <a href="#contact-form" class="btn btn-outline-light">Schedule a Demo</a>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- CTA SECTION -->
+<section class="section about-cta" id="contact">
+  <div class="container">
+
+    <!-- Top CTA -->
+    <div class="cta-inner about-cta-inner">
+      <div class="cta-main">
+        <h2>Ready to Transform Your Business?</h2>
+        <p>
+          Join hundreds of companies that trust Cloud Technologies to power their
+          digital transformation journey.
+        </p>
+      </div>
+
+      <div class="cta-actions about-cta-actions">
+        <a href="#contact-form" class="btn btn-primary">Get Started Today</a>
+        <a href="#contact-form" class="btn btn-outline-light">Schedule a Demo</a>
+      </div>
+    </div>
+
+    <!-- Bottom Cards -->
+    <div class="cta-cards">
+      <div class="cta-card">
+        <div class="cta-icon"><i class="fa-solid fa-headphones"></i></div>
+        <h4>Free Consultation</h4>
+        <p>Get expert advice tailored to your business needs</p>
+      </div>
+
+      <div class="cta-card">
+        <div class="cta-icon"><i class="fa-solid fa-shield"></i></div>
+        <h4>Secure & Reliable</h4>
+        <p>Enterprise-grade security and 99.9% uptime SLA</p>
+      </div>
+
+      <div class="cta-card">
+        <div class="cta-icon"><i class="fa-solid fa-rocket"></i></div>
+        <h4>Fast Implementation</h4>
+        <p>Quick deployment with minimal disruption</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
     <!-- CONTACT FORM (SIMPLE) -->
     <section class="section section-alt" id="contact-form">

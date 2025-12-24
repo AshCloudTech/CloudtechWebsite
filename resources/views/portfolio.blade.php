@@ -17,6 +17,7 @@
 <section class="hero portfolio-hero" id="portfolio">
     <div class="container hero-content">
         <h1>Our Portfolio of Websites</h1>
+        <h3>Why Choose Cloud Technologies Ltd?</h3>
         <p class="subtitle">
             At Cloud Technologies Ltd, we've built and delivered dozens of websites across platforms like
             GoDaddy, Wix, Shopify, Squarespace, and WordPress — for businesses in education, law, eCommerce,
@@ -106,29 +107,70 @@
 </section>
 
 <section class="why-us" id="stats">
-    <div class="container">
-        <h2>Why Choose Cloud Technologies Ltd?</h2>
+  <div class="container">
+    <h2 class="section-title">Why Choose Cloud Technologies Ltd?</h2>
 
-        <div class="why-grid">
-            <div class="why-item">
-                <strong>50+ websites delivered across multiple industries.</strong>
-            </div>
-            <div class="why-item">
-                <strong>Platform flexibility:</strong> WordPress, Shopify, Wix, Squarespace, Laravel, GoDaddy.
-            </div>
-            <div class="why-item">
-                <strong>Mobile-first, SEO-optimised designs.</strong>
-            </div>
-            <div class="why-item">
-                <strong>Fast delivery with ongoing support.</strong>
-            </div>
+    <div class="why-grid">
+      <!-- Item 1 -->
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>50+ websites delivered across multiple industries</h4>
+          <p>
+            Extensive experience across healthcare, education, travel,
+            recruitment, and more.
+          </p>
         </div>
+      </div>
 
-        <div class="center">
-            <a href="#" class="btn-primary">Start Your Project</a>
+      <!-- Item 2 -->
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>
+            Platform flexibility: WordPress, Shopify, Wix, Squarespace, Laravel,
+            GoDaddy
+          </h4>
+          <p>
+            We work with all major platforms to find the perfect fit for your
+            business needs.
+          </p>
         </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Mobile-first, SEO-optimised designs</h4>
+          <p>
+            Every website is built with mobile users in mind and optimised for
+            search engines.
+          </p>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Fast delivery with ongoing support</h4>
+          <p>
+            Quick turnaround times with comprehensive post-launch support and
+            maintenance.
+          </p>
+        </div>
+      </div>
     </div>
+
+    <div class="btn-wrapper">
+      <a href="#" class="btn-primary">
+        Start Your Project <span>→</span>
+      </a>
+    </div>
+  </div>
 </section>
+
 
 <section class="cta" id="cta">
     <div class="container cta-inner">

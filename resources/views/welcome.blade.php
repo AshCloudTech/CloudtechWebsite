@@ -17,11 +17,10 @@
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="hero-text">
-                <p class="hero-eyebrow">British-Built Digital Solutions</p>
-                <h1>Experience British-Built Digital<br>Transformation</h1>
+                <p class="hero-eyebrow">Smart Digital Solutions That Drive Growth and Performance</p>
+                <h1>Build. Grow. Transform. All in One Digital Powerhouse.</h1>
                 <p class="hero-subtitle">
-                    From digital marketing to custom development, we deliver end-to-end
-                    solutions that drive growth across healthcare, education, travel, and beyond.
+                    Your complete hub for digital, design, and AI solutions that fuel business growth.
                 </p>
 
                 <div class="hero-actions">
@@ -30,8 +29,7 @@
                 </div>
 
                 <p class="hero-note">
-                    Start for free. No credit card required.<br>
-                    Join millions of entrepreneurs who run their business on Cloud Technologies.
+                   Delivering powerful cloud technology that helps entrepreneurs scale faster, <br> reach global markets and achieve real results.
                 </p>
             </div>
 
@@ -62,8 +60,7 @@
             <div class="section-header">
                 <h2>Our Digital Services</h2>
                 <p>
-                    We deliver complete digital solutions including marketing, design, development, branding, SEO and
-                    product growth to elevate your business online.
+                    We deliver complete digital solutions including marketing, design, development, branding, SEO and product growth to elevate your business online.
                 </p>
             </div>
 

@@ -29,12 +29,28 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
 .center { text-align:center; }
 .muted { color:#555; }
 
-.filter-bar { display:flex; gap:10px; justify-content:center; margin:20px 0; }
-.filter { padding:8px 18px; border-radius:20px; border:1px solid #ddd; background:#fff; cursor:pointer; }
+.filter-bar { display:flex; gap:10px; flex-wrap: wrap; justify-content:center; margin:20px 0; }
+.filter { padding:8px 18px; border-radius:20px; white-space: nowrap; border:1px solid #ddd; background:#fff; cursor:pointer; }
 .filter.active { background:#2563eb; color:#fff; border-color:#2563eb; }
 
 .grid { display:grid; gap:24px; }
 .cs-grid { grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); }
+/* responsive */
+@media (max-width: 640px) {
+    .cs-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .card {
+        border-radius: 14px;
+    }
+
+    .cs-img {
+        height: 140px;
+        border-radius: 14px 14px 0 0;
+    }
+}
+
 
 .card { background:white; padding:0 0 18px; border-radius:16px; box-shadow:0 6px 20px #0001; }
 .cs-img { height:160px; border-radius:16px 16px 0 0; background-size:cover; }

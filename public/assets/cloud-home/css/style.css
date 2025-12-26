@@ -136,7 +136,9 @@ button {
 }
 
 .btn-ghost:hover {
-    background-color: rgba(255, 255, 255, 0.25);
+    background: linear-gradient(135deg, #8faf86, #729265);
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.45);
 }
 
 .btn-accent {

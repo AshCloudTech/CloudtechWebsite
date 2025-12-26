@@ -3,12 +3,12 @@
 @section('title', 'Case Studies')
 @section('meta_title', 'Cloud Technologies Ltd – Case Studies')
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/case-studies/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/case-studies/css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/header.css') }}">
 @endpush
 @push('scripts')
-    <script src="{{ asset('assets/case-studies/js/script.js') }}" defer></script>
+<script src="{{ asset('assets/case-studies/js/script.js') }}" defer></script>
 @endpush
 
 @section('content')
@@ -17,7 +17,8 @@
     <div class="hero-overlay"></div>
     <div class="container hero-content">
         <h1>Success Stories That Inspire</h1>
-        <p class="subtitle">Discover how we've helped businesses across industries achieve remarkable digital transformation and growth</p>
+        <p class="subtitle">Discover how we've helped businesses across industries achieve remarkable digital
+            transformation and growth</p>
         <div class="cs-stats">
             <span>150+ Projects Delivered</span>
             <span>95% Client Satisfaction</span>
@@ -32,18 +33,17 @@
         <p class="center muted">Filter by industry to see relevant success stories</p>
 
         <div class="filter-bar">
-            <button class="filter active">All</button>
-            <button class="filter">Healthcare</button>
-            <button class="filter">Education</button>
-            <button class="filter">Travel</button>
-            <button class="filter">Recruitment</button>
-            <button class="filter">Public Sector</button>
-            <button class="filter">Enterprise</button>
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="Healthcare">Healthcare</button>
+            <button class="filter" data-filter="Education">Education</button>
+            <button class="filter" data-filter="Travel">Travel</button>
+            <button class="filter" data-filter="Recruitment">Recruitment</button>
+            <button class="filter" data-filter="Public Sector">Public Sector</button>
+            <button class="filter" data-filter="Enterprise">Enterprise</button>
         </div>
 
         <div class="grid cs-grid">
-            <!-- Card 1 -->
-            <article class="card cs-card">
+            <article class="card cs-card" data-category="Education">
                 <div class="cs-img img1"></div>
                 <span class="cs-tag blue">Education</span>
                 <h3>The Learning Compass Digital Transformation</h3>
@@ -51,17 +51,15 @@
                 <a href="#" class="cs-link">View Case Study →</a>
             </article>
 
-            <!-- Card 2 -->
-            <article class="card cs-card">
+            <article class="card cs-card" data-category="Recruitment">
                 <div class="cs-img img2"></div>
-                <span class="cs-tag purple">Enterprise</span>
+                <span class="cs-tag purple">Recruitment</span>
                 <h3>Cash Home Buyers SEO Success</h3>
-                <p>A UK-based company offering simple, stress‑free property solutions nationwide.</p>
+                <p>A UK-based company offering simple, stress-free property solutions nationwide.</p>
                 <a href="#" class="cs-link">View Case Study →</a>
             </article>
 
-            <!-- Card 3 -->
-            <article class="card cs-card">
+            <article class="card cs-card" data-category="Healthcare">
                 <div class="cs-img img3"></div>
                 <span class="cs-tag green">Healthcare</span>
                 <h3>Basketball Coaching Website Transformation</h3>
@@ -69,8 +67,7 @@
                 <a href="#" class="cs-link">View Case Study →</a>
             </article>
 
-            <!-- Card 4 -->
-            <article class="card cs-card">
+            <article class="card cs-card" data-category="Enterprise">
                 <div class="cs-img img4"></div>
                 <span class="cs-tag purple">Enterprise</span>
                 <h3>Logistics Company Recovery Project</h3>
@@ -78,14 +75,15 @@
                 <a href="#" class="cs-link">View Case Study →</a>
             </article>
 
-            <!-- Card 5 -->
-            <article class="card cs-card">
+            <article class="card cs-card" data-category="Travel">
                 <div class="cs-img img5"></div>
                 <span class="cs-tag blue">Travel</span>
                 <h3>BMGA Travels Facebook Marketing Campaign</h3>
                 <p>A UK travel agency scaling outreach through strategic digital campaigns.</p>
                 <a href="#" class="cs-link">View Case Study →</a>
             </article>
+
+
         </div>
     </div>
 </section>
@@ -100,7 +98,4 @@
         </div>
     </div>
 </section>
-
-
 @endsection
-

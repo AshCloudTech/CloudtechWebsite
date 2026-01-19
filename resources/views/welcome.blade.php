@@ -1,7 +1,7 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Cloud Home')
-@section('meta_title', 'Cloud Technologies Ltd – Home')
+@section('title', 'Cloud Dashboard')
+@section('meta_title', 'Cloud Technologies Ltd – Dashboard')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/cloud-home/css/style.css') }}">
 @endpush
@@ -209,7 +209,7 @@
                 <!-- Healthcare -->
                 <article class="card industry-card">
                     <div class="card-tag tag-blue">Healthcare Solutions</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
                     <h3>Healthcare Solutions</h3>
                     <p>
@@ -219,13 +219,13 @@
                     <a href="{{ route('services.cloudhealth') }}" class="link-arrow">Learn More</a>
                 </article>
 
-                <!-- Care Home -->
+                <!-- Care Dashboard -->
                 <article class="card industry-card">
-                    <div class="card-tag tag-purple">Care Home Management</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <div class="card-tag tag-purple">Care Dashboard Management</div>
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
-                    <h3>Care Home Management</h3>
+                    <h3>Care Dashboard Management</h3>
                     <p>
                         Digital solutions for care homes that include CQC-ready websites, easy resident management, and
                         flexible subscription models to support growth.
@@ -236,7 +236,7 @@
                 <!-- Education -->
                 <article class="card industry-card">
                     <div class="card-tag tag-green">Education Technology</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>Education Technology</h3>
@@ -250,7 +250,7 @@
                 <!-- Travel -->
                 <article class="card industry-card">
                     <div class="card-tag tag-orange">Travel &amp; Tourism</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>Travel &amp; Tourism</h3>
@@ -264,7 +264,7 @@
                 <!-- Recruitment -->
                 <article class="card industry-card">
                     <div class="card-tag tag-teal">Recruitment Solutions</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>Recruitment Solutions</h3>
@@ -278,7 +278,7 @@
                 <!-- Public Sector -->
                 <article class="card industry-card">
                     <div class="card-tag tag-pink">Public Sector</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>Public Sector</h3>
@@ -306,7 +306,7 @@
             <div class="grid grid-3 ai-grid">
                 <article class="card ai-card">
                     <div class="card-tag tag-blue">AI Chatbot Assistant</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Chatbot Assistant</h3>
@@ -318,7 +318,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-purple">AI Recruiter</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Recruiter</h3>
@@ -330,7 +330,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-green">AI Itinerary Builder</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Itinerary Builder</h3>
@@ -342,7 +342,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-orange">AI Healthcare Assistant</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Healthcare Assistant</h3>
@@ -354,7 +354,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-teal">AI Learning Platform</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Learning Platform</h3>
@@ -366,7 +366,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-pink">AI Care Coordinator</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Care Coordinator</h3>
@@ -520,7 +520,7 @@
                 <!-- Care Management -->
                 <article class="card case-card">
                     <div class="card-tag tag-green">Care Management</div>
-                    <h3>Sunshine Care Homes</h3>
+                    <h3>Sunshine Care Dashboards</h3>
                     <p>
                         CQC-compliant care home management platform with resident tracking, medication management, and
                         family communication portal.

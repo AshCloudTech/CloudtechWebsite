@@ -834,3 +834,37 @@ button {
         grid-template-columns: 1fr;
     }
 }
+
+
+.service-icon{
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+}
+
+.service-icon::before{
+  content:"";
+  width: 28px;
+  height: 28px;
+  display:block;
+  background: #ff5a00; /* your theme color */
+  -webkit-mask: var(--icon) no-repeat center / contain;
+  mask: var(--icon) no-repeat center / contain;
+}
+
+/* Map each card to the correct brand icon */
+.icon-wp{      --icon: url("https://cdn.simpleicons.org/wordpress"); }
+.icon-woo{     --icon: url("https://cdn.simpleicons.org/woocommerce"); }
+.icon-shopify{ --icon: url("https://cdn.simpleicons.org/shopify"); }
+.icon-sq{      --icon: url("https://cdn.simpleicons.org/squarespace"); }
+.icon-wix{     --icon: url("https://cdn.simpleicons.org/wix"); }
+.icon-gd{      --icon: url("https://cdn.simpleicons.org/godaddy"); }
+.icon-laravel{ --icon: url("https://cdn.simpleicons.org/laravel"); }
+.icon-custom{  --icon: url("https://cdn.simpleicons.org/php"); }

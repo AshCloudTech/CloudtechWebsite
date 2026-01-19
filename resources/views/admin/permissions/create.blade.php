@@ -1,17 +1,18 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('title', 'Create Permission')
+@section('page_title', 'Create Permission')
+@section('page_subtitle', 'Add a new permission used by roles.')
 
 @section('content')
-    <h1 class="text-xl font-semibold">Create Permission</h1>
-
-    <form class="mt-4 rounded bg-white p-6 shadow-sm" method="POST" action="{{ route('admin.permissions.store') }}">
+    <form method="POST" action="{{ route('admin.permissions.store') }}">
         @csrf
+
         @include('admin.permissions._form')
 
-        <div class="mt-6 flex gap-3">
-            <button class="rounded bg-gray-900 px-4 py-2 text-sm text-white" type="submit">Save</button>
-            <a class="rounded border px-4 py-2 text-sm" href="{{ route('admin.permissions.index') }}">Cancel</a>
+        <div style="margin-top:14px;" class="btnRow">
+            <button class="btn primary" type="submit">Save Permission</button>
+            <a class="btn" href="{{ route('admin.permissions.index') }}">Cancel</a>
         </div>
     </form>
 @endsection

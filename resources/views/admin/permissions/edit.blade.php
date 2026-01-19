@@ -1,17 +1,19 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('title', 'Edit Permission')
+@section('page_title', 'Edit Permission')
+@section('page_subtitle', 'Rename permission (avoid breaking existing role mappings).')
 
 @section('content')
-    <h1 class="text-xl font-semibold">Edit Permission: {{ $permission->name }}</h1>
+    <form method="POST" action="{{ route('admin.permissions.update', $permission) }}">
+        @csrf
+        @method('PUT')
 
-    <form class="mt-4 rounded bg-white p-6 shadow-sm" method="POST" action="{{ route('admin.permissions.update', $permission) }}">
-        @csrf @method('PUT')
         @include('admin.permissions._form')
 
-        <div class="mt-6 flex gap-3">
-            <button class="rounded bg-gray-900 px-4 py-2 text-sm text-white" type="submit">Update</button>
-            <a class="rounded border px-4 py-2 text-sm" href="{{ route('admin.permissions.index') }}">Cancel</a>
+        <div style="margin-top:14px;" class="btnRow">
+            <button class="btn primary" type="submit">Update Permission</button>
+            <a class="btn" href="{{ route('admin.permissions.index') }}">Cancel</a>
         </div>
     </form>
 @endsection

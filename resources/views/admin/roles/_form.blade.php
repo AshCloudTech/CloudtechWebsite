@@ -1,22 +1,46 @@
-<div class="space-y-4">
-    <div>
-        <label class="block text-sm font-medium">Role name</label>
-        <input name="name" value="{{ old('name', $role->name ?? '') }}" class="mt-1 w-full rounded border px-3 py-2" required />
-        @error('name')<div class="mt-1 text-xs text-red-600">{{ $message }}</div>@enderror
+<div class="grid cols-2" style="gap:14px;">
+    <div class="card" style="margin:0;">
+        <div class="cardHeader">
+            <div>
+                <h3>Role details</h3>
+                <p>Define the role name and scope.</p>
+            </div>
+        </div>
+        <div class="cardBody">
+            <div class="field">
+                <label>Role name</label>
+                <input name="name" value="{{ old('name', $role->name ?? '') }}" required>
+                @error('name')
+                    <div class="hint">{{ $message }}</div>
+                @enderror
+            </div>
+        </div>
     </div>
 
-    <div>
-        <div class="block text-sm font-medium">Permissions</div>
-        <div class="mt-2 grid gap-2 md:grid-cols-2">
-            @foreach($permissions as $permission)
-                <label class="flex items-center gap-2 text-sm">
-                    <input type="checkbox" name="permissions[]" value="{{ $permission->name }}"
-                        @checked(in_array($permission->name, old('permissions', isset($role) ? $role->permissions->pluck('name')->all() : []), true))
-                    />
-                    <span>{{ $permission->name }}</span>
-                </label>
-            @endforeach
+    <div class="card" style="margin:0;">
+        <div class="cardHeader">
+            <div>
+                <h3>Permissions</h3>
+                <p>Attach permissions granted by this role.</p>
+            </div>
         </div>
-        @error('permissions.*')<div class="mt-1 text-xs text-red-600">{{ $message }}</div>@enderror
+        <div class="cardBody">
+            <div class="grid cols-2" style="gap:10px;">
+                @foreach($permissions as $permission)
+                    <label style="display:flex; gap:10px; align-items:center; color:var(--muted); font-size:12px;">
+                        <input
+                            type="checkbox"
+                            name="permissions[]"
+                            value="{{ $permission->name }}"
+                            @checked(in_array($permission->name, old('permissions', isset($role) ? $role->permissions->pluck('name')->all() : []), true))
+                        >
+                        <span style="color:var(--text); font-size:13px;">{{ $permission->name }}</span>
+                    </label>
+                @endforeach
+            </div>
+            @error('permissions.*')
+                <div class="hint">{{ $message }}</div>
+            @enderror
+        </div>
     </div>
 </div>

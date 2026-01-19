@@ -1,39 +1,51 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('title', 'Roles')
+@section('page_title', 'Roles')
+@section('page_subtitle', 'Create roles and assign permissions.')
 
 @section('content')
-    <div class="flex items-center justify-between">
-        <h1 class="text-xl font-semibold">Roles</h1>
-        <a href="{{ route('admin.roles.create') }}" class="rounded bg-gray-900 px-3 py-2 text-sm text-white">New Role</a>
-    </div>
+    <div class="card">
+        <div class="cardHeader">
+            <div>
+                <h3>Role Management</h3>
+                <p>Manage access groups and associated permissions.</p>
+            </div>
+            <a class="btn primary" href="{{ route('admin.roles.create') }}">New Role</a>
+        </div>
 
-    <div class="mt-4 overflow-hidden rounded bg-white shadow-sm">
-        <table class="w-full text-sm">
-            <thead class="bg-gray-50 text-left">
-            <tr>
-                <th class="px-4 py-2">Name</th>
-                <th class="px-4 py-2">Permissions</th>
-                <th class="px-4 py-2">Actions</th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach($roles as $role)
-                <tr class="border-t">
-                    <td class="px-4 py-2 font-medium">{{ $role->name }}</td>
-                    <td class="px-4 py-2">
-                        {{ $role->permissions->pluck('name')->join(', ') ?: '—' }}
-                    </td>
-                    <td class="px-4 py-2">
-                        <a class="underline" href="{{ route('admin.roles.edit', $role) }}">Edit</a>
-                        <form class="inline" method="POST" action="{{ route('admin.roles.destroy', $role) }}">
-                            @csrf @method('DELETE')
-                            <button class="ml-2 underline" onclick="return confirm('Delete role?')" type="submit">Delete</button>
-                        </form>
-                    </td>
+        <div class="tableWrap">
+            <table>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Permissions</th>
+                    <th style="width:170px;">Actions</th>
                 </tr>
-            @endforeach
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                @forelse($roles as $role)
+                    <tr>
+                        <td><strong>{{ $role->name }}</strong></td>
+                        <td>
+                            <span class="mono">{{ $role->permissions->pluck('name')->join(', ') ?: '—' }}</span>
+                        </td>
+                        <td>
+                            <a class="btn" href="{{ route('admin.roles.edit', $role) }}">Edit</a>
+                            <form style="display:inline;" method="POST" action="{{ route('admin.roles.destroy', $role) }}" onsubmit="return confirm('Delete role?')">
+                                @csrf
+                                @method('DELETE')
+                                <button class="btn danger" type="submit">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                @empty
+                    <tr>
+                        <td colspan="3">No roles found.</td>
+                    </tr>
+                @endforelse
+                </tbody>
+            </table>
+        </div>
     </div>
 @endsection

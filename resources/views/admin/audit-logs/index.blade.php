@@ -1,36 +1,51 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('title', 'Audit Logs')
+@section('page_title', 'Audit Logs')
+@section('page_subtitle', 'Review security events and administrative actions.')
 
 @section('content')
-    <h1 class="text-xl font-semibold">Audit Logs</h1>
+    <div class="card">
+        <div class="cardHeader">
+            <div>
+                <h3>Activity Logs</h3>
+                <p>Captured using your audit logger (e.g., Spatie Activitylog).</p>
+            </div>
+        </div>
 
-    <div class="mt-4 overflow-hidden rounded bg-white shadow-sm">
-        <table class="w-full text-sm">
-            <thead class="bg-gray-50 text-left">
-            <tr>
-                <th class="px-4 py-2">When</th>
-                <th class="px-4 py-2">User</th>
-                <th class="px-4 py-2">Event</th>
-                <th class="px-4 py-2">Subject</th>
-                <th class="px-4 py-2">Properties</th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach($activities as $a)
-                <tr class="border-t align-top">
-                    <td class="px-4 py-2 whitespace-nowrap">{{ $a->created_at?->format('Y-m-d H:i:s') }}</td>
-                    <td class="px-4 py-2">{{ $a->causer?->email ?? '—' }}</td>
-                    <td class="px-4 py-2">{{ $a->event ?? $a->description }}</td>
-                    <td class="px-4 py-2">{{ class_basename($a->subject_type) }} #{{ $a->subject_id }}</td>
-                    <td class="px-4 py-2"><pre class="whitespace-pre-wrap text-xs">{{ json_encode($a->properties, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES) }}</pre></td>
+        <div class="tableWrap">
+            <table>
+                <thead>
+                <tr>
+                    <th>When</th>
+                    <th>User</th>
+                    <th>Event</th>
+                    <th>Subject</th>
+                    <th>Properties</th>
                 </tr>
-            @endforeach
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                @forelse($activities as $a)
+                    <tr>
+                        <td class="mono">{{ $a->created_at?->format('Y-m-d H:i:s') }}</td>
+                        <td class="mono">{{ $a->causer?->email ?? '—' }}</td>
+                        <td>{{ $a->event ?? $a->description }}</td>
+                        <td class="mono">{{ class_basename($a->subject_type) }} #{{ $a->subject_id }}</td>
+                        <td>
+                            <pre class="mono" style="white-space:pre-wrap; margin:0; font-size:12px;">{{ json_encode($a->properties, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES) }}</pre>
+                        </td>
+                    </tr>
+                @empty
+                    <tr>
+                        <td colspan="5">No activity found.</td>
+                    </tr>
+                @endforelse
+                </tbody>
+            </table>
+        </div>
     </div>
 
-    <div class="mt-4">
+    <div style="margin-top:14px;">
         {{ $activities->links() }}
     </div>
 @endsection

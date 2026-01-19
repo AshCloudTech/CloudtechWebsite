@@ -1,43 +1,56 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('title', 'Users')
+@section('page_title', 'Users')
+@section('page_subtitle', 'Manage users, roles, and impersonation.')
 
 @section('content')
-    <h1 class="text-xl font-semibold">Users</h1>
+    <div class="card">
+        <div class="cardHeader">
+            <div>
+                <h3>User Directory</h3>
+                <p>Assign roles and manage access.</p>
+            </div>
+        </div>
 
-    <div class="mt-4 overflow-hidden rounded bg-white shadow-sm">
-        <table class="w-full text-sm">
-            <thead class="bg-gray-50 text-left">
-            <tr>
-                <th class="px-4 py-2">Name</th>
-                <th class="px-4 py-2">Email</th>
-                <th class="px-4 py-2">Roles</th>
-                <th class="px-4 py-2">Actions</th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach($users as $user)
-                <tr class="border-t">
-                    <td class="px-4 py-2 font-medium">{{ $user->name }}</td>
-                    <td class="px-4 py-2">{{ $user->email }}</td>
-                    <td class="px-4 py-2">{{ $user->roles->pluck('name')->join(', ') ?: '—' }}</td>
-                    <td class="px-4 py-2">
-                        <a class="underline" href="{{ route('admin.users.edit', $user) }}">Edit</a>
-
-                        @role('super-admin')
-                            <form class="inline" method="POST" action="{{ route('admin.impersonate.start', $user) }}">
-                                @csrf
-                                <button class="ml-2 underline" type="submit">Impersonate</button>
-                            </form>
-                        @endrole
-                    </td>
+        <div class="tableWrap">
+            <table>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Roles</th>
+                    <th style="width:240px;">Actions</th>
                 </tr>
-            @endforeach
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                @forelse($users as $u)
+                    <tr>
+                        <td><strong>{{ $u->name }}</strong></td>
+                        <td class="mono">{{ $u->email }}</td>
+                        <td><span class="mono">{{ $u->roles->pluck('name')->join(', ') ?: '—' }}</span></td>
+                        <td>
+                            <a class="btn" href="{{ route('admin.users.edit', $u) }}">Edit</a>
+
+                            @role('super-admin')
+                                <form style="display:inline;" method="POST" action="{{ route('admin.impersonate.start', $u) }}">
+                                    @csrf
+                                    <button class="btn" type="submit">Impersonate</button>
+                                </form>
+                            @endrole
+                        </td>
+                    </tr>
+                @empty
+                    <tr>
+                        <td colspan="4">No users found.</td>
+                    </tr>
+                @endforelse
+                </tbody>
+            </table>
+        </div>
     </div>
 
-    <div class="mt-4">
+    <div style="margin-top:14px;">
         {{ $users->links() }}
     </div>
 @endsection

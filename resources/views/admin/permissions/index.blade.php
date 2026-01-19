@@ -1,35 +1,47 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('title', 'Permissions')
+@section('page_title', 'Permissions')
+@section('page_subtitle', 'Create granular permissions used by roles and policies.')
 
 @section('content')
-    <div class="flex items-center justify-between">
-        <h1 class="text-xl font-semibold">Permissions</h1>
-        <a href="{{ route('admin.permissions.create') }}" class="rounded bg-gray-900 px-3 py-2 text-sm text-white">New Permission</a>
-    </div>
+    <div class="card">
+        <div class="cardHeader">
+            <div>
+                <h3>Permission Matrix</h3>
+                <p>Use consistent naming (e.g., users.read, users.write, bookings.cancel).</p>
+            </div>
+            <a class="btn primary" href="{{ route('admin.permissions.create') }}">New Permission</a>
+        </div>
 
-    <div class="mt-4 overflow-hidden rounded bg-white shadow-sm">
-        <table class="w-full text-sm">
-            <thead class="bg-gray-50 text-left">
-            <tr>
-                <th class="px-4 py-2">Name</th>
-                <th class="px-4 py-2">Actions</th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach($permissions as $permission)
-                <tr class="border-t">
-                    <td class="px-4 py-2 font-medium">{{ $permission->name }}</td>
-                    <td class="px-4 py-2">
-                        <a class="underline" href="{{ route('admin.permissions.edit', $permission) }}">Edit</a>
-                        <form class="inline" method="POST" action="{{ route('admin.permissions.destroy', $permission) }}">
-                            @csrf @method('DELETE')
-                            <button class="ml-2 underline" onclick="return confirm('Delete permission?')" type="submit">Delete</button>
-                        </form>
-                    </td>
+        <div class="tableWrap">
+            <table>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th style="width:170px;">Actions</th>
                 </tr>
-            @endforeach
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                @forelse($permissions as $permission)
+                    <tr>
+                        <td><strong>{{ $permission->name }}</strong></td>
+                        <td>
+                            <a class="btn" href="{{ route('admin.permissions.edit', $permission) }}">Edit</a>
+                            <form style="display:inline;" method="POST" action="{{ route('admin.permissions.destroy', $permission) }}" onsubmit="return confirm('Delete permission?')">
+                                @csrf
+                                @method('DELETE')
+                                <button class="btn danger" type="submit">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                @empty
+                    <tr>
+                        <td colspan="2">No permissions found.</td>
+                    </tr>
+                @endforelse
+                </tbody>
+            </table>
+        </div>
     </div>
 @endsection

@@ -1,5 +1,17 @@
-<div>
-    <label class="block text-sm font-medium">Permission name</label>
-    <input name="name" value="{{ old('name', $permission->name ?? '') }}" class="mt-1 w-full rounded border px-3 py-2" required />
-    @error('name')<div class="mt-1 text-xs text-red-600">{{ $message }}</div>@enderror
+<div class="card" style="margin:0;">
+    <div class="cardHeader">
+        <div>
+            <h3>Permission details</h3>
+            <p>Keep names lowercase and dot-separated.</p>
+        </div>
+    </div>
+    <div class="cardBody">
+        <div class="field">
+            <label>Permission name</label>
+            <input name="name" value="{{ old('name', $permission->name ?? '') }}" required>
+            @error('name')
+                <div class="hint">{{ $message }}</div>
+            @enderror
+        </div>
+    </div>
 </div>

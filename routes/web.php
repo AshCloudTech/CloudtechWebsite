@@ -17,7 +17,7 @@ use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\AuditLogController;
 use App\Http\Controllers\Admin\ImpersonationController;
-
+use App\Http\Controllers\Web\IndustryController;
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -49,15 +49,25 @@ Route::get('/careers/{slug}', [HomeController::class, 'careerDetail'])->name('ca
 Route::get('/terms-of-service', [HomeController::class, 'termsOfService'])->name('terms.of.service');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy.policy');
 
-Route::prefix('services')->group(function () {
-    Route::get('/cloudhealth', [ServicesController::class, 'cloudhealth'])->name('services.cloudhealth');
-    Route::get('/cloudcare', [ServicesController::class, 'cloudcare'])->name('services.cloudcare');
-    Route::get('/cloudedu', [ServicesController::class, 'cloudedu'])->name('services.cloudedu');
-    Route::get('/cloudtravel', [ServicesController::class, 'cloudtravel'])->name('services.cloudtravel');
-    Route::get('/cloudrecruit', [ServicesController::class, 'cloudrecruit'])->name('services.cloudrecruit');
-    Route::get('/cloudpublic', [ServicesController::class, 'cloudpublic'])->name('services.cloudpublic');
+Route::prefix('industries')->group(function () {
+    Route::get('/cloudhealth', [IndustryController::class, 'cloudhealth'])->name('industries.cloudhealth');
+    Route::get('/cloudcare', [IndustryController::class, 'cloudcare'])->name('industries.cloudcare');
+    Route::get('/cloudedu', [IndustryController::class, 'cloudedu'])->name('industries.cloudedu');
+    Route::get('/cloudtravel', [IndustryController::class, 'cloudtravel'])->name('industries.cloudtravel');
+    Route::get('/cloudrecruit', [IndustryController::class, 'cloudrecruit'])->name('industries.cloudrecruit');
+    Route::get('/cloudpublic', [IndustryController::class, 'cloudpublic'])->name('industries.cloudpublic');
 });
 
+Route::prefix('services')->group(function () {
+    Route::get('/digital-marketing', [ServicesController::class, 'digitalMarketing'])->name('services.digital.marketing');
+    Route::get('/ui-ux', [ServicesController::class, 'uiux'])->name('services.uiux');
+    Route::get('/web-development', [ServicesController::class, 'webDevelopment'])->name('services.web.development');
+    Route::get('/branding', [ServicesController::class, 'branding'])->name('services.branding');
+    Route::get('/seo', [ServicesController::class, 'seo'])->name('services.seo');
+    Route::get('/product-marketing', [ServicesController::class, 'productMarketing'])->name('services.product.marketing');
+    
+
+});
 
 Route::middleware(['auth', 'verified'])->group(function () {
     // Default dashboard (role-aware redirect handled in controller)

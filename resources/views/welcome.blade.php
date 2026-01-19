@@ -67,7 +67,7 @@
             <div class="grid grid-3 services-grid">
                 <!-- Digital Marketing -->
                 <article class="card service-card">
-                    <div class="card-tag tag-blue"><a href="#">Digital Marketing</a></div>
+                    <div class="card-tag tag-blue"><a href="{{ route('services.digital.marketing') }}">Digital Marketing</a></div>
                     <h3>Digital Marketing</h3>
                     <p>Digital marketing solutions designed to boost visibility and drive sales.</p>
                     <ul class="service-list">
@@ -80,7 +80,7 @@
 
                 <!-- UI/UX Design -->
                 <article class="card service-card">
-                    <div class="card-tag tag-purple">UI/UX Design</div>
+                    <div class="card-tag tag-purple"><a href="{{ route('services.uiux') }}">UI/UX Design</a></div>
                     <h3>UI/UX Design</h3>
                     <p>End-to-end UI/UX design that aligns business goals with user needs.</p>
                     <ul class="service-list">
@@ -93,7 +93,7 @@
 
                 <!-- Web Development -->
                 <article class="card service-card">
-                    <div class="card-tag tag-green">Web Development</div>
+                    <div class="card-tag tag-green"><a href="{{ route('services.web.development') }}">Web Development</a></div>
                     <h3>Web Development</h3>
                     <p>Fast, responsive websites developed for seamless user experiences.</p>
                     <ul class="service-list">
@@ -106,7 +106,7 @@
 
                 <!-- Branding -->
                 <article class="card service-card">
-                    <div class="card-tag tag-orange">Branding</div>
+                    <div class="card-tag tag-orange"><a href="{{ route('services.branding') }}">Branding</a></div>
                     <h3>Branding</h3>
                     <p>Bold branding that captures attention and elevates your presence.</p>
                     <ul class="service-list">
@@ -119,7 +119,7 @@
 
                 <!-- SEO -->
                 <article class="card service-card">
-                    <div class="card-tag tag-teal">SEO</div>
+                    <div class="card-tag tag-teal"><a href="{{ route('services.seo') }}">SEO</a></div>
                     <h3>SEO</h3>
                     <p>Powerful SEO that improves rankings, traffic, and conversions.</p>
                     <ul class="service-list">
@@ -132,7 +132,7 @@
 
                 <!-- Product Marketing -->
                 <article class="card service-card">
-                    <div class="card-tag tag-pink">Product Marketing</div>
+                    <div class="card-tag tag-pink"><a href="{{ route('services.product.marketing') }}">Product Marketing</a></div>
                     <h3>Product Marketing</h3>
                     <p>Complete product marketing solutions designed to maximize product success.</p>
                     <ul class="service-list">
@@ -213,7 +213,7 @@
                         Complete digital tools for healthcare providers, offering easy appointment scheduling and efficient
                         patient management in one platform.
                     </p>
-                    <a href="{{ route('services.cloudhealth') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudhealth') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Care Dashboard -->
@@ -227,7 +227,7 @@
                         Digital solutions for care homes that include CQC-ready websites, easy resident management, and
                         flexible subscription models to support growth.
                     </p>
-                    <a href="{{ route('services.cloudcare') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudcare') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Education -->
@@ -241,7 +241,7 @@
                         End-to-end school digitalization solutions featuring admission CRM, parent communication apps, and
                         fully integrated educational management systems.
                     </p>
-                    <a href="{{ route('services.cloudedu') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudedu') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Travel -->
@@ -255,7 +255,7 @@
                         Travel solutions with real-time Expedia and Viator integrations, easy booking tools, and full travel
                         management features.
                     </p>
-                    <a href="{{ route('services.cloudtravel') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudtravel') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Recruitment -->
@@ -269,7 +269,7 @@
                         AI-enhanced recruitment systems combining powerful ATS, intelligent CRM workflows, and automated
                         shortlisting to source and place talent worldwide.
                     </p>
-                    <a href="{{ route('services.cloudrecruit') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudrecruit') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Public Sector -->
@@ -283,7 +283,7 @@
                         Specialized public-sector platforms that streamline governance, enhance QA processes, and support
                         efficient delivery management for UK organizations.
                     </p>
-                    <a href="{{ route('services.cloudpublic') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudpublic') }}" class="link-arrow">Learn More</a>
                 </article>
             </div>
         </div>

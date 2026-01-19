@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sign in • CloudTech Admin</title>
 
-    {{-- Use one of these approaches (pick ONE) --}}
 
     {{-- A) If your CSS/JS are in public/assets/... --}}
     <link rel="stylesheet" href="{{ asset('assets/admin/css/style.css') }}">

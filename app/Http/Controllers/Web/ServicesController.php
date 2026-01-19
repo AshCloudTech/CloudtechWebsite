@@ -7,33 +7,41 @@ use Illuminate\Http\Request;
 
 class ServicesController extends Controller
 {
-    public function cloudhealth()
+    public function digitalMarketing()
     {
-        return view('web.services.cloudhealth');
+        return view('web.services.digital-marketing');
     }
 
-      public function cloudcare()
+    public function uiux()
     {
-        return view('web.services.cloudcare');
+        // return view('web.services.ui-ux');
+        return view('web.services.coming-soon');
+
     }
 
-      public function cloudedu()
+    public function webDevelopment()
     {
-        return view('web.services.cloudedu');
+        return view('web.services.web-development');
     }
 
-      public function cloudtravel()
+    public function branding()
     {
-        return view('web.services.cloudtravel');
+        // return view('web.services.branding');
+        return view('web.services.coming-soon');
+
     }
 
-      public function cloudrecruit()
+    public function seo()
     {
-        return view('web.services.cloudrecruit');
+        return view('web.services.seo');
     }
 
-      public function cloudpublic()
+    public function productMarketing()
     {
-        return view('web.services.cloudpublic');
+        // return view('web.services.product-marketing');
+          return view('web.services.coming-soon');
+
     }
+
+
 }

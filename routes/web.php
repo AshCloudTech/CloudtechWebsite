@@ -18,6 +18,7 @@ use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\AuditLogController;
 use App\Http\Controllers\Admin\ImpersonationController;
 use App\Http\Controllers\Web\IndustryController;
+use App\Http\Controllers\Web\Service\WebsiteDevController;
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -67,6 +68,17 @@ Route::prefix('services')->group(function () {
     Route::get('/product-marketing', [ServicesController::class, 'productMarketing'])->name('services.product.marketing');
     
 
+});  
+
+Route::prefix('services/website-development')->group(function () {
+    Route::get('/wordpress', [WebsiteDevController::class, 'wordpress'])->name('services.website-development.wordpress');
+    Route::get('/woocommerce', [WebsiteDevController::class, 'woocommerce'])->name('services.website-development.woocommerce');
+    Route::get('/shopify', [WebsiteDevController::class, 'shopify'])->name('services.website-development.shopify');
+    Route::get('/squarespace', [WebsiteDevController::class, 'squarespace'])->name('services.website-development.squarespace');
+    Route::get('/wix', [WebsiteDevController::class, 'wix'])->name('services.website-development.wix');
+    Route::get('/godaddy', [WebsiteDevController::class, 'godaddy'])->name('services.website-development.godaddy');
+    Route::get('/laravel', [WebsiteDevController::class, 'laravel'])->name('services.website-development.laravel');
+    Route::get('/custom-php', [WebsiteDevController::class, 'customphp'])->name('services.website-development.custom-php');
 });
 
 Route::middleware(['auth', 'verified'])->group(function () {

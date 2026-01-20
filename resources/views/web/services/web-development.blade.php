@@ -69,7 +69,7 @@
                         Custom WordPress websites, landing pages and blogs with SEO-friendly structure, clean code
                         and easy content management.
                     </p>
-                    <a href="#" class="service-link">Read More</a>
+                    <a href="{{ route('services.website-development.wordpress') }}" class="service-link">Read More</a>
                 </article>
 
                 <article class="card service-card">
@@ -78,7 +78,7 @@
                     <p>
                         Scalable WooCommerce shops with secure payments, product filters and conversion-focused layouts.
                     </p>
-                    <a href="#" class="service-link">Read More</a>
+                    <a href="{{ route('services.website-development.woocommerce') }}" class="service-link">Read More</a>
                 </article>
 
                 <article class="card service-card">
@@ -87,7 +87,7 @@
                     <p>
                         High-converting Shopify storefronts, theme customisation and app integrations for growing brands.
                     </p>
-                    <a href="#" class="service-link">Read More</a>
+                    <a href="{{ route('services.website-development.shopify') }}" class="service-link">Read More</a>
                 </article>
 
                 <article class="card service-card">
@@ -96,7 +96,7 @@
                     <p>
                         Elegant brochure and portfolio sites built on Squarespace with mobile-first responsive design.
                     </p>
-                    <a href="#" class="service-link">Read More</a>
+                    <a href="{{ route('services.website-development.squarespace') }}" class="service-link">Read More</a>
                 </article>
 
                 <article class="card service-card">
@@ -105,7 +105,7 @@
                     <p>
                         Modern Wix sites with structured layouts, clear messaging and integrated booking/contact flows.
                     </p>
-                    <a href="#" class="service-link">Read More</a>
+                    <a href="{{ route('services.website-development.wix') }}" class="service-link">Read More</a>
                 </article>
 
                 <article class="card service-card">
@@ -114,7 +114,7 @@
                     <p>
                         Fast turnaround business websites set up and configured using GoDaddy’s website builder.
                     </p>
-                    <a href="#" class="service-link">Read More</a>
+                    <a href="{{ route('services.website-development.godaddy') }}" class="service-link">Read More</a>
                 </article>
 
                 <article class="card service-card">
@@ -123,7 +123,7 @@
                     <p>
                         Fully custom web applications and platforms built with Laravel, tailored to complex business logic.
                     </p>
-                    <a href="#" class="service-link">Read More</a>
+                    <a href="{{ route('services.website-development.laravel') }}" class="service-link">Read More</a>
                 </article>
 
                 <article class="card service-card">
@@ -132,7 +132,7 @@
                     <p>
                         Bespoke PHP solutions, integrations and rebuilds for legacy systems and industry-specific workflows.
                     </p>
-                    <a href="#" class="service-link">Read More</a>
+                    <a href="{{ route('services.website-development.custom-php') }}" class="service-link">Read More</a>
                 </article>
             </div>
         </div>

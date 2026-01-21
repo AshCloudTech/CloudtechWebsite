@@ -9,6 +9,8 @@
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/digitalMarketing/js/script.js') }}" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
 @endpush
 @section('content')
 
@@ -24,7 +26,8 @@
                 <h1>Transform Your Business with<br>Data‑Driven Digital Marketing</h1>
                 <p class="hero-subtitle">
                     Cloud Technologies Ltd delivers comprehensive digital marketing solutions that drive measurable results.
-                    From SEO to social media, we help UK businesses grow their online presence and achieve sustainable success.
+                    From SEO to social media, we help UK businesses grow their online presence and achieve sustainable
+                    success.
                 </p>
 
                 <div class="hero-actions">
@@ -63,7 +66,7 @@
 
             <div class="grid grid-4 why-grid">
                 <article class="card why-card">
-                    <div class="why-icon icon-indigo"></div>
+<i class="ri-award-line why-icon icon-indigo"></i>
                     <h3>Proven Track Record</h3>
                     <p>
                         500+ successful campaigns across the UK, India, and global markets
@@ -72,7 +75,7 @@
                 </article>
 
                 <article class="card why-card">
-                    <div class="why-icon icon-cyan"></div>
+<i class="ri-team-line why-icon icon-cyan"></i>
                     <h3>Expert Team</h3>
                     <p>
                         Certified specialists in SEO, PPC, social media, and content marketing
@@ -81,7 +84,7 @@
                 </article>
 
                 <article class="card why-card">
-                    <div class="why-icon icon-pink"></div>
+<i class="ri-line-chart-line why-icon icon-pink"></i>
                     <h3>Data‑Driven Approach</h3>
                     <p>
                         Every strategy backed by analytics, A/B testing, and continuous optimisation
@@ -90,7 +93,7 @@
                 </article>
 
                 <article class="card why-card">
-                    <div class="why-icon icon-amber"></div>
+<i class="ri-customer-service-2-line why-icon icon-amber"></i>
                     <h3>Dedicated Support</h3>
                     <p>
                         24/7 support with monthly reporting, strategy calls, and transparent communication
@@ -107,7 +110,8 @@
             <div class="section-header">
                 <h2>Comprehensive Digital Marketing Services</h2>
                 <p>
-                    From SEO to social media, we offer a full suite of digital marketing solutions tailored to your business goals.
+                    From SEO to social media, we offer a full suite of digital marketing solutions tailored to your business
+                    goals.
                 </p>
             </div>
 
@@ -116,163 +120,167 @@
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-blue"></div>
-                        <h3>National SEO</h3>
+                        <h3><a href="{{ route('services.digi-marketing.national-seo') }}">National SEO</a></h3>
                     </div>
                     <p>
-                        Rank across the UK, not just in one city. Data‑driven SEO strategies
+                        Rank across the UK, not just in one city. Data-driven SEO strategies
                         that position your brand in front of a nationwide audience.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.national-seo') }}" class="service-link">Learn More</a>
                 </article>
 
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-purple"></div>
-                        <h3>International SEO</h3>
+                        <h3><a href="{{ route('services.digi-marketing.international-seo') }}">International SEO</a></h3>
                     </div>
                     <p>
                         Grow globally with tailored International SEO – language targeting,
-                        hreflang implementation, and market‑specific strategies.
+                        hreflang implementation, and market-specific strategies.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.international-seo') }}" class="service-link">Learn More</a>
                 </article>
 
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-cyan"></div>
-                        <h3>Technical SEO</h3>
+                        <h3><a href="{{ route('services.digi-marketing.technical-seo') }}">Technical SEO</a></h3>
                     </div>
                     <p>
                         Fix crawl errors, improve site architecture, and optimise performance
-                        to support 1st‑page rankings on Google.
+                        to support 1st-page rankings on Google.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.technical-seo') }}" class="service-link">Learn More</a>
                 </article>
 
                 <!-- Row 2 -->
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-emerald"></div>
-                        <h3>Content SEO</h3>
+                        <h3><a href="{{ route('services.digi-marketing.content-seo') }}">Content SEO</a></h3>
                     </div>
                     <p>
-                        Structured, keyword‑rich content that improves visibility and keeps
+                        Structured, keyword-rich content that improves visibility and keeps
                         your audience engaged across every stage of the funnel.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.content-seo') }}" class="service-link">Learn More</a>
                 </article>
 
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-amber"></div>
-                        <h3>Google My Business Optimisation</h3>
+                        <h3><a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}">Google My
+                                Business Optimisation</a></h3>
                     </div>
                     <p>
                         Stand out in local searches and on Google Maps with fully optimised
                         GMB profiles and local ranking strategies.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}"
+                        class="service-link">Learn More</a>
                 </article>
 
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-rose"></div>
-                        <h3>Image SEO</h3>
+                        <h3><a href="{{ route('services.digi-marketing.image-seo') }}">Image SEO</a></h3>
                     </div>
                     <p>
                         Faster load times and better search visibility through optimised
                         image metadata, compression, and delivery.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.image-seo') }}" class="service-link">Learn More</a>
                 </article>
 
                 <!-- Row 3 -->
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-lime"></div>
-                        <h3>Local SEO</h3>
+                        <h3><a href="{{ route('services.digi-marketing.local-seo') }}">Local SEO</a></h3>
                     </div>
                     <p>
                         Attract more nearby customers and boost your visibility in your
                         community with local search optimisation.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.local-seo') }}" class="service-link">Learn More</a>
                 </article>
 
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-indigo"></div>
-                        <h3>eCommerce SEO</h3>
+                        <h3><a href="{{ route('services.digi-marketing.ecommerce-seo') }}">eCommerce SEO</a></h3>
                     </div>
                     <p>
                         Increase visibility, traffic, and sales for online stores with
-                        product‑focused SEO and conversion optimisation.
+                        product-focused SEO and conversion optimisation.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.ecommerce-seo') }}" class="service-link">Learn More</a>
                 </article>
 
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-sky"></div>
-                        <h3>On‑Page SEO</h3>
+                        <h3><a href="{{ route('services.digi-marketing.on-page-seo') }}">On-Page SEO</a></h3>
                     </div>
                     <p>
-                        Fine‑tune meta tags, content, internal links, and UX to improve
+                        Fine-tune meta tags, content, internal links, and UX to improve
                         rankings and user engagement.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.on-page-seo') }}" class="service-link">Learn More</a>
                 </article>
 
                 <!-- Row 4 -->
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-slate"></div>
-                        <h3>Off‑Page SEO</h3>
+                        <h3><a href="{{ route('services.digi-marketing.off-page-seo') }}">Off-Page SEO</a></h3>
                     </div>
                     <p>
                         Strengthen authority with ethical link building, brand mentions,
                         and digital PR to improve rankings.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.off-page-seo') }}" class="service-link">Learn More</a>
                 </article>
 
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-meta"></div>
-                        <h3>Meta Ads Services</h3>
+                        <h3><a href="{{ route('services.digi-marketing.meta-ads-services') }}">Meta Ads Services</a></h3>
                     </div>
                     <p>
                         Grow on Facebook and Instagram with targeted campaigns focused on
                         visibility, leads, and sales.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.meta-ads-services') }}" class="service-link">Learn
+                        More</a>
                 </article>
 
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-orange"></div>
-                        <h3>PPC Services</h3>
+                        <h3><a href="{{ route('services.digi-marketing.ppc-services') }}">PPC Services</a></h3>
                     </div>
                     <p>
-                        High‑intent traffic through expertly‑managed Google Ads campaigns
+                        High-intent traffic through expertly-managed Google Ads campaigns
                         designed for better leads and higher conversions.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.ppc-services') }}" class="service-link">Learn More</a>
                 </article>
 
                 <!-- Row 5 -->
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-social"></div>
-                        <h3>SMM Services</h3>
+                        <h3><a href="{{ route('services.digi-marketing.smm-services') }}">SMM Services</a></h3>
                     </div>
                     <p>
                         Build your brand on Facebook, Instagram, and LinkedIn with content,
-                        community, and performance‑driven social strategies.
+                        community, and performance-driven social strategies.
                     </p>
-                    <a href="#" class="service-link">Learn More</a>
+                    <a href="{{ route('services.digi-marketing.smm-services') }}" class="service-link">Learn More</a>
                 </article>
             </div>
+
         </div>
     </section>
 

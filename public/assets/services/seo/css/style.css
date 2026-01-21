@@ -47,7 +47,7 @@ button {
 }
 
 .section {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .section-header {
@@ -293,7 +293,7 @@ button {
 /* ==== CARDS ==== */
 
 .card {
-    background-color: #ffffff;
+    background-color: #4b5563bd;
     border-radius: 18px;
     padding: 22px 20px 22px 20px;
     box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
@@ -304,7 +304,7 @@ button {
     width: 32px;
     height: 32px;
     border-radius: 9px;
-    background-color: #111827;
+    background-color: #b0b7c6;
 }
 
 .card-icon.small {
@@ -327,7 +327,7 @@ button {
 
 .service-list li {
     font-size: 14px;
-    color: #4b5563;
+    color: #ffffff;
     margin-bottom: 6px;
     padding-left: 16px;
     position: relative;
@@ -341,7 +341,7 @@ button {
     width: 6px;
     height: 6px;
     border-radius: 999px;
-    background-color: #111827;
+    background-color: #ffffff;
 }
 
 /* ==== PRICING ==== */
@@ -374,12 +374,12 @@ button {
 .plan-tagline {
     margin: 4px 0 16px 0;
     font-size: 13px;
-    color: #6b7280;
+    color: #ffffff;
 }
 
 .plan-list li {
     font-size: 14px;
-    color: #4b5563;
+    color: #ffffff;
     margin-bottom: 6px;
 }
 
@@ -417,7 +417,7 @@ button {
 .business-location {
     margin: 2px 0;
     font-size: 13px;
-    color: #6b7280;
+    color: #ffffff;
 }
 
 .campaign-duration {
@@ -425,7 +425,7 @@ button {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #9ca3af;
+    color: #ffffff;
 }
 
 .result-metrics {
@@ -440,7 +440,7 @@ button {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #9ca3af;
+    color: #ffffff;
 }
 
 .metric-value {
@@ -452,7 +452,7 @@ button {
 .result-quote {
     margin: 0;
     font-size: 13px;
-    color: #4b5563;
+    color: #ffffff;
     font-style: italic;
 }
 

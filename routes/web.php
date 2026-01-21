@@ -18,6 +18,7 @@ use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\AuditLogController;
 use App\Http\Controllers\Admin\ImpersonationController;
 use App\Http\Controllers\Web\IndustryController;
+use App\Http\Controllers\Web\Service\DigitalMarkController;
 use App\Http\Controllers\Web\Service\WebsiteDevController;
 
 Route::get('/dashboard', function () {
@@ -79,6 +80,22 @@ Route::prefix('services/website-development')->group(function () {
     Route::get('/godaddy', [WebsiteDevController::class, 'godaddy'])->name('services.website-development.godaddy');
     Route::get('/laravel', [WebsiteDevController::class, 'laravel'])->name('services.website-development.laravel');
     Route::get('/custom-php', [WebsiteDevController::class, 'customphp'])->name('services.website-development.custom-php');
+});
+
+Route::prefix('services/digital-marketing')->group(function () {
+    Route::get('/national-seo', [DigitalMarkController::class, 'nationalseo'])->name('services.digi-marketing.national-seo');
+    Route::get('/international-seo', [DigitalMarkController::class, 'internationalseo'])->name('services.digi-marketing.international-seo');
+    Route::get('/technical-seo', [DigitalMarkController::class, 'tecnicalseo'])->name('services.digi-marketing.technical-seo');
+    Route::get('/content-seo', [DigitalMarkController::class, 'contentseo'])->name('services.digi-marketing.content-seo');
+    Route::get('/google-my-business-optimisation', [DigitalMarkController::class, 'googleMyBusinessOptimisation'])->name('services.digi-marketing.google-my-business-optimisation');
+    Route::get('/image-seo', [DigitalMarkController::class, 'imageSeo'])->name('services.digi-marketing.image-seo');
+    Route::get('/local-seo', [DigitalMarkController::class, 'localSeo'])->name('services.digi-marketing.local-seo');
+    Route::get('/ecommerce-seo', [DigitalMarkController::class, 'ecommerceSeo'])->name('services.digi-marketing.ecommerce-seo');
+    Route::get('/on-page-seo', [DigitalMarkController::class, 'onPageSeo'])->name('services.digi-marketing.on-page-seo');
+    Route::get('/off-page-seo', [DigitalMarkController::class, 'offPageSeo'])->name('services.digi-marketing.off-page-seo');
+    Route::get('/meta-ads-services', [DigitalMarkController::class, 'metaAdsServices'])->name('services.digi-marketing.meta-ads-services');
+    Route::get('/ppc-services', [DigitalMarkController::class, 'ppcServices'])->name('services.digi-marketing.ppc-services');
+    Route::get('/smm-services', [DigitalMarkController::class, 'smmServices'])->name('services.digi-marketing.smm-services');
 });
 
 Route::middleware(['auth', 'verified'])->group(function () {

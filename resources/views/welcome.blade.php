@@ -67,8 +67,8 @@
             <div class="grid grid-3 services-grid">
                 <!-- Digital Marketing -->
                 <article class="card service-card">
-                    <div class="card-tag tag-blue"><a href="{{ route('services.digital.marketing') }}">Digital Marketing</a></div>
-                    <h3>Digital Marketing</h3>
+                    <div class="card-tag tag-blue">Digital Marketing</div>
+                    <h3><a href="{{ route('services.digital.marketing') }}">Digital Marketing</a></h3>
                     <p>Digital marketing solutions designed to boost visibility and drive sales.</p>
                     <ul class="service-list">
                         <li>Social Media Marketing</li>
@@ -80,8 +80,8 @@
 
                 <!-- UI/UX Design -->
                 <article class="card service-card">
-                    <div class="card-tag tag-purple"><a href="{{ route('services.uiux') }}">UI/UX Design</a></div>
-                    <h3>UI/UX Design</h3>
+                    <div class="card-tag tag-purple">UI/UX Design</div>
+                    <h3><a href="{{ route('services.uiux') }}">UI/UX Design</a></h3>
                     <p>End-to-end UI/UX design that aligns business goals with user needs.</p>
                     <ul class="service-list">
                         <li>User Research</li>
@@ -93,8 +93,8 @@
 
                 <!-- Web Development -->
                 <article class="card service-card">
-                    <div class="card-tag tag-green"><a href="{{ route('services.web.development') }}">Web Development</a></div>
-                    <h3>Web Development</h3>
+                    <div class="card-tag tag-green">Web Development</div>
+                    <h3><a href="{{ route('services.web.development') }}">Web Development</a></h3>
                     <p>Fast, responsive websites developed for seamless user experiences.</p>
                     <ul class="service-list">
                         <li>Responsive Design</li>
@@ -106,8 +106,8 @@
 
                 <!-- Branding -->
                 <article class="card service-card">
-                    <div class="card-tag tag-orange"><a href="{{ route('services.branding') }}">Branding</a></div>
-                    <h3>Branding</h3>
+                    <div class="card-tag tag-orange">Branding</div>
+                    <h3><a href="{{ route('services.branding') }}">Branding</a></h3>
                     <p>Bold branding that captures attention and elevates your presence.</p>
                     <ul class="service-list">
                         <li>Logo Design</li>
@@ -119,8 +119,8 @@
 
                 <!-- SEO -->
                 <article class="card service-card">
-                    <div class="card-tag tag-teal"><a href="{{ route('services.seo') }}">SEO</a></div>
-                    <h3>SEO</h3>
+                    <div class="card-tag tag-teal">SEO</div>
+                    <h3><a href="{{ route('services.seo') }}">SEO</a></h3>
                     <p>Powerful SEO that improves rankings, traffic, and conversions.</p>
                     <ul class="service-list">
                         <li>Local SEO</li>
@@ -132,8 +132,8 @@
 
                 <!-- Product Marketing -->
                 <article class="card service-card">
-                    <div class="card-tag tag-pink"><a href="{{ route('services.product.marketing') }}">Product Marketing</a></div>
-                    <h3>Product Marketing</h3>
+                    <div class="card-tag tag-pink">Product Marketing</div>
+                    <h3><a href="{{ route('services.product.marketing') }}">Product Marketing</a></h3>
                     <p>Complete product marketing solutions designed to maximize product success.</p>
                     <ul class="service-list">
                         <li>Go-to-Market Strategy</li>

@@ -11,7 +11,22 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        //
+        // Middleware aliases for RBAC & impersonation (enabled only when packages exist).
+        $aliases = [];
+
+        if (class_exists(\Spatie\Permission\Middleware\RoleMiddleware::class)) {
+            $aliases['role'] = \Spatie\Permission\Middleware\RoleMiddleware::class;
+            $aliases['permission'] = \Spatie\Permission\Middleware\PermissionMiddleware::class;
+            $aliases['role_or_permission'] = \Spatie\Permission\Middleware\RoleOrPermissionMiddleware::class;
+        }
+
+        if (class_exists(\Lab404\Impersonate\Middleware\Impersonate::class)) {
+            $aliases['impersonate'] = \Lab404\Impersonate\Middleware\Impersonate::class;
+        }
+
+        if (!empty($aliases)) {
+            $middleware->alias($aliases);
+        }
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //

@@ -1,7 +1,7 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Cloud Home')
-@section('meta_title', 'Cloud Technologies Ltd – Home')
+@section('title', 'Cloud Dashboard')
+@section('meta_title', 'Cloud Technologies Ltd – Dashboard')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/cloud-home/css/style.css') }}">
 @endpush
@@ -17,11 +17,10 @@
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="hero-text">
-                <p class="hero-eyebrow">British-Built Digital Solutions</p>
-                <h1>Experience British-Built Digital<br>Transformation</h1>
+                <p class="hero-eyebrow">Smart Digital Solutions That Drive Growth and Performance</p>
+                <h1>Build. Grow. Transform. All in One Digital Powerhouse.</h1>
                 <p class="hero-subtitle">
-                    From digital marketing to custom development, we deliver end-to-end
-                    solutions that drive growth across healthcare, education, travel, and beyond.
+                    Your complete hub for digital, design, and AI solutions that fuel business growth.
                 </p>
 
                 <div class="hero-actions">
@@ -30,8 +29,7 @@
                 </div>
 
                 <p class="hero-note">
-                    Start for free. No credit card required.<br>
-                    Join millions of entrepreneurs who run their business on Cloud Technologies.
+                   Delivering powerful cloud technology that helps entrepreneurs scale faster, <br> reach global markets and achieve real results.
                 </p>
             </div>
 
@@ -62,16 +60,15 @@
             <div class="section-header">
                 <h2>Our Digital Services</h2>
                 <p>
-                    We deliver complete digital solutions including marketing, design, development, branding, SEO and
-                    product growth to elevate your business online.
+                    We deliver complete digital solutions including marketing, design, development, branding, SEO and product growth to elevate your business online.
                 </p>
             </div>
 
             <div class="grid grid-3 services-grid">
                 <!-- Digital Marketing -->
                 <article class="card service-card">
-                    <div class="card-tag tag-blue"><a href="#">Digital Marketing</a></div>
-                    <h3>Digital Marketing</h3>
+                    <div class="card-tag tag-blue">Digital Marketing</div>
+                    <h3><a href="{{ route('services.digital.marketing') }}">Digital Marketing</a></h3>
                     <p>Digital marketing solutions designed to boost visibility and drive sales.</p>
                     <ul class="service-list">
                         <li>Social Media Marketing</li>
@@ -84,7 +81,7 @@
                 <!-- UI/UX Design -->
                 <article class="card service-card">
                     <div class="card-tag tag-purple">UI/UX Design</div>
-                    <h3>UI/UX Design</h3>
+                    <h3><a href="{{ route('services.uiux') }}">UI/UX Design</a></h3>
                     <p>End-to-end UI/UX design that aligns business goals with user needs.</p>
                     <ul class="service-list">
                         <li>User Research</li>
@@ -97,7 +94,7 @@
                 <!-- Web Development -->
                 <article class="card service-card">
                     <div class="card-tag tag-green">Web Development</div>
-                    <h3>Web Development</h3>
+                    <h3><a href="{{ route('services.web.development') }}">Web Development</a></h3>
                     <p>Fast, responsive websites developed for seamless user experiences.</p>
                     <ul class="service-list">
                         <li>Responsive Design</li>
@@ -110,7 +107,7 @@
                 <!-- Branding -->
                 <article class="card service-card">
                     <div class="card-tag tag-orange">Branding</div>
-                    <h3>Branding</h3>
+                    <h3><a href="{{ route('services.branding') }}">Branding</a></h3>
                     <p>Bold branding that captures attention and elevates your presence.</p>
                     <ul class="service-list">
                         <li>Logo Design</li>
@@ -123,7 +120,7 @@
                 <!-- SEO -->
                 <article class="card service-card">
                     <div class="card-tag tag-teal">SEO</div>
-                    <h3>SEO</h3>
+                    <h3><a href="{{ route('services.seo') }}">SEO</a></h3>
                     <p>Powerful SEO that improves rankings, traffic, and conversions.</p>
                     <ul class="service-list">
                         <li>Local SEO</li>
@@ -136,7 +133,7 @@
                 <!-- Product Marketing -->
                 <article class="card service-card">
                     <div class="card-tag tag-pink">Product Marketing</div>
-                    <h3>Product Marketing</h3>
+                    <h3><a href="{{ route('services.product.marketing') }}">Product Marketing</a></h3>
                     <p>Complete product marketing solutions designed to maximize product success.</p>
                     <ul class="service-list">
                         <li>Go-to-Market Strategy</li>
@@ -209,34 +206,34 @@
                 <!-- Healthcare -->
                 <article class="card industry-card">
                     <div class="card-tag tag-blue">Healthcare Solutions</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
                     <h3>Healthcare Solutions</h3>
                     <p>
                         Complete digital tools for healthcare providers, offering easy appointment scheduling and efficient
                         patient management in one platform.
                     </p>
-                    <a href="{{ route('services.cloudhealth') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudhealth') }}" class="link-arrow">Learn More</a>
                 </article>
 
-                <!-- Care Home -->
+                <!-- Care Dashboard -->
                 <article class="card industry-card">
-                    <div class="card-tag tag-purple">Care Home Management</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <div class="card-tag tag-purple">Care Dashboard Management</div>
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
-                    <h3>Care Home Management</h3>
+                    <h3>Care Dashboard Management</h3>
                     <p>
                         Digital solutions for care homes that include CQC-ready websites, easy resident management, and
                         flexible subscription models to support growth.
                     </p>
-                    <a href="{{ route('services.cloudcare') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudcare') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Education -->
                 <article class="card industry-card">
                     <div class="card-tag tag-green">Education Technology</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>Education Technology</h3>
@@ -244,13 +241,13 @@
                         End-to-end school digitalization solutions featuring admission CRM, parent communication apps, and
                         fully integrated educational management systems.
                     </p>
-                    <a href="{{ route('services.cloudedu') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudedu') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Travel -->
                 <article class="card industry-card">
                     <div class="card-tag tag-orange">Travel &amp; Tourism</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>Travel &amp; Tourism</h3>
@@ -258,13 +255,13 @@
                         Travel solutions with real-time Expedia and Viator integrations, easy booking tools, and full travel
                         management features.
                     </p>
-                    <a href="{{ route('services.cloudtravel') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudtravel') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Recruitment -->
                 <article class="card industry-card">
                     <div class="card-tag tag-teal">Recruitment Solutions</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>Recruitment Solutions</h3>
@@ -272,13 +269,13 @@
                         AI-enhanced recruitment systems combining powerful ATS, intelligent CRM workflows, and automated
                         shortlisting to source and place talent worldwide.
                     </p>
-                    <a href="{{ route('services.cloudrecruit') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudrecruit') }}" class="link-arrow">Learn More</a>
                 </article>
 
                 <!-- Public Sector -->
                 <article class="card industry-card">
                     <div class="card-tag tag-pink">Public Sector</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>Public Sector</h3>
@@ -286,7 +283,7 @@
                         Specialized public-sector platforms that streamline governance, enhance QA processes, and support
                         efficient delivery management for UK organizations.
                     </p>
-                    <a href="{{ route('services.cloudpublic') }}" class="link-arrow">Learn More</a>
+                    <a href="{{ route('industries.cloudpublic') }}" class="link-arrow">Learn More</a>
                 </article>
             </div>
         </div>
@@ -306,7 +303,7 @@
             <div class="grid grid-3 ai-grid">
                 <article class="card ai-card">
                     <div class="card-tag tag-blue">AI Chatbot Assistant</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Chatbot Assistant</h3>
@@ -318,7 +315,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-purple">AI Recruiter</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Recruiter</h3>
@@ -330,7 +327,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-green">AI Itinerary Builder</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Itinerary Builder</h3>
@@ -342,7 +339,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-orange">AI Healthcare Assistant</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Healthcare Assistant</h3>
@@ -354,7 +351,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-teal">AI Learning Platform</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Learning Platform</h3>
@@ -366,7 +363,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-pink">AI Care Coordinator</div>
-                    <img src="{{ asset('assets/images/home/industries.jpg') }}" alt="Healthcare Solutions"
+                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image">
 
                     <h3>AI Care Coordinator</h3>
@@ -520,7 +517,7 @@
                 <!-- Care Management -->
                 <article class="card case-card">
                     <div class="card-tag tag-green">Care Management</div>
-                    <h3>Sunshine Care Homes</h3>
+                    <h3>Sunshine Care Dashboards</h3>
                     <p>
                         CQC-compliant care home management platform with resident tracking, medication management, and
                         family communication portal.

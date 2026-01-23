@@ -10,6 +10,8 @@
     @yield('meta_tags')
     {{-- Page-specific CSS --}}
     @stack('styles')
+    <link rel="canonical" href="@yield('canonical', url()->current())" />
+
 </head>
 <body>
     <!-- HEADER -->

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/content-seo/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/digitalMarketing/content-seo/js/script.js') }}" defer></script>
@@ -20,11 +21,9 @@
         <div class="container hero-grid">
             <div class="hero-text">
                 <p class="hero-eyebrow">Content SEO Services</p>
-                <h1>Content That Ranks<br>&amp; Converts</h1>
+                <h1>Unlock Growth Through Strategic Content Marketing Services</h1>
                 <p class="hero-subtitle">
-                    Create compelling, SEO-optimised content that not only ranks high in search results
-                    but also engages your audience and drives conversions. Our content SEO services combine
-                    strategic optimisation with quality writing.
+                    Boost your brand with expert content SEO services from leading content marketing agencies and companies, delivering a results-driven content marketing strategy for growth.
                 </p>
 
                 <div class="hero-actions">
@@ -57,7 +56,7 @@
             <div class="section-header">
                 <h2>Why Content SEO Matters</h2>
                 <p>
-                    Quality content is the foundation of successful SEO and digital marketing.
+                    Content SEO improves visibility, attracts traffic, and strengthens brand authority.
                 </p>
             </div>
 
@@ -66,7 +65,7 @@
                     <div class="why-icon icon-quality"></div>
                     <h3>Quality Content</h3>
                     <p>
-                        Create high-quality, engaging content that ranks and converts.
+                       Quality Content creates value that attracts and retains your audience.
                     </p>
                 </article>
 
@@ -74,7 +73,7 @@
                     <div class="why-icon icon-keyword"></div>
                     <h3>Keyword Optimisation</h3>
                     <p>
-                        Strategic keyword placement for maximum search visibility.
+                       Keyword Optimization aligns content with search intent for better rankings.
                     </p>
                 </article>
 
@@ -82,7 +81,7 @@
                     <div class="why-icon icon-engagement"></div>
                     <h3>User Engagement</h3>
                     <p>
-                        Content that keeps users engaged and encourages longer visits.
+                        User Engagement encourages interaction that boosts visibility and trust.
                     </p>
                 </article>
 
@@ -90,7 +89,7 @@
                     <div class="why-icon icon-authority"></div>
                     <h3>Authority Building</h3>
                     <p>
-                        Establish your brand as an industry authority through expert content.
+                       Authority Building establishes credibility to rank higher and earn trust.
                     </p>
                 </article>
             </div>
@@ -103,7 +102,7 @@
             <div class="section-header">
                 <h2>Content Types We Optimise</h2>
                 <p>
-                    Comprehensive content SEO services for all types of business content.
+                    We optimize blogs, landing pages, product content, and web copy to boost rankings and user engagement.
                 </p>
             </div>
 
@@ -111,8 +110,7 @@
                 <article class="card type-card">
                     <h3>Blog Posts &amp; Articles</h3>
                     <p class="type-subtitle">
-                        In-depth, SEO-optimised blog content that drives organic traffic.
-                    </p>
+                       High-quality, SEO-focused blog posts and articles crafted to increase visibility and engage your audience.</p>
                     <ul>
                         <li>Keyword research</li>
                         <li>Topic clusters</li>
@@ -124,8 +122,7 @@
                 <article class="card type-card">
                     <h3>Landing Pages</h3>
                     <p class="type-subtitle">
-                        Conversion-focused landing pages optimised for search and users.
-                    </p>
+                       High-converting landing pages optimized for SEO, user intent, and seamless engagement.</p>
                     <ul>
                         <li>Conversion copy</li>
                         <li>SEO headlines</li>
@@ -137,26 +134,25 @@
                 <article class="card type-card">
                     <h3>Product Descriptions</h3>
                     <p class="type-subtitle">
-                        Compelling product content that ranks and sells.
+                        Compelling, SEO-friendly product descriptions that highlight features, boost visibility, and drive conversions.
                     </p>
                     <ul>
-                        <li>Product SEO</li>
-                        <li>Feature benefits</li>
-                        <li>Schema markup</li>
-                        <li>User reviews</li>
+                        <li>Feature Highlights</li>
+                        <li>SEO Keywords</li>
+                        <li>Benefit-Focused Copy</li>
+                        <li>Conversion Messaging </li>
                     </ul>
                 </article>
 
                 <article class="card type-card">
                     <h3>Technical Content</h3>
                     <p class="type-subtitle">
-                        Expert technical content that demonstrates industry knowledge.
-                    </p>
+                        Clear, accurate, and SEO-optimized technical content that simplifies complex topics and builds authority.</p>
                     <ul>
-                        <li>How-to guides</li>
-                        <li>Case studies</li>
-                        <li>White papers</li>
-                        <li>Technical SEO</li>
+                        <li>Technical Accuracy</li>
+                        <li> SEO Structure</li>
+                        <li>Expert Insights</li>
+                        <li>Audience Clarity</li>
                     </ul>
                 </article>
             </div>
@@ -170,25 +166,19 @@
                 <div class="services-copy">
                     <h2>Complete Content SEO Services</h2>
                     <p class="services-intro">
-                        Our comprehensive content SEO services cover every aspect of content creation and optimisation
-                        to help your website rank higher and attract more qualified traffic.
+                        Our Complete Content SEO Services enhance search visibility through smart keyword research, optimized content, and continuous improvements to drive qualified traffic and long-term growth.
                     </p>
                     <ul class="services-list">
-                        <li>Keyword research and content strategy development</li>
-                        <li>SEO-optimised blog posts and articles</li>
-                        <li>Website content optimisation and rewriting</li>
-                        <li>Meta titles and descriptions optimisation</li>
-                        <li>Header tags (H1, H2, H3) optimisation</li>
-                        <li>Content gap analysis and competitor research</li>
-                        <li>Long-form content creation for authority building</li>
-                        <li>Product and service page optimisation</li>
-                        <li>Content calendar planning and management</li>
-                        <li>Internal linking strategy implementation</li>
-                        <li>Content performance tracking and optimisation</li>
-                        <li>E-A-T (Expertise, Authority, Trust) optimisation</li>
+                        <li>Comprehensive keyword research to target the right audience.</li>
+                        <li>SEO-optimized content that boosts visibility and engagement.</li>
+                        <li>On-page optimization that strengthens overall search performance.</li>
+                        <li>Content audits that refine and improve existing pages.</li>
+                        <li>Internal linking that enhances navigation and authority flow.</li>
+                        <li>Performance tracking that guides ongoing content improvements.</li>
+                        
                     </ul>
                 </div>
-                <div class="services-panel">
+                <!-- <div class="services-panel">
                     <div class="services-panel-inner">
                         <p class="services-label">Editorial Overview Panel</p>
                         <p class="services-text">
@@ -198,18 +188,18 @@
                             Ideal for marketing teams that need a structured editorial roadmap aligned with SEO goals.
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
     <!-- PROCESS -->
-    <section class="section section-process" id="process">
+    <section class="section section-process" style="margin-top:35px" id="process">
         <div class="container">
             <div class="section-header section-header-light">
                 <h2>Our Content SEO Process</h2>
                 <p>
-                    A proven methodology for content optimisation success.
+                   A streamlined, data-driven approach that optimizes your content for visibility, relevance, and results.
                 </p>
             </div>
 
@@ -218,7 +208,7 @@
                     <div class="process-icon"></div>
                     <h3>Research &amp; Analysis</h3>
                     <p>
-                        Deep dive into your industry, competitors and target audience.
+                       We identify keywords, audiences, and opportunities to guide your strategy.
                     </p>
                 </article>
 
@@ -226,7 +216,7 @@
                     <div class="process-icon"></div>
                     <h3>Content Creation</h3>
                     <p>
-                        Develop high-quality, SEO-optimised content that resonates.
+                        We produce high-quality, SEO-focused content tailored to user intent.
                     </p>
                 </article>
 
@@ -234,7 +224,7 @@
                     <div class="process-icon"></div>
                     <h3>Optimisation</h3>
                     <p>
-                        Fine-tune content for maximum search engine visibility.
+                        We refine on-page elements to improve visibility and search performance.
                     </p>
                 </article>
 
@@ -242,7 +232,7 @@
                     <div class="process-icon"></div>
                     <h3>Performance Tracking</h3>
                     <p>
-                        Monitor content performance and make data-driven improvements.
+                       We monitor rankings and engagement to guide ongoing improvements.
                     </p>
                 </article>
             </div>
@@ -250,7 +240,7 @@
     </section>
 
     <!-- CTA -->
-    <section class="section content-cta" id="cta">
+    <section class="section content-cta" style="margin-top:35px" id="cta">
         <div class="container">
             <div class="cta-inner content-cta-inner">
                 <div class="cta-main">
@@ -306,6 +296,71 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit Enquiry</button>
             </form>
+        </div>
+    </section>
+
+     <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Content SEO FAQs</h2>
+            </div>
+ 
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1. What is Content SEO Service?</summary>
+                        <div class="faq-content">
+                            <p>
+                              Content SEO Services focus on creating and optimizing content so it can rank higher, attract organic traffic, and improve your brand’s authority.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>2. Why Is Content SEO Important for My Business?</summary>
+                        <div class="faq-content">
+                            <p>
+                             Content SEO helps increase visibility, drive qualified traffic, and build trust with your audience through valuable, optimized content.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>3.  What Types of Content Do You Optimize?</summary>
+                        <div class="faq-content">
+                            <p>
+                              We optimize blog posts, landing pages, product descriptions, technical content, and website copy to improve search performance.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>4.How Do You Improve Content Rankings?</summary>
+                        <div class="faq-content">
+                            <p>
+                               We use keyword research, on-page optimization, internal linking, meta improvements, and content enhancements to boost rankings.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>5. What Is Included in Your Content SEO Process?</summary>
+                        <div class="faq-content">
+                            <p>Our process includes research & analysis, content creation, optimization, and performance tracking for continuous improvement.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>6. Do technical fixes improve rankings?</summary>
+                        <div class="faq-content">
+                            <p>
+                              Content SEO typically shows measurable improvements within 2–3 months, with stronger long-term growth over time.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
         </div>
     </section>
 

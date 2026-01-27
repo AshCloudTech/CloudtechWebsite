@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/local-seo/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/digitalMarketing/local-seo/js/script.js') }}" defer></script>
@@ -20,10 +21,9 @@
         <div class="container hero-grid">
             <div class="hero-text">
                 <p class="hero-eyebrow">Local SEO Services</p>
-                <h1>Dominate Your<br>Local Market</h1>
+                <h1>Boost Your Visibility with Expert Local SEO Services</h1>
                 <p class="hero-subtitle">
-                    Want to attract more nearby customers and boost your business visibility in your community?
-                    Our Local SEO services help you rank higher in local search results and on Google Maps.
+                   Our Local SEO Services help your business rank higher in local searches through targeted keywords, Google Business Profile SEO, and proven Local Search Optimization strategies.
                 </p>
 
                 <div class="hero-actions">
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="hero-panel hero-media">
+            <!-- <div class="hero-panel hero-media">
                 <div class="hero-media-inner">
                     <p class="hero-media-label">Local Presence Preview</p>
                     <p class="hero-media-text">
@@ -43,7 +43,7 @@
                         <div class="hero-map-lines"></div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -52,25 +52,25 @@
         <div class="container">
             <div class="section-header stats-header">
                 <h2>Local Search Statistics</h2>
-                <p>Why local SEO is crucial for your business</p>
+                <p>Key data showing how local searches influence customer decisions and drive foot traffic.</p>
             </div>
 
             <div class="stats-grid">
                 <article class="stat-card">
-                    <p class="stat-value">78%</p>
-                    <p class="stat-label">of mobile searches lead to offline purchases</p>
+                    <p class="stat-value">70%</p>
+                    <p class="stat-label">Shoppers use local search to compare nearby businesses.</p>
                 </article>
                 <article class="stat-card">
-                    <p class="stat-value">46%</p>
-                    <p class="stat-label">of Google searches are local</p>
+                    <p class="stat-value">55%</p>
+                    <p class="stat-label"> Users choose a business after viewing its local profile.</p>
                 </article>
                 <article class="stat-card">
-                    <p class="stat-value">72%</p>
-                    <p class="stat-label">of consumers visit stores within 5 miles</p>
+                    <p class="stat-value">68%</p>
+                    <p class="stat-label">Searchers visit a nearby physical location after looking online.</p>
                 </article>
                 <article class="stat-card">
-                    <p class="stat-value">88%</p>
-                    <p class="stat-label">trust online reviews as personal recommendations</p>
+                    <p class="stat-value">82%</p>
+                    <p class="stat-label">Customers rely on online feedback before choosing a local business.</p>
                 </article>
             </div>
         </div>
@@ -81,7 +81,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Our Local SEO Process</h2>
-                <p>A systematic approach to local search domination</p>
+                <p>A clear, streamlined strategy that enhances your local presence, improves visibility, and drives steady customer growth.</p>
             </div>
 
             <div class="grid grid-3 process-grid">
@@ -89,8 +89,7 @@
                     <div class="process-icon">1</div>
                     <h3>Local Audit</h3>
                     <p>
-                        Comprehensive analysis of your current local search presence, Google Business Profile
-                        and local competitors.
+                        We assess your local presence to identify gaps and opportunities for stronger visibility.
                     </p>
                 </article>
 
@@ -98,8 +97,7 @@
                     <div class="process-icon">2</div>
                     <h3>Optimisation</h3>
                     <p>
-                        Optimise Google Business Profile, citations, on-site local content and NAP consistency
-                        for maximum visibility.
+                       We enhance key SEO elements to improve local rankings, relevance, and customer engagement.
                     </p>
                 </article>
 
@@ -107,8 +105,7 @@
                     <div class="process-icon">3</div>
                     <h3>Growth</h3>
                     <p>
-                        Monitor rankings, manage reviews and continuously improve your local presence to drive
-                        more visits and calls.
+                        We apply targeted strategies that drive increased local traffic, leads, and ongoing growth.
                     </p>
                 </article>
             </div>
@@ -120,7 +117,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Why Choose Our Local SEO Services?</h2>
-                <p>Get found by local customers when they’re searching for your services.</p>
+                <p>Our Local SEO Agency boosts local rankings and helps you attract more nearby customers.</p>
             </div>
 
             <div class="grid grid-4 why-grid">
@@ -128,15 +125,15 @@
                     <div class="why-icon icon-rank"></div>
                     <h3>Local Search Rankings</h3>
                     <p>
-                        Appear at the top of local search results when customers search nearby.
+                        We improve your Local SEO rankings to boost visibility and attract nearby customers.
                     </p>
                 </article>
 
                 <article class="card why-card">
                     <div class="why-icon icon-gmb"></div>
-                    <h3>Google Business Profile</h3>
+                    <h3>Google My Business</h3>
                     <p>
-                        Optimise your Google Business Profile (GMB) for maximum local visibility.
+                       We optimize your Google Business Profile for stronger Local SEO performance and map results.
                     </p>
                 </article>
 
@@ -144,7 +141,7 @@
                     <div class="why-icon icon-community"></div>
                     <h3>Community Visibility</h3>
                     <p>
-                        Build strong local presence and attract nearby customers in your area.
+                        We enhance your local business visibility across directories to support your Local SEO strategy.
                     </p>
                 </article>
 
@@ -152,7 +149,7 @@
                     <div class="why-icon icon-mobile"></div>
                     <h3>Mobile Optimisation</h3>
                     <p>
-                        Capture “near me” mobile searches with fast, local-friendly experiences.
+                      We optimize your site for mobile users to improve Local SEO results and local search engagement.
                     </p>
                 </article>
             </div>
@@ -166,22 +163,23 @@
                 <div class="services-copy">
                     <h2>Complete Local SEO Services</h2>
                     <p class="services-intro">
-                        Everything you need to dominate local search results and attract nearby customers.
-                    </p>
+                        Comprehensive Local SEO solutions that improve local rankings, visibility, and customer growth.</p>
                     <ul class="services-list">
-                        <li>Google Business Profile optimisation</li>
-                        <li>Local keyword research and targeting</li>
-                        <li>NAP (Name, Address, Phone) consistency across platforms</li>
-                        <li>Local citation building and management</li>
-                        <li>Online review management strategy</li>
-                        <li>Local content creation and optimisation</li>
+                        <li>Local SEO Audit</li>
+                        <li>Keyword Targeting</li>
+                        <li>Google Business Profile</li>
+                        <li>Local Citations</li>
+                        <li>On-Page Local SEO</li>
+                        <li>Local Link Building</li>
                         <li>Map Pack optimisation</li>
-                        <li>Local competitor analysis</li>
-                        <li>Mobile-first local SEO</li>
-                        <li>Local schema markup implementation</li>
+                        <li>Reputation Management</li>
+                        <li>Mobile local SEO</li>
+                        <li>Local Content Strategy</li>
+                        <li>Competitor Analysis</li>
+                        <li>Local Performance Tracking</li>
                     </ul>
                 </div>
-                <div class="services-panel">
+                <!-- <div class="services-panel">
                     <div class="services-panel-inner">
                         <p class="services-label">Local Visibility Panel</p>
                         <p class="services-text">
@@ -193,19 +191,19 @@
                             calls, visits and enquiries.
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
     <!-- CTA -->
-    <section class="section local-cta" id="cta">
+    <section class="section local-cta" style="margin-top:35px" id="cta">
         <div class="container">
             <div class="cta-inner local-cta-inner">
                 <div class="cta-main">
                     <h2>Ready to Attract More Local Customers?</h2>
                     <p>
-                        Get a free Local SEO audit and discover how we can help your business dominate local search.
+                       Boost your local visibility and attract nearby customers with powerful Local SEO Services.
                     </p>
                 </div>
                 <div class="cta-actions local-cta-actions">
@@ -255,6 +253,71 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
+        </div>
+    </section>
+
+      <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Local SEO  Service FAQs</h2>
+            </div>
+ 
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1. What Are Local SEO Services?</summary>
+                        <div class="faq-content">
+                            <p>
+                              Local SEO Services optimize your online presence so your business appears in local searches, map results, and “near me” queries to attract nearby customers.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>2.Why Is Local SEO Important?</summary>
+                        <div class="faq-content">
+                            <p>
+                            Local SEO boosts visibility, increases local traffic, and helps customers easily find and choose your business both online and offline.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>3. How Does Local SEO Help My Business Grow?</summary>
+                        <div class="faq-content">
+                            <p>
+                              It improves rankings, increases foot traffic, strengthens credibility, and drives more calls, visits, and inquiries from nearby customers.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>4. What Is Included in Your Local SEO Process?</summary>
+                        <div class="faq-content">
+                            <p>
+                              Our process includes a Local Audit, Optimization phase, and Growth strategy that ensures improved visibility and lasting performance.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>5. What Platforms Do You Optimize for Local SEO?</summary>
+                        <div class="faq-content">
+                            <p>We optimize your Google Business Profile, local citations, directories, website pages, and mobile experience for stronger results.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>6.  How Do You Improve Local Search Rankings?</summary>
+                        <div class="faq-content">
+                            <p>
+                             We use keyword targeting, on-page optimization, map pack improvements, link building, and Google Business Profile enhancements.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
         </div>
     </section>
 

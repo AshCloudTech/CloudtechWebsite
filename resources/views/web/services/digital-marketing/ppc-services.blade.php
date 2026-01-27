@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/ppc/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/digitalMarketing/ppc/js/script.js') }}" defer></script>
@@ -19,10 +20,9 @@
         <div class="container hero-layout">
             <div class="hero-copy">
                 <p class="hero-eyebrow">PPC Management Services</p>
-                <h1>Drive Instant<br>Results</h1>
+                <h1>High-Performance PPC Management Services</h1>
                 <p class="hero-subtitle">
-                    Get immediate visibility and drive qualified traffic to your website with expert PPC management.
-                    We create, optimise and manage campaigns that deliver measurable results.
+                   Maximize your advertising results with strategic PPC campaigns built to drive conversions, boost visibility, and deliver measurable performance across all major platforms.
                 </p>
                 <div class="hero-actions">
                     <a href="#cta" class="btn btn-lg btn-primary">Get Free PPC Audit</a>
@@ -45,7 +45,7 @@
         <div class="container">
             <div class="section-header section-header-light">
                 <h2>PPC Performance Results</h2>
-                <p>Real results from our PPC campaigns</p>
+                <p>We create high-performing PPC campaigns that increase conversions, lower costs, and generate consistent, data-driven results.</p>
             </div>
             <div class="results-grid">
                 <article class="result-card">
@@ -73,52 +73,52 @@
         <div class="container">
             <div class="section-header">
                 <h2>PPC Platforms We Manage</h2>
-                <p>Expert management across all major advertising platforms</p>
+                <p>We manage top PPC platforms to help you reach the right audience and achieve faster growth.</p>
             </div>
 
             <div class="grid grid-2 platforms-grid">
                 <article class="card platform-card">
                     <h3>Google Ads</h3>
-                    <p class="platform-meta">Search, Display, Shopping, and YouTube advertising</p>
-                    <ul>
+                    <p class="platform-meta">Search Ads, Display Ads, Shopping Ads, Video Ads, Remarketing Ads — designed to capture buyers at every stage.</p>
+                    <!-- <ul>
                         <li>Search Network</li>
                         <li>Display Network</li>
                         <li>Shopping Campaigns</li>
                         <li>YouTube Ads</li>
-                    </ul>
+                    </ul> -->
                 </article>
 
                 <article class="card platform-card">
                     <h3>Microsoft Ads</h3>
-                    <p class="platform-meta">Bing and Yahoo search network advertising</p>
-                    <ul>
+                    <p class="platform-meta">Search Ads, Audience Ads, Shopping Ads, and Bing placements that expand reach beyond Google.</p>
+                    <!-- <ul>
                         <li>Bing Search</li>
                         <li>Yahoo Search</li>
                         <li>Partner Sites</li>
                         <li>Lower Competition</li>
-                    </ul>
+                    </ul> -->
                 </article>
 
                 <article class="card platform-card">
                     <h3>Facebook Ads</h3>
-                    <p class="platform-meta">Social media advertising across Facebook and Instagram</p>
-                    <ul>
+                    <p class="platform-meta">Image Ads, Video Ads, Carousel Ads, and Retargeting Ads tailored for high-engagement audiences.</p>
+                    <!-- <ul>
                         <li>Facebook Feed</li>
                         <li>Instagram Stories</li>
                         <li>Messenger Ads</li>
                         <li>Audience Network</li>
-                    </ul>
+                    </ul> -->
                 </article>
 
                 <article class="card platform-card">
                     <h3>LinkedIn Ads</h3>
-                    <p class="platform-meta">Professional B2B advertising platform</p>
-                    <ul>
+                    <p class="platform-meta">Sponsored Content, Message Ads, Lead Gen Forms, and Text Ads focused on professional B2B targeting.</p>
+                    <!-- <ul>
                         <li>Sponsored Content</li>
                         <li>Message Ads</li>
                         <li>Dynamic Ads</li>
                         <li>Lead Gen Forms</li>
-                    </ul>
+                    </ul> -->
                 </article>
             </div>
         </div>
@@ -129,32 +129,32 @@
         <div class="container">
             <div class="section-header">
                 <h2>Why Choose Our PPC Services?</h2>
-                <p>Professional PPC management that maximises your advertising ROI.</p>
+                <p>Our PPC services are built to improve efficiency, reduce wasted spend, and maximize every advertising dollar.</p>
             </div>
 
             <div class="grid grid-4 why-grid">
                 <article class="why-card">
                     <h3>Instant Results</h3>
                     <p>
-                        Start driving traffic and leads immediately with highly targeted PPC campaigns.
+                       Launch campaigns that generate traffic, clicks, and leads immediately.
                     </p>
                 </article>
                 <article class="why-card">
                     <h3>Precise Targeting</h3>
                     <p>
-                        Reach your exact audience using advanced targeting, demographics and intent data.
+                        Reach users based on intent, interests, demographics, and behavior.
                     </p>
                 </article>
                 <article class="why-card">
                     <h3>Measurable ROI</h3>
                     <p>
-                        Track every click, conversion and pound spent with detailed analytics.
+                       Track every click, conversion, and cost with complete transparency.
                     </p>
                 </article>
                 <article class="why-card">
                     <h3>Full Control</h3>
                     <p>
-                        Retain full control over budget, targeting and campaign optimisation.
+                       Adjust budgets, audiences, and ads at any time for better performance.
                     </p>
                 </article>
             </div>
@@ -168,24 +168,24 @@
                 <div class="services-copy">
                     <h2>Complete PPC Management Services</h2>
                     <p class="services-intro">
-                        Full‑service PPC management from strategy through to optimisation.
+                        Full-spectrum PPC solutions designed to manage, optimize, and scale your paid advertising campaigns.
                     </p>
                     <ul class="services-list">
-                        <li>PPC strategy development and planning</li>
-                        <li>Google Ads campaign setup and management</li>
-                        <li>Microsoft Ads (Bing) campaign optimisation</li>
-                        <li>Social media advertising (Facebook, Instagram, LinkedIn)</li>
-                        <li>Shopping campaigns for e‑commerce</li>
-                        <li>Display and remarketing campaigns</li>
-                        <li>Landing page optimisation for PPC</li>
-                        <li>Conversion tracking and analytics setup</li>
+                        <li>Keyword Research and Selection</li>
+                        <li>Campaign Structure Setup</li>
+                        <li>Ad Copywriting and Creative Design</li>
+                        <li>Landing Page Optimization</li>
+                        <li>Bid and Budget Management</li>
+                        <li> Audience Targeting and Segmentation</li>
+                        <li>A/B Testing for Ads and Pages</li>
+                        <li>Conversion Tracking Setup</li>
                         <li>A/B testing and campaign optimisation</li>
                         <li>Bid management and budget optimisation</li>
-                        <li>Competitor analysis and market research</li>
-                        <li>Monthly reporting and performance analysis</li>
+                        <li>Performance Reporting and Insights</li>
+                        <li>Ongoing Optimization and Scaling</li>
                     </ul>
                 </div>
-                <div class="services-panel" aria-hidden="true">
+                <!-- <div class="services-panel" aria-hidden="true">
                     <div class="services-panel-inner">
                         <p class="panel-label">Performance Dashboard</p>
                         <p class="panel-text">
@@ -196,17 +196,17 @@
                             Built for clarity and aligned with your business KPIs.
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
     <!-- OUR PPC MANAGEMENT PROCESS -->
-    <section class="section section-process" id="process">
+    <section class="section section-process" style="margin-top:35px" id="process">
         <div class="container">
             <div class="section-header section-header-light">
                 <h2>Our PPC Management Process</h2>
-                <p>A proven approach to building high‑performing campaigns.</p>
+                <p>A streamlined process that ensures every PPC campaign is optimized for maximum results and long-term success.</p>
             </div>
 
             <div class="grid grid-4 process-grid">
@@ -214,28 +214,28 @@
                     <div class="process-step">1</div>
                     <h3>Discovery &amp; Analysis</h3>
                     <p>
-                        We analyse your business goals, target audience and competitive landscape.
+                       We analyze your goals, audience, competitors, and opportunities to build the right PPC plan.
                     </p>
                 </article>
                 <article class="card process-card">
                     <div class="process-step">2</div>
                     <h3>Strategy Development</h3>
                     <p>
-                        We create a tailored PPC strategy that aligns with your objectives and budget.
+                       We create a custom PPC strategy focused on keywords, targeting, budgets, and ad formats.
                     </p>
                 </article>
                 <article class="card process-card">
                     <div class="process-step">3</div>
                     <h3>Campaign Launch</h3>
                     <p>
-                        We set up, QA and launch optimised campaigns across your chosen platforms.
+                       We set up and launch optimized campaigns across your chosen platforms.
                     </p>
                 </article>
                 <article class="card process-card">
                     <div class="process-step">4</div>
                     <h3>Monitor &amp; Optimize</h3>
                     <p>
-                        We continuously monitor performance and refine campaigns for better results.
+                       We refine targeting, adjust bids, update ads, and improve performance continuously.
                     </p>
                 </article>
             </div>
@@ -243,13 +243,13 @@
     </section>
 
     <!-- CTA -->
-    <section class="section section-cta" id="cta">
+    <section class="section section-cta" style="margin-top:35px" id="cta">
         <div class="container">
             <div class="cta-inner">
                 <div class="cta-main">
                     <h2>Ready to Drive Instant Results?</h2>
                     <p>
-                        Let us create a PPC campaign that delivers real results for your business.
+                        Unlock immediate traffic, quality leads, and higher conversions with expertly managed PPC campaigns tailored to your business.
                     </p>
                 </div>
                 <div class="cta-actions">
@@ -298,6 +298,70 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
+        </div>
+    </section>
+
+     <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>PPC Service FAQs</h2>
+            </div>
+ 
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1.What is PPC management and why do businesses need it?</summary>
+                        <div class="faq-content">
+                            <p>
+                              PPC management involves creating, monitoring, and optimizing paid advertising campaigns to maximize clicks, conversions, and ROI while reducing wasted ad spend.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>2. Which PPC platforms do you manage?</summary>
+                        <div class="faq-content">
+                            <p>
+                        We manage Google Ads, Microsoft Ads, Facebook Ads, and LinkedIn Ads, covering search, display, shopping, video, and retargeting campaigns.</p>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>3.How quickly can PPC deliver results?</summary>
+                        <div class="faq-content">
+                            <p>
+                              PPC delivers near-instant results. Once campaigns are launched, you begin receiving traffic, leads, and sales immediately, depending on your budget and targeting.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>4. How do you measure PPC campaign success?</summary>
+                        <div class="faq-content">
+                            <p>
+                              We track key metrics such as clicks, conversions, cost-per-click, return on ad spend, and revenue to evaluate performance and refine campaigns.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>5. Do you handle ad copy and creative design?</summary>
+                        <div class="faq-content">
+                            <p>Yes, we create compelling ad copy, visuals, and landing page recommendations to improve click-through rates and increase conversions.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>6. Can I control my PPC budget?</summary>
+                        <div class="faq-content">
+                            <p>
+                              Absolutely. You set your budget, and we manage it strategically—ensuring every dollar is optimized for the best possible results.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
         </div>
     </section>
 

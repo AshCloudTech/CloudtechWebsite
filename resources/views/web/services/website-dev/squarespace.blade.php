@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/squarespace/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/webDevelopment/squarespace/js/script.js') }}" defer></script>
@@ -17,10 +18,9 @@
     <section class="hero squarespace-hero" id="hero">
         <div class="container hero-inner">
             <p class="hero-eyebrow">Squarespace Development Services</p>
-            <h1>Build Stunning Websites<br>with Squarespace</h1>
+            <h1>Squarespace Web<br>Development Solutions</h1>
             <p class="hero-subtitle">
-                Create beautiful, professional websites with Squarespace&apos;s powerful platform.
-                We help you design, customise and launch sites that captivate your audience.
+               We provide professional Squarespace web development services to build high-quality Squarespace websites that are visually engaging, cost-effective, and easy to manage using the Squarespace website builder.
             </p>
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Start Your Project</a>
@@ -57,8 +57,7 @@
             <div class="section-header">
                 <h2>Our Squarespace Services</h2>
                 <p>
-                    Comprehensive Squarespace development services to bring your vision to life with
-                    style and functionality.
+                    Our Squarespace website agency delivers complete solutions including design, development, customization, and guidance on Squarespace pricing, website plans, and long-term scalability.
                 </p>
             </div>
 
@@ -67,7 +66,7 @@
                     <div class="card-icon"></div>
                     <h3>Custom Template Design</h3>
                     <p>
-                        Tailored Squarespace templates that perfectly match your brand identity and business goals.
+                        Custom Squarespace website design tailored to your brand, ensuring a modern layout, strong visuals, and seamless user experience.
                     </p>
                 </article>
 
@@ -75,7 +74,7 @@
                     <div class="card-icon"></div>
                     <h3>E-commerce Integration</h3>
                     <p>
-                        Set up powerful online stores with inventory management, payment processing and shipping options.
+                       We integrate secure eCommerce features into your Squarespace website, helping businesses sell products efficiently with optimized checkout flows.
                     </p>
                 </article>
 
@@ -83,7 +82,7 @@
                     <div class="card-icon"></div>
                     <h3>Mobile Optimisation</h3>
                     <p>
-                        Ensure your Squarespace site looks stunning and functions flawlessly on all devices.
+                       Responsive Squarespace web development ensures your website performs flawlessly across all devices and screen sizes.
                     </p>
                 </article>
 
@@ -91,7 +90,7 @@
                     <div class="card-icon"></div>
                     <h3>Custom Code Injection</h3>
                     <p>
-                        Extend Squarespace functionality with custom CSS, JavaScript and third‑party integrations.
+                       Advanced customization using code injection to extend Squarespace website builder functionality beyond standard templates.
                     </p>
                 </article>
 
@@ -99,7 +98,7 @@
                     <div class="card-icon"></div>
                     <h3>SEO Enhancement</h3>
                     <p>
-                        Optimise your site structure, metadata and content for better search engine rankings.
+                        SEO-focused Squarespace website development to improve visibility, rankings, and organic traffic while keeping Squarespace website cost efficient.
                     </p>
                 </article>
 
@@ -107,7 +106,7 @@
                     <div class="card-icon"></div>
                     <h3>Content Migration</h3>
                     <p>
-                        Seamlessly migrate your existing website content to Squarespace without losing SEO value.
+                      Smooth content migration handled by a Squarespace website agency, preserving SEO value and ensuring accuracy during platform transitions.
                     </p>
                 </article>
             </div>
@@ -120,16 +119,15 @@
             <div class="why-copy">
                 <h2>Why Choose Squarespace?</h2>
                 <p class="why-intro">
-                    Squarespace combines powerful features with elegant design, making it the perfect platform
-                    for businesses, creatives and entrepreneurs who want a professional online presence.
+                    Squarespace offers an intuitive website builder, flexible Squarespace website plans, transparent Squarespace pricing, and professional tools ideal for businesses seeking speed, design, and simplicity.
                 </p>
                 <ul class="why-list">
-                    <li>Beautiful, award‑winning templates</li>
-                    <li>All‑in‑one platform with hosting included</li>
-                    <li>Built‑in analytics and marketing tools</li>
-                    <li>Excellent customer support</li>
-                    <li>Regular updates and new features</li>
-                    <li>Secure and reliable infrastructure</li>
+                    <li>Easy website management</li>
+                    <li>Transparent pricing plans</li>
+                    <li>Built-in SEO tools</li>
+                    <li>Mobile-ready templates</li>
+                    <li>Secure hosting included</li>
+                    <li>Professional design system</li>
                 </ul>
             </div>
             <div class="why-media" aria-hidden="true">
@@ -144,7 +142,7 @@
             <div class="section-header">
                 <h2>Our Development Process</h2>
                 <p>
-                    A streamlined approach to creating your perfect Squarespace website.
+                    A structured Squarespace web development process focused on strategy, design precision, and efficient delivery for businesses of all sizes.
                 </p>
             </div>
 
@@ -152,22 +150,22 @@
                 <article class="process-step">
                     <p class="step-number">01</p>
                     <h3>Discovery</h3>
-                    <p>Understanding your brand, goals and target audience.</p>
+                    <p>We analyze goals, audience, and Squarespace website pricing needs.</p>
                 </article>
                 <article class="process-step">
                     <p class="step-number">02</p>
                     <h3>Design</h3>
-                    <p>Creating custom layouts and selecting the perfect template.</p>
+                    <p>Creative layouts designed to match your brand and vision.</p>
                 </article>
                 <article class="process-step">
                     <p class="step-number">03</p>
                     <h3>Development</h3>
-                    <p>Building and customising your Squarespace site.</p>
+                    <p>Clean development using Squarespace create website tools.</p>
                 </article>
                 <article class="process-step">
                     <p class="step-number">04</p>
                     <h3>Launch</h3>
-                    <p>Testing, optimisation and going live with full support.</p>
+                    <p>Final testing, deployment, and performance optimization.</p>
                 </article>
             </div>
         </div>
@@ -180,8 +178,7 @@
                 <div class="cta-text">
                     <h2>Ready to Build Your Squarespace Site?</h2>
                     <p>
-                        Let&apos;s create a stunning website that showcases your brand and drives results.
-                        Get started today!
+                       Partner with a trusted Squarespace website agency and square website company to create a professional Squarespace website that fits your budget, aligns with Squarespace website cost expectations, and supports business growth.
                     </p>
                 </div>
                 <div class="cta-actions">
@@ -191,5 +188,6 @@
             </div>
         </div>
     </section>
+
     
 @endsection

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/wix/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/webDevelopment/wix/js/script.js') }}" defer></script>
@@ -17,10 +18,10 @@
     <section class="hero wix-hero" id="hero">
         <div class="container hero-inner">
             <p class="hero-eyebrow">Wix Development Services</p>
-            <h1>Create Amazing Websites<br>with Wix Platform</h1>
+            <h1>High-Performance Wix<br>Website Development Services</h1>
             <p class="hero-subtitle">
-                Build professional, feature-rich websites with Wix&apos;s powerful platform.
-                We help you design, customise and launch sites that drive results.
+                We provide professional Wix website development services to build scalable, 
+                visually engaging Wix websites with flexible design, clear Wix website pricing, and cost-effective solutions.
             </p>
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Get Started Now</a>
@@ -57,8 +58,8 @@
             <div class="section-header">
                 <h2>Our Wix Development Services</h2>
                 <p>
-                    Comprehensive Wix development services to create powerful, user-friendly websites
-                    that grow your business.
+                    Our Wix website development agency delivers complete solutions including design, 
+                    customization, and performance optimization while guiding clients on Wix website cost and pricing options.
                 </p>
             </div>
 
@@ -67,7 +68,7 @@
                     <div class="card-icon"></div>
                     <h3>Drag &amp; Drop Customisation</h3>
                     <p>
-                        Leverage Wix&apos;s intuitive editor to create pixel-perfect designs with complete creative freedom.
+                       Custom Wix website designs using the Wix build website tools to create visually appealing, easy-to-manage layouts.
                     </p>
                 </article>
 
@@ -75,7 +76,7 @@
                     <div class="card-icon"></div>
                     <h3>Wix Stores Setup</h3>
                     <p>
-                        Build powerful online stores with product management, secure payments and inventory tracking.
+                        Professional store setup by a Wix website development company to launch secure, conversion-focused online shops.
                     </p>
                 </article>
 
@@ -83,7 +84,7 @@
                     <div class="card-icon"></div>
                     <h3>App Integration</h3>
                     <p>
-                        Extend functionality with 300+ apps from the Wix App Market for bookings, forms and more.
+                       Seamless third-party and custom app integration to enhance Wix website functionality and user experience.
                     </p>
                 </article>
 
@@ -91,7 +92,7 @@
                     <div class="card-icon"></div>
                     <h3>Velo Development</h3>
                     <p>
-                        Advanced customisation using Wix Velo for dynamic pages, databases and custom interactions.
+                        Advanced functionality built with Velo by Wix to create dynamic features and custom business logic
                     </p>
                 </article>
 
@@ -99,7 +100,7 @@
                     <div class="card-icon"></div>
                     <h3>SEO &amp; Marketing</h3>
                     <p>
-                        Optimise your site for search engines and integrate marketing tools to grow your business.
+                        SEO-optimized Wix website development improving visibility, traffic, and long-term growth.
                     </p>
                 </article>
 
@@ -107,7 +108,7 @@
                     <div class="card-icon"></div>
                     <h3>Site Migration</h3>
                     <p>
-                        Seamlessly migrate your existing website to Wix while preserving content and SEO rankings.
+                       Smooth website migration handled by a Wix website development agency with minimal downtime and data loss.
                     </p>
                 </article>
             </div>
@@ -120,16 +121,15 @@
             <div class="why-copy">
                 <h2>Why Choose Wix Platform?</h2>
                 <p class="why-intro">
-                    Wix offers unmatched flexibility and ease of use, making it ideal for businesses of all sizes.
-                    Create stunning websites without coding knowledge.
+                    Wix offers flexible design, transparent Wix website pricing, powerful tools, and an intuitive platform, making Wix website development ideal for businesses of all sizes.
                 </p>
                 <ul class="why-list">
-                    <li>User-friendly drag-and-drop interface</li>
-                    <li>Extensive template library</li>
-                    <li>Built-in SEO and marketing tools</li>
-                    <li>Wix ADI for AI-powered design</li>
-                    <li>Reliable hosting and security</li>
-                    <li>Mobile-optimised automatically</li>
+                    <li>Easy website builder</li>
+                    <li>Transparent pricing options</li>
+                    <li>Professional design flexibility</li>
+                    <li>Built-in SEO tools</li>
+                    <li>Secure hosting included</li>
+                    <li>Scalable business growth</li>
                 </ul>
             </div>
             <div class="why-media" aria-hidden="true">
@@ -144,7 +144,7 @@
             <div class="section-header">
                 <h2>Perfect For Every Business</h2>
                 <p>
-                    Wix is versatile enough to power any type of website, from portfolios to e-commerce stores.
+                   Wix website development supports diverse industries with customizable designs and affordable Wix website cost.
                 </p>
             </div>
 
@@ -152,32 +152,32 @@
                 <article class="business-card">
                     <div class="card-icon small"></div>
                     <h3>Business Websites</h3>
-                    <p>Professional sites for companies and startups.</p>
+                    <p>Professional Wix website designs for service-based businesses.</p>
                 </article>
                 <article class="business-card">
                     <div class="card-icon small"></div>
                     <h3>Online Stores</h3>
-                    <p>Full-featured e-commerce solutions.</p>
+                    <p>Secure and scalable eCommerce solutions built on Wix.</p>
                 </article>
                 <article class="business-card">
                     <div class="card-icon small"></div>
                     <h3>Portfolios</h3>
-                    <p>Showcase your work beautifully.</p>
+                    <p>Creative layouts designed by expert Wix website designers.</p>
                 </article>
                 <article class="business-card">
                     <div class="card-icon small"></div>
                     <h3>Restaurants</h3>
-                    <p>Menus, reservations and online ordering.</p>
+                    <p>Menus, reservations, and mobile-friendly designs.</p>
                 </article>
                 <article class="business-card">
                     <div class="card-icon small"></div>
                     <h3>Booking Sites</h3>
-                    <p>Appointments and event management.</p>
+                    <p>Integrated scheduling and payment features.</p>
                 </article>
                 <article class="business-card">
                     <div class="card-icon small"></div>
                     <h3>Blogs</h3>
-                    <p>Content-rich publishing platforms.</p>
+                    <p>Content-focused Wix websites built for growth.</p>
                 </article>
             </div>
         </div>
@@ -190,8 +190,7 @@
                 <div class="cta-text">
                     <h2>Ready to Launch Your Wix Website?</h2>
                     <p>
-                        Let&apos;s create a stunning, high-performing website that helps your business thrive online.
-                        Contact us today!
+                       Partner with a trusted Wix website development company to build a high-performing Wix website that fits your budget and business goals.
                     </p>
                 </div>
                 <div class="cta-actions">
@@ -201,6 +200,76 @@
             </div>
         </div>
     </section>
+<!-- FAQ -->
+<section class="section section-alt section-faq" id="faq">
+    <div class="container">
+        <div class="section-header">
+            <h2>Wix Development Services FAQ</h2>
+            <p>
+                Answers to common questions about Wix website development, pricing, features, and support.
+            </p>
+        </div>
+
+        <div class="faq-wrap">
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>1. What are Wix website development services?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Wix website development services include custom design, setup, and optimization using the Wix website builder to create professional, scalable websites for businesses.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>2. How much does a Wix website cost?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Wix website cost depends on design complexity, features, and Wix website pricing plans. Custom functionality and integrations may affect final pricing.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>3. Can you create custom Wix website designs?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes, our Wix website designers create custom layouts, branding, and functionality tailored to your business goals and audience.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>4. Do you offer Wix eCommerce website development?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes, we build secure Wix online stores with product management, payments, and conversion-focused features for growing businesses.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>5. Can you migrate my existing site to Wix?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes, our Wix website development agency handles smooth site migration while maintaining content structure and SEO value.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>6. Is Wix suitable for small businesses?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes, Wix is ideal for small businesses due to flexible design options, transparent pricing, and easy content management.
+                        </p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     
 @endsection

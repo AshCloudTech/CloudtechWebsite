@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/webDevelopment/js/script.js') }}" defer></script>
@@ -337,6 +338,86 @@
         </div>
     </section>
 
+        <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Website Development FAQ</h2>
+                <p>
+                    Answers to common questions about website development, timelines, pricing and support.
+                </p>
+            </div>
+
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1. What are website development services?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Website development services include designing, building, and maintaining websites.
+                                These services cover everything from UI/UX design and front-end development to back-end programming,
+                                database integration, performance optimization, and ongoing support.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>2. How much does website development cost?</summary>
+                        <div class="faq-content">
+                            <p>
+                                The cost of website development depends on the project scope, features, design complexity, and technology used.
+                                A basic website may cost less, while custom, e-commerce, or enterprise websites require a higher investment.
+                                Most providers offer flexible pricing based on your business needs.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>3. How long does it take to develop a website?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Website development timelines vary by project size. A simple website can take 2–4 weeks,
+                                while complex or custom websites may take 2–3 months or more. Clear requirements and timely feedback
+                                help speed up the process.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>4. Do you provide custom website development?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Yes, professional website development services offer fully custom solutions tailored to your brand,
+                                goals, and target audience. Custom development ensures better performance, scalability, security,
+                                and a unique user experience.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>5. Will my website be mobile-friendly and SEO-optimized?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Absolutely. Modern website development focuses on responsive design so your website works on all devices.
+                                SEO-friendly structure, fast loading speed, clean code, and search-engine best practices are also included
+                                to help improve rankings.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>6. Do you offer website maintenance and support after launch?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Yes, most website development companies provide ongoing maintenance and support. This includes security updates,
+                                bug fixes, performance optimization, content updates, and technical assistance to keep your website running smoothly.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- CONTACT FORM -->
     <section class="section section-contact" id="contact-form">
         <div class="container">

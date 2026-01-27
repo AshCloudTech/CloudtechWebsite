@@ -1,7 +1,7 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Cloud Dashboard')
-@section('meta_title', 'Cloud Technologies Ltd – Dashboard')
+@section('title', 'Home - Cloud Technologies Ltd')
+@section('meta_title', 'Cloud Technologies Ltd – British-Built Digital Transformation Services')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/cloud-home/css/style.css') }}">
 @endpush

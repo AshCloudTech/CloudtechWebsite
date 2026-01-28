@@ -156,12 +156,11 @@
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-amber"></div>
-                        <h3><a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}">Google My
-                                Business Optimisation</a></h3>
+                        <h3><a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}">Google Business Profile
+                                </a></h3>
                     </div>
                     <p>
-                        Stand out in local searches and on Google Maps with fully optimised
-                        GMB profiles and local ranking strategies.
+                        Google Business Profile optimization enhances your local visibility by improving your business listing with accurate information, keywords, posts, and customer reviews. This boosts map rankings, increases engagement, and drives more local traffic and leads.
                     </p>
                     <a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}"
                         class="service-link">Learn More</a>

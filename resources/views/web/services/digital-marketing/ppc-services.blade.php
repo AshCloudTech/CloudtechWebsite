@@ -324,6 +324,7 @@
                         <div class="faq-content">
                             <p>
                         We manage Google Ads, Microsoft Ads, Facebook Ads, and LinkedIn Ads, covering search, display, shopping, video, and retargeting campaigns.</p>
+                      </div>
                     </details>
  
                     <details class="faq-item">

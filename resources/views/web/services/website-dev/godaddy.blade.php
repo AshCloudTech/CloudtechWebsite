@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/godaddy/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/webDevelopment/godaddy/js/script.js') }}" defer></script>
@@ -17,10 +18,10 @@
     <section class="hero godaddy-hero" id="hero">
         <div class="container hero-inner">
             <p class="hero-eyebrow">GoDaddy Website Builder Services</p>
-            <h1>Build Your Business with<br>GoDaddy Website Builder</h1>
+            <h1>GoDaddy Website Builder for<br>Small Business</h1>
             <p class="hero-subtitle">
-                Create professional websites quickly and easily with GoDaddy&apos;s powerful website builder.
-                Perfect for small businesses and entrepreneurs.
+               We offer professional GoDaddy website builder services to help businesses build websites on GoDaddy quickly, 
+               affordably, and securely with clear GoDaddy website pricing and reliable hosting
             </p>
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Start Building</a>
@@ -57,7 +58,8 @@
             <div class="section-header">
                 <h2>GoDaddy Website Builder Services</h2>
                 <p>
-                    Comprehensive website building services to help you establish a strong online presence quickly and affordably.
+                   Our GoDaddy website builder services include complete setup, customization, 
+                   and optimization, while guiding clients on GoDaddy website charges, hosting price, and long-term value.
                 </p>
             </div>
 
@@ -65,37 +67,37 @@
                 <article class="card solution-card">
                     <div class="card-icon"></div>
                     <h3>Quick Site Setup</h3>
-                    <p>Launch your website in minutes with GoDaddy&apos;s intuitive website builder and ready-to-use templates.</p>
+                    <p>Fast website creation using GoDaddy website builder tools to help you build website GoDaddy users can launch quickly.</p>
                 </article>
 
                 <article class="card solution-card">
                     <div class="card-icon"></div>
                     <h3>Template Customisation</h3>
-                    <p>Personalise professional templates to match your brand with easy-to-use design tools.</p>
+                    <p>Custom layouts and branding enhancements for your GoDaddy website, ensuring a professional and polished appearance</p>
                 </article>
 
                 <article class="card solution-card">
                     <div class="card-icon"></div>
                     <h3>E-commerce Solutions</h3>
-                    <p>Set up online stores with product catalogues, payment processing, and order management.</p>
+                    <p>Simple and secure eCommerce features integrated into your GoDaddy website for selling products and services online.</p>
                 </article>
 
                 <article class="card solution-card">
                     <div class="card-icon"></div>
                     <h3>Domain Integration</h3>
-                    <p>Seamlessly connect your GoDaddy domain with professional email and hosting services.</p>
+                    <p>Seamless domain connection and configuration with GoDaddy website hosting price options explained clearly</p>
                 </article>
 
                 <article class="card solution-card">
                     <div class="card-icon"></div>
                     <h3>SEO Optimisation</h3>
-                    <p>Built-in SEO tools to help your website rank higher in search engine results.</p>
+                    <p>SEO-friendly setup to improve visibility while keeping GoDaddy website pricing affordable and transparent.</p>
                 </article>
 
                 <article class="card solution-card">
                     <div class="card-icon"></div>
                     <h3>Marketing Tools</h3>
-                    <p>Integrated email marketing, social media, and analytics to help you grow your business.</p>
+                    <p>Built-in marketing tools to promote your GoDaddy website and drive traffic, leads, and conversions.</p>
                 </article>
             </div>
         </div>
@@ -107,16 +109,16 @@
             <div>
                 <h2>Why Choose<br>GoDaddy?</h2>
                 <p>
-                    GoDaddy is the world&apos;s largest domain registrar and a trusted name in web hosting.
-                    Their website builder makes it easy for anyone to create a professional online presence.
+                   GoDaddy website builder offers simplicity, affordability, and reliable tools,
+                    making it ideal for businesses seeking clear GoDaddy website charges and an easy website creation process.
                 </p>
                 <ul class="why-list">
-                    <li>All-in-one platform with domain and hosting</li>
-                    <li>Fast loading speeds and reliable uptime</li>
-                    <li>Mobile-responsive designs</li>
-                    <li>24/7 customer support</li>
+                    <li>Easy website builder</li>
                     <li>Affordable pricing plans</li>
-                    <li>Easy content management</li>
+                    <li>Secure hosting included</li>
+                    <li>Mobile-friendly designs</li>
+                    <li>Built-in SEO tools</li>
+                    <li>Trusted global platform</li>
                 </ul>
             </div>
             <div class="why-panel" aria-hidden="true"></div>
@@ -128,29 +130,29 @@
         <div class="container">
             <div class="section-header">
                 <h2>Ideal For Small Businesses</h2>
-                <p>GoDaddy Website Builder is perfect for entrepreneurs and small businesses who need a professional website fast.</p>
+                <p>GoDaddy website builder is perfect for small businesses needing fast setup, low GoDaddy website cost, and simple website management</p>
             </div>
 
             <div class="grid grid-2 use-cases-grid">
                 <article class="use-case">
                     <div class="card-icon small"></div>
                     <h3>Local Businesses</h3>
-                    <p>Restaurants, salons, retail stores, and service providers looking to establish an online presence.</p>
+                    <p>Professional GoDaddy websites to attract local customers.</p>
                 </article>
                 <article class="use-case">
                     <div class="card-icon small"></div>
                     <h3>Freelancers</h3>
-                    <p>Consultants, designers, photographers, and professionals showcasing their services and portfolio.</p>
+                    <p>Personal brand websites built quickly and affordably.</p>
                 </article>
                 <article class="use-case">
                     <div class="card-icon small"></div>
                     <h3>Startups</h3>
-                    <p>New businesses needing a quick, affordable website to launch their brand and attract customers.</p>
+                    <p>Scalable websites with transparent GoDaddy website pricing.</p>
                 </article>
                 <article class="use-case">
                     <div class="card-icon small"></div>
                     <h3>Online Sellers</h3>
-                    <p>Small e-commerce businesses selling products online with integrated payment and shipping.</p>
+                    <p>Simple online selling tools for small eCommerce stores.</p>
                 </article>
             </div>
         </div>
@@ -161,39 +163,39 @@
         <div class="container">
             <div class="section-header">
                 <h2>What You Get with GoDaddy</h2>
-                <p>Everything you need to get online quickly, securely, and with confidence.</p>
+                <p>Everything you need to build, launch, and manage a GoDaddy website without hidden GoDaddy website charges.</p>
             </div>
 
             <div class="benefits-grid">
                 <article class="card benefit">
                     <div class="card-icon"></div>
                     <h3>Quick Setup</h3>
-                    <p>Get online in under an hour.</p>
+                    <p>Launch your website in minutes</p>
                 </article>
                 <article class="card benefit">
                     <div class="card-icon"></div>
                     <h3>Affordable</h3>
-                    <p>Budget-friendly pricing plans.</p>
+                    <p>Clear and budget-friendly pricing.</p>
                 </article>
                 <article class="card benefit">
                     <div class="card-icon"></div>
                     <h3>Mobile Ready</h3>
-                    <p>Automatic mobile optimisation.</p>
+                    <p>Optimized for all devices</p>
                 </article>
                 <article class="card benefit">
                     <div class="card-icon"></div>
                     <h3>Secure</h3>
-                    <p>SSL certificate included.</p>
+                    <p>Built-in security and hosting</p>
                 </article>
                 <article class="card benefit">
                     <div class="card-icon"></div>
                     <h3>Email Included</h3>
-                    <p>Professional email addresses.</p>
+                    <p>Professional email options available.</p>
                 </article>
                 <article class="card benefit">
                     <div class="card-icon"></div>
                     <h3>Analytics</h3>
-                    <p>Track your website performance.</p>
+                    <p>Track website performance easily.</p>
                 </article>
             </div>
         </div>
@@ -205,7 +207,7 @@
             <div class="cta-inner">
                 <div class="cta-text">
                     <h2>Ready to Build Your Website?</h2>
-                    <p>Let&apos;s create a professional website that helps your business grow. Get started with GoDaddy today.</p>
+                    <p>Start building your GoDaddy website today with expert setup, clear GoDaddy website hosting price guidance, and a hassle-free website launch experience.</p>
                 </div>
                 <div class="cta-actions">
                     <a href="#" class="btn btn-light">Call</a>
@@ -214,5 +216,75 @@
             </div>
         </div>
     </section>
+<!-- FAQ -->
+<section class="section section-alt section-faq" id="faq">
+    <div class="container">
+        <div class="section-header">
+            <h2>GoDaddy Website Builder Services FAQ</h2>
+            <p>
+                Answers to common questions about GoDaddy Website Builder, pricing, features, and support.
+            </p>
+        </div>
+
+        <div class="faq-wrap">
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>1. What is GoDaddy Website Builder?</summary>
+                    <div class="faq-content">
+                        <p>
+                            GoDaddy Website Builder is an easy-to-use platform that helps you build a website on GoDaddy quickly without coding, using ready-made templates and built-in tools.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>2. How much does a GoDaddy website cost?</summary>
+                    <div class="faq-content">
+                        <p>
+                            GoDaddy website cost depends on your selected plan. GoDaddy website pricing and hosting price vary based on features, storage, and eCommerce needs.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>3. Can I customize my GoDaddy website design?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes, GoDaddy Website Builder allows template customization, branding changes, and content updates to match your business needs.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>4. Is GoDaddy Website Builder good for small businesses?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes, it’s ideal for small businesses due to affordable GoDaddy website charges, quick setup, and simple website management.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>5. Does GoDaddy Website Builder include hosting and security?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes, GoDaddy website hosting price includes secure hosting, SSL, and basic security features with most plans.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>6. Can you help set up my website on GoDaddy?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes, we provide professional GoDaddy Website Builder services to handle setup, design, SEO, and launch for your website.
+                        </p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 @endsection

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/gmb/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/digitalMarketing/gmb/js/script.js') }}" defer></script>
@@ -19,12 +20,10 @@
         <div class="hero-overlay"></div>
         <div class="container hero-inner">
             <div class="hero-text">
-                <p class="hero-eyebrow">Google My Business Optimisation</p>
-                <h1>Maximise Your Local<br>Visibility with GMB</h1>
+                <p class="hero-eyebrow">Google Business Profile</p>
+                <h1>Google Business Profile Growth Services</h1>
                 <p class="hero-subtitle">
-                    Maximise your local visibility and attract more customers with expert GMB management.
-                    We optimise every element of your Google My Business profile so you stand out in Google
-                    Search and Maps.
+                    Optimize your listing to improve local visibility, gain more clicks, and attract nearby customers.
                 </p>
                 <div class="hero-actions">
                     <a href="#cta" class="btn btn-lg btn-primary">Get Free Audit</a>
@@ -38,20 +37,20 @@
     <section class="section section-stats" id="stats">
         <div class="container stats-grid">
             <article class="stat-card">
-                <p class="stat-value">86%</p>
-                <p class="stat-label">Use GMB to find local businesses</p>
+                <p class="stat-value">82%</p>
+                <p class="stat-label">Use Google Business Profile to discover local businesses.</p>
             </article>
             <article class="stat-card">
-                <p class="stat-value">76%</p>
-                <p class="stat-label">Visit within 24 hours</p>
+                <p class="stat-value">69%</p>
+                <p class="stat-label"> Visit a business within 24 hours after viewing its profile.</p>
             </article>
             <article class="stat-card">
-                <p class="stat-value">28%</p>
-                <p class="stat-label">Result in purchases</p>
+                <p class="stat-value">31%</p>
+                <p class="stat-label"> Local searches lead directly to a purchase.</p>
             </article>
             <article class="stat-card">
-                <p class="stat-value">5x</p>
-                <p class="stat-label">More likely to visit</p>
+                <p class="stat-value">4x</p>
+                <p class="stat-label">More likely to visit when a profile is complete and optimized.</p>
             </article>
         </div>
     </section>
@@ -60,9 +59,9 @@
     <section class="section section-alt" id="why">
         <div class="container">
             <div class="section-header">
-                <h2>Why GMB Matters</h2>
+                <h2>Why Google Business Profile Matters </h2>
                 <p>
-                    Your Google My Business profile is often the first impression customers have of your business.
+                    It boosts your local visibility, builds trust, and helps customers find and choose your business faster.
                 </p>
             </div>
 
@@ -70,37 +69,37 @@
                 <article class="card why-card">
                     <h3>Increased Local Visibility</h3>
                     <p>
-                        Appear in local search results and Google Maps when customers search for your services.
+                        Improves how often your business appears in local searches and map results.
                     </p>
                 </article>
                 <article class="card why-card">
                     <h3>Build Trust &amp; Credibility</h3>
                     <p>
-                        Showcase reviews, photos and key business information to establish authority.
+                         A complete profile helps customers trust your business and choose you confidently.
                     </p>
                 </article>
                 <article class="card why-card">
                     <h3>Direct Customer Engagement</h3>
                     <p>
-                        Enable customers to call, message or visit your business with a single click.
+                       Enables customers to call, message, or visit your business directly from search.
                     </p>
                 </article>
                 <article class="card why-card">
                     <h3>Valuable Insights</h3>
                     <p>
-                        Track how customers find and interact with your business listing over time.
+                        Provides data on views, searches, and actions to guide better local decisions.
                     </p>
                 </article>
                 <article class="card why-card">
                     <h3>Review Management</h3>
                     <p>
-                        Collect and respond to customer reviews to improve your reputation.
+                        Helps you manage reviews to strengthen trust and improve your local reputation.
                     </p>
                 </article>
                 <article class="card why-card">
                     <h3>Local Pack Rankings</h3>
                     <p>
-                        Dominate the coveted Google 3-pack for maximum local exposure.
+                        Boosts your chances of appearing in Google’s top local 3-pack for more visibility.
                     </p>
                 </article>
             </div>
@@ -113,69 +112,75 @@
             <div class="section-header">
                 <h2>Our Services</h2>
                 <p>
-                    Comprehensive GMB optimisation to maximise your local presence.
+                   We offer complete Local SEO solutions designed to boost visibility, attract customers, and drive measurable growth.
                 </p>
             </div>
 
             <div class="grid grid-3 services-grid">
                 <article class="card service-card">
                     <h3>Profile Setup &amp; Verification</h3>
+                    <p>We create and verify your Google Business Profile to ensure full accuracy and visibility.</p>
                     <ul>
-                        <li>Complete business profile creation</li>
-                        <li>Business information optimisation</li>
-                        <li>Category selection guidance</li>
-                        <li>Verification assistance</li>
-                        <li>Profile completion</li>
+                        <li>Google Profile Setup Verification</li>
+                        <li>Local Business Profile Setup </li>
+                        <li>Professional Profile Setup Verification </li>
+                        <li>Complete Profile Setup Service </li>
+                        
                     </ul>
                 </article>
 
                 <article class="card service-card">
                     <h3>Content Optimisation</h3>
+                    <p>We enhance your profile with optimized descriptions, categories, and visuals for better engagement.</p>
                     <ul>
-                        <li>Professional photo uploads</li>
-                        <li>Business description writing</li>
-                        <li>Service &amp; product listings</li>
-                        <li>Regular post creation</li>
+                        <li>Content Optimization for Visibility</li>
+                        <li>Local Profile Content Optimization </li>
+                        <li>Enhanced Google Content Optimization </li>
+                        <li>SEO-Focused Content Optimization </li>
                     </ul>
                 </article>
 
                 <article class="card service-card">
                     <h3>Review Management</h3>
+                    <p>We help you collect, respond to, and showcase reviews to build trust and attract customers.</p>
                     <ul>
-                        <li>Review monitoring and alerts</li>
-                        <li>Professional response templates</li>
-                        <li>Review generation strategies</li>
-                        <li>Reputation protection</li>
+                        <li>Profile Setup & Verification</li>
+                        <li>Content Optimization & Enhancement </li>
+                        <li>Review Management & Response </li>
+                        <li>Posts & Updates Publishing</li>
                     </ul>
                 </article>
 
                 <article class="card service-card">
                     <h3>Q&amp;A Management</h3>
+                    <p>We manage questions and answers to provide clear, helpful information to potential customers.</p>
                     <ul>
-                        <li>Question monitoring</li>
-                        <li>Professional answers</li>
-                        <li>FAQ seeding</li>
-                        <li>Community engagement</li>
+                        <li>Q&A Management & Support</li>
+                        <li>Q&A Optimization & Response </li>
+                        <li>Q&A Handling & Updates </li>
+                        <li>Q&A Monitoring & Management</li>
                     </ul>
                 </article>
 
                 <article class="card service-card">
                     <h3>Insights &amp; Reporting</h3>
+                    <p>We track profile performance, customer actions, and search trends to guide improvements.</p>
                     <ul>
-                        <li>Monthly performance reports</li>
-                        <li>Search query analysis</li>
-                        <li>Customer action tracking</li>
-                        <li>Competitor benchmarking</li>
+                        <li>Insights & Reporting Analysis</li>
+                        <li>Insights & Reporting Dashboard </li>
+                        <li>Insights & Performance Reporting </li>
+                        <li>Insights & Data Reporting</li>
                     </ul>
                 </article>
 
                 <article class="card service-card">
                     <h3>Ongoing Optimisation</h3>
+                    <p>We continually update your profile to maintain high visibility and strong local rankings.</p>
                     <ul>
-                        <li>Regular profile updates</li>
-                        <li>Seasonal adjustments</li>
-                        <li>Algorithm adaptation</li>
-                        <li>Performance enhancement</li>
+                        <li>Ongoing Optimization & Updates</li>
+                        <li>Ongoing Optimization & Management </li>
+                        <li>Ongoing Optimization & Improvement </li>
+                        <li>Ongoing Optimization & Monitoring</li>
                     </ul>
                 </article>
             </div>
@@ -197,7 +202,7 @@
                     <div class="process-step">1</div>
                     <h3>Audit &amp; Setup</h3>
                     <p>
-                        We analyse your current GMB presence and set up or optimise your profile for maximum impact.
+                        We assess your current presence and set up the essentials for strong local performance.
                     </p>
                 </article>
 
@@ -205,7 +210,7 @@
                     <div class="process-step">2</div>
                     <h3>Optimise &amp; Enhance</h3>
                     <p>
-                        Complete profile optimisation with professional content, photos and strategic information.
+                        We refine your profiles and content to boost visibility and engagement.
                     </p>
                 </article>
 
@@ -213,7 +218,7 @@
                     <div class="process-step">3</div>
                     <h3>Monitor &amp; Grow</h3>
                     <p>
-                        Ongoing management, review responses and continuous optimisation for sustained growth.
+                        We track results and make continuous improvements to drive steady local growth.
                     </p>
                 </article>
             </div>
@@ -221,13 +226,13 @@
     </section>
 
     <!-- CTA -->
-    <section class="section gmb-cta" id="cta">
+    <section class="section gmb-cta" style="margin-top:35px"  id="cta">
         <div class="container">
             <div class="cta-inner gmb-cta-inner">
                 <div class="cta-main">
                     <h2>Ready to Dominate Local Search?</h2>
                     <p>
-                        Get a free GMB audit and discover how we can help you attract more local customers.
+                       Boost your visibility, attract more local customers, and outperform competitors with powerful Local SEO strategies.
                     </p>
                 </div>
                 <div class="cta-actions gmb-cta-actions">
@@ -279,5 +284,73 @@
             </form>
         </div>
     </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2> Google Business Profile FAQs</h2>
+            </div>
+ 
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1. What is a Google Business Profile?</summary>
+                        <div class="faq-content">
+                            <p>
+                              A Google Business Profile is a free listing that helps your business appear in local searches and Google Maps, improving visibility and customer engagement.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>2. Why is Google Business Profile important for Local SEO?</summary>
+                        <div class="faq-content">
+                            <p>
+                      A well-optimized profile boosts local rankings, increases trust, and helps customers choose your business faster.
+                    </p>
+                    </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>3. How does optimizing my Google Business Profile help my business?</summary>
+                        <div class="faq-content">
+                            <p>
+                            Optimization increases visibility, drives more clicks, improves engagement, and boosts your chances of appearing in the local 3-pack.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>4. What services do you provide for Google Business Profile optimization?</summary>
+                        <div class="faq-content">
+                            <p>
+                          We handle setup, content optimization, review management, Q&A updates, insights tracking, and ongoing optimization.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>5.How often should my Google Business Profile be updated?</summary>
+                        <div class="faq-content">
+                            <p>Regular updates such as posts, photos, reviews, and info changes help maintain strong visibility and ranking performance.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>6. Can Google Business Profile help me attract more local customers?</summary>
+                        <div class="faq-content">
+                            <p>
+                              Yes. An optimized profile makes your business more discoverable and increases actions like calls, visits, and direction requests.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 @endsection

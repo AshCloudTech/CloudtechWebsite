@@ -118,6 +118,91 @@
         </div>
     </section>
 
+    <!-- CONTENT TYPES -->
+<section class="section content-types" id="content-types">
+    <div class="container">
+        <div class="section-header">
+            <h2>Content Types We Optimize</h2>
+            <p>Comprehensive content SEO services for all types of business content</p>
+        </div>
+
+        <div class="ct-grid">
+            <!-- Card 1 -->
+            <article class="ct-card">
+                <div class="ct-head">
+                    <div class="ct-icon" aria-hidden="true"></div>
+                    <div class="ct-title">
+                        <h3>Blog Posts &amp; Articles</h3>
+                        <p>In-depth, SEO-optimized blog content that drives organic traffic</p>
+                    </div>
+                </div>
+
+                <ul class="ct-points">
+                    <li>Keyword Research</li>
+                    <li>Topic Clusters</li>
+                    <li>Internal Linking</li>
+                    <li>Meta Optimization</li>
+                </ul>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="ct-card">
+                <div class="ct-head">
+                    <div class="ct-icon" aria-hidden="true"></div>
+                    <div class="ct-title">
+                        <h3>Landing Pages</h3>
+                        <p>Conversion-focused landing pages optimized for search and users</p>
+                    </div>
+                </div>
+
+                <ul class="ct-points">
+                    <li>Conversion Copy</li>
+                    <li>SEO Headlines</li>
+                    <li>Call-to-Actions</li>
+                    <li>User Experience</li>
+                </ul>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="ct-card">
+                <div class="ct-head">
+                    <div class="ct-icon" aria-hidden="true"></div>
+                    <div class="ct-title">
+                        <h3>Product Descriptions</h3>
+                        <p>Compelling product content that ranks and sells</p>
+                    </div>
+                </div>
+
+                <ul class="ct-points">
+                    <li>Product SEO</li>
+                    <li>Feature Benefits</li>
+                    <li>Schema Markup</li>
+                    <li>User Reviews</li>
+                </ul>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="ct-card">
+                <div class="ct-head">
+                    <div class="ct-icon" aria-hidden="true"></div>
+                    <div class="ct-title">
+                        <h3>Technical Content</h3>
+                        <p>Expert technical content that demonstrates industry knowledge</p>
+                    </div>
+                </div>
+
+                <ul class="ct-points">
+                    <li>How-to Guides</li>
+                    <li>Case Studies</li>
+                    <li>White Papers</li>
+                    <li>Technical SEO</li>
+                </ul>
+            </article>
+        </div>
+    </div>
+</section>
+
+
     <!-- INCLUDED -->
     <section class="section" id="included">
         <div class="container">

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/national-seo/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/digitalMarketing/national-seo/js/script.js') }}" defer></script>
@@ -20,10 +21,9 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <p class="hero-eyebrow">National SEO Services</p>
-                <h1>Rank Across the<br>Entire UK</h1>
+                <h1>National SEO Services That Rank <br> Your Business Nationwide</h1>
                 <p class="hero-subtitle">
-                    Want to rank across the UK, not just in one city? Our National SEO services help businesses
-                    increase visibility and attract customers across the country with proven strategies.
+                     Rank across the country with powerful, results-driven National SEO services that increase visibility, attract high-quality traffic, and help your business grow nationwide.
                 </p>
 
                 <div class="hero-actions">
@@ -55,17 +55,16 @@
             <div class="section-header">
                 <h2>Why Choose Our National SEO Services?</h2>
                 <p>
-                    Drive organic traffic from across the UK with our comprehensive national SEO strategies.
+                  Nationwide SEO expertise that strengthens your brand and drives results.
                 </p>
             </div>
 
             <div class="grid grid-4 why-grid">
                 <article class="card why-card">
                     <div class="why-icon icon-uk"></div>
-                    <h3>UK-Wide Visibility</h3>
+                    <h3>World Wide Visibility</h3>
                     <p>
-                        Rank across the entire UK, not just in one city or region. Reach customers wherever
-                        they&apos;re searching.
+                        Boost world wide visibility with expert National SEO from a trusted National SEO Company.
                     </p>
                 </article>
 
@@ -81,7 +80,7 @@
                     <div class="why-icon icon-target"></div>
                     <h3>Nationwide Targeting</h3>
                     <p>
-                        Attract customers from across the country with tailored content and keyword strategies.
+                       A leading Nationwide SEO Company optimizing your reach with targeted National SEO.
                     </p>
                 </article>
 
@@ -89,7 +88,7 @@
                     <div class="why-icon icon-results"></div>
                     <h3>Proven Results</h3>
                     <p>
-                        95% of our clients achieve first page rankings for their most important national keywords.
+                       A proven National SEO Agency delivering strong rankings and reliable nationwide growth.
                     </p>
                 </article>
             </div>
@@ -102,7 +101,7 @@
             <div class="section-header">
                 <h2>Our National SEO Process</h2>
                 <p>
-                    A proven 4-step process to achieve nationwide visibility and sustainable growth.
+                   Our proven National SEO process delivers clear steps that drive visibility, traffic, and nationwide success.
                 </p>
             </div>
 
@@ -111,7 +110,7 @@
                     <div class="process-step">1</div>
                     <h3>SEO Audit &amp; Analysis</h3>
                     <p>
-                        Comprehensive analysis of your current SEO performance, technical health and competitor landscape.
+                       We perform a full National SEO audit to identify technical issues, keyword gaps, and growth opportunities.
                     </p>
                 </article>
 
@@ -119,7 +118,7 @@
                     <div class="process-step">2</div>
                     <h3>Strategy Development</h3>
                     <p>
-                        We create a customised national SEO strategy aligned with your goals, services and budget.
+                       Our team builds a tailored National SEO strategy focused on high-value keywords and nationwide visibility.
                     </p>
                 </article>
 
@@ -127,7 +126,7 @@
                     <div class="process-step">3</div>
                     <h3>Implementation</h3>
                     <p>
-                        Execute on-page, off-page and content optimisation to strengthen your nationwide search presence.
+                       We execute optimized content, technical fixes, and authority-building tactics to power your National SEO Services.
                     </p>
                 </article>
 
@@ -135,7 +134,7 @@
                     <div class="process-step">4</div>
                     <h3>Monitoring &amp; Reporting</h3>
                     <p>
-                        Track progress with detailed monthly reports and continuous optimisation based on performance data.
+                        We track performance, refine strategies, and provide transparent reports to ensure ongoing nationwide growth.
                     </p>
                 </article>
             </div>
@@ -148,22 +147,22 @@
             <div class="section-header">
                 <h2>What&apos;s Included in Our National SEO Service?</h2>
                 <p>
-                    Everything you need to dominate search results across the UK market.
+                  Our National SEO Service delivers nationwide visibility with targeted keywords, optimized pages, and ongoing performance improvements.
                 </p>
             </div>
 
             <div class="included-layout">
                 <div class="included-list">
                     <ul>
-                        <li>Comprehensive keyword research for national markets</li>
-                        <li>Technical SEO optimisation for better crawlability</li>
-                        <li>Content strategy for a nationwide audience</li>
-                        <li>Link building campaigns across UK regions</li>
-                        <li>Local citation management for multiple locations</li>
-                        <li>Monthly performance reports and analysis</li>
+                        <li>Nationwide keyword targeting to reach customers across the UK.</li>
+                        <li>Technical SEO fixes that improve speed, structure, and site performance.</li>
+                        <li>On-page SEO optimization for stronger rankings and better relevance.</li>
+                        <li>SEO-focused content created for national search intent.</li>
+                        <li>Quality link building that boosts authority and credibility.</li>
+                        <li>Monthly reports and tracking to monitor rankings and growth.</li>
                     </ul>
                 </div>
-                <div class="included-panel">
+                <!-- <div class="included-panel">
                     <h3>Who is National SEO for?</h3>
                     <p>
                         National SEO is ideal for businesses that want to reach customers all over the UK, including:
@@ -174,7 +173,7 @@
                         <li>Franchises and multi-location organisations</li>
                         <li>Consultancies and agencies targeting UK-wide clients</li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -184,10 +183,9 @@
         <div class="container">
             <div class="cta-inner seo-cta-inner">
                 <div class="cta-main">
-                    <h2>Ready to Dominate UK Search Results?</h2>
+                    <h2>Ready to Boost Your Visibility Across the Globe?</h2>
                     <p>
-                        Get a free SEO audit and discover how we can help your business rank nationwide for the
-                        keywords that matter most.
+                        Get the nationwide rankings you need with powerful National SEO strategies built to boost your visibility across the globe.
                     </p>
                 </div>
                 <div class="cta-actions seo-cta-actions">
@@ -237,6 +235,72 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
+        </div>
+    </section>
+
+      <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>National SEO FAQs</h2>
+            </div>
+ 
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1. What is National SEO?</summary>
+                        <div class="faq-content">
+                            <p>
+                               National SEO helps your business rank across the entire country using broad, high-volume keywords.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>2. How is it different from Local SEO?</summary>
+                        <div class="faq-content">
+                            <p>
+                               Local SEO targets specific areas; National SEO targets customers nationwide.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>3. Who needs National SEO?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Any business serving customers across the UK, including eCommerce, franchises, and service-based brands.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>4. How long does National SEO take?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Most businesses see results within 3–6 months, depending on competition and website quality.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>5. What’s included in your National SEO service?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Keyword research, technical SEO, content optimization, link building, and monthly reporting.
+                            </p>
+                        </div>
+                    </details>
+ 
+                    <details class="faq-item">
+                        <summary>6. Why choose your agency?</summary>
+                        <div class="faq-content">
+                            <p>
+                                We provide data-driven strategies, clear reporting, and proven nationwide ranking results.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
         </div>
     </section>
 

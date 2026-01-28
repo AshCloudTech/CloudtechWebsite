@@ -23,11 +23,9 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <p class="hero-eyebrow">Digital Marketing Services</p>
-                <h1>Transform Your Business with<br>Data‑Driven Digital Marketing</h1>
+                <h1>Digital Marketing Agency & <br> Advertising Experts Transforming<br> Your Online Presence</h1>
                 <p class="hero-subtitle">
-                    Cloud Technologies Ltd delivers comprehensive digital marketing solutions that drive measurable results.
-                    From SEO to social media, we help UK businesses grow their online presence and achieve sustainable
-                    success.
+                   Cloud Technologies Ltd is a leading digital marketing and advertising agency delivering data-driven strategies, targeted campaigns, and innovative solutions to help businesses strengthen their online presence and achieve measurable growth.
                 </p>
 
                 <div class="hero-actions">
@@ -59,9 +57,7 @@
             <div class="section-header">
                 <h2>Why Cloud Technologies Ltd?</h2>
                 <p>
-                    We combine technical expertise, creative strategy, and data‑driven insights
-                    to deliver digital marketing solutions that actually work.
-                </p>
+                    Cloud Technologies Ltd delivers tailored digital marketing and advertising solutions that drive real growth, backed by data, innovation, and expert execution.</p>
             </div>
 
             <div class="grid grid-4 why-grid">
@@ -69,8 +65,7 @@
 <i class="ri-award-line why-icon icon-indigo"></i>
                     <h3>Proven Track Record</h3>
                     <p>
-                        500+ successful campaigns across the UK, India, and global markets
-                        with measurable ROI improvements.
+                        As a trusted digital marketing company, we deliver measurable results through high-performing campaigns that drive growth and long-term success for businesses of all sizes.
                     </p>
                 </article>
 
@@ -78,8 +73,7 @@
 <i class="ri-team-line why-icon icon-cyan"></i>
                     <h3>Expert Team</h3>
                     <p>
-                        Certified specialists in SEO, PPC, social media, and content marketing
-                        focused on your success.
+                      Our digital marketing agency is powered by an expert team of strategists, creators, and analysts dedicated to crafting impactful marketing solutions that elevate your brand.
                     </p>
                 </article>
 
@@ -87,8 +81,7 @@
 <i class="ri-line-chart-line why-icon icon-pink"></i>
                     <h3>Data‑Driven Approach</h3>
                     <p>
-                        Every strategy backed by analytics, A/B testing, and continuous optimisation
-                        for maximum results.
+                        As a results-focused digital marketing company, we use advanced analytics and real-time data to build smarter strategies that maximize visibility, conversions, and ROI.
                     </p>
                 </article>
 
@@ -96,8 +89,7 @@
 <i class="ri-customer-service-2-line why-icon icon-amber"></i>
                     <h3>Dedicated Support</h3>
                     <p>
-                        24/7 support with monthly reporting, strategy calls, and transparent communication
-                        throughout the engagement.
+                       Our digital marketing agency provides reliable, dedicated support to ensure your campaigns run smoothly, stay optimized, and continuously deliver strong performance.
                     </p>
                 </article>
             </div>
@@ -110,8 +102,7 @@
             <div class="section-header">
                 <h2>Comprehensive Digital Marketing Services</h2>
                 <p>
-                    From SEO to social media, we offer a full suite of digital marketing solutions tailored to your business
-                    goals.
+                    End-to-end digital marketing services designed to boost visibility, drive engagement, and accelerate business growth across all online channels.
                 </p>
             </div>
 
@@ -123,8 +114,7 @@
                         <h3><a href="{{ route('services.digi-marketing.national-seo') }}">National SEO</a></h3>
                     </div>
                     <p>
-                        Rank across the UK, not just in one city. Data-driven SEO strategies
-                        that position your brand in front of a nationwide audience.
+                        National SEO helps businesses rank across the country with targeted strategies designed to increase visibility, drive qualified traffic, and grow brand authority. Reach customers nationwide with optimized content, links, and performance-focused tactics.
                     </p>
                     <a href="{{ route('services.digi-marketing.national-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -135,8 +125,7 @@
                         <h3><a href="{{ route('services.digi-marketing.international-seo') }}">International SEO</a></h3>
                     </div>
                     <p>
-                        Grow globally with tailored International SEO – language targeting,
-                        hreflang implementation, and market-specific strategies.
+                        International SEO helps your business reach global audiences by optimizing your website for multiple countries and languages. Strengthen worldwide visibility, attract international customers, and grow your brand across borders with targeted global strategies.
                     </p>
                     <a href="{{ route('services.digi-marketing.international-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -147,8 +136,7 @@
                         <h3><a href="{{ route('services.digi-marketing.technical-seo') }}">Technical SEO</a></h3>
                     </div>
                     <p>
-                        Fix crawl errors, improve site architecture, and optimise performance
-                        to support 1st-page rankings on Google.
+                        Technical SEO improves your website’s speed, structure, and crawlability to ensure search engines can properly access, index, and rank your pages. This leads to better performance, higher visibility, and stronger overall SEO results.
                     </p>
                     <a href="{{ route('services.digi-marketing.technical-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -160,8 +148,7 @@
                         <h3><a href="{{ route('services.digi-marketing.content-seo') }}">Content SEO</a></h3>
                     </div>
                     <p>
-                        Structured, keyword-rich content that improves visibility and keeps
-                        your audience engaged across every stage of the funnel.
+                       Content SEO focuses on creating high-quality, keyword-optimized content that attracts search engines and engages users. It helps increase rankings, drive targeted traffic, and convert visitors through strategic content planning and optimization.
                     </p>
                     <a href="{{ route('services.digi-marketing.content-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -199,8 +186,7 @@
                         <h3><a href="{{ route('services.digi-marketing.local-seo') }}">Local SEO</a></h3>
                     </div>
                     <p>
-                        Attract more nearby customers and boost your visibility in your
-                        community with local search optimisation.
+                        Local SEO helps your business appear in nearby searches by optimizing maps listings, local keywords, citations, and reviews. It drives more foot traffic, calls, and leads from customers in your area, boosting your visibility in local search results.
                     </p>
                     <a href="{{ route('services.digi-marketing.local-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -211,8 +197,7 @@
                         <h3><a href="{{ route('services.digi-marketing.ecommerce-seo') }}">eCommerce SEO</a></h3>
                     </div>
                     <p>
-                        Increase visibility, traffic, and sales for online stores with
-                        product-focused SEO and conversion optimisation.
+                        eCommerce SEO enhances product pages, category structures, and technical performance to improve visibility and increase online sales. It attracts high-intent shoppers through keyword optimization, improved UX, and optimized product listings.
                     </p>
                     <a href="{{ route('services.digi-marketing.ecommerce-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -223,8 +208,7 @@
                         <h3><a href="{{ route('services.digi-marketing.on-page-seo') }}">On-Page SEO</a></h3>
                     </div>
                     <p>
-                        Fine-tune meta tags, content, internal links, and UX to improve
-                        rankings and user engagement.
+                       On-Page SEO strengthens your website by optimizing titles, meta tags, content, URLs, and internal links. These improvements increase search engine visibility, boost user experience, and help your pages rank higher for targeted keywords.
                     </p>
                     <a href="{{ route('services.digi-marketing.on-page-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -236,8 +220,7 @@
                         <h3><a href="{{ route('services.digi-marketing.off-page-seo') }}">Off-Page SEO</a></h3>
                     </div>
                     <p>
-                        Strengthen authority with ethical link building, brand mentions,
-                        and digital PR to improve rankings.
+                        Off-Page SEO builds your website’s authority through strategic link building, digital PR, citations, and brand mentions. These efforts improve domain trust, increase rankings, and expand your online presence across relevant industry platforms.
                     </p>
                     <a href="{{ route('services.digi-marketing.off-page-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -248,8 +231,7 @@
                         <h3><a href="{{ route('services.digi-marketing.meta-ads-services') }}">Meta Ads Services</a></h3>
                     </div>
                     <p>
-                        Grow on Facebook and Instagram with targeted campaigns focused on
-                        visibility, leads, and sales.
+                        Meta Ads Services help grow your brand through targeted Facebook and Instagram campaigns designed to reach the right audience. With optimized creatives, precise targeting, and performance tracking, you gain more traffic, leads, and conversions.
                     </p>
                     <a href="{{ route('services.digi-marketing.meta-ads-services') }}" class="service-link">Learn
                         More</a>
@@ -261,8 +243,7 @@
                         <h3><a href="{{ route('services.digi-marketing.ppc-services') }}">PPC Services</a></h3>
                     </div>
                     <p>
-                        High-intent traffic through expertly-managed Google Ads campaigns
-                        designed for better leads and higher conversions.
+                        PPC Services deliver measurable results by running paid advertising campaigns on platforms like Google Ads. With keyword targeting, optimized ad copy, and strategic bidding, PPC drives qualified traffic and improves ROI for your business.
                     </p>
                     <a href="{{ route('services.digi-marketing.ppc-services') }}" class="service-link">Learn More</a>
                 </article>
@@ -274,8 +255,7 @@
                         <h3><a href="{{ route('services.digi-marketing.smm-services') }}">SMM Services</a></h3>
                     </div>
                     <p>
-                        Build your brand on Facebook, Instagram, and LinkedIn with content,
-                        community, and performance-driven social strategies.
+                       SMM Services strengthen your brand’s online presence through strategic social media marketing, engaging content, and community building. This boosts brand awareness, increases followers, and drives consistent engagement across major social platforms.
                     </p>
                     <a href="{{ route('services.digi-marketing.smm-services') }}" class="service-link">Learn More</a>
                 </article>
@@ -290,8 +270,7 @@
             <div class="section-header">
                 <h2>Our Proven Process</h2>
                 <p>
-                    A systematic approach that ensures consistent results and continuous improvement.
-                </p>
+                   A clear, results-driven process to plan, execute, and optimize your digital growth.</p>
             </div>
 
             <div class="grid grid-5 process-grid">
@@ -299,8 +278,7 @@
                     <div class="process-step">1</div>
                     <h3>Discovery &amp; Audit</h3>
                     <p>
-                        Comprehensive analysis of your current digital presence, competitors,
-                        and market opportunities.
+                        We begin by analyzing your brand, competitors, and current digital performance to identify opportunities and uncover issues affecting visibility and growth.
                     </p>
                 </article>
 
@@ -308,8 +286,7 @@
                     <div class="process-step">2</div>
                     <h3>Strategy Development</h3>
                     <p>
-                        Custom roadmap aligned with your business goals, budget,
-                        and target audience.
+                        Based on insights, we create a customized digital marketing strategy focused on boosting visibility, driving traffic, and achieving your business goals.
                     </p>
                 </article>
 
@@ -317,8 +294,7 @@
                     <div class="process-step">3</div>
                     <h3>Implementation</h3>
                     <p>
-                        Execute campaigns across chosen channels using best practices
-                        and proven tactics.
+                        Our team executes the plan with precision—optimizing your website, running campaigns, and applying proven digital marketing techniques for maximum impact.
                     </p>
                 </article>
 
@@ -326,8 +302,7 @@
                     <div class="process-step">4</div>
                     <h3>Monitor &amp; Analyse</h3>
                     <p>
-                        Track performance metrics, user behaviour, and ROI with
-                        detailed reporting.
+                        We continuously track performance, measure key metrics, and review campaign data to ensure everything is performing at its highest potential.
                     </p>
                 </article>
 
@@ -335,8 +310,7 @@
                     <div class="process-step">5</div>
                     <h3>Optimise &amp; Scale</h3>
                     <p>
-                        Continuous refinement based on data insights to maximise
-                        results and long‑term growth.
+                        Using real-time insights, we refine strategies, improve results, and scale your marketing efforts to drive consistent growth and long-term success.
                     </p>
                 </article>
             </div>
@@ -349,39 +323,43 @@
             <div class="section-header section-header-light">
                 <h2>Client Success Stories</h2>
                 <p>
-                    Real results from real businesses that trusted us with their digital marketing.
+                    Our clients’ success highlights the effectiveness of our tailored digital marketing services and long-term growth partnerships.
                 </p>
             </div>
 
             <div class="grid grid-3 success-grid">
                 <article class="card success-card">
                     <div class="success-avatar"></div>
-                    <h3>Sarah Mitchell</h3>
-                    <p class="success-role">Marketing Director, TechStart Solutions</p>
+                    <h3>Search Visibility Drives Growth</h3>
+                    <!-- <p class="success-role">Marketing Director, TechStart Solutions</p> -->
                     <p class="success-quote">
-                        “Cloud Technologies transformed our digital presence. Within 6 months, our organic traffic
-                        increased by 340% and we’re now ranking on page 1 for our most competitive keywords.”
+                       Most online journeys begin with a search, making strong SEO essential for gaining visibility and attracting potential customers.
                     </p>
                 </article>
 
                 <article class="card success-card">
                     <div class="success-avatar"></div>
-                    <h3>James Robertson</h3>
-                    <p class="success-role">CEO, Elite Fitness UK</p>
+                    <h3>Online Research Shapes Buying Decisions</h3>
+                    <!-- <p class="success-role">CEO, Elite Fitness UK</p> -->
                     <p class="success-quote">
-                        “Their local SEO strategy helped us dominate our market. We went from barely visible to
-                        the top 3 results in our area. Our foot traffic and online bookings have tripled.”
+                       Consumers routinely research brands online before purchasing, highlighting the importance of a solid digital presence.
                     </p>
                 </article>
 
                 <article class="card success-card">
                     <div class="success-avatar"></div>
-                    <h3>Priya Sharma</h3>
-                    <p class="success-role">E‑commerce Manager, Luxe Fashion Store</p>
+                    <h3>Social Media Builds Brand Discovery</h3>
+                    <!-- <p class="success-role">E‑commerce Manager, Luxe Fashion Store</p> -->
                     <p class="success-quote">
-                        “The eCommerce SEO services delivered exceptional results. Our online sales grew by
-                        425% in just 8 months. The team truly understands how to optimise product pages
-                        for conversions.”
+                        Social platforms play a major role in how people find and engage with brands, making consistent social activity crucial.
+                    </p>
+                </article>
+                <article class="card success-card">
+                    <div class="success-avatar"></div>
+                    <h3>Data-Driven Marketing Boosts Performance</h3>
+                    <!-- <p class="success-role">E‑commerce Manager, Luxe Fashion Store</p> -->
+                    <p class="success-quote">
+                       Businesses that rely on analytics make smarter decisions, optimize campaigns effectively, and achieve stronger long-term results.
                     </p>
                 </article>
             </div>
@@ -389,7 +367,7 @@
     </section>
 
     <!-- DIGITAL MARKETING INSIGHTS -->
-    <section class="section section-alt" id="insights">
+    <!-- <section class="section section-alt" id="insights">
         <div class="container">
             <div class="section-header">
                 <h2>Digital Marketing Insights</h2>
@@ -428,17 +406,16 @@
                 </article>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- CTA -->
-    <section class="section dm-cta" id="cta">
+    <section class="section dm-cta" style="margin-top:35px" id="cta">
         <div class="container">
             <div class="cta-inner dm-cta-inner">
                 <div class="cta-main">
                     <h2>Ready to Grow Your Business?</h2>
                     <p>
-                        Get a free digital marketing audit and discover opportunities to increase your online visibility,
-                        traffic, and revenue. No obligations, just actionable insights.
+                        Start reaching more customers and scaling faster with tailored digital marketing strategies built for your business.
                     </p>
                 </div>
                 <div class="cta-actions dm-cta-actions">

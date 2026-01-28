@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/on-page/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/digitalMarketing/on-page/js/script.js') }}" defer></script>
@@ -20,9 +21,9 @@
         <div class="container hero-grid">
             <div class="hero-text">
                 <p class="hero-eyebrow">On-Page SEO Services in UK</p>
-                <h1>Expert On-Page SEO<br>&amp; Services in the UK</h1>
+                <h1>Professional On-Page SEO Services in the UK</h1>
                 <p class="hero-subtitle">
-                    Transform your website into a search engine magnet with our comprehensive on-page SEO services. We optimize every element of your web pages—from meta tags and content to technical structure—ensuring maximum visibility and higher rankings in search results.
+                    Optimise your website pages for search engines and improve rankings with expert On-Page SEO services. We enhance search visibility using keyword optimisation, meta tags, content optimisation, internal linking, schema markup, URL structure, and technical on-page improvements for better indexing and higher organic traffic.
                 </p>
 
                 <div class="hero-actions">
@@ -31,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="hero-panel">
+            <!-- <div class="hero-panel">
                 <div class="hero-panel-inner">
                     <p class="hero-panel-label">On-Page SEO Snapshot</p>
                     <p class="hero-panel-text">
@@ -41,7 +42,7 @@
                         <li>Title tags & meta descriptions</li><li>Headers & content mapping</li><li>Internal linking & structure</li><li>Schema + Core Web Vitals</li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -49,9 +50,9 @@
     <section class="section section-alt" id="why">
         <div class="container">
             <div class="section-header">
-                <h2>Why Choose Our On-Page SEO Services in UK?</h2>
+                <h2>Why Choose Our On-Page SEO Services?</h2>
                 <p>
-                    Drive organic traffic from across the UK with our comprehensive on-page SEO strategies.
+                   Drive organic traffic across the UK with advanced on-page optimisation strategies.
                 </p>
             </div>
 
@@ -60,28 +61,28 @@
                     <div class="why-icon icon-quality"></div>
                     <h3>Content Optimization</h3>
                     <p>
-                        Strategic content enhancement with keyword integration and readability improvements.
+                        SEO-friendly content structure for readability and search engine understanding.
                     </p>
                 </article>
                 <article class="card why-card">
                     <div class="why-icon icon-keyword"></div>
-                    <h3>Technical SEO</h3>
+                    <h3>Keyword Optimisation</h3>
                     <p>
-                        HTML optimisation, schema markup, and technical infrastructure improvements.
+                       Strategic keyword placement in titles, headings, and content for higher rankings.
                     </p>
                 </article>
                 <article class="card why-card">
                     <div class="why-icon icon-engagement"></div>
-                    <h3>Site Structure</h3>
+                    <h3>Meta Tags Optimisation </h3>
                     <p>
-                        Improve site architecture, internal linking, and navigation for better crawlability.
+                       Optimised title tags and meta descriptions to improve CTR and relevance.
                     </p>
                 </article>
                 <article class="card why-card">
                     <div class="why-icon icon-authority"></div>
-                    <h3>Meta Optimization</h3>
+                    <h3>Higher Search Rankings</h3>
                     <p>
-                        Compelling title tags and meta descriptions that drive clicks and rankings.
+                        Improve page relevance to rank better in Google search results.
                     </p>
                 </article>
             </div>
@@ -94,26 +95,26 @@
             <div class="section-header section-header-light">
                 <h2>Our On-Page SEO Process</h2>
                 <p>
-                    A systematic 4-step approach to maximize your on-page optimization.
+                    A strategic approach to optimize website pages for search engines.
                 </p>
             </div>
 
             <div class="grid grid-4 process-grid">
                 <article class="process-card">
-                    <h3>Comprehensive Audit</h3>
-                    <p>Deep analysis of your website’s on-page elements, content quality, and technical structure.</p>
+                    <h3>Website Audit</h3>
+                    <p>Analyse pages for keyword gaps, meta issues, and content structure problems.</p>
                 </article>
                 <article class="process-card">
-                    <h3>Keyword Research</h3>
-                    <p>Identify high-value keywords and create a content mapping strategy for each page.</p>
+                    <h3>Optimisation Strategy</h3>
+                    <p>Plan keyword mapping, meta tags, headings, internal links, and schema markup.</p>
                 </article>
                 <article class="process-card">
-                    <h3>On-Page Optimization</h3>
-                    <p>Implement title tags, meta descriptions, headers, content, and schema markup optimisation.</p>
+                    <h3>Implementation </h3>
+                    <p>Apply on-page fixes including content updates, URL optimisation, and technical tags.</p>
                 </article>
                 <article class="process-card">
-                    <h3>Monitoring & Refinement</h3>
-                    <p>Track rankings, traffic, and user engagement to continuously improve performance.</p>
+                    <h3>Performance Tracking </h3>
+                    <p>Monitor keyword rankings, page indexing, and organic traffic growth.</p>
                 </article>
             </div>
         </div>
@@ -123,8 +124,8 @@
 <section class="section content-types" id="content-types">
     <div class="container">
         <div class="section-header">
-            <h2>Content Types We Optimize</h2>
-            <p>Comprehensive content SEO services for all types of business content</p>
+            <h2>Page Types We Optimise</h2>
+            <p>Comprehensive on-page SEO services for all types of website pages.</p>
         </div>
 
         <div class="ct-grid">
@@ -133,16 +134,16 @@
                 <div class="ct-head">
                     <div class="ct-icon" aria-hidden="true"></div>
                     <div class="ct-title">
-                        <h3>Blog Posts &amp; Articles</h3>
-                        <p>In-depth, SEO-optimized blog content that drives organic traffic</p>
+                        <h3>Homepage Optimisation </h3>
+                        <p>Optimise homepage content, headings, and keywords for brand visibility.</p>
                     </div>
                 </div>
 
                 <ul class="ct-points">
-                    <li>Keyword Research</li>
-                    <li>Topic Clusters</li>
-                    <li>Internal Linking</li>
-                    <li>Meta Optimization</li>
+                    <li>Primary keyword targeting</li>
+                    <li>Internal linking</li>
+                    <li>Content structure</li>
+                    <li>Meta  tags Optimisation</li>
                 </ul>
             </article>
 
@@ -151,16 +152,16 @@
                 <div class="ct-head">
                     <div class="ct-icon" aria-hidden="true"></div>
                     <div class="ct-title">
-                        <h3>Landing Pages</h3>
-                        <p>Conversion-focused landing pages optimized for search and users</p>
+                        <h3>Service & Landing Pages</h3>
+                        <p>Conversion-focused pages optimised for search engines and users.</p>
                     </div>
                 </div>
 
                 <ul class="ct-points">
-                    <li>Conversion Copy</li>
-                    <li>SEO Headlines</li>
-                    <li>Call-to-Actions</li>
-                    <li>User Experience</li>
+                    <li>Keyword mapping</li>
+                    <li>SEO headings structure</li>
+                    <li>URL optimisation</li>
+                    <li>Schema markup</li>
                 </ul>
             </article>
 
@@ -169,16 +170,16 @@
                 <div class="ct-head">
                     <div class="ct-icon" aria-hidden="true"></div>
                     <div class="ct-title">
-                        <h3>Product Descriptions</h3>
-                        <p>Compelling product content that ranks and sells</p>
+                        <h3>Product & E-commerce Pages </h3>
+                        <p>Product pages optimized to rank and improve conversions.</p>
                     </div>
                 </div>
 
                 <ul class="ct-points">
-                    <li>Product SEO</li>
-                    <li>Feature Benefits</li>
-                    <li>Schema Markup</li>
-                    <li>User Reviews</li>
+                    <li>Product keyword optimisation</li>
+                    <li>Meta data setup</li>
+                    <li>Internal links</li>
+                    <li>Content enhancement</li>
                 </ul>
             </article>
 
@@ -187,16 +188,16 @@
                 <div class="ct-head">
                     <div class="ct-icon" aria-hidden="true"></div>
                     <div class="ct-title">
-                        <h3>Technical Content</h3>
-                        <p>Expert technical content that demonstrates industry knowledge</p>
+                        <h3>Blog & Content Pages </h3>
+                        <p>SEO-optimised blogs that drive organic traffic.</p>
                     </div>
                 </div>
 
                 <ul class="ct-points">
-                    <li>How-to Guides</li>
-                    <li>Case Studies</li>
-                    <li>White Papers</li>
-                    <li>Technical SEO</li>
+                    <li>Topic clusters</li>
+                    <li>Keyword placement</li>
+                    <li>Content readability</li>
+                    <li>Internal linking strategy</li>
                 </ul>
             </article>
         </div>
@@ -207,34 +208,34 @@
     <section class="section" id="included">
         <div class="container">
             <div class="section-header">
-                <h2>What’s Included in Our On-Page SEO Service?</h2>
+                <h2>What’s Included in Our On-Page SEO Service? </h2>
                 <p>
-                    Complete on-page optimization to boost your search engine visibility.
+                   Comprehensive on-page optimisation for SEO performance.
                 </p>
             </div>
 
             <div class="services-layout">
-                <div class="services-copy">
+                <!-- <div class="services-copy">
                     <h3>End-to-end on-page upgrades (content + technical)</h3>
                     <p class="services-intro">
                         We optimise the elements Google evaluates on-page: content intent, HTML structure, metadata, internal links, schema and performance—without breaking your site’s UX.
                     </p>
-                </div>
+                </div> -->
 
                 <div class="services-cards">
                     <div class="card services-card">
                         <h3>Included deliverables</h3>
                         <ul class="services-list">
-                            <li>In-depth keyword research and competitor analysis</li>
-                            <li>Title tag and meta description optimisation for all pages</li>
-                            <li>Header tag (H1–H6) structure and optimisation</li>
-                            <li>Content optimisation with strategic keyword placement</li>
-                            <li>Internal linking strategy and implementation</li>
-                            <li>Image alt text and optimisation</li>
-                            <li>Schema markup and structured data implementation</li>
-                            <li>URL structure optimisation and canonicalization</li>
-                            <li>Mobile responsiveness and Core Web Vitals optimisation</li>
-                            <li>Monthly performance reports with actionable insights</li>
+                            <li>Complete on-page SEO audit</li>
+                            <li>Keyword research and keyword mapping</li>
+                            <li>Title tag and meta description optimisation</li>
+                            <li> Header tags (H1-H6) optimisation</li>
+                            <li> Content optimisation with SEO keywords</li>
+                            <li>Internal linking structure improvement</li>
+                            <li>Schema markup implementation</li>
+                            <li>URL structure optimisation</li>
+                            <li> Image alt tags optimisation</li>
+                            <li>Monthly performance reports and recommendations</li>
                         </ul>
                     </div>
                 </div>
@@ -247,9 +248,9 @@
         <div class="container">
             <div class="cta-inner onpage-cta-inner">
                 <div class="cta-main">
-                    <h2>Ready to Transform Your On-Page SEO?</h2>
+                    <h2>Ready to Optimise Your Website Pages for Search?</h2>
                     <p>
-                        Get a free on-page SEO audit and discover optimisation opportunities.
+                       Get a free On-Page SEO audit and improve your Google rankings and organic traffic.
                     </p>
                 </div>
                 <div class="cta-actions onpage-cta-actions">

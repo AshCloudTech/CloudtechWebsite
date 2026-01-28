@@ -355,6 +355,7 @@
                         <div class="faq-content">
                             <p>
                        Meta Ads deliver strong results by combining massive reach, precise targeting, and engaging ad formats that drive leads and sales.</p>
+                    </div>
                     </details>
  
                     <details class="faq-item">

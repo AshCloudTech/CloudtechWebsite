@@ -19,19 +19,32 @@
     });
   }
 
-  // Mobile sidebar toggle
-  const burger = qs('[data-sidebar-toggle]');
-  const sidebar = qs('.sidebar');
-  if (burger && sidebar) {
-    burger.addEventListener('click', () => sidebar.classList.toggle('show'));
-    // click outside to close
-    document.addEventListener('click', (e) => {
-      if (window.matchMedia('(max-width: 900px)').matches) {
-        const clickedInside = sidebar.contains(e.target) || burger.contains(e.target);
-        if (!clickedInside) sidebar.classList.remove('show');
-      }
-    });
+  
+ // Mobile sidebar toggle
+const burger = qs('[data-sidebar-toggle]');
+const sidebar = qs('.sidebar');
+const closeBtn = qs('[data-sidebar-close]');
+
+if (burger && sidebar) {
+  burger.addEventListener('click', () => sidebar.classList.toggle('show'));
+
+  // Close button
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => sidebar.classList.remove('show'));
   }
+
+  // click outside to close
+  document.addEventListener('click', (e) => {
+    if (window.matchMedia('(max-width: 900px)').matches) {
+      const clickedInside =
+        sidebar.contains(e.target) ||
+        burger.contains(e.target);
+
+      if (!clickedInside) sidebar.classList.remove('show');
+    }
+  });
+}
+
 
   // Table search (client-side filtering)
   qsa('[data-table-search]').forEach((input) => {

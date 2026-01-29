@@ -58,17 +58,56 @@ button,input,select,textarea{ font-family:inherit; }
   min-height:100vh;
 }
 
+/* Sidebar scrollbar */
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: rgba(120, 120, 120, 0.35);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(120, 120, 120, 0.55);
+}
+
 .sidebar{
-  width: 280px;
   padding: 18px 14px;
   position: sticky;
   top: 0;
   height: 100vh;
-  overflow:auto;
+  overflow-x:hidden;
   border-right: 1px solid var(--border);
   backdrop-filter: blur(14px);
   background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
 }
+
+.sidebarClose {
+  display: none;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--text);
+  z-index: 1001;
+}
+
+@media (max-width: 900px) {
+ .sidebarClose {
+   display: block;
+  }
+}
+
 
 .sidebar .brand{
   display:flex;
@@ -260,9 +299,24 @@ button,input,select,textarea{ font-family:inherit; }
   border-radius: var(--radius);
   background: linear-gradient(180deg, var(--panel), rgba(255,255,255,.02));
   border: 1px solid var(--border);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow);
   overflow:hidden;
 }
+
+@media (max-width: 768px) {
+  .card {
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+    background: linear-gradient(
+      180deg,
+      var(--panel),
+      rgba(255, 255, 255, 0.04)
+    );
+    padding: 14px;
+    overflow: auto;
+  }
+}
+
 .cardHeader{
   padding: 14px 14px 10px;
   display:flex;
@@ -280,7 +334,7 @@ button,input,select,textarea{ font-family:inherit; }
   font-size: 12px;
   color: var(--muted);
 }
-.cardBody{ padding: 14px; }
+.cardBody{ padding: 14px; width: 100%;}
 
 .kpi{
   display:flex;
@@ -358,6 +412,24 @@ td .mono{ font-family: var(--mono); font-size: 12px; color: var(--muted); }
   color: var(--text);
   outline:none;
 }
+
+.nice-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nice-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.nice-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(120, 120, 120, 0.35);
+    border-radius: 10px;
+}
+
+.nice-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(120, 120, 120, 0.55);
+}
+
 
 /* Make select look like input (and remove native arrow) */
 .field select{
@@ -627,6 +699,9 @@ td .mono{ font-family: var(--mono); font-size: 12px; color: var(--muted); }
   .grid.cols-3, .grid.cols-2, .grid.cols-4{ grid-template-columns: 1fr; }
   .formGrid{ grid-template-columns: 1fr; }
   table{ min-width: 620px; }
+  .topbar{
+    display: grid;
+  }
 }
 
 

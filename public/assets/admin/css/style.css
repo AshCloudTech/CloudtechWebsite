@@ -358,6 +358,48 @@ td .mono{ font-family: var(--mono); font-size: 12px; color: var(--muted); }
   color: var(--text);
   outline:none;
 }
+
+/* Make select look like input (and remove native arrow) */
+.field select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* keep your existing style, only add arrow spacing + icon */
+  padding-right: 42px; /* room for arrow */
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24'%3E%3Cpath fill='%23ffffff' fill-opacity='0.65' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 18px;
+}
+
+/* Improve focus to match premium UI */
+.field select:focus{
+  border-color: rgba(109,94,252,.55);
+  box-shadow: 0 0 0 3px rgba(109,94,252,.18);
+}
+
+/* Optional hover */
+.field select:hover{
+  background: var(--panel-2);
+}
+
+/* Option list colors (helps on some browsers) */
+.field select option{
+  background: #0b1220;
+  color: rgba(255,255,255,.92);
+}
+
+/* Light theme arrow + option colors */
+[data-theme="light"] .field select{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24'%3E%3Cpath fill='%230f172a' fill-opacity='0.55' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+}
+
+[data-theme="light"] .field select option{
+  background: #ffffff;
+  color: rgba(15,23,42,.92);
+}
 .field textarea{ min-height: 96px; resize: vertical; }
 .hint{ font-size: 12px; color: var(--muted-2); }
 
@@ -586,3 +628,51 @@ td .mono{ font-family: var(--mono); font-size: 12px; color: var(--muted); }
   .formGrid{ grid-template-columns: 1fr; }
   table{ min-width: 620px; }
 }
+
+
+/* =========================
+   Sidebar Brand Logo
+   ========================= */
+
+.brand{
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
+.brandLogo{
+  width:42px;
+  height:42px;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+.brandLogo .logo{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  padding:6px;
+  display:none; /* theme decides */
+}
+
+/* Theme switching using your existing <html data-theme="..."> */
+html[data-theme="dark"] .brandLogo .darkOnly{ display:block; }
+html[data-theme="light"] .brandLogo .lightOnly{ display:block; }
+
+/* If only one logo is uploaded, make it visible in both themes */
+html[data-theme="dark"] .brandLogo .lightOnly:only-child{ display:block; }
+html[data-theme="light"] .brandLogo .darkOnly:only-child{ display:block; }
+
+
+.iconBtn svg { display:block; }
+.iconBtn { display:inline-flex; align-items:center; justify-content:center; }
+
+/* Theme toggle icon switch */
+.themeBtn svg { display:none; }
+html[data-theme="light"] .themeBtn .icoSun { display:block; }
+html[data-theme="dark"]  .themeBtn .icoMoon { display:block; }

@@ -16,7 +16,13 @@ use App\Http\Controllers\Admin\PermissionController;
 use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\AuditLogController;
+use App\Http\Controllers\Admin\CompanyBranchController;
+use App\Http\Controllers\Admin\CompanySettingsController;
+use App\Http\Controllers\Admin\ContactFormController;
+use App\Http\Controllers\Admin\ContactSubmissionController;
 use App\Http\Controllers\Admin\ImpersonationController;
+use App\Http\Controllers\Admin\SmtpMailerController;
+use App\Http\Controllers\Web\ContactController;
 use App\Http\Controllers\Web\IndustryController;
 use App\Http\Controllers\Web\Service\DigitalMarkController;
 use App\Http\Controllers\Web\Service\WebsiteDevController;
@@ -51,6 +57,9 @@ Route::get('/careers/{slug}', [HomeController::class, 'careerDetail'])->name('ca
 Route::get('/terms-of-service', [HomeController::class, 'termsOfService'])->name('terms.of.service');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy.policy');
 
+Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
+
+
 Route::prefix('industries')->group(function () {
     Route::get('/cloudhealth', [IndustryController::class, 'cloudhealth'])->name('industries.cloudhealth');
     Route::get('/cloudcare', [IndustryController::class, 'cloudcare'])->name('industries.cloudcare');
@@ -67,9 +76,7 @@ Route::prefix('services')->group(function () {
     Route::get('/branding', [ServicesController::class, 'branding'])->name('services.branding');
     Route::get('/seo', [ServicesController::class, 'seo'])->name('services.seo');
     Route::get('/product-marketing', [ServicesController::class, 'productMarketing'])->name('services.product.marketing');
-    
-
-});  
+});
 
 Route::prefix('services/website-development')->group(function () {
     Route::get('/wordpress', [WebsiteDevController::class, 'wordpress'])->name('services.website-development.wordpress');
@@ -107,6 +114,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
         ->name('admin.')
         ->middleware(['role:super-admin|admin'])
         ->group(function () {
+            // Admin dashboard
             Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
 
             // RBAC Management
@@ -125,6 +133,25 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Route::post('/impersonate/stop', [ImpersonationController::class, 'stop'])
                 ->middleware('role:super-admin')
                 ->name('impersonate.stop');
+
+            // Settings
+            Route::prefix('settings')->name('settings.')->group(function () {
+                Route::get('/company', [CompanySettingsController::class, 'edit'])->name('company.edit');
+                Route::put('/company', [CompanySettingsController::class, 'update'])->name('company.update');
+
+                Route::resource('branches', CompanyBranchController::class)->names('branches')->except(['show', 'destroy']);
+
+                Route::resource('smtp', SmtpMailerController::class)->parameters(['smtp' => 'smtp'])
+                    ->names('smtp')->except([]);
+
+                Route::resource('contact-forms', ContactFormController::class)
+                    ->names('contact-forms')->except(['show', 'destroy']);
+            });
+
+            // Leads
+            Route::get('/leads', [ContactSubmissionController::class, 'index'])->name('leads.index');
+            Route::get('/leads/{submission}', [ContactSubmissionController::class, 'show'])->name('leads.show');
+            Route::patch('/leads/{submission}/status', [ContactSubmissionController::class, 'updateStatus'])->name('leads.status');
         });
 });
 
@@ -132,5 +159,4 @@ Route::fallback(function () {
     return response()->view('404', [], 404); // or abort(404);
 });
 
-require __DIR__.'/auth.php';
-
+require __DIR__ . '/auth.php';

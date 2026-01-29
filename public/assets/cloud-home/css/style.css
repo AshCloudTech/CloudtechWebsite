@@ -974,3 +974,40 @@ button {
     grid-column: 1 / -1;
   }
 }
+
+/* =========================
+   HEADER LOGO (LIGHT/DARK)
+   ========================= */
+
+.logo{ display:flex; align-items:center; gap:10px; }
+
+.site-logo{
+  height: 34px;
+  width: auto;
+  max-width: 170px;
+  object-fit: contain;
+}
+
+/* Default: show light logo, hide dark */
+.site-logo--dark{ display:none; }
+
+/* When dark theme: switch */
+html[data-theme="dark"] .site-logo--light{ display:none; }
+html[data-theme="dark"] .site-logo--dark{ display:block; }
+
+
+
+/* Footer logo (dark/light) */
+.footer-site-logo{
+  height: 34px;
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
+}
+
+/* default show light */
+.footer-site-logo--dark{ display:none; }
+
+/* dark theme switch */
+html[data-theme="dark"] .footer-site-logo--light{ display:none; }
+html[data-theme="dark"] .footer-site-logo--dark{ display:block; }

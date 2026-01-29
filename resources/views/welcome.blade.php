@@ -29,7 +29,8 @@
                 </div>
 
                 <p class="hero-note">
-                   Delivering powerful cloud technology that helps entrepreneurs scale faster, <br> reach global markets and achieve real results.
+                    Delivering powerful cloud technology that helps entrepreneurs scale faster, <br> reach global markets
+                    and achieve real results.
                 </p>
             </div>
 
@@ -60,7 +61,8 @@
             <div class="section-header">
                 <h2>Our Digital Services</h2>
                 <p>
-                    We deliver complete digital solutions including marketing, design, development, branding, SEO and product growth to elevate your business online.
+                    We deliver complete digital solutions including marketing, design, development, branding, SEO and
+                    product growth to elevate your business online.
                 </p>
             </div>
 
@@ -206,8 +208,8 @@
                 <!-- Healthcare -->
                 <article class="card industry-card">
                     <div class="card-tag tag-blue">Healthcare Solutions</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
                     <h3>Healthcare Solutions</h3>
                     <p>
                         Complete digital tools for healthcare providers, offering easy appointment scheduling and efficient
@@ -219,8 +221,8 @@
                 <!-- Care Dashboard -->
                 <article class="card industry-card">
                     <div class="card-tag tag-purple">Care Dashboard Management</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>Care Dashboard Management</h3>
                     <p>
@@ -233,8 +235,8 @@
                 <!-- Education -->
                 <article class="card industry-card">
                     <div class="card-tag tag-green">Education Technology</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>Education Technology</h3>
                     <p>
@@ -247,8 +249,8 @@
                 <!-- Travel -->
                 <article class="card industry-card">
                     <div class="card-tag tag-orange">Travel &amp; Tourism</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>Travel &amp; Tourism</h3>
                     <p>
@@ -261,8 +263,8 @@
                 <!-- Recruitment -->
                 <article class="card industry-card">
                     <div class="card-tag tag-teal">Recruitment Solutions</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>Recruitment Solutions</h3>
                     <p>
@@ -275,8 +277,8 @@
                 <!-- Public Sector -->
                 <article class="card industry-card">
                     <div class="card-tag tag-pink">Public Sector</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>Public Sector</h3>
                     <p>
@@ -303,8 +305,8 @@
             <div class="grid grid-3 ai-grid">
                 <article class="card ai-card">
                     <div class="card-tag tag-blue">AI Chatbot Assistant</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>AI Chatbot Assistant</h3>
                     <p>
@@ -315,8 +317,8 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-purple">AI Recruiter</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>AI Recruiter</h3>
                     <p>
@@ -327,8 +329,8 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-green">AI Itinerary Builder</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>AI Itinerary Builder</h3>
                     <p>
@@ -339,8 +341,8 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-orange">AI Healthcare Assistant</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>AI Healthcare Assistant</h3>
                     <p>
@@ -351,8 +353,8 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-teal">AI Learning Platform</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>AI Learning Platform</h3>
                     <p>
@@ -363,8 +365,8 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-pink">AI Care Coordinator</div>
-                    <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image">
+                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
+                        class="industry-image"> --}}
 
                     <h3>AI Care Coordinator</h3>
                     <p>
@@ -689,35 +691,60 @@
                 <p>Share a few details and our team will get back to you within one business day.</p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                <input type="hidden" name="form_key" value="home_page">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
                         <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <input type="text" id="name" name="name" placeholder="Enter your name"
+                            value="{{ old('name') }}">
+                        @error('name')
+                            <small class="text-danger">{{ $message }}</small>
+                        @enderror
                     </div>
+
                     <div class="form-field">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <input type="email" id="email" name="email" placeholder="name@company.com"
+                            value="{{ old('email') }}">
+                        @error('email')
+                            <small class="text-danger">{{ $message }}</small>
+                        @enderror
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
                         <label for="company">Company</label>
-                        <input type="text" id="company" placeholder="Company name">
+                        <input type="text" id="company" name="company" placeholder="Company name"
+                            value="{{ old('company') }}">
                     </div>
+
                     <div class="form-field">
                         <label for="country">Country</label>
-                        <input type="text" id="country" placeholder="United Kingdom">
+                        <input type="text" id="country" name="country" placeholder="United Kingdom"
+                            value="{{ old('country') }}">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
                         <label for="message">How can we help?</label>
-                        <textarea id="message" rows="4" placeholder="Tell us about your project, goals, and timelines."></textarea>
+                        <textarea id="message" name="message" rows="4"
+                            placeholder="Tell us about your project, goals, and timelines.">{{ old('message') }}</textarea>
+                        @error('message')
+                            <small class="text-danger">{{ $message }}</small>
+                        @enderror
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
+
         </div>
     </section>
 

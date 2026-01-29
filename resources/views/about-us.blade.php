@@ -4,6 +4,8 @@
 @section('meta_title', 'Cloud Technologies Ltd – About Us')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/about/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/about/js/script.js') }}" defer></script>

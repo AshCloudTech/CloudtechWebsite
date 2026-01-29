@@ -1,10 +1,29 @@
     <header class="site-header">
         <div class="container header-inner">
+            @php
+                $brandName = $globalCompany?->brand_name ?? 'Cloud Technologies';
+
+                $siteLogoLight = !empty($globalCompany?->logo_light_path)
+                    ? asset($globalCompany->logo_light_path)
+                    : null;
+                $siteLogoDark = !empty($globalCompany?->logo_dark_path) ? asset($globalCompany->logo_dark_path) : null;
+            @endphp
+
             <div class="logo">
-                <!-- Replace with actual logo if needed -->
-                <span class="logo-mark">CT</span>
-                <span class="logo-text">Cloud Technologies</span>
+                @if ($siteLogoLight || $siteLogoDark)
+                    @if ($siteLogoLight)
+                        <img class="site-logo site-logo--light" src="{{ $siteLogoLight }}" alt="{{ $brandName }} logo">
+                    @endif
+
+                    @if ($siteLogoDark)
+                        <img class="site-logo site-logo--dark" src="{{ $siteLogoDark }}" alt="{{ $brandName }} logo">
+                    @endif
+                @else
+                    <span class="logo-mark">CT</span>
+                    <span class="logo-text">{{ $brandName }}</span>
+                @endif
             </div>
+
 
             <nav class="main-nav">
                 <ul>
@@ -39,7 +58,8 @@
                     </li>
 
                     <li>
-                        <a href="{{ route('about.us') }}" class="{{ request()->routeIs('about.us*') ? 'active' : '' }}">
+                        <a href="{{ route('about.us') }}"
+                            class="{{ request()->routeIs('about.us*') ? 'active' : '' }}">
                             About Us
                         </a>
                     </li>

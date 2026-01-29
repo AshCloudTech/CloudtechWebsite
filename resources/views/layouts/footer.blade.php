@@ -1,10 +1,28 @@
     <footer class="site-footer">
         <div class="container footer-inner">
             <div class="footer-about">
-                <div class="logo footer-logo">
-                    <span class="logo-mark">CT</span>
-                    <span class="logo-text">Cloud Technologies</span>
-                </div>
+     @php
+    $brandName = $globalCompany?->brand_name ?? 'Cloud Technologies';
+
+    $footerLogoLight = !empty($globalCompany?->logo_light_path) ? asset($globalCompany->logo_light_path) : null;
+    $footerLogoDark  = !empty($globalCompany?->logo_dark_path)  ? asset($globalCompany->logo_dark_path)  : null;
+@endphp
+
+<div class="logo footer-logo">
+    @if($footerLogoLight || $footerLogoDark)
+        @if($footerLogoLight)
+            <img class="footer-site-logo footer-site-logo--light" src="{{ $footerLogoLight }}" alt="{{ $brandName }} logo">
+        @endif
+
+        @if($footerLogoDark)
+            <img class="footer-site-logo footer-site-logo--dark" src="{{ $footerLogoDark }}" alt="{{ $brandName }} logo">
+        @endif
+    @else
+        <span class="logo-mark">CT</span>
+        <span class="logo-text">{{ $brandName }}</span>
+    @endif
+</div>
+
                 <p>
                     British-led global digital transformation partner delivering end-to-end solutions for healthcare, education, travel, recruitment, and public sector organizations worldwide.
                 </p>
@@ -49,7 +67,6 @@
         <div class="footer-bottom">
             <div class="container footer-bottom-inner">
                 <p>© 2025 Cloud Technologies Ltd. All rights reserved.</p>
-                <p>Powered by Readdy</p>
             </div>
         </div>
     </footer>

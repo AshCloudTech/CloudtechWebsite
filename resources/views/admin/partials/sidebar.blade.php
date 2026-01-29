@@ -1,4 +1,9 @@
 <aside class="sidebar">
+     {{-- Mobile close button --}}
+    <button class="sidebarClose" data-sidebar-close aria-label="Close sidebar">
+    ✕
+</button>
+
 @php
     $brandName = $globalCompany?->brand_name ?? 'CloudTech';
 

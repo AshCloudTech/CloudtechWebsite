@@ -50,7 +50,7 @@
 
                     <div class="field">
                         <label>About</label>
-                        <textarea name="about" rows="6">{{ old('about', $company->about) }}</textarea>
+                        <textarea name="about"  class="nice-scroll" rows="6">{{ old('about', $company->about) }}</textarea>
                     </div>
 
                     <div style="height:10px;"></div>
@@ -60,6 +60,7 @@
                         <span>Active</span>
                     </label>
                 </div>
+                
             </div>
 
             <div class="card" style="margin:0;">

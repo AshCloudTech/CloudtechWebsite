@@ -20,7 +20,8 @@
             <p class="hero-eyebrow">eCommerce SEO</p>
             <h1>eCommerce SEO Services</h1>
             <p class="hero-subtitle">
-               Boost visibility, drive targeted traffic, and increase sales with expert eCommerce SEO services tailored to your store.
+                Boost visibility, drive targeted traffic, and increase sales with expert eCommerce SEO services tailored to
+                your store.
             </p>
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-lg btn-primary">Grow My Online Store</a>
@@ -69,35 +70,35 @@
                 <article class="card benefit-card">
                     <h3>Product Visibility</h3>
                     <p>
-                       Improve how your products appear in search results, helping customers find you faster.
+                        Improve how your products appear in search results, helping customers find you faster.
                     </p>
                 </article>
 
                 <article class="card benefit-card">
                     <h3>Better ROI</h3>
                     <p>
-                       Organic traffic cuts ad costs and delivers higher long-term returns on your marketing investment.
+                        Organic traffic cuts ad costs and delivers higher long-term returns on your marketing investment.
                     </p>
                 </article>
 
                 <article class="card benefit-card">
                     <h3>Brand Authority</h3>
                     <p>
-                       Rankings build trust, positioning your eCommerce brand as a reliable market leader.
+                        Rankings build trust, positioning your eCommerce brand as a reliable market leader.
                     </p>
                 </article>
 
                 <article class="card benefit-card">
                     <h3>Market Expansion</h3>
                     <p>
-                       Reach wider audiences and new markets through strategic, scalable search optimization.
+                        Reach wider audiences and new markets through strategic, scalable search optimization.
                     </p>
                 </article>
 
                 <article class="card benefit-card">
                     <h3>Competitive Edge</h3>
                     <p>
-                       Outrank competitors and capture more customers with powerful SEO strategies.
+                        Outrank competitors and capture more customers with powerful SEO strategies.
                     </p>
                 </article>
             </div>
@@ -181,7 +182,8 @@
         <div class="container">
             <div class="section-header section-header-light">
                 <h2>Our eCommerce SEO Process</h2>
-                <p>A proven SEO process that audits your store, improves rankings, drives traffic, and scales long-term growth.</p>
+                <p>A proven SEO process that audits your store, improves rankings, drives traffic, and scales long-term
+                    growth.</p>
             </div>
 
             <div class="grid grid-3 process-grid">
@@ -228,7 +230,7 @@
                     <div class="process-step">6</div>
                     <h3>Growth &amp; Scaling</h3>
                     <p>
-                       Scale traffic and sales through advanced SEO strategies and continuous optimization.
+                        Scale traffic and sales through advanced SEO strategies and continuous optimization.
                     </p>
                 </article>
             </div>
@@ -262,37 +264,53 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- Identifiers --}}
+                <input type="hidden" name="form_key" value="seo_ecommerce_enquiry">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <label for="seo_ecom_name">Full Name</label>
+                        <input type="text" id="seo_ecom_name" name="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <label for="seo_ecom_email">Email Address</label>
+                        <input type="email" id="seo_ecom_email" name="email" placeholder="name@company.com"
+                            required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="store">Store Name / Platform</label>
-                        <input type="text" id="store" placeholder="Shopify, WooCommerce, Magento, etc.">
+                        <label for="seo_ecom_store">Store Name / Platform</label>
+                        <input type="text" id="seo_ecom_store" name="payload[store_platform]"
+                            placeholder="Shopify, WooCommerce, Magento, etc.">
                     </div>
+
                     <div class="form-field">
-                        <label for="revenue">Monthly Online Revenue (approx.)</label>
-                        <input type="text" id="revenue" placeholder="e.g. £10k–£50k">
+                        <label for="seo_ecom_revenue">Monthly Online Revenue (approx.)</label>
+                        <input type="text" id="seo_ecom_revenue" name="payload[monthly_revenue]"
+                            placeholder="e.g. £10k–£50k">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
-                        <label for="message">What are your growth goals?</label>
-                        <textarea id="message" rows="4" placeholder="More traffic, better conversion rate, new markets, etc."></textarea>
+                        <label for="seo_ecom_message">What are your growth goals?</label>
+                        <textarea id="seo_ecom_message" name="message" rows="4"
+                            placeholder="More traffic, better conversion rate, new markets, etc." required></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Enquiry</button>
             </form>
         </div>
     </section>
+
 
     <!-- FAQ -->
     <section class="section section-alt section-faq" id="faq">
@@ -300,57 +318,64 @@
             <div class="section-header">
                 <h2>eCommerce SEO Service FAQs</h2>
             </div>
- 
+
             <div class="faq-wrap">
                 <div class="faq-list">
                     <details class="faq-item">
                         <summary>1. What is eCommerce SEO?</summary>
                         <div class="faq-content">
                             <p>
-                              eCommerce SEO is the process of optimizing online stores to improve product visibility, increase organic traffic, and boost sales by ranking higher in search engine results.
+                                eCommerce SEO is the process of optimizing online stores to improve product visibility,
+                                increase organic traffic, and boost sales by ranking higher in search engine results.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>2.Why do online stores need eCommerce SEO?</summary>
                         <div class="faq-content">
                             <p>
-                            Without SEO, your products remain buried in search results. eCommerce SEO helps drive high-intent shoppers, improves visibility, enhances user experience, and increases conversions.</p>
+                                Without SEO, your products remain buried in search results. eCommerce SEO helps drive
+                                high-intent shoppers, improves visibility, enhances user experience, and increases
+                                conversions.</p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
-                        <summary>3.  How is eCommerce SEO different from regular SEO?</summary>
+                        <summary>3. How is eCommerce SEO different from regular SEO?</summary>
                         <div class="faq-content">
                             <p>
-                              Regular SEO focuses on informational websites, while eCommerce SEO targets product pages, category pages, structured data, conversion optimization, and large inventories.
+                                Regular SEO focuses on informational websites, while eCommerce SEO targets product pages,
+                                category pages, structured data, conversion optimization, and large inventories.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>4. What does an eCommerce SEO agency do?</summary>
                         <div class="faq-content">
                             <p>
-                              An eCommerce SEO agency optimizes your product pages, improves site speed, enhances category structure, builds backlinks, implements schema, and boosts your store’s search rankings.
+                                An eCommerce SEO agency optimizes your product pages, improves site speed, enhances category
+                                structure, builds backlinks, implements schema, and boosts your store’s search rankings.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>5. How long does eCommerce SEO take to show results?</summary>
                         <div class="faq-content">
-                            <p>Most stores begin seeing improvements within 2–3 months, with significant growth typically within 4–6 months, depending on competition, platform, and website health.
+                            <p>Most stores begin seeing improvements within 2–3 months, with significant growth typically
+                                within 4–6 months, depending on competition, platform, and website health.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>6. Do you offer SEO services for Shopify stores? </summary>
                         <div class="faq-content">
                             <p>
-                                Yes. Our Shopify SEO Services include product optimization, speed improvements, app cleanup, keyword targeting, and fixing Shopify-specific SEO issues.
+                                Yes. Our Shopify SEO Services include product optimization, speed improvements, app cleanup,
+                                keyword targeting, and fixing Shopify-specific SEO issues.
                             </p>
                         </div>
                     </details>

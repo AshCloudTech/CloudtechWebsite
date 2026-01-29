@@ -10,7 +10,6 @@
 @push('scripts')
     <script src="{{ asset('assets/services/digitalMarketing/js/script.js') }}" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
-
 @endpush
 @section('content')
 
@@ -25,7 +24,9 @@
                 <p class="hero-eyebrow">Digital Marketing Services</p>
                 <h1>Digital Marketing Agency & <br> Advertising Experts Transforming<br> Your Online Presence</h1>
                 <p class="hero-subtitle">
-                   Cloud Technologies Ltd is a leading digital marketing and advertising agency delivering data-driven strategies, targeted campaigns, and innovative solutions to help businesses strengthen their online presence and achieve measurable growth.
+                    Cloud Technologies Ltd is a leading digital marketing and advertising agency delivering data-driven
+                    strategies, targeted campaigns, and innovative solutions to help businesses strengthen their online
+                    presence and achieve measurable growth.
                 </p>
 
                 <div class="hero-actions">
@@ -57,39 +58,44 @@
             <div class="section-header">
                 <h2>Why Cloud Technologies Ltd?</h2>
                 <p>
-                    Cloud Technologies Ltd delivers tailored digital marketing and advertising solutions that drive real growth, backed by data, innovation, and expert execution.</p>
+                    Cloud Technologies Ltd delivers tailored digital marketing and advertising solutions that drive real
+                    growth, backed by data, innovation, and expert execution.</p>
             </div>
 
             <div class="grid grid-4 why-grid">
                 <article class="card why-card">
-<i class="ri-award-line why-icon icon-indigo"></i>
+                    <i class="ri-award-line why-icon icon-indigo"></i>
                     <h3>Proven Track Record</h3>
                     <p>
-                        As a trusted digital marketing company, we deliver measurable results through high-performing campaigns that drive growth and long-term success for businesses of all sizes.
+                        As a trusted digital marketing company, we deliver measurable results through high-performing
+                        campaigns that drive growth and long-term success for businesses of all sizes.
                     </p>
                 </article>
 
                 <article class="card why-card">
-<i class="ri-team-line why-icon icon-cyan"></i>
+                    <i class="ri-team-line why-icon icon-cyan"></i>
                     <h3>Expert Team</h3>
                     <p>
-                      Our digital marketing agency is powered by an expert team of strategists, creators, and analysts dedicated to crafting impactful marketing solutions that elevate your brand.
+                        Our digital marketing agency is powered by an expert team of strategists, creators, and analysts
+                        dedicated to crafting impactful marketing solutions that elevate your brand.
                     </p>
                 </article>
 
                 <article class="card why-card">
-<i class="ri-line-chart-line why-icon icon-pink"></i>
+                    <i class="ri-line-chart-line why-icon icon-pink"></i>
                     <h3>Data‑Driven Approach</h3>
                     <p>
-                        As a results-focused digital marketing company, we use advanced analytics and real-time data to build smarter strategies that maximize visibility, conversions, and ROI.
+                        As a results-focused digital marketing company, we use advanced analytics and real-time data to
+                        build smarter strategies that maximize visibility, conversions, and ROI.
                     </p>
                 </article>
 
                 <article class="card why-card">
-<i class="ri-customer-service-2-line why-icon icon-amber"></i>
+                    <i class="ri-customer-service-2-line why-icon icon-amber"></i>
                     <h3>Dedicated Support</h3>
                     <p>
-                       Our digital marketing agency provides reliable, dedicated support to ensure your campaigns run smoothly, stay optimized, and continuously deliver strong performance.
+                        Our digital marketing agency provides reliable, dedicated support to ensure your campaigns run
+                        smoothly, stay optimized, and continuously deliver strong performance.
                     </p>
                 </article>
             </div>
@@ -102,7 +108,8 @@
             <div class="section-header">
                 <h2>Comprehensive Digital Marketing Services</h2>
                 <p>
-                    End-to-end digital marketing services designed to boost visibility, drive engagement, and accelerate business growth across all online channels.
+                    End-to-end digital marketing services designed to boost visibility, drive engagement, and accelerate
+                    business growth across all online channels.
                 </p>
             </div>
 
@@ -114,7 +121,9 @@
                         <h3><a href="{{ route('services.digi-marketing.national-seo') }}">National SEO</a></h3>
                     </div>
                     <p>
-                        National SEO helps businesses rank across the country with targeted strategies designed to increase visibility, drive qualified traffic, and grow brand authority. Reach customers nationwide with optimized content, links, and performance-focused tactics.
+                        National SEO helps businesses rank across the country with targeted strategies designed to increase
+                        visibility, drive qualified traffic, and grow brand authority. Reach customers nationwide with
+                        optimized content, links, and performance-focused tactics.
                     </p>
                     <a href="{{ route('services.digi-marketing.national-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -125,7 +134,9 @@
                         <h3><a href="{{ route('services.digi-marketing.international-seo') }}">International SEO</a></h3>
                     </div>
                     <p>
-                        International SEO helps your business reach global audiences by optimizing your website for multiple countries and languages. Strengthen worldwide visibility, attract international customers, and grow your brand across borders with targeted global strategies.
+                        International SEO helps your business reach global audiences by optimizing your website for multiple
+                        countries and languages. Strengthen worldwide visibility, attract international customers, and grow
+                        your brand across borders with targeted global strategies.
                     </p>
                     <a href="{{ route('services.digi-marketing.international-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -136,7 +147,9 @@
                         <h3><a href="{{ route('services.digi-marketing.technical-seo') }}">Technical SEO</a></h3>
                     </div>
                     <p>
-                        Technical SEO improves your website’s speed, structure, and crawlability to ensure search engines can properly access, index, and rank your pages. This leads to better performance, higher visibility, and stronger overall SEO results.
+                        Technical SEO improves your website’s speed, structure, and crawlability to ensure search engines
+                        can properly access, index, and rank your pages. This leads to better performance, higher
+                        visibility, and stronger overall SEO results.
                     </p>
                     <a href="{{ route('services.digi-marketing.technical-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -148,7 +161,9 @@
                         <h3><a href="{{ route('services.digi-marketing.content-seo') }}">Content SEO</a></h3>
                     </div>
                     <p>
-                       Content SEO focuses on creating high-quality, keyword-optimized content that attracts search engines and engages users. It helps increase rankings, drive targeted traffic, and convert visitors through strategic content planning and optimization.
+                        Content SEO focuses on creating high-quality, keyword-optimized content that attracts search engines
+                        and engages users. It helps increase rankings, drive targeted traffic, and convert visitors through
+                        strategic content planning and optimization.
                     </p>
                     <a href="{{ route('services.digi-marketing.content-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -156,11 +171,14 @@
                 <article class="card service-card">
                     <div class="service-header">
                         <div class="service-strip strip-amber"></div>
-                        <h3><a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}">Google Business Profile
-                                </a></h3>
+                        <h3><a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}">Google
+                                Business Profile
+                            </a></h3>
                     </div>
                     <p>
-                        Google Business Profile optimization enhances your local visibility by improving your business listing with accurate information, keywords, posts, and customer reviews. This boosts map rankings, increases engagement, and drives more local traffic and leads.
+                        Google Business Profile optimization enhances your local visibility by improving your business
+                        listing with accurate information, keywords, posts, and customer reviews. This boosts map rankings,
+                        increases engagement, and drives more local traffic and leads.
                     </p>
                     <a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}"
                         class="service-link">Learn More</a>
@@ -185,7 +203,9 @@
                         <h3><a href="{{ route('services.digi-marketing.local-seo') }}">Local SEO</a></h3>
                     </div>
                     <p>
-                        Local SEO helps your business appear in nearby searches by optimizing maps listings, local keywords, citations, and reviews. It drives more foot traffic, calls, and leads from customers in your area, boosting your visibility in local search results.
+                        Local SEO helps your business appear in nearby searches by optimizing maps listings, local keywords,
+                        citations, and reviews. It drives more foot traffic, calls, and leads from customers in your area,
+                        boosting your visibility in local search results.
                     </p>
                     <a href="{{ route('services.digi-marketing.local-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -196,7 +216,9 @@
                         <h3><a href="{{ route('services.digi-marketing.ecommerce-seo') }}">eCommerce SEO</a></h3>
                     </div>
                     <p>
-                        eCommerce SEO enhances product pages, category structures, and technical performance to improve visibility and increase online sales. It attracts high-intent shoppers through keyword optimization, improved UX, and optimized product listings.
+                        eCommerce SEO enhances product pages, category structures, and technical performance to improve
+                        visibility and increase online sales. It attracts high-intent shoppers through keyword optimization,
+                        improved UX, and optimized product listings.
                     </p>
                     <a href="{{ route('services.digi-marketing.ecommerce-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -207,7 +229,9 @@
                         <h3><a href="{{ route('services.digi-marketing.on-page-seo') }}">On-Page SEO</a></h3>
                     </div>
                     <p>
-                       On-Page SEO strengthens your website by optimizing titles, meta tags, content, URLs, and internal links. These improvements increase search engine visibility, boost user experience, and help your pages rank higher for targeted keywords.
+                        On-Page SEO strengthens your website by optimizing titles, meta tags, content, URLs, and internal
+                        links. These improvements increase search engine visibility, boost user experience, and help your
+                        pages rank higher for targeted keywords.
                     </p>
                     <a href="{{ route('services.digi-marketing.on-page-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -219,7 +243,9 @@
                         <h3><a href="{{ route('services.digi-marketing.off-page-seo') }}">Off-Page SEO</a></h3>
                     </div>
                     <p>
-                        Off-Page SEO builds your website’s authority through strategic link building, digital PR, citations, and brand mentions. These efforts improve domain trust, increase rankings, and expand your online presence across relevant industry platforms.
+                        Off-Page SEO builds your website’s authority through strategic link building, digital PR, citations,
+                        and brand mentions. These efforts improve domain trust, increase rankings, and expand your online
+                        presence across relevant industry platforms.
                     </p>
                     <a href="{{ route('services.digi-marketing.off-page-seo') }}" class="service-link">Learn More</a>
                 </article>
@@ -230,7 +256,9 @@
                         <h3><a href="{{ route('services.digi-marketing.meta-ads-services') }}">Meta Ads Services</a></h3>
                     </div>
                     <p>
-                        Meta Ads Services help grow your brand through targeted Facebook and Instagram campaigns designed to reach the right audience. With optimized creatives, precise targeting, and performance tracking, you gain more traffic, leads, and conversions.
+                        Meta Ads Services help grow your brand through targeted Facebook and Instagram campaigns designed to
+                        reach the right audience. With optimized creatives, precise targeting, and performance tracking, you
+                        gain more traffic, leads, and conversions.
                     </p>
                     <a href="{{ route('services.digi-marketing.meta-ads-services') }}" class="service-link">Learn
                         More</a>
@@ -242,7 +270,9 @@
                         <h3><a href="{{ route('services.digi-marketing.ppc-services') }}">PPC Services</a></h3>
                     </div>
                     <p>
-                        PPC Services deliver measurable results by running paid advertising campaigns on platforms like Google Ads. With keyword targeting, optimized ad copy, and strategic bidding, PPC drives qualified traffic and improves ROI for your business.
+                        PPC Services deliver measurable results by running paid advertising campaigns on platforms like
+                        Google Ads. With keyword targeting, optimized ad copy, and strategic bidding, PPC drives qualified
+                        traffic and improves ROI for your business.
                     </p>
                     <a href="{{ route('services.digi-marketing.ppc-services') }}" class="service-link">Learn More</a>
                 </article>
@@ -254,7 +284,9 @@
                         <h3><a href="{{ route('services.digi-marketing.smm-services') }}">SMM Services</a></h3>
                     </div>
                     <p>
-                       SMM Services strengthen your brand’s online presence through strategic social media marketing, engaging content, and community building. This boosts brand awareness, increases followers, and drives consistent engagement across major social platforms.
+                        SMM Services strengthen your brand’s online presence through strategic social media marketing,
+                        engaging content, and community building. This boosts brand awareness, increases followers, and
+                        drives consistent engagement across major social platforms.
                     </p>
                     <a href="{{ route('services.digi-marketing.smm-services') }}" class="service-link">Learn More</a>
                 </article>
@@ -269,7 +301,7 @@
             <div class="section-header">
                 <h2>Our Proven Process</h2>
                 <p>
-                   A clear, results-driven process to plan, execute, and optimize your digital growth.</p>
+                    A clear, results-driven process to plan, execute, and optimize your digital growth.</p>
             </div>
 
             <div class="grid grid-5 process-grid">
@@ -277,7 +309,8 @@
                     <div class="process-step">1</div>
                     <h3>Discovery &amp; Audit</h3>
                     <p>
-                        We begin by analyzing your brand, competitors, and current digital performance to identify opportunities and uncover issues affecting visibility and growth.
+                        We begin by analyzing your brand, competitors, and current digital performance to identify
+                        opportunities and uncover issues affecting visibility and growth.
                     </p>
                 </article>
 
@@ -285,7 +318,8 @@
                     <div class="process-step">2</div>
                     <h3>Strategy Development</h3>
                     <p>
-                        Based on insights, we create a customized digital marketing strategy focused on boosting visibility, driving traffic, and achieving your business goals.
+                        Based on insights, we create a customized digital marketing strategy focused on boosting visibility,
+                        driving traffic, and achieving your business goals.
                     </p>
                 </article>
 
@@ -293,7 +327,8 @@
                     <div class="process-step">3</div>
                     <h3>Implementation</h3>
                     <p>
-                        Our team executes the plan with precision—optimizing your website, running campaigns, and applying proven digital marketing techniques for maximum impact.
+                        Our team executes the plan with precision—optimizing your website, running campaigns, and applying
+                        proven digital marketing techniques for maximum impact.
                     </p>
                 </article>
 
@@ -301,7 +336,8 @@
                     <div class="process-step">4</div>
                     <h3>Monitor &amp; Analyse</h3>
                     <p>
-                        We continuously track performance, measure key metrics, and review campaign data to ensure everything is performing at its highest potential.
+                        We continuously track performance, measure key metrics, and review campaign data to ensure
+                        everything is performing at its highest potential.
                     </p>
                 </article>
 
@@ -309,7 +345,8 @@
                     <div class="process-step">5</div>
                     <h3>Optimise &amp; Scale</h3>
                     <p>
-                        Using real-time insights, we refine strategies, improve results, and scale your marketing efforts to drive consistent growth and long-term success.
+                        Using real-time insights, we refine strategies, improve results, and scale your marketing efforts to
+                        drive consistent growth and long-term success.
                     </p>
                 </article>
             </div>
@@ -322,7 +359,8 @@
             <div class="section-header section-header-light">
                 <h2>Client Success Stories</h2>
                 <p>
-                    Our clients’ success highlights the effectiveness of our tailored digital marketing services and long-term growth partnerships.
+                    Our clients’ success highlights the effectiveness of our tailored digital marketing services and
+                    long-term growth partnerships.
                 </p>
             </div>
 
@@ -332,7 +370,8 @@
                     <h3>Search Visibility Drives Growth</h3>
                     <!-- <p class="success-role">Marketing Director, TechStart Solutions</p> -->
                     <p class="success-quote">
-                       Most online journeys begin with a search, making strong SEO essential for gaining visibility and attracting potential customers.
+                        Most online journeys begin with a search, making strong SEO essential for gaining visibility and
+                        attracting potential customers.
                     </p>
                 </article>
 
@@ -341,7 +380,8 @@
                     <h3>Online Research Shapes Buying Decisions</h3>
                     <!-- <p class="success-role">CEO, Elite Fitness UK</p> -->
                     <p class="success-quote">
-                       Consumers routinely research brands online before purchasing, highlighting the importance of a solid digital presence.
+                        Consumers routinely research brands online before purchasing, highlighting the importance of a solid
+                        digital presence.
                     </p>
                 </article>
 
@@ -350,7 +390,8 @@
                     <h3>Social Media Builds Brand Discovery</h3>
                     <!-- <p class="success-role">E‑commerce Manager, Luxe Fashion Store</p> -->
                     <p class="success-quote">
-                        Social platforms play a major role in how people find and engage with brands, making consistent social activity crucial.
+                        Social platforms play a major role in how people find and engage with brands, making consistent
+                        social activity crucial.
                     </p>
                 </article>
                 <article class="card success-card">
@@ -358,7 +399,8 @@
                     <h3>Data-Driven Marketing Boosts Performance</h3>
                     <!-- <p class="success-role">E‑commerce Manager, Luxe Fashion Store</p> -->
                     <p class="success-quote">
-                       Businesses that rely on analytics make smarter decisions, optimize campaigns effectively, and achieve stronger long-term results.
+                        Businesses that rely on analytics make smarter decisions, optimize campaigns effectively, and
+                        achieve stronger long-term results.
                     </p>
                 </article>
             </div>
@@ -367,45 +409,45 @@
 
     <!-- DIGITAL MARKETING INSIGHTS -->
     <!-- <section class="section section-alt" id="insights">
-        <div class="container">
-            <div class="section-header">
-                <h2>Digital Marketing Insights</h2>
-                <p>
-                    Stay ahead with the latest trends and statistics in digital marketing.
-                </p>
+            <div class="container">
+                <div class="section-header">
+                    <h2>Digital Marketing Insights</h2>
+                    <p>
+                        Stay ahead with the latest trends and statistics in digital marketing.
+                    </p>
+                </div>
+
+                <div class="grid grid-4 insights-grid">
+                    <article class="card insight-card">
+                        <p class="insight-value">93%</p>
+                        <p class="insight-text">
+                            of online experiences begin with a search engine, making SEO essential.
+                        </p>
+                    </article>
+
+                    <article class="card insight-card">
+                        <p class="insight-value">63%</p>
+                        <p class="insight-text">
+                            of Google searches happen on mobile devices, requiring mobile optimisation.
+                        </p>
+                    </article>
+
+                    <article class="card insight-card">
+                        <p class="insight-value">5.3x</p>
+                        <p class="insight-text">
+                            ROI on average for businesses investing in SEO compared to traditional marketing.
+                        </p>
+                    </article>
+
+                    <article class="card insight-card">
+                        <p class="insight-value">70%</p>
+                        <p class="insight-text">
+                            of marketers say SEO is more effective than PPC for generating sales.
+                        </p>
+                    </article>
+                </div>
             </div>
-
-            <div class="grid grid-4 insights-grid">
-                <article class="card insight-card">
-                    <p class="insight-value">93%</p>
-                    <p class="insight-text">
-                        of online experiences begin with a search engine, making SEO essential.
-                    </p>
-                </article>
-
-                <article class="card insight-card">
-                    <p class="insight-value">63%</p>
-                    <p class="insight-text">
-                        of Google searches happen on mobile devices, requiring mobile optimisation.
-                    </p>
-                </article>
-
-                <article class="card insight-card">
-                    <p class="insight-value">5.3x</p>
-                    <p class="insight-text">
-                        ROI on average for businesses investing in SEO compared to traditional marketing.
-                    </p>
-                </article>
-
-                <article class="card insight-card">
-                    <p class="insight-value">70%</p>
-                    <p class="insight-text">
-                        of marketers say SEO is more effective than PPC for generating sales.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section> -->
+        </section> -->
 
     <!-- CTA -->
     <section class="section dm-cta" style="margin-top:35px" id="cta">
@@ -414,7 +456,8 @@
                 <div class="cta-main">
                     <h2>Ready to Grow Your Business?</h2>
                     <p>
-                        Start reaching more customers and scaling faster with tailored digital marketing strategies built for your business.
+                        Start reaching more customers and scaling faster with tailored digital marketing strategies built
+                        for your business.
                     </p>
                 </div>
                 <div class="cta-actions dm-cta-actions">
@@ -435,36 +478,50 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- Identifiers --}}
+                <input type="hidden" name="form_key" value="digital_marketing_audit">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <label for="audit_name">Full Name</label>
+                        <input type="text" id="audit_name" name="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <label for="audit_email">Email Address</label>
+                        <input type="email" id="audit_email" name="email" placeholder="name@company.com" required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="website">Website URL</label>
-                        <input type="text" id="website" placeholder="https://">
+                        <label for="audit_website">Website URL</label>
+                        <input type="url" id="audit_website" name="payload[website]" placeholder="https://">
                     </div>
+
                     <div class="form-field">
-                        <label for="goal">Primary Goal</label>
-                        <input type="text" id="goal" placeholder="More leads, sales, visibility, etc.">
+                        <label for="audit_goal">Primary Goal</label>
+                        <input type="text" id="audit_goal" name="payload[goal]"
+                            placeholder="More leads, sales, visibility, etc.">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
-                        <label for="message">Tell us about your business</label>
-                        <textarea id="message" rows="4" placeholder="Industry, target audience, current challenges..."></textarea>
+                        <label for="audit_message">Tell us about your business</label>
+                        <textarea id="audit_message" name="message" rows="4"
+                            placeholder="Industry, target audience, current challenges..." required></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
         </div>
     </section>
+
 
 @endsection

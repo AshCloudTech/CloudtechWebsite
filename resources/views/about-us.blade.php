@@ -461,40 +461,57 @@
             <div class="section-header">
                 <h2>Contact Our Team</h2>
                 <p>
-                    Share a few details and we’ll connect you with the right experts at Cloud Technologies.
+                    Share a few details and we’ll connect you with the right experts at
+                    {{ $globalCompany?->brand_name ?? 'Cloud Technologies' }}.
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- 🔐 FORM IDENTIFIERS (VERY IMPORTANT) --}}
+                <input type="hidden" name="form_key" value="contact_team">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
                         <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <input type="email" name="email" id="email" placeholder="name@company.com" required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
                         <label for="company">Company</label>
-                        <input type="text" id="company" placeholder="Organisation name">
+                        <input type="text" name="payload[company]" id="company" placeholder="Organisation name">
                     </div>
+
                     <div class="form-field">
                         <label for="role">Your Role</label>
-                        <input type="text" id="role" placeholder="Director, CTO, Head of IT, etc.">
+                        <input type="text" name="payload[role]" id="role"
+                            placeholder="Director, CTO, Head of IT">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
                         <label for="message">How can we help?</label>
-                        <textarea id="message" rows="4" placeholder="Tell us about your goals, challenges, and timelines."></textarea>
+                        <textarea name="message" id="message" rows="4"
+                            placeholder="Tell us about your goals, challenges, and timelines." required></textarea>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit Request</button>
+
+                <button type="submit" class="btn btn-primary">
+                    Submit Request
+                </button>
             </form>
         </div>
     </section>
+
 
 @endsection

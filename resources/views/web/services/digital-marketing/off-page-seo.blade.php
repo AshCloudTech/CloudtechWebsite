@@ -22,7 +22,9 @@
                 <p class="hero-eyebrow">Off-Page SEO Services in UK</p>
                 <h1>Professional Off-Page SEO Services in the UK </h1>
                 <p class="hero-subtitle">
-                   Build website authority and improve search rankings with expert Off-Page SEO services. We strengthen your domain through high-quality backlinks, link building strategies, guest posting, citation building, brand mentions, and authority signals that improve trust and organic visibility.
+                    Build website authority and improve search rankings with expert Off-Page SEO services. We strengthen
+                    your domain through high-quality backlinks, link building strategies, guest posting, citation building,
+                    brand mentions, and authority signals that improve trust and organic visibility.
                 </p>
 
                 <div class="hero-actions">
@@ -32,16 +34,16 @@
             </div>
 
             <!-- <div class="hero-panel">
-                <div class="hero-panel-inner">
-                    <p class="hero-panel-label">Authority Snapshot</p>
-                    <p class="hero-panel-text">
-                        We build authority with a white-hat approach: relevant links, digital PR, content distribution and brand citations—measured with clear reporting and KPIs.
-                    </p>
-                    <ul class="hero-panel-list">
-                        <li>Backlink profile & toxicity</li><li>High-authority placements</li><li>Brand mentions & citations</li><li>Reporting & growth tracking</li>
-                    </ul>
-                </div>
-            </div> -->
+                    <div class="hero-panel-inner">
+                        <p class="hero-panel-label">Authority Snapshot</p>
+                        <p class="hero-panel-text">
+                            We build authority with a white-hat approach: relevant links, digital PR, content distribution and brand citations—measured with clear reporting and KPIs.
+                        </p>
+                        <ul class="hero-panel-list">
+                            <li>Backlink profile & toxicity</li><li>High-authority placements</li><li>Brand mentions & citations</li><li>Reporting & growth tracking</li>
+                        </ul>
+                    </div>
+                </div> -->
         </div>
     </section>
 
@@ -74,14 +76,14 @@
                     <div class="why-icon icon-engagement"></div>
                     <h3>Citation & Directory Submissions </h3>
                     <p>
-                        Build local citations and business listings for stronger local SEO signals. 
+                        Build local citations and business listings for stronger local SEO signals.
                     </p>
                 </article>
                 <article class="card why-card">
                     <div class="why-icon icon-authority"></div>
                     <h3>Improve Domain Authority</h3>
                     <p>
-                       Strengthen website trust, authority, and ranking potential in Google.
+                        Strengthen website trust, authority, and ranking potential in Google.
                     </p>
                 </article>
             </div>
@@ -120,88 +122,88 @@
     </section>
 
     <!-- CONTENT TYPES -->
-<section class="section content-types" id="content-types">
-    <div class="container">
-        <div class="section-header">
-            <h2>Off-Page SEO Activities We Perform </h2>
-            <p>Comprehensive off-page SEO techniques to boost authority and visibility.</p>
+    <section class="section content-types" id="content-types">
+        <div class="container">
+            <div class="section-header">
+                <h2>Off-Page SEO Activities We Perform </h2>
+                <p>Comprehensive off-page SEO techniques to boost authority and visibility.</p>
+            </div>
+
+            <div class="ct-grid">
+                <!-- Card 1 -->
+                <article class="ct-card">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"></div>
+                        <div class="ct-title">
+                            <h3>Guest Posting on Authority Websites</h3>
+                            <p>Guest posts on niche blogs for contextual do-follow backlinks via outreach.</p>
+                        </div>
+                    </div>
+
+                    <ul class="ct-points">
+                        <li>Niche-relevant blogs</li>
+                        <li>Contextual backlinks</li>
+                        <li>Do-follow links</li>
+                        <li>Manual outreach</li>
+                    </ul>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="ct-card">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"></div>
+                        <div class="ct-title">
+                            <h3>Business Listings & Citations</h3>
+                            <p>Accurate business listings and citations to strengthen local SEO and NAP consistency.</p>
+                        </div>
+                    </div>
+
+                    <ul class="ct-points">
+                        <li>Local directory submissions</li>
+                        <li>Google Business citations</li>
+                        <li>NAP consistency</li>
+                        <li>Local SEO signals</li>
+                    </ul>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="ct-card">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"></div>
+                        <div class="ct-title">
+                            <h3>Social Bookmarking & Brand Mentions</h3>
+                            <p>Social sharing and brand mentions to generate referral traffic and authority signals.</p>
+                        </div>
+                    </div>
+
+                    <ul class="ct-points">
+                        <li>Social sharing platforms</li>
+                        <li>Brand signals</li>
+                        <li>Referral traffic</li>
+                        <li>Content promotion</li>
+                    </ul>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="ct-card">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"></div>
+                        <div class="ct-title">
+                            <h3>Forum & Community Engagement</h3>
+                            <p>Relevant forum participation to build trust and maintain a natural backlink profile.</p>
+                        </div>
+                    </div>
+
+                    <ul class="ct-points">
+                        <li>Relevant forum links</li>
+                        <li>Community participation</li>
+                        <li>Trust building</li>
+                        <li>Natural link profile</li>
+                    </ul>
+                </article>
+            </div>
         </div>
-
-        <div class="ct-grid">
-            <!-- Card 1 -->
-            <article class="ct-card">
-                <div class="ct-head">
-                    <div class="ct-icon" aria-hidden="true"></div>
-                    <div class="ct-title">
-                        <h3>Guest Posting on Authority Websites</h3>
-                        <p>Guest posts on niche blogs for contextual do-follow backlinks via outreach.</p>
-                    </div>
-                </div>
-
-                <ul class="ct-points">
-                    <li>Niche-relevant blogs</li>
-                    <li>Contextual backlinks</li>
-                    <li>Do-follow links</li>
-                    <li>Manual outreach</li>
-                </ul>
-            </article>
-
-            <!-- Card 2 -->
-            <article class="ct-card">
-                <div class="ct-head">
-                    <div class="ct-icon" aria-hidden="true"></div>
-                    <div class="ct-title">
-                        <h3>Business Listings & Citations</h3>
-                        <p>Accurate business listings and citations to strengthen local SEO and NAP consistency.</p>
-                    </div>
-                </div>
-
-                <ul class="ct-points">
-                    <li>Local directory submissions</li>
-                    <li>Google Business citations</li>
-                    <li>NAP consistency</li>
-                    <li>Local SEO signals</li>
-                </ul>
-            </article>
-
-            <!-- Card 3 -->
-            <article class="ct-card">
-                <div class="ct-head">
-                    <div class="ct-icon" aria-hidden="true"></div>
-                    <div class="ct-title">
-                        <h3>Social Bookmarking & Brand Mentions</h3>
-                        <p>Social sharing and brand mentions to generate referral traffic and authority signals.</p>
-                    </div>
-                </div>
-
-                <ul class="ct-points">
-                    <li>Social sharing platforms</li>
-                    <li>Brand signals</li>
-                    <li>Referral traffic</li>
-                    <li>Content promotion</li>
-                </ul>
-            </article>
-
-            <!-- Card 4 -->
-            <article class="ct-card">
-                <div class="ct-head">
-                    <div class="ct-icon" aria-hidden="true"></div>
-                    <div class="ct-title">
-                        <h3>Forum & Community Engagement</h3>
-                        <p>Relevant forum participation to build trust and maintain a natural backlink profile.</p>
-                    </div>
-                </div>
-
-                <ul class="ct-points">
-                    <li>Relevant forum links</li>
-                    <li>Community participation</li>
-                    <li>Trust building</li>
-                    <li>Natural link profile</li>
-                </ul>
-            </article>
-        </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- INCLUDED -->
@@ -210,17 +212,17 @@
             <div class="section-header">
                 <h2>What’s Included in Our Off-Page SEO Service?</h2>
                 <p>
-                   Complete off-page optimisation for authority and ranking growth.
+                    Complete off-page optimisation for authority and ranking growth.
                 </p>
             </div>
 
             <div class="services-layout">
                 <!-- <div class="services-copy">
-                    <h3>White-hat authority building (no risky shortcuts)</h3>
-                    <p class="services-intro">
-                        We focus on relevance, trust and long-term growth—clean link acquisition, PR and citations with measurable improvements to authority and rankings.
-                    </p>
-                </div> -->
+                        <h3>White-hat authority building (no risky shortcuts)</h3>
+                        <p class="services-intro">
+                            We focus on relevance, trust and long-term growth—clean link acquisition, PR and citations with measurable improvements to authority and rankings.
+                        </p>
+                    </div> -->
 
                 <div class="services-cards">
                     <div class="card services-card">
@@ -234,7 +236,7 @@
                             <li>Forum submissions and community links</li>
                             <li>Competitor backlink analysis</li>
                             <li>Monthly backlink and authority reports</li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -249,7 +251,7 @@
                 <div class="cta-main">
                     <h2>Ready to Build Your Website Authority with Off-Page SEO?</h2>
                     <p>
-                        Get a free Off-Page SEO audit and improve your domain authority and rankings. 
+                        Get a free Off-Page SEO audit and improve your domain authority and rankings.
                     </p>
                 </div>
                 <div class="cta-actions offpage-cta-actions">
@@ -270,36 +272,52 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- Identifiers --}}
+                <input type="hidden" name="form_key" value="seo_offpage_enquiry">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <label for="seo_offpage_name">Full Name</label>
+                        <input type="text" id="seo_offpage_name" name="name" placeholder="Enter your name"
+                            required>
                     </div>
+
                     <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <label for="seo_offpage_email">Email Address</label>
+                        <input type="email" id="seo_offpage_email" name="email" placeholder="name@company.com"
+                            required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="website">Website URL</label>
-                        <input type="text" id="website" placeholder="https://">
+                        <label for="seo_offpage_website">Website URL</label>
+                        <input type="url" id="seo_offpage_website" name="payload[website]" placeholder="https://">
                     </div>
+
                     <div class="form-field">
-                        <label for="focus">Your Industry / Niche</label>
-                        <input type="text" id="focus" placeholder="e.g., SaaS, healthcare, recruitment, travel, etc.">
+                        <label for="seo_offpage_industry">Your Industry / Niche</label>
+                        <input type="text" id="seo_offpage_industry" name="payload[industry_niche]"
+                            placeholder="e.g., SaaS, healthcare, recruitment, travel, etc.">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
-                        <label for="message">What’s your authority goal?</label>
-                        <textarea id="message" rows="4" placeholder="More quality links, higher DA, PR placements, brand mentions, etc."></textarea>
+                        <label for="seo_offpage_message">What’s your authority goal?</label>
+                        <textarea id="seo_offpage_message" name="message" rows="4"
+                            placeholder="More quality links, higher DA, PR placements, brand mentions, etc." required></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Enquiry</button>
             </form>
         </div>
     </section>
+
 
 @endsection

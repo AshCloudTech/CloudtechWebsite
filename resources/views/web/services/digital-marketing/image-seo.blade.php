@@ -23,8 +23,11 @@
                 <p class="hero-eyebrow">Image SEO Services</p>
                 <h1>Professional Image<br>&amp; SEO Services in the UK</h1>
                 <p class="hero-subtitle">
-                   Optimize website images for search engines and improve visibility with expert Image SEO services. We improve Google Images rankings through alt tag optimization, image compression, SEO-friendly file names, WebP/AVIF conversion, structured data, and image sitemap implementation for faster loading and better indexing.
-                 </p>
+                    Optimize website images for search engines and improve visibility with expert Image SEO services. We
+                    improve Google Images rankings through alt tag optimization, image compression, SEO-friendly file names,
+                    WebP/AVIF conversion, structured data, and image sitemap implementation for faster loading and better
+                    indexing.
+                </p>
 
                 <div class="hero-actions">
                     <a href="#cta" class="btn btn-lg btn-primary">Get Free SEO Audit</a>
@@ -33,16 +36,16 @@
             </div>
 
             <!-- <div class="hero-panel">
-                <div class="hero-panel-inner">
-                    <p class="hero-panel-label">Image SEO Snapshot</p>
-                    <p class="hero-panel-text">
-                        We audit your images end-to-end (format, compression, alt text, delivery and indexing) and deliver quick wins that improve visibility in Google Images and your Core Web Vitals.
-                    </p>
-                    <ul class="hero-panel-list">
-                        <li>Alt text & accessibility</li><li>Compression & next-gen formats</li><li>Lazy loading & responsive images</li><li>Image sitemaps & structured data</li>
-                    </ul>
-                </div>
-            </div> -->
+                    <div class="hero-panel-inner">
+                        <p class="hero-panel-label">Image SEO Snapshot</p>
+                        <p class="hero-panel-text">
+                            We audit your images end-to-end (format, compression, alt text, delivery and indexing) and deliver quick wins that improve visibility in Google Images and your Core Web Vitals.
+                        </p>
+                        <ul class="hero-panel-list">
+                            <li>Alt text & accessibility</li><li>Compression & next-gen formats</li><li>Lazy loading & responsive images</li><li>Image sitemaps & structured data</li>
+                        </ul>
+                    </div>
+                </div> -->
         </div>
     </section>
 
@@ -52,8 +55,8 @@
             <div class="section-header">
                 <h2>Why Choose Our Image SEO Services in the UK?</h2>
                 <!-- <p>
-                    Drive organic traffic from across the UK with our comprehensive image SEO strategies.
-                </p> -->
+                        Drive organic traffic from across the UK with our comprehensive image SEO strategies.
+                    </p> -->
             </div>
 
             <div class="grid grid-4 why-grid">
@@ -82,7 +85,7 @@
                     <div class="why-icon icon-authority"></div>
                     <h3>Improve Google Images Rankings </h3>
                     <p>
-                       Optimise images to rank higher in Google Images and visual search results.
+                        Optimise images to rank higher in Google Images and visual search results.
                     </p>
                 </article>
             </div>
@@ -95,8 +98,8 @@
             <div class="section-header section-header-light">
                 <h2>Our Image SEO Process</h2>
                 <!-- <p>
-                    A comprehensive 4-step approach to optimize your visual content.
-                </p> -->
+                        A comprehensive 4-step approach to optimize your visual content.
+                    </p> -->
             </div>
 
             <div class="grid grid-4 process-grid">
@@ -122,88 +125,91 @@
 
 
     <!-- CONTENT TYPES -->
-<section class="section content-types" id="content-types">
-    <div class="container">
-        <div class="section-header">
-            <h2>Image Types We Optimise for SEO</h2>
-            <!-- <p>Comprehensive content SEO services for all types of business content</p> -->
+    <section class="section content-types" id="content-types">
+        <div class="container">
+            <div class="section-header">
+                <h2>Image Types We Optimise for SEO</h2>
+                <!-- <p>Comprehensive content SEO services for all types of business content</p> -->
+            </div>
+
+            <div class="ct-grid">
+                <!-- Card 1 -->
+                <article class="ct-card">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"></div>
+                        <div class="ct-title">
+                            <h3>Blog Posts &amp; Articles Graphics SEO</h3>
+                            <p>Optimised blog images with alt tags, SEO file names, and compression for better Google Images
+                                visibility.</p>
+                        </div>
+                    </div>
+
+                    <ul class="ct-points">
+                        <li>Alt tag optimisation</li>
+                        <li>SEO file naming</li>
+                        <li>Image compression</li>
+                        <li>Context relevance</li>
+                    </ul>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="ct-card">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"></div>
+                        <div class="ct-title">
+                            <h3>Landing Page Image Optimisation</h3>
+                            <p>Next-gen formats, responsive sizing, and lazy loading for faster pages and better SEO.</p>
+                        </div>
+                    </div>
+
+                    <ul class="ct-points">
+                        <li>WebP / AVIF format</li>
+                        <li>Responsive images</li>
+                        <li>Lazy loading</li>
+                        <li>Image metadata</li>
+                    </ul>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="ct-card">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"></div>
+                        <div class="ct-title">
+                            <h3>Product and E-commerce Image SEO </h3>
+                            <p>Product images optimised for faster loading, better indexing, and improved search visibility.
+                            </p>
+                        </div>
+                    </div>
+
+                    <ul class="ct-points">
+                        <li>Product image optimisation</li>
+                        <li>Schema markup for images</li>
+                        <li>Image zoom optimisation</li>
+                        <li>Thumbnail optimisation</li>
+                    </ul>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="ct-card">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"></div>
+                        <div class="ct-title">
+                            <h3>Technical and Website Graphics Optimisation </h3>
+                            <p>Structured data, image sitemaps, and indexing fixes for stronger technical SEO performance.
+                            </p>
+                        </div>
+                    </div>
+
+                    <ul class="ct-points">
+                        <li>Image sitemap</li>
+                        <li>Structured data</li>
+                        <li>Fix indexing issues</li>
+                        <li>Core Web Vitals optimisation</li>
+                    </ul>
+                </article>
+            </div>
         </div>
-
-        <div class="ct-grid">
-            <!-- Card 1 -->
-            <article class="ct-card">
-                <div class="ct-head">
-                    <div class="ct-icon" aria-hidden="true"></div>
-                    <div class="ct-title">
-                        <h3>Blog Posts &amp; Articles Graphics SEO</h3>
-                        <p>Optimised blog images with alt tags, SEO file names, and compression for better Google Images visibility.</p>
-                    </div>
-                </div>
-
-                <ul class="ct-points">
-                    <li>Alt tag optimisation</li>
-                    <li>SEO file naming</li>
-                    <li>Image compression</li>
-                    <li>Context relevance</li>
-                </ul>
-            </article>
-
-            <!-- Card 2 -->
-            <article class="ct-card">
-                <div class="ct-head">
-                    <div class="ct-icon" aria-hidden="true"></div>
-                    <div class="ct-title">
-                        <h3>Landing Page Image Optimisation</h3>
-                        <p>Next-gen formats, responsive sizing, and lazy loading for faster pages and better SEO.</p>
-                    </div>
-                </div>
-
-                <ul class="ct-points">
-                    <li>WebP / AVIF format</li>
-                    <li>Responsive images</li>
-                    <li>Lazy loading</li>
-                    <li>Image metadata</li>
-                </ul>
-            </article>
-
-            <!-- Card 3 -->
-            <article class="ct-card">
-                <div class="ct-head">
-                    <div class="ct-icon" aria-hidden="true"></div>
-                    <div class="ct-title">
-                        <h3>Product and E-commerce Image SEO </h3>
-                        <p>Product images optimised for faster loading, better indexing, and improved search visibility.</p>
-                    </div>
-                </div>
-
-                <ul class="ct-points">
-                    <li>Product image optimisation</li>
-                    <li>Schema markup for images</li>
-                    <li>Image zoom optimisation</li>
-                    <li>Thumbnail optimisation</li>
-                </ul>
-            </article>
-
-            <!-- Card 4 -->
-            <article class="ct-card">
-                <div class="ct-head">
-                    <div class="ct-icon" aria-hidden="true"></div>
-                    <div class="ct-title">
-                        <h3>Technical and Website Graphics Optimisation </h3>
-                        <p>Structured data, image sitemaps, and indexing fixes for stronger technical SEO performance.</p>
-                    </div>
-                </div>
-
-                <ul class="ct-points">
-                    <li>Image sitemap</li>
-                    <li>Structured data</li>
-                    <li>Fix indexing issues</li>
-                    <li>Core Web Vitals optimisation</li>
-                </ul>
-            </article>
-        </div>
-    </div>
-</section>
+    </section>
 
     <!-- INCLUDED -->
     <section class="section" id="included">
@@ -211,17 +217,17 @@
             <div class="section-header">
                 <h2>What’s Included in Our Image SEO Services?</h2>
                 <!-- <p>
-                    Comprehensive image optimization to boost your site’s performance and visibility.
-                </p> -->
+                        Comprehensive image optimization to boost your site’s performance and visibility.
+                    </p> -->
             </div>
 
             <div class="services-layout">
                 <!-- <div class="services-copy">
-                    <h3>Complete image optimisation that supports rankings + speed</h3>
-                    <p class="services-intro">
-                        From file formats to metadata and delivery, we optimise the full image pipeline so your pages load faster and your visuals can rank in Google Images.
-                    </p>
-                </div> -->
+                        <h3>Complete image optimisation that supports rankings + speed</h3>
+                        <p class="services-intro">
+                            From file formats to metadata and delivery, we optimise the full image pipeline so your pages load faster and your visuals can rank in Google Images.
+                        </p>
+                    </div> -->
 
                 <div class="services-cards">
                     <div class="card services-card">
@@ -252,7 +258,7 @@
                     <h2>Ready to Optimise Your Website Images for Search Engines? </h2>
                     <p>
                         Get a free Image SEO audit and improve your Google Images ranking and page speed.
-                     </p>
+                    </p>
                 </div>
                 <div class="cta-actions image-cta-actions">
                     <a href="#contact-form" class="btn btn-primary">Get Free SEO Audit</a>
@@ -272,36 +278,50 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- Identifiers --}}
+                <input type="hidden" name="form_key" value="seo_image_enquiry">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <label for="seo_img_name">Full Name</label>
+                        <input type="text" id="seo_img_name" name="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <label for="seo_img_email">Email Address</label>
+                        <input type="email" id="seo_img_email" name="email" placeholder="name@company.com" required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="website">Website URL</label>
-                        <input type="text" id="website" placeholder="https://">
+                        <label for="seo_img_website">Website URL</label>
+                        <input type="url" id="seo_img_website" name="payload[website]" placeholder="https://">
                     </div>
+
                     <div class="form-field">
-                        <label for="focus">Main Image Focus</label>
-                        <input type="text" id="focus" placeholder="Product images, blog images, portfolio, etc.">
+                        <label for="seo_img_focus">Main Image Focus</label>
+                        <input type="text" id="seo_img_focus" name="payload[image_focus]"
+                            placeholder="Product images, blog images, portfolio, etc.">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
-                        <label for="message">What do you want to improve?</label>
-                        <textarea id="message" rows="4" placeholder="Google Images traffic, Core Web Vitals, page speed, accessibility, etc."></textarea>
+                        <label for="seo_img_message">What do you want to improve?</label>
+                        <textarea id="seo_img_message" name="message" rows="4"
+                            placeholder="Google Images traffic, Core Web Vitals, page speed, accessibility, etc." required></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Enquiry</button>
             </form>
         </div>
     </section>
+
 
 @endsection

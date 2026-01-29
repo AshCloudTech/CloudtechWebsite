@@ -23,7 +23,8 @@
                 <p class="hero-eyebrow">Meta Ads Services</p>
                 <h1>Maximize Performance with Meta Advertising</h1>
                 <p class="hero-subtitle">
-                    Powerful Meta advertising solutions designed to reach the right audience, increase engagement, and drive measurable business growth across all Meta platforms.
+                    Powerful Meta advertising solutions designed to reach the right audience, increase engagement, and drive
+                    measurable business growth across all Meta platforms.
                 </p>
                 <div class="hero-actions">
                     <a href="#cta" class="btn btn-lg btn-accent">Get Meta Ads Audit</a>
@@ -50,7 +51,8 @@
         <div class="container">
             <div class="section-header">
                 <h2>Why Choose Meta Ads?</h2>
-                <p>Meta Ads offer extensive reach, advanced targeting, and high-performing ad formats that help brands scale quickly and effectively.</p>
+                <p>Meta Ads offer extensive reach, advanced targeting, and high-performing ad formats that help brands scale
+                    quickly and effectively.</p>
             </div>
 
             <div class="grid grid-4 why-grid">
@@ -90,10 +92,10 @@
                 <article class="card platform-card">
                     <h3>Facebook Feed</h3>
                     <p class="platform-meta"> High-impact placements designed to engage Facebook users effectively.</p>
-                        <li>Image Ads</li>
-                        <li>Video Ads</li>
-                        <li>Carousel Ads</li>
-                        <li>Collection Ads</li>
+                    <li>Image Ads</li>
+                    <li>Video Ads</li>
+                    <li>Carousel Ads</li>
+                    <li>Collection Ads</li>
                     </ul>
                 </article>
 
@@ -200,7 +202,8 @@
                 <div class="services-copy">
                     <h2>Complete Meta Ads Management</h2>
                     <p class="services-intro">
-                       Comprehensive Meta advertising services built to plan, launch, optimize, and scale high-performing ad campaigns.
+                        Comprehensive Meta advertising services built to plan, launch, optimize, and scale high-performing
+                        ad campaigns.
                     </p>
                     <ul class="services-list">
                         <li>Campaign Strategy and Planning </li>
@@ -213,65 +216,65 @@
                         <li>Retargeting Setup and Optimization </li>
                         <li>Performance Monitoring and Adjustments </li>
                         <li>Reporting and Data Insights </li>
-                        
+
                     </ul>
                 </div>
                 <!-- <div class="services-panel" aria-hidden="true">
-                    <div class="services-panel-inner">
-                        <p class="panel-label">Meta Ads Overview</p>
-                        <p class="panel-text">
-                            A consolidated view of reach, clicks, leads and sales across all your Meta
-                            advertising campaigns.
-                        </p>
-                        <p class="panel-meta">
-                            Built for marketing teams that want clear, actionable insight on what&apos;s working.
-                        </p>
-                    </div>
-                </div> -->
+                        <div class="services-panel-inner">
+                            <p class="panel-label">Meta Ads Overview</p>
+                            <p class="panel-text">
+                                A consolidated view of reach, clicks, leads and sales across all your Meta
+                                advertising campaigns.
+                            </p>
+                            <p class="panel-meta">
+                                Built for marketing teams that want clear, actionable insight on what&apos;s working.
+                            </p>
+                        </div>
+                    </div> -->
             </div>
         </div>
     </section>
 
     <!-- META ADS PROCESS -->
     <!-- <section class="section section-process" id="process">
-        <div class="container">
-            <div class="section-header section-header-light">
-                <h2>Our Meta Ads Process</h2>
-                <p>A proven approach to social media advertising success</p>
-            </div>
+            <div class="container">
+                <div class="section-header section-header-light">
+                    <h2>Our Meta Ads Process</h2>
+                    <p>A proven approach to social media advertising success</p>
+                </div>
 
-            <div class="grid grid-4 process-grid">
-                <article class="card process-card">
-                    <div class="process-step">1</div>
-                    <h3>Audience Research</h3>
-                    <p>
-                        Identify and analyse your target audience on social media.
-                    </p>
-                </article>
-                <article class="card process-card">
-                    <div class="process-step">2</div>
-                    <h3>Creative Development</h3>
-                    <p>
-                        Create compelling ad creatives that resonate with your audience.
-                    </p>
-                </article>
-                <article class="card process-card">
-                    <div class="process-step">3</div>
-                    <h3>Campaign Launch</h3>
-                    <p>
-                        Launch targeted campaigns across Facebook and Instagram.
-                    </p>
-                </article>
-                <article class="card process-card">
-                    <div class="process-step">4</div>
-                    <h3>Optimise &amp; Scale</h3>
-                    <p>
-                        Continuously optimise and scale successful campaigns.
-                    </p>
-                </article>
+                <div class="grid grid-4 process-grid">
+                    <article class="card process-card">
+                        <div class="process-step">1</div>
+                        <h3>Audience Research</h3>
+                        <p>
+                            Identify and analyse your target audience on social media.
+                        </p>
+                    </article>
+                    <article class="card process-card">
+                        <div class="process-step">2</div>
+                        <h3>Creative Development</h3>
+                        <p>
+                            Create compelling ad creatives that resonate with your audience.
+                        </p>
+                    </article>
+                    <article class="card process-card">
+                        <div class="process-step">3</div>
+                        <h3>Campaign Launch</h3>
+                        <p>
+                            Launch targeted campaigns across Facebook and Instagram.
+                        </p>
+                    </article>
+                    <article class="card process-card">
+                        <div class="process-step">4</div>
+                        <h3>Optimise &amp; Scale</h3>
+                        <p>
+                            Continuously optimise and scale successful campaigns.
+                        </p>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section> -->
+        </section> -->
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">
@@ -300,37 +303,52 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- Identifiers --}}
+                <input type="hidden" name="form_key" value="meta_ads_audit">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <label for="meta_name">Full Name</label>
+                        <input type="text" id="meta_name" name="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <label for="meta_email">Email Address</label>
+                        <input type="email" id="meta_email" name="email" placeholder="name@company.com" required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="company">Brand / Company</label>
-                        <input type="text" id="company" placeholder="Your brand or company name">
+                        <label for="meta_company">Brand / Company</label>
+                        <input type="text" id="meta_company" name="payload[brand_company]"
+                            placeholder="Your brand or company name">
                     </div>
+
                     <div class="form-field">
-                        <label for="monthly-spend">Approx. Monthly Ad Spend</label>
-                        <input type="text" id="monthly-spend" placeholder="e.g. £3k–£15k">
+                        <label for="meta_spend">Approx. Monthly Ad Spend</label>
+                        <input type="text" id="meta_spend" name="payload[monthly_ad_spend]"
+                            placeholder="e.g. £3k–£15k">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
-                        <label for="message">What would you like to improve?</label>
-                        <textarea id="message" rows="4" placeholder="Targeting, lead quality, ROAS, creative performance, etc."></textarea>
+                        <label for="meta_message">What would you like to improve?</label>
+                        <textarea id="meta_message" name="message" rows="4"
+                            placeholder="Targeting, lead quality, ROAS, creative performance, etc." required></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary btn-block">Submit Request</button>
             </form>
         </div>
     </section>
+
 
     <!-- FAQ -->
     <section class="section section-alt section-faq" id="faq">
@@ -338,57 +356,63 @@
             <div class="section-header">
                 <h2>Meta Ads Service FAQs</h2>
             </div>
- 
+
             <div class="faq-wrap">
                 <div class="faq-list">
                     <details class="faq-item">
                         <summary>1.What are Meta Ads and how do they work?</summary>
                         <div class="faq-content">
                             <p>
-                              Meta Ads allow businesses to advertise across Facebook, Instagram, Messenger, and Audience Network using targeted and data-driven campaigns.
+                                Meta Ads allow businesses to advertise across Facebook, Instagram, Messenger, and Audience
+                                Network using targeted and data-driven campaigns.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>2. How effective are Meta Ads for growing a business?</summary>
                         <div class="faq-content">
                             <p>
-                       Meta Ads deliver strong results by combining massive reach, precise targeting, and engaging ad formats that drive leads and sales.</p>
-                    </div>
+                                Meta Ads deliver strong results by combining massive reach, precise targeting, and engaging
+                                ad formats that drive leads and sales.</p>
+                        </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>3. What types of ads can I run on Meta platforms?</summary>
                         <div class="faq-content">
                             <p>
-                             You can run image ads, video ads, carousel ads, story ads, reel ads, and product catalog ads depending on your goals.
+                                You can run image ads, video ads, carousel ads, story ads, reel ads, and product catalog ads
+                                depending on your goals.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>4. Can Meta Ads help with retargeting customers?</summary>
                         <div class="faq-content">
                             <p>
-                            Yes, Meta Ads allow retargeting website visitors, app users, past customers, and engaged audiences to improve conversions.
+                                Yes, Meta Ads allow retargeting website visitors, app users, past customers, and engaged
+                                audiences to improve conversions.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>5. Do you handle ad creatives and copywriting?</summary>
                         <div class="faq-content">
-                            <p>Yes, we create compelling visuals and copy designed to improve click-through rates and overall campaign performance.
+                            <p>Yes, we create compelling visuals and copy designed to improve click-through rates and
+                                overall campaign performance.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>6. How do you measure the success of Meta Ads campaigns?</summary>
                         <div class="faq-content">
                             <p>
-                              We track conversions, leads, sales, cost metrics, and audience behavior to optimize results and provide transparent reporting.
+                                We track conversions, leads, sales, cost metrics, and audience behavior to optimize results
+                                and provide transparent reporting.
                             </p>
                         </div>
                     </details>

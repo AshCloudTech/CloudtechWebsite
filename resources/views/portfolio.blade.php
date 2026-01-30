@@ -1,164 +1,96 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies')
+@section('title', 'Portfolio')
 @section('meta_title', 'Cloud Technologies Ltd – Portfolio')
+
 @push('styles')
 <link rel="stylesheet" href="{{ asset('assets/portfolio/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
 @endpush
+
 @push('scripts')
 <script src="{{ asset('assets/portfolio/js/script.js') }}" defer></script>
 @endpush
 
 @section('content')
 
-
 <section class="hero portfolio-hero" id="portfolio">
-    <div class="container hero-content">
-        <h1>Our Portfolio of Websites</h1>
-        <h3 style="color:#2563EB;">Why Choose Cloud Technologies Ltd?</h3>
-        <p class="subtitle">
-            At Cloud Technologies Ltd, we've built and delivered dozens of websites across platforms like
-            GoDaddy, Wix, Shopify, Squarespace, and WordPress — for businesses in education, law, eCommerce,
-            healthcare, recruitment, logistics, and more. Below, you'll find a showcase of some of our recent
-            projects, grouped by platform.
-        </p>
-
-
-    </div>
+  <div class="container hero-content">
+    <h1>Our Portfolio of Websites</h1>
+    <h3 style="color:#2563EB;">Why Choose Cloud Technologies Ltd?</h3>
+    <p class="subtitle">
+      We’ve built websites across platforms like GoDaddy, Wix, Shopify, Squarespace, WordPress, and custom builds.
+      Below is a showcase of recent projects grouped by platform.
+    </p>
+  </div>
 </section>
 
 <section class="section">
-    <div class="container">
-        <div class="stats-row">
-            <div class="stat"><strong>50+</strong><span>Websites Delivered</span></div>
-            <div class="stat"><strong>6+</strong><span>Platforms Mastered</span></div>
-            <div class="stat"><strong>15+</strong><span>Industries Served</span></div>
-            <div class="stat"><strong>100%</strong><span>Client Satisfaction</span></div>
-        </div>
+  <div class="container">
 
-        <div class="filter-bar">
-    <button class="filter active" data-filter="all">All</button>
-    <button class="filter" data-filter="wordpress">WordPress</button>
-    <button class="filter" data-filter="wix">Wix</button>
-    <button class="filter" data-filter="godaddy">GoDaddy</button>
-    <button class="filter" data-filter="squarespace">Square Space</button>
-    <button class="filter" data-filter="php">PHP/Laravel</button>
-    <button class="filter" data-filter="react">React/Next.js</button>
-</div>
-
-        <div class="portfolio-grid">
-            <!-- 1 -->
-            <article class="project-card" data-category="wordpress">
-                <div class="p-img img1">
-                    <span class="p-tag blue">WordPress</span>
-                    <span class="p-tag white">sport</span>
-                </div>
-                 <div class="card-content">
-                <h3>AK Travels</h3>
-                <p>Professional travel agency website with booking system and destination showcases.</p>
-
-                 <div class="card-footer">
-                        <a href="#" class="p-link">
-                            View Website →
-                        </a>
-                        <span class="live-site">
-                            🌐 Live Site
-                        </span>
-                    </div>
-                 </div>
-            </article>
-
-            <!-- 2 -->
-            <article class="project-card" data-category="wix">
-                <div class="p-img img1">
-                    <span class="p-tag blue">Wix</span>
-                    <span class="p-tag white">sport</span>
-                </div>
-
-                <div class="card-content">
-                    <h3>Woodford Green Cricket Club</h3>
-                    <p>Sports club website with member management and event scheduling</p>
-
-                    <div class="card-footer">
-                        <a href="#" class="p-link">
-                            View Website →
-                        </a>
-                        <span class="live-site">
-                            🌐 Live Site
-                        </span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- 3 -->
-            <article class="project-card" data-category="godaddy">
-                <div class="p-img img1">
-                    <span class="p-tag blue">GoDaddy</span>
-                    <span class="p-tag white">sport</span>
-                </div>
-                <div class="card-content">
-                    <h3>Vape Guru</h3>
-                    <p>E-commerce platform for vaping products with advanced product catalog.</p>
-                    <div class="card-footer">
-                        <a href="#" class="p-link"> View Website →</a>
-                        <span class="live-site">🌐 Live Site</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- 4 -->
-            <article class="project-card" data-category="squarespace">
-                <div class="p-img img1">
-                    <span class="p-tag blue">squarespace</span>
-                    <span class="p-tag white">sport</span>
-                </div>
-                <div class="card-content">
-                    <h3>Michaela Hubbard</h3>
-                    <p>Professional personal website with portfolio and contact features.</p>
-                    <div class="card-footer">
-                        <a href="#" class="p-link"> View Website →</a>
-                        <span class="live-site">🌐 Live Site</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- 5 -->
-            <article class="project-card" data-category="php">
-                <div class="p-img img1">
-                    <span class="p-tag blue">PHP</span>
-                    <span class="p-tag white">sport</span>
-                </div>
-                <div class="card-content">
-                    <h3>Sky Housing</h3>
-                    <p>Housing organization website with property listings and services.</p>
-                    <div class="card-footer">
-                        <a href="#" class="p-link"> View Website →</a>
-                        <span class="live-site">🌐 Live Site</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- 6 -->
-            <article class="project-card" data-category="react">
-                <div class="p-img img1">
-                    <span class="p-tag blue">react</span>
-                    <span class="p-tag white">sport</span>
-                </div>
-                <div class="card-content">
-                    <h3>Right Choice Groups</h3>
-                    <p>Business consulting group with comprehensive service offerings.</p>
-                    <div class="card-footer">
-                        <a href="#" class="p-link"> View Website →</a>
-                        <span class="live-site">🌐 Live Site</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- ... More Cards (Omitted for brevity but added in ZIP) -->
-        </div>
+    {{-- Optional stats: keep static or make a table later --}}
+    <div class="stats-row">
+      <div class="stat"><strong>50+</strong><span>Websites Delivered</span></div>
+      <div class="stat"><strong>6+</strong><span>Platforms Mastered</span></div>
+      <div class="stat"><strong>15+</strong><span>Industries Served</span></div>
+      <div class="stat"><strong>100%</strong><span>Client Satisfaction</span></div>
     </div>
+
+    {{-- Filters --}}
+    <div class="filter-bar">
+      <button class="filter active" data-filter="all">All</button>
+      @foreach($platforms as $p)
+        <button class="filter" data-filter="{{ $p->slug }}">{{ $p->name }}</button>
+      @endforeach
+    </div>
+
+    <div class="portfolio-grid">
+      @forelse($items as $row)
+        <article class="project-card" data-category="{{ $row->platform_slug }}">
+          <div class="p-img"
+               style="
+                 @if($row->thumbnail_image)
+                   background-image:url('{{ asset($row->thumbnail_image) }}');
+                 @endif
+               ">
+            <span class="p-tag blue">{{ $row->platform_name }}</span>
+
+            @if(!empty($row->industry))
+              <span class="p-tag white">{{ $row->industry }}</span>
+            @elseif(!empty($row->tags) && is_array($row->tags) && count($row->tags))
+              <span class="p-tag white">{{ $row->tags[0] }}</span>
+            @endif
+          </div>
+
+          <div class="card-content">
+            <h3>{{ $row->title }}</h3>
+
+            @if(!empty($row->short_description))
+              <p>{{ $row->short_description }}</p>
+            @endif
+
+            <div class="card-footer">
+              @if(!empty($row->website_url))
+                <a href="{{ $row->website_url }}" class="p-link" target="_blank" rel="noopener">
+                  View Website →
+                </a>
+              @else
+                <span class="p-link" style="opacity:.65;">Website link unavailable</span>
+              @endif
+
+              @if($row->is_live)
+                <span class="live-site">🌐 Live Site</span>
+              @endif
+            </div>
+          </div>
+        </article>
+      @empty
+        <p>No portfolio items found.</p>
+      @endforelse
+    </div>
+
+  </div>
 </section>
 
 <section class="why-us" id="stats">

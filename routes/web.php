@@ -22,11 +22,15 @@ use App\Http\Controllers\Admin\CompanySettingsController;
 use App\Http\Controllers\Admin\ContactFormController;
 use App\Http\Controllers\Admin\ContactSubmissionController;
 use App\Http\Controllers\Admin\ImpersonationController;
+use App\Http\Controllers\Admin\PortfolioController as AdminPortfolioController;
+use App\Http\Controllers\Admin\PortfolioItemController;
+use App\Http\Controllers\Admin\PortfolioPlatformController;
 use App\Http\Controllers\Admin\SmtpMailerController;
 use App\Http\Controllers\Web\ContactController;
 use App\Http\Controllers\Web\IndustryController;
 use App\Http\Controllers\Web\Service\DigitalMarkController;
 use App\Http\Controllers\Web\Service\WebsiteDevController;
+use App\Models\PortfolioItem;
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -151,6 +155,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
             });
 
             Route::resource('case-studies', AdminCaseStudyController::class);
+            Route::resource('portfolio-platforms', PortfolioPlatformController::class)->except(['show']);
+            Route::resource('portfolio-items', PortfolioItemController::class)->except(['show']);
 
             // Leads
             Route::get('/leads', [ContactSubmissionController::class, 'index'])->name('leads.index');

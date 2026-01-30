@@ -751,3 +751,101 @@ html[data-theme="light"] .brandLogo .darkOnly:only-child{ display:block; }
 .themeBtn svg { display:none; }
 html[data-theme="light"] .themeBtn .icoSun { display:block; }
 html[data-theme="dark"]  .themeBtn .icoMoon { display:block; }
+
+
+
+/* =========================
+   Sidebar Dropdown Groups
+   ========================= */
+
+.navGroupToggle{
+  width: calc(100% - 12px);
+  margin: 0 6px;
+  padding: 10px 10px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 10px;
+}
+
+.navGroupToggle:hover{
+  color: var(--text);
+  background: var(--panel);
+  border-color: var(--border);
+}
+
+.navGroupToggle.open{
+  color: var(--text);
+  background: var(--panel);
+  border-color: var(--border);
+}
+
+.navGroupTitle{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.navGroupDot{
+  width: 10px;
+  height: 10px;
+  border-radius: 4px;
+  background: rgba(255,255,255,.14);
+}
+
+.navGroupToggle.open .navGroupDot{
+  background: linear-gradient(135deg, var(--primary), var(--primary-2));
+}
+
+/* Chevron */
+.navChevron{
+  width: 18px;
+  height: 18px;
+  display:inline-block;
+  opacity: .75;
+  transform: rotate(0deg);
+  transition: transform .18s ease, opacity .18s ease;
+
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 18px 18px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24'%3E%3Cpath fill='%23ffffff' fill-opacity='0.65' d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
+}
+
+[data-theme="light"] .navChevron{
+  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24'%3E%3Cpath fill='%230f172a' fill-opacity='0.55' d='M9 6l6 6-6 6'/%3E%3C/svg%3E\");
+}
+
+.navGroupToggle.open .navChevron{
+  transform: rotate(90deg);
+  opacity: 1;
+}
+
+/* Panel collapse animation */
+.navGroupPanel{
+  margin: 6px 0 10px;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .22s ease;
+}
+
+/* when open, allow it to expand */
+.navGroupPanel.open{
+  max-height: 800px; /* safe max; panel expands smoothly */
+}
+
+/* nested nav style */
+.nav.navNested{
+  padding: 0 6px 4px;
+}
+
+/* slight indent for nested items */
+.nav.navNested a, .nav.navNested .linkBtn{
+  padding-left: 14px;
+}

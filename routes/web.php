@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\PermissionController;
 use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\AuditLogController;
+use App\Http\Controllers\Admin\CaseStudyController as AdminCaseStudyController;
 use App\Http\Controllers\Admin\CompanyBranchController;
 use App\Http\Controllers\Admin\CompanySettingsController;
 use App\Http\Controllers\Admin\ContactFormController;
@@ -41,6 +42,7 @@ Route::middleware('auth')->group(function () {
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/about-us', [AboutUsController::class, 'index'])->name('about.us');
+
 
 Route::get('/case-studies', [CaseStudyController::class, 'index'])->name('case.studies');
 Route::get('/case-studies/{slug}', [CaseStudyController::class, 'detail'])->name('case.studies.detail');
@@ -147,6 +149,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
                 Route::resource('contact-forms', ContactFormController::class)
                     ->names('contact-forms')->except(['show', 'destroy']);
             });
+
+            Route::resource('case-studies', AdminCaseStudyController::class);
 
             // Leads
             Route::get('/leads', [ContactSubmissionController::class, 'index'])->name('leads.index');

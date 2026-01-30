@@ -32,59 +32,38 @@
         <h2 class="center">Browse Our Case Studies</h2>
         <p class="center muted">Filter by industry to see relevant success stories</p>
 
-        <div class="filter-bar">
-            <button class="filter active" data-filter="all">All</button>
-            <button class="filter" data-filter="Healthcare">Healthcare</button>
-            <button class="filter" data-filter="Education">Education</button>
-            <button class="filter" data-filter="Travel">Travel</button>
-            <button class="filter" data-filter="Recruitment">Recruitment</button>
-            <button class="filter" data-filter="Public Sector">Public Sector</button>
-            <button class="filter" data-filter="Enterprise">Enterprise</button>
-        </div>
+ <div class="filter-bar">
+    <button class="filter active" data-filter="all">All</button>
+    @foreach($industries as $industry)
+        <button class="filter" data-filter="{{ $industry }}">{{ $industry }}</button>
+    @endforeach
+</div>
 
-        <div class="grid cs-grid">
-            <article class="card cs-card" data-category="Education">
-                <div class="cs-img img1"></div>
-                <span class="cs-tag blue">Education</span>
-                <h3>The Learning Compass Digital Transformation</h3>
-                <p>A UK-based platform providing exceptional tutoring for neurodivergent learners.</p>
-                <a href="#" class="cs-link">View Case Study →</a>
-            </article>
+ 
+<div class="grid cs-grid">
+    @foreach($caseStudies as $cs)
+        <article class="card cs-card" data-category="{{ $cs->industry ?? 'Other' }}">
+            @if($cs->card_image)
+  <div class="cs-img" style="background-image:url('{{ asset($cs->card_image) }}')"></div>
+            @else
+                <div class="cs-img"></div>
+            @endif
 
-            <article class="card cs-card" data-category="Recruitment">
-                <div class="cs-img img2"></div>
-                <span class="cs-tag purple">Recruitment</span>
-                <h3>Cash Home Buyers SEO Success</h3>
-                <p>A UK-based company offering simple, stress-free property solutions nationwide.</p>
-                <a href="#" class="cs-link">View Case Study →</a>
-            </article>
+            @if($cs->industry)
+                <span class="cs-tag {{ $cs->industry_tag_color ?? 'blue' }}">{{ $cs->industry }}</span>
+            @endif
 
-            <article class="card cs-card" data-category="Healthcare">
-                <div class="cs-img img3"></div>
-                <span class="cs-tag green">Healthcare</span>
-                <h3>Basketball Coaching Website Transformation</h3>
-                <p>A coach aiming to attract more local clients for private and group coaching.</p>
-                <a href="#" class="cs-link">View Case Study →</a>
-            </article>
+            <h3>{{ $cs->title }}</h3>
+            @if($cs->excerpt)
+                <p>{{ $cs->excerpt }}</p>
+            @endif
 
-            <article class="card cs-card" data-category="Enterprise">
-                <div class="cs-img img4"></div>
-                <span class="cs-tag purple">Enterprise</span>
-                <h3>Logistics Company Recovery Project</h3>
-                <p>A logistics firm recovering from major SEO decline after Google update.</p>
-                <a href="#" class="cs-link">View Case Study →</a>
-            </article>
-
-            <article class="card cs-card" data-category="Travel">
-                <div class="cs-img img5"></div>
-                <span class="cs-tag blue">Travel</span>
-                <h3>BMGA Travels Facebook Marketing Campaign</h3>
-                <p>A UK travel agency scaling outreach through strategic digital campaigns.</p>
-                <a href="#" class="cs-link">View Case Study →</a>
-            </article>
-
-
-        </div>
+            <a href="{{ route('case.studies.detail', $cs->slug) }}" class="cs-link">
+                View Case Study →
+            </a>
+        </article>
+    @endforeach
+</div>
     </div>
 </section>
 

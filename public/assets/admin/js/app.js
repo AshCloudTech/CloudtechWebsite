@@ -135,3 +135,63 @@ if (burger && sidebar) {
     }
   });
 })();
+
+
+// Admin sidebar
+
+(function () {
+  const storageKey = 'adminSidebarOpenGroups';
+
+  function getState() {
+    try { return JSON.parse(localStorage.getItem(storageKey) || '[]'); }
+    catch (e) { return []; }
+  }
+
+  function setState(groups) {
+    try { localStorage.setItem(storageKey, JSON.stringify(groups)); }
+    catch (e) {}
+  }
+
+  function toggleGroup(id, open) {
+    const btn = document.querySelector(`[data-nav-group="${id}"]`);
+    const panel = document.querySelector(`[data-nav-panel="${id}"]`);
+    if (!btn || !panel) return;
+
+    btn.classList.toggle('open', open);
+    panel.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
+  const toggles = document.querySelectorAll('.navGroupToggle[data-nav-group]');
+  if (!toggles.length) return;
+
+  // restore state first
+  const openGroups = new Set(getState());
+  openGroups.forEach(id => toggleGroup(id, true));
+
+  // auto-open if there's an active link inside (in case user comes via deep link)
+  document.querySelectorAll('.navGroupPanel').forEach(panel => {
+    if (panel.querySelector('a.active')) {
+      const id = panel.getAttribute('data-nav-panel');
+      openGroups.add(id);
+      toggleGroup(id, true);
+    }
+  });
+  setState([...openGroups]);
+
+  // click handlers
+  toggles.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.getAttribute('data-nav-group');
+      const isOpen = btn.classList.contains('open');
+      const next = !isOpen;
+
+      toggleGroup(id, next);
+
+      if (next) openGroups.add(id);
+      else openGroups.delete(id);
+
+      setState([...openGroups]);
+    });
+  });
+})();

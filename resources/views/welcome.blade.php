@@ -25,7 +25,8 @@
 
                 <div class="hero-actions">
                     <a href="#services" class="btn btn-lg btn-primary">Explore Services</a>
-                    <a href="#ai-innovation" class="btn btn-lg btn-ghost">Chat with AI Assistant</a>
+                    {{-- <a href="#ai-innovation" class="btn btn-lg btn-ghost">Chat with AI Assistant</a> --}}
+                    <a href="#contact" class="btn btn-lg btn-ghost">Contact Us</a>
                 </div>
 
                 <p class="hero-note">

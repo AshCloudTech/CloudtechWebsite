@@ -253,6 +253,76 @@ button {
     background-color: #ffffff;
 }
 
+/* dropdown for the industies*/
+
+.has-dropdown {
+  position: relative;
+}
+
+.main-nav ul li ul.dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 4px;
+
+  min-width: 260px;
+  background: rgba(12, 16, 38, 0.98);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 12px;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+  padding: 10px;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: all 0.2s ease;
+  z-index: 999;
+}
+
+.main-nav ul li:hover > ul.dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.main-nav ul li ul.dropdown li {
+  width: 100%;
+}
+
+.main-nav ul li ul.dropdown li a {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  color: #d9dff7;
+  font-size: 13px;
+  border-radius: 8px;
+}
+
+.main-nav ul li ul.dropdown li a:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+@media (max-width: 768px) { 
+    .main-nav ul li ul.dropdown { 
+     position: static;
+     transform: none;
+     box-shadow: none; 
+     background: transparent; 
+     border: 0; 
+     padding-left: 12px; 
+     display: none; 
+     opacity: 1; 
+     visibility: visible; 
+    } 
+    .main-nav ul li.open > ul.dropdown { 
+        display: block; 
+    } 
+}
+
+
 /* ==== HERO ==== */
 
 .hero {

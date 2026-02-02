@@ -112,7 +112,6 @@
         </div>
     </header>
     <script>
-<<<<<<< Updated upstream
 document.querySelectorAll('.has-dropdown > a').forEach(link => {
   link.addEventListener('click', e => {
     if (window.innerWidth <= 768) {
@@ -123,14 +122,3 @@ document.querySelectorAll('.has-dropdown > a').forEach(link => {
 });
 </script>
 
-=======
-        document.querySelectorAll('.has-dropdown > a').forEach(link => {
-            link.addEventListener('click', e => {
-                if (window.innerWidth <= 768) {
-                    e.preventDefault();
-                    link.parentElement.classList.toggle('open');
-                }
-            });
-        });
-    </script>
->>>>>>> Stashed changes

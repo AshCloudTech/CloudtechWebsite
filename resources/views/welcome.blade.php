@@ -211,7 +211,7 @@
                     <div class="card-tag tag-blue">Healthcare Solutions</div>
                     {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image"> --}}
-                    <h3>Healthcare Solutions</h3>
+                    <h3><a href="{{ route('industries.cloudhealth') }}">Healthcare Solutions</a></h3>
                     <p>
                         Complete digital tools for healthcare providers, offering easy appointment scheduling and efficient
                         patient management in one platform.
@@ -225,7 +225,7 @@
                     {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image"> --}}
 
-                    <h3>Care Dashboard Management</h3>
+                    <h3><a href="{{ route('industries.cloudcare') }}">Care Dashboard Management</a></h3>
                     <p>
                         Digital solutions for care homes that include CQC-ready websites, easy resident management, and
                         flexible subscription models to support growth.
@@ -239,7 +239,7 @@
                     {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image"> --}}
 
-                    <h3>Education Technology</h3>
+                    <h3><a href="{{ route('industries.cloudedu') }}">Education Technology</a></h3>
                     <p>
                         End-to-end school digitalization solutions featuring admission CRM, parent communication apps, and
                         fully integrated educational management systems.
@@ -253,7 +253,7 @@
                     {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image"> --}}
 
-                    <h3>Travel &amp; Tourism</h3>
+                    <h3><a href="{{ route('industries.cloudtravel') }}">Travel &amp; Tourism</a></h3>
                     <p>
                         Travel solutions with real-time Expedia and Viator integrations, easy booking tools, and full travel
                         management features.
@@ -267,7 +267,7 @@
                     {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image"> --}}
 
-                    <h3>Recruitment Solutions</h3>
+                    <h3><a href="{{ route('industries.cloudrecruit') }}">Recruitment Solutions</a></h3>
                     <p>
                         AI-enhanced recruitment systems combining powerful ATS, intelligent CRM workflows, and automated
                         shortlisting to source and place talent worldwide.
@@ -281,7 +281,7 @@
                     {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
                         class="industry-image"> --}}
 
-                    <h3>Public Sector</h3>
+                    <h3><a href="{{ route('industries.cloudpublic') }}">Public Sector</a></h3>
                     <p>
                         Specialized public-sector platforms that streamline governance, enhance QA processes, and support
                         efficient delivery management for UK organizations.

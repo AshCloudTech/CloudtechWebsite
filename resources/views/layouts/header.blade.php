@@ -38,37 +38,19 @@
                         </a>
                     </li>
 
-<<<<<<< Updated upstream
-                    <!-- <li>
-                        <a href="#industries" class="{{ request()->is('/') ? '' : '' }}">
-                            Industries
-                        </a>
-                    </li> -->
-
-                    <li class="has-dropdown">
-    <a href="#industries">
-        Industries
-    </a>
-    <ul class="dropdown">
-        <li><a href="#">Healthcare</a></li>
-        <li><a href="#">Finance</a></li>
-        <li><a href="#">E-Commerce</a></li>
-        <li><a href="#">Education</a></li>
-    </ul>
-</li>
-=======
                     <li class="has-dropdown">
                         <a href="#industries">
                             Industries
                         </a>
                         <ul class="dropdown">
-                            <li><a href="#">Healthcare</a></li>
-                            <li><a href="#">Finance</a></li>
-                            <li><a href="#">E-Commerce</a></li>
-                            <li><a href="#">Education</a></li>
+                            <li><a href="{{ route('industries.cloudhealth') }}">CloudHealth</a></li>
+                            <li><a href="{{ route('industries.cloudcare') }}">CloudCare</a></li>
+                            <li><a href="{{ route('industries.cloudedu') }}">CloudEdu</a></li>
+                            <li><a href="{{ route('industries.cloudtravel') }}">CloudTravel</a></li>
+                            <li><a href="{{ route('industries.cloudrecruit') }}">CloudRecruit</a></li>
+                            <li><a href="{{ route('industries.cloudpublic') }}">CloudPublic</a></li>
                         </ul>
                     </li>
->>>>>>> Stashed changes
 
                     <li>
                         <a href="{{ route('portfolio') }}"
@@ -112,13 +94,12 @@
         </div>
     </header>
     <script>
-document.querySelectorAll('.has-dropdown > a').forEach(link => {
-  link.addEventListener('click', e => {
-    if (window.innerWidth <= 768) {
-      e.preventDefault();
-      link.parentElement.classList.toggle('open');
-    }
-  });
-});
-</script>
-
+        document.querySelectorAll('.has-dropdown > a').forEach(link => {
+            link.addEventListener('click', e => {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    link.parentElement.classList.toggle('open');
+                }
+            });
+        });
+    </script>

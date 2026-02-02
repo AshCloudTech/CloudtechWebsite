@@ -19,8 +19,20 @@
   --ease:cubic-bezier(.2,.8,.2,1);
 }
 
-.container{ max-width:1160px; margin:0 auto; padding:0 18px; }
+body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
 
+.container { max-width:1180px; margin:auto; padding:0 20px; }
+
+.site-header { position:sticky; top:0; background:#0b1120cc; backdrop-filter:blur(12px); padding:12px 0; z-index:100; }
+.header-inner { display:flex; justify-content:space-between; align-items:center; }
+.logo { display:flex; gap:8px; align-items:center; color:#fff; font-weight:600; }
+.logo-mark { background:#2563eb; color:#fff; padding:6px 10px; border-radius:8px; }
+
+.main-nav ul { display:flex; gap:20px; }
+.main-nav a { color:#c7d2fe; font-size:14px; }
+.main-nav a.active { color:#fff; }
+
+.nav-toggle { display:none; background:none; border:0; }
 .hero{
   padding:84px 0 38px;
   background:

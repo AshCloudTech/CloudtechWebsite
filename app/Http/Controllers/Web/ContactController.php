@@ -19,8 +19,8 @@ class ContactController extends Controller
             'form_key' => ['required','string','max:120'],
             'source_page' => ['nullable','string','max:255'],
 
-            'name' => ['nullable','string','max:120'],
-            'email' => ['nullable','email','max:160'],
+            'name' => ['required','string','max:120'],
+            'email' => ['required','email','max:160'],
             'phone' => ['nullable','string','max:40'],
             'subject' => ['nullable','string','max:160'],
             'message' => ['nullable','string','max:5000'],
@@ -117,6 +117,9 @@ class ContactController extends Controller
             $mailer->to($submission->email)->send(new ContactAutoReply($submission));
         }
 
-        return back()->with('success', 'Thanks! We received your enquiry.');
+return redirect()->back()
+    ->withFragment('contact')
+    ->with('success', 'Submitted successfully! We will contact you soon.');
+        
     }
 }

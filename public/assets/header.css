@@ -226,3 +226,69 @@ html[data-theme="dark"] .site-logo--dark{ display:block; }
     display: block; 
   } 
 }
+
+/* Popup */
+
+.popup-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(11,18,32,.55);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:9999;
+  padding:16px;
+}
+
+.popup-card{
+  width:min(420px, 92vw);
+  background:#fff;
+  border-radius:18px;
+  border:1px solid rgba(16,56,128,.14);
+  box-shadow:0 22px 70px rgba(11,18,32,.18);
+  padding:18px;
+  text-align:center;
+}
+
+.popup-icon{
+  width:46px;
+  height:46px;
+  border-radius:16px;
+  margin:0 auto 10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:1000;
+  background:rgba(80,176,208,.18);
+  border:1px solid rgba(80,176,208,.35);
+  color:#103880;
+}
+
+.popup-card h3{
+  margin:0 0 6px;
+  font-size:18px;
+  color:#0b1220;
+}
+
+.popup-card p{
+  margin:0 0 14px;
+  color:rgba(11,18,32,.72);
+}
+
+.popup-btn{
+  border:0;
+  cursor:pointer;
+  padding:10px 14px;
+  border-radius:14px;
+  font-weight:900;
+  color:#0b1220;
+  background:linear-gradient(135deg, #F88000, #FFA22E);
+  box-shadow:0 14px 35px rgba(248,128,0,.22);
+}
+.popup-btn:hover{ transform: translateY(-1px); }
+
+.popup-error .popup-icon{
+  background:rgba(248,128,0,.12);
+  border-color:rgba(248,128,0,.35);
+  color:#F88000;
+}

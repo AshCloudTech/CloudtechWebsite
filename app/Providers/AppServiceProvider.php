@@ -39,7 +39,7 @@ class AppServiceProvider extends ServiceProvider
                     ->with(['branches', 'socialLinks'])
                     ->first();
             });
-
+// dd( $company);
             $view->with('globalCompany', $company);
         });
     }

@@ -265,25 +265,47 @@ button {
 
 .hero {
     position: relative;
-    padding: 120px 0 70px 0;
+    color: #ffffff;
+    padding: 120px 0 90px 0;
     overflow: hidden;
 }
 
-.ecommerce-hero {
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e7eb;
+.ecommerce-hero .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url("../../../../images/banners/desktop/ecommerce-seo.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -2;
 }
 
-.hero-inner {
-    max-width: 760px;
-    text-align: center;
+@media (max-width: 768px) {
+    .ecommerce-hero .hero-bg {
+        background-image: url("../../../../images/banners/mobile/ecommerce-seo.webp");
+    }
+}
+
+.ecommerce-hero .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #020617, #02131b);
+    opacity: 0.96;
+    z-index: -3;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.4fr);
+    gap: 40px;
+    align-items: center;
 }
 
 .hero-eyebrow {
     font-size: 13px;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: #6b7280;
+    opacity: 0.9;
     margin-bottom: 8px;
 }
 
@@ -291,19 +313,67 @@ button {
     font-size: 40px;
     line-height: 1.15;
     margin: 0 0 16px 0;
-    color: #020617;
 }
 
 .hero-subtitle {
-    color: #6b7280;
-    max-width: 640px;
-    margin: 0 auto 24px auto;
+    color: #dbeafe;
+    max-width: 620px;
+    margin-bottom: 24px;
 }
 
 .hero-actions {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 12px;
+}
+
+.hero-panel {
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(226, 232, 240, 0.16);
+    backdrop-filter: blur(10px);
+}
+
+.hero-panel-inner {
+    padding: 22px 20px;
+}
+
+.hero-panel-label {
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(219, 234, 254, 0.9);
+    margin: 0 0 10px 0;
+}
+
+.hero-panel-text {
+    margin: 0 0 14px 0;
+    color: rgba(226, 232, 240, 0.88);
+}
+
+.hero-panel-list {
+    display: grid;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-panel-list li {
+    position: relative;
+    padding-left: 14px;
+    color: rgba(226, 232, 240, 0.92);
+    font-size: 14px;
+}
+
+.hero-panel-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.65em;
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background-color: #53b2d5;
 }
 
 /* ==== STATS ==== */

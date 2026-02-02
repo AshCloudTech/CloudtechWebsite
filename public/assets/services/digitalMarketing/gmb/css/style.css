@@ -292,10 +292,25 @@ button {
 .gmb-hero .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(circle at top left, rgba(37, 99, 235, 0.8), transparent 55%),
-                      radial-gradient(circle at bottom right, rgba(34, 197, 94, 0.8), transparent 55%);
-    opacity: 0.7;
+    background-image: url("../../../../images/banners/desktop/google-business-profile.webp"); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
     z-index: -2;
+}
+
+@media (max-width: 768px) {
+@media (max-width: 768px) {
+    .seo-hero .hero-bg {
+        position: absolute;
+        inset: 0;
+        background-image: url("../../../../images/banners/mobile/google-business-profile.webp");
+        background-size: cover;
+        background-position: center;
+        opacity: 1;
+        z-index: -2;
+    }
+}
 }
 
 .gmb-hero .hero-overlay {
@@ -303,7 +318,7 @@ button {
     inset: 0;
     background: linear-gradient(135deg, #020617, #020b1a);
     opacity: 0.96;
-    z-index: -1;
+    z-index: -3;
 }
 
 .hero-inner {

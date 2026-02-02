@@ -9,20 +9,25 @@
                 $siteLogoDark = !empty($globalCompany?->logo_dark_path) ? asset($globalCompany->logo_dark_path) : null;
             @endphp
 
-            <div class="logo">
-                @if ($siteLogoLight || $siteLogoDark)
-                    @if ($siteLogoLight)
-                        <img class="site-logo site-logo--light" src="{{ $siteLogoLight }}" alt="{{ $brandName }} logo">
-                    @endif
+            <a href="{{ url('/') }}" class="logo-link" aria-label="Go to {{ $brandName }} home">
+                <div class="logo">
+                    @if ($siteLogoLight || $siteLogoDark)
+                        @if ($siteLogoLight)
+                            <img class="site-logo site-logo--light" src="{{ $siteLogoLight }}"
+                                alt="{{ $brandName }} logo">
+                        @endif
 
-                    @if ($siteLogoDark)
-                        <img class="site-logo site-logo--dark" src="{{ $siteLogoDark }}" alt="{{ $brandName }} logo">
+                        @if ($siteLogoDark)
+                            <img class="site-logo site-logo--dark" src="{{ $siteLogoDark }}"
+                                alt="{{ $brandName }} logo">
+                        @endif
+                    @else
+                        <span class="logo-mark">CT</span>
+                        <span class="logo-text">{{ $brandName }}</span>
                     @endif
-                @else
-                    <span class="logo-mark">CT</span>
-                    <span class="logo-text">{{ $brandName }}</span>
-                @endif
-            </div>
+                </div>
+            </a>
+
 
 
             <nav class="main-nav">
@@ -33,6 +38,7 @@
                         </a>
                     </li>
 
+<<<<<<< Updated upstream
                     <!-- <li>
                         <a href="#industries" class="{{ request()->is('/') ? '' : '' }}">
                             Industries
@@ -50,6 +56,19 @@
         <li><a href="#">Education</a></li>
     </ul>
 </li>
+=======
+                    <li class="has-dropdown">
+                        <a href="#industries">
+                            Industries
+                        </a>
+                        <ul class="dropdown">
+                            <li><a href="#">Healthcare</a></li>
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">E-Commerce</a></li>
+                            <li><a href="#">Education</a></li>
+                        </ul>
+                    </li>
+>>>>>>> Stashed changes
 
                     <li>
                         <a href="{{ route('portfolio') }}"
@@ -66,7 +85,7 @@
                     </li>
 
                     <li>
-                        <a href="#pricing">Pricing</a>
+                        <a href="{{ route('pricing') }}">Pricing</a>
                     </li>
 
                     <li>
@@ -77,13 +96,13 @@
                     </li>
 
                     <li>
-                        <a href="#contact">Contact Us</a>
+                        <a href="{{ route('contact.us') }}">Contact Us</a>
                     </li>
                 </ul>
             </nav>
 
 
-            <a href="#contact" class="btn btn-sm btn-accent header-cta">Get Started</a>
+            <a href="{{ url('/#contact') }}" class="btn btn-sm btn-accent header-cta">Get Started</a>
 
             <button class="nav-toggle" aria-label="Toggle navigation">
                 <span></span>
@@ -93,6 +112,7 @@
         </div>
     </header>
     <script>
+<<<<<<< Updated upstream
 document.querySelectorAll('.has-dropdown > a').forEach(link => {
   link.addEventListener('click', e => {
     if (window.innerWidth <= 768) {
@@ -103,3 +123,14 @@ document.querySelectorAll('.has-dropdown > a').forEach(link => {
 });
 </script>
 
+=======
+        document.querySelectorAll('.has-dropdown > a').forEach(link => {
+            link.addEventListener('click', e => {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    link.parentElement.classList.toggle('open');
+                }
+            });
+        });
+    </script>
+>>>>>>> Stashed changes

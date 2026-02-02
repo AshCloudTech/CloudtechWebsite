@@ -4,8 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Company;
+use App\Models\CompanySocialLink;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Cache;
 
 class CompanySettingsController extends Controller
 {
@@ -113,4 +114,77 @@ class CompanySettingsController extends Controller
         // Save relative path in DB
         return 'company/' . $fileName;
     }
+
+
+  public function updateSocialLinks(Request $request)
+{
+    $company = Company::firstOrFail();
+
+    $data = $request->validate([
+        'branch_id' => ['nullable', 'integer'],
+
+        'links' => ['required', 'array'],
+
+        // allow empty rows; if url/handle is filled, platform becomes required
+        'links.*.platform' => ['nullable', 'string', 'max:50', 'required_with:links.*.url,links.*.handle'],
+        'links.*.url'      => ['nullable', 'string', 'max:255'],
+        'links.*.handle'   => ['nullable', 'string', 'max:80'],
+        'links.*.sort_order' => ['nullable', 'integer', 'min:0', 'max:9999'],
+        'links.*.is_active'  => ['nullable', 'boolean'],
+        'links.*.id' => ['nullable', 'integer'],
+
+        'delete_ids' => ['nullable', 'array'],
+        'delete_ids.*' => ['integer'],
+    ]);
+
+    $branchId = $data['branch_id'] ?? null;
+
+    $existingIds = CompanySocialLink::query()
+        ->where('company_id', $company->id)
+        ->where(function ($q) use ($branchId) {
+            $branchId ? $q->where('branch_id', $branchId) : $q->whereNull('branch_id');
+        })
+        ->pluck('id')
+        ->toArray();
+
+    // Delete selected
+    $deleteIds = array_values(array_intersect($data['delete_ids'] ?? [], $existingIds));
+    if (!empty($deleteIds)) {
+        CompanySocialLink::whereIn('id', $deleteIds)->delete();
+    }
+
+    // Upsert rows
+    foreach ($data['links'] as $row) {
+        $platform = trim((string)($row['platform'] ?? ''));
+        $url      = trim((string)($row['url'] ?? ''));
+        $handle   = trim((string)($row['handle'] ?? ''));
+
+        // Skip completely empty row
+        if ($platform === '' && $url === '' && $handle === '') {
+            continue;
+        }
+
+        $payload = [
+            'company_id'  => $company->id,
+            'branch_id'   => $branchId,
+            'platform'    => $platform,
+            'url'         => $url,
+            'handle'      => $handle,
+            'sort_order'  => (int)($row['sort_order'] ?? 0),
+            'is_active'   => (bool)($row['is_active'] ?? false),
+        ];
+
+        $id = $row['id'] ?? null;
+
+        if ($id && in_array((int)$id, $existingIds, true)) {
+            CompanySocialLink::where('id', $id)->update($payload);
+        } else {
+            CompanySocialLink::create($payload);
+        }
+    }
+    Cache::forget('global_company_v1');
+
+    return back()->with('success', 'Social links updated successfully.');
+}
+
 }

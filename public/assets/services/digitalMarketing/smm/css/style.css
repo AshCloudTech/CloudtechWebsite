@@ -298,12 +298,24 @@ button {
 .smm-hero .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(circle at top left, rgba(236, 72, 153, 0.9), transparent 55%),
-                      radial-gradient(circle at bottom right, rgba(99, 102, 241, 0.9), transparent 55%);
-    opacity: 0.85;
+   background-image: url("../../../../images/banners/desktop/ecommerce-seo.webp"); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
     z-index: -2;
 }
 
+@media (max-width: 768px) {
+.smm-hero .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url("../../../../images/banners/mobile/ecommerce-seo.webp"); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -2;
+}
+}
 .smm-hero .hero-overlay {
     position: absolute;
     inset: 0;

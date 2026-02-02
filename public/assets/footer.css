@@ -107,9 +107,9 @@ ul { list-style: none; padding: 0; margin: 0; }
 
 /* Footer logo (dark/light) */
 .footer-site-logo{
-  height: 34px;
+  height: 50px;
   width: auto;
-  max-width: 180px;
+  max-width: 250px;
   object-fit: contain;
 }
 
@@ -119,3 +119,16 @@ ul { list-style: none; padding: 0; margin: 0; }
 /* dark theme switch */
 html[data-theme="dark"] .footer-site-logo--light{ display:none; }
 html[data-theme="dark"] .footer-site-logo--dark{ display:block; }
+
+
+.footer-logo-link{
+  display:inline-flex;
+  text-decoration:none;
+  color:inherit;
+}
+
+.footer-logo-link:focus-visible{
+  outline: 3px solid rgba(80,176,208,.35);
+  outline-offset: 4px;
+  border-radius: 12px;
+}

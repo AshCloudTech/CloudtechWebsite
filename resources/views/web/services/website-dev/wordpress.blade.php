@@ -1,156 +1,255 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Di')
-@section('meta_title', 'Cl')
+@section('title', 'WordPress Development Services | Cloud Technologies Ltd')
+@section('meta_title', 'Cloud Technologies Ltd – WordPress Development Services')
+@section('meta_description', 'Custom WordPress development services for fast, secure, and SEO-friendly websites. Themes, plugins, performance optimisation, and ongoing support.')
+
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/wordpress/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
+
 @push('scripts')
     <script src="{{ asset('assets/services/webDevelopment/wordpress/js/script.js') }}" defer></script>
 @endpush
+
 @section('content')
 
-<section class="hero" id="hero">
-  <div class="container hero-inner">
-    <h1>WordPress Custom<br>Development Solutions</h1>
-    <p class="sub">
-     We build fast, secure, and scalable WordPress websites tailored to your business goals,
-      delivering expert wordpress web development with long-term performance and flexibility.
-    </p>
-    <div class="hero-actions">
-      <a class="btn primary">Start Your Project</a>
-      <a class="btn ghost">Learn More</a>
-    </div>
-  </div>
-</section>
-
-<section class="solutions" id="solutions">
-  <div class="container">
-    <h2>Comprehensive WordPress Solutions</h2>
-    <p class="center-text">End-to-end WordPress solutions from a trusted wordpress web design company, including custom themes, plugins, optimization,
-       security, and ongoing support</p>
-    <div class="grid">
-      <div class="card"><h3>Custom WordPress Development</h3><p>Tailored wordpress site development designed to match your brand, functionality needs, and business objectives.</p></div>
-      <div class="card"><h3>WordPress Theme Design</h3><p>Visually appealing, responsive wordpress web design services focused on usability, performance, and modern design standards.</p></div>
-      <div class="card"><h3>Plugin Development</h3><p>Custom plugins built by wordpress experts to extend functionality and integrate seamlessly with your WordPress site</p></div>
-      <div class="card"><h3>eCommerce Solutions</h3><p>Powerful WooCommerce development by a wordpress agency, optimized for conversions, payments, and smooth shopping experiences.</p></div>
-      <div class="card"><h3>Performance Optimization</h3><p>Advanced optimization techniques used by a wordpress web development company to ensure fast load times and strong user experience.</p></div>
-      <div class="card"><h3>Maintenance & Support</h3><p>Reliable updates, security monitoring, backups, and ongoing support from experienced wordpress development agencies.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="why" id="why">
-  <div class="container">
-    <h2>Why Choose WordPress for Your Business?</h2>
-    <p>WordPress offers flexibility, scalability, and ease of use, making it ideal for businesses working with a professional wordpress website design company.</p>
-    <div class="why-list">
-      <ul>
-        <li>Easy content management</li>
-        <li>SEO-friendly architecture</li>
-        <li>Highly customizable platform</li>
-        <li>Scalable for business growth</li>
-        <li>Large plugin ecosystem</li>
-        <li>Strong security capabilities</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="process" id="process">
-  <div class="container">
-    <h2>Our Development Process</h2>
-    <p>A streamlined, collaborative website development WordPress process ensuring quality, transparency, and on-time delivery.</p>
-    <div class="process-grid">
-      <div class="step"><span>01</span><h3>Discovery & Planning</h3><p>Our wordpress designer team analyzes your goals, audience, and requirements to create a clear development roadmap.</p></div>
-      <div class="step"><span>02</span><h3>Design & Prototyping</h3><p>Wireframes and designs crafted by a wordpress web design company ensure intuitive layouts and branding consistency.</p></div>
-      <div class="step"><span>03</span><h3>Development & Testing</h3><p>Expert wordpress web development with clean code, performance testing, and cross-browser compatibility.</p></div>
-      <div class="step"><span>04</span><h3>Launch & Support</h3><p>After launch, our wordpress agency provides ongoing updates, optimization, and technical support.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="cta">
-  <div class="container">
-    <h2>Ready to Build Your WordPress Website?</h2>
-    <p>Let’s create a high-performing WordPress website with trusted wordpress experts that drives engagement, conversions, and business growth.</p>
-    <div class="cta-actions">
-      <a class="btn primary">Call</a>
-      <a class="btn primary">Email Us</a>
-    </div>
-  </div>
-</section>
-<!-- FAQ -->
-<section class="section section-alt section-faq" id="faq">
-    <div class="container">
-        <div class="section-header">
-            <h2>WordPress Development FAQ</h2>
-            <p>
-                Answers to common questions about WordPress development, features, timelines, and ongoing support.
+    <!-- HERO -->
+    <section class="hero wordpress-hero" id="hero">
+        <div class="container hero-inner">
+            <p class="hero-eyebrow">WordPress Development Services</p>
+            <h1>Fast, Secure &amp; SEO-Friendly WordPress Websites</h1>
+            <p class="hero-subtitle">
+                We build custom WordPress websites that load quickly, rank well, and stay easy to manage — with clean code,
+                scalable architecture, and long-term support.
             </p>
-        </div>
-
-        <div class="faq-wrap">
-            <div class="faq-list">
-                <details class="faq-item">
-                    <summary>1. What are WordPress development services?</summary>
-                    <div class="faq-content">
-                        <p>
-                            WordPress development services include designing, developing, customizing, and maintaining websites using the WordPress platform. This covers custom themes, plugins, eCommerce development, performance optimization, and security enhancements.
-                        </p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary>2. Why should I choose WordPress for my website?</summary>
-                    <div class="faq-content">
-                        <p>
-                            WordPress is a flexible, scalable, and SEO-friendly platform that powers millions of websites worldwide. It is easy to manage, supports custom functionality, and is ideal for business websites, blogs, eCommerce stores, and enterprise solutions.
-                        </p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary>3. Do you provide custom WordPress website development?</summary>
-                    <div class="faq-content">
-                        <p>
-                            Yes, professional WordPress development services offer fully custom websites tailored to your brand and business goals. Custom development ensures better performance, unique design, enhanced security, and long-term scalability.
-                        </p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary>4. Is WordPress good for SEO?</summary>
-                    <div class="faq-content">
-                        <p>
-                            Yes, WordPress is highly SEO-friendly. With clean code, responsive design, fast loading speed, and SEO plugins, WordPress websites can be optimized effectively to rank higher on search engines like Google.
-                        </p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary>5. How long does it take to develop a WordPress website?</summary>
-                    <div class="faq-content">
-                        <p>
-                            The development timeline depends on project complexity. A basic WordPress website may take 1–3 weeks, while custom or eCommerce WordPress websites can take 4–8 weeks or longer.
-                        </p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary>6. Do you offer WordPress maintenance and support services?</summary>
-                    <div class="faq-content">
-                        <p>
-                            Yes, WordPress maintenance services include regular updates, security monitoring, backups, bug fixes, speed optimization, and ongoing technical support to keep your website secure and running smoothly.
-                        </p>
-                    </div>
-                </details>
+            <div class="hero-actions">
+                <a href="#cta" class="btn btn-primary">Start Your Project</a>
+                <a href="#solutions" class="btn btn-ghost">Explore Solutions</a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <!-- COMPREHENSIVE WORDPRESS SOLUTIONS -->
+    <section class="section section-solutions" id="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comprehensive WordPress Solutions</h2>
+                <p>
+                    End-to-end WordPress development — from custom themes and plugin engineering to speed optimisation,
+                    security hardening, and reliable maintenance.
+                </p>
+            </div>
+
+            <div class="grid grid-3 solutions-grid">
+                <article class="card solution-card">
+                    <div class="card-icon"></div>
+                    <h3>Custom WordPress Development</h3>
+                    <p>
+                        Tailored WordPress builds aligned to your brand, user journeys, and conversion goals.
+                    </p>
+                </article>
+
+                <article class="card solution-card">
+                    <div class="card-icon"></div>
+                    <h3>Theme Design &amp; Builds</h3>
+                    <p>
+                        Responsive, accessible themes with clean code and a premium UI — built for performance.
+                    </p>
+                </article>
+
+                <article class="card solution-card">
+                    <div class="card-icon"></div>
+                    <h3>Plugin Development</h3>
+                    <p>
+                        Custom plugins and integrations to extend your site without bloating the codebase.
+                    </p>
+                </article>
+
+                <article class="card solution-card">
+                    <div class="card-icon"></div>
+                    <h3>WooCommerce Integration</h3>
+                    <p>
+                        Product, checkout and payment flows optimised for conversion — with scalable store architecture.
+                    </p>
+                </article>
+
+                <article class="card solution-card">
+                    <div class="card-icon"></div>
+                    <h3>Performance Optimisation</h3>
+                    <p>
+                        Core Web Vitals improvements: image optimisation, caching, critical CSS, and script hygiene.
+                    </p>
+                </article>
+
+                <article class="card solution-card">
+                    <div class="card-icon"></div>
+                    <h3>Maintenance &amp; Support</h3>
+                    <p>
+                        Version updates, security patches, backups, and monitoring — with clear SLAs.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY WORDPRESS -->
+    <section class="section section-why" id="why">
+        <div class="container why-layout">
+            <div class="why-copy">
+                <h2>Why WordPress Works for Growing Businesses</h2>
+                <p class="why-intro">
+                    WordPress is flexible, scalable, and content-friendly — making it a great fit for marketing websites,
+                    landing pages, and content-led growth.
+                </p>
+
+                <div class="why-lists">
+                    <ul>
+                        <li>Easy content management</li>
+                        <li>SEO-friendly structure</li>
+                        <li>Highly customisable</li>
+                        <li>Scalable for growth</li>
+                    </ul>
+                    <ul>
+                        <li>Large plugin ecosystem</li>
+                        <li>Strong security options</li>
+                        <li>Fast iteration</li>
+                        <li>Multi-language ready</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="why-media" aria-hidden="true">
+                <div class="media-placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section-process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our WordPress Delivery Process</h2>
+                <p>
+                    A clear, milestone-driven approach — so you get predictable outcomes, clean builds, and launch-ready
+                    quality.
+                </p>
+            </div>
+
+            <div class="grid grid-4 process-grid">
+                <article class="card process-card">
+                    <p class="step">01</p>
+                    <h3>Discovery</h3>
+                    <p>We define goals, pages, integrations, SEO needs, and success metrics.</p>
+                </article>
+
+                <article class="card process-card">
+                    <p class="step">02</p>
+                    <h3>Design</h3>
+                    <p>Wireframes and UI crafted for clarity, trust, and conversion.</p>
+                </article>
+
+                <article class="card process-card">
+                    <p class="step">03</p>
+                    <h3>Build</h3>
+                    <p>Theme + plugin development with performance, security, and scalability.</p>
+                </article>
+
+                <article class="card process-card">
+                    <p class="step">04</p>
+                    <h3>Launch &amp; Support</h3>
+                    <p>Deployment, monitoring, and continuous improvements post-launch.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-cta" id="cta">
+        <div class="container">
+            <div class="cta-inner">
+                <div class="cta-copy">
+                    <h2>Ready to Build a High-Performing WordPress Website?</h2>
+                    <p>
+                        Share your requirements — we’ll propose a clean build plan, realistic timelines, and a delivery
+                        approach that protects performance and SEO.
+                    </p>
+                </div>
+                <div class="cta-actions">
+                    <a href="{{ url('/contact') }}" class="btn btn-primary">Talk to Us</a>
+                    <a href="{{ url('/pricing') }}" class="btn btn-ghost">View Pricing</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>WordPress Development FAQ</h2>
+                <p>
+                    Answers to common questions about timelines, features, performance, and ongoing support.
+                </p>
+            </div>
+
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1. What do WordPress development services include?</summary>
+                        <div class="faq-content">
+                            <p>
+                                WordPress development can include theme development, custom plugins, integrations,
+                                performance optimisation, security hardening, and ongoing maintenance.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>2. Do you build custom themes or use page builders?</summary>
+                        <div class="faq-content">
+                            <p>
+                                We can do both. For maximum performance and flexibility, we prefer custom themes with
+                                clean blocks. If a builder is required, we implement guardrails to keep the site fast.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>3. Can you optimise an existing WordPress website?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Yes. We can improve speed, remove bloat, fix technical SEO issues, improve Core Web Vitals,
+                                and stabilise plugins and updates.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>4. Is WordPress good for SEO?</summary>
+                        <div class="faq-content">
+                            <p>
+                                WordPress is SEO-friendly when the theme, structure, and performance are implemented
+                                properly. We build with clean HTML, fast loading, and best-practice SEO foundations.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>5. How long does it take to build a WordPress website?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Timelines depend on scope. A small marketing site can take 1–3 weeks, while custom
+                                functionality or WooCommerce builds can take 4–8 weeks.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
 
 @endsection

@@ -253,6 +253,11 @@ button {
     background-color: #ffffff;
 }
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 /* dropdown for the industies*/
 
 .has-dropdown {
@@ -335,12 +340,24 @@ button {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url("../img/hero-bg.jpg"); /* replace with your actual path */
+    background-image: url("../../../assets/images/banners/desktop/home-page.webp"); /* replace with your actual path */
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 1;
     z-index: -2;
 }
+@media (max-width: 768px){
+  .hero-bg{
+    position: absolute;
+    inset: 0;
+    background-image: url("../../../assets/images/banners/mobile/home-page-banner--mobile.webp"); /* replace with your actual path */
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -2;
+  }
+}
+
 
 .hero-overlay {
     position: absolute;
@@ -348,7 +365,7 @@ button {
     background: radial-gradient(circle at top left, rgba(255, 166, 77, 0.65), transparent 55%),
                 radial-gradient(circle at bottom right, rgba(0, 94, 255, 0.65), transparent 50%),
                 linear-gradient(to bottom, rgba(6, 10, 32, 0.9), #050714);
-    z-index: -1;
+    z-index: -3;
 }
 
 .hero-content {
@@ -952,7 +969,7 @@ button {
     }
 
     .hero {
-        padding-top: 110px;
+        padding-top: 30px;
     }
 
     .hero h1 {
@@ -1052,7 +1069,7 @@ button {
 .logo{ display:flex; align-items:center; gap:10px; }
 
 .site-logo{
-  height: 34px;
+  height: 40px;
   width: auto;
   max-width: 170px;
   object-fit: contain;
@@ -1069,9 +1086,9 @@ html[data-theme="dark"] .site-logo--dark{ display:block; }
 
 /* Footer logo (dark/light) */
 .footer-site-logo{
-  height: 34px;
+  height: 50px;
   width: auto;
-  max-width: 180px;
+  max-width: 250px;
   object-fit: contain;
 }
 

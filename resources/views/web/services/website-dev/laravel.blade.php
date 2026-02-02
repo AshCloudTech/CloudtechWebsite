@@ -1,7 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Di')
-@section('meta_title', 'Cl')
+@section('title', 'Laravel Development Services | Cloud Technologies Ltd')
+@section('meta_title', 'Laravel Development Services | Cloud Technologies Ltd')
+@section('meta_description', 'Professional Laravel development services for scalable, secure, and high-performance web applications tailored to complex business needs.')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/laravel/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">

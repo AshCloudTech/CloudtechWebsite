@@ -254,8 +254,23 @@ button {
 }
 
 .php-hero {
-    background: radial-gradient(circle at top, #374151, #0b1220);
+    background-image: url("../../../../images/banners/desktop/custom-php-development.webp"); /* replace with actual hero image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -2;
     color: #f9fafb;
+}
+
+@media (max-width: 768px) {
+.php-hero {
+    background-image: url("../../../../images/banners/mobile/custom-php-development.webp"); /* replace with actual hero image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -2;
+    color: #f9fafb;
+}
 }
 
 /* ==== WHY CHOOSE (SPLIT BAND) ==== */

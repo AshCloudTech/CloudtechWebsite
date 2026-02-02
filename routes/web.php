@@ -28,6 +28,7 @@ use App\Http\Controllers\Admin\PortfolioPlatformController;
 use App\Http\Controllers\Admin\SmtpMailerController;
 use App\Http\Controllers\Web\ContactController;
 use App\Http\Controllers\Web\IndustryController;
+use App\Http\Controllers\Web\PricingController;
 use App\Http\Controllers\Web\Service\DigitalMarkController;
 use App\Http\Controllers\Web\Service\WebsiteDevController;
 use App\Models\PortfolioItem;
@@ -53,6 +54,8 @@ Route::get('/case-studies/{slug}', [CaseStudyController::class, 'detail'])->name
 
 Route::get('/contact-us', [ContactUsController::class, 'index'])->name('contact.us');
 Route::post('/contact-us/submit', [ContactUsController::class, 'submit'])->name('contact.us.submit');
+
+Route::get('/pricing', [PricingController::class, 'index'])->name('pricing');
 
 Route::get('/cloud-digital-solutions', [CloudDigitalController::class, 'cloudDigital'])->name('cloud.digital.solutions');
 Route::get('/portfolio', [PortfolioController::class, 'portfolio'])->name('portfolio');
@@ -144,6 +147,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Route::prefix('settings')->name('settings.')->group(function () {
                 Route::get('/company', [CompanySettingsController::class, 'edit'])->name('company.edit');
                 Route::put('/company', [CompanySettingsController::class, 'update'])->name('company.update');
+                Route::put('company/social-links', [CompanySettingsController::class, 'updateSocialLinks'])->name('socialLinks.update');
+
 
                 Route::resource('branches', CompanyBranchController::class)->names('branches')->except(['show', 'destroy']);
 

@@ -16,15 +16,38 @@
 
     <!-- HERO -->
     <section class="hero ecommerce-hero" id="hero">
-        <div class="container hero-inner">
-            <p class="hero-eyebrow">eCommerce SEO</p>
-            <h1>eCommerce SEO Services</h1>
-            <p class="hero-subtitle">
-                Boost visibility, drive targeted traffic, and increase sales with expert eCommerce SEO services tailored to
-                your store.
-            </p>
-            <div class="hero-actions">
-                <a href="#cta" class="btn btn-lg btn-primary">Grow My Online Store</a>
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <p class="hero-eyebrow">eCommerce SEO Services</p>
+                <h1>Grow Your Online Store with eCommerce SEO</h1>
+                <p class="hero-subtitle">
+                    Improve product visibility, attract high-intent shoppers, and increase revenue with a practical,
+                    conversion-focused eCommerce SEO strategy.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#cta" class="btn btn-lg btn-primary">Grow My Online Store</a>
+                    <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Talk to an Expert</a>
+                </div>
+            </div>
+
+            <div class="hero-panel" aria-hidden="true">
+                <div class="hero-panel-inner">
+                    <p class="hero-panel-label">What we optimise</p>
+                    <p class="hero-panel-text">
+                        Your categories, product pages, technical foundations, and content—so search engines can crawl,
+                        understand, and rank your store faster.
+                    </p>
+                    <ul class="hero-panel-list">
+                        <li>Category &amp; collection SEO</li>
+                        <li>Product page optimisation</li>
+                        <li>Schema &amp; rich results</li>
+                        <li>Speed &amp; Core Web Vitals</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>

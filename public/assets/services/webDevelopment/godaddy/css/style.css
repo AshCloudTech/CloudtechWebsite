@@ -249,10 +249,23 @@ button {
 /* ==== PAGE THEMES ==== */
 
 .godaddy-hero {
-    background: radial-gradient(circle at top, #525252, #111827);
+    background-image: url("../../../../images/banners/desktop/godaddy-website-builder-services.webp"); /* replace with actual hero image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -2;
     color: #f9fafb;
 }
-
+@media (max-width: 768px) {
+.godaddy-hero {
+    background-image: url("../../../../images/banners/mobile/godaddy-website-builder-services.webp"); /* replace with actual hero image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -2;
+    color: #f9fafb;
+}
+}
 .php-hero {
     background: radial-gradient(circle at top, #374151, #0b1220);
     color: #f9fafb;

@@ -17,25 +17,37 @@
 
     <!-- HERO -->
     <section class="hero ppc-hero" id="hero">
-        <div class="container hero-layout">
-            <div class="hero-copy">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+            <div class="hero-text">
                 <p class="hero-eyebrow">PPC Management Services</p>
-                <h1>High-Performance PPC Management Services</h1>
+                <h1>High-Performance PPC Campaigns That Convert</h1>
                 <p class="hero-subtitle">
-                    Maximize your advertising results with strategic PPC campaigns built to drive conversions, boost
-                    visibility, and deliver measurable performance across all major platforms.
+                    Launch and scale paid campaigns across Google, Microsoft and social platforms with a sharp focus on
+                    ROAS, lead quality, and predictable growth.
                 </p>
+
                 <div class="hero-actions">
                     <a href="#cta" class="btn btn-lg btn-primary">Get Free PPC Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Strategy Call</a>
                 </div>
             </div>
+
             <div class="hero-panel" aria-hidden="true">
                 <div class="hero-panel-inner">
-                    <p class="panel-label">Live Campaign Overview</p>
-                    <p class="panel-text">
-                        A real-time view of impressions, clicks, conversions and cost across your active campaigns.
+                    <p class="hero-panel-label">What we manage</p>
+                    <p class="hero-panel-text">
+                        We optimise budgets, audiences, creatives, and landing pages—then iterate weekly to reduce CPA and
+                        improve conversion rate.
                     </p>
+                    <ul class="hero-panel-list">
+                        <li>Search, Shopping &amp; Performance Max</li>
+                        <li>Retargeting &amp; lookalike audiences</li>
+                        <li>Conversion tracking &amp; GA4 events</li>
+                        <li>Landing page CRO improvements</li>
+                    </ul>
                 </div>
             </div>
         </div>

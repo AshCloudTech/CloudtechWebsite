@@ -1,0 +1,509 @@
+/* =========================================================
+   WordPress Service Page CSS (Refactored + Logo Palette)
+   Path: public/assets/services/webDevelopment/wordpress/css/style.css
+========================================================= */
+
+/* ==== TOKENS (Logo Theme) ==== */
+:root{
+  --c-navy:#103880;
+  --c-orange:#F88000;
+  --c-blue:#3070B0;
+  --c-cyan:#50B0D0;
+
+  --bg:#ffffff;
+  --surface:#F6F8FC;
+  --card:#ffffff;
+
+  --border:rgba(16,56,128,.12);
+  --border-strong:rgba(16,56,128,.18);
+
+  --text:#0b1220;
+  --muted:rgba(11,18,32,.68);
+
+  --shadow:0 14px 32px rgba(15, 23, 42, 0.08);
+  --shadow-strong:0 18px 40px rgba(15, 23, 42, 0.14);
+
+  --ease:cubic-bezier(.2,.8,.2,1);
+}
+
+/* ==== RESET & BASE ==== */
+*,
+*::before,
+*::after{ box-sizing:border-box; }
+
+html{ scroll-behavior:smooth; }
+
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color:var(--text);
+  background:#f3f4f6;
+  line-height:1.6;
+}
+
+img{ max-width:100%; display:block; }
+
+a{ color:inherit; text-decoration:none; }
+
+ul{ list-style:none; padding:0; margin:0; }
+
+button{ font-family:inherit; }
+
+/* ==== LAYOUT HELPERS ==== */
+.container{
+  width:100%;
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+.section{ padding:80px 0; }
+
+.section-header{
+  text-align:center;
+  max-width:720px;
+  margin:0 auto 40px auto;
+}
+
+.section-header h2{
+  font-size:32px;
+  margin:0 0 8px 0;
+  letter-spacing:.01em;
+}
+
+.section-header p{
+  color:rgba(11,18,32,.70);
+  margin:0;
+}
+
+/* ==== GRID ==== */
+.grid{ display:grid; gap:24px; }
+.grid-3{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-4{ grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+/* ==== BUTTONS ==== */
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:10px 22px;
+  border-radius:999px;
+  font-weight:800;
+  font-size:14px;
+  border:none;
+  cursor:pointer;
+  transition: transform .15s var(--ease), box-shadow .15s var(--ease), background-color .15s var(--ease), color .15s var(--ease), border-color .15s var(--ease);
+  white-space:nowrap;
+  will-change:transform;
+}
+
+.btn-primary{
+  background: linear-gradient(135deg, var(--c-orange), #FFA22E);
+  color:#0b1220;
+  box-shadow:0 12px 30px rgba(248,128,0,.22);
+}
+.btn-primary:hover{
+  transform: translateY(-1px);
+  box-shadow:0 16px 40px rgba(248,128,0,.28);
+}
+
+.btn-ghost{
+  background: rgba(255,255,255,.10);
+  color:#f9fafb;
+  border: 1px solid rgba(255,255,255,.38);
+}
+.btn-ghost:hover{
+  background: rgba(255,255,255,.16);
+  border-color: rgba(255,255,255,.55);
+}
+
+.btn-light{
+  background:#f9fafb;
+  color:#111827;
+  box-shadow:0 10px 24px rgba(15, 23, 42, 0.22);
+}
+.btn-light:hover{ background:#e5e7eb; }
+
+.btn-outline{
+  background:transparent;
+  color:#f9fafb;
+  border:1px solid rgba(255,255,255,.75);
+}
+.btn-outline:hover{
+  background:#f9fafb;
+  color:#111827;
+}
+
+/* ==== HEADER (page local - your global header.css still applies) ==== */
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:30;
+  background-color:#111827;
+  color:#f9fafb;
+  border-bottom:1px solid #1f2937;
+}
+
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 0;
+  gap:18px;
+}
+
+.logo{ display:flex; align-items:center; gap:8px; }
+
+.logo-mark{
+  width:32px; height:32px;
+  border-radius:10px;
+  background: rgba(16,56,128,.20);
+  border:1px solid rgba(255,255,255,.16);
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  color:#f9fafb;
+  font-weight:900;
+  font-size:14px;
+}
+
+.logo-text{
+  color:#e5e7eb;
+  font-weight:800;
+  letter-spacing:.05em;
+  font-size:15px;
+}
+
+/* Nav links with brand underline */
+.main-nav ul{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  font-size:14px;
+}
+
+.main-nav a{
+  color:#e5e7eb;
+  position:relative;
+  padding-bottom:2px;
+}
+
+.main-nav a::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:-6px;
+  width:0;
+  height:2px;
+  border-radius:999px;
+  background: linear-gradient(90deg, var(--c-cyan), var(--c-blue), var(--c-orange));
+  transform: translateX(-50%);
+  transition: width .18s var(--ease);
+}
+
+.main-nav a:hover::after,
+.main-nav a.active::after{ width:18px; }
+
+.nav-toggle{
+  display:none;
+  flex-direction:column;
+  gap:4px;
+  width:22px;
+  height:18px;
+  background:none;
+  border:none;
+  padding:0;
+}
+.nav-toggle span{
+  height:2px;
+  width:100%;
+  border-radius:999px;
+  background-color:#e5e7eb;
+}
+
+/* ==== HERO ==== */
+.hero{
+  position:relative;
+  padding:120px 0 90px;
+  overflow:hidden;
+}
+
+/* Background image only, overlay added via ::before for readability */
+.wordpress-hero{
+  background-image: url("../../../../images/banners/desktop/wordpress-development.webp");
+  background-size: cover;
+  background-position: center;
+  color:#f9fafb;
+}
+
+.wordpress-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(180deg, rgba(11,18,32,.72) 0%, rgba(11,18,32,.55) 52%, rgba(11,18,32,.70) 100%),
+    radial-gradient(800px 500px at 18% 18%, rgba(80,176,208,.18), transparent 60%),
+    radial-gradient(800px 500px at 82% 22%, rgba(248,128,0,.14), transparent 60%);
+  pointer-events:none;
+}
+
+@media (max-width: 768px){
+  .wordpress-hero{
+    background-image: url("../../../../images/banners/mobile/wordpress-development.webp");
+  }
+}
+
+.hero-inner{
+  position:relative;
+  max-width:700px;
+}
+
+.hero-eyebrow{
+  font-size:13px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.86);
+  margin:0 0 10px 0;
+}
+
+.hero h1{
+  font-size:40px;
+  line-height:1.15;
+  margin:0 0 16px 0;
+}
+
+.hero-subtitle{
+  color:rgba(255,255,255,.86);
+  max-width:640px;
+  margin:0 0 26px 0;
+}
+
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+/* ==== SOLUTIONS ==== */
+.section-solutions{ background: #f9fafb; }
+
+.card{
+  background:var(--card);
+  border-radius:18px;
+  padding:22px 20px;
+  box-shadow:var(--shadow);
+  border:1px solid rgba(209, 213, 219, 0.9);
+}
+
+.solution-card h3{
+  margin:12px 0 8px 0;
+  font-size:16px;
+}
+
+.solution-card p{
+  margin:0;
+  font-size:14px;
+  color:#4b5563;
+}
+
+.card-icon{
+  width:32px; height:32px;
+  border-radius:9px;
+  background: linear-gradient(135deg, var(--c-navy), var(--c-blue));
+}
+
+/* ==== WHY WORDPRESS (FIXED) ==== */
+.section-why{ background:#ffffff; }
+
+.why-layout{
+  display:grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1.5fr);
+  gap:40px;
+  align-items:center;
+}
+
+.why-copy h2{
+  font-size:28px;
+  margin:0 0 10px 0;
+}
+
+.why-intro{
+  font-size:14px;
+  color:#4b5563;
+  margin:0 0 18px 0;
+}
+
+.why-lists{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap:8px 32px;
+}
+
+.why-lists ul li{
+  font-size:14px;
+  color:#111827;
+  margin-bottom:6px;
+  padding-left:16px;
+  position:relative;
+}
+
+.why-lists ul li::before{
+  content:"";
+  position:absolute;
+  left:4px;
+  top:8px;
+  width:6px;
+  height:6px;
+  border-radius:999px;
+  background: var(--c-orange);
+}
+
+.why-media .media-placeholder{
+  width:100%;
+  padding-top:60%;
+  border-radius:20px;
+  background: linear-gradient(135deg, rgba(80,176,208,.14), rgba(48,112,176,.10), rgba(248,128,0,.10));
+  box-shadow: var(--shadow-strong);
+  border: 1px solid rgba(16,56,128,.12);
+}
+
+/* ==== PROCESS (FIXED VISIBILITY + MATCH BLADE) ==== */
+.section-process{
+  background:
+    radial-gradient(800px 520px at 16% 10%, rgba(80,176,208,.16), transparent 60%),
+    radial-gradient(800px 520px at 88% 18%, rgba(248,128,0,.12), transparent 60%),
+    linear-gradient(180deg, #0B1220 0%, #0F172A 100%);
+  color:#e5e7eb;
+}
+
+.process-grid{
+  margin-top:18px;
+}
+
+/* Blade uses: <article class="card process-card"><p class="step">01</p>... */
+.process-card{
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(226,232,240,.16);
+  box-shadow: 0 16px 38px rgba(0,0,0,.22);
+  color:#e5e7eb;
+}
+
+.process-card .step{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:46px;
+  height:46px;
+  border-radius:16px;
+  background: rgba(80,176,208,.18);
+  border: 1px solid rgba(80,176,208,.32);
+  color:#ffffff;
+  font-weight:900;
+  margin:0 0 12px 0;
+}
+
+.process-card h3{
+  margin:0 0 8px 0;
+  font-size:16px;
+  color:#ffffff;
+}
+
+.process-card p{
+  margin:0;
+  color: rgba(226,232,240,.92);
+}
+
+/* ==== CTA ==== */
+.section-cta{
+  background:
+    radial-gradient(700px 420px at 18% 10%, rgba(80,176,208,.12), transparent 62%),
+    radial-gradient(700px 420px at 82% 22%, rgba(248,128,0,.12), transparent 62%),
+    linear-gradient(180deg, #111827 0%, #0F172A 100%);
+  color:#f9fafb;
+}
+
+.cta-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  flex-wrap:wrap;
+}
+
+.cta-copy h2{
+  margin:0 0 8px 0;
+  font-size:28px;
+}
+.cta-copy p{
+  margin:0;
+  color:rgba(255,255,255,.86);
+}
+
+.cta-actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+/* ==== FOOTER (local fallback) ==== */
+.site-footer{
+  background-color:#111827;
+  color:#9ca3af;
+  padding:14px 0 18px 0;
+}
+
+.footer-inner{
+  text-align:center;
+  font-size:12px;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 1024px){
+  .grid-3{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .why-layout{ grid-template-columns: 1.1fr 1.4fr; gap:28px; }
+}
+
+@media (max-width: 768px){
+  .main-nav{
+    position:absolute;
+    left:0; right:0;
+    top:100%;
+    background-color:#111827;
+    max-height:0;
+    overflow:hidden;
+    border-bottom:1px solid #1f2937;
+    transition: max-height .2s var(--ease);
+  }
+
+  .main-nav.open{ max-height: 260px; }
+
+  .main-nav ul{
+    flex-direction:column;
+    padding:10px 20px 14px 20px;
+    align-items:flex-start;
+  }
+
+  .nav-toggle{ display:flex; }
+
+  .hero{ padding-top:110px; }
+  .hero h1{ font-size:32px; }
+
+  .grid-3{ grid-template-columns:1fr; }
+  .grid-4{ grid-template-columns:1fr; }
+
+  .why-layout{ grid-template-columns:1fr; gap:24px; }
+
+  .cta-inner{ align-items:flex-start; }
+}
+
+@media (max-width: 600px){
+  /* nothing critical; keep safe */
+}
+
+/* ==== Reduced motion ==== */
+@media (prefers-reduced-motion: reduce){
+  *{ scroll-behavior:auto; }
+  .btn{ transition:none !important; }
+  .btn:hover{ transform:none !important; }
+  .main-nav a::after{ transition:none !important; }
+}

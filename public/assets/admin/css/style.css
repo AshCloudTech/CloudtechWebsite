@@ -849,3 +849,170 @@ html[data-theme="dark"]  .themeBtn .icoMoon { display:block; }
 .nav.navNested a, .nav.navNested .linkBtn{
   padding-left: 14px;
 }
+
+
+/* =========================
+   Social Links Admin UI
+   ========================= */
+
+.socialCard .cardBody { padding-top: 10px; }
+
+.socialTop{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap: 12px;
+  flex-wrap:wrap;
+  margin-bottom: 12px;
+}
+.socialTopLeft{ flex: 1; min-width: 260px; }
+.socialTopRight{ display:flex; gap:10px; }
+
+.socialTableWrap{
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: auto;
+  background: rgba(255,255,255,.02);
+}
+
+.socialTable{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 920px; /* keeps columns readable */
+}
+
+.socialTable thead th{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 12px 12px;
+  font-size: 11px;
+  letter-spacing:.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: rgba(255,255,255,.04);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+
+.socialTable tbody td{
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  vertical-align: middle;
+}
+
+.socialRow:hover td{
+  background: rgba(255,255,255,.03);
+}
+
+.socialTable .colDel{ width: 90px; }
+.socialTable .colSort{ width: 110px; }
+.socialTable .colActive{ width: 120px; }
+
+.mutedCell{
+  color: var(--muted-2);
+  text-align: center;
+}
+
+/* Inputs inside table (compact & consistent) */
+.socialTable .input{
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.05);
+  color: var(--text);
+  outline: none;
+}
+.socialTable .input:hover{
+  background: rgba(255,255,255,.07);
+}
+.socialTable .input:focus{
+  border-color: rgba(109,94,252,.55);
+  box-shadow: 0 0 0 3px rgba(109,94,252,.18);
+}
+.socialTable .inputSm{
+  width: 90px;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+/* Checkbox pill (Delete) */
+.chk{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width: 44px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.04);
+  cursor: pointer;
+}
+.chk input{ display:none; }
+.chk span{
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,.28);
+  background: transparent;
+}
+.chk input:checked + span{
+  border-color: rgba(255,92,122,.6);
+  background: linear-gradient(135deg, rgba(255,92,122,.85), rgba(255,92,122,.35));
+}
+
+/* Toggle switch (Active) */
+.switch{
+  position: relative;
+  display:inline-flex;
+  align-items:center;
+  width: 54px;
+  height: 32px;
+}
+.switch input{ display:none; }
+.switch span{
+  width: 54px;
+  height: 32px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.05);
+  position: relative;
+  transition: background .18s ease, border-color .18s ease;
+}
+.switch span::after{
+  content:"";
+  position:absolute;
+  top: 50%;
+  left: 6px;
+  width: 22px;
+  height: 22px;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: rgba(255,255,255,.70);
+  box-shadow: 0 10px 26px rgba(0,0,0,.35);
+  transition: left .18s ease, background .18s ease;
+}
+.switch input:checked + span{
+  border-color: rgba(58,210,159,.35);
+  background: rgba(58,210,159,.14);
+}
+.switch input:checked + span::after{
+  left: 26px;
+  background: rgba(58,210,159,.95);
+}
+
+/* Actions spacing */
+.socialActions{
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,.10);
+}
+
+/* Responsive: table stays scrollable, header layout stacks */
+@media (max-width: 900px){
+  .socialTop{ align-items: stretch; }
+  .socialTopRight{ justify-content:flex-start; }
+  .socialTable{ min-width: 860px; }
+}

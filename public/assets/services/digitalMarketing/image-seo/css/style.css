@@ -284,10 +284,22 @@ button {
 .image-hero .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(circle at top left, rgba(56, 189, 248, 0.70), transparent 55%),
-                      radial-gradient(circle at bottom right, rgba(167, 139, 250, 0.70), transparent 55%);
-    opacity: 0.7;
+    background-image: url("../../../../images/banners/desktop/image-seo-services.webp"); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
     z-index: -2;
+}
+@media (max-width: 768px) {
+.image-hero .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url("../../../../images/banners/mobile/image-seo-services.webp"); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -2;
+}
 }
 
 .image-hero .hero-overlay {
@@ -295,7 +307,7 @@ button {
     inset: 0;
     background: linear-gradient(135deg, #020617, #111827);
     opacity: 0.96;
-    z-index: -1;
+    z-index: -3;
 }
 
 .hero-grid {

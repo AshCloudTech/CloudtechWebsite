@@ -242,10 +242,24 @@ button {
 }
 
 .laravel-hero {
-    background: radial-gradient(circle at top, #4b5563, #111827);
+    background-image: url("../../../../images/banners/desktop/laravel-development-services.webp"); /* replace with actual hero image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -2;
     color: #f9fafb;
 }
 
+@media (max-width: 768px) {
+.laravel-hero {
+    background-image: url("../../../../images/banners/mobile/laravel-development-services.webp"); /* replace with actual hero image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -2;
+    color: #f9fafb;
+}
+}
 .hero-inner {
     max-width: 700px;
 }

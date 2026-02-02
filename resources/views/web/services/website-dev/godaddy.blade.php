@@ -1,7 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Di')
-@section('meta_title', 'Cl')
+@section('title', 'GoDaddy Website Builder Services | Cloud Technologies Ltd')
+@section('meta_title', 'GoDaddy Website Builder Services | Cloud Technologies Ltd')
+@section('meta_description', 'Professional GoDaddy website builder services for small businesses. Fast setup, template customization, eCommerce solutions, SEO optimisation, and clear GoDaddy website pricing.')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/godaddy/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">

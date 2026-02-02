@@ -1,7 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Di')
-@section('meta_title', 'Cl')
+@section('title', 'Squarespace Website Development Services | Cloud Technologies Ltd')
+@section('meta_title', 'Squarespace Website Development Services | Cloud Technologies Ltd')
+@section('meta_description', 'Professional Squarespace website development services for visually engaging, cost-effective websites with easy management and scalable design.')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/squarespace/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">

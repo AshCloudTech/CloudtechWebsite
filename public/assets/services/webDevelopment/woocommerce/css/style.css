@@ -238,10 +238,24 @@ button {
 }
 
 .woo-hero {
-    background-color: #3f3f46;
+    background-image: url("../../../../images/banners/desktop/woocommerce-development.webp"); /* replace with actual hero image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -2;
     color: #f9fafb;
 }
 
+@media (max-width: 768px) {
+.woo-hero {
+    background-image: url("../../../../images/banners/mobile/woocommerce-development.webp"); /* replace with actual hero image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -2;
+    color: #f9fafb;
+}
+}
 .hero-inner {
     max-width: 700px;
 }

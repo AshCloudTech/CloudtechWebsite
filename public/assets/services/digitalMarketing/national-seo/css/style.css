@@ -275,10 +275,23 @@ button {
 .seo-hero .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(circle at top left, rgba(34, 197, 94, 0.75), transparent 55%),
-                      radial-gradient(circle at bottom right, rgba(8, 145, 178, 0.7), transparent 55%);
-    opacity: 0.6;
+    background-image: url("../../../../images/banners/desktop/national-seo-services.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
     z-index: -2;
+}
+
+@media (max-width: 768px) {
+    .seo-hero .hero-bg {
+        position: absolute;
+        inset: 0;
+        background-image: url("../../../../images/banners/mobile/national-seo-services.webp");
+        background-size: cover;
+        background-position: center;
+        opacity: 1;
+        z-index: -2;
+    }
 }
 
 .seo-hero .hero-overlay {
@@ -286,7 +299,7 @@ button {
     inset: 0;
     background: linear-gradient(135deg, #022c22, #022c39 55%, #020617);
     opacity: 0.96;
-    z-index: -1;
+    z-index: -3;
 }
 
 .hero-content {
@@ -391,12 +404,15 @@ button {
 .icon-uk {
     background: linear-gradient(135deg, #22c55e, #16a34a);
 }
+
 .icon-data {
     background: linear-gradient(135deg, #0ea5e9, #0369a1);
 }
+
 .icon-target {
     background: linear-gradient(135deg, #22c55e, #a3e635);
 }
+
 .icon-results {
     background: linear-gradient(135deg, #22c55e, #facc15);
 }

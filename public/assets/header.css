@@ -75,6 +75,14 @@
   margin-left: 20px;
 }
 
+.btn-accent {
+    background-color: #0b1020;
+    color: #ffffff;
+}
+.btn-sm {
+    padding: 8px 18px;
+    font-size: 13px;
+}
 /* Mobile toggle */
 .nav-toggle {
   display: none;
@@ -137,7 +145,7 @@
 .logo{ display:flex; align-items:center; gap:10px; }
 
 .site-logo{
-  height: 34px;
+  height: 40px;
   width: auto;
   max-width: 170px;
   object-fit: contain;
@@ -151,7 +159,10 @@ html[data-theme="dark"] .site-logo--light{ display:none; }
 html[data-theme="dark"] .site-logo--dark{ display:block; }
 
 
+<<<<<<< Updated upstream
 /* dropdown for the industies*/
+=======
+>>>>>>> Stashed changes
 
 .has-dropdown {
   position: relative;
@@ -218,4 +229,8 @@ html[data-theme="dark"] .site-logo--dark{ display:block; }
   .main-nav ul li.open > ul.dropdown { 
     display: block; 
   } 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

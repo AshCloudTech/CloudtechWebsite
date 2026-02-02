@@ -929,7 +929,7 @@ button {
         right: 0;
         background: rgba(7, 10, 26, 0.98);
         max-height: 0;
-        overflow: hidden;
+        overflow: auto;
         transition: max-height 0.2s ease;
     }
 

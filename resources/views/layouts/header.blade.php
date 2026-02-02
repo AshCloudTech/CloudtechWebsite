@@ -33,11 +33,23 @@
                         </a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a href="#industries" class="{{ request()->is('/') ? '' : '' }}">
                             Industries
                         </a>
-                    </li>
+                    </li> -->
+
+                    <li class="has-dropdown">
+    <a href="#industries">
+        Industries
+    </a>
+    <ul class="dropdown">
+        <li><a href="#">Healthcare</a></li>
+        <li><a href="#">Finance</a></li>
+        <li><a href="#">E-Commerce</a></li>
+        <li><a href="#">Education</a></li>
+    </ul>
+</li>
 
                     <li>
                         <a href="{{ route('portfolio') }}"
@@ -80,3 +92,14 @@
             </button>
         </div>
     </header>
+    <script>
+document.querySelectorAll('.has-dropdown > a').forEach(link => {
+  link.addEventListener('click', e => {
+    if (window.innerWidth <= 768) {
+      e.preventDefault();
+      link.parentElement.classList.toggle('open');
+    }
+  });
+});
+</script>
+

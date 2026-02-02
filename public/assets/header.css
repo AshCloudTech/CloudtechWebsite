@@ -159,10 +159,7 @@ html[data-theme="dark"] .site-logo--light{ display:none; }
 html[data-theme="dark"] .site-logo--dark{ display:block; }
 
 
-<<<<<<< Updated upstream
 /* dropdown for the industies*/
-=======
->>>>>>> Stashed changes
 
 .has-dropdown {
   position: relative;
@@ -229,8 +226,4 @@ html[data-theme="dark"] .site-logo--dark{ display:block; }
   .main-nav ul li.open > ul.dropdown { 
     display: block; 
   } 
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

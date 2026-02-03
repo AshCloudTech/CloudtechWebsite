@@ -284,10 +284,22 @@ button {
 .dm-hero .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(circle at top left, rgba(56, 189, 248, 0.7), transparent 55%),
-                      radial-gradient(circle at bottom right, rgba(244, 114, 182, 0.8), transparent 55%);
-    opacity: 0.5;
+    background-image: url("../../../images/banners/desktop/digital-marketing.webp"); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
     z-index: -2;
+}
+@media (max-width: 768px){
+  .dm-hero .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url("../../../images/banners/mobile/digital-marketing.webp"); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -2;
+  }
 }
 
 .dm-hero .hero-overlay {
@@ -295,7 +307,7 @@ button {
     inset: 0;
     background: linear-gradient(135deg, #020617, #0f172a 55%, #020617);
     opacity: 0.96;
-    z-index: -1;
+    z-index: -3;
 }
 
 .hero-content {

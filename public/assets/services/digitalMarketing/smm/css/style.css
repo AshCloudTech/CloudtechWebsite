@@ -298,7 +298,7 @@ button {
 .smm-hero .hero-bg {
     position: absolute;
     inset: 0;
-   background-image: url("../../../../images/banners/desktop/ecommerce-seo.webp"); 
+   background-image: url("../../../../images/banners/desktop/smm.webp"); 
     background-size: cover;
     background-position: center;
     opacity: 1;
@@ -309,7 +309,7 @@ button {
 .smm-hero .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url("../../../../images/banners/mobile/ecommerce-seo.webp"); 
+    background-image: url("../../../../images/banners/mobile/smm.webp"); 
     background-size: cover;
     background-position: center;
     opacity: 1;

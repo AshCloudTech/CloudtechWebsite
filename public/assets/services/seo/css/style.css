@@ -240,10 +240,17 @@ button {
 }
 
 .seo-hero {
-    background: radial-gradient(circle at top, #4b5563, #111827);
+    background-image: url("../../../images/banners/desktop/seo.webp"); 
+    background-size: cover;
+    background-position: center;
     color: #f9fafb;
 }
 
+@media (max-width: 768px){
+  .seo-hero{
+    background-image: url("../../../images/banners/mobile/seo.webp");
+  }
+}
 .hero-inner {
     max-width: 780px;
 }

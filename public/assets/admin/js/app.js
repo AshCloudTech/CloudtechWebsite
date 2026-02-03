@@ -210,30 +210,34 @@
 })();
 
 // app.js
-let socialIndex = window.socialIndex ?? 4;
+// footer dynamic social media links
+  let socialIndex = document.querySelectorAll('.socialRow').length;
 
 function addSocialRow() {
-    const tbody = document.getElementById("socialLinksTbody");
-    if (!tbody) return;
+  const tbody = document.getElementById('socialLinksTbody');
+  if (!tbody) return;
 
-    const tr = document.createElement("tr");
-    tr.className = "socialRow";
-    tr.innerHTML = `
+  const tr = document.createElement('tr');
+  tr.className = 'socialRow';
+
+  tr.innerHTML = `
     <td class="cellDel mutedCell">—</td>
-    <td><input class="input" name="links[${socialIndex}][platform]" placeholder="LinkedIn"></td>
-    <td><input class="input" name="links[${socialIndex}][url]" placeholder="https://..."></td>
-    <td><input class="input" name="links[${socialIndex}][handle]" placeholder="@cloudtech"></td>
+    <td><input type="text" class="input" name="links[${socialIndex}][platform]" placeholder="LinkedIn"></td>
+    <td><input type="text" class="input" name="links[${socialIndex}][url]" placeholder="https://..."></td>
+    <td><input type="text" class="input" name="links[${socialIndex}][handle]" placeholder="@cloudtech"></td>
     <td class="cellSort">
-      <input class="input inputSm" type="number" name="links[${socialIndex}][sort_order]" value="${socialIndex}">
+      <input type="number" class="input inputSm" name="links[${socialIndex}][sort_order]" value="${socialIndex + 1}">
     </td>
     <td class="cellActive">
       <label class="switch">
-        <input type="hidden" name="links[${socialIndex}][is_active]" value="0">
         <input type="checkbox" name="links[${socialIndex}][is_active]" value="1" checked>
+        <input type="hidden" name="links[${socialIndex}][is_active]" value="0">
         <span></span>
       </label>
     </td>
   `;
-    tbody.appendChild(tr);
-    socialIndex++;
+
+  tbody.appendChild(tr);
+  socialIndex++;
 }
+

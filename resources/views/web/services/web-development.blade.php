@@ -23,8 +23,10 @@
                 <p class="hero-eyebrow">Website Development Services</p>
                 <h1>Professional Website Development Services <br>for Modern Businesses</h1>
                 <p class="hero-subtitle">
-                    Cloud Technologies Ltd provides professional website development services that help modern businesses stand out with fast,
-                     responsive, and SEO-optimized websites. Our custom designs improve engagement and boost long-term visibility.
+                    Cloud Technologies Ltd provides professional website development services that help modern businesses
+                    stand out with fast,
+                    responsive, and SEO-optimized websites. Our custom designs improve engagement and boost long-term
+                    visibility.
                 </p>
 
                 <div class="hero-actions">
@@ -56,16 +58,18 @@
             <div class="section-header">
                 <h2>Our Website Development Services</h2>
                 <p>
-                    Cloud Technologies Ltd builds responsive, high-quality websites designed for performance and user engagement.
+                    Cloud Technologies Ltd builds responsive, high-quality websites designed for performance and user
+                    engagement.
                 </p>
             </div>
 
             <div class="grid grid-4 services-grid">
                 <article class="card service-card">
                     <div class="service-icon icon-wp"></div>
-                    <h3>WordPress Development</h3>
+                    <h3><a href="{{ route('services.website-development.wordpress') }}">WordPress Development</a></h3>
                     <p>
-                        We provide expert WordPress development to create fast, secure, and fully customizable websites. Our team builds responsive, 
+                        We provide expert WordPress development to create fast, secure, and fully customizable websites. Our
+                        team builds responsive,
                         SEO-friendly WordPress sites tailored to your brand and business goals.
                     </p>
                     <a href="{{ route('services.website-development.wordpress') }}" class="service-link">Read More</a>
@@ -73,67 +77,76 @@
 
                 <article class="card service-card">
                     <div class="service-icon icon-woo"></div>
-                    <h3>WooCommerce Development</h3>
+                    <h3><a href="{{ route('services.website-development.woocommerce') }}">WooCommerce Development</a></h3>
                     <p>
-                        Our WooCommerce development services help you build a powerful, scalable online store with smooth functionality, custom features, secure payments, 
+                        Our WooCommerce development services help you build a powerful, scalable online store with smooth
+                        functionality, custom features, secure payments,
                         and an optimized shopping experience for higher conversions.
                     </p>
                     <a href="{{ route('services.website-development.woocommerce') }}" class="service-link">Read More</a>
                 </article>
 
-            <article class="card service-card">
-            <div class="service-icon icon-shopify"></div>
-            <h3>Shopify Development</h3>
-            <p>
-                We deliver professional Shopify development to create high-converting, visually appealing, and mobile-optimized online stores. Our custom themes and app integrations enhance performance and boost eCommerce sales.
-            </p>
-            <a href="{{ route('services.website-development.shopify') }}" class="service-link">Read More</a>
-        </article>
+                <article class="card service-card">
+                    <div class="service-icon icon-shopify"></div>
+                    <h3><a href="{{ route('services.website-development.shopify') }}">Shopify Development</a></h3>
+                    <p>
+                        We deliver professional Shopify development to create high-converting, visually appealing, and
+                        mobile-optimized online stores. Our custom themes and app integrations enhance performance and boost
+                        eCommerce sales.
+                    </p>
+                    <a href="{{ route('services.website-development.shopify') }}" class="service-link">Read More</a>
+                </article>
 
-        <article class="card service-card">
-            <div class="service-icon icon-sq"></div>
-            <h3>Squarespace Websites</h3>
-            <p>
-                Our Squarespace development services focus on creating clean, modern, and fully responsive websites that are easy to manage. Ideal for businesses seeking stylish design, strong performance, and simplicity.
-            </p>
-            <a href="{{ route('services.website-development.squarespace') }}" class="service-link">Read More</a>
-        </article>
+                <article class="card service-card">
+                    <div class="service-icon icon-sq"></div>
+                    <h3><a href="{{ route('services.website-development.squarespace') }}">Squarespace Websites</a></h3>
+                    <p>
+                        Our Squarespace development services focus on creating clean, modern, and fully responsive websites
+                        that are easy to manage. Ideal for businesses seeking stylish design, strong performance, and
+                        simplicity.
+                    </p>
+                    <a href="{{ route('services.website-development.squarespace') }}" class="service-link">Read More</a>
+                </article>
 
-        <article class="card service-card">
-            <div class="service-icon icon-wix"></div>
-            <h3>Wix Websites</h3>
-            <p>
-                We build custom Wix websites that are visually appealing, mobile-responsive, and optimised for user experience. Perfect for small businesses wanting a simple, fast, and effective online presence.
-            </p>
-            <a href="{{ route('services.website-development.wix') }}" class="service-link">Read More</a>
-        </article>
+                <article class="card service-card">
+                    <div class="service-icon icon-wix"></div>
+                    <h3><a href="{{ route('services.website-development.wix') }}">Wix Websites</a></h3>
+                    <p>
+                        We build custom Wix websites that are visually appealing, mobile-responsive, and optimised for user
+                        experience. Perfect for small businesses wanting a simple, fast, and effective online presence.
+                    </p>
+                    <a href="{{ route('services.website-development.wix') }}" class="service-link">Read More</a>
+                </article>
 
-        <article class="card service-card">
-            <div class="service-icon icon-gd"></div>
-            <h3>GoDaddy Builder</h3>
-            <p>
-                We develop professional websites using GoDaddy Website Builder, offering quick setup, responsive layouts, and essential features to help businesses establish a strong and reliable online presence.
-            </p>
-            <a href="{{ route('services.website-development.godaddy') }}" class="service-link">Read More</a>
-        </article>
+                <article class="card service-card">
+                    <div class="service-icon icon-gd"></div>
+                    <h3><a href="{{ route('services.website-development.godaddy') }}">GoDaddy Builder</a></h3>
+                    <p>
+                        We develop professional websites using GoDaddy Website Builder, offering quick setup, responsive
+                        layouts, and essential features to help businesses establish a strong and reliable online presence.
+                    </p>
+                    <a href="{{ route('services.website-development.godaddy') }}" class="service-link">Read More</a>
+                </article>
 
-        <article class="card service-card">
-            <div class="service-icon icon-laravel"></div>
-            <h3>Laravel Development</h3>
-            <p>
-                Our Laravel development services deliver secure, scalable, and high-performance web applications. We build fully custom solutions with clean architecture, advanced features, and optimised efficiency.
-            </p>
-            <a href="{{ route('services.website-development.laravel') }}" class="service-link">Read More</a>
-        </article>
+                <article class="card service-card">
+                    <div class="service-icon icon-laravel"></div>
+                    <h3><a href="{{ route('services.website-development.laravel') }}">Laravel Development</a></h3>
+                    <p>
+                        Our Laravel development services deliver secure, scalable, and high-performance web applications. We
+                        build fully custom solutions with clean architecture, advanced features, and optimised efficiency.
+                    </p>
+                    <a href="{{ route('services.website-development.laravel') }}" class="service-link">Read More</a>
+                </article>
 
-        <article class="card service-card">
-            <div class="service-icon icon-custom"></div>
-            <h3>Custom PHP Projects</h3>
-            <p>
-                We deliver bespoke PHP solutions including system integrations, custom platforms, and legacy application rebuilds tailored to industry-specific workflows and business requirements.
-            </p>
-            <a href="{{ route('services.website-development.custom-php') }}" class="service-link">Read More</a>
-        </article>
+                <article class="card service-card">
+                    <div class="service-icon icon-custom"></div>
+                    <h3><a href="{{ route('services.website-development.custom-php') }}">Custom PHP Projects</a></h3>
+                    <p>
+                        We deliver bespoke PHP solutions including system integrations, custom platforms, and legacy
+                        application rebuilds tailored to industry-specific workflows and business requirements.
+                    </p>
+                    <a href="{{ route('services.website-development.custom-php') }}" class="service-link">Read More</a>
+                </article>
 
             </div>
         </div>
@@ -145,7 +158,8 @@
             <div class="section-header">
                 <h2>Technologies We Master</h2>
                 <p>
-                   Our team masters the latest technologies to deliver high-performing websites, applications, and digital experiences.
+                    Our team masters the latest technologies to deliver high-performing websites, applications, and digital
+                    experiences.
                 </p>
             </div>
 
@@ -158,7 +172,6 @@
                             <li><b>Angular</b>-Develop scalable, robust apps with Angular.</li>
                             <li><b>Vue</b>-Create smooth, flexible web apps using Vue.js.</li>
                             <li><b>Tailwind CSS</b>-Design responsive, custom UIs with Tailwind CSS.</li>
-                            
                         </ul>
                     </div>
                     <div class="stack-column">
@@ -168,7 +181,6 @@
                             <li><b>TypeScript</b>-Write clean, reliable code with TypeScript.</li>
                             <li><b>MongoDB</b>-Store data flexibly with MongoDB’s NoSQL database.</li>
                             <li><b>Firebase</b>-Build real-time apps quickly using Firebase tools.</li>
-                            
                         </ul>
                     </div>
                     <div class="stack-column">
@@ -211,7 +223,7 @@
             <div class="section-header">
                 <h2>Our Recent Projects</h2>
                 <p>
-                   Explore our creative and high-quality website development work.
+                    Explore our creative and high-quality website development work.
                 </p>
             </div>
 
@@ -221,7 +233,7 @@
                     <span class="project-tag project-tag-blue">E‑commerce</span>
                     <h3>Fashion E-commerce Platform</h3>
                     <p>
-                       A modern online store for easy browsing and shopping
+                        A modern online store for easy browsing and shopping
                     </p>
                 </article>
 
@@ -257,7 +269,7 @@
                     <span class="project-tag project-tag-amber">Real Estate</span>
                     <h3>Real Estate Portal</h3>
                     <p>
-                       A user-friendly property listing and search platform.
+                        A user-friendly property listing and search platform.
                     </p>
                 </article>
 
@@ -279,7 +291,7 @@
             <div class="section-header">
                 <h2>Our Development Process</h2>
                 <p>
-                  Our step-by-step approach ensures quality, clarity, and smooth project delivery.
+                    Our step-by-step approach ensures quality, clarity, and smooth project delivery.
                 </p>
             </div>
 
@@ -296,7 +308,7 @@
                     <div class="process-step">2</div>
                     <h3>Design &amp; Prototyping</h3>
                     <p>
-                       We design clean layouts and prototypes to shape the user experience.
+                        We design clean layouts and prototypes to shape the user experience.
                     </p>
                 </article>
 
@@ -304,7 +316,7 @@
                     <div class="process-step">3</div>
                     <h3>Development &amp; Testing</h3>
                     <p>
-                       We build the solution and test thoroughly for quality and performance.
+                        We build the solution and test thoroughly for quality and performance.
                     </p>
                 </article>
 
@@ -312,7 +324,7 @@
                     <div class="process-step">4</div>
                     <h3>Launch &amp; Support</h3>
                     <p>
-                       We launch your project and provide ongoing support for smooth operation.
+                        We launch your project and provide ongoing support for smooth operation.
                     </p>
                 </article>
             </div>
@@ -326,7 +338,7 @@
                 <div class="cta-main">
                     <h2>Ready to Build Your Dream Website?</h2>
                     <p>
-                       Let our team create a refined, responsive, and business-focused website tailored to your needs.
+                        Let our team create a refined, responsive, and business-focused website tailored to your needs.
                     </p>
                 </div>
                 <div class="cta-actions webdev-cta-actions">
@@ -337,7 +349,7 @@
         </div>
     </section>
 
-        <!-- FAQ -->
+    <!-- FAQ -->
     <section class="section section-alt section-faq" id="faq">
         <div class="container">
             <div class="section-header">
@@ -354,7 +366,8 @@
                         <div class="faq-content">
                             <p>
                                 Website development services include designing, building, and maintaining websites.
-                                These services cover everything from UI/UX design and front-end development to back-end programming,
+                                These services cover everything from UI/UX design and front-end development to back-end
+                                programming,
                                 database integration, performance optimization, and ongoing support.
                             </p>
                         </div>
@@ -364,8 +377,10 @@
                         <summary>2. How much does website development cost?</summary>
                         <div class="faq-content">
                             <p>
-                                The cost of website development depends on the project scope, features, design complexity, and technology used.
-                                A basic website may cost less, while custom, e-commerce, or enterprise websites require a higher investment.
+                                The cost of website development depends on the project scope, features, design complexity,
+                                and technology used.
+                                A basic website may cost less, while custom, e-commerce, or enterprise websites require a
+                                higher investment.
                                 Most providers offer flexible pricing based on your business needs.
                             </p>
                         </div>
@@ -376,7 +391,8 @@
                         <div class="faq-content">
                             <p>
                                 Website development timelines vary by project size. A simple website can take 2–4 weeks,
-                                while complex or custom websites may take 2–3 months or more. Clear requirements and timely feedback
+                                while complex or custom websites may take 2–3 months or more. Clear requirements and timely
+                                feedback
                                 help speed up the process.
                             </p>
                         </div>
@@ -386,8 +402,10 @@
                         <summary>4. Do you provide custom website development?</summary>
                         <div class="faq-content">
                             <p>
-                                Yes, professional website development services offer fully custom solutions tailored to your brand,
-                                goals, and target audience. Custom development ensures better performance, scalability, security,
+                                Yes, professional website development services offer fully custom solutions tailored to your
+                                brand,
+                                goals, and target audience. Custom development ensures better performance, scalability,
+                                security,
                                 and a unique user experience.
                             </p>
                         </div>
@@ -397,8 +415,10 @@
                         <summary>5. Will my website be mobile-friendly and SEO-optimized?</summary>
                         <div class="faq-content">
                             <p>
-                                Absolutely. Modern website development focuses on responsive design so your website works on all devices.
-                                SEO-friendly structure, fast loading speed, clean code, and search-engine best practices are also included
+                                Absolutely. Modern website development focuses on responsive design so your website works on
+                                all devices.
+                                SEO-friendly structure, fast loading speed, clean code, and search-engine best practices are
+                                also included
                                 to help improve rankings.
                             </p>
                         </div>
@@ -408,8 +428,10 @@
                         <summary>6. Do you offer website maintenance and support after launch?</summary>
                         <div class="faq-content">
                             <p>
-                                Yes, most website development companies provide ongoing maintenance and support. This includes security updates,
-                                bug fixes, performance optimization, content updates, and technical assistance to keep your website running smoothly.
+                                Yes, most website development companies provide ongoing maintenance and support. This
+                                includes security updates,
+                                bug fixes, performance optimization, content updates, and technical assistance to keep your
+                                website running smoothly.
                             </p>
                         </div>
                     </details>
@@ -417,6 +439,7 @@
             </div>
         </div>
     </section>
+
     <!-- CONTACT FORM -->
     <section class="section section-contact" id="contact-form">
         <div class="container">
@@ -427,37 +450,52 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- Identifiers --}}
+                <input type="hidden" name="form_key" value="website_project_enquiry">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <label for="webproj_name">Full Name</label>
+                        <input type="text" id="webproj_name" name="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <label for="webproj_email">Email Address</label>
+                        <input type="email" id="webproj_email" name="email" placeholder="name@company.com" required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="company">Company Name</label>
-                        <input type="text" id="company" placeholder="Organisation name">
+                        <label for="webproj_company">Company Name</label>
+                        <input type="text" id="webproj_company" name="payload[company_name]"
+                            placeholder="Organisation name">
                     </div>
+
                     <div class="form-field">
-                        <label for="budget">Estimated Budget</label>
-                        <input type="text" id="budget" placeholder="e.g. £2,000 – £10,000">
+                        <label for="webproj_budget">Estimated Budget</label>
+                        <input type="text" id="webproj_budget" name="payload[estimated_budget]"
+                            placeholder="e.g. £2,000 – £10,000">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
-                        <label for="message">Project Details</label>
-                        <textarea id="message" rows="4" placeholder="New website, redesign, platform preference, deadlines, etc."></textarea>
+                        <label for="webproj_message">Project Details</label>
+                        <textarea id="webproj_message" name="message" rows="4"
+                            placeholder="New website, redesign, platform preference, deadlines, etc." required></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Project</button>
             </form>
         </div>
     </section>
+
 
 
 @endsection

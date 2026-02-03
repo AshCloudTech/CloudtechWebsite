@@ -1,7 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Di')
-@section('meta_title', 'Cl')
+@section('title', 'WooCommerce Development Services | Cloud Technologies Ltd')
+@section('meta_title', 'Cloud Technologies Ltd – WooCommerce Development Services')
+@section('meta_description', 'Professional WooCommerce development services for scalable online stores. Custom features, performance optimisation, payments, shipping, and ongoing support.')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/woocommerce/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">

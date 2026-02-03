@@ -23,7 +23,8 @@
                 <p class="hero-eyebrow">National SEO Services</p>
                 <h1>National SEO Services That Rank <br> Your Business Nationwide</h1>
                 <p class="hero-subtitle">
-                     Rank across the country with powerful, results-driven National SEO services that increase visibility, attract high-quality traffic, and help your business grow nationwide.
+                    Rank across the country with powerful, results-driven National SEO services that increase visibility,
+                    attract high-quality traffic, and help your business grow nationwide.
                 </p>
 
                 <div class="hero-actions">
@@ -55,7 +56,7 @@
             <div class="section-header">
                 <h2>Why Choose Our National SEO Services?</h2>
                 <p>
-                  Nationwide SEO expertise that strengthens your brand and drives results.
+                    Nationwide SEO expertise that strengthens your brand and drives results.
                 </p>
             </div>
 
@@ -80,7 +81,7 @@
                     <div class="why-icon icon-target"></div>
                     <h3>Nationwide Targeting</h3>
                     <p>
-                       A leading Nationwide SEO Company optimizing your reach with targeted National SEO.
+                        A leading Nationwide SEO Company optimizing your reach with targeted National SEO.
                     </p>
                 </article>
 
@@ -88,7 +89,7 @@
                     <div class="why-icon icon-results"></div>
                     <h3>Proven Results</h3>
                     <p>
-                       A proven National SEO Agency delivering strong rankings and reliable nationwide growth.
+                        A proven National SEO Agency delivering strong rankings and reliable nationwide growth.
                     </p>
                 </article>
             </div>
@@ -101,7 +102,8 @@
             <div class="section-header">
                 <h2>Our National SEO Process</h2>
                 <p>
-                   Our proven National SEO process delivers clear steps that drive visibility, traffic, and nationwide success.
+                    Our proven National SEO process delivers clear steps that drive visibility, traffic, and nationwide
+                    success.
                 </p>
             </div>
 
@@ -110,7 +112,8 @@
                     <div class="process-step">1</div>
                     <h3>SEO Audit &amp; Analysis</h3>
                     <p>
-                       We perform a full National SEO audit to identify technical issues, keyword gaps, and growth opportunities.
+                        We perform a full National SEO audit to identify technical issues, keyword gaps, and growth
+                        opportunities.
                     </p>
                 </article>
 
@@ -118,7 +121,8 @@
                     <div class="process-step">2</div>
                     <h3>Strategy Development</h3>
                     <p>
-                       Our team builds a tailored National SEO strategy focused on high-value keywords and nationwide visibility.
+                        Our team builds a tailored National SEO strategy focused on high-value keywords and nationwide
+                        visibility.
                     </p>
                 </article>
 
@@ -126,7 +130,8 @@
                     <div class="process-step">3</div>
                     <h3>Implementation</h3>
                     <p>
-                       We execute optimized content, technical fixes, and authority-building tactics to power your National SEO Services.
+                        We execute optimized content, technical fixes, and authority-building tactics to power your National
+                        SEO Services.
                     </p>
                 </article>
 
@@ -134,7 +139,8 @@
                     <div class="process-step">4</div>
                     <h3>Monitoring &amp; Reporting</h3>
                     <p>
-                        We track performance, refine strategies, and provide transparent reports to ensure ongoing nationwide growth.
+                        We track performance, refine strategies, and provide transparent reports to ensure ongoing
+                        nationwide growth.
                     </p>
                 </article>
             </div>
@@ -147,7 +153,8 @@
             <div class="section-header">
                 <h2>What&apos;s Included in Our National SEO Service?</h2>
                 <p>
-                  Our National SEO Service delivers nationwide visibility with targeted keywords, optimized pages, and ongoing performance improvements.
+                    Our National SEO Service delivers nationwide visibility with targeted keywords, optimized pages, and
+                    ongoing performance improvements.
                 </p>
             </div>
 
@@ -163,17 +170,17 @@
                     </ul>
                 </div>
                 <!-- <div class="included-panel">
-                    <h3>Who is National SEO for?</h3>
-                    <p>
-                        National SEO is ideal for businesses that want to reach customers all over the UK, including:
-                    </p>
-                    <ul>
-                        <li>Service-based businesses operating in multiple cities</li>
-                        <li>eCommerce brands shipping nationwide</li>
-                        <li>Franchises and multi-location organisations</li>
-                        <li>Consultancies and agencies targeting UK-wide clients</li>
-                    </ul>
-                </div> -->
+                        <h3>Who is National SEO for?</h3>
+                        <p>
+                            National SEO is ideal for businesses that want to reach customers all over the UK, including:
+                        </p>
+                        <ul>
+                            <li>Service-based businesses operating in multiple cities</li>
+                            <li>eCommerce brands shipping nationwide</li>
+                            <li>Franchises and multi-location organisations</li>
+                            <li>Consultancies and agencies targeting UK-wide clients</li>
+                        </ul>
+                    </div> -->
             </div>
         </div>
     </section>
@@ -185,7 +192,8 @@
                 <div class="cta-main">
                     <h2>Ready to Boost Your Visibility Across the Globe?</h2>
                     <p>
-                        Get the nationwide rankings you need with powerful National SEO strategies built to boost your visibility across the globe.
+                        Get the nationwide rankings you need with powerful National SEO strategies built to boost your
+                        visibility across the globe.
                     </p>
                 </div>
                 <div class="cta-actions seo-cta-actions">
@@ -206,74 +214,90 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- Identifiers --}}
+                <input type="hidden" name="form_key" value="seo_national_audit">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <label for="seo_nat_name">Full Name</label>
+                        <input type="text" id="seo_nat_name" name="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <label for="seo_nat_email">Email Address</label>
+                        <input type="email" id="seo_nat_email" name="email" placeholder="name@company.com" required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="website">Website URL</label>
-                        <input type="text" id="website" placeholder="https://">
+                        <label for="seo_nat_website">Website URL</label>
+                        <input type="url" id="seo_nat_website" name="payload[website]" placeholder="https://">
                     </div>
+
                     <div class="form-field">
-                        <label for="industry">Business Type / Industry</label>
-                        <input type="text" id="industry" placeholder="e.g. eCommerce, SaaS, Healthcare">
+                        <label for="seo_nat_industry">Business Type / Industry</label>
+                        <input type="text" id="seo_nat_industry" name="payload[industry]"
+                            placeholder="e.g. eCommerce, SaaS, Healthcare">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
-                        <label for="message">What would you like to improve?</label>
-                        <textarea id="message" rows="4" placeholder="Rank nationwide, increase leads, improve visibility, etc."></textarea>
+                        <label for="seo_nat_message">What would you like to improve?</label>
+                        <textarea id="seo_nat_message" name="message" rows="4"
+                            placeholder="Rank nationwide, increase leads, improve visibility, etc." required></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
         </div>
     </section>
 
-      <!-- FAQ -->
+
+    <!-- FAQ -->
     <section class="section section-alt section-faq" id="faq">
         <div class="container">
             <div class="section-header">
                 <h2>National SEO FAQs</h2>
             </div>
- 
+
             <div class="faq-wrap">
                 <div class="faq-list">
                     <details class="faq-item">
                         <summary>1. What is National SEO?</summary>
                         <div class="faq-content">
                             <p>
-                               National SEO helps your business rank across the entire country using broad, high-volume keywords.
+                                National SEO helps your business rank across the entire country using broad, high-volume
+                                keywords.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>2. How is it different from Local SEO?</summary>
                         <div class="faq-content">
                             <p>
-                               Local SEO targets specific areas; National SEO targets customers nationwide.
+                                Local SEO targets specific areas; National SEO targets customers nationwide.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>3. Who needs National SEO?</summary>
                         <div class="faq-content">
                             <p>
-                                Any business serving customers across the UK, including eCommerce, franchises, and service-based brands.
+                                Any business serving customers across the UK, including eCommerce, franchises, and
+                                service-based brands.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>4. How long does National SEO take?</summary>
                         <div class="faq-content">
@@ -282,7 +306,7 @@
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>5. What’s included in your National SEO service?</summary>
                         <div class="faq-content">
@@ -291,12 +315,13 @@
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>6. Why choose your agency?</summary>
                         <div class="faq-content">
                             <p>
-                                We provide data-driven strategies, clear reporting, and proven nationwide ranking results.</p>
+                                We provide data-driven strategies, clear reporting, and proven nationwide ranking results.
+                            </p>
                         </div>
                     </details>
                 </div>

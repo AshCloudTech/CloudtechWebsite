@@ -1,7 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Di')
-@section('meta_title', 'Cl')
+@section('title', 'Custom PHP Development Services | Cloud Technologies Ltd')
+@section('meta_title', 'Custom PHP Development Services | Cloud Technologies Ltd')
+@section('meta_description', 'Expert custom PHP development services for bespoke web applications, API integrations, legacy modernisation, and performance optimisation.')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/customphp/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">

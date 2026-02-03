@@ -1,7 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Di')
-@section('meta_title', 'Cl')
+@section('title', 'Wix Website Development Services | Cloud Technologies Ltd')
+@section('meta_title', 'Wix Website Development Services | Cloud Technologies Ltd')
+@section('meta_description', 'Professional Wix website development services for scalable, visually engaging websites with flexible design and clear pricing.')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/wix/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">

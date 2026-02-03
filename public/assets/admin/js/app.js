@@ -19,19 +19,32 @@
     });
   }
 
-  // Mobile sidebar toggle
-  const burger = qs('[data-sidebar-toggle]');
-  const sidebar = qs('.sidebar');
-  if (burger && sidebar) {
-    burger.addEventListener('click', () => sidebar.classList.toggle('show'));
-    // click outside to close
-    document.addEventListener('click', (e) => {
-      if (window.matchMedia('(max-width: 900px)').matches) {
-        const clickedInside = sidebar.contains(e.target) || burger.contains(e.target);
-        if (!clickedInside) sidebar.classList.remove('show');
-      }
-    });
+  
+ // Mobile sidebar toggle
+const burger = qs('[data-sidebar-toggle]');
+const sidebar = qs('.sidebar');
+const closeBtn = qs('[data-sidebar-close]');
+
+if (burger && sidebar) {
+  burger.addEventListener('click', () => sidebar.classList.toggle('show'));
+
+  // Close button
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => sidebar.classList.remove('show'));
   }
+
+  // click outside to close
+  document.addEventListener('click', (e) => {
+    if (window.matchMedia('(max-width: 900px)').matches) {
+      const clickedInside =
+        sidebar.contains(e.target) ||
+        burger.contains(e.target);
+
+      if (!clickedInside) sidebar.classList.remove('show');
+    }
+  });
+}
+
 
   // Table search (client-side filtering)
   qsa('[data-table-search]').forEach((input) => {
@@ -122,3 +135,89 @@
     }
   });
 })();
+
+
+// Admin sidebar
+
+(function () {
+  const storageKey = 'adminSidebarOpenGroups';
+
+  function getState() {
+    try { return JSON.parse(localStorage.getItem(storageKey) || '[]'); }
+    catch (e) { return []; }
+  }
+
+  function setState(groups) {
+    try { localStorage.setItem(storageKey, JSON.stringify(groups)); }
+    catch (e) {}
+  }
+
+  function toggleGroup(id, open) {
+    const btn = document.querySelector(`[data-nav-group="${id}"]`);
+    const panel = document.querySelector(`[data-nav-panel="${id}"]`);
+    if (!btn || !panel) return;
+
+    btn.classList.toggle('open', open);
+    panel.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
+  const toggles = document.querySelectorAll('.navGroupToggle[data-nav-group]');
+  if (!toggles.length) return;
+
+  // restore state first
+  const openGroups = new Set(getState());
+  openGroups.forEach(id => toggleGroup(id, true));
+
+  // auto-open if there's an active link inside (in case user comes via deep link)
+  document.querySelectorAll('.navGroupPanel').forEach(panel => {
+    if (panel.querySelector('a.active')) {
+      const id = panel.getAttribute('data-nav-panel');
+      openGroups.add(id);
+      toggleGroup(id, true);
+    }
+  });
+  setState([...openGroups]);
+
+  // click handlers
+  toggles.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.getAttribute('data-nav-group');
+      const isOpen = btn.classList.contains('open');
+      const next = !isOpen;
+
+      toggleGroup(id, next);
+
+      if (next) openGroups.add(id);
+      else openGroups.delete(id);
+
+      setState([...openGroups]);
+    });
+  });
+})();
+
+
+  let socialIndex = {{ $currentLinks->count() ?: 4 }};
+
+  function addSocialRow() {
+    const tbody = document.getElementById('socialLinksTbody');
+
+    const tr = document.createElement('tr');
+    tr.className = 'socialRow';
+    tr.innerHTML = `
+      <td class="cellDel mutedCell">—</td>
+      <td><input class="input" name="links[${socialIndex}][platform]" placeholder="LinkedIn"></td>
+      <td><input class="input" name="links[${socialIndex}][url]" placeholder="https://..."></td>
+      <td><input class="input" name="links[${socialIndex}][handle]" placeholder="@cloudtech"></td>
+      <td class="cellSort"><input class="input inputSm" type="number" name="links[${socialIndex}][sort_order]" value="${socialIndex}"></td>
+      <td class="cellActive">
+        <label class="switch">
+          <input type="hidden" name="links[${socialIndex}][is_active]" value="0">
+          <input type="checkbox" name="links[${socialIndex}][is_active]" value="1" checked>
+          <span></span>
+        </label>
+      </td>
+    `;
+    tbody.appendChild(tr);
+    socialIndex++;
+  }

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/digitalMarketing/international-seo/js/script.js') }}" defer></script>
@@ -24,7 +23,8 @@
                 <p class="hero-eyebrow">International SEO Services</p>
                 <h1>International SEO Services That <br>Grow Your Business Globally</h1>
                 <p class="hero-subtitle">
-                    Expand your reach across international markets with powerful, results-driven International SEO Services that increase global visibility, attract international traffic, and help your business grow worldwide.
+                    Expand your reach across international markets with powerful, results-driven International SEO Services
+                    that increase global visibility, attract international traffic, and help your business grow worldwide.
                 </p>
 
                 <div class="hero-actions">
@@ -106,7 +106,7 @@
             <div class="section-header">
                 <h2>Why Choose Our International SEO?</h2>
                 <p>
-                   Expert global strategies that help your business rank, compete, and convert worldwide.
+                    Expert global strategies that help your business rank, compete, and convert worldwide.
                 </p>
             </div>
 
@@ -123,7 +123,7 @@
                     <div class="why-icon icon-language"></div>
                     <h3>Multi Language SEO</h3>
                     <p>
-                       Optimise content in multiple languages for better global engagement.
+                        Optimise content in multiple languages for better global engagement.
                     </p>
                 </article>
 
@@ -152,7 +152,8 @@
             <div class="section-header">
                 <h2>Our International SEO Process</h2>
                 <p>
-                    A results-driven International SEO process built to optimise your site for multiple countries and languages.
+                    A results-driven International SEO process built to optimise your site for multiple countries and
+                    languages.
                 </p>
             </div>
 
@@ -161,14 +162,14 @@
                     <div class="process-step">1</div>
                     <h3>Market Research</h3>
                     <p>
-                       Identify top global opportunities with in-depth international market analysis.</p>
+                        Identify top global opportunities with in-depth international market analysis.</p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">2</div>
                     <h3>Strategy Development</h3>
                     <p>
-                       Create a tailored International SEO strategy for each target region.
+                        Create a tailored International SEO strategy for each target region.
                     </p>
                 </article>
 
@@ -184,7 +185,7 @@
                     <div class="process-step">4</div>
                     <h3>Global Monitoring</h3>
                     <p>
-                       Track performance across all countries to ensure ongoing international growth.
+                        Track performance across all countries to ensure ongoing international growth.
                     </p>
                 </article>
             </div>
@@ -197,7 +198,7 @@
             <div class="section-header section-header-light">
                 <h2>Complete International SEO Services</h2>
                 <p>
-                   End-to-end International SEO services that help you rank, expand, and compete globally.
+                    End-to-end International SEO services that help you rank, expand, and compete globally.
                 </p>
             </div>
 
@@ -210,21 +211,21 @@
                         <li>Geo-targeted strategies for specific countries and regions.</li>
                         <li>High-quality global link-building to boost authority.</li>
                         <li>Ongoing performance tracking across all international markets.</li>
-                        
+
                     </ul>
                 </div>
                 <!-- <div class="services-panel">
-                    <div class="services-panel-inner">
-                        <h3>Global Strategy Snapshot</h3>
-                        <p>
-                            We’ll map your current visibility, identify priority markets and outline a clear plan
-                            for expanding your search presence worldwide.
-                        </p>
-                        <p class="services-note">
-                            Includes: key markets overview, opportunity analysis, and recommended next steps.
-                        </p>
-                    </div>
-                </div> -->
+                        <div class="services-panel-inner">
+                            <h3>Global Strategy Snapshot</h3>
+                            <p>
+                                We’ll map your current visibility, identify priority markets and outline a clear plan
+                                for expanding your search presence worldwide.
+                            </p>
+                            <p class="services-note">
+                                Includes: key markets overview, opportunity analysis, and recommended next steps.
+                            </p>
+                        </div>
+                    </div> -->
             </div>
         </div>
     </section>
@@ -236,7 +237,7 @@
                 <div class="cta-main">
                     <h2>Ready to Go Global?</h2>
                     <p>
-                       Boost your worldwide visibility with tailored International SEO strategies.
+                        Boost your worldwide visibility with tailored International SEO strategies.
                     </p>
                 </div>
                 <div class="cta-actions intl-cta-actions">
@@ -257,96 +258,116 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- Identifiers --}}
+                <input type="hidden" name="form_key" value="seo_international_enquiry">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <label for="seo_int_name">Full Name</label>
+                        <input type="text" id="seo_int_name" name="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <label for="seo_int_email">Email Address</label>
+                        <input type="email" id="seo_int_email" name="email" placeholder="name@company.com" required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="website">Website URL</label>
-                        <input type="text" id="website" placeholder="https://">
+                        <label for="seo_int_website">Website URL</label>
+                        <input type="url" id="seo_int_website" name="payload[website]" placeholder="https://">
                     </div>
+
                     <div class="form-field">
-                        <label for="markets-input">Target Markets</label>
-                        <input type="text" id="markets-input" placeholder="US, DE, FR, ES, etc.">
+                        <label for="seo_int_markets">Target Markets</label>
+                        <input type="text" id="seo_int_markets" name="payload[target_markets]"
+                            placeholder="US, DE, FR, ES, etc.">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
-                        <label for="message">What would you like to achieve globally?</label>
-                        <textarea id="message" rows="4" placeholder="Global visibility, more leads, multi-language site, etc."></textarea>
+                        <label for="seo_int_message">What would you like to achieve globally?</label>
+                        <textarea id="seo_int_message" name="message" rows="4"
+                            placeholder="Global visibility, more leads, multi-language site, etc." required></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Enquiry</button>
             </form>
         </div>
     </section>
 
-     <!-- FAQ -->
+
+    <!-- FAQ -->
     <section class="section section-alt section-faq" id="faq">
         <div class="container">
             <div class="section-header">
                 <h2>International SEO FAQs</h2>
             </div>
- 
+
             <div class="faq-wrap">
                 <div class="faq-list">
                     <details class="faq-item">
                         <summary>1. What is International SEO?</summary>
                         <div class="faq-content">
                             <p>
-                              International SEO helps your business rank across multiple countries using multilingual and market-specific keywords.
+                                International SEO helps your business rank across multiple countries using multilingual and
+                                market-specific keywords.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>2. How is it different from National SEO?</summary>
                         <div class="faq-content">
                             <p>
-                               National SEO targets one country; International SEO targets multiple countries, languages, and regions with localized strategies.
+                                National SEO targets one country; International SEO targets multiple countries, languages,
+                                and regions with localized strategies.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>3. Who needs International SEO?</summary>
                         <div class="faq-content">
                             <p>
-                               Businesses serving customers worldwide—including eCommerce stores, SaaS platforms, exporters, and global service providers.
+                                Businesses serving customers worldwide—including eCommerce stores, SaaS platforms,
+                                exporters, and global service providers.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>4. How long does International SEO take?</summary>
                         <div class="faq-content">
                             <p>
-                               Most businesses see improvements in 3–6 months, depending on global competition and website structure.
+                                Most businesses see improvements in 3–6 months, depending on global competition and website
+                                structure.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>5. What’s included in your International SEO service?</summary>
                         <div class="faq-content">
-                            <p>Multilingual keyword research, technical SEO, hreflang setup, content optimization, link building, and detailed global reporting.
+                            <p>Multilingual keyword research, technical SEO, hreflang setup, content optimization, link
+                                building, and detailed global reporting.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>6. Why choose your International SEO agency?</summary>
                         <div class="faq-content">
                             <p>
-                               We deliver data-driven global strategies, multilingual expertise, and proven worldwide ranking results.</p>
+                                We deliver data-driven global strategies, multilingual expertise, and proven worldwide
+                                ranking results.</p>
                         </div>
                     </details>
                 </div>

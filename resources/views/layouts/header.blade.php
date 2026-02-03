@@ -1,10 +1,34 @@
     <header class="site-header">
         <div class="container header-inner">
-            <div class="logo">
-                <!-- Replace with actual logo if needed -->
-                <span class="logo-mark">CT</span>
-                <span class="logo-text">Cloud Technologies</span>
-            </div>
+            @php
+                $brandName = $globalCompany?->brand_name ?? 'Cloud Technologies';
+
+                $siteLogoLight = !empty($globalCompany?->logo_light_path)
+                    ? asset($globalCompany->logo_light_path)
+                    : null;
+                $siteLogoDark = !empty($globalCompany?->logo_dark_path) ? asset($globalCompany->logo_dark_path) : null;
+            @endphp
+
+            <a href="{{ url('/') }}" class="logo-link" aria-label="Go to {{ $brandName }} home">
+                <div class="logo">
+                    @if ($siteLogoLight || $siteLogoDark)
+                        @if ($siteLogoLight)
+                            <img class="site-logo site-logo--light" src="{{ $siteLogoLight }}"
+                                alt="{{ $brandName }} logo">
+                        @endif
+
+                        @if ($siteLogoDark)
+                            <img class="site-logo site-logo--dark" src="{{ $siteLogoDark }}"
+                                alt="{{ $brandName }} logo">
+                        @endif
+                    @else
+                        <span class="logo-mark">CT</span>
+                        <span class="logo-text">{{ $brandName }}</span>
+                    @endif
+                </div>
+            </a>
+
+
 
             <nav class="main-nav">
                 <ul>
@@ -14,10 +38,18 @@
                         </a>
                     </li>
 
-                    <li>
-                        <a href="#industries" class="{{ request()->is('/') ? '' : '' }}">
+                    <li class="has-dropdown">
+                        <a href="#industries">
                             Industries
                         </a>
+                        <ul class="dropdown">
+                            <li><a href="{{ route('industries.cloudhealth') }}">CloudHealth</a></li>
+                            <li><a href="{{ route('industries.cloudcare') }}">CloudCare</a></li>
+                            <li><a href="{{ route('industries.cloudedu') }}">CloudEdu</a></li>
+                            <li><a href="{{ route('industries.cloudtravel') }}">CloudTravel</a></li>
+                            <li><a href="{{ route('industries.cloudrecruit') }}">CloudRecruit</a></li>
+                            <li><a href="{{ route('industries.cloudpublic') }}">CloudPublic</a></li>
+                        </ul>
                     </li>
 
                     <li>
@@ -35,23 +67,24 @@
                     </li>
 
                     <li>
-                        <a href="#pricing">Pricing</a>
+                        <a href="{{ route('pricing') }}">Pricing</a>
                     </li>
 
                     <li>
-                        <a href="{{ route('about.us') }}" class="{{ request()->routeIs('about.us*') ? 'active' : '' }}">
+                        <a href="{{ route('about.us') }}"
+                            class="{{ request()->routeIs('about.us*') ? 'active' : '' }}">
                             About Us
                         </a>
                     </li>
 
                     <li>
-                        <a href="#contact">Contact Us</a>
+                        <a href="{{ route('contact.us') }}">Contact Us</a>
                     </li>
                 </ul>
             </nav>
 
 
-            <a href="#contact" class="btn btn-sm btn-accent header-cta">Get Started</a>
+            <a href="{{ url('/#contact') }}" class="btn btn-sm btn-accent header-cta">Get Started</a>
 
             <button class="nav-toggle" aria-label="Toggle navigation">
                 <span></span>
@@ -60,3 +93,13 @@
             </button>
         </div>
     </header>
+    <script>
+        document.querySelectorAll('.has-dropdown > a').forEach(link => {
+            link.addEventListener('click', e => {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    link.parentElement.classList.toggle('open');
+                }
+            });
+        });
+    </script>

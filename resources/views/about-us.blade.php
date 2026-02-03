@@ -4,6 +4,8 @@
 @section('meta_title', 'Cloud Technologies Ltd – About Us')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/about/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/about/js/script.js') }}" defer></script>
@@ -59,7 +61,7 @@
                 </p>
             </div>
             <div class="story-image">
-                <div class="story-photo"></div>
+                <img src="{{ asset('assets/images/about-us/ourstorydesk.png') }}" alt="Cloud Technologies story" class="story-photo">
             </div>
         </div>
     </section>
@@ -208,7 +210,9 @@
 
             <div class="grid grid-4 leadership-grid">
                 <article class="card leader-card">
-                    <div class="leader-photo leader-photo-1"></div>
+                    {{-- <div class="leader-photo leader-photo-1"></div> --}}
+                    <img src={{ asset('assets/images/about-us/michael.png') }}
+                        alt="Michael Chen" class="leader-photo">
                     <h3>Michael Chen</h3>
                     <p class="leader-role">Chief Executive Officer</p>
                     <p class="leader-text">
@@ -218,7 +222,9 @@
                 </article>
 
                 <article class="card leader-card">
-                    <div class="leader-photo leader-photo-2"></div>
+                    {{-- <div class="leader-photo leader-photo-2"></div> --}}
+                    <img src={{ asset('assets/images/about-us/sarah.png') }}
+                        alt="Sarah Johnson" class="leader-photo">
                     <h3>Sarah Johnson</h3>
                     <p class="leader-role">Chief Technology Officer</p>
                     <p class="leader-text">
@@ -228,7 +234,9 @@
                 </article>
 
                 <article class="card leader-card">
-                    <div class="leader-photo leader-photo-3"></div>
+                    {{-- <div class="leader-photo leader-photo-3"></div> --}}
+                    <img src={{ asset('assets/images/about-us/david.png') }}
+                        alt="David Martinez" class="leader-photo">
                     <h3>David Martinez</h3>
                     <p class="leader-role">Chief Operations Officer</p>
                     <p class="leader-text">
@@ -238,7 +246,9 @@
                 </article>
 
                 <article class="card leader-card">
-                    <div class="leader-photo leader-photo-4"></div>
+                    {{-- <div class="leader-photo leader-photo-4"></div> --}}
+                    <img src={{ asset('assets/images/about-us/emily.png') }}
+                        alt="Emily Thompson" class="leader-photo">
                     <h3>Emily Thompson</h3>
                     <p class="leader-role">Chief Marketing Officer</p>
                     <p class="leader-text">
@@ -254,7 +264,8 @@
     <section class="section section-alt careers-section" id="careers">
         <div class="container careers-grid">
             <div class="careers-image">
-                <div class="careers-photo"></div>
+                <img src="{{ asset('assets/images/about-us/joinus.png') }}" alt="Cloud Technologies careers" class="careers-photo">
+                {{-- <div class="careers-photo"></div> --}}
             </div>
             <div class="careers-text">
                 <h2>Join Us. Elevate Your Career</h2>
@@ -407,26 +418,33 @@
 
             <div class="grid grid-3 global-grid">
                 <article class="card global-card">
-                    <div class="global-photo global-photo-1"></div>
+                    {{-- <div class="global-photo global-photo-1"></div> --}}
+                                        <img src={{ asset('assets/images/about-us/sanfrance.png') }}
+                        alt="San Francisco Office" class="global-photo">
                     <h3>San Francisco, United States</h3>
                     <p>123 Market Street, Suite 500</p>
                 </article>
 
                 <article class="card global-card">
-                    <div class="global-photo global-photo-2"></div>
+                    {{-- <div class="global-photo global-photo-2"></div> --}}
+                    <img src={{ asset('assets/images/about-us/london.png') }}
+                        alt="London Office" class="global-photo">
                     <h3>London, United Kingdom</h3>
                     <p>45 Canary Wharf, Level 12</p>
                 </article>
 
                 <article class="card global-card">
-                    <div class="global-photo global-photo-3"></div>
+                    {{-- <div class="global-photo global-photo-3"></div> --}}
+                    <img src={{ asset('assets/images/about-us/singapore.png') }}
+                        alt="Singapore Office" class="global-photo">
                     <h3>Singapore, Singapore</h3>
                     <p>88 Marina Bay, Tower A</p>
                 </article>
             </div>
 
             <div class="worldmap-card">
-                <div class="worldmap-photo"></div>
+                {{-- <div class="worldmap-photo"></div> --}}
+                <img src="{{ asset('assets/images/about-us/worldmap.png') }}" alt="Global Offices" class="worldmap-photo">
                 <div class="worldmap-text">
                     <h3>See Where We Are</h3>
                     <p>
@@ -489,40 +507,57 @@
             <div class="section-header">
                 <h2>Contact Our Team</h2>
                 <p>
-                    Share a few details and we’ll connect you with the right experts at Cloud Technologies.
+                    Share a few details and we’ll connect you with the right experts at
+                    {{ $globalCompany?->brand_name ?? 'Cloud Technologies' }}.
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- 🔐 FORM IDENTIFIERS (VERY IMPORTANT) --}}
+                <input type="hidden" name="form_key" value="contact_team">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
                         <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <input type="email" name="email" id="email" placeholder="name@company.com" required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
                         <label for="company">Company</label>
-                        <input type="text" id="company" placeholder="Organisation name">
+                        <input type="text" name="payload[company]" id="company" placeholder="Organisation name">
                     </div>
+
                     <div class="form-field">
                         <label for="role">Your Role</label>
-                        <input type="text" id="role" placeholder="Director, CTO, Head of IT, etc.">
+                        <input type="text" name="payload[role]" id="role"
+                            placeholder="Director, CTO, Head of IT">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
                         <label for="message">How can we help?</label>
-                        <textarea id="message" rows="4" placeholder="Tell us about your goals, challenges, and timelines."></textarea>
+                        <textarea name="message" id="message" rows="4"
+                            placeholder="Tell us about your goals, challenges, and timelines." required></textarea>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit Request</button>
+
+                <button type="submit" class="btn btn-primary">
+                    Submit Request
+                </button>
             </form>
         </div>
     </section>
+
 
 @endsection

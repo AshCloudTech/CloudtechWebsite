@@ -284,10 +284,10 @@ button {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url("../img/about-hero.jpg"); /* replace with actual hero image */
+    background-image: url("../../../assets/images/banners/desktop/about-us.webp"); /* replace with actual hero image */
     background-size: cover;
     background-position: center;
-    opacity: 0.35;
+    opacity: 0.9;
     z-index: -2;
 }
 
@@ -295,7 +295,7 @@ button {
     position: absolute;
     inset: 0;
     background: linear-gradient(to bottom, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.9));
-    z-index: -1;
+    z-index: -3;
 }
 
 .hero-content {

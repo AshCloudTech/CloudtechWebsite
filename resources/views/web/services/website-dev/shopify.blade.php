@@ -1,7 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Di')
-@section('meta_title', 'Cl')
+@section('title', 'Shopify Website Development Services | Cloud Technologies Ltd')
+@section('meta_title', 'Shopify Website Development Services | Cloud Technologies Ltd')
+@section('meta_description', 'Professional Shopify website development services for scalable, high-converting online stores with custom themes, app integrations, and seamless migration.')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/shopify/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">

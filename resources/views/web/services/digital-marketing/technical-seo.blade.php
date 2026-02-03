@@ -23,7 +23,8 @@
                 <p class="hero-eyebrow">Technical SEO Services</p>
                 <h1>Expert Technical SEO Services for Higher Search Rankings</h1>
                 <p class="hero-subtitle">
-                    Our Technical SEO Services optimize your site’s structure, speed, and crawlability to boost search performance and organic traffic.</p>
+                    Our Technical SEO Services optimize your site’s structure, speed, and crawlability to boost search
+                    performance and organic traffic.</p>
 
                 <div class="hero-actions">
                     <a href="#cta" class="btn btn-lg btn-primary">Get Technical Audit</a>
@@ -59,7 +60,8 @@
             <div class="section-header">
                 <h2>Why Technical SEO Matters</h2>
                 <p>
-                    Technical SEO matters because it improves site speed, crawlability, user experience, and search rankings, helping your website perform at its best.
+                    Technical SEO matters because it improves site speed, crawlability, user experience, and search
+                    rankings, helping your website perform at its best.
                 </p>
             </div>
 
@@ -75,7 +77,7 @@
                     <div class="why-icon icon-core"></div>
                     <h3>Optimization </h3>
                     <p>
-                       Technical optimization enhances site structure for better visibility.
+                        Technical optimization enhances site structure for better visibility.
                     </p>
                 </article>
 
@@ -91,7 +93,7 @@
                     <div class="why-icon icon-rank"></div>
                     <h3>1st Page Rankings</h3>
                     <p>
-                       Strong technical SEO increases your chances of first-page rankings.
+                        Strong technical SEO increases your chances of first-page rankings.
                     </p>
                 </article>
 
@@ -112,7 +114,8 @@
             <div class="section-header">
                 <h2>Common Technical Issues We Fix</h2>
                 <p>
-                   We fix technical issues like speed problems, broken links, and indexing errors to improve website performance and search rankings.
+                    We fix technical issues like speed problems, broken links, and indexing errors to improve website
+                    performance and search rankings.
                 </p>
             </div>
 
@@ -121,7 +124,7 @@
                     <div class="issue-icon"></div>
                     <h3>Slow Page Speed</h3>
                     <p>
-                       Improving load speed to boost user experience, reduce bounce rates, and increase Google rankings.
+                        Improving load speed to boost user experience, reduce bounce rates, and increase Google rankings.
                     </p>
                 </article>
 
@@ -129,7 +132,7 @@
                     <div class="issue-icon"></div>
                     <h3>Poor Mobile Experience</h3>
                     <p>
-                       Fixing mobile layout, responsiveness, and usability to improve engagement and SEO performance.
+                        Fixing mobile layout, responsiveness, and usability to improve engagement and SEO performance.
                     </p>
                 </article>
 
@@ -137,7 +140,8 @@
                     <div class="issue-icon"></div>
                     <h3>Crawling Errors</h3>
                     <p>
-                        Resolving crawl and indexing issues so search engines can access, read, and rank your website properly.
+                        Resolving crawl and indexing issues so search engines can access, read, and rank your website
+                        properly.
                     </p>
                 </article>
 
@@ -145,7 +149,8 @@
                     <div class="issue-icon"></div>
                     <h3>Duplicate Content</h3>
                     <p>
-                       Eliminating duplicate pages to avoid ranking loss and ensure Google sees unique, high-quality content.
+                        Eliminating duplicate pages to avoid ranking loss and ensure Google sees unique, high-quality
+                        content.
                     </p>
                 </article>
             </div>
@@ -158,7 +163,7 @@
             <div class="section-header">
                 <h2>Our Technical SEO Process</h2>
                 <p>
-                   We optimize your site for speed, mobile performance, and proper indexing.
+                    We optimize your site for speed, mobile performance, and proper indexing.
                 </p>
             </div>
 
@@ -167,7 +172,7 @@
                     <div class="process-step">1</div>
                     <h3>Technical Audit</h3>
                     <p>
-                       We analyse your website to uncover performance, speed, and indexing issues.
+                        We analyse your website to uncover performance, speed, and indexing issues.
                     </p>
                 </article>
 
@@ -191,7 +196,7 @@
                     <div class="process-step">4</div>
                     <h3>Monitoring</h3>
                     <p>
-                       We track performance, re-check issues, and ensure long-term technical stability.
+                        We track performance, re-check issues, and ensure long-term technical stability.
                     </p>
                 </article>
             </div>
@@ -211,21 +216,21 @@
                         <li>Crawl & Indexing Fixes to help search engines properly access your pages.</li>
                         <li>On-Page Technical Improvements including meta tags, URLs, and canonical fixes.</li>
                         <li>Continuous Monitoring to maintain technical health and resolve new issues quickly.</li>
-                        
+
                     </ul>
                 </div>
                 <!-- <div class="services-panel">
-                    <div class="services-panel-inner">
-                        <p class="services-label">Technical Overview Panel</p>
-                        <p class="services-text">
-                            Visual summary of your current technical health with prioritised actions
-                            for fastest impact.
-                        </p>
-                        <p class="services-meta">
-                            Ideal for marketing teams, developers and leadership who need a clear technical roadmap.
-                        </p>
-                    </div>
-                </div> -->
+                        <div class="services-panel-inner">
+                            <p class="services-label">Technical Overview Panel</p>
+                            <p class="services-text">
+                                Visual summary of your current technical health with prioritised actions
+                                for fastest impact.
+                            </p>
+                            <p class="services-meta">
+                                Ideal for marketing teams, developers and leadership who need a clear technical roadmap.
+                            </p>
+                        </div>
+                    </div> -->
             </div>
         </div>
     </section>
@@ -237,7 +242,8 @@
                 <div class="cta-main">
                     <h2>Fix Your Technical SEO Issues Today</h2>
                     <p>
-                      Fix your Technical SEO issues today to improve site speed, boost indexing, enhance mobile performance, and strengthen your overall search rankings.
+                        Fix your Technical SEO issues today to improve site speed, boost indexing, enhance mobile
+                        performance, and strengthen your overall search rankings.
                     </p>
                 </div>
                 <div class="cta-actions tech-cta-actions">
@@ -258,96 +264,117 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+
+                {{-- Identifiers --}}
+                <input type="hidden" name="form_key" value="seo_technical_audit">
+                <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <label for="seo_tech_name">Full Name</label>
+                        <input type="text" id="seo_tech_name" name="name" placeholder="Enter your name" required>
                     </div>
+
                     <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@company.com">
+                        <label for="seo_tech_email">Email Address</label>
+                        <input type="email" id="seo_tech_email" name="email" placeholder="name@company.com"
+                            required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="website">Website URL</label>
-                        <input type="text" id="website" placeholder="https://">
+                        <label for="seo_tech_website">Website URL</label>
+                        <input type="url" id="seo_tech_website" name="payload[website]" placeholder="https://">
                     </div>
+
                     <div class="form-field">
-                        <label for="priority">Main Technical Concern</label>
-                        <input type="text" id="priority" placeholder="Speed, Core Web Vitals, crawl issues, etc.">
+                        <label for="seo_tech_priority">Main Technical Concern</label>
+                        <input type="text" id="seo_tech_priority" name="payload[technical_concern]"
+                            placeholder="Speed, Core Web Vitals, crawl issues, etc.">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
-                        <label for="message">Anything else we should know?</label>
-                        <textarea id="message" rows="4" placeholder="Tech stack, CMS, recent migrations, etc."></textarea>
+                        <label for="seo_tech_message">Anything else we should know?</label>
+                        <textarea id="seo_tech_message" name="message" rows="4" placeholder="Tech stack, CMS, recent migrations, etc."
+                            required></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
         </div>
     </section>
 
-     <!-- FAQ -->
+
+    <!-- FAQ -->
     <section class="section section-alt section-faq" id="faq">
         <div class="container">
             <div class="section-header">
                 <h2>Technical SEO FAQs</h2>
             </div>
- 
+
             <div class="faq-wrap">
                 <div class="faq-list">
                     <details class="faq-item">
                         <summary>1. What is Technical SEO?</summary>
                         <div class="faq-content">
                             <p>
-                              Technical SEO focuses on improving a website’s backend structure—speed, indexing, crawlability, and overall performance—to help search engines understand and rank it better.
+                                Technical SEO focuses on improving a website’s backend structure—speed, indexing,
+                                crawlability, and overall performance—to help search engines understand and rank it better.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>2. Why is Technical SEO important?</summary>
                         <div class="faq-content">
                             <p>
-                              Without strong technical foundations, even well-written content may not rank because search engines can’t properly crawl or index the site.
+                                Without strong technical foundations, even well-written content may not rank because search
+                                engines can’t properly crawl or index the site.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>3. How long does it take to see results from Technical SEO?</summary>
                         <div class="faq-content">
                             <p>
-                               Most technical improvements show results within 4–12 weeks, depending on the size of the website and the issues fixed.
+                                Most technical improvements show results within 4–12 weeks, depending on the size of the
+                                website and the issues fixed.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>4. What tools do you use for Technical SEO audits?</summary>
                         <div class="faq-content">
                             <p>
-                               We use tools like Google Search Console, Screaming Frog, PageSpeed Insights, and GTmetrix to identify errors, speed issues, and indexing problems.
+                                We use tools like Google Search Console, Screaming Frog, PageSpeed Insights, and GTmetrix to
+                                identify errors, speed issues, and indexing problems.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>5. What are the most common technical issues?</summary>
                         <div class="faq-content">
-                            <p>Slow page speed, mobile usability problems, duplicate content, broken links, crawl errors, and missing structured data are some of the most common.
+                            <p>Slow page speed, mobile usability problems, duplicate content, broken links, crawl errors,
+                                and missing structured data are some of the most common.
                             </p>
                         </div>
                     </details>
- 
+
                     <details class="faq-item">
                         <summary>6. Do technical fixes improve rankings?</summary>
                         <div class="faq-content">
                             <p>
-                              Yes. Better speed, cleaner code, proper indexing, and improved mobile performance all contribute directly to higher rankings and better user experience.</p>
+                                Yes. Better speed, cleaner code, proper indexing, and improved mobile performance all
+                                contribute directly to higher rankings and better user experience.</p>
                         </div>
                     </details>
                 </div>

@@ -40,13 +40,22 @@
             <div class="cardBody">
                 <div class="grid cols-2" style="gap:12px;">
 
-                    <div class="field">
-                        <label>Monthly Price</label>
-                        <input
-                            name="prices[monthly][amount_text]"
-                            placeholder="£499"
-                        >
-                    </div>
+                <div class="field">
+                    <label>Currency</label>
+                    <input
+                        name="prices[monthly][currency]"
+                        placeholder="£"
+                        value="£"
+                    >
+                </div>
+
+                <div class="field">
+                    <label>Monthly Price</label>
+                    <input
+                        name="prices[monthly][amount_text]"
+                        placeholder="499"
+                    >
+                </div>
 
                     <div class="field">
                         <label>Monthly Period</label>
@@ -57,10 +66,19 @@
                     </div>
 
                     <div class="field">
+                        <label>Currency</label>
+                        <input
+                            name="prices[one-time][currency]"
+                            placeholder="£"
+                            value="£"
+                        >
+                    </div>
+
+                    <div class="field">
                         <label>One-Time Price</label>
                         <input
                             name="prices[one-time][amount_text]"
-                            placeholder="£1,499 / Let’s talk"
+                            placeholder="1,499 / Let’s talk"
                         >
                     </div>
 

@@ -13,9 +13,10 @@ class PricingPlanPriceController extends Controller
         PricingPlanPrice::updateOrCreate(
             [
                 'pricing_plan_id' => $request->pricing_plan_id,
-                'billing_key'     => $request->billing_key, // monthly | one-time
+                'billing_key'     => $request->billing_key,
             ],
             [
+                'currency'    => $request->currency ?? '£',
                 'amount_text' => $request->amount_text,
                 'period_text' => $request->period_text,
                 'sort_order'  => $request->sort_order ?? 0,

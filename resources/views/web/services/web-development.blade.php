@@ -172,7 +172,6 @@
                             <li><b>Angular</b>-Develop scalable, robust apps with Angular.</li>
                             <li><b>Vue</b>-Create smooth, flexible web apps using Vue.js.</li>
                             <li><b>Tailwind CSS</b>-Design responsive, custom UIs with Tailwind CSS.</li>
-
                         </ul>
                     </div>
                     <div class="stack-column">
@@ -182,7 +181,6 @@
                             <li><b>TypeScript</b>-Write clean, reliable code with TypeScript.</li>
                             <li><b>MongoDB</b>-Store data flexibly with MongoDB’s NoSQL database.</li>
                             <li><b>Firebase</b>-Build real-time apps quickly using Firebase tools.</li>
-
                         </ul>
                     </div>
                     <div class="stack-column">

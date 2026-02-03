@@ -476,53 +476,76 @@
             <div class="section-header">
                 <h2>Case Studies</h2>
                 <p>
-                    See how our strategies and solutions have helped clients achieve outstanding outcomes. </p>
+                    See how our strategies and solutions have helped clients achieve outstanding outcomes.
+                </p>
             </div>
 
-            <div class="">
-                <section class="section" id="list">
+            <div class="grid grid-2 case-grid">
+                @forelse($caseStudies as $case)
+                    @php
+                        // Tag color class from DB (fallback safe)
+                        $tagClass = match ($case->industry_tag_color) {
+                            'purple' => 'tag-purple',
+                            'green' => 'tag-green',
+                            'orange' => 'tag-orange',
+                            default => 'tag-blue',
+                        };
+                    @endphp
 
-        <div class="filter-bar">
-            <button class="filter active" data-filter="all">All</button>
-            @foreach($industries as $industry)
-            <button class="filter" data-filter="{{ $industry }}">{{ $industry }}</button>
-            @endforeach
-        </div>
+                    <article class="card case-card fx-reveal">
+                        {{-- Industry tag --}}
+                        @if ($case->industry)
+                            <div class="card-tag {{ $tagClass }}">
+                                {{ $case->industry }}
+                            </div>
+                        @endif
 
+                        {{-- Title --}}
+                        <h3>{{ $case->title }}</h3>
 
-        <div class="grid cs-grid">
-            @foreach($caseStudies as $cs)
-            <article class="card-cs cs-card" data-category="{{ $cs->industry ?? 'Other' }}">
-                @if($cs->card_image)
-                <div class="cs-img" style="background-image:url('{{ asset($cs->card_image) }}')"></div>
-                @else
-                <div class="cs-img"></div>
-                @endif
+                        {{-- Short description --}}
+                        @if ($case->excerpt)
+                            <p>{{ $case->excerpt }}</p>
+                        @endif
 
-                @if($cs->industry)
-                <span class="cs-tag {{ $cs->industry_tag_color ?? 'blue' }}">{{ $cs->industry }}</span>
-                @endif
+                        {{-- Impact metrics (max 3) --}}
+                        @if ($case->impacts->count())
+                            <ul class="case-results">
+                                @foreach ($case->impacts as $impact)
+                                    <li>
+                                        @if ($impact->metric)
+                                            <strong>{{ $impact->metric }}</strong>
+                                        @endif
+                                        {{ $impact->title }}
+                                    </li>
+                                @endforeach
+                            </ul>
+                        @endif
 
-                <h3>{{ $cs->title }}</h3>
-                @if($cs->excerpt)
-                <p>{{ $cs->excerpt }}</p>
-                @endif
+                        {{-- Tech stack --}}
+                        @if ($case->techStacks->count())
+                            <p class="case-stack">
+                                <strong>Technologies Used:</strong>
+                                {{ $case->techStacks->pluck('name')->implode(', ') }}
+                            </p>
+                        @endif
 
-                <a href="{{ route('case.studies.detail', $cs->slug) }}" class="cs-link">
-                    View Case Study →
-                </a>
-            </article>
-            @endforeach
-        
-    </div>
-</section>
-
-
-                
+                        {{-- Link --}}
+                        <a href="{{ route('case.studies.detail', $case->slug) }}" class="link-arrow">
+                            Read Full Case Study
+                        </a>
+                    </article>
+                @empty
+                    <div class="card" style="padding:18px;">
+                        <p style="margin:0;">No case studies available right now.</p>
+                    </div>
+                @endforelse
             </div>
 
             <div class="case-footer">
-                <a href="#" class="btn btn-ghost">View All Case Studies</a>
+                <a href="{{ route('case.studies') }}" class="btn btn-ghost">
+                    View All Case Studies
+                </a>
             </div>
         </div>
     </section>

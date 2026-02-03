@@ -147,6 +147,50 @@
             </nav>
         </div>
     </div>
+    {{-- PRICING (dropdown) --}}
+        @php
+        $pricingOpen = isGroupActive([
+            'admin.pricing.plans.*',
+            'admin.pricing.faq.*',
+        ]);
+        @endphp
+
+        <div class="navSection">
+            <button class="navGroupToggle {{ $pricingOpen ? 'open' : '' }}"
+                    type="button"
+                    data-nav-group="pricing"
+                    aria-expanded="{{ $pricingOpen ? 'true' : 'false' }}">
+                <span class="navGroupTitle">
+                    <span class="navGroupDot"></span>
+                    <span>Pricing</span>
+                </span>
+                <span class="navChevron" aria-hidden="true"></span>
+            </button>
+
+            <div class="navGroupPanel {{ $pricingOpen ? 'open' : '' }}" data-nav-panel="pricing">
+                <nav class="nav navNested">
+
+                    {{-- Pricing Plans --}}
+                    @if (Route::has('admin.pricing.plans.index'))
+                        <a class="{{ request()->routeIs('admin.pricing.plans.*') ? 'active' : '' }}"
+                        href="{{ route('admin.pricing.plans.index') }}">
+                            <span class="dot"></span>
+                            <span>Plans</span>
+                        </a>
+                    @endif
+
+                    {{-- Pricing FAQ --}}
+                    @if (Route::has('admin.pricing.faq.index'))
+                        <a class="{{ request()->routeIs('admin.pricing.faq.*') ? 'active' : '' }}"
+                        href="{{ route('admin.pricing.faq.index') }}">
+                            <span class="dot"></span>
+                            <span>FAQ</span>
+                        </a>
+                    @endif
+
+                </nav>
+            </div>
+        </div>
 
     {{-- ACCESS CONTROL (dropdown) --}}
     @php

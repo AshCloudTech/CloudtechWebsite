@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
+use App\Models\CaseStudy;
 use Illuminate\Http\Request;
 use App\Models\CaseStudy;
 
@@ -10,39 +11,18 @@ class HomeController extends Controller
 {
     public function index()
     {
-        
         $caseStudies = CaseStudy::query()
             ->where('is_published', true)
+            ->with([
+                'impacts' => fn($q) => $q->orderBy('sort_order')->limit(3),
+                'techStacks' => fn($q) => $q->orderBy('sort_order')->limit(6),
+            ])
             ->orderBy('sort_order')
             ->orderByDesc('id')
+            ->limit(4)
             ->get();
 
-        $industries = $caseStudies
-            ->pluck('industry')
-            ->filter()
-            ->unique()
-            ->values();
-            return view('welcome', compact('caseStudies', 'industries'));
-    }
-
-    public function detail(string $slug)
-    {
-        $caseStudy = CaseStudy::query()
-            ->where('is_published', true)
-            ->where('slug', $slug)
-            ->with([
-                'stats',
-                'features',
-                'impacts',
-                'techStacks',
-                'points' => fn($q) => $q->orderBy('sort_order'),
-            ])
-            ->firstOrFail();
-
-        $challengePoints = $caseStudy->points->where('section', 'challenge')->values();
-        $solutionPoints  = $caseStudy->points->where('section', 'solution')->values();
-
-        return view('case-study-detail', compact('caseStudy', 'challengePoints', 'solutionPoints'));
+        return view('welcome', compact('caseStudies'));
     }
 
     public function careers()

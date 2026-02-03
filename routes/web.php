@@ -31,6 +31,10 @@ use App\Http\Controllers\Web\IndustryController;
 use App\Http\Controllers\Web\PricingController;
 use App\Http\Controllers\Web\Service\DigitalMarkController;
 use App\Http\Controllers\Web\Service\WebsiteDevController;
+use App\Http\Controllers\Admin\PricingPlanController;
+use App\Http\Controllers\Admin\PricingPlanPriceController;
+use App\Http\Controllers\Admin\PricingPlanFeatureController;
+use App\Http\Controllers\Admin\PricingFaqController;
 use App\Models\PortfolioItem;
 
 Route::get('/dashboard', function () {
@@ -167,6 +171,56 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Route::get('/leads', [ContactSubmissionController::class, 'index'])->name('leads.index');
             Route::get('/leads/{submission}', [ContactSubmissionController::class, 'show'])->name('leads.show');
             Route::patch('/leads/{submission}/status', [ContactSubmissionController::class, 'updateStatus'])->name('leads.status');
+
+
+            Route::prefix('pricing')->name('pricing.')->group(function () {
+
+                /*
+                |--------------------------------------------------------------------------
+                | Pricing Plans (CRUD)
+                |--------------------------------------------------------------------------
+                */
+                Route::resource('plans', PricingPlanController::class);
+
+                /*
+                |--------------------------------------------------------------------------
+                | Pricing Plan Prices (monthly / one-time)
+                |--------------------------------------------------------------------------
+                */
+                Route::post(
+                    'prices',
+                    [PricingPlanPriceController::class, 'store']
+                )->name('prices.store');
+
+                /*
+                |--------------------------------------------------------------------------
+                | Pricing Plan Features
+                |--------------------------------------------------------------------------
+                */
+                Route::post(
+                    'features',
+                    [PricingPlanFeatureController::class, 'store']
+                )->name('features.store');
+
+                Route::delete(
+                    'features/{feature}',
+                    [PricingPlanFeatureController::class, 'destroy']
+                )->name('features.delete');
+
+                /*
+                |--------------------------------------------------------------------------
+                | Pricing FAQ
+                |--------------------------------------------------------------------------
+                */
+                Route::prefix('faq')->name('faq.')->group(function () {
+                    Route::get('/', [PricingFaqController::class, 'index'])->name('index');
+                    Route::get('/create', [PricingFaqController::class, 'create'])->name('create');
+                    Route::post('/', [PricingFaqController::class, 'store'])->name('store');
+                    Route::get('/{faq}/edit', [PricingFaqController::class, 'edit'])->name('edit');
+                    Route::put('/{faq}', [PricingFaqController::class, 'update'])->name('update');
+                    Route::delete('/{faq}', [PricingFaqController::class, 'destroy'])->name('delete');
+                });
+            });
         });
 });
 

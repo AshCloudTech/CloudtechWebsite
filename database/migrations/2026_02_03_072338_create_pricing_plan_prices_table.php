@@ -19,12 +19,14 @@ return new class extends Migration
                 ->cascadeOnDelete();
 
             $table->string('billing_key'); // monthly | one-time
-            $table->string('amount_text'); // £499, £1,499, Let’s talk
-            $table->string('period_text')->nullable(); // per month | one-time | custom quote
+
+            $table->string('currency', 5)->default('£'); // £, $, AED, INR etc
+            $table->string('amount_text'); // 499, 1,499, Let’s talk
+            $table->string('period_text')->nullable(); // per month | one-time
+
             $table->unsignedInteger('sort_order')->default(0);
 
             $table->unique(['pricing_plan_id', 'billing_key']);
-
             $table->timestamps();
         });
     }

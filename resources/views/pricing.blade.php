@@ -1,4 +1,40 @@
 @extends('layouts.cloudtech')
+<style>
+.price-card {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Flag wrapper */
+.featured-flag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 96px;
+  height: 96px;
+  z-index: 4;
+}
+
+.featured-flag svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Soft depth shadow */
+.featured-flag::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  box-shadow: -10px 10px 22px rgba(74, 79, 47, 0.35);
+  pointer-events: none;
+}
+
+/* Featured card lift (already added by you) */
+.price-card.featured {
+  transform: translateY(-6px);
+}
+</style>
 
 @section('title', 'Pricing')
 @section('meta_title', 'Cloud Technologies Ltd Pricing')
@@ -54,15 +90,42 @@
           };
 
           $ctaClass = $plan->cta_variant === 'ghost' ? 'btn-ghost' : 'btn-primary';
-
+          $monthlyCurrency = $monthly?->currency ?? '£';
           $monthlyAmount = $monthly?->amount_text ?? '—';
           $monthlyPeriod = $monthly?->period_text ?? 'per month';
-
+          $oneTimeCurrency = $oneTime?->currency ?? '£';
           $oneTimeAmount = $oneTime?->amount_text ?? '—';
           $oneTimePeriod = $oneTime?->period_text ?? 'one-time';
         @endphp
 
         <article class="price-card {{ $isFeatured }} fx-reveal reveal-up" data-plan="{{ $plan->key }}">
+        @if($plan->is_featured)
+          <div class="featured-flag">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <!-- Brand gradient: navy → blue -->
+                <linearGradient id="ctFlagGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#0f172a"/>   <!-- navy -->
+                  <stop offset="100%" stop-color="#2563eb"/> <!-- blue -->
+                </linearGradient>
+              </defs>
+
+              <!-- corner shape -->
+              <polygon points="120,0 40,0 120,80" fill="url(#ctFlagGrad)" />
+
+              <!-- text -->
+              <text x="79" y="35"
+                    fill="#ffffff"
+                    font-size="12"
+                    font-weight="700"
+                    text-anchor="middle"
+                    transform="rotate(45 78 38)">
+                Recommended
+              </text>
+            </svg>
+          </div>
+        @endif
+
           <div class="top">
             @if($plan->badge_text)
               <div class="badge {{ $badgeClass }}">{{ $plan->badge_text }}</div>
@@ -74,12 +137,11 @@
             @endif
           </div>
 
-          <div class="price"
-               data-monthly="{{ $monthlyAmount }}"
-               data-onetime="{{ $oneTimeAmount }}">
-            {{ $monthlyAmount }}
-          </div>
-
+        <div class="price"
+            data-monthly="{{ $monthlyCurrency }}{{ $monthlyAmount }}"
+            data-onetime="{{ $oneTimeCurrency }}{{ $oneTimeAmount }}">
+          <span class="currency">{{ $monthlyCurrency }}</span>{{ $monthlyAmount }}
+        </div>
           <div class="sub"
                data-monthly="{{ $monthlyPeriod }}"
                data-onetime="{{ $oneTimePeriod }}">

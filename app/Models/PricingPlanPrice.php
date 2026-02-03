@@ -7,8 +7,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class PricingPlanPrice extends Model
 {
-        protected $fillable = [
-        'pricing_plan_id','billing_key','amount_text','period_text','sort_order'
+    protected $fillable = [
+        'pricing_plan_id',
+        'billing_key',
+        'amount_text',
+        'period_text',
+        'sort_order',
+        'currency',
     ];
 
     public function plan(): BelongsTo

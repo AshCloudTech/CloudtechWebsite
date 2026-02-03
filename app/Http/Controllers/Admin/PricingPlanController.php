@@ -39,6 +39,7 @@ class PricingPlanController extends Controller
             if (!empty($price['amount_text'])) {
                 $plan->prices()->create([
                     'billing_key' => $billingKey,
+                    'currency'    => $price['currency'] ?? '£',
                     'amount_text' => $price['amount_text'],
                     'period_text' => $price['period_text'] ?? null,
                 ]);

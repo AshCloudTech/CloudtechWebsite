@@ -65,11 +65,19 @@
                     <input type="hidden" name="billing_key" value="monthly">
 
                     <div class="field">
+                        <label>Currency</label>
+                        <input
+                            name="currency"
+                            value="{{ $plan->priceByBilling('monthly')?->currency ?? '£' }}"
+                        >
+                    </div>
+
+                    <div class="field">
                         <label>Monthly Price</label>
                         <input
                             name="amount_text"
                             value="{{ $plan->priceByBilling('monthly')?->amount_text }}"
-                            placeholder="£499"
+                            placeholder="499"
                         >
                     </div>
 
@@ -91,11 +99,19 @@
                     <input type="hidden" name="billing_key" value="one-time">
 
                     <div class="field">
+                        <label>Currency</label>
+                        <input
+                            name="currency"
+                            value="{{ $plan->priceByBilling('one-time')?->currency ?? '£' }}"
+                        >
+                    </div>
+
+                    <div class="field">
                         <label>One-Time Price</label>
                         <input
                             name="amount_text"
                             value="{{ $plan->priceByBilling('one-time')?->amount_text }}"
-                            placeholder="£1,499 / Let’s talk"
+                            placeholder="1,499 / Let’s talk"
                         >
                     </div>
 

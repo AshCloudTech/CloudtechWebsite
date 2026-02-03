@@ -84,6 +84,7 @@ class CompanySettingsController extends Controller
         }
 
         $company->update($data);
+        Cache::forget('global_company_v1');
 
         return back()->with('success', 'Company settings updated.');
     }

@@ -116,6 +116,11 @@
             <div class="grid grid-3 services-grid">
                 <!-- Row 1 -->
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/National.webp') }}" alt="National SEO" loading="lazy"
+                            decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-blue"></div>
                         <h3><a href="{{ route('services.digi-marketing.national-seo') }}">National SEO</a></h3>
@@ -129,6 +134,11 @@
                 </article>
 
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/International.webp') }}" alt="International SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-purple"></div>
                         <h3><a href="{{ route('services.digi-marketing.international-seo') }}">International SEO</a></h3>
@@ -142,6 +152,11 @@
                 </article>
 
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}" alt="Technical SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-cyan"></div>
                         <h3><a href="{{ route('services.digi-marketing.technical-seo') }}">Technical SEO</a></h3>
@@ -156,6 +171,11 @@
 
                 <!-- Row 2 -->
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Content.webp') }}" alt="Content SEO" loading="lazy"
+                            decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-emerald"></div>
                         <h3><a href="{{ route('services.digi-marketing.content-seo') }}">Content SEO</a></h3>
@@ -169,6 +189,11 @@
                 </article>
 
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/gbp.webp') }}"
+                            alt="Google Business Profile Optimisation" loading="lazy" decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-amber"></div>
                         <h3><a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}">Google
@@ -185,6 +210,11 @@
                 </article>
 
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO" loading="lazy"
+                            decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-rose"></div>
                         <h3><a href="{{ route('services.digi-marketing.image-seo') }}">Image SEO</a></h3>
@@ -198,6 +228,11 @@
 
                 <!-- Row 3 -->
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Local.webp') }}" alt="Local SEO" loading="lazy"
+                            decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-lime"></div>
                         <h3><a href="{{ route('services.digi-marketing.local-seo') }}">Local SEO</a></h3>
@@ -211,6 +246,11 @@
                 </article>
 
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}" alt="eCommerce SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-indigo"></div>
                         <h3><a href="{{ route('services.digi-marketing.ecommerce-seo') }}">eCommerce SEO</a></h3>
@@ -224,6 +264,11 @@
                 </article>
 
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}" alt="On-Page SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-sky"></div>
                         <h3><a href="{{ route('services.digi-marketing.on-page-seo') }}">On-Page SEO</a></h3>
@@ -238,6 +283,11 @@
 
                 <!-- Row 4 -->
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}" alt="Off-Page SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-slate"></div>
                         <h3><a href="{{ route('services.digi-marketing.off-page-seo') }}">Off-Page SEO</a></h3>
@@ -251,6 +301,11 @@
                 </article>
 
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/meta.webp') }}" alt="Meta Ads Services"
+                            loading="lazy" decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-meta"></div>
                         <h3><a href="{{ route('services.digi-marketing.meta-ads-services') }}">Meta Ads Services</a></h3>
@@ -265,6 +320,11 @@
                 </article>
 
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/ppc.webp') }}" alt="PPC Services" loading="lazy"
+                            decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-orange"></div>
                         <h3><a href="{{ route('services.digi-marketing.ppc-services') }}">PPC Services</a></h3>
@@ -279,6 +339,11 @@
 
                 <!-- Row 5 -->
                 <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/smm.webp') }}" alt="SMM Services" loading="lazy"
+                            decoding="async">
+                    </div>
+
                     <div class="service-header">
                         <div class="service-strip strip-social"></div>
                         <h3><a href="{{ route('services.digi-marketing.smm-services') }}">SMM Services</a></h3>
@@ -409,45 +474,45 @@
 
     <!-- DIGITAL MARKETING INSIGHTS -->
     <!-- <section class="section section-alt" id="insights">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Digital Marketing Insights</h2>
-                    <p>
-                        Stay ahead with the latest trends and statistics in digital marketing.
-                    </p>
-                </div>
+                    <div class="container">
+                        <div class="section-header">
+                            <h2>Digital Marketing Insights</h2>
+                            <p>
+                                Stay ahead with the latest trends and statistics in digital marketing.
+                            </p>
+                        </div>
 
-                <div class="grid grid-4 insights-grid">
-                    <article class="card insight-card">
-                        <p class="insight-value">93%</p>
-                        <p class="insight-text">
-                            of online experiences begin with a search engine, making SEO essential.
-                        </p>
-                    </article>
+                        <div class="grid grid-4 insights-grid">
+                            <article class="card insight-card">
+                                <p class="insight-value">93%</p>
+                                <p class="insight-text">
+                                    of online experiences begin with a search engine, making SEO essential.
+                                </p>
+                            </article>
 
-                    <article class="card insight-card">
-                        <p class="insight-value">63%</p>
-                        <p class="insight-text">
-                            of Google searches happen on mobile devices, requiring mobile optimisation.
-                        </p>
-                    </article>
+                            <article class="card insight-card">
+                                <p class="insight-value">63%</p>
+                                <p class="insight-text">
+                                    of Google searches happen on mobile devices, requiring mobile optimisation.
+                                </p>
+                            </article>
 
-                    <article class="card insight-card">
-                        <p class="insight-value">5.3x</p>
-                        <p class="insight-text">
-                            ROI on average for businesses investing in SEO compared to traditional marketing.
-                        </p>
-                    </article>
+                            <article class="card insight-card">
+                                <p class="insight-value">5.3x</p>
+                                <p class="insight-text">
+                                    ROI on average for businesses investing in SEO compared to traditional marketing.
+                                </p>
+                            </article>
 
-                    <article class="card insight-card">
-                        <p class="insight-value">70%</p>
-                        <p class="insight-text">
-                            of marketers say SEO is more effective than PPC for generating sales.
-                        </p>
-                    </article>
-                </div>
-            </div>
-        </section> -->
+                            <article class="card insight-card">
+                                <p class="insight-value">70%</p>
+                                <p class="insight-text">
+                                    of marketers say SEO is more effective than PPC for generating sales.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </section> -->
 
     <!-- CTA -->
     <section class="section dm-cta" style="margin-top:35px" id="cta">

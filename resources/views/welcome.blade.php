@@ -7,7 +7,6 @@
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/cloud-home/js/script.js') }}" defer></script>
-    <script src="{{ asset('assets/case-studies/js/script.js') }}" defer></script>
 @endpush
 
 @section('content')

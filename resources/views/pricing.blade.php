@@ -40,97 +40,77 @@
   <div class="container">
 
     <div class="pricing-grid">
+      @foreach($plans as $plan)
+        @php
+          $monthly = $plan->priceByBilling('monthly');
+          $oneTime = $plan->priceByBilling('one-time');
 
-      <article class="price-card fx-reveal reveal-up" data-plan="starter">
-        <div class="top">
-          <div class="badge">Starter</div>
-          <h3>Launch Website</h3>
-          <p class="desc">Best for small businesses that need a fast, clean website.</p>
-        </div>
+          $isFeatured = $plan->is_featured ? 'featured' : '';
 
-        <div class="price" data-monthly="£499" data-onetime="£1,499">£499</div>
-        <div class="sub" data-monthly="per month" data-onetime="one-time">per month</div>
+          $badgeClass = match($plan->badge_variant){
+            'cyan' => 'badgeCyan',
+            'navy' => 'badgeNavy',
+            default => '',
+          };
 
-        <ul class="list">
-          <li>Up to 5 pages</li>
-          <li>Mobile responsive</li>
-          <li>Basic on-page SEO</li>
-          <li>Contact form integration</li>
-          <li>Performance best practices</li>
-        </ul>
+          $ctaClass = $plan->cta_variant === 'ghost' ? 'btn-ghost' : 'btn-primary';
 
-        <a href="{{ url('/contact') }}" class="btn-primary">Get Started →</a>
-      </article>
+          $monthlyAmount = $monthly?->amount_text ?? '—';
+          $monthlyPeriod = $monthly?->period_text ?? 'per month';
 
-      <article class="price-card featured fx-reveal reveal-up" data-plan="growth">
-        <div class="top">
-          <div class="badge badgeCyan">Most Popular</div>
-          <h3>Growth</h3>
-          <p class="desc">For businesses ready to scale with SEO and strong UX.</p>
-        </div>
+          $oneTimeAmount = $oneTime?->amount_text ?? '—';
+          $oneTimePeriod = $oneTime?->period_text ?? 'one-time';
+        @endphp
 
-        <div class="price" data-monthly="£899" data-onetime="£2,999">£899</div>
-        <div class="sub" data-monthly="per month" data-onetime="one-time">per month</div>
+        <article class="price-card {{ $isFeatured }} fx-reveal reveal-up" data-plan="{{ $plan->key }}">
+          <div class="top">
+            @if($plan->badge_text)
+              <div class="badge {{ $badgeClass }}">{{ $plan->badge_text }}</div>
+            @endif
 
-        <ul class="list">
-          <li>Up to 12 pages</li>
-          <li>Technical SEO audit fixes</li>
-          <li>Speed optimisation</li>
-          <li>Conversion-focused sections</li>
-          <li>Analytics + event tracking</li>
-        </ul>
+            <h3>{{ $plan->title }}</h3>
+            @if($plan->description)
+              <p class="desc">{{ $plan->description }}</p>
+            @endif
+          </div>
 
-        <a href="{{ url('/contact') }}" class="btn-primary">Talk to Sales →</a>
-      </article>
+          <div class="price"
+               data-monthly="{{ $monthlyAmount }}"
+               data-onetime="{{ $oneTimeAmount }}">
+            {{ $monthlyAmount }}
+          </div>
 
-      <article class="price-card fx-reveal reveal-up" data-plan="enterprise">
-        <div class="top">
-          <div class="badge badgeNavy">Custom</div>
-          <h3>Enterprise</h3>
-          <p class="desc">Complex projects, integrations, multi-language, or custom builds.</p>
-        </div>
+          <div class="sub"
+               data-monthly="{{ $monthlyPeriod }}"
+               data-onetime="{{ $oneTimePeriod }}">
+            {{ $monthlyPeriod }}
+          </div>
 
-        <div class="price" data-monthly="Let’s talk" data-onetime="Let’s talk">Let’s talk</div>
-        <div class="sub" data-monthly="custom quote" data-onetime="custom quote">custom quote</div>
+          <ul class="list">
+            @foreach($plan->features as $feature)
+              <li>{{ $feature->text }}</li>
+            @endforeach
+          </ul>
 
-        <ul class="list">
-          <li>Custom scope & architecture</li>
-          <li>Integrations (CRM / payments)</li>
-          <li>Advanced SEO & content</li>
-          <li>Security hardening</li>
-          <li>Ongoing support SLA</li>
-        </ul>
-
-        <a href="{{ url('/contact') }}" class="btn-ghost">Request Quote →</a>
-      </article>
-
+          <a href="{{ url($plan->cta_url) }}" class="{{ $ctaClass }}">{{ $plan->cta_text }}</a>
+        </article>
+      @endforeach
     </div>
 
-    <div class="faq fx-reveal reveal-up">
-      <h2>FAQ</h2>
+    @if($faqs->count())
+      <div class="faq fx-reveal reveal-up">
+        <h2>FAQ</h2>
 
-      <div class="faq-grid">
-        <details class="faq-item">
-          <summary>Do you provide fixed quotes?</summary>
-          <p>Yes, for one-time builds we provide a fixed scope quote. For ongoing work, we recommend monthly plans.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Does pricing include hosting?</summary>
-          <p>Hosting is separate. We can recommend the right Hostinger / VPS setup based on your traffic and stack.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Can we start small and upgrade later?</summary>
-          <p>Yes. Start with Starter and upgrade to Growth once you need more pages, SEO, or integrations.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Do you optimise for performance?</summary>
-          <p>Yes — we follow Core Web Vitals best practices and avoid heavy animations (transform/opacity only).</p>
-        </details>
+        <div class="faq-grid">
+          @foreach($faqs as $faq)
+            <details class="faq-item">
+              <summary>{{ $faq->question }}</summary>
+              <p>{{ $faq->answer }}</p>
+            </details>
+          @endforeach
+        </div>
       </div>
-    </div>
+    @endif
 
   </div>
 </section>

@@ -7,6 +7,7 @@
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/cloud-home/js/script.js') }}" defer></script>
+    <script src="{{ asset('assets/case-studies/js/script.js') }}" defer></script>
 @endpush
 
 @section('content')
@@ -478,82 +479,46 @@
                     See how our strategies and solutions have helped clients achieve outstanding outcomes. </p>
             </div>
 
-            <div class="grid grid-2 case-grid">
-                <!-- Travel -->
-                <article class="card case-card">
-                    <div class="card-tag tag-blue">Travel &amp; Tourism</div>
-                    <h3>BookMyGetaway.co.uk</h3>
-                    <p>
-                        Complete digital transformation of a UK-based travel agency with integrated booking systems, live
-                        API connections to major travel providers, and AI-powered itinerary planning.
-                    </p>
-                    <ul class="case-results">
-                        <li>300% increase in online bookings</li>
-                        <li>45% reduction in customer service calls</li>
-                        <li>£2.5M additional revenue in first year</li>
-                    </ul>
-                    <p class="case-stack">
-                        <strong>Technologies Used:</strong> React, Node.js, Expedia API, Viator API, AI Chatbot
-                    </p>
-                    <a href="#" class="link-arrow">Read Full Case Study</a>
-                </article>
+            <div class="">
+                <section class="section" id="list">
 
-                <!-- Healthcare -->
-                <article class="card case-card">
-                    <div class="card-tag tag-purple">Healthcare</div>
-                    <h3>NHS Trust Digital Portal</h3>
-                    <p>
-                        Comprehensive patient management system for a major NHS Trust including appointment booking, patient
-                        records, and staff scheduling with full GDPR compliance.
-                    </p>
-                    <ul class="case-results">
-                        <li>60% reduction in appointment no-shows</li>
-                        <li>40% improvement in patient satisfaction</li>
-                        <li>25% increase in operational efficiency</li>
-                    </ul>
-                    <p class="case-stack">
-                        <strong>Technologies Used:</strong> Vue.js, Python, PostgreSQL, NHS APIs, FHIR
-                    </p>
-                    <a href="#" class="link-arrow">Read Full Case Study</a>
-                </article>
+        <div class="filter-bar">
+            <button class="filter active" data-filter="all">All</button>
+            @foreach($industries as $industry)
+            <button class="filter" data-filter="{{ $industry }}">{{ $industry }}</button>
+            @endforeach
+        </div>
 
-                <!-- Care Management -->
-                <article class="card case-card">
-                    <div class="card-tag tag-green">Care Management</div>
-                    <h3>Sunshine Care Dashboards</h3>
-                    <p>
-                        CQC-compliant care home management platform with resident tracking, medication management, and
-                        family communication portal.
-                    </p>
-                    <ul class="case-results">
-                        <li>CQC Outstanding rating achieved</li>
-                        <li>90% family satisfaction score</li>
-                        <li>35% reduction in administrative time</li>
-                    </ul>
-                    <p class="case-stack">
-                        <strong>Technologies Used:</strong> Angular, C#, SQL Server, Mobile Apps, IoT Sensors
-                    </p>
-                    <a href="#" class="link-arrow">Read Full Case Study</a>
-                </article>
 
-                <!-- Recruitment -->
-                <article class="card case-card">
-                    <div class="card-tag tag-orange">Recruitment</div>
-                    <h3>Global Talent Solutions</h3>
-                    <p>
-                        AI-powered recruitment platform connecting international talent with UK opportunities, featuring
-                        automated screening and video interviewing.
-                    </p>
-                    <ul class="case-results">
-                        <li>80% faster candidate screening</li>
-                        <li>95% client satisfaction rate</li>
-                        <li>200% increase in successful placements</li>
-                    </ul>
-                    <p class="case-stack">
-                        <strong>Technologies Used:</strong> React Native, AI/ML, Video APIs, ATS Integration, Blockchain
-                    </p>
-                    <a href="#" class="link-arrow">Read Full Case Study</a>
-                </article>
+        <div class="grid cs-grid">
+            @foreach($caseStudies as $cs)
+            <article class="card-cs cs-card" data-category="{{ $cs->industry ?? 'Other' }}">
+                @if($cs->card_image)
+                <div class="cs-img" style="background-image:url('{{ asset($cs->card_image) }}')"></div>
+                @else
+                <div class="cs-img"></div>
+                @endif
+
+                @if($cs->industry)
+                <span class="cs-tag {{ $cs->industry_tag_color ?? 'blue' }}">{{ $cs->industry }}</span>
+                @endif
+
+                <h3>{{ $cs->title }}</h3>
+                @if($cs->excerpt)
+                <p>{{ $cs->excerpt }}</p>
+                @endif
+
+                <a href="{{ route('case.studies.detail', $cs->slug) }}" class="cs-link">
+                    View Case Study →
+                </a>
+            </article>
+            @endforeach
+        
+    </div>
+</section>
+
+
+                
             </div>
 
             <div class="case-footer">

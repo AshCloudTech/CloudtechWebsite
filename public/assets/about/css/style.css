@@ -639,34 +639,90 @@ button {
 /* ==== CTA ==== */
 
 .about-cta {
-    background: linear-gradient(135deg, #1d4ed8, #2563eb);
-    color: #ffffff;
-    padding: 60px 0;
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  color: #ffffff;
+  padding: 80px 0;
 }
 
 .about-cta-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
-    flex-wrap: wrap;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px auto;
 }
 
 .about-cta-inner h2 {
-    margin: 0 0 8px 0;
-    font-size: 28px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
 }
 
 .about-cta-inner p {
-    margin: 0;
-    color: #dbeafe;
+  font-size: 16px;
+  color: #dbeafe;
+  line-height: 1.6;
 }
 
+/* Buttons */
 .about-cta-actions {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
+
+/* Cards */
+.cta-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.cta-card {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  padding: 32px 24px;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.cta-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.cta-card p {
+  font-size: 14px;
+  color: #e0e7ff;
+  line-height: 1.5;
+}
+
+/* Icon */
+.cta-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .cta-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .about-cta-inner h2 {
+    font-size: 28px;
+  }
+}
+
 
 /* ==== CONTACT FORM ==== */
 

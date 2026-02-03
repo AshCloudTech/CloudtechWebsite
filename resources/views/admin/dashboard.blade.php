@@ -54,12 +54,26 @@
                 </div>
             </div>
             <div class="cardBody">
-                <div class="btnRow">
-                    <a class="btn primary" href="{{ route('admin.users.index') }}">Manage Users</a>
-                    <a class="btn" href="{{ route('admin.roles.index') }}">Role Management</a>
-                    <a class="btn" href="{{ route('admin.permissions.index') }}">Permission Matrix</a>
-                    <a class="btn" href="{{ route('admin.audit-logs.index') }}">View Audit Logs</a>
-                </div>
+            <div class="btnRow">
+                {{-- Existing --}}
+                <a class="btn primary" href="{{ route('admin.users.index') }}">Manage Users</a>
+                <a class="btn" href="{{ route('admin.roles.index') }}">Role Management</a>
+                <a class="btn" href="{{ route('admin.permissions.index') }}">Permission Matrix</a>
+                <a class="btn" href="{{ route('admin.audit-logs.index') }}">View Audit Logs</a>
+
+                {{-- Pricing (NEW) --}}
+                @if (Route::has('admin.pricing.plans.index'))
+                    <a class="btn" href="{{ route('admin.pricing.plans.index') }}">
+                        Manage Pricing Plans
+                    </a>
+                @endif
+
+                @if (Route::has('admin.pricing.faq.index'))
+                    <a class="btn" href="{{ route('admin.pricing.faq.index') }}">
+                        Manage Pricing FAQ
+                    </a>
+                @endif
+            </div>
 
                 @if (session()->has('impersonator_id'))
                     <div style="margin-top:14px;" class="card">

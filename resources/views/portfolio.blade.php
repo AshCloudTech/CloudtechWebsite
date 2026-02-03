@@ -16,6 +16,24 @@
 @section('content')
 
 <section class="hero portfolio-hero" id="portfolio">
+<<<<<<< HEAD
+    <div class="container hero-content">
+        <h1>Our Portfolio of Websites</h1>
+<<<<<<< HEAD
+        <h3>Why Choose Cloud Technologies Ltd?</h3>
+=======
+        <h3 style="color:#2563EB;">Why Choose Cloud Technologies Ltd?</h3>
+>>>>>>> 6dfdfa5547cfa012682939a709de56201ecee716
+        <p class="subtitle">
+            At Cloud Technologies Ltd, we've built and delivered dozens of websites across platforms like
+            GoDaddy, Wix, Shopify, Squarespace, and WordPress — for businesses in education, law, eCommerce,
+            healthcare, recruitment, logistics, and more. Below, you'll find a showcase of some of our recent
+            projects, grouped by platform.
+        </p>
+
+
+    </div>
+=======
   <div class="container hero-content">
     <h1>Our Portfolio of Websites</h1>
     <h3 style="color:#2563EB;">Why Choose Cloud Technologies Ltd?</h3>
@@ -24,6 +42,7 @@
       Below is a showcase of recent projects grouped by platform.
     </p>
   </div>
+>>>>>>> d91eae08d425ff315f79cae59d3f847fe44c6014
 </section>
 
 <section class="section">
@@ -94,6 +113,36 @@
 </section>
 
 <section class="why-us" id="stats">
+<<<<<<< HEAD
+  <div class="container">
+    <h2 class="section-title">Why Choose Cloud Technologies Ltd?</h2>
+
+    <div class="why-grid">
+      <!-- Item 1 -->
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>50+ websites delivered across multiple industries</h4>
+          <p>
+            Extensive experience across healthcare, education, travel,
+            recruitment, and more.
+          </p>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>
+            Platform flexibility: WordPress, Shopify, Wix, Squarespace, Laravel,
+            GoDaddy
+          </h4>
+          <p>
+            We work with all major platforms to find the perfect fit for your
+            business needs.
+          </p>
+=======
     <div class="container">
         <div class="why-card">
             <h2>Why Choose Cloud Technologies Ltd?</h2>
@@ -147,8 +196,41 @@
                     Start Your Project →
                 </a>
             </div>
+>>>>>>> 6dfdfa5547cfa012682939a709de56201ecee716
         </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Mobile-first, SEO-optimised designs</h4>
+          <p>
+            Every website is built with mobile users in mind and optimised for
+            search engines.
+          </p>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Fast delivery with ongoing support</h4>
+          <p>
+            Quick turnaround times with comprehensive post-launch support and
+            maintenance.
+          </p>
+        </div>
+      </div>
     </div>
+
+    <div class="btn-wrapper">
+      <a href="#" class="btn-primary">
+        Start Your Project <span>→</span>
+      </a>
+    </div>
+  </div>
 </section>
 
 

@@ -218,72 +218,85 @@
     </section>
 
     <!-- RECENT PROJECTS -->
-    <section class="section" id="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Recent Projects</h2>
-                <p>
-                    Explore our creative and high-quality website development work.
-                </p>
-            </div>
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Recent Projects</h2>
+      <p>Explore our creative and high-quality website development work.</p>
+    </div>
 
-            <div class="grid grid-3 projects-grid">
-                <article class="card project-card">
-                    <div class="project-thumb thumb-1"></div>
-                    <span class="project-tag project-tag-blue">E‑commerce</span>
-                    <h3>Fashion E-commerce Platform</h3>
-                    <p>
-                        A modern online store for easy browsing and shopping
-                    </p>
-                </article>
+    <div class="grid grid-3 projects-grid">
 
-                <article class="card project-card">
-                    <div class="project-thumb thumb-2"></div>
-                    <span class="project-tag project-tag-purple">Corporate</span>
-                    <h3>Corporate Business Website</h3>
-                    <p>
-                        A clean, professional website for corporate branding.
-                    </p>
-                </article>
-
-                <article class="card project-card">
-                    <div class="project-thumb thumb-3"></div>
-                    <span class="project-tag project-tag-emerald">SaaS</span>
-                    <h3>SaaS Management Platform</h3>
-                    <p>
-                        A scalable platform to streamline tasks and workflows.
-                    </p>
-                </article>
-
-                <article class="card project-card">
-                    <div class="project-thumb thumb-4"></div>
-                    <span class="project-tag project-tag-sky">Booking</span>
-                    <h3>Restaurant Booking System</h3>
-                    <p>
-                        A simple system for quick and easy table reservations
-                    </p>
-                </article>
-
-                <article class="card project-card">
-                    <div class="project-thumb thumb-5"></div>
-                    <span class="project-tag project-tag-amber">Real Estate</span>
-                    <h3>Real Estate Portal</h3>
-                    <p>
-                        A user-friendly property listing and search platform.
-                    </p>
-                </article>
-
-                <article class="card project-card">
-                    <div class="project-thumb thumb-6"></div>
-                    <span class="project-tag project-tag-rose">Education</span>
-                    <h3>E-Learning Platform</h3>
-                    <p>
-                        A digital platform for online courses and learning.
-                    </p>
-                </article>
-            </div>
+      <article class="card project-card">
+        <div class="project-thumb">
+          <img src="{{ asset('assets/images/webdev/bookmygetaway.webp') }}"
+               alt="BookMyGetAway"
+               loading="lazy" decoding="async">
         </div>
-    </section>
+        <span class="project-tag project-tag-blue">Travel & Booking</span>
+        <h3>BookMyGetAway</h3>
+        <p>A dynamic travel booking platform for seamless trip planning.</p>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-thumb">
+          <img src="{{ asset('assets/images/webdev/corporate-business.webp') }}"
+               alt="Corporate Business Website"
+               loading="lazy" decoding="async">
+        </div>
+        <span class="project-tag project-tag-purple">Corporate</span>
+        <h3>Corporate Business Website</h3>
+        <p>A clean, professional website for corporate branding.</p>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-thumb">
+          <img src="{{ asset('assets/images/webdev/saas-platform.webp') }}"
+               alt="SaaS Management Platform"
+               loading="lazy" decoding="async">
+        </div>
+        <span class="project-tag project-tag-emerald">SaaS</span>
+        <h3>SaaS Management Platform</h3>
+        <p>A scalable platform to streamline tasks and workflows.</p>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-thumb">
+          <img src="{{ asset('assets/images/webdev/restaurant-booking.webp') }}"
+               alt="Restaurant Booking System"
+               loading="lazy" decoding="async">
+        </div>
+        <span class="project-tag project-tag-sky">Booking</span>
+        <h3>Restaurant Booking System</h3>
+        <p>A simple system for quick and easy table reservations</p>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-thumb">
+          <img src="{{ asset('assets/images/webdev/real-estate.webp') }}"
+               alt="Real Estate Portal"
+               loading="lazy" decoding="async">
+        </div>
+        <span class="project-tag project-tag-amber">Real Estate</span>
+        <h3>Real Estate Portal</h3>
+        <p>A user-friendly property listing and search platform.</p>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-thumb">
+          <img src="{{ asset('assets/images/webdev/elearning.webp') }}"
+               alt="E-Learning Platform"
+               loading="lazy" decoding="async">
+        </div>
+        <span class="project-tag project-tag-rose">Education</span>
+        <h3>E-Learning Platform</h3>
+        <p>A digital platform for online courses and learning.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
 
     <!-- PROCESS -->
     <section class="section section-process" id="process">

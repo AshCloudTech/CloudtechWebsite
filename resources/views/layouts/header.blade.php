@@ -74,7 +74,8 @@
                     </li>
 
                     <li>
-                        <a href="{{ route('pricing') }}">Pricing</a>
+                        <a href="{{ route('pricing') }}" 
+                        class="{{ request()->routeIs('pricing*') ? 'active' : '' }}">Pricing</a>
                     </li>
 
                     <li>

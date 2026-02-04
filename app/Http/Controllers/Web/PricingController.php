@@ -11,6 +11,7 @@ class PricingController extends Controller
 {
     public function index()
     {
+<<<<<<< Updated upstream
         $plans = PricingPlan::query()
             ->where('is_active', true)
             ->with([
@@ -28,5 +29,8 @@ class PricingController extends Controller
 
         // Hero can also be moved to DB later; keeping static for now
         return view('pricing', compact('plans', 'faqs'));
+=======
+        return view('pricing');
+>>>>>>> Stashed changes
     }
 }

@@ -43,12 +43,19 @@
                             Industries
                         </a>
                         <ul class="dropdown">
+<<<<<<< Updated upstream
                             <li><a href="{{ route('industries.cloudhealth') }}">CloudHealth</a></li>
                             <li><a href="{{ route('industries.cloudcare') }}">CloudCare</a></li>
                             <li><a href="{{ route('industries.cloudedu') }}">CloudEdu</a></li>
                             <li><a href="{{ route('industries.cloudtravel') }}">CloudTravel</a></li>
                             <li><a href="{{ route('industries.cloudrecruit') }}">CloudRecruit</a></li>
                             <li><a href="{{ route('industries.cloudpublic') }}">CloudPublic</a></li>
+=======
+                            <li><a href="#">Healthcare</a></li>
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">E-Commerce</a></li>
+                            <li><a href="#">Education</a></li>
+>>>>>>> Stashed changes
                         </ul>
                     </li>
 

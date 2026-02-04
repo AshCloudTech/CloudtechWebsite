@@ -225,6 +225,7 @@ html[data-theme="dark"] .site-logo--dark{ display:block; }
   .main-nav ul li.open > ul.dropdown { 
     display: block; 
   } 
+<<<<<<< Updated upstream
 }
 
 /* Popup */
@@ -292,3 +293,6 @@ html[data-theme="dark"] .site-logo--dark{ display:block; }
   border-color:rgba(248,128,0,.35);
   color:#F88000;
 }
+=======
+}
+>>>>>>> Stashed changes

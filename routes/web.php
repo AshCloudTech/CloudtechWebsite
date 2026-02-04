@@ -19,6 +19,7 @@ use App\Http\Controllers\Admin\AuditLogController;
 use App\Http\Controllers\Admin\CaseStudyController as AdminCaseStudyController;
 use App\Http\Controllers\Admin\CompanyBranchController;
 use App\Http\Controllers\Admin\CompanySettingsController;
+use App\Http\Controllers\Admin\ConsultationAdminController;
 use App\Http\Controllers\Admin\ContactFormController;
 use App\Http\Controllers\Admin\ContactSubmissionController;
 use App\Http\Controllers\Admin\ImpersonationController;
@@ -174,56 +175,34 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Route::get('/leads/{submission}', [ContactSubmissionController::class, 'show'])->name('leads.show');
             Route::patch('/leads/{submission}/status', [ContactSubmissionController::class, 'updateStatus'])->name('leads.status');
 
+            // Consultation Management
+            Route::get('/consultations', [ConsultationAdminController::class, 'index'])->name('consultations.index');
+            Route::get('/consultations/{consultation}', [ConsultationAdminController::class, 'show'])->name('consultations.show');
+            Route::put('/consultations/{consultation}/status', [ConsultationAdminController::class, 'updateStatus'])->name('consultations.status');
+            Route::post('/consultations/{consultation}/remarks', [ConsultationAdminController::class, 'addRemark'])->name('consultations.remarks.store');
+
+
+            //Pricing Plans
 
             Route::prefix('pricing')->name('pricing.')->group(function () {
 
-                /*
-                |--------------------------------------------------------------------------
-                | Pricing Plans (CRUD)
-                |--------------------------------------------------------------------------
-                */
-                Route::resource('plans', PricingPlanController::class);
+            Route::resource('plans', PricingPlanController::class);
+            Route::post('prices', [PricingPlanPriceController::class, 'store'])->name('prices.store');
+            Route::post('features', [PricingPlanFeatureController::class, 'store'])->name('features.store');
+            Route::delete('features/{feature}', [PricingPlanFeatureController::class, 'destroy'])->name('features.delete');
 
-                /*
-                |--------------------------------------------------------------------------
-                | Pricing Plan Prices (monthly / one-time)
-                |--------------------------------------------------------------------------
-                */
-                Route::post(
-                    'prices',
-                    [PricingPlanPriceController::class, 'store']
-                )->name('prices.store');
-
-                /*
-                |--------------------------------------------------------------------------
-                | Pricing Plan Features
-                |--------------------------------------------------------------------------
-                */
-                Route::post(
-                    'features',
-                    [PricingPlanFeatureController::class, 'store']
-                )->name('features.store');
-
-                Route::delete(
-                    'features/{feature}',
-                    [PricingPlanFeatureController::class, 'destroy']
-                )->name('features.delete');
-
-                /*
-                |--------------------------------------------------------------------------
-                | Pricing FAQ
-                |--------------------------------------------------------------------------
-                */
-                Route::prefix('faq')->name('faq.')->group(function () {
-                    Route::get('/', [PricingFaqController::class, 'index'])->name('index');
-                    Route::get('/create', [PricingFaqController::class, 'create'])->name('create');
-                    Route::post('/', [PricingFaqController::class, 'store'])->name('store');
-                    Route::get('/{faq}/edit', [PricingFaqController::class, 'edit'])->name('edit');
-                    Route::put('/{faq}', [PricingFaqController::class, 'update'])->name('update');
-                    Route::delete('/{faq}', [PricingFaqController::class, 'destroy'])->name('delete');
-                });
+          
+            // FAQ Management
+            Route::prefix('faq')->name('faq.')->group(function () {
+            Route::get('/', [PricingFaqController::class, 'index'])->name('index');
+            Route::get('/create', [PricingFaqController::class, 'create'])->name('create');
+            Route::post('/', [PricingFaqController::class, 'store'])->name('store');
+            Route::get('/{faq}/edit', [PricingFaqController::class, 'edit'])->name('edit');
+            Route::put('/{faq}', [PricingFaqController::class, 'update'])->name('update');
+            Route::delete('/{faq}', [PricingFaqController::class, 'destroy'])->name('delete');
             });
         });
+    });
 });
 
 Route::fallback(function () {

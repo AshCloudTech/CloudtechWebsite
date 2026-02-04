@@ -35,3 +35,41 @@ function updateActiveNav() {
 
 window.addEventListener('scroll', updateActiveNav);
 window.addEventListener('load', updateActiveNav);
+
+
+
+(() => {
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion) return;
+
+  // Auto-attach reveals to your existing sections/cards
+  const targets = document.querySelectorAll(
+    [
+      '.stat-card',
+      '.service-card',
+      '.process-card',
+      '.industry-card',
+      '.ai-card',
+      '.pricing-card',
+      '.case-card',
+      '.global-card',
+      '.cta-step',
+      '.section-header'
+    ].join(',')
+  );
+
+  targets.forEach((el) => el.classList.add('fx-reveal'));
+
+  const io = new IntersectionObserver((entries, obs) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-visible');
+      obs.unobserve(entry.target); // one-time reveal = cheapest
+    });
+  }, {
+    threshold: 0.12,
+    rootMargin: '0px 0px -10% 0px'
+  });
+
+  targets.forEach((el) => io.observe(el));
+})();

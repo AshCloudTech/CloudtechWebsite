@@ -43,15 +43,19 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
    Reveal (used by your JS)
 ========================= */
 .fx-reveal{
-  opacity:0;
-  transform: translateY(14px);
-  transition: opacity .55s var(--ease), transform .55s var(--ease);
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+  transition:
+    opacity .55s cubic-bezier(.2,.9,.2,1),
+    transform .55s cubic-bezier(.2,.9,.2,1);
+  will-change: transform, opacity;
 }
 .fx-reveal.reveal-right{ transform: translateX(14px); }
 .fx-reveal.reveal-left{ transform: translateX(-14px); }
 .fx-reveal.is-visible{
   opacity:1;
-  transform: translate(0,0);
+  transform: translate3d(0,0,0);
+  will-change:auto;
 }
 @media (prefers-reduced-motion: reduce){
   .fx-reveal{ opacity:1; transform:none; transition:none; }
@@ -303,6 +307,8 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
 .field textarea:focus{
   border-color: rgba(16,56,128,.32);
   box-shadow: 0 0 0 4px rgba(16,56,128,.14);
+    transform: translateY(-1px);
+
 }
 
 .help{

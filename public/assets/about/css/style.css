@@ -883,11 +883,14 @@ button {
         background: rgba(8, 25, 56, 0.98);
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.2s ease;
-    }
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 180ms ease;    }
 
     .main-nav.open {
         max-height: 260px;
+        transform: scaleY(1);
+
     }
 
     .main-nav ul {
@@ -953,4 +956,49 @@ button {
     .stats-inner-about {
         grid-template-columns: 1fr;
     }
+}
+
+
+/* ===============================
+   PERFORMANCE SAFE MOTION SYSTEM
+   =============================== */
+
+.fx-reveal {
+  opacity: 0;
+  transform: translate3d(0, 16px, 0);
+  transition:
+    opacity 520ms cubic-bezier(.2,.8,.2,1),
+    transform 520ms cubic-bezier(.2,.8,.2,1);
+  will-change: transform, opacity;
+}
+
+.fx-reveal.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  will-change: auto;
+}
+
+/* Optional subtle stagger */
+.fx-delay-1 { transition-delay: 80ms; }
+.fx-delay-2 { transition-delay: 160ms; }
+.fx-delay-3 { transition-delay: 240ms; }
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .fx-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card {
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .card:hover {
+    transform: translate3d(0, -6px, 0);
+    box-shadow: 0 22px 60px rgba(15, 23, 42, 0.12);
+  }
 }

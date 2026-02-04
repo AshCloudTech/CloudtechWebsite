@@ -1,40 +1,5 @@
 @extends('layouts.cloudtech')
-<style>
-.price-card {
-  position: relative;
-  overflow: hidden;
-}
 
-/* Flag wrapper */
-.featured-flag {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 96px;
-  height: 96px;
-  z-index: 4;
-}
-
-.featured-flag svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-/* Soft depth shadow */
-.featured-flag::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  box-shadow: -10px 10px 22px rgba(74, 79, 47, 0.35);
-  pointer-events: none;
-}
-
-/* Featured card lift (already added by you) */
-.price-card.featured {
-  transform: translateY(-6px);
-}
-</style>
 
 @section('title', 'Pricing')
 @section('meta_title', 'Cloud Technologies Ltd Pricing')

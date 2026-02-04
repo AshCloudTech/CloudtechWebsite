@@ -37,7 +37,7 @@
                             Home
                         </a>
                     </li>
-s
+                    
                     <li class="has-dropdown">
                         <a href="#industries">
                             Industries

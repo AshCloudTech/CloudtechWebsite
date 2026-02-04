@@ -35,6 +35,7 @@ use App\Http\Controllers\Admin\PricingPlanController;
 use App\Http\Controllers\Admin\PricingPlanPriceController;
 use App\Http\Controllers\Admin\PricingPlanFeatureController;
 use App\Http\Controllers\Admin\PricingFaqController;
+use App\Http\Controllers\Web\ConsultationController;
 use App\Models\PortfolioItem;
 
 Route::get('/dashboard', function () {
@@ -72,6 +73,7 @@ Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('p
 
 Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 
+Route::post('/consultations', [ConsultationController::class, 'store'])->name('consultations.store');
 
 Route::prefix('industries')->group(function () {
     Route::get('/cloudhealth', [IndustryController::class, 'cloudhealth'])->name('industries.cloudhealth');

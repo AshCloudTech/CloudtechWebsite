@@ -33,6 +33,7 @@
     <!-- FOOTER -->
     @include('layouts.footer')
 
+    @include('partials.consultation')
     {{-- Flash nodes (must exist before JS runs) --}}
     @if (session('success'))
         <div id="global-flash-success" data-message="{{ session('success') }}"></div>

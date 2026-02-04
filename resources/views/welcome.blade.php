@@ -392,82 +392,57 @@
     </section>
 
     <!-- PRICING -->
-    <section class="section" id="pricing">
-        <div class="container">
-            <div class="section-header">
-                <h2>Choose Your Plan</h2>
-                <p>
-                    Pick the ideal plan to scale your business with the right tools and support. </p>
-            </div>
-
-            <div class="grid grid-3 pricing-grid">
-                <!-- Startup -->
-                <article class="card pricing-card">
-                    <h3>Startup</h3>
-                    <p class="pricing-price">£2,999<span>/one-time</span></p>
-                    <p class="pricing-subtitle">Perfect for new businesses getting started.</p>
-                    <ul class="pricing-list">
-                        <li>Professional Website Design</li>
-                        <li>Mobile Responsive</li>
-                        <li>Basic SEO Setup</li>
-                        <li>Contact Forms</li>
-                        <li>Social Media Integration</li>
-                        <li>3 Months Support</li>
-                        <li>SSL Certificate</li>
-                        <li>Basic Analytics Setup</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
-                </article>
-
-                <!-- Growth -->
-                <article class="card pricing-card pricing-popular">
-                    <div class="pricing-badge">Most Popular</div>
-                    <h3>Growth</h3>
-                    <p class="pricing-price">£5,999<span>/one-time</span></p>
-                    <p class="pricing-subtitle">
-                        Ideal for growing businesses that need more features.
-                    </p>
-                    <ul class="pricing-list">
-                        <li>Everything in Startup</li>
-                        <li>Advanced UI/UX Design</li>
-                        <li>E-commerce Integration</li>
-                        <li>Advanced SEO Optimization</li>
-                        <li>Content Management System</li>
-                        <li>Email Marketing Setup</li>
-                        <li>6 Months Support</li>
-                        <li>Performance Optimization</li>
-                        <li>Custom Integrations</li>
-                        <li>Analytics &amp; Reporting</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
-                </article>
-
-                <!-- Enterprise -->
-                <article class="card pricing-card">
-                    <h3>Enterprise</h3>
-                    <p class="pricing-price">£12,999<span>/one-time</span></p>
-                    <p class="pricing-subtitle">
-                        Comprehensive solution for established businesses.
-                    </p>
-                    <ul class="pricing-list">
-                        <li>Everything in Growth</li>
-                        <li>Custom Web Application</li>
-                        <li>Advanced Branding Package</li>
-                        <li>Digital Marketing Strategy</li>
-                        <li>Product Marketing Support</li>
-                        <li>Multi-language Support</li>
-                        <li>12 Months Support</li>
-                        <li>Dedicated Account Manager</li>
-                        <li>Priority Support</li>
-                        <li>Custom Integrations</li>
-                        <li>Advanced Security Features</li>
-                        <li>Scalable Architecture</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-block">Contact Sales</a>
-                </article>
-            </div>
+<section class="section" id="pricing">
+    <div class="container">
+        <div class="section-header">
+            <h2>Choose Your Plan</h2>
+            <p>Pick the ideal plan to scale your business with the right tools and support.</p>
         </div>
-    </section>
+
+        <div class="grid grid-3 pricing-grid">
+            @forelse($featuredPlans as $plan)
+                @php
+                    $price = $plan->priceByBilling('one-time');
+                @endphp
+
+                <article class="card pricing-card {{ $plan->is_featured ? 'pricing-popular' : '' }}">
+                    @if($plan->is_featured)
+                        <div class="pricing-badge">Most Popular</div>
+                    @endif
+
+                    <h3>{{ $plan->title }}</h3>
+
+                    <p class="pricing-price">
+                        {{ $price?->currency }}{{ $price?->amount_text }}
+                        <span>/one-time</span>
+                    </p>
+
+                    @if($plan->description)
+                        <p class="pricing-subtitle">{{ $plan->description }}</p>
+                    @endif
+
+                    <ul class="pricing-list">
+                        @foreach($plan->features->take(8) as $feature)
+                            <li>{{ $feature->text }}</li>
+                        @endforeach
+                    </ul>
+
+                    <a href="{{ url($plan->cta_url) }}" class="btn btn-primary btn-block">
+                        {{ $plan->cta_text }}
+                    </a>
+                </article>
+            @empty
+                <p>No featured plans available.</p>
+            @endforelse
+        </div>
+
+        <div style="margin-top:32px; display:flex; justify-content:center;">
+            <a href="{{ route('pricing') }}" class="btn btn-ghost">
+                View All Plans
+            </a>
+        </div>
+    </div>
+</section>
 
     <!-- CASE STUDIES -->
     <section class="section section-alt" id="case-studies">

@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Models\CaseStudy;
 use Illuminate\Http\Request;
 
+use App\Models\PricingPlan;
+
 class HomeController extends Controller
 {
     public function index()
@@ -21,7 +23,14 @@ class HomeController extends Controller
             ->limit(4)
             ->get();
 
-        return view('welcome', compact('caseStudies'));
+        $featuredPlans = PricingPlan::with(['prices', 'features'])
+            ->where('is_active', true)
+            ->where('is_featured', true)
+            ->orderBy('sort_order')
+            ->take(3)
+            ->get();
+
+        return view('welcome', compact('caseStudies', 'featuredPlans'));
     }
 
     public function careers()

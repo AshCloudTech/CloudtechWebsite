@@ -130,7 +130,7 @@ button {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+   background: linear-gradient(135deg, #6c84c9, #2563eb);
     color: #ffffff;
     box-shadow: 0 8px 18px rgba(37, 99, 235, 0.35);
 }

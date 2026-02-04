@@ -298,11 +298,7 @@ button {
 .smm-hero .hero-bg {
     position: absolute;
     inset: 0;
-<<<<<<< Updated upstream
    background-image: url("../../../../images/banners/desktop/smm.webp"); 
-=======
-   background-image: url("../../../../images/banners/desktop/ecommerce-seo.webp"); 
->>>>>>> Stashed changes
     background-size: cover;
     background-position: center;
     opacity: 1;
@@ -313,11 +309,7 @@ button {
 .smm-hero .hero-bg {
     position: absolute;
     inset: 0;
-<<<<<<< Updated upstream
     background-image: url("../../../../images/banners/mobile/smm.webp"); 
-=======
-    background-image: url("../../../../images/banners/mobile/ecommerce-seo.webp"); 
->>>>>>> Stashed changes
     background-size: cover;
     background-position: center;
     opacity: 1;

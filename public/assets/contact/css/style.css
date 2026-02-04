@@ -681,3 +681,183 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
     grid-template-columns: 1fr;
   }
 }
+
+
+/* =========================
+   Contact Page Typography Alignment
+   Goal: match rest of site (less bold, cleaner sizes)
+   Paste at END of this CSS file
+========================= */
+
+:root{
+  /* Typography scale */
+  --ct-font-body: 15px;
+  --ct-font-small: 13px;
+  --ct-font-label: 13px;
+
+  /* Font weights (normalize) */
+  --ct-w-regular: 400;
+  --ct-w-medium: 500;
+  --ct-w-semibold: 600;
+  --ct-w-bold: 700;
+}
+
+/* Base */
+body{
+  color: var(--text);
+  font-size: var(--ct-font-body);
+  font-weight: var(--ct-w-regular);
+  line-height: 1.65;
+}
+
+/* HERO */
+.contactHero__eyebrow{
+  font-weight: var(--ct-w-semibold);
+  font-size: 12px;            /* keep eyebrow compact */
+  letter-spacing: .08em;
+}
+
+.contactHero__title{
+  /* keep the visual size but reduce “heavy” feel */
+  font-weight: var(--ct-w-bold);
+  letter-spacing: -0.025em;
+}
+
+.contactHero__subtitle{
+  font-size: 15px;
+  font-weight: var(--ct-w-regular);
+  color: rgba(11,18,32,.68);
+}
+
+/* Pills / Chips: reduce boldness */
+.pill,
+.socialChip,
+.branchChip{
+  font-weight: var(--ct-w-semibold);
+  font-size: 13px;
+}
+
+/* Info cards text weights */
+.infoCell__k{
+  font-weight: var(--ct-w-semibold);
+  font-size: 12px;
+  color: rgba(11,18,32,.58);
+}
+.infoCell__v{
+  font-weight: var(--ct-w-semibold);
+}
+
+/* Section header */
+.sectionHeader h2{
+  font-size: 28px;
+  font-weight: var(--ct-w-bold);
+}
+.sectionHeader p{
+  font-size: 15px;
+  font-weight: var(--ct-w-regular);
+}
+
+/* FORM: this is the main mismatch fix */
+.field label{
+  font-weight: var(--ct-w-semibold);
+  font-size: var(--ct-font-label);
+  color: rgba(11,18,32,.88);
+  margin-bottom: 6px;
+}
+
+.field label span{
+  font-weight: var(--ct-w-semibold);
+}
+
+/* Inputs: reduce heavy font weight */
+.field input,
+.field select,
+.field textarea{
+  font-size: 14px;
+  font-weight: var(--ct-w-medium);
+  color: rgba(11,18,32,.92);
+}
+
+/* Help/meta text should not be bold */
+.help{
+  font-size: 12px;
+  font-weight: var(--ct-w-regular);
+  color: rgba(11,18,32,.62);
+}
+
+.formMeta{
+  font-weight: var(--ct-w-regular);
+  font-size: 13px;
+  color: rgba(11,18,32,.62);
+}
+
+/* Button: keep strong, but not “1000” heavy */
+.btnPrimary{
+  font-weight: var(--ct-w-semibold);
+  font-size: 14px;
+}
+
+/* Side cards */
+.sideCard h3{
+  font-weight: var(--ct-w-bold);
+  font-size: 18px;
+}
+
+.steps li{
+  font-weight: var(--ct-w-medium);
+}
+.steps .n{
+  font-weight: var(--ct-w-semibold);
+}
+
+/* Social list aside */
+.socialName{
+  font-weight: var(--ct-w-semibold);
+}
+.socialHandle{
+  font-weight: var(--ct-w-regular);
+  font-size: 12px;
+}
+
+/* Slight UI polish (matches rest pages) */
+.formCard,
+.sideCard,
+.contactHero__card{
+  background: rgba(255,255,255,.90); /* slightly cleaner than .82 */
+}
+
+
+/* =========================
+   Branch Focus Auto-Slide
+========================= */
+
+.branchFocus{
+  position: relative;
+  transition: opacity .32s var(--ease), transform .32s var(--ease);
+  will-change: transform, opacity;
+}
+
+.branchFocus.is-switching{
+  opacity: 0;
+  transform: translate3d(0, 10px, 0);
+}
+
+.branchFocus.is-active{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  will-change: auto;
+}
+
+@media (prefers-reduced-motion: reduce){
+  .branchFocus,
+  .branchFocus.is-switching,
+  .branchFocus.is-active{
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+
+.brand-color{
+  color: var(--ct-orange);
+}

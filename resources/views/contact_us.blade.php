@@ -2,504 +2,552 @@
 
 @section('title', 'Contact Us')
 @section('meta_title', 'Contact Cloud Technologies Ltd')
-@section('meta_description', 'Talk to Cloud Technologies Ltd. Share your project details and our team will get back to you quickly.')
+@section('meta_description', 'Talk to Cloud Technologies Ltd. Share your project details and our team will get back to
+    you quickly.')
 
-@push('styles')
-  <link rel="stylesheet" href="{{ asset('assets/contact/css/style.css') }}">
-  <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-  <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/contact/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
 
-@push('scripts')
-  <script src="{{ asset('assets/contact/js/script.js') }}" defer></script>
-@endpush
+    @push('scripts')
+        <script src="{{ asset('assets/contact/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 
-@php
-  $company = $globalCompany;
+    @php
+        $company = $globalCompany;
 
-  $companyName = $company?->legal_name ?: ($company?->brand_name ?: 'Cloud Technologies Ltd');
+        $companyName = $company?->legal_name ?: ($company?->brand_name ?: 'Cloud Technologies Ltd');
 
-  $pills = $company?->meta_json['contact_hero_pills'] ?? ['Fast response', 'UK & India team', 'SEO-first builds'];
+        $pills = $company?->meta_json['contact_hero_pills'] ?? ['Fast response', 'UK & India team', 'SEO-first builds'];
 
-  $hoursLabel = $company?->working_hours_json['label']
-      ?? $company?->meta_json['working_hours_label']
-      ?? 'Mon–Fri · 9:00–18:00';
+        $hoursLabel =
+            $company?->working_hours_json['label'] ??
+            ($company?->meta_json['working_hours_label'] ?? 'Mon–Fri · 9:00–18:00');
 
-  $supportLabel = $company?->meta_json['support_label'] ?? '24/7 for active clients';
+        $supportLabel = $company?->meta_json['support_label'] ?? '24/7 for active clients';
 
-  $whatsapp = $company?->whatsapp;
-  $waText = "Hi " . ($company?->brand_name ?? "Cloud Technologies") . ", I want to know more about your services.";
-  $waUrl = $whatsapp
-      ? 'https://wa.me/' . preg_replace('/\D+/', '', $whatsapp) . '?text=' . urlencode($waText)
-      : null;
+        $whatsapp = $company?->whatsapp;
+        $waText =
+            'Hi ' . ($company?->brand_name ?? 'Cloud Technologies') . ', I want to know more about your services.';
+        $waUrl = $whatsapp
+            ? 'https://wa.me/' . preg_replace('/\D+/', '', $whatsapp) . '?text=' . urlencode($waText)
+            : null;
 
-  $heroNote = $company?->meta_json['contact_hero_note']
-      ?? ($whatsapp ? 'Prefer WhatsApp? Message us instantly.' : 'Prefer WhatsApp? Add it in admin settings and it will show here.');
+        $heroNote =
+            $company?->meta_json['contact_hero_note'] ??
+            ($whatsapp
+                ? 'Prefer WhatsApp? Message us instantly.'
+                : 'Prefer WhatsApp? Add it in admin settings and it will show here.');
 
-  $socialLinks = $company?->socialLinks
-      ?->where('is_active', true)
-      ?->whereNull('branch_id')
-      ?->sortBy(fn($l) => $l->sort_order ?? 999999)
-      ?->values() ?? collect();
+        $socialLinks =
+            $company?->socialLinks
+                ?->where('is_active', true)
+                ?->whereNull('branch_id')
+                ?->sortBy(fn($l) => $l->sort_order ?? 999999)
+                ?->values() ?? collect();
 
-  $branches = $company?->branches
-      ?->where('is_active', true)
-      ?->sortBy(fn($b) => $b->sort_order ?? 999999)
-      ?->values() ?? collect();
+        $branches =
+            $company?->branches?->where('is_active', true)?->sortBy(fn($b) => $b->sort_order ?? 999999)?->values() ??
+            collect();
 
-  $hq = $branches->firstWhere('is_hq', true);
-  $defaultBranch = $hq ?: $branches->first();
+        $hq = $branches->firstWhere('is_hq', true);
+        $defaultBranch = $hq ?: $branches->first();
 
-  $defaultBranchAddress = $defaultBranch
-      ? trim(implode(', ', array_filter([
-          $defaultBranch->address_line1, $defaultBranch->address_line2, $defaultBranch->city,
-          $defaultBranch->state, $defaultBranch->postal_code
-      ])))
-      : '';
+        $defaultBranchAddress = $defaultBranch
+            ? trim(
+                implode(
+                    ', ',
+                    array_filter([
+                        $defaultBranch->address_line1,
+                        $defaultBranch->address_line2,
+                        $defaultBranch->city,
+                        $defaultBranch->state,
+                        $defaultBranch->postal_code,
+                    ]),
+                ),
+            )
+            : '';
 
-  $defaultBranchWhatsApp = $defaultBranch?->whatsapp;
-  $defaultBranchWaUrl = $defaultBranchWhatsApp ? ('https://wa.me/' . preg_replace('/\D+/', '', $defaultBranchWhatsApp)) : null;
+        $defaultBranchWhatsApp = $defaultBranch?->whatsapp;
+        $defaultBranchWaUrl = $defaultBranchWhatsApp
+            ? 'https://wa.me/' . preg_replace('/\D+/', '', $defaultBranchWhatsApp)
+            : null;
 
-  // Icon letter badge for social links (fast + no dependency)
-  $socialInitial = fn($p) => strtoupper(substr(trim((string)$p), 0, 1)) ?: 'S';
-@endphp
+        $socialInitial = fn($p) => strtoupper(substr(trim((string) $p), 0, 1)) ?: 'S';
+    @endphp
 
-{{-- HERO --}}
-<section class="contactHero" id="contact-hero">
-  <div class="container contactHero__grid">
+    <main class="ct-contact">
 
-    {{-- LEFT --}}
-    <div class="contactHero__text fx-reveal reveal-up">
-      <p class="contactHero__eyebrow">{{ $pageEyebrow ?? "Let’s talk" }}</p>
+        {{-- HERO --}}
+        <section class="contactHero" id="contact-hero">
+            <div class="container contactHero__grid">
 
-      <h1 class="contactHero__title">Contact {{ $companyName }}</h1>
+                {{-- LEFT --}}
+                <div class="contactHero__text fx-reveal reveal-up">
+                    <p class="contactHero__eyebrow">{{ $pageEyebrow ?? 'Let’s talk' }}</p>
 
-      <p class="contactHero__subtitle">
-        {{ $pageSubtitle ?? "Share a few details about your project and we’ll respond with next steps, timelines, and a clear plan." }}
-      </p>
+                    <h1 class="contactHero__title">
+                        Contact <span class="brand-color">{{ $companyName }}</span>
+                    </h1>
 
-      <div class="pillRow">
-        @foreach($pills as $pill)
-          <span class="pill">{{ $pill }}</span>
-        @endforeach
-      </div>
+                    <p class="contactHero__subtitle">
+                        {{ $pageSubtitle ?? 'Share a few details about your project and we’ll respond with next steps, timelines, and a clear plan.' }}
+                    </p>
 
-      @if($socialLinks->count())
-        <div class="socialChips">
-          @foreach($socialLinks as $link)
-            @if(!empty($link->url))
-              <a class="socialChip" href="{{ $link->url }}" target="_blank" rel="noopener noreferrer">
-                <span class="socialChip__dot"></span>
-                <span class="socialChip__label">{{ $link->platform }}</span>
-              </a>
-            @endif
-          @endforeach
-        </div>
-      @endif
-    </div>
+                    <div class="pillRow" aria-label="Highlights">
+                        @foreach ($pills as $pill)
+                            <span class="pill">{{ $pill }}</span>
+                        @endforeach
+                    </div>
 
-    {{-- RIGHT CARD --}}
-    <div class="contactHero__card fx-reveal reveal-right">
-      <div class="infoGrid">
-
-        <div class="infoCell">
-          <div class="infoCell__k">Email</div>
-          <div class="infoCell__v">
-            @if(!empty($company?->primary_email))
-              <a href="mailto:{{ $company->primary_email }}">{{ $company->primary_email }}</a>
-            @else
-              <span class="muted">Add primary email in Company Settings</span>
-            @endif
-          </div>
-        </div>
-
-        <div class="infoCell">
-          <div class="infoCell__k">Phone</div>
-          <div class="infoCell__v">
-            @if(!empty($company?->primary_phone))
-              <a href="tel:{{ preg_replace('/\s+/', '', $company->primary_phone) }}">{{ $company->primary_phone }}</a>
-            @else
-              <span class="muted">Add primary phone in Company Settings</span>
-            @endif
-          </div>
-        </div>
-
-        <div class="infoCell">
-          <div class="infoCell__k">Working Hours</div>
-          <div class="infoCell__v">{{ $hoursLabel }}</div>
-        </div>
-
-        <div class="infoCell">
-          <div class="infoCell__k">Support</div>
-          <div class="infoCell__v">{{ $supportLabel }}</div>
-        </div>
-
-      </div>
-
-      <div class="heroNote">
-        @if($waUrl)
-          <a href="{{ $waUrl }}" target="_blank" rel="noopener noreferrer">{{ $heroNote }}</a>
-        @else
-          {{ $heroNote }}
-        @endif
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-{{-- BODY --}}
-<section class="contactSection" id="contact-form">
-  <div class="container">
-    <header class="sectionHeader fx-reveal reveal-up">
-      <h2>Send us your requirements</h2>
-      <p>Fields marked optional can be skipped. The form auto-adjusts.</p>
-    </header>
-
-    <div class="contactGrid">
-
-      {{-- FORM --}}
-      <form class="formCard fx-reveal reveal-up" method="POST"
-            action="{{ Route::has('contact.send') ? route('contact.send') : (Route::has('contact.submit') ? route('contact.submit') : url('/contact')) }}"
-            novalidate>
-        @csrf
-
-        <input type="hidden" name="form_key" value="main_contact">
-        <input type="hidden" name="source_page" value="{{ request()->path() }}">
-
-        <div class="row2">
-          <div class="field">
-            <label for="name">Full Name <span>*</span></label>
-            <input id="name" name="name" type="text" placeholder="Your name" required>
-            <div class="help">Required. Used only to address you.</div>
-          </div>
-
-          <div class="field">
-            <label for="email">Email Address <span>*</span></label>
-            <input id="email" name="email" type="email" placeholder="name@company.com" required>
-            <div class="help">Required. We reply here.</div>
-          </div>
-        </div>
-
-        <div class="row2">
-          <div class="field">
-            <label for="phone">Phone (optional)</label>
-            <input id="phone" name="phone" type="tel" placeholder="+44 / +91">
-            <div class="help">Optional. Helps faster follow-up.</div>
-          </div>
-
-          <div class="field">
-            <label for="service">Service (optional)</label>
-            <select id="service" name="service">
-              <option value="">Select</option>
-              <option>Website Development</option>
-              <option>SEO</option>
-              <option>UI/UX</option>
-              <option>Branding</option>
-              <option>Digital Marketing</option>
-              <option>Custom PHP</option>
-            </select>
-            <div class="help">Optional. Helps route your query.</div>
-          </div>
-        </div>
-
-        <div class="row1">
-          <div class="field">
-            <label for="website">Website URL (optional)</label>
-            <input id="website" name="website" type="url" placeholder="https://">
-            <div class="help">Optional. Share current site if you have one.</div>
-          </div>
-        </div>
-
-        <div class="row1">
-          <div class="field">
-            <label for="message">Project Brief <span>*</span></label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell us what you want to build..." required></textarea>
-            <div class="help">Required. Include goal, timeline, and any reference links.</div>
-          </div>
-        </div>
-
-        <div class="formActions">
-          <button class="btnPrimary" type="submit">
-            <span>Send Message</span>
-            <span class="btnArrow">→</span>
-          </button>
-
-          <div class="formMeta" aria-live="polite" id="formMeta">
-            We typically respond within 1 business day.
-          </div>
-        </div>
-      </form>
-
-      {{-- ASIDE --}}
-      <aside class="sideCol fx-reveal reveal-left">
-
-        <div class="sideCard">
-          <h3>What happens next?</h3>
-          <ul class="steps">
-            <li><span class="n">1</span><span>We review your brief</span></li>
-            <li><span class="n">2</span><span>We share plan + estimate</span></li>
-            <li><span class="n">3</span><span>We start with milestones</span></li>
-          </ul>
-        </div>
-
-        {{-- BRANCHES (Compact UI even with many branches) --}}
-        <div class="sideCard">
-          <h3>Our Locations</h3>
-
-          @if($branches->count())
-            <div class="branchUI" data-branch-ui>
-              <div class="branchChips" data-branch-chips>
-                @foreach($branches as $b)
-                  @php
-                    $addr = trim(implode(', ', array_filter([
-                      $b->address_line1, $b->address_line2, $b->city, $b->state, $b->postal_code
-                    ])));
-                  @endphp
-
-                  <button
-                    type="button"
-                    class="branchChip {{ ($defaultBranch && $defaultBranch->id === $b->id) ? 'is-active' : '' }}"
-                    data-branch
-                    data-name="{{ e($b->name) }}"
-                    data-ishq="{{ $b->is_hq ? '1' : '0' }}"
-                    data-code="{{ e($b->code ?? '') }}"
-                    data-email="{{ e($b->email ?? '') }}"
-                    data-phone="{{ e($b->phone ?? '') }}"
-                    data-whatsapp="{{ e($b->whatsapp ?? '') }}"
-                    data-address="{{ e($addr) }}"
-                    data-map="{{ e($b->google_maps_url ?? '') }}"
-                  >
-                    <span class="branchChip__label">{{ $b->name }}</span>
-                    @if($b->is_hq)<span class="chipBadge">HQ</span>@endif
-                  </button>
-                @endforeach
-              </div>
-
-              <div class="branchFocus {{ $defaultBranch?->is_hq ? 'isHQ' : '' }}" data-branch-focus>
-                <div class="branchTop">
-                  <div class="branchName" data-bf-name>{{ $defaultBranch?->name }}</div>
-                  <div class="badgeWrap" data-bf-badges>
-                    @if($defaultBranch?->is_hq)
-                      <div class="badgeHQ">HQ</div>
-                    @elseif(!empty($defaultBranch?->code))
-                      <div class="badgeCode">{{ $defaultBranch->code }}</div>
+                    @if ($socialLinks->count())
+                        <div class="socialChips" aria-label="Social links">
+                            @foreach ($socialLinks as $link)
+                                @if (!empty($link->url))
+                                    <a class="socialChip" href="{{ $link->url }}" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <span class="socialChip__dot" aria-hidden="true"></span>
+                                        <span class="socialChip__label">{{ $link->platform }}</span>
+                                    </a>
+                                @endif
+                            @endforeach
+                        </div>
                     @endif
-                  </div>
                 </div>
 
-                <div class="branchMeta" data-bf-meta>
-                  @if(!empty($defaultBranch?->email))
-                    <a href="mailto:{{ $defaultBranch->email }}">{{ $defaultBranch->email }}</a>
-                  @endif
-                  @if(!empty($defaultBranch?->phone))
-                    <a href="tel:{{ preg_replace('/\s+/', '', $defaultBranch->phone) }}">{{ $defaultBranch->phone }}</a>
-                  @endif
-                  @if(empty($defaultBranch?->email) && empty($defaultBranch?->phone))
-                    <span class="muted">Contact details not added yet.</span>
-                  @endif
-                </div>
+                {{-- RIGHT CARD --}}
+                <div class="contactHero__card fx-reveal reveal-right">
+                    <div class="infoGrid">
 
-                <div class="branchAddr" data-bf-addr>
-                  {{ $defaultBranchAddress ?: 'Address not added yet.' }}
-                </div>
-
-                <div class="branchActions" data-bf-actions>
-                  @if(!empty($defaultBranch?->google_maps_url))
-                    <a class="branchMap" href="{{ $defaultBranch->google_maps_url }}" target="_blank" rel="noopener noreferrer">
-                      View on Google Maps →
-                    </a>
-                  @endif
-
-                  @if($defaultBranchWaUrl)
-                    <a class="branchWa" href="{{ $defaultBranchWaUrl }}" target="_blank" rel="noopener noreferrer">
-                      WhatsApp →
-                    </a>
-                  @endif
-                </div>
-
-                @if($branches->count() > 8)
-                  <button type="button" class="branchToggle" data-branch-toggle>
-                    View all branches
-                  </button>
-
-                  <div class="branchList" data-branch-list>
-                    @foreach($branches as $b)
-                      <div class="branchListRow">
-                        <div class="branchListName">
-                          {{ $b->name }} @if($b->is_hq)<span class="chipBadge">HQ</span>@endif
+                        <div class="infoCell">
+                            <div class="infoCell__k">Email</div>
+                            <div class="infoCell__v">
+                                @if (!empty($company?->primary_email))
+                                    <a href="mailto:{{ $company->primary_email }}">{{ $company->primary_email }}</a>
+                                @else
+                                    <span class="muted">Add primary email in Company Settings</span>
+                                @endif
+                            </div>
                         </div>
-                        <div class="branchListMeta">
-                          @if($b->city)<span>{{ $b->city }}</span>@endif
-                          @if($b->state)<span>{{ $b->state }}</span>@endif
+
+                        <div class="infoCell">
+                            <div class="infoCell__k">Phone</div>
+                            <div class="infoCell__v">
+                                @if (!empty($company?->primary_phone))
+                                    <a
+                                        href="tel:{{ preg_replace('/\s+/', '', $company->primary_phone) }}">{{ $company->primary_phone }}</a>
+                                @else
+                                    <span class="muted">Add primary phone in Company Settings</span>
+                                @endif
+                            </div>
                         </div>
-                      </div>
-                    @endforeach
-                  </div>
-                @endif
-              </div>
+
+                        <div class="infoCell">
+                            <div class="infoCell__k">Working Hours</div>
+                            <div class="infoCell__v">{{ $hoursLabel }}</div>
+                        </div>
+
+                        <div class="infoCell">
+                            <div class="infoCell__k">Support</div>
+                            <div class="infoCell__v">{{ $supportLabel }}</div>
+                        </div>
+
+                    </div>
+
+                    <div class="heroNote">
+                        @if ($waUrl)
+                            <a href="{{ $waUrl }}" target="_blank"
+                                rel="noopener noreferrer">{{ $heroNote }}</a>
+                        @else
+                            {{ $heroNote }}
+                        @endif
+                    </div>
+                </div>
+
             </div>
+        </section>
 
-          @else
-            <p class="muted">Add branches in Admin → Company Settings.</p>
-          @endif
-        </div>
+        {{-- BODY --}}
+        <section class="contactSection" id="contact-form">
+            <div class="container">
+                <header class="sectionHeader fx-reveal reveal-up">
+                    <h2>Send us your requirements</h2>
+                    <p>Fill the essentials. Optional fields help us route your request faster.</p>
+                </header>
 
-        {{-- SOCIAL LINKS --}}
-        <div class="sideCard">
-          <h3>Stay Connected</h3>
+                <div class="contactGrid">
 
-          @if($socialLinks->count())
-            <div class="socialList">
-              @foreach($socialLinks as $link)
-                @if(!empty($link->url))
-                  <a class="socialRow" href="{{ $link->url }}" target="_blank" rel="noopener noreferrer">
-                    <span class="socialIcon">{{ $socialInitial($link->platform) }}</span>
-                    <span class="socialText">
-                      <span class="socialName">{{ $link->platform }}</span>
-                      @if(!empty($link->handle))
-                        <span class="socialHandle">{{ $link->handle }}</span>
-                      @endif
-                    </span>
-                    <span class="socialArrow">→</span>
-                  </a>
-                @endif
-              @endforeach
+                    {{-- FORM --}}
+                    <form class="formCard fx-reveal reveal-up" method="POST"
+                        action="{{ Route::has('contact.send') ? route('contact.send') : (Route::has('contact.submit') ? route('contact.submit') : url('/contact')) }}"
+                        novalidate>
+                        @csrf
+
+                        <input type="hidden" name="form_key" value="main_contact">
+                        <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
+                        <div class="row2">
+                            <div class="field">
+                                <label for="name">Full Name <span class="req">*</span></label>
+                                <input id="name" name="name" type="text" placeholder="Your name" required
+                                    autocomplete="name">
+                                <div class="help">Required. Used only to address you.</div>
+                            </div>
+
+                            <div class="field">
+                                <label for="email">Email Address <span class="req">*</span></label>
+                                <input id="email" name="email" type="email" placeholder="name@company.com" required
+                                    autocomplete="email">
+                                <div class="help">Required. We reply here.</div>
+                            </div>
+                        </div>
+
+                        <div class="row2">
+                            <div class="field">
+                                <label for="phone">Phone <span class="opt">(optional)</span></label>
+                                <input id="phone" name="phone" type="tel" placeholder="+44 / +91"
+                                    autocomplete="tel">
+                                <div class="help">Optional. Helps faster follow-up.</div>
+                            </div>
+
+                            <div class="field">
+                                <label for="service">Service <span class="opt">(optional)</span></label>
+                                <select id="service" name="service">
+                                    <option value="">Select</option>
+                                    <option>Website Development</option>
+                                    <option>SEO</option>
+                                    <option>UI/UX</option>
+                                    <option>Branding</option>
+                                    <option>Digital Marketing</option>
+                                    <option>Custom PHP</option>
+                                </select>
+                                <div class="help">Optional. Helps route your query.</div>
+                            </div>
+                        </div>
+
+                        <div class="row1">
+                            <div class="field">
+                                <label for="website">Website URL <span class="opt">(optional)</span></label>
+                                <input id="website" name="website" type="url" placeholder="https://"
+                                    autocomplete="url">
+                                <div class="help">Optional. Share current site if you have one.</div>
+                            </div>
+                        </div>
+
+                        <div class="row1">
+                            <div class="field">
+                                <label for="message">Project Brief <span class="req">*</span></label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell us what you want to build..." required></textarea>
+                                <div class="help">Required. Include goal, timeline, and any reference links.</div>
+                            </div>
+                        </div>
+
+                        <div class="formActions">
+                            <button class="btnPrimary" type="submit">
+                                <span>Send Message</span>
+                                <span class="btnArrow" aria-hidden="true">→</span>
+                            </button>
+
+                            <div class="formMeta" aria-live="polite" id="formMeta">
+                                We typically respond within 1 business day.
+                            </div>
+                        </div>
+                    </form>
+
+                    {{-- ASIDE --}}
+                    <aside class="sideCol fx-reveal reveal-left">
+
+                        <div class="sideCard">
+                            <h3>What happens next?</h3>
+                            <ul class="steps">
+                                <li><span class="n">1</span><span>We review your brief</span></li>
+                                <li><span class="n">2</span><span>We share plan + estimate</span></li>
+                                <li><span class="n">3</span><span>We start with milestones</span></li>
+                            </ul>
+                        </div>
+
+                        {{-- BRANCHES --}}
+                        <div class="sideCard">
+                            <h3>Our Locations</h3>
+
+                            @if ($branches->count())
+                                <div class="branchUI" data-branch-ui>
+                                    <div class="branchChips" data-branch-chips>
+                                        @foreach ($branches as $b)
+                                            @php
+                                                $addr = trim(
+                                                    implode(
+                                                        ', ',
+                                                        array_filter([
+                                                            $b->address_line1,
+                                                            $b->address_line2,
+                                                            $b->city,
+                                                            $b->state,
+                                                            $b->postal_code,
+                                                        ]),
+                                                    ),
+                                                );
+                                            @endphp
+
+                                            <button type="button"
+                                                class="branchChip {{ $defaultBranch && $defaultBranch->id === $b->id ? 'is-active' : '' }}"
+                                                data-branch data-name="{{ e($b->name) }}"
+                                                data-ishq="{{ $b->is_hq ? '1' : '0' }}"
+                                                data-code="{{ e($b->code ?? '') }}"
+                                                data-email="{{ e($b->email ?? '') }}"
+                                                data-phone="{{ e($b->phone ?? '') }}"
+                                                data-whatsapp="{{ e($b->whatsapp ?? '') }}"
+                                                data-address="{{ e($addr) }}"
+                                                data-map="{{ e($b->google_maps_url ?? '') }}">
+                                                <span class="branchChip__label">{{ $b->name }}</span>
+                                                @if ($b->is_hq)
+                                                    <span class="chipBadge">HQ</span>
+                                                @endif
+                                            </button>
+                                        @endforeach
+                                    </div>
+
+                                    <div class="branchFocus {{ $defaultBranch?->is_hq ? 'isHQ' : '' }}" data-branch-focus>
+                                        <div class="branchTop">
+                                            <div class="branchName" data-bf-name>{{ $defaultBranch?->name }}</div>
+                                            <div class="badgeWrap" data-bf-badges>
+                                                @if ($defaultBranch?->is_hq)
+                                                    <div class="badgeHQ">HQ</div>
+                                                @elseif(!empty($defaultBranch?->code))
+                                                    <div class="badgeCode">{{ $defaultBranch->code }}</div>
+                                                @endif
+                                            </div>
+                                        </div>
+
+                                        <div class="branchMeta" data-bf-meta>
+                                            @if (!empty($defaultBranch?->email))
+                                                <a
+                                                    href="mailto:{{ $defaultBranch->email }}">{{ $defaultBranch->email }}</a>
+                                            @endif
+                                            @if (!empty($defaultBranch?->phone))
+                                                <a
+                                                    href="tel:{{ preg_replace('/\s+/', '', $defaultBranch->phone) }}">{{ $defaultBranch->phone }}</a>
+                                            @endif
+                                            @if (empty($defaultBranch?->email) && empty($defaultBranch?->phone))
+                                                <span class="muted">Contact details not added yet.</span>
+                                            @endif
+                                        </div>
+
+                                        <div class="branchAddr" data-bf-addr>
+                                            {{ $defaultBranchAddress ?: 'Address not added yet.' }}
+                                        </div>
+
+                                        <div class="branchActions" data-bf-actions>
+                                            @if (!empty($defaultBranch?->google_maps_url))
+                                                <a class="branchMap" href="{{ $defaultBranch->google_maps_url }}"
+                                                    target="_blank" rel="noopener noreferrer">
+                                                    View on Google Maps →
+                                                </a>
+                                            @endif
+
+                                            @if ($defaultBranchWaUrl)
+                                                <a class="branchWa" href="{{ $defaultBranchWaUrl }}" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    WhatsApp →
+                                                </a>
+                                            @endif
+                                        </div>
+
+                                        @if ($branches->count() > 8)
+                                            <button type="button" class="branchToggle" data-branch-toggle>
+                                                View all branches
+                                            </button>
+
+                                            <div class="branchList" data-branch-list>
+                                                @foreach ($branches as $b)
+                                                    <div class="branchListRow">
+                                                        <div class="branchListName">
+                                                            {{ $b->name }} @if ($b->is_hq)
+                                                                <span class="chipBadge">HQ</span>
+                                                            @endif
+                                                        </div>
+                                                        <div class="branchListMeta">
+                                                            @if ($b->city)
+                                                                <span>{{ $b->city }}</span>
+                                                            @endif
+                                                            @if ($b->state)
+                                                                <span>{{ $b->state }}</span>
+                                                            @endif
+                                                        </div>
+                                                    </div>
+                                                @endforeach
+                                            </div>
+                                        @endif
+                                    </div>
+                                </div>
+                            @else
+                                <p class="muted">Add branches in Admin → Company Settings.</p>
+                            @endif
+                        </div>
+
+                        {{-- SOCIAL LINKS --}}
+                        <div class="sideCard">
+                            <h3>Stay Connected</h3>
+
+                            @if ($socialLinks->count())
+                                <div class="socialList">
+                                    @foreach ($socialLinks as $link)
+                                        @if (!empty($link->url))
+                                            <a class="socialRow" href="{{ $link->url }}" target="_blank"
+                                                rel="noopener noreferrer">
+                                                <span class="socialIcon">{{ $socialInitial($link->platform) }}</span>
+                                                <span class="socialText">
+                                                    <span class="socialName">{{ $link->platform }}</span>
+                                                    @if (!empty($link->handle))
+                                                        <span class="socialHandle">{{ $link->handle }}</span>
+                                                    @endif
+                                                </span>
+                                                <span class="socialArrow" aria-hidden="true">→</span>
+                                            </a>
+                                        @endif
+                                    @endforeach
+                                </div>
+                            @else
+                                <p class="muted">Add social links in Admin → Company Settings.</p>
+                            @endif
+                        </div>
+
+                    </aside>
+
+                </div>
             </div>
-          @else
-            <p class="muted">Add social links in Admin → Company Settings.</p>
-          @endif
-        </div>
+        </section>
 
-      </aside>
+        {{-- Branch switch JS (tiny + self-contained; no library) --}}
+        <script>
+            (function() {
+                const root = document.querySelector('[data-branch-ui]');
+                if (!root) return;
 
-    </div>
-  </div>
-</section>
+                const chipsWrap = root.querySelector('[data-branch-chips]');
+                const focus = root.querySelector('[data-branch-focus]');
+                const bfName = root.querySelector('[data-bf-name]');
+                const bfBadges = root.querySelector('[data-bf-badges]');
+                const bfMeta = root.querySelector('[data-bf-meta]');
+                const bfAddr = root.querySelector('[data-bf-addr]');
+                const bfActions = root.querySelector('[data-bf-actions]');
 
-{{-- Branch switch JS (kept inside blade to make this page self-contained) --}}
-<script>
-  (function () {
-    const root = document.querySelector('[data-branch-ui]');
-    if (!root) return;
+                const toggleBtn = root.querySelector('[data-branch-toggle]');
+                const listEl = root.querySelector('[data-branch-list]');
 
-    const chipsWrap = root.querySelector('[data-branch-chips]');
-    const focus = root.querySelector('[data-branch-focus]');
-    const bfName = root.querySelector('[data-bf-name]');
-    const bfBadges = root.querySelector('[data-bf-badges]');
-    const bfMeta = root.querySelector('[data-bf-meta]');
-    const bfAddr = root.querySelector('[data-bf-addr]');
-    const bfActions = root.querySelector('[data-bf-actions]');
+                if (!chipsWrap || !focus) return;
 
-    const toggleBtn = root.querySelector('[data-branch-toggle]');
-    const listEl = root.querySelector('[data-branch-list]');
+                function setBadges(isHq, code) {
+                    bfBadges.innerHTML = '';
+                    focus.classList.toggle('isHQ', isHq === '1');
 
-    if (!chipsWrap || !focus) return;
+                    if (isHq === '1') {
+                        const b = document.createElement('div');
+                        b.className = 'badgeHQ';
+                        b.textContent = 'HQ';
+                        bfBadges.appendChild(b);
+                        return;
+                    }
 
-    function setBadges(isHq, code) {
-      bfBadges.innerHTML = '';
-      focus.classList.toggle('isHQ', isHq === '1');
+                    if (code) {
+                        const b = document.createElement('div');
+                        b.className = 'badgeCode';
+                        b.textContent = code;
+                        bfBadges.appendChild(b);
+                    }
+                }
 
-      if (isHq === '1') {
-        const b = document.createElement('div');
-        b.className = 'badgeHQ';
-        b.textContent = 'HQ';
-        bfBadges.appendChild(b);
-        return;
-      }
+                function setMeta(email, phone) {
+                    bfMeta.innerHTML = '';
 
-      if (code) {
-        const b = document.createElement('div');
-        b.className = 'badgeCode';
-        b.textContent = code;
-        bfBadges.appendChild(b);
-      }
-    }
+                    if (email) {
+                        const a = document.createElement('a');
+                        a.href = 'mailto:' + email;
+                        a.textContent = email;
+                        bfMeta.appendChild(a);
+                    }
 
-    function setMeta(email, phone) {
-      bfMeta.innerHTML = '';
+                    if (phone) {
+                        const t = phone.replace(/\s+/g, '');
+                        const a = document.createElement('a');
+                        a.href = 'tel:' + t;
+                        a.textContent = phone;
+                        bfMeta.appendChild(a);
+                    }
 
-      if (email) {
-        const a = document.createElement('a');
-        a.href = 'mailto:' + email;
-        a.textContent = email;
-        bfMeta.appendChild(a);
-      }
+                    if (!email && !phone) {
+                        const s = document.createElement('span');
+                        s.className = 'muted';
+                        s.textContent = 'Contact details not added yet.';
+                        bfMeta.appendChild(s);
+                    }
+                }
 
-      if (phone) {
-        const t = phone.replace(/\s+/g, '');
-        const a = document.createElement('a');
-        a.href = 'tel:' + t;
-        a.textContent = phone;
-        bfMeta.appendChild(a);
-      }
+                function setActions(mapUrl, whatsapp) {
+                    bfActions.innerHTML = '';
 
-      if (!email && !phone) {
-        const s = document.createElement('span');
-        s.className = 'muted';
-        s.textContent = 'Contact details not added yet.';
-        bfMeta.appendChild(s);
-      }
-    }
+                    if (mapUrl) {
+                        const a = document.createElement('a');
+                        a.className = 'branchMap';
+                        a.href = mapUrl;
+                        a.target = '_blank';
+                        a.rel = 'noopener noreferrer';
+                        a.textContent = 'View on Google Maps →';
+                        bfActions.appendChild(a);
+                    }
 
-    function setActions(mapUrl, whatsapp) {
-      bfActions.innerHTML = '';
+                    if (whatsapp) {
+                        const wa = 'https://wa.me/' + whatsapp.replace(/\D+/g, '');
+                        const a = document.createElement('a');
+                        a.className = 'branchWa';
+                        a.href = wa;
+                        a.target = '_blank';
+                        a.rel = 'noopener noreferrer';
+                        a.textContent = 'WhatsApp →';
+                        bfActions.appendChild(a);
+                    }
+                }
 
-      if (mapUrl) {
-        const a = document.createElement('a');
-        a.className = 'branchMap';
-        a.href = mapUrl;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        a.textContent = 'View on Google Maps →';
-        bfActions.appendChild(a);
-      }
+                chipsWrap.addEventListener('click', (e) => {
+                    const btn = e.target.closest('[data-branch]');
+                    if (!btn) return;
 
-      if (whatsapp) {
-        const wa = 'https://wa.me/' + whatsapp.replace(/\D+/g, '');
-        const a = document.createElement('a');
-        a.className = 'branchWa';
-        a.href = wa;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        a.textContent = 'WhatsApp →';
-        bfActions.appendChild(a);
-      }
-    }
+                    chipsWrap.querySelectorAll('[data-branch]').forEach(x => x.classList.remove('is-active'));
+                    btn.classList.add('is-active');
 
-    chipsWrap.addEventListener('click', (e) => {
-      const btn = e.target.closest('[data-branch]');
-      if (!btn) return;
+                    const name = btn.dataset.name || 'Branch';
+                    const code = btn.dataset.code || '';
+                    const email = btn.dataset.email || '';
+                    const phone = btn.dataset.phone || '';
+                    const whatsapp = btn.dataset.whatsapp || '';
+                    const address = btn.dataset.address || '';
+                    const mapUrl = btn.dataset.map || '';
+                    const isHq = btn.dataset.ishq || '0';
 
-      chipsWrap.querySelectorAll('[data-branch]').forEach(x => x.classList.remove('is-active'));
-      btn.classList.add('is-active');
+                    bfName.textContent = name;
+                    bfAddr.textContent = address || 'Address not added yet.';
+                    setBadges(isHq, code);
+                    setMeta(email, phone);
+                    setActions(mapUrl, whatsapp);
+                }, {
+                    passive: true
+                });
 
-      const name = btn.dataset.name || 'Branch';
-      const code = btn.dataset.code || '';
-      const email = btn.dataset.email || '';
-      const phone = btn.dataset.phone || '';
-      const whatsapp = btn.dataset.whatsapp || '';
-      const address = btn.dataset.address || '';
-      const mapUrl = btn.dataset.map || '';
-      const isHq = btn.dataset.ishq || '0';
+                if (toggleBtn && listEl) {
+                    toggleBtn.addEventListener('click', () => {
+                        listEl.classList.toggle('is-open');
+                        toggleBtn.textContent = listEl.classList.contains('is-open') ? 'Hide branches' :
+                            'View all branches';
+                    }, {
+                        passive: true
+                    });
+                }
+            })();
+        </script>
 
-      bfName.textContent = name;
-      bfAddr.textContent = address || 'Address not added yet.';
-      setBadges(isHq, code);
-      setMeta(email, phone);
-      setActions(mapUrl, whatsapp);
-    });
-
-    if (toggleBtn && listEl) {
-      toggleBtn.addEventListener('click', () => {
-        listEl.classList.toggle('is-open');
-        toggleBtn.textContent = listEl.classList.contains('is-open') ? 'Hide branches' : 'View all branches';
-      });
-    }
-  })();
-</script>
-
+    </main>
 @endsection

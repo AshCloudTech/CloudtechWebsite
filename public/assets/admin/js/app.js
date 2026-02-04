@@ -190,7 +190,6 @@
             toggleGroup(id, true);
         }
     });
-<<<<<<< Updated upstream
     setState([...openGroups]);
 
     // click handlers
@@ -242,33 +241,3 @@ function addSocialRow() {
   socialIndex++;
 }
 
-=======
-  });
-})();
-
-
-  let socialIndex = {{ $currentLinks->count() ?: 4 }};
-
-  function addSocialRow() {
-    const tbody = document.getElementById('socialLinksTbody');
-
-    const tr = document.createElement('tr');
-    tr.className = 'socialRow';
-    tr.innerHTML = `
-      <td class="cellDel mutedCell">—</td>
-      <td><input class="input" name="links[${socialIndex}][platform]" placeholder="LinkedIn"></td>
-      <td><input class="input" name="links[${socialIndex}][url]" placeholder="https://..."></td>
-      <td><input class="input" name="links[${socialIndex}][handle]" placeholder="@cloudtech"></td>
-      <td class="cellSort"><input class="input inputSm" type="number" name="links[${socialIndex}][sort_order]" value="${socialIndex}"></td>
-      <td class="cellActive">
-        <label class="switch">
-          <input type="hidden" name="links[${socialIndex}][is_active]" value="0">
-          <input type="checkbox" name="links[${socialIndex}][is_active]" value="1" checked>
-          <span></span>
-        </label>
-      </td>
-    `;
-    tbody.appendChild(tr);
-    socialIndex++;
-  }
->>>>>>> Stashed changes

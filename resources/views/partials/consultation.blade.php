@@ -1,3 +1,8 @@
+@if(session('success'))
+  <div class="alert alert-success">
+    {{ session('success') }}
+  </div>
+@endif
 <!-- Consultation Modal -->
 <div class="ct-modal" id="consultationModal" aria-hidden="true">
   <div class="ct-modal__overlay" data-close="true"></div>
@@ -112,7 +117,7 @@
         <input id="hear_about_us" name="hear_about_us" type="text">
       </div>
 
-      <div class="ct-field">
+      <div class="">
         <label>Preferred Consultation Method <span class="req">*</span></label>
         <div class="ct-checks ct-checks--row">
           @php($methods = ['phone_call'=>'Phone Call','zoom'=>'Zoom','google_meet'=>'Google Meet','whatsapp'=>'Whatsapp'])
@@ -127,7 +132,14 @@
 
       <div class="ct-field">
         <label for="preferred_datetime">Date / Time <span class="req">*</span></label>
-        <input id="preferred_datetime" name="preferred_datetime" type="datetime-local" required>
+       
+        <input
+  id="preferred_datetime"
+  name="preferred_datetime"
+  type="datetime-local"
+  required
+>
+
       </div>
 
       <div class="ct-field">
@@ -268,11 +280,13 @@
 
 <script>
   (function () {
-    const openBtn = document.getElementById('openConsultationModal');
+    const openBtns = document.querySelectorAll('.openConsultationModal');
     const modal = document.getElementById('consultationModal');
-    if (!openBtn || !modal) return;
+    if (!openBtns.length || !modal) return;
 
-    const focusableSelector = 'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
+    const focusableSelector =
+      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
+
     let lastActiveEl = null;
 
     function openModal() {
@@ -294,13 +308,15 @@
       if (lastActiveEl) lastActiveEl.focus();
     }
 
-    openBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      openModal();
+    openBtns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        openModal();
+      });
     });
 
     modal.addEventListener('click', (e) => {
-      if (e.target && (e.target.dataset.close === 'true')) closeModal();
+      if (e.target && e.target.dataset.close === 'true') closeModal();
     });
 
     document.addEventListener('keydown', (e) => {
@@ -312,10 +328,10 @@
         return;
       }
 
-      // basic focus trap
       if (e.key === 'Tab') {
-        const focusables = Array.from(modal.querySelectorAll(focusableSelector))
-          .filter(el => el.offsetParent !== null);
+        const focusables = Array.from(
+          modal.querySelectorAll(focusableSelector)
+        ).filter(el => el.offsetParent !== null);
 
         if (!focusables.length) return;
 
@@ -332,7 +348,32 @@
       }
     });
 
-    // Optional: expose close on form submit success via AJAX, etc.
     modal._close = closeModal;
   })();
 </script>
+
+<!-- to close the form after submission -->
+@if(session('success'))
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const modal = document.getElementById('consultationModal');
+    if (modal && modal._close) {
+      modal._close();
+    }
+  });
+</script>
+<!-- disable the pervious date  -->
+ <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const input = document.getElementById('preferred_datetime');
+    if (!input) return;
+
+    const now = new Date();
+    now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+
+    input.min = now.toISOString().slice(0, 16);
+  });
+</script>
+
+@endif
+

@@ -26,7 +26,7 @@
                 <div class="hero-actions">
                     <a href="#services" class="btn btn-lg btn-primary">Explore Services</a>
                     {{-- <a href="#ai-innovation" class="btn btn-lg btn-ghost">Chat with AI Assistant</a> --}}
-                <a href="#consultation" id="openConsultationModal" class="btn btn-lg btn-ghost">Schedule a Consultation</a>
+                <a href="#consultation" class="btn btn-lg btn-ghost openConsultationModal">Schedule a Consultation</a>
                 </div>
 
                 <p class="hero-note">
@@ -384,7 +384,7 @@
                     capabilities.
                 </p>
                 <div class="ai-cta-actions">
-                    <a href="#contact" class="btn btn-primary">Schedule AI Demo</a>
+                    <a href="#consultation" class="btn btn-primary openConsultationModal">Schedule AI Demo</a>
                     <a href="#case-studies" class="btn btn-ghost">View AI Case Studies</a>
                 </div>
             </div>
@@ -625,7 +625,7 @@
                     </p>
                     <div class="cta-actions">
                         <a href="#contact-form" class="btn btn-primary">Book Free Consultation</a>
-                        <a href="#hero" class="btn btn-ghost">Chat with AI Assistant</a>
+                        <!-- <a href="#hero" class="btn btn-ghost">Chat with AI Assistant</a> -->
                     </div>
                 </div>
                 <div class="cta-steps">

@@ -1220,3 +1220,37 @@ html[data-theme="dark"] .footer-site-logo--dark{ display:block; }
     border-color: rgba(15, 23, 42, 0.10);
   }
 }
+
+
+
+/* ==============================
+   CENTER PRICING + CASE STUDIES
+   auto-center with flex + wrap
+   ============================== */
+
+/* override grid layout for these sections only */
+.pricing-grid,
+.case-grid{
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;   /* main requirement */
+  align-items: stretch;
+  gap: 24px;                 /* keep same spacing as your grid */
+}
+
+/* card sizing: auto-fit, stays centered */
+.pricing-grid > .pricing-card,
+.case-grid > .case-card{
+  flex: 0 1 360px;           /* min width behavior, wraps nicely */
+  max-width: 360px;
+  width: 100%;
+}
+
+/* optional: slightly wider cards on large screens */
+@media (min-width: 1200px){
+  .pricing-grid > .pricing-card,
+  .case-grid > .case-card{
+    flex-basis: 380px;
+    max-width: 380px;
+  }
+}

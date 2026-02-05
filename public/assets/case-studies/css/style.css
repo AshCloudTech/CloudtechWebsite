@@ -75,3 +75,31 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
 .btn { padding:10px 20px; border-radius:20px; text-decoration:none; }
 .btn-primary { background:white; color:#2563eb; font-weight:600; }
 .btn-light { background:#ffffff22; color:white; border:1px solid #fff; }
+
+
+/* ==============================
+   CASE STUDIES GRID – CENTER ALIGN
+   Auto-center 1–2 cards
+   ============================== */
+
+.cs-grid{
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;   /* 🔑 center cards */
+  align-items: stretch;
+  gap: 24px;
+}
+
+/* card sizing */
+.cs-grid > .card,
+.cs-grid > .cs-card{
+  flex: 0 1 340px;
+  max-width: 380px;
+  width: 100%;
+}
+
+@media (min-width: 1200px){
+  .cs-grid > .cs-card{
+    flex-basis: 380px;
+  }
+}

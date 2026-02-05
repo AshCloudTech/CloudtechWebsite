@@ -132,3 +132,21 @@ html[data-theme="dark"] .footer-site-logo--dark{ display:block; }
   outline-offset: 4px;
   border-radius: 12px;
 }
+
+
+/* Footer heart animation */
+.heart{
+  display:inline-block;
+  margin: 0 4px;
+  animation: heartPop 1.4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes heartPop{
+  0%, 100%{
+    transform: scale(1);
+  }
+  40%{
+    transform: scale(1.25);
+  }
+}

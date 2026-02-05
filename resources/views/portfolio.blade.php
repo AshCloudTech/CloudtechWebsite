@@ -143,7 +143,7 @@
             </div>
 
             <div class="center">
-                <a href="#" class="btn-primary">
+                <a href="{{ url('/#contact') }}" class="btn-primary">
                     Start Your Project →
                 </a>
             </div>
@@ -158,7 +158,7 @@
         <p>Join our satisfied clients and get a professional website that drives results. Contact us today for a free
             consultation and quote.</p>
         <div class="cta-actions">
-            <a href="#" class="btn btn-light">Get Free Quote</a>
+            <a href="{{ url('/#contact') }}" class="btn btn-light">Get Free Quote</a>
             <a href="#" class="btn btn-primary">View Case Studies</a>
         </div>
     </div>

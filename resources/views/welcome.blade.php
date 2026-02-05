@@ -624,7 +624,7 @@
                         British-built digital solutions. Let’s discuss how we can accelerate your digital transformation.
                     </p>
                     <div class="cta-actions">
-                        <a href="#contact-form" class="btn btn-primary">Book Free Consultation</a>
+                        <a href="#contact-form" class="btn btn-primary openConsultationModal">Book Free Consultation</a>
                         <!-- <a href="#hero" class="btn btn-ghost">Chat with AI Assistant</a> -->
                     </div>
                 </div>

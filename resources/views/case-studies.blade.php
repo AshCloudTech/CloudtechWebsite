@@ -72,8 +72,8 @@
         <h2>Ready to Create Your Success Story?</h2>
         <p>Let's discuss how we can help transform your business with our proven digital solutions</p>
         <div class="cta-actions">
-            <a href="#" class="btn btn-primary">Start Your Project</a>
-            <a href="#" class="btn btn-light">Schedule Consultation</a>
+            <a href="{{ url('services/web-development/#contact-form') }}" class="btn btn-primary">Start Your Project</a>
+            <a href="{{ url('/#contact') }}" class="btn btn-light">Schedule Consultation</a>
         </div>
     </div>
 </section>

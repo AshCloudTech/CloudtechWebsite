@@ -259,3 +259,25 @@ body { margin:0; font-family:system-ui; background:#f7f8fc; color:#111; }
     transition:none;
   }
 }
+
+
+/* ==============================
+   PORTFOLIO GRID – CENTER ALIGN
+   Auto-center 1–2 cards
+   ============================== */
+
+.portfolio-grid{
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;   /* 🔑 center items */
+  align-items: stretch;
+  gap: 24px;
+}
+
+/* each card keeps same visual width */
+.portfolio-grid > .card,
+.portfolio-grid > .project-card{
+  flex: 0 1 340px;           /* responsive card width */
+  max-width: 420px;
+  width: 100%;
+}

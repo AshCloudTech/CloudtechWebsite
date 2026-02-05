@@ -9,6 +9,12 @@
       <p>View and manage consultation submissions.</p>
     </div>
 
+
+
+     
+
+     <div class="field">
+
     <form method="GET" action="{{ route('admin.consultations.index') }}" style="display:flex;gap:10px;align-items:center;">
       <select name="status" class="form-control" style="min-width:200px;">
         <option value="">All Status</option>
@@ -19,6 +25,8 @@
       <button class="btn btn-primary" type="submit">Filter</button>
       <a class="btn btn-ghost" href="{{ route('admin.consultations.index') }}">Reset</a>
     </form>
+
+  </div>
   </div>
 
   <div class="cardBody">

@@ -64,12 +64,13 @@
         <div class="card" style="margin:0;">
           <div class="cardBody">
             <h4 style="margin-top:0;">Update Status</h4>
+     <div class="field">
 
             <form method="POST" action="{{ route('admin.consultations.status', $consultation) }}">
               @csrf
               @method('PUT')
 
-              <select name="status" class="form-control" required>
+              <select name="status" class="form-control" style="margin-top:10px;width:100%;" required>
                 @foreach(['new','in_review','scheduled','completed','closed','spam'] as $st)
                   <option value="{{ $st }}" @selected($consultation->status===$st)>{{ ucfirst(str_replace('_',' ', $st)) }}</option>
                 @endforeach
@@ -77,18 +78,21 @@
 
               <button class="btn btn-primary" type="submit" style="margin-top:10px;width:100%;">Save</button>
             </form>
+            </div>
           </div>
         </div>
 
         <div class="card" style="margin-top:14px;">
           <div class="cardBody">
             <h4 style="margin-top:0;">Add Remark</h4>
+     <div class="field">
 
             <form method="POST" action="{{ route('admin.consultations.remarks.store', $consultation) }}">
               @csrf
-              <textarea name="remark" class="form-control" rows="4" placeholder="Add internal remark..." required></textarea>
+              <textarea name="remark" class="form-control" style="margin-top:10px;width:100%;" rows="4" placeholder="Add internal remark..." required></textarea>
               <button class="btn btn-ghost" type="submit" style="margin-top:10px;width:100%;">Add Remark</button>
             </form>
+            </div>
           </div>
         </div>
       </div>

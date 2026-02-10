@@ -160,7 +160,11 @@ html[data-theme="dark"] .footer-site-logo--dark{ display:block; }
   gap:10px;
   flex-wrap:wrap;
 }
+<<<<<<< Updated upstream
  
+=======
+
+>>>>>>> Stashed changes
 .social-icon{
   width:40px;
   height:40px;
@@ -172,13 +176,21 @@ html[data-theme="dark"] .footer-site-logo--dark{ display:block; }
   background: rgba(255,255,255,.08);
   transition: transform .15s ease, background .15s ease, border-color .15s ease;
 }
+<<<<<<< Updated upstream
  
+=======
+
+>>>>>>> Stashed changes
 .social-icon svg{
   width:18px;
   height:18px;
   fill: currentColor;
 }
+<<<<<<< Updated upstream
  
+=======
+
+>>>>>>> Stashed changes
 .social-icon:hover{
   transform: translateY(-2px);
   background: rgba(255,255,255,.14);

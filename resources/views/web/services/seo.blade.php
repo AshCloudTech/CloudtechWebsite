@@ -88,6 +88,188 @@
         </div>
     </section>
 
+        <!-- SERVICES GRID -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comprehensive SEO Services </h2>
+                <p>
+                    From local SEO to technical optimisations, we offer a full suite of services to boost your online
+                    presence and drive real results for your business.
+                </p>
+            </div>
+
+            <div class="grid grid-3 services-grid">
+                <!-- Row 1 -->
+                <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/National.webp') }}" alt="National SEO" loading="lazy"
+                            decoding="async">
+                    </div>
+
+                    <div class="service-header">
+                        <div class="service-strip strip-blue"></div>
+                        <h3><a href="{{ route('services.digi-marketing.national-seo') }}">National SEO</a></h3>
+                    </div>
+                    <p>
+                        National SEO helps businesses rank across the country with targeted strategies designed to increase
+                        visibility, drive qualified traffic, and grow brand authority. Reach customers nationwide with
+                        optimized content, links, and performance-focused tactics.
+                    </p>
+                    <a href="{{ route('services.digi-marketing.national-seo') }}" class="service-link">Learn More</a>
+                </article>
+
+                <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/International.webp') }}" alt="International SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
+                    <div class="service-header">
+                        <div class="service-strip strip-purple"></div>
+                        <h3><a href="{{ route('services.digi-marketing.international-seo') }}">International SEO</a></h3>
+                    </div>
+                    <p>
+                        International SEO helps your business reach global audiences by optimizing your website for multiple
+                        countries and languages. Strengthen worldwide visibility, attract international customers, and grow
+                        your brand across borders with targeted global strategies.
+                    </p>
+                    <a href="{{ route('services.digi-marketing.international-seo') }}" class="service-link">Learn More</a>
+                </article>
+
+                <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}" alt="Technical SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
+                    <div class="service-header">
+                        <div class="service-strip strip-cyan"></div>
+                        <h3><a href="{{ route('services.digi-marketing.technical-seo') }}">Technical SEO</a></h3>
+                    </div>
+                    <p>
+                        Technical SEO improves your website’s speed, structure, and crawlability to ensure search engines
+                        can properly access, index, and rank your pages. This leads to better performance, higher
+                        visibility, and stronger overall SEO results.
+                    </p>
+                    <a href="{{ route('services.digi-marketing.technical-seo') }}" class="service-link">Learn More</a>
+                </article>
+
+                <!-- Row 2 -->
+                <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Content.webp') }}" alt="Content SEO" loading="lazy"
+                            decoding="async">
+                    </div>
+
+                    <div class="service-header">
+                        <div class="service-strip strip-emerald"></div>
+                        <h3><a href="{{ route('services.digi-marketing.content-seo') }}">Content SEO</a></h3>
+                    </div>
+                    <p>
+                        Content SEO focuses on creating high-quality, keyword-optimized content that attracts search engines
+                        and engages users. It helps increase rankings, drive targeted traffic, and convert visitors through
+                        strategic content planning and optimization.
+                    </p>
+                    <a href="{{ route('services.digi-marketing.content-seo') }}" class="service-link">Learn More</a>
+                </article>
+
+
+                <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO" loading="lazy"
+                            decoding="async">
+                    </div>
+
+                    <div class="service-header">
+                        <div class="service-strip strip-rose"></div>
+                        <h3><a href="{{ route('services.digi-marketing.image-seo') }}">Image SEO</a></h3>
+                    </div>
+                    <p>
+                        Faster load times and better search visibility through optimised
+                        image metadata, compression, and delivery.
+                    </p>
+                    <a href="{{ route('services.digi-marketing.image-seo') }}" class="service-link">Learn More</a>
+                </article>
+
+                <!-- Row 3 -->
+                <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Local.webp') }}" alt="Local SEO" loading="lazy"
+                            decoding="async">
+                    </div>
+
+                    <div class="service-header">
+                        <div class="service-strip strip-lime"></div>
+                        <h3><a href="{{ route('services.digi-marketing.local-seo') }}">Local SEO</a></h3>
+                    </div>
+                    <p>
+                        Local SEO helps your business appear in nearby searches by optimizing maps listings, local keywords,
+                        citations, and reviews. It drives more foot traffic, calls, and leads from customers in your area,
+                        boosting your visibility in local search results.
+                    </p>
+                    <a href="{{ route('services.digi-marketing.local-seo') }}" class="service-link">Learn More</a>
+                </article>
+
+                <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}" alt="eCommerce SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
+                    <div class="service-header">
+                        <div class="service-strip strip-indigo"></div>
+                        <h3><a href="{{ route('services.digi-marketing.ecommerce-seo') }}">eCommerce SEO</a></h3>
+                    </div>
+                    <p>
+                        eCommerce SEO enhances product pages, category structures, and technical performance to improve
+                        visibility and increase online sales. It attracts high-intent shoppers through keyword optimization,
+                        improved UX, and optimized product listings.
+                    </p>
+                    <a href="{{ route('services.digi-marketing.ecommerce-seo') }}" class="service-link">Learn More</a>
+                </article>
+
+                <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}" alt="On-Page SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
+                    <div class="service-header">
+                        <div class="service-strip strip-sky"></div>
+                        <h3><a href="{{ route('services.digi-marketing.on-page-seo') }}">On-Page SEO</a></h3>
+                    </div>
+                    <p>
+                        On-Page SEO strengthens your website by optimizing titles, meta tags, content, URLs, and internal
+                        links. These improvements increase search engine visibility, boost user experience, and help your
+                        pages rank higher for targeted keywords.
+                    </p>
+                    <a href="{{ route('services.digi-marketing.on-page-seo') }}" class="service-link">Learn More</a>
+                </article>
+
+                <!-- Row 4 -->
+                <article class="card service-card">
+                    <div class="service-thumb">
+                        <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}" alt="Off-Page SEO"
+                            loading="lazy" decoding="async">
+                    </div>
+
+                    <div class="service-header">
+                        <div class="service-strip strip-slate"></div>
+                        <h3><a href="{{ route('services.digi-marketing.off-page-seo') }}">Off-Page SEO</a></h3>
+                    </div>
+                    <p>
+                        Off-Page SEO builds your website’s authority through strategic link building, digital PR, citations,
+                        and brand mentions. These efforts improve domain trust, increase rankings, and expand your online
+                        presence across relevant industry platforms.
+                    </p>
+                    <a href="{{ route('services.digi-marketing.off-page-seo') }}" class="service-link">Learn More</a>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
     <!-- PACKAGES & PRICING -->
     <section class="section section-pricing" id="pricing">
         <div class="container">

@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(7, 10, 26, 0.92);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   padding: 0 20px;
@@ -49,7 +49,7 @@
 }
 
 .main-nav a {
-  color: #d9dff7;
+  color: #000000;
   position: relative;
   padding-bottom: 2px;
 }
@@ -70,6 +70,7 @@
 .main-nav a.active::after {
   width: 18px;
 }
+.main-nav a.active { color:#ff8502; }
 
 .header-cta {
   margin-left: 20px;

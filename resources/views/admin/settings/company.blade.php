@@ -318,9 +318,34 @@
                                 </td>
 
                                 <td>
-                                    <input type="hidden" name="links[{{ $i }}][id]" value="{{ $link->id }}">
-                                    <input class="input" name="links[{{ $i }}][platform]" value="{{ $link->platform }}" placeholder="LinkedIn" required>
-                                </td>
+    <input type="hidden" name="links[{{ $i }}][id]" value="{{ $link->id }}">
+
+    <select class="input"
+            name="links[{{ $i }}][platform]"
+            required>
+        <option value="" style="color:black; font-weight:500;">Select platform</option>
+
+        @php
+            $platforms = [
+                'facebook'  => 'Facebook',
+                'instagram' => 'Instagram',
+                'linkedin'  => 'LinkedIn',
+                'twitter'   => 'Twitter / X',
+                'youtube'   => 'YouTube',
+                'whatsapp'  => 'WhatsApp',
+                'website'   => 'Website / Other',
+            ];
+        @endphp
+
+        @foreach ($platforms as $value => $label)
+            <option value="{{ $value }}" style="color:black; font-weight:500;"
+                {{ strtolower($link->platform) === $value ? 'selected' : '' }}>
+                {{ $label }} 
+            </option>
+        @endforeach
+    </select>
+</td>
+
 
                                 <td>
                                     <input class="input" name="links[{{ $i }}][url]" value="{{ $link->url }}" placeholder="https://..." >

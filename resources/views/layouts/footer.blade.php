@@ -58,7 +58,7 @@
                         <li><a href="{{ route('pricing') }}">Pricing</a></li>
                         <li><a href="{{ route('case.studies') }}">Case Studies</a></li>
                         <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                        <li><a href="{{ route('contact.us') }}">Contact</a></li>
+                        <li><a href="{{ route('contact.us') }}">Contact Us</a></li>
                     </ul>
                 </div>
 

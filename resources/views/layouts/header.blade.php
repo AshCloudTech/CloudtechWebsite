@@ -37,7 +37,7 @@
                             Home
                         </a>
                     </li>
-                    
+
                     <li class="has-dropdown">
                         <a href="#industries">
                             Industries
@@ -67,8 +67,8 @@
                     </li>
 
                     <li>
-                        <a href="{{ route('pricing') }}" 
-                        class="{{ request()->routeIs('pricing*') ? 'active' : '' }}">Pricing</a>
+                        <a href="{{ route('pricing') }}"
+                            class="{{ request()->routeIs('pricing*') ? 'active' : '' }}">Pricing</a>
                     </li>
 
                     <li>
@@ -85,8 +85,30 @@
             </nav>
 
 
-            <a href="{{ url('/#contact') }}" class="btn btn-sm btn-accent header-cta">Get Started</a>
+            <a href="https://wa.me/{{ $globalCompany?->whatsapp }}" class="btn btn-sm btn-accent header-cta"
+                target="_blank" rel="noopener" aria-label="WhatsApp Us">
+                <i data-lucide="message-circle" aria-hidden="true"></i>
+                <span>WhatsApp Us</span>
+            </a>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    if (window.lucide) lucide.createIcons();
+                });
+            </script>
+            <script src="https://unpkg.com/lucide@latest" defer></script>
+            <style>
+                .header-cta {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                }
 
+                .header-cta i {
+                    width: 18px;
+                    height: 18px;
+                    display: inline-flex;
+                }
+            </style>
             <button class="nav-toggle" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>

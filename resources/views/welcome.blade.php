@@ -377,7 +377,7 @@
                 </article>
             </div>
 
-            <div class="ai-cta">
+            {{-- <div class="ai-cta">
                 <h3>Ready to Transform Your Business with AI?</h3>
                 <p>
                     Empower your business with intelligent automation, predictive insights, and next-generation AI
@@ -387,7 +387,7 @@
                     <a href="#consultation" class="btn btn-primary openConsultationModal">Schedule AI Demo</a>
                     <a href="#case-studies" class="btn btn-ghost">View AI Case Studies</a>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 

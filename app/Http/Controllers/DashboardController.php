@@ -16,6 +16,6 @@ class DashboardController extends Controller
             return redirect()->route('admin.dashboard');
         }
 
-        return view('dashboard');
+        return view('admin.users.dashboard');
     }
 }

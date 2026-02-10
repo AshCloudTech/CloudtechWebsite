@@ -211,33 +211,71 @@
 
 // app.js
 // footer dynamic social media links
+
   let socialIndex = document.querySelectorAll('.socialRow').length;
 
-function addSocialRow() {
-  const tbody = document.getElementById('socialLinksTbody');
-  if (!tbody) return;
+  function addSocialRow() {
+    const tbody = document.getElementById('socialLinksTbody');
+    if (!tbody) return;
 
-  const tr = document.createElement('tr');
-  tr.className = 'socialRow';
+    const tr = document.createElement('tr');
+    tr.className = 'socialRow';
 
-  tr.innerHTML = `
-    <td class="cellDel mutedCell">—</td>
-    <td><input type="text" class="input" name="links[${socialIndex}][platform]" placeholder="LinkedIn"></td>
-    <td><input type="text" class="input" name="links[${socialIndex}][url]" placeholder="https://..."></td>
-    <td><input type="text" class="input" name="links[${socialIndex}][handle]" placeholder="@cloudtech"></td>
-    <td class="cellSort">
-      <input type="number" class="input inputSm" name="links[${socialIndex}][sort_order]" value="${socialIndex + 1}">
-    </td>
-    <td class="cellActive">
-      <label class="switch">
-        <input type="checkbox" name="links[${socialIndex}][is_active]" value="1" checked>
-        <input type="hidden" name="links[${socialIndex}][is_active]" value="0">
-        <span></span>
-      </label>
-    </td>
-  `;
+    tr.innerHTML = `
+      <td class="cellDel mutedCell">—</td>
 
-  tbody.appendChild(tr);
-  socialIndex++;
-}
+      <!-- PLATFORM DROPDOWN -->
+      <td>
+        <select class="input" name="links[${socialIndex}][platform]" required>
+          <option value="" style="color:black; font-weight:500;">Select platform</option>
+          <option value="facebook" style="color:black; font-weight:500;">Facebook</option>
+          <option value="instagram" style="color:black; font-weight:500;">Instagram</option>
+          <option value="linkedin" style="color:black; font-weight:500;">LinkedIn</option>
+          <option value="twitter" style="color:black; font-weight:500;">Twitter / X</option>
+          <option value="youtube" style="color:black; font-weight:500;">YouTube</option>
+          <option value="whatsapp" style="color:black; font-weight:500;">WhatsApp</option>
+          <option value="website" style="color:black; font-weight:500;">Website / Other</option>
+        </select>
+      </td>
+
+      <td>
+        <input type="text"
+               class="input"
+               name="links[${socialIndex}][url]"
+               placeholder="https://...">
+      </td>
+
+      <td>
+        <input type="text"
+               class="input"
+               name="links[${socialIndex}][handle]"
+               placeholder="@cloudtech">
+      </td>
+
+      <td class="cellSort">
+        <input type="number"
+               class="input inputSm"
+               name="links[${socialIndex}][sort_order]"
+               value="${socialIndex + 1}">
+      </td>
+
+      <td class="cellActive">
+        <label class="switch">
+          <input type="checkbox"
+                 name="links[${socialIndex}][is_active]"
+                 value="1"
+                 checked>
+          <input type="hidden"
+                 name="links[${socialIndex}][is_active]"
+                 value="0">
+          <span></span>
+        </label>
+      </td>
+    `;
+
+    tbody.appendChild(tr);
+    socialIndex++;
+  }
+
+
 

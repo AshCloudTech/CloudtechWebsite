@@ -37,6 +37,7 @@ use App\Http\Controllers\Admin\PricingPlanPriceController;
 use App\Http\Controllers\Admin\PricingPlanFeatureController;
 use App\Http\Controllers\Admin\PricingFaqController;
 use App\Http\Controllers\Web\ConsultationController;
+use App\Http\Controllers\Admin\BusinessResultController;
 use App\Models\PortfolioItem;
 
 Route::get('/dashboard', function () {
@@ -186,23 +187,24 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
             Route::prefix('pricing')->name('pricing.')->group(function () {
 
-            Route::resource('plans', PricingPlanController::class);
-            Route::post('prices', [PricingPlanPriceController::class, 'store'])->name('prices.store');
-            Route::post('features', [PricingPlanFeatureController::class, 'store'])->name('features.store');
-            Route::delete('features/{feature}', [PricingPlanFeatureController::class, 'destroy'])->name('features.delete');
+                Route::resource('plans', PricingPlanController::class);
+                Route::post('prices', [PricingPlanPriceController::class, 'store'])->name('prices.store');
+                Route::post('features', [PricingPlanFeatureController::class, 'store'])->name('features.store');
+                Route::delete('features/{feature}', [PricingPlanFeatureController::class, 'destroy'])->name('features.delete');
 
-          
-            // FAQ Management
-            Route::prefix('faq')->name('faq.')->group(function () {
-            Route::get('/', [PricingFaqController::class, 'index'])->name('index');
-            Route::get('/create', [PricingFaqController::class, 'create'])->name('create');
-            Route::post('/', [PricingFaqController::class, 'store'])->name('store');
-            Route::get('/{faq}/edit', [PricingFaqController::class, 'edit'])->name('edit');
-            Route::put('/{faq}', [PricingFaqController::class, 'update'])->name('update');
-            Route::delete('/{faq}', [PricingFaqController::class, 'destroy'])->name('delete');
+
+                // FAQ Management
+                Route::prefix('faq')->name('faq.')->group(function () {
+                    Route::get('/', [PricingFaqController::class, 'index'])->name('index');
+                    Route::get('/create', [PricingFaqController::class, 'create'])->name('create');
+                    Route::post('/', [PricingFaqController::class, 'store'])->name('store');
+                    Route::get('/{faq}/edit', [PricingFaqController::class, 'edit'])->name('edit');
+                    Route::put('/{faq}', [PricingFaqController::class, 'update'])->name('update');
+                    Route::delete('/{faq}', [PricingFaqController::class, 'destroy'])->name('delete');
+                });
             });
+            Route::resource('business-results', BusinessResultController::class);
         });
-    });
 });
 
 Route::fallback(function () {

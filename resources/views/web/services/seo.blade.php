@@ -154,113 +154,37 @@
             <div class="section-header">
                 <h2>Real Results for Real Businesses</h2>
                 <p>
-                    See how we&apos;ve helped London small businesses dominate local search and grow their revenue.
+                    See how we've helped London small businesses dominate local search and grow their revenue.
                 </p>
             </div>
 
             <div class="grid grid-2 results-grid">
-                <article class="card result-card">
-                    <div class="result-header">
-                        <p class="business-name">Local Plumber</p>
-                        <p class="business-location">Ilford, East London</p>
-                        <p class="campaign-duration">3 months campaign</p>
-                    </div>
-                    <div class="result-metrics">
-                        <div>
-                            <p class="metric-label">Google Rankings</p>
-                            <p class="metric-value">Top 3</p>
+                @foreach($businessResults as $result)
+                    <article class="card result-card">
+                        <div class="result-header">
+                            <p class="business-name">{{ $result->business_name }}</p>
+                            <p class="business-location">{{ $result->business_location }}</p>
+                            <p class="campaign-duration">{{ $result->campaign_duration }}</p>
                         </div>
-                        <div>
-                            <p class="metric-label">Monthly Calls</p>
-                            <p class="metric-value">+250%</p>
-                        </div>
-                        <div>
-                            <p class="metric-label">Website Traffic</p>
-                            <p class="metric-value">+180%</p>
-                        </div>
-                    </div>
-                    <p class="result-quote">
-                        &ldquo;Within 3 months, I was getting 3–4 calls daily from Google. Best investment I&apos;ve made for my business!&rdquo;
-                    </p>
-                </article>
 
-                <article class="card result-card">
-                    <div class="result-header">
-                        <p class="business-name">Beauty Salon</p>
-                        <p class="business-location">Stratford, East London</p>
-                        <p class="campaign-duration">6 months campaign</p>
-                    </div>
-                    <div class="result-metrics">
-                        <div>
-                            <p class="metric-label">Google Rankings</p>
-                            <p class="metric-value">Page 1</p>
+                        <div class="result-metrics">
+                            @foreach($result->metrics as $metric)
+                                <div>
+                                    <p class="metric-label">{{ $metric['label'] }}</p>
+                                    <p class="metric-value">{{ $metric['value'] }}</p>
+                                </div>
+                            @endforeach
                         </div>
-                        <div>
-                            <p class="metric-label">Online Bookings</p>
-                            <p class="metric-value">+320%</p>
-                        </div>
-                        <div>
-                            <p class="metric-label">Revenue Growth</p>
-                            <p class="metric-value">+150%</p>
-                        </div>
-                    </div>
-                    <p class="result-quote">
-                        &ldquo;Our bookings tripled! We now have a waiting list. Cloud Technologies transformed our business.&rdquo;
-                    </p>
-                </article>
 
-                <article class="card result-card">
-                    <div class="result-header">
-                        <p class="business-name">Home Baker</p>
-                        <p class="business-location">Barking, East London</p>
-                        <p class="campaign-duration">4 months campaign</p>
-                    </div>
-                    <div class="result-metrics">
-                        <div>
-                            <p class="metric-label">Local Visibility</p>
-                            <p class="metric-value">Top 5</p>
-                        </div>
-                        <div>
-                            <p class="metric-label">Instagram Traffic</p>
-                            <p class="metric-value">+400%</p>
-                        </div>
-                        <div>
-                            <p class="metric-label">Monthly Orders</p>
-                            <p class="metric-value">+280%</p>
-                        </div>
-                    </div>
-                    <p class="result-quote">
-                        &ldquo;I went from 5 orders a month to over 20! My home business is now thriving thanks to their SEO work.&rdquo;
-                    </p>
-                </article>
-
-                <article class="card result-card">
-                    <div class="result-header">
-                        <p class="business-name">Handyman Service</p>
-                        <p class="business-location">Woodford, East London</p>
-                        <p class="campaign-duration">5 months campaign</p>
-                    </div>
-                    <div class="result-metrics">
-                        <div>
-                            <p class="metric-label">Google Map Pack</p>
-                            <p class="metric-value">Top 3</p>
-                        </div>
-                        <div>
-                            <p class="metric-label">Lead Generation</p>
-                            <p class="metric-value">+350%</p>
-                        </div>
-                        <div>
-                            <p class="metric-label">New Reviews</p>
-                            <p class="metric-value">+45</p>
-                        </div>
-                    </div>
-                    <p class="result-quote">
-                        &ldquo;I&apos;m now fully booked 2 weeks in advance. The phone doesn&apos;t stop ringing. Highly recommend!&rdquo;
-                    </p>
-                </article>
+                        <p class="result-quote">
+                            “{{ $result->quote }}”
+                        </p>
+                    </article>
+                @endforeach
             </div>
         </div>
     </section>
+
 
     <!-- STATS STRIP -->
     <section class="section section-stats">

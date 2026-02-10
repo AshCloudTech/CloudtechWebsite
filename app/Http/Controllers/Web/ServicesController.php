@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
+use App\Models\BusinessResult;
 use Illuminate\Http\Request;
 
 class ServicesController extends Controller
@@ -16,7 +17,6 @@ class ServicesController extends Controller
     {
         // return view('web.services.ui-ux');
         return view('web.services.coming-soon');
-
     }
 
     public function webDevelopment()
@@ -28,20 +28,20 @@ class ServicesController extends Controller
     {
         // return view('web.services.branding');
         return view('web.services.coming-soon');
-
     }
 
     public function seo()
     {
-        return view('web.services.seo');
+        $businessResults = BusinessResult::where('is_active', true)
+            ->orderBy('sort_order')
+            ->get();
+
+        return view('web.services.seo', compact('businessResults'));
     }
 
     public function productMarketing()
     {
         // return view('web.services.product-marketing');
-          return view('web.services.coming-soon');
-
+        return view('web.services.coming-soon');
     }
-
-
 }

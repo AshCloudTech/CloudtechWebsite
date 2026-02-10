@@ -201,6 +201,42 @@
             </nav>
         </div>
     </div>
+    @php
+        $servicesOpen = isGroupActive([
+            'admin.business-results.*',
+        ]);
+    @endphp
+    {{-- SERVICES (dropdown) --}}
+        <div class="navSection">
+            <button class="navGroupToggle {{ $servicesOpen ? 'open' : '' }}"
+                    type="button"
+                    data-nav-group="services"
+                    aria-expanded="{{ $servicesOpen ? 'true' : 'false' }}">
+                <span class="navGroupTitle">
+                    <span class="navGroupDot"></span>
+                    <span>Services</span>
+                </span>
+                <span class="navChevron" aria-hidden="true"></span>
+            </button>
+
+            <div class="navGroupPanel {{ $servicesOpen ? 'open' : '' }}"
+                data-nav-panel="services">
+                <nav class="nav navNested">
+
+                    {{-- SEO Business Results --}}
+                    @if (Route::has('admin.business-results.index'))
+                        <a class="{{ request()->routeIs('admin.business-results.*') ? 'active' : '' }}"
+                        href="{{ route('admin.business-results.index') }}">
+                            <span class="dot"></span>
+                            <span>SEO Business Results</span>
+                        </a>
+                    @endif
+
+                </nav>
+            </div>
+        </div>
+
+
 
     {{-- ACCESS CONTROL (dropdown) --}}
     @php

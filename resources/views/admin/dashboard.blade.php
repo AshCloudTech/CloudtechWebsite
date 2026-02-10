@@ -73,6 +73,13 @@
                         Manage Pricing FAQ
                     </a>
                 @endif
+                {{-- Business Results --}}
+                @if (Route::has('admin.business-results.index'))
+                    <a class="btn" href="{{ route('admin.business-results.index') }}">
+                        Manage Business Results
+                    </a>
+                @endif
+
             </div>
 
                 @if (session()->has('impersonator_id'))

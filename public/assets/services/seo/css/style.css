@@ -121,7 +121,7 @@ button{ font-family: inherit; }
 }
 
 .btn-primary{
-  background-color: var(--dark);
+  background: linear-gradient(135deg, #0ea5e9, #22c55e);
   color: var(--surface-soft);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
@@ -133,7 +133,7 @@ button{ font-family: inherit; }
 }
 
 .btn-ghost{
-  background-color: transparent;
+  background: linear-gradient(135deg, #0ea5e9, #22c55e);
   color: var(--surface-soft);
   border: 1px solid rgba(249, 250, 251, 0.7);
 }

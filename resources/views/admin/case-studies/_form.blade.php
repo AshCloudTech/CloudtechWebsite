@@ -18,6 +18,10 @@
     $featuresCount = max(1, count($features));
     $impactsCount = max(1, count($impacts));
     $techCount = max(1, count($tech));
+
+    $testimonials = old('testimonials', $caseStudy->testimonials?->toArray() ?? []);
+    $testimonialsCount = max(1, count($testimonials));
+
 @endphp
 
 <style>
@@ -716,6 +720,112 @@
       </div>
     </div>
 
+    <div class="dividerLine"></div>
+
+{{-- TESTIMONIALS --}}
+<div class="dynHead">
+  <div class="left">
+    <h4>Testimonials</h4>
+    <p>Client feedback cards/slider. Supports images + rating + source. Unlimited rows.</p>
+  </div>
+  <div class="dynActions">
+    <button type="button" class="miniBtn" data-add-row="testimonials">+ Add Testimonial</button>
+  </div>
+</div>
+
+<div data-section="testimonials" data-next-index="{{ $testimonialsCount }}">
+  @foreach($testimonials as $i => $row)
+    <div class="rowBox" data-row>
+      <div class="grid cols-2" style="gap:var(--row); grid-template-columns: 1fr 1fr;">
+        <div class="field">
+          <label>Badge</label>
+          <input name="testimonials[{{ $i }}][badge]" value="{{ $row['badge'] ?? '' }}" placeholder="Client Feedback">
+        </div>
+
+        <div class="field">
+          <label>Rating (1–5)</label>
+          <input type="number" min="1" max="5" name="testimonials[{{ $i }}][rating]" value="{{ $row['rating'] ?? '' }}" placeholder="5">
+        </div>
+
+        <div class="field" style="grid-column:1 / -1;">
+          <label>Quote</label>
+          <textarea name="testimonials[{{ $i }}][quote]" rows="3" placeholder="Testimonial text...">{{ $row['quote'] ?? '' }}</textarea>
+        </div>
+
+        <div class="field">
+          <label>Author Name</label>
+          <input name="testimonials[{{ $i }}][author_name]" value="{{ $row['author_name'] ?? '' }}" placeholder="Mark Johnson">
+        </div>
+
+        <div class="field">
+          <label>Author Title</label>
+          <input name="testimonials[{{ $i }}][author_title]" value="{{ $row['author_title'] ?? '' }}" placeholder="Product Director">
+        </div>
+
+        <div class="field">
+          <label>Author Company</label>
+          <input name="testimonials[{{ $i }}][author_company]" value="{{ $row['author_company'] ?? '' }}" placeholder="GL Assessment">
+        </div>
+
+        <div class="field">
+          <label>Source</label>
+          <input name="testimonials[{{ $i }}][source]" value="{{ $row['source'] ?? '' }}" placeholder="Email / Clutch / Google">
+        </div>
+
+        <div class="field" style="grid-column:1 / -1;">
+          <label>Source URL</label>
+          <input name="testimonials[{{ $i }}][source_url]" value="{{ $row['source_url'] ?? '' }}" placeholder="https://...">
+        </div>
+
+        <div class="field">
+          <label>Author Avatar</label>
+          @if(!empty($row['author_avatar']))
+            <div class="hint" style="margin-top:0;">
+              Current: <a href="{{ asset($row['author_avatar']) }}" target="_blank" rel="noopener">View</a>
+            </div>
+            <input type="hidden" name="testimonials[{{ $i }}][author_avatar_existing]" value="{{ $row['author_avatar'] }}">
+          @endif
+          <input type="file" name="testimonials[{{ $i }}][author_avatar]" accept="image/*">
+        </div>
+
+        <div class="field">
+          <label>Company Logo</label>
+          @if(!empty($row['company_logo']))
+            <div class="hint" style="margin-top:0;">
+              Current: <a href="{{ asset($row['company_logo']) }}" target="_blank" rel="noopener">View</a>
+            </div>
+            <input type="hidden" name="testimonials[{{ $i }}][company_logo_existing]" value="{{ $row['company_logo'] }}">
+          @endif
+          <input type="file" name="testimonials[{{ $i }}][company_logo]" accept="image/*">
+        </div>
+
+        <div class="field">
+          <label>Featured</label>
+          <select name="testimonials[{{ $i }}][is_featured]">
+            <option value="0" {{ !empty($row['is_featured']) ? '' : 'selected' }}>No</option>
+            <option value="1" {{ !empty($row['is_featured']) ? 'selected' : '' }}>Yes</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Published</label>
+          <select name="testimonials[{{ $i }}][is_published]">
+            <option value="1" {{ (isset($row['is_published']) ? (int)$row['is_published'] : 1) === 1 ? 'selected' : '' }}>Yes</option>
+            <option value="0" {{ (isset($row['is_published']) ? (int)$row['is_published'] : 1) === 0 ? 'selected' : '' }}>No</option>
+          </select>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; grid-column:1 / -1;">
+          <input type="hidden" name="testimonials[{{ $i }}][sort_order]" value="{{ $row['sort_order'] ?? $i }}">
+          <div class="hint" style="margin:0;">Order is auto unless you change it.</div>
+          <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
+        </div>
+
+      </div>
+    </div>
+  @endforeach
+</div>
+
     <div class="sectionSpace"></div>
 
     <div class="btnRow" style="margin:0;">
@@ -855,3 +965,82 @@
     </div>
   </div>
 </template>
+
+<template id="tpl-testimonials">
+  <div class="rowBox" data-row>
+    <div class="grid cols-2" style="gap:var(--row); grid-template-columns: 1fr 1fr;">
+      <div class="field">
+        <label>Badge</label>
+        <input name="testimonials[__INDEX__][badge]" value="" placeholder="Client Feedback">
+      </div>
+
+      <div class="field">
+        <label>Rating (1–5)</label>
+        <input type="number" min="1" max="5" name="testimonials[__INDEX__][rating]" value="" placeholder="5">
+      </div>
+
+      <div class="field" style="grid-column:1 / -1;">
+        <label>Quote</label>
+        <textarea name="testimonials[__INDEX__][quote]" rows="3" placeholder="Testimonial text..."></textarea>
+      </div>
+
+      <div class="field">
+        <label>Author Name</label>
+        <input name="testimonials[__INDEX__][author_name]" value="" placeholder="Mark Johnson">
+      </div>
+
+      <div class="field">
+        <label>Author Title</label>
+        <input name="testimonials[__INDEX__][author_title]" value="" placeholder="Product Director">
+      </div>
+
+      <div class="field">
+        <label>Author Company</label>
+        <input name="testimonials[__INDEX__][author_company]" value="" placeholder="GL Assessment">
+      </div>
+
+      <div class="field">
+        <label>Source</label>
+        <input name="testimonials[__INDEX__][source]" value="" placeholder="Email / Clutch / Google">
+      </div>
+
+      <div class="field" style="grid-column:1 / -1;">
+        <label>Source URL</label>
+        <input name="testimonials[__INDEX__][source_url]" value="" placeholder="https://...">
+      </div>
+
+      <div class="field">
+        <label>Author Avatar</label>
+        <input type="file" name="testimonials[__INDEX__][author_avatar]" accept="image/*">
+      </div>
+
+      <div class="field">
+        <label>Company Logo</label>
+        <input type="file" name="testimonials[__INDEX__][company_logo]" accept="image/*">
+      </div>
+
+      <div class="field">
+        <label>Featured</label>
+        <select name="testimonials[__INDEX__][is_featured]">
+          <option value="0" selected>No</option>
+          <option value="1">Yes</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Published</label>
+        <select name="testimonials[__INDEX__][is_published]">
+          <option value="1" selected>Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; grid-column:1 / -1;">
+        <input type="hidden" name="testimonials[__INDEX__][sort_order]" value="__INDEX__">
+        <div class="hint" style="margin:0;">Order is auto unless you change it.</div>
+        <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
+      </div>
+    </div>
+  </div>
+</template>
+

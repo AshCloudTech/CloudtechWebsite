@@ -2,7 +2,8 @@
 
 @section('title', 'Contact Us')
 @section('meta_title', 'Contact Cloud Technologies Ltd')
-@section('meta_description', 'Talk to Cloud Technologies Ltd. Share your project details and our team will get back to
+@section('meta_description',
+    'Talk to Cloud Technologies Ltd. Share your project details and our team will get back to
     you quickly.')
 
     @push('styles')

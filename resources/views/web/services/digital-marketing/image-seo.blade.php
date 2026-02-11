@@ -249,6 +249,74 @@
             </div>
         </div>
     </section>
+    <!-- WHAT IS IMAGE SEO -->
+<section class="section section-national-about" id="about-image-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Is Image SEO?</h2>
+
+                <p>
+                    Image SEO is the process of optimising website images so search engines can properly crawl, understand, index, and rank them in visual search results like Google Images. Poorly optimised images slow down your website, hurt Core Web Vitals, and miss valuable opportunities to rank for additional keywords.
+                </p>
+
+                <p>
+                    By improving alt text, file names, formats, compression, structured data, and image sitemaps, Image SEO turns your visuals into powerful assets that drive organic traffic and improve overall search performance.
+                </p>
+
+                <p>
+                    Image optimisation is a critical part of modern technical SEO and page speed optimisation.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Advanced Technical Image SEO</h3>
+
+                <p>
+                    Our image SEO goes beyond basic optimisation. We implement:
+                </p>
+
+                <ul>
+                    <li>Responsive images using srcset for different screen sizes</li>
+                    <li>Lazy loading for improved page speed</li>
+                    <li>Structured data (schema) for product and article images</li>
+                    <li>Image XML sitemaps for better indexing</li>
+                    <li>Correct image dimensions for layout stability (CLS)</li>
+                    <li>CDN delivery for faster global performance</li>
+                </ul>
+
+                <p class="national-about-note">
+                    These technical improvements directly support Core Web Vitals and search visibility.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY IMAGE SEO IS IMPORTANT -->
+<section class="section section-national-growth" id="image-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Image SEO Is Important for Modern Websites</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                Google increasingly relies on visual search and page experience signals when ranking websites. Proper image SEO ensures your visuals contribute to rankings rather than harming performance.
+            </p>
+
+            <p>
+                When images are fully optimised, your website loads faster, ranks better, and gains additional visibility through Google Images creating another source of organic traffic that many businesses ignore.
+            </p>
+        </div>
+
+    </div>
+</section>
+
 
     <!-- CTA -->
     <section class="section image-cta" id="cta">

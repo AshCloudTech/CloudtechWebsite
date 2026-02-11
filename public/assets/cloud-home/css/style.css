@@ -144,7 +144,8 @@ button {
 }
 
 .btn-accent {
-    background-color: #0b1020;
+    /* background-color: #0b1020; */
+    background: linear-gradient(356deg, #008a1e, #04ff0f);
     color: #ffffff;
 }
 
@@ -272,7 +273,7 @@ button {
   gap: 4px;
 
   min-width: 260px;
-  background: rgba(12, 16, 38, 0.98);
+  background: rgba(255, 255, 255, 0.98);
   border: 1px solid rgba(255,255,255,0.06);
   border-radius: 12px;
   box-shadow: 0 18px 40px rgba(0,0,0,0.35);
@@ -733,7 +734,7 @@ button {
 
 /* ==== CTA SECTION ==== */
 
-.cta-section {
+.cta-sectionconsult {
     background: linear-gradient(135deg, #001f4f, #003b8c);
     color: #ffffff;
 }
@@ -1256,11 +1257,6 @@ html[data-theme="dark"] .footer-site-logo--dark{ display:block; }
   }
 }
 
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
  /* Footer social icons */
 .social-icons{
   list-style:none;
@@ -1270,11 +1266,7 @@ html[data-theme="dark"] .footer-site-logo--dark{ display:block; }
   gap:10px;
   flex-wrap:wrap;
 }
-<<<<<<< Updated upstream
  
-=======
-
->>>>>>> Stashed changes
 .social-icon{
   width:40px;
   height:40px;
@@ -1286,27 +1278,249 @@ html[data-theme="dark"] .footer-site-logo--dark{ display:block; }
   background: rgba(255,255,255,.08);
   transition: transform .15s ease, background .15s ease, border-color .15s ease;
 }
-<<<<<<< Updated upstream
  
-=======
-
->>>>>>> Stashed changes
 .social-icon svg{
   width:18px;
   height:18px;
   fill: currentColor;
 }
-<<<<<<< Updated upstream
  
-=======
-
->>>>>>> Stashed changes
 .social-icon:hover{
   transform: translateY(-2px);
   background: rgba(255,255,255,.14);
   border-color: rgba(255,255,255,.28);
-<<<<<<< Updated upstream
 }
-=======
+
+
+/* =========================================================
+   PROCESS SECTION (Our Design & Development Process)
+========================================================= */
+
+.process-section {
+  background: #f5f6fb;
 }
->>>>>>> Stashed changes
+
+.process-grid {
+  display: grid;
+  gap: 34px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: start;
+}
+
+.process-item {
+  text-align: center;
+  padding: 10px 6px;
+}
+
+.process-icon {
+  width: 76px;
+  height: 76px;
+  border-radius: 999px;
+  background: #0b1020;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.process-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: #fff;
+  display: block;
+}
+
+.process-item h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 750;
+  color: #0b1020;
+}
+
+.process-item p {
+  margin: 0 auto;
+  max-width: 280px;
+  color: #5d647a;
+  font-size: 14.5px;
+  line-height: 1.65;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+  }
+}
+@media (max-width: 520px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+  .process-item p {
+    max-width: 320px;
+  }
+}
+
+
+/* =========================================================
+   CTA SECTION (Let's Build Something Amazing Together + Form)
+========================================================= */
+
+.cta-section {
+  background: #f5f6fb;
+}
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 34px;
+  align-items: center;
+}
+
+.cta-left {
+  padding: 6px 0;
+}
+
+.cta-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: rgba(255, 133, 2, 0.14);
+  color: #ff8502;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.cta-title {
+  font-size: 52px;
+  line-height: 1.04;
+  margin: 0 0 14px;
+  letter-spacing: -0.02em;
+  color: #0b1020;
+}
+
+.cta-subtitle {
+  margin: 0 0 22px;
+  color: #5d647a;
+  max-width: 520px;
+}
+
+.cta-stats {
+  display: flex;
+  gap: 38px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.cta-stat__value {
+  font-size: 26px;
+  font-weight: 850;
+  color: #ff8502;
+  line-height: 1.1;
+}
+
+.cta-stat__label {
+  font-size: 12px;
+  color: #5d647a;
+  margin-top: 6px;
+}
+
+.cta-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.10);
+}
+
+.cta-card__title {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #0b1020;
+}
+
+.cta-card__desc {
+  margin: 0 0 14px;
+  font-size: 13px;
+  color: #5d647a;
+}
+
+.cta-form {
+  display: grid;
+  gap: 12px;
+}
+
+.cta-field label {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #0b1020;
+  margin-bottom: 6px;
+}
+
+.cta-field input,
+.cta-field select,
+.cta-field textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5e4;
+  background: #f6f7fb;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
+}
+
+.cta-field textarea {
+  resize: vertical;
+  min-height: 86px;
+}
+
+.cta-field input:focus,
+.cta-field select:focus,
+.cta-field textarea:focus {
+  border-color: rgba(255, 133, 2, 0.65);
+  box-shadow: 0 0 0 4px rgba(255, 133, 2, 0.12);
+  background: #fff;
+}
+
+.cta-required {
+  color: #ff8502;
+  font-weight: 900;
+}
+
+.cta-submit {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .cta-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .cta-title {
+    font-size: 42px;
+  }
+  .cta-card {
+    max-width: 520px;
+  }
+}
+@media (max-width: 520px) {
+  .cta-title {
+    font-size: 34px;
+  }
+  .cta-stats {
+    gap: 22px;
+  }
+  .cta-card {
+    padding: 18px;
+  }
+}

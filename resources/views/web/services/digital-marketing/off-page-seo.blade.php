@@ -243,6 +243,73 @@
             </div>
         </div>
     </section>
+    <!-- WHAT ARE OFF-PAGE SEO SERVICES -->
+<section class="section section-national-about" id="about-offpage-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are Off-Page SEO Services?</h2>
+
+                <p>
+                    Off-page SEO services focus on improving your website’s authority, trust, and reputation through signals that exist outside your website. The most important of these signals are high-quality backlinks from relevant, authoritative websites.
+                </p>
+
+                <p>
+                    Search engines use backlinks, brand mentions, citations, and online reputation to evaluate how trustworthy and credible your website is. A strong off-page SEO strategy helps your website earn these signals naturally and safely, leading to higher rankings and stronger organic visibility.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Anchor Text & Natural Link Profile Strategy</h3>
+
+                <p>
+                    A successful off-page SEO campaign requires a balanced and natural backlink profile.
+                </p>
+
+                <p>
+                    We carefully manage:
+                </p>
+
+                <ul>
+                    <li>Branded anchor texts</li>
+                    <li>Partial match keywords</li>
+                    <li>Generic anchors (e.g. “click here”)</li>
+                    <li>Naked URLs</li>
+                    <li>Contextual placements within relevant content</li>
+                </ul>
+
+                <p class="national-about-note">
+                    This prevents over-optimisation and ensures long-term ranking stability.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY OFF-PAGE SEO IS CRITICAL -->
+<section class="section section-national-growth" id="offpage-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Off-Page SEO Is Critical for Competitive Keywords</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                For competitive keywords, on-page and technical SEO alone are not enough. Google needs to see external proof that your website is trusted within your industry.
+            </p>
+
+            <p>
+                Off-page SEO provides this proof through authority links, brand mentions, and reputation signals that increase your domain strength and ranking potential across all pages.
+            </p>
+        </div>
+
+    </div>
+</section>
+
 
     <!-- CTA -->
     <section class="section offpage-cta" id="cta">

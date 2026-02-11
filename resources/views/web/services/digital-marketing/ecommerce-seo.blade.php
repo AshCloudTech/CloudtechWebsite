@@ -259,6 +259,112 @@
             </div>
         </div>
     </section>
+    <!-- WHAT IS ECOMMERCE SEO -->
+<section class="section section-national-about" id="about-ecommerce-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Is eCommerce SEO?</h2>
+
+                <p>
+                    eCommerce SEO is the process of optimising an online store so product pages, category pages, and collections rank in search engines for high-intent buying keywords. Unlike standard SEO, eCommerce SEO must handle large numbers of pages, product variations, filters, and technical challenges that affect how search engines crawl and index your store.
+                </p>
+
+                <p>
+                    A successful eCommerce SEO strategy ensures your products are easy to find, fast to load, properly structured, and optimised for shoppers ready to purchase.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Product & Category Page SEO Strategy</h3>
+
+                <p>
+                    We treat category pages as high-value landing pages and product pages as conversion assets.
+                </p>
+
+                <h4>Category Pages</h4>
+
+                <ul>
+                    <li>Optimised for broader buying keywords</li>
+                    <li>SEO content above and below product grids</li>
+                    <li>Internal links to key products</li>
+                    <li>Clean filter handling and canonical setup</li>
+                </ul>
+
+                <h4>Product Pages</h4>
+
+                <ul>
+                    <li>Unique descriptions (not manufacturer copy)</li>
+                    <li>Schema markup for price, stock, and reviews</li>
+                    <li>Optimised images and alt text</li>
+                    <li>Cross-links to related products and categories</li>
+                </ul>
+
+                <p class="national-about-note">
+                    This structure improves both rankings and conversions.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- TECHNICAL ECOMMERCE SEO -->
+<section class="section section-national-growth technical" id="ecommerce-technical">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Technical eCommerce SEO That Improves Crawl & Indexing</h2>
+        </div>
+
+        <div class="national-growth-card">
+
+            <p>
+                We optimise the technical foundation of your store:
+            </p>
+
+            <ul>
+                <li>Canonical tags for variants and filters</li>
+                <li>Noindex rules for low-value pages</li>
+                <li>XML sitemaps for products and categories</li>
+                <li>Internal linking structure for authority flow</li>
+                <li>Core Web Vitals optimisation for large image libraries</li>
+                <li>Structured data for products, reviews, price, availability</li>
+                <li>Crawl budget optimisation for large inventories</li>
+            </ul>
+
+            <p>
+                This ensures Google focuses on the pages that generate revenue.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- WHY ECOMMERCE SEO GROWTH -->
+<section class="section section-national-growth" id="ecommerce-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why eCommerce SEO Delivers Long-Term Sales Growth</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                Paid ads stop when the budget stops. eCommerce SEO builds organic visibility that continues to bring high-intent shoppers to your store every day.
+            </p>
+
+            <p>
+                By ranking your categories and products for buyer keywords, your store attracts customers who are actively searching to purchase, leading to consistent traffic, higher conversions, and scalable revenue growth.
+            </p>
+        </div>
+
+    </div>
+</section>
+
 
     <!-- CTA -->
     <section class="section ecommerce-cta" style="margin-top:35px" id="cta">

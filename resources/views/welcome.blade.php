@@ -26,7 +26,7 @@
                 <div class="hero-actions">
                     <a href="#services" class="btn btn-lg btn-primary">Explore Services</a>
                     {{-- <a href="#ai-innovation" class="btn btn-lg btn-ghost">Chat with AI Assistant</a> --}}
-                <a href="#consultation" class="btn btn-lg btn-ghost openConsultationModal">Schedule a Consultation</a>
+                    <a href="#consultation" class="btn btn-lg btn-ghost openConsultationModal">Schedule a Consultation</a>
                 </div>
 
                 <p class="hero-note">
@@ -150,7 +150,7 @@
     </section>
 
     <!-- PROCESS -->
-    <section class="section section-alt" id="about">
+    {{-- <section class="section section-alt" id="about">
         <div class="container">
             <div class="section-header">
                 <h2>Our Design &amp; Development Process</h2>
@@ -191,6 +191,70 @@
                     <p>
                         We launch your project, monitor results, and make improvements to keep everything running smoothly.
                     </p>
+                </article>
+            </div>
+        </div>
+    </section> --}}
+
+    {{-- Updated DESIGN & DEVELOPMENT PROCESS --}}
+    <section class="section process-section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Design &amp; Development Process</h2>
+                <p>A proven methodology that ensures exceptional results from concept to launch and beyond.</p>
+            </div>
+
+            <div class="process-grid">
+                <article class="process-item">
+                    <div class="process-icon" aria-hidden="true">
+                        {{-- Search icon --}}
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M10.5 3a7.5 7.5 0 1 0 4.6 13.4l4.3 4.3a1 1 0 0 0 1.4-1.4l-4.3-4.3A7.5 7.5 0 0 0 10.5 3zm0 2a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11z" />
+                        </svg>
+                    </div>
+
+                    <h3>Discovery &amp; Research</h3>
+                    <p>We start by understanding your business goals, target audience, and competitive landscape.</p>
+                </article>
+
+                <article class="process-item">
+                    <div class="process-icon" aria-hidden="true">
+                        {{-- Bulb icon --}}
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M9 21h6v-1H9v1zm3-19a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2zm3 11.6a1 1 0 0 0-.4.8V16h-5.2v-1.6a1 1 0 0 0-.4-.8A5 5 0 1 1 15 13.6z" />
+                        </svg>
+                    </div>
+
+                    <h3>Strategy &amp; Planning</h3>
+                    <p>Develop a comprehensive digital strategy tailored to your specific needs and objectives.</p>
+                </article>
+
+                <article class="process-item">
+                    <div class="process-icon" aria-hidden="true">
+                        {{-- Code icon --}}
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M8.7 16.7a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4l4-4a1 1 0 1 1 1.4 1.4L5.4 12l3.3 3.3a1 1 0 0 1 0 1.4zm6.6 0a1 1 0 0 0 1.4 0l4-4a1 1 0 0 0 0-1.4l-4-4a1 1 0 1 0-1.4 1.4L18.6 12l-3.3 3.3a1 1 0 0 0 0 1.4zM13.6 5.3a1 1 0 0 0-1.9-.6l-3.3 14a1 1 0 1 0 1.9.6l3.3-14z" />
+                        </svg>
+                    </div>
+
+                    <h3>Design &amp; Development</h3>
+                    <p>Create stunning designs and develop robust solutions using cutting-edge technologies.</p>
+                </article>
+
+                <article class="process-item">
+                    <div class="process-icon" aria-hidden="true">
+                        {{-- Bell icon --}}
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 1 0-14 0v5l-2 2v1h18v-1l-2-2zm-2 1H7l1-1v-5a5 5 0 1 1 10 0v5l1 1z" />
+                        </svg>
+                    </div>
+
+                    <h3>Launch &amp; Optimize</h3>
+                    <p>Deploy your solution and continuously optimize for better performance and results.</p>
                 </article>
             </div>
         </div>
@@ -392,57 +456,166 @@
     </section>
 
     <!-- PRICING -->
-<section class="section" id="pricing">
-    <div class="container">
-        <div class="section-header">
-            <h2>Choose Your Plan</h2>
-            <p>Pick the ideal plan to scale your business with the right tools and support.</p>
+    <section class="section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Choose Your Plan</h2>
+                <p>Pick the ideal plan to scale your business with the right tools and support.</p>
+            </div>
+
+            <div class="grid grid-3 pricing-grid">
+                @forelse($featuredPlans as $plan)
+                    @php
+                        $price = $plan->priceByBilling('one-time');
+                    @endphp
+
+                    <article class="card pricing-card {{ $plan->is_featured ? 'pricing-popular' : '' }}">
+                        @if ($plan->is_featured)
+                            <div class="pricing-badge">Most Popular</div>
+                        @endif
+
+                        <h3>{{ $plan->title }}</h3>
+
+                        <p class="pricing-price">
+                            {{ $price?->currency }}{{ $price?->amount_text }}
+                            <span>/one-time</span>
+                        </p>
+
+                        @if ($plan->description)
+                            <p class="pricing-subtitle">{{ $plan->description }}</p>
+                        @endif
+
+                        <ul class="pricing-list">
+                            @foreach ($plan->features->take(8) as $feature)
+                                <li>{{ $feature->text }}</li>
+                            @endforeach
+                        </ul>
+
+                        <a href="{{ url($plan->cta_url) }}" class="btn btn-primary btn-block">
+                            {{ $plan->cta_text }}
+                        </a>
+                    </article>
+                @empty
+                    <p>No featured plans available.</p>
+                @endforelse
+            </div>
+
+            <div style="margin-top:32px; display:flex; justify-content:center;">
+                <a href="{{ route('pricing') }}" class="btn btn-ghost">
+                    View All Plans
+                </a>
+            </div>
         </div>
+    </section>
 
-        <div class="grid grid-3 pricing-grid">
-            @forelse($featuredPlans as $plan)
-                @php
-                    $price = $plan->priceByBilling('one-time');
-                @endphp
+    {{-- CTA + FORM (REPLACES OLD CONTACT-FORM SECTION) --}}
+    <section class="section cta-section" id="contact-form">
+        <div class="container">
+            <div class="cta-grid">
+                {{-- Left Content --}}
+                <div class="cta-left">
+                    <span class="cta-pill">Start Your Journey</span>
 
-                <article class="card pricing-card {{ $plan->is_featured ? 'pricing-popular' : '' }}">
-                    @if($plan->is_featured)
-                        <div class="pricing-badge">Most Popular</div>
-                    @endif
+                    <h2 class="cta-title">Let’s Build Something<br />Amazing Together</h2>
 
-                    <h3>{{ $plan->title }}</h3>
-
-                    <p class="pricing-price">
-                        {{ $price?->currency }}{{ $price?->amount_text }}
-                        <span>/one-time</span>
+                    <p class="cta-subtitle">
+                        Ready to transform your digital presence? Share your project details with us, and our expert team
+                        will
+                        get back to you within 24 hours with a customized solution.
                     </p>
 
-                    @if($plan->description)
-                        <p class="pricing-subtitle">{{ $plan->description }}</p>
-                    @endif
+                    <div class="cta-stats" aria-label="Company highlights">
+                        <div class="cta-stat">
+                            <div class="cta-stat__value">10k+</div>
+                            <div class="cta-stat__label">Happy Clients</div>
+                        </div>
 
-                    <ul class="pricing-list">
-                        @foreach($plan->features->take(8) as $feature)
-                            <li>{{ $feature->text }}</li>
-                        @endforeach
-                    </ul>
+                        <div class="cta-stat">
+                            <div class="cta-stat__value">99%</div>
+                            <div class="cta-stat__label">Satisfaction</div>
+                        </div>
 
-                    <a href="{{ url($plan->cta_url) }}" class="btn btn-primary btn-block">
-                        {{ $plan->cta_text }}
-                    </a>
-                </article>
-            @empty
-                <p>No featured plans available.</p>
-            @endforelse
+                        <div class="cta-stat">
+                            <div class="cta-stat__value">24/7</div>
+                            <div class="cta-stat__label">Support</div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Right Form Card --}}
+                <div class="cta-card">
+                    <h3 class="cta-card__title">Get Started Today</h3>
+                    <p class="cta-card__desc">Fill out the form below and our team will reach out to you.</p>
+
+                    <form class="cta-form" method="POST"
+                        action="{{ Route::has('contact.send') ? route('contact.send') : (Route::has('contact.submit') ? route('contact.submit') : url('/contact')) }}"
+                        novalidate>
+                        @csrf
+
+                        <input type="hidden" name="form_key" value="home_cta_form">
+                        <input type="hidden" name="source_page" value="{{ request()->path() }}">
+
+                        <div class="cta-field">
+                            <label for="cta_full_name">Full Name</label>
+                            <input id="cta_full_name" type="text" name="name" placeholder="John Doe"
+                                value="{{ old('name') }}" />
+                            @error('name')
+                                <small class="text-danger">{{ $message }}</small>
+                            @enderror
+                        </div>
+
+                        <div class="cta-field">
+                            <label for="cta_email">Email Address</label>
+                            <input id="cta_email" type="email" name="email" placeholder="john@example.com"
+                                value="{{ old('email') }}" />
+                            @error('email')
+                                <small class="text-danger">{{ $message }}</small>
+                            @enderror
+                        </div>
+
+                        <div class="cta-field">
+                            <label for="cta_phone">Phone Number</label>
+                            <input id="cta_phone" type="text" name="phone" placeholder="+44 20 1223-4567"
+                                value="{{ old('phone') }}" />
+                        </div>
+
+                        <div class="cta-field">
+                            <label for="cta_company">Company/Website Url</label>
+                            <input id="website" name="website" type="text" placeholder="https://example.com"
+                                autocomplete="url">
+                        </div>
+
+                        <div class="cta-field">
+                            <label for="cta_service">Service Interested In <span class="cta-required">*</span></label>
+                            <select id="cta_service" name="service" required>
+                                <option value="" selected disabled>Select a service</option>
+                                <option value="Website Development" @selected(old('service') === 'Website Development')>Website
+                                    Development</option>
+                                <option value="SEO" @selected(old('service') === 'SEO')>SEO</option>
+                                <option value="Branding" @selected(old('service') === 'Branding')>Branding</option>
+                                <option value="Mobile App Development" @selected(old('service') === 'Mobile App Development')>Mobile App Development
+                                </option>
+                                <option value="E-commerce" @selected(old('service') === 'E-commerce')>E-commerce</option>
+                            </select>
+                            @error('service')
+                                <small class="text-danger">{{ $message }}</small>
+                            @enderror
+                        </div>
+
+                        <div class="cta-field">
+                            <label for="cta_message">Project Details</label>
+                            <textarea id="cta_message" name="message" rows="3" placeholder="Tell us about your project requirements...">{{ old('message') }}</textarea>
+                            @error('message')
+                                <small class="text-danger">{{ $message }}</small>
+                            @enderror
+                        </div>
+
+                        <button type="submit" class="btn btn-primary cta-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
-
-        <div style="margin-top:32px; display:flex; justify-content:center;">
-            <a href="{{ route('pricing') }}" class="btn btn-ghost">
-                View All Plans
-            </a>
-        </div>
-    </div>
-</section>
+    </section>
 
     <!-- CASE STUDIES -->
     <section class="section section-alt" id="case-studies">
@@ -464,51 +637,72 @@
                             'orange' => 'tag-orange',
                             default => 'tag-blue',
                         };
+
+                        // Pick image (prefer card_image, fallback to hero_image)
+                        $imgPath = $case->card_image ?: $case->hero_image;
+                        $imgUrl = $imgPath ? (str_starts_with($imgPath, 'http') ? $imgPath : asset($imgPath)) : null;
+
+                        $imgAlt = $case->title ? $case->title . ' case study' : 'Case study image';
                     @endphp
 
                     <article class="card case-card fx-reveal">
-                        {{-- Industry tag --}}
-                        @if ($case->industry)
-                            <div class="card-tag {{ $tagClass }}">
-                                {{ $case->industry }}
-                            </div>
+                        {{-- Image --}}
+                        @if ($imgUrl)
+                            <a href="{{ route('case.studies.detail', $case->slug) }}" class="case-thumb"
+                                aria-label="Open {{ $case->title }}">
+                                <img src="{{ $imgUrl }}" alt="{{ $imgAlt }}" loading="lazy"
+                                    decoding="async">
+                            </a>
+                        @else
+                            {{-- Optional: placeholder if no image --}}
+                            <div class="case-thumb case-thumb--placeholder" aria-hidden="true"></div>
                         @endif
 
-                        {{-- Title --}}
-                        <h3>{{ $case->title }}</h3>
+                        <div class="case-body">
+                            {{-- Industry tag --}}
+                            @if ($case->industry)
+                                <div class="card-tag {{ $tagClass }}">
+                                    {{ $case->industry }}
+                                </div>
+                            @endif
 
-                        {{-- Short description --}}
-                        @if ($case->excerpt)
-                            <p>{{ $case->excerpt }}</p>
-                        @endif
+                            {{-- Title --}}
+                            <h3>{{ $case->title }}</h3>
 
-                        {{-- Impact metrics (max 3) --}}
-                        @if ($case->impacts->count())
-                            <ul class="case-results">
-                                @foreach ($case->impacts as $impact)
-                                    <li>
-                                        @if ($impact->metric)
-                                            <strong>{{ $impact->metric }}</strong>
-                                        @endif
-                                        {{ $impact->title }}
-                                    </li>
-                                @endforeach
-                            </ul>
-                        @endif
+                            {{-- Short description --}}
+                            @if ($case->excerpt)
+                                <p>{{ $case->excerpt }}</p>
+                            @endif
 
-                        {{-- Tech stack --}}
-                        @if ($case->techStacks->count())
-                            <p class="case-stack">
-                                <strong>Technologies Used:</strong>
-                                {{ $case->techStacks->pluck('name')->implode(', ') }}
-                            </p>
-                        @endif
+                            {{-- Impact metrics --}}
+                            @if ($case->impacts->count())
+                                <ul class="case-results">
+                                    @foreach ($case->impacts->take(3) as $impact)
+                                        <li>
+                                            @if ($impact->metric)
+                                                <strong>{{ $impact->metric }}</strong>
+                                            @endif
+                                            {{ $impact->title }}
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            @endif
 
-                        {{-- Link --}}
-                        <a href="{{ route('case.studies.detail', $case->slug) }}" class="link-arrow">
-                            Read Full Case Study
-                        </a>
+                            {{-- Tech stack --}}
+                            @if ($case->techStacks->count())
+                                <p class="case-stack">
+                                    <strong>Technologies Used:</strong>
+                                    {{ $case->techStacks->pluck('name')->implode(', ') }}
+                                </p>
+                            @endif
+
+                            {{-- Link --}}
+                            <a href="{{ route('case.studies.detail', $case->slug) }}" class="link-arrow">
+                                Read Full Case Study
+                            </a>
+                        </div>
                     </article>
+
                 @empty
                     <div class="card" style="padding:18px;">
                         <p style="margin:0;">No case studies available right now.</p>
@@ -614,7 +808,7 @@
     </section>
 
     <!-- CTA SECTION -->
-    <section class="section cta-section" id="contact">
+    <section class="section cta-sectionconsult" id="contact">
         <div class="container">
             <div class="cta-inner">
                 <div class="cta-main">

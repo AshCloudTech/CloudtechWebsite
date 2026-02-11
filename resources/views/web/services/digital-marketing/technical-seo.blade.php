@@ -234,6 +234,78 @@
             </div>
         </div>
     </section>
+    <!-- WHAT ARE TECHNICAL SEO SERVICES -->
+<section class="section section-national-about" id="about-technical-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are Technical SEO Services?</h2>
+
+                <p>
+                    Technical SEO services focus on optimising the foundation of your website so search engines can efficiently crawl, index, and rank your pages. While content and backlinks are important, they cannot perform effectively if your website has technical barriers that prevent search engines from accessing it properly.
+                </p>
+
+                <p>
+                    Technical SEO includes improving site speed, Core Web Vitals, mobile usability, crawlability, indexation, site structure, and resolving errors that negatively impact search performance.
+                </p>
+
+                <p>
+                    A technically optimised website creates the perfect environment for higher rankings, better user experience, and stronger organic growth.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Key Areas Covered in Technical SEO</h3>
+
+                <p>
+                    A complete technical SEO campaign addresses:
+                </p>
+
+                <ul>
+                    <li>Core Web Vitals optimisation (LCP, CLS, INP)</li>
+                    <li>Crawl budget management</li>
+                    <li>XML sitemap optimisation</li>
+                    <li>Robots.txt configuration</li>
+                    <li>Canonical tag implementation</li>
+                    <li>Redirect management (301/302)</li>
+                    <li>Schema markup for enhanced search results</li>
+                    <li>URL structure and site architecture</li>
+                    <li>Mobile-first optimisation</li>
+                    <li>Indexation control and duplicate prevention</li>
+                </ul>
+
+                <p class="national-about-note">
+                    These elements ensure your website is easy for search engines to understand and rank.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY TECHNICAL SEO IS THE FOUNDATION -->
+<section class="section section-national-growth" id="technical-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Technical SEO Is the Foundation of All SEO Success</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                Many websites struggle to rank not because of poor content, but because of hidden technical issues limiting their potential. Technical SEO ensures that every page on your website can be properly crawled, indexed, and evaluated by search engines.
+            </p>
+
+            <p>
+                Without strong technical foundations, even the best content and backlinks will underperform. With expert technical SEO, your entire website becomes easier to rank, faster to load, and more accessible to users and search engines alike.
+            </p>
+        </div>
+
+    </div>
+</section>
+
 
     <!-- CTA -->
     <section class="section tech-cta" style="margin-top:35px" id="cta">

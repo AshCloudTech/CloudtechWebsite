@@ -185,6 +185,71 @@
         </div>
     </section>
 
+    <!-- WHAT ARE NATIONAL SEO SERVICES -->
+<section class="section section-national-about" id="about-national-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are National SEO Services?</h2>
+
+                <p>
+                    National SEO services help businesses rank across an entire country rather than in a single city or local area. Unlike local SEO, which targets nearby searches, national SEO focuses on high-volume, competitive keywords that attract customers from anywhere in the UK.
+                </p>
+
+                <p>
+                    A professional national SEO strategy ensures your website appears for broad, high-intent search terms your ideal customers are using every day. This includes advanced keyword targeting, technical optimisation, content strategy, and authority building designed specifically for nationwide visibility.
+                </p>
+
+                <p>
+                    If you want your business to be found by customers across the UK, investing in expert national SEO services is essential for long-term online growth.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Who Needs National SEO?</h3>
+
+                <ul>
+                    <li>eCommerce stores selling across the UK</li>
+                    <li>Service businesses operating nationwide</li>
+                    <li>SaaS and online platforms</li>
+                    <li>B2B companies targeting national clients</li>
+                    <li>Brands expanding beyond local markets</li>
+                    <li>Companies competing for high-volume industry keywords</li>
+                </ul>
+
+                <p class="national-about-note">
+                    If your customers can come from anywhere in the country, national SEO is the strategy that brings them to you.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY NATIONAL SEO IS ESSENTIAL -->
+<section class="section section-national-growth" id="national-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why National SEO Is Essential for Long-Term Growth</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                Ranking nationally in Google is one of the most powerful ways to generate consistent, high-quality traffic. Unlike paid ads, national SEO creates long-term visibility that continues to bring customers to your website without ongoing ad spend.
+            </p>
+
+            <p>
+                With the right national SEO campaign, your business can dominate search results for the keywords that matter most, build trust with your audience, and outperform competitors across the UK.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
     <!-- CTA -->
     <section class="section seo-cta" id="cta">
         <div class="container">

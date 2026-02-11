@@ -197,6 +197,72 @@
             </div>
         </div>
     </section>
+    <!-- WHAT ARE CONTENT SEO SERVICES -->
+<section class="section section-national-about" id="about-content-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are Content SEO Services?</h2>
+
+                <p>
+                    Content SEO services focus on creating and optimising website content so it ranks in search engines, attracts the right audience, and converts visitors into customers. This goes beyond writing blog posts — it involves strategic keyword research, search intent mapping, topic clusters, internal linking, and continuous content improvement.
+                </p>
+
+                <p>
+                    A strong content SEO strategy ensures every page on your website has a clear purpose, targets valuable keywords, and contributes to your overall search visibility and authority.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Topic Clusters & Content Hubs</h3>
+
+                <p>
+                    We don’t create random content. We build structured content hubs around your core services and products.
+                </p>
+
+                <p>
+                    A content hub consists of:
+                </p>
+
+                <ul>
+                    <li>A main pillar page targeting a high-value keyword</li>
+                    <li>Supporting blog posts answering related questions</li>
+                    <li>Internal links connecting all content together</li>
+                    <li>Ongoing updates to maintain relevance</li>
+                </ul>
+
+                <p class="national-about-note">
+                    This model is one of the most effective ways to build topical authority and improve rankings across your entire website.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY CONTENT SEO IS CORE -->
+<section class="section section-national-growth" id="content-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Content SEO Is the Core of Modern SEO</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                Google prioritises websites that demonstrate expertise, authority, and trust through high-quality, relevant content. Content SEO ensures your website answers the questions your audience is asking while positioning your brand as an industry leader.
+            </p>
+
+            <p>
+                With the right strategy, your content becomes a long-term traffic asset that continues to attract visitors and generate leads without paid advertising.
+            </p>
+        </div>
+
+    </div>
+</section>
+
 
     <!-- PROCESS -->
     <section class="section section-process" style="margin-top:35px" id="process">

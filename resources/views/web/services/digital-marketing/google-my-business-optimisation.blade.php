@@ -227,6 +227,78 @@
         </div>
     </section>
 
+    <!-- WHAT IS GOOGLE BUSINESS PROFILE OPTIMISATION -->
+<section class="section section-national-about" id="about-gbp-optimisation">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Is Google Business Profile Optimisation?</h2>
+
+                <p>
+                    Google Business Profile optimisation is the process of improving your business listing so it ranks higher in Google’s local results and map pack. When customers search for services “near me” or within their area, Google uses Business Profile signals to decide which businesses appear first.
+                </p>
+
+                <p>
+                    Optimising your profile involves refining categories, services, descriptions, images, posts, reviews, and location signals so your business becomes more visible, trustworthy, and clickable in local search results.
+                </p>
+
+                <p>
+                    A fully optimised profile turns Google Search and Maps into a consistent source of calls, visits, and enquiries.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>What We Optimise Inside Your Google Business Profile</h3>
+
+                <p>
+                    We go far beyond basic setup. We optimise:
+                </p>
+
+                <ul>
+                    <li>Business categories and subcategories</li>
+                    <li>Service and product listings with keywords</li>
+                    <li>Business description for local search relevance</li>
+                    <li>High-quality geo-tagged images</li>
+                    <li>Weekly Google Posts for activity signals</li>
+                    <li>Review acquisition and response strategy</li>
+                    <li>Q&A section with pre-optimised questions</li>
+                    <li>NAP consistency across the web</li>
+                    <li>Map pin accuracy and service areas</li>
+                </ul>
+
+                <p class="national-about-note">
+                    These elements directly influence your local pack rankings.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY GBP IS CRITICAL -->
+<section class="section section-national-growth" id="gbp-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Google Business Profile Is Critical for Local Businesses</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                For local searches, Google often shows Business Profiles before websites. If your profile is not fully optimised, you are losing customers to competitors who appear higher in the map results.
+            </p>
+
+            <p>
+                A professionally optimised Google Business Profile increases visibility, builds trust through reviews and content, and turns local searches into real customers.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
     <!-- CTA -->
     <section class="section gmb-cta" style="margin-top:35px" id="cta">
         <div class="container">

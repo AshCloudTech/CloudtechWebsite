@@ -198,6 +198,74 @@
         </div>
     </section>
 
+    <!-- WHAT ARE LOCAL SEO SERVICES -->
+<section class="section section-national-about" id="about-local-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are Local SEO Services?</h2>
+
+                <p>
+                    Local SEO services focus on helping your business appear in location-based searches when customers look for services “near me” or within their area. These searches often trigger Google’s map pack, where only the top three local businesses are shown prominently above regular search results.
+                </p>
+
+                <p>
+                    Local SEO combines website optimisation, Google Business Profile enhancement, local citations, reviews, and location signals to improve your visibility where it matters most in front of nearby customers ready to buy.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>What’s Included in Professional Local SEO</h3>
+
+                <p>
+                    A complete local SEO campaign includes:
+                </p>
+
+                <ul>
+                    <li>Google Business Profile optimisation</li>
+                    <li>NAP consistency across directories</li>
+                    <li>Local citation building</li>
+                    <li>Location-based keyword targeting</li>
+                    <li>On-page local landing pages</li>
+                    <li>Review acquisition strategy</li>
+                    <li>Local link building</li>
+                    <li>Map pack optimisation</li>
+                    <li>Mobile optimisation for local searches</li>
+                </ul>
+
+                <p class="national-about-note">
+                    These elements work together to strengthen your local presence across Google Search and Maps.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY LOCAL SEO IS ESSENTIAL -->
+<section class="section section-national-growth" id="local-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Local SEO Is Essential for Small and Medium Businesses</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                Most customers now search online before visiting a local business. If your company does not appear in local search results or the map pack, you are losing customers to competitors who do.
+            </p>
+
+            <p>
+                Local SEO ensures your business is visible at the exact moment people are searching for your services nearby, turning searches into calls, visits, and enquiries.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
     <!-- CTA -->
     <section class="section local-cta" style="margin-top:35px" id="cta">
         <div class="container">

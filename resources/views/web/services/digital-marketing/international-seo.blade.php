@@ -229,6 +229,70 @@
             </div>
         </div>
     </section>
+    <!-- WHAT ARE INTERNATIONAL SEO SERVICES -->
+<section class="section section-national-about" id="about-international-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are International SEO Services?</h2>
+
+                <p>
+                    International SEO services help businesses rank in search engines across multiple countries and languages. Unlike standard SEO, international SEO focuses on optimising your website so search engines understand which countries you target, which languages you serve, and which version of your content should appear for users in different regions.
+                </p>
+
+                <p>
+                    This involves advanced technical setup such as hreflang implementation, multilingual content optimisation, geo-targeting, and country-specific keyword research to ensure your website performs strongly in each target market.
+                </p>
+
+                <p>
+                    If your customers are located in different countries, international SEO is essential for making your website visible, relevant, and competitive worldwide.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Who Needs International SEO?</h3>
+
+                <ul>
+                    <li>eCommerce brands shipping worldwide</li>
+                    <li>SaaS and digital platforms with global users</li>
+                    <li>Businesses expanding into new countries</li>
+                    <li>Companies with multilingual websites</li>
+                    <li>B2B brands targeting international markets</li>
+                    <li>Organisations competing in multiple regions</li>
+                </ul>
+
+                <p class="national-about-note">
+                    If your audience speaks different languages or lives in different countries, international SEO ensures they find the right version of your website.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY INTERNATIONAL SEO IS CRITICAL -->
+<section class="section section-national-growth" id="international-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why International SEO Is Critical for Global Growth</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                Without international SEO, search engines may show the wrong version of your website to users in different countries, or fail to rank your pages at all. This leads to lost traffic, poor user experience, and missed revenue opportunities.
+            </p>
+
+            <p>
+                A properly executed international SEO strategy ensures your website ranks for the right keywords, in the right language, in the right country giving your business a competitive advantage in global markets.
+            </p>
+        </div>
+
+    </div>
+</section>
+
 
     <!-- CTA -->
     <section class="section intl-cta" style="margin-top:35px" id="cta">

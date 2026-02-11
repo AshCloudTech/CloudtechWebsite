@@ -245,6 +245,72 @@
             </div>
         </div>
     </section>
+    <!-- WHAT ARE ON-PAGE SEO SERVICES -->
+<section class="section section-national-about" id="about-onpage-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are On-Page SEO Services?</h2>
+
+                <p>
+                    On-page SEO services focus on optimising individual web pages so search engines can clearly understand their topic, relevance, and value to users. This includes improving content structure, keyword placement, meta tags, internal links, schema markup, URL structure, and user experience signals that directly influence rankings.
+                </p>
+
+                <p>
+                    Unlike technical SEO, which improves the site foundation, on-page SEO ensures every page is properly optimised to rank for its target keywords and satisfy search intent.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Search Intent & Content Alignment</h3>
+
+                <p>
+                    One of the most important parts of on-page SEO is matching content to what users are actually searching for.
+                </p>
+
+                <p>
+                    We optimise pages based on:
+                </p>
+
+                <ul>
+                    <li>Informational intent (blogs and guides)</li>
+                    <li>Commercial intent (service and category pages)</li>
+                    <li>Transactional intent (product and landing pages)</li>
+                    <li>Navigational intent (homepage and brand pages)</li>
+                </ul>
+
+                <p class="national-about-note">
+                    Aligning content with intent significantly improves rankings and engagement.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY ON-PAGE SEO IS CRITICAL -->
+<section class="section section-national-growth" id="onpage-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why On-Page SEO Is Critical for Ranking Success</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                Even with strong backlinks and technical optimisation, pages will not rank if they are not properly optimised for relevance and search intent. On-page SEO ensures every element of your page works together to signal value to search engines and users.
+            </p>
+
+            <p>
+                When done correctly, on-page SEO can significantly improve rankings without needing new content or links.
+            </p>
+        </div>
+
+    </div>
+</section>
+
 
     <!-- CTA -->
     <section class="section onpage-cta" id="cta">

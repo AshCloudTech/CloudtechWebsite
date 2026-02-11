@@ -9,10 +9,7 @@
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/about/js/script.js') }}" defer></script>
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 @endpush
 
 @section('content')
@@ -61,7 +58,8 @@
                 </p>
             </div>
             <div class="story-image">
-                <img src="{{ asset('assets/images/about-us/ourstorydesk.png') }}" alt="Cloud Technologies story" class="story-photo">
+                <img src="{{ asset('assets/images/about-us/ourstorydesk.png') }}" alt="Cloud Technologies story"
+                    class="story-photo">
             </div>
         </div>
     </section>
@@ -77,61 +75,58 @@
                 </p>
             </div>
 
-            <div class="grid grid-3 solutions-grid">
-                <article class="card feature-card">
-                    <div class="card-icon icon-blue">🧭</div>
-                    <h3>Cloud Consulting</h3>
-                    <p>
-                        Expert guidance on cloud strategy, architecture, and implementation to maximise
-                        the return on your cloud investment.
-                    </p>
-                </article>
+       <div class="grid grid-3 solutions-grid solutions-grid-ui">
 
-                <article class="card feature-card">
-                    <div class="card-icon icon-teal">📊</div>
-                    <h3>Data Analytics</h3>
-                    <p>
-                        Transform data into actionable insight with analytics solutions, dashboards,
-                        and business intelligence platforms.
-                    </p>
-                </article>
+  <article class="card feature-card feature-card-ui">
+    <div class="svcIcon">
+      <i data-lucide="cloud"></i>
+    </div>
+    <h3>Cloud Consulting</h3>
+    <p>Expert guidance on cloud strategy, architecture design, and implementation to maximize your cloud investment and business outcomes.</p>
+  </article>
 
-                <article class="card feature-card">
-                    <div class="card-icon icon-purple">🔐</div>
-                    <h3>Security &amp; Compliance</h3>
-                    <p>
-                        End-to-end security and compliance services to protect your infrastructure and
-                        meet regulatory requirements.
-                    </p>
-                </article>
+  <article class="card feature-card feature-card-ui">
+    <div class="svcIcon">
+      <i data-lucide="database"></i>
+    </div>
+    <h3>Data Analytics</h3>
+    <p>Transform your data into actionable insights with our advanced analytics solutions and business intelligence platforms.</p>
+  </article>
 
-                <article class="card feature-card">
-                    <div class="card-icon icon-indigo">🖥️</div>
-                    <h3>Infrastructure</h3>
-                    <p>
-                        Scalable, reliable cloud infrastructure designed for performance, resilience,
-                        and future growth.
-                    </p>
-                </article>
+  <article class="card feature-card feature-card-ui">
+    <div class="svcIcon">
+      <i data-lucide="shield-check"></i>
+    </div>
+    <h3>Security &amp; Compliance</h3>
+    <p>Comprehensive security solutions to protect your cloud infrastructure and ensure regulatory compliance across all platforms.</p>
+  </article>
 
-                <article class="card feature-card">
-                    <div class="card-icon icon-orange">⚙️</div>
-                    <h3>DevOps Solutions</h3>
-                    <p>
-                        Modern DevOps practices, CI/CD pipelines, and automation to streamline
-                        development and operations.
-                    </p>
-                </article>
+  <article class="card feature-card feature-card-ui">
+    <div class="svcIcon">
+      <i data-lucide="server"></i>
+    </div>
+    <h3>Infrastructure</h3>
+    <p>Scalable and reliable cloud infrastructure solutions designed to support your growing business needs and operations.</p>
+  </article>
 
-                <article class="card feature-card">
-                    <div class="card-icon icon-green">🕒</div>
-                    <h3>24/7 Support</h3>
-                    <p>
-                        Around-the-clock monitoring and technical support to keep mission-critical
-                        systems running smoothly.
-                    </p>
-                </article>
-            </div>
+  <article class="card feature-card feature-card-ui">
+    <div class="svcIcon">
+      <i data-lucide="code"></i>
+    </div>
+    <h3>DevOps Solutions</h3>
+    <p>Streamline your development and operations with our cutting-edge DevOps practices and automation tools.</p>
+  </article>
+
+  <article class="card feature-card feature-card-ui">
+    <div class="svcIcon">
+      <i data-lucide="headset"></i>
+    </div>
+    <h3>24/7 Support</h3>
+    <p>Round-the-clock technical support and monitoring to ensure your systems run smoothly without interruption.</p>
+  </article>
+
+</div>
+
         </div>
     </section>
 
@@ -211,8 +206,7 @@
             <div class="grid grid-4 leadership-grid">
                 <article class="card leader-card">
                     {{-- <div class="leader-photo leader-photo-1"></div> --}}
-                    <img src={{ asset('assets/images/about-us/michael.png') }}
-                        alt="Michael Chen" class="leader-photo">
+                    <img src={{ asset('assets/images/about-us/michael.png') }} alt="Michael Chen" class="leader-photo">
                     <h3>Michael Chen</h3>
                     <p class="leader-role">Chief Executive Officer</p>
                     <p class="leader-text">
@@ -223,8 +217,7 @@
 
                 <article class="card leader-card">
                     {{-- <div class="leader-photo leader-photo-2"></div> --}}
-                    <img src={{ asset('assets/images/about-us/sarah.png') }}
-                        alt="Sarah Johnson" class="leader-photo">
+                    <img src={{ asset('assets/images/about-us/sarah.png') }} alt="Sarah Johnson" class="leader-photo">
                     <h3>Sarah Johnson</h3>
                     <p class="leader-role">Chief Technology Officer</p>
                     <p class="leader-text">
@@ -235,8 +228,7 @@
 
                 <article class="card leader-card">
                     {{-- <div class="leader-photo leader-photo-3"></div> --}}
-                    <img src={{ asset('assets/images/about-us/david.png') }}
-                        alt="David Martinez" class="leader-photo">
+                    <img src={{ asset('assets/images/about-us/david.png') }} alt="David Martinez" class="leader-photo">
                     <h3>David Martinez</h3>
                     <p class="leader-role">Chief Operations Officer</p>
                     <p class="leader-text">
@@ -247,8 +239,7 @@
 
                 <article class="card leader-card">
                     {{-- <div class="leader-photo leader-photo-4"></div> --}}
-                    <img src={{ asset('assets/images/about-us/emily.png') }}
-                        alt="Emily Thompson" class="leader-photo">
+                    <img src={{ asset('assets/images/about-us/emily.png') }} alt="Emily Thompson" class="leader-photo">
                     <h3>Emily Thompson</h3>
                     <p class="leader-role">Chief Marketing Officer</p>
                     <p class="leader-text">
@@ -264,7 +255,8 @@
     <section class="section section-alt careers-section" id="careers">
         <div class="container careers-grid">
             <div class="careers-image">
-                <img src="{{ asset('assets/images/about-us/joinus.png') }}" alt="Cloud Technologies careers" class="careers-photo">
+                <img src="{{ asset('assets/images/about-us/joinus.png') }}" alt="Cloud Technologies careers"
+                    class="careers-photo">
                 {{-- <div class="careers-photo"></div> --}}
             </div>
             <div class="careers-text">
@@ -284,126 +276,179 @@
         </div>
     </section>
 
-    <!-- STATS + JOURNEY OF EXCELLENCE -->
-    <section class="section stats-section" id="journey">
-        <div class="stats-bar about-stats">
-            <div class="container stats-inner stats-inner-about">
-                <div class="stat-item">
-                    <p class="stat-value">500+</p>
-                    <p class="stat-label">Clients Worldwide</p>
-                </div>
-                <div class="stat-item">
-                    <p class="stat-value">1000+</p>
-                    <p class="stat-label">Projects Completed</p>
-                </div>
-                <div class="stat-item">
-                    <p class="stat-value">98%</p>
-                    <p class="stat-label">Client Satisfaction</p>
-                </div>
-                <div class="stat-item">
-                    <p class="stat-value">24/7</p>
-                    <p class="stat-label">Support Available</p>
-                </div>
-                <div class="stat-item">
-                    <p class="stat-value">15+</p>
-                    <p class="stat-label">Years Experience</p>
-                </div>
-                <div class="stat-item">
-                    <p class="stat-value">200+</p>
-                    <p class="stat-label">Team Members</p>
-                </div>
-            </div>
-        </div>
+    <!-- STATS + JOURNEY OF EXCELLENCE (UI MATCH) -->
+    <section class="section journey-ui" id="journey">
+        <div class="container">
 
-        <div class="journey-wrapper">
-            <div class="container">
-                <div class="section-header section-header-light journey-header">
-                    <h2>Our Journey of Excellence</h2>
-                    <p>
-                        Committed to delivering exceptional results and driving innovation in cloud technology
-                        for organisations worldwide.
+            {{-- Stats Grid --}}
+            <div class="journey-stats">
+                <article class="stat-box">
+                    <div class="stat-box__value">500+</div>
+                    <div class="stat-box__label">Clients Worldwide</div>
+                </article>
+
+                <article class="stat-box">
+                    <div class="stat-box__value">1000+</div>
+                    <div class="stat-box__label">Projects Completed</div>
+                </article>
+
+                <article class="stat-box">
+                    <div class="stat-box__value">98%</div>
+                    <div class="stat-box__label">Client Satisfaction</div>
+                </article>
+
+                <article class="stat-box">
+                    <div class="stat-box__value">24/7</div>
+                    <div class="stat-box__label">Support Available</div>
+                </article>
+
+                <article class="stat-box">
+                    <div class="stat-box__value">15+</div>
+                    <div class="stat-box__label">Years Experience</div>
+                </article>
+
+                <article class="stat-box">
+                    <div class="stat-box__value">200+</div>
+                    <div class="stat-box__label">Team Members</div>
+                </article>
+            </div>
+
+            {{-- Heading --}}
+            <div class="journey-head">
+                <h2>Our Journey of Excellence</h2>
+                <p>
+                    Committed to delivering exceptional results and driving innovation in cloud technology
+                    for organisations worldwide.
+                </p>
+            </div>
+
+            {{-- Feature Cards --}}
+            <div class="journey-grid-ui">
+                <article class="journey-card-ui">
+                    <div class="journey-ico" aria-hidden="true">
+                        {{-- medal --}}
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2l3 6h-6l3-6zm-4 8h8v2.1a5 5 0 1 1-8 0V10zm2 3.1a3 3 0 1 0 4 0V12h-4v1.1z" />
+                        </svg>
+                    </div>
+                    <h3>Industry Recognition</h3>
+                    <p>Awarded Best Cloud Service Provider 2023 by Tech Innovation Awards for outstanding service delivery.
                     </p>
-                </div>
+                </article>
 
-                <div class="grid grid-3 journey-grid">
-                    <article class="card journey-card">
-                        <h3>Industry Recognition</h3>
-                        <p>
-                            Awarded as a leading cloud service provider by multiple industry bodies
-                            for outstanding delivery.
-                        </p>
-                    </article>
+                <article class="journey-card-ui">
+                    <div class="journey-ico" aria-hidden="true">
+                        {{-- shield --}}
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2l8 4v6c0 5-3.4 9.4-8 10-4.6-.6-8-5-8-10V6l8-4zm0 4.2L6 8v4c0 3.7 2.3 6.9 6 7.7 3.7-.8 6-4 6-7.7V8l-6-1.8z" />
+                        </svg>
+                    </div>
+                    <h3>Security Certified</h3>
+                    <p>ISO 27001 and SOC 2 Type II certified, ensuring the highest standards of data security and privacy.
+                    </p>
+                </article>
 
-                    <article class="card journey-card">
-                        <h3>Security Certified</h3>
-                        <p>
-                            ISO 27001 and SOC 2 aligned practices, ensuring the highest standards of security
-                            and data privacy.
-                        </p>
-                    </article>
+                <article class="journey-card-ui">
+                    <div class="journey-ico" aria-hidden="true">
+                        {{-- globe --}}
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm7.9 9H16.9a16 16 0 0 0-1.3-6A8 8 0 0 1 19.9 11zM12 4c1.3 1.7 2.2 4 2.6 7H9.4c.4-3 1.3-5.3 2.6-7zM4.1 13H7.1a16 16 0 0 0 1.3 6A8 8 0 0 1 4.1 13zM7.1 11H4.1a8 8 0 0 1 4.3-6 16 16 0 0 0-1.3 6zm2.3 2h5.2c-.4 3-1.3 5.3-2.6 7-1.3-1.7-2.2-4-2.6-7zm6.2 6a16 16 0 0 0 1.3-6h3a8 8 0 0 1-4.3 6z" />
+                        </svg>
+                    </div>
+                    <h3>Global Presence</h3>
+                    <p>Operating in 25+ countries with local support teams providing seamless service worldwide.</p>
+                </article>
 
-                    <article class="card journey-card">
-                        <h3>Global Presence</h3>
-                        <p>
-                            Operations across 25+ countries with local teams providing on-the-ground insight
-                            and support.
-                        </p>
-                    </article>
+                <article class="journey-card-ui">
+                    <div class="journey-ico" aria-hidden="true">
+                        {{-- user star --}}
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 12a4.2 4.2 0 1 0-4.2-4.2A4.2 4.2 0 0 0 12 12zm0 2c-4.2 0-8 2.2-8 5v1h16v-1c0-2.8-3.8-5-8-5zm8.2-4.7l.6 1.2 1.3.2-1 .9.2 1.3-1.1-.6-1.1.6.2-1.3-1-.9 1.3-.2.6-1.2z" />
+                        </svg>
+                    </div>
+                    <h3>Expert Team</h3>
+                    <p>Over 150 certified cloud architects and engineers with expertise across all major cloud platforms.
+                    </p>
+                </article>
 
-                    <article class="card journey-card">
-                        <h3>Expert Team</h3>
-                        <p>
-                            Over 150 certified cloud architects and engineers with expertise across all major
-                            cloud platforms.
-                        </p>
-                    </article>
+                <article class="journey-card-ui">
+                    <div class="journey-ico" aria-hidden="true">
+                        {{-- bulb --}}
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M9 21h6v-1H9v1zm3-19a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2zm3 11.6a1 1 0 0 0-.4.8V16h-5.2v-1.6a1 1 0 0 0-.4-.8A5 5 0 1 1 15 13.6z" />
+                        </svg>
+                    </div>
+                    <h3>Innovation Leader</h3>
+                    <p>Pioneering new cloud solutions and methodologies that set industry standards and best practices.</p>
+                </article>
 
-                    <article class="card journey-card">
-                        <h3>Innovation Leader</h3>
-                        <p>
-                            Pioneering new cloud solutions and methodologies that set benchmarks for the industry.
-                        </p>
-                    </article>
-
-                    <article class="card journey-card">
-                        <h3>Client Success</h3>
-                        <p>
-                            Dedicated to delivering measurable business value and ROI in every client engagement.
-                        </p>
-                    </article>
-                </div>
+                <article class="journey-card-ui">
+                    <div class="journey-ico" aria-hidden="true">
+                        {{-- hand heart --}}
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 21s-6.7-4.4-8.7-7.6C1.7 10.8 3.3 8 6.2 8c1.4 0 2.6.7 3.3 1.7C10.2 8.7 11.4 8 12.8 8c2.9 0 4.5 2.8 2.9 5.4C18.7 16.6 12 21 12 21z" />
+                            <path
+                                d="M2 17.5h6.2l1.3.9h5.8c1.1 0 2-.9 2-2s-.9-2-2-2h-3.2l-.8-.6c-.7-.5-1.7-.5-2.4 0l-.9.6H2v3.1z" />
+                        </svg>
+                    </div>
+                    <h3>Client Success</h3>
+                    <p>Dedicated to delivering measurable business value and ROI for every client engagement.</p>
+                </article>
             </div>
+
         </div>
     </section>
+
 
     <!-- TRUSTED PARTNERS -->
     <section class="section section-alt" id="partners">
         <div class="container">
             <div class="section-header">
                 <h2>Trusted Technology Partners</h2>
-                <p>
-                    We collaborate with global technology leaders to deliver best-in-class cloud solutions.
-                </p>
+                <p>We collaborate with industry leaders to deliver best-in-class cloud solutions</p>
             </div>
 
-            <div class="grid grid-3 partners-grid">
-                <article class="card partner-card">
-                    <h3>Microsoft Azure</h3>
-                    <p>Gold Partner</p>
+            <div class="grid grid-3 partners-grid partners-grid--ui">
+                <article class="card partner-card partner-card--ui fx-reveal">
+                    <div class="partner-icon partner-icon--azure" aria-hidden="true">
+                        {{-- Azure: simple 2x2 tiles --}}
+                        <span class="partner-tiles">
+                            <i></i><i></i><i></i><i></i>
+                        </span>
+                    </div>
+
+                    <h3 class="partner-title">Microsoft Azure</h3>
+                    <p class="partner-badge">Gold Partner</p>
                 </article>
 
-                <article class="card partner-card">
-                    <h3>Amazon Web Services</h3>
-                    <p>Advanced Partner</p>
+                <article class="card partner-card partner-card--ui fx-reveal">
+                    <div class="partner-icon partner-icon--aws" aria-hidden="true">
+                        {{-- AWS: simple “a” mark --}}
+                        <span class="partner-letter">a</span>
+                    </div>
+
+                    <h3 class="partner-title">Amazon AWS</h3>
+                    <p class="partner-badge">Advanced Partner</p>
                 </article>
 
-                <article class="card partner-card">
-                    <h3>Google Cloud</h3>
-                    <p>Premier Partner</p>
+                <article class="card partner-card partner-card--ui fx-reveal">
+                    <div class="partner-icon partner-icon--gcp" aria-hidden="true">
+                        {{-- GCP: simple “G” mark --}}
+                        <span class="partner-letter">G</span>
+                    </div>
+
+                    <h3 class="partner-title">Google Cloud</h3>
+                    <p class="partner-badge">Premier Partner</p>
                 </article>
             </div>
         </div>
     </section>
+
 
     <!-- GLOBAL PRESENCE -->
     <section class="section" id="global">
@@ -419,24 +464,23 @@
             <div class="grid grid-3 global-grid">
                 <article class="card global-card">
                     {{-- <div class="global-photo global-photo-1"></div> --}}
-                                        <img src={{ asset('assets/images/about-us/sanfrance.png') }}
-                        alt="San Francisco Office" class="global-photo">
+                    <img src={{ asset('assets/images/about-us/sanfrance.png') }} alt="San Francisco Office"
+                        class="global-photo">
                     <h3>San Francisco, United States</h3>
                     <p>123 Market Street, Suite 500</p>
                 </article>
 
                 <article class="card global-card">
                     {{-- <div class="global-photo global-photo-2"></div> --}}
-                    <img src={{ asset('assets/images/about-us/london.png') }}
-                        alt="London Office" class="global-photo">
+                    <img src={{ asset('assets/images/about-us/london.png') }} alt="London Office" class="global-photo">
                     <h3>London, United Kingdom</h3>
                     <p>45 Canary Wharf, Level 12</p>
                 </article>
 
                 <article class="card global-card">
                     {{-- <div class="global-photo global-photo-3"></div> --}}
-                    <img src={{ asset('assets/images/about-us/singapore.png') }}
-                        alt="Singapore Office" class="global-photo">
+                    <img src={{ asset('assets/images/about-us/singapore.png') }} alt="Singapore Office"
+                        class="global-photo">
                     <h3>Singapore, Singapore</h3>
                     <p>88 Marina Bay, Tower A</p>
                 </article>
@@ -444,7 +488,8 @@
 
             <div class="worldmap-card">
                 {{-- <div class="worldmap-photo"></div> --}}
-                <img src="{{ asset('assets/images/about-us/worldmap.png') }}" alt="Global Offices" class="worldmap-photo">
+                <img src="{{ asset('assets/images/about-us/worldmap.png') }}" alt="Global Offices"
+                    class="worldmap-photo">
                 <div class="worldmap-text">
                     <h3>See Where We Are</h3>
                     <p>
@@ -456,49 +501,49 @@
         </div>
     </section>
 
-<!-- CTA SECTION -->
-<section class="section about-cta" id="contact">
-  <div class="container">
+    <!-- CTA SECTION -->
+    <section class="section about-cta" id="contact">
+        <div class="container">
 
-    <!-- Top CTA -->
-    <div class="cta-inner about-cta-inner">
-      <div class="cta-main">
-        <h2>Ready to Transform Your Business?</h2>
-        <p>
-          Join hundreds of companies that trust Cloud Technologies to power their
-          digital transformation journey.
-        </p>
-      </div>
+            <!-- Top CTA -->
+            <div class="cta-inner about-cta-inner">
+                <div class="cta-main">
+                    <h2>Ready to Transform Your Business?</h2>
+                    <p>
+                        Join hundreds of companies that trust Cloud Technologies to power their
+                        digital transformation journey.
+                    </p>
+                </div>
 
-      <div class="cta-actions about-cta-actions">
-        <a href="#contact-form" class="btn btn-primary">Get Started Today</a>
-        <a href="#contact-form" class="btn btn-outline-light">Schedule a Demo</a>
-      </div>
-    </div>
+                <div class="cta-actions about-cta-actions">
+                    <a href="#contact-form" class="btn btn-primary">Get Started Today</a>
+                    <a href="#contact-form" class="btn btn-outline-light">Schedule a Demo</a>
+                </div>
+            </div>
 
-    <!-- Bottom Cards -->
-    <div class="cta-cards">
-      <div class="cta-card">
-        <div class="cta-icon"><i class="fa-solid fa-headphones"></i></div>
-        <h4>Free Consultation</h4>
-        <p>Get expert advice tailored to your business needs</p>
-      </div>
+            <!-- Bottom Cards -->
+            <div class="cta-cards">
+                <div class="cta-card">
+                    <div class="cta-icon"><i class="fa-solid fa-headphones"></i></div>
+                    <h4>Free Consultation</h4>
+                    <p>Get expert advice tailored to your business needs</p>
+                </div>
 
-      <div class="cta-card">
-        <div class="cta-icon"><i class="fa-solid fa-shield"></i></div>
-        <h4>Secure & Reliable</h4>
-        <p>Enterprise-grade security and 99.9% uptime SLA</p>
-      </div>
+                <div class="cta-card">
+                    <div class="cta-icon"><i class="fa-solid fa-shield"></i></div>
+                    <h4>Secure & Reliable</h4>
+                    <p>Enterprise-grade security and 99.9% uptime SLA</p>
+                </div>
 
-      <div class="cta-card">
-        <div class="cta-icon"><i class="fa-solid fa-rocket"></i></div>
-        <h4>Fast Implementation</h4>
-        <p>Quick deployment with minimal disruption</p>
-      </div>
-    </div>
+                <div class="cta-card">
+                    <div class="cta-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h4>Fast Implementation</h4>
+                    <p>Quick deployment with minimal disruption</p>
+                </div>
+            </div>
 
-  </div>
-</section>
+        </div>
+    </section>
 
 
     <!-- CONTACT FORM (SIMPLE) -->

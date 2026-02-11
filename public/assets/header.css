@@ -77,7 +77,8 @@
 }
 
 .btn-accent {
-    background-color: #0b1020;
+    /* background-color: #0b1020; */
+    background: linear-gradient(356deg, #008a1e, #04ff0f);
     color: #ffffff;
 }
 .btn-sm {
@@ -175,7 +176,7 @@ html[data-theme="dark"] .site-logo--dark{ display:block; }
   gap: 4px;
 
   min-width: 260px;
-  background: rgba(12, 16, 38, 0.98);
+  background: rgba(255, 255, 255, 0.98);
   border: 1px solid rgba(255,255,255,0.06);
   border-radius: 12px;
   box-shadow: 0 18px 40px rgba(0,0,0,0.35);

@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class CaseStudyController extends Controller
 {
-   public function index()
+    public function index()
     {
         $caseStudies = CaseStudy::query()
             ->where('is_published', true)
@@ -35,6 +35,7 @@ class CaseStudyController extends Controller
                 'features',
                 'impacts',
                 'techStacks',
+                'testimonials',
                 'points' => fn($q) => $q->orderBy('sort_order'),
             ])
             ->firstOrFail();

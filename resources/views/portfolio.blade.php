@@ -18,7 +18,7 @@
 <section class="hero portfolio-hero" id="portfolio">
   <div class="container hero-content">
     <h1>Our Portfolio of Websites</h1>
-    <h3 style="color:#2563EB;">Why Choose Cloud Technologies Ltd?</h3>
+    <h3 style="color:#fc8a10;">Why Choose Cloud Technologies Ltd?</h3>
     <p class="subtitle">
       We’ve built websites across platforms like GoDaddy, Wix, Shopify, Squarespace, WordPress, and custom builds.
       Below is a showcase of recent projects grouped by platform.

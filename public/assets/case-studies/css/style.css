@@ -31,7 +31,7 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
 
 .filter-bar { display:flex; gap:10px; flex-wrap: wrap; justify-content:center; margin:20px 0; }
 .filter { padding:8px 18px; border-radius:20px; white-space: nowrap; border:1px solid #ddd; background:#fff; cursor:pointer; }
-.filter.active { background:#2563eb; color:#fff; border-color:#2563eb; }
+.filter.active { background:#fc8a10; color:#fff; border-color:#fc8a10; }
 
 .grid { display:grid; gap:24px; }
 .cs-grid { grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); }
@@ -73,7 +73,7 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
 .cta { background:#ff8400de; color:white; padding:70px 0; text-align:center; }
 .cta-actions { display:flex; justify-content:center; gap:20px; margin-top:20px; }
 .btn { padding:10px 20px; border-radius:20px; text-decoration:none; }
-.btn-primary { background:white; color:#2563eb; font-weight:600; }
+.btn-primary { background:white; color:#fc8a10; font-weight:600; }
 .btn-light { background:#ffffff22; color:white; border:1px solid #fff; }
 
 
@@ -102,4 +102,142 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
   .cs-grid > .cs-card{
     flex-basis: 380px;
   }
+}
+
+
+/* =========================================
+   CASE STUDIES GRID (match screenshot)
+========================================= */
+
+.case-grid-ui{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  align-items: stretch;
+}
+
+/* Card */
+.caseCardUI{
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.caseCardUI:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.12);
+}
+
+/* Top image */
+.caseCardUI__img{
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 7;
+  background: #eef1f7;
+  overflow: hidden;
+}
+
+.caseCardUI__img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.caseCardUI__imgPlaceholder{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #eef1f7, #f7f8fc);
+}
+
+/* Body */
+.caseCardUI__body{
+  padding: 18px 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Meta row: tag left + small text right */
+.caseCardUI__meta{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 24px;
+}
+
+.tag-pill{
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+/* Screenshot-like pill: soft orange */
+.tag-pill--orange{ background: rgba(255, 133, 2, 0.14); color: #ff8502; }
+.tag-pill--green{ background: rgba(34, 197, 94, 0.14); color: #16a34a; }
+.tag-pill--purple{ background: rgba(124, 58, 237, 0.14); color: #6d28d9; }
+
+.caseCardUI__metaRight{
+  font-size: 12.5px;
+  color: rgba(15, 23, 42, 0.55);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 55%;
+  text-align: right;
+}
+
+.caseCardUI__title{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 850;
+  color: #0b1020;
+  line-height: 1.35;
+}
+
+.caseCardUI__desc{
+  margin: 0;
+  color: rgba(15, 23, 42, 0.70);
+  font-size: 13.5px;
+  line-height: 1.65;
+  /* keep card heights consistent */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Link */
+.caseCardUI__link{
+  margin-top: 2px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 850;
+  font-size: 13.5px;
+  color: #ff8502;
+  text-decoration: none;
+}
+
+.caseCardUI__link:hover{
+  text-decoration: underline;
+}
+
+/* Responsive: 2 cols tablet, 1 col mobile */
+@media (max-width: 1024px){
+  .case-grid-ui{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px){
+  .case-grid-ui{ grid-template-columns: 1fr; }
+  .caseCardUI__img{ aspect-ratio: 16 / 8; }
 }

@@ -143,6 +143,71 @@
         </div>
     </section>
 
+       <!-- What Are WooCommerce Development Services?  -->
+<section class="section section-national-about" id="about-meta_ads-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are WooCommerce Development Services?</h2>
+
+                <p>
+                WooCommerce development services focus on building scalable, secure, and conversion-focused online stores using WooCommerce on WordPress. These services include custom store setup, theme design, payment integrations, product architecture, performance optimisation, and ongoing support.
+                </p>
+
+                <p>
+                  A professional WooCommerce development approach ensures your online store is easy to manage, technically strong, and structured to convert visitors into paying customers.
+                </p>
+                <p>If you want a powerful eCommerce website that is flexible, SEO-friendly, and built for growth, WooCommerce development services are the ideal solution.</p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Who Needs WooCommerce Development? </h3>
+
+                <p>
+                  WooCommerce development is ideal for: 
+                </p>
+
+                <ul>
+                    <li>Businesses selling products across the UK</li>
+                    <li>Retail brands moving from offline to online sales</li>
+                    <li>Companies needing full control over their store features</li>
+                    <li>Startups launching new eCommerce brand</li>
+                    <li>Businesses requiring custom checkout, shipping, or pricing rules</li>
+                    <li>Stores needing advanced integrations and scalability</li>
+                </ul>
+
+                <p class="">
+                 If selling online is central to your business, WooCommerce provides the flexibility and power to scale without limitations.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Why WooCommerce Is Essential for eCommerce Growth   -->
+<section class="section section-national-growth" id="meta_ads-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why WooCommerce Is Essential for eCommerce Growth </h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+             WooCommerce combines the flexibility of WordPress with powerful eCommerce functionality, giving businesses complete control over store design, checkout flows, product structure, and third-party integrations. Unlike closed platforms, WooCommerce allows full customisation while remaining SEO-friendly, scalable, and easy to manage.
+            </p>
+
+            <!-- <p>
+              With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+            </p> -->
+        </div>
+
+    </div>
+</section>
+
     <!-- CTA -->
     <section class="section section-cta" id="contact">
         <div class="container">

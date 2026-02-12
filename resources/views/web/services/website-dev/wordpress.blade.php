@@ -166,6 +166,70 @@
             </div>
         </div>
     </section>
+       <!-- What Are WordPress Development Services?  -->
+<section class="section section-national-about" id="about-meta_ads-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are WordPress Development Services? </h2>
+
+                <p>
+                 WordPress development services focus on building fast, secure, and SEO-friendly websites using WordPress, the world’s most popular content management system. These services include custom theme development, plugin engineering, performance optimisation, security hardening, and long-term maintenance.
+                </p>
+
+                <p>
+                   A professional WordPress development approach ensures your website is easy to manage, scalable as your business grows, and technically structured to rank well on search engines.
+                </p>
+                <p>If you want a website that combines flexibility, performance, and long-term reliability, investing in expert WordPress development services is the right choice.</p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Who Needs WordPress Development? </h3>
+
+                <p>
+                  WordPress development is ideal for:
+                </p>
+
+                <ul>
+                    <li>Businesses needing a professional marketing website</li>
+                    <li>Companies wanting full control over their content</li>
+                    <li>eCommerce stores using WooCommerce</li>
+                    <li>Startups and growing brands needing scalable website</li>
+                    <li>Service providers generating leads online</li>
+                    <li>Organisations requiring custom features and integrations</li>
+                </ul>
+
+                <p class="">
+                  If your website is central to your marketing, WordPress gives you the flexibility and power to grow without limitations.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Why WordPress Is Essential for Business Growth  -->
+<section class="section section-national-growth" id="meta_ads-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why WordPress Is Essential for Business Growth  </h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+              Websites built with WordPress offer the perfect balance of usability, performance, and SEO structure. Unlike restrictive builders, WordPress allows complete customisation while remaining easy for teams to manage daily content. A well-developed WordPress website becomes a long-term digital asset that supports marketing, branding, and lead generation.
+            </p>
+
+            <!-- <p>
+              With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+            </p> -->
+        </div>
+
+    </div>
+</section>
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">

@@ -689,6 +689,11 @@ button {
 .national-growth-card p:last-child {
     margin-bottom: 0;
 }
+@media (max-width: 1024px) {
+    .national-about-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* ==== CTA ==== */
 

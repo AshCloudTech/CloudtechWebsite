@@ -734,3 +734,10 @@ button{ font-family: inherit; }
   .stats-grid{ grid-template-columns: 1fr; }
   .hero-inner{ max-width: 100%; }
 }
+
+.service-link {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fc8a10;
+}

@@ -30,59 +30,103 @@
 
 
 
+
             <nav class="main-nav">
-                <ul>
-                    <li>
-                        <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">
-                            Home
-                        </a>
-                    </li>
+    <ul>
+        <li>
+          <a href="{{ route('home') }}"
+   class="{{ request()->path() === '/' ? 'active' : '' }}">
+    Home
+</a>
+        </li>
+<li class="has-dropdown {{ request()->routeIs('industries.*') ? 'active' : '' }}">
 
-                    <li class="has-dropdown">
-                        <a href="#industries">
-                            Industries
-                        </a>
-                        <ul class="dropdown">
-                            <li><a href="{{ route('industries.cloudhealth') }}">CloudHealth</a></li>
-                            <li><a href="{{ route('industries.cloudcare') }}">CloudCare</a></li>
-                            <li><a href="{{ route('industries.cloudedu') }}">CloudEdu</a></li>
-                            <li><a href="{{ route('industries.cloudtravel') }}">CloudTravel</a></li>
-                            <li><a href="{{ route('industries.cloudrecruit') }}">CloudRecruit</a></li>
-                            <li><a href="{{ route('industries.cloudpublic') }}">CloudPublic</a></li>
-                        </ul>
-                    </li>
+    <a href="#industries"
+       class="{{ request()->routeIs('industries.*') ? 'active' : '' }}">
+        Industries
+    </a>
 
-                    <li>
-                        <a href="{{ route('portfolio') }}"
-                            class="{{ request()->routeIs('portfolio*') ? 'active' : '' }}">
-                            Portfolio
-                        </a>
-                    </li>
+    <ul class="dropdown">
+        <li>
+            <a href="{{ route('industries.cloudhealth') }}"
+               class="{{ request()->routeIs('industries.cloudhealth') ? 'active' : '' }}">
+                CloudHealth
+            </a>
+        </li>
+        
 
-                    <li>
-                        <a href="{{ route('case.studies') }}"
-                            class="{{ request()->routeIs('case.studies*') ? 'active' : '' }}">
-                            Case Studies
-                        </a>
-                    </li>
+        <li>
+            <a href="{{ route('industries.cloudcare') }}"
+               class="{{ request()->routeIs('industries.cloudcare') ? 'active' : '' }}">
+                CloudCare
+            </a>
+        </li>
 
-                    <li>
-                        <a href="{{ route('pricing') }}"
-                            class="{{ request()->routeIs('pricing*') ? 'active' : '' }}">Pricing</a>
-                    </li>
+        <li>
+            <a href="{{ route('industries.cloudedu') }}"
+               class="{{ request()->routeIs('industries.cloudedu') ? 'active' : '' }}">
+                CloudEdu
+            </a>
+        </li>
 
-                    <li>
-                        <a href="{{ route('about.us') }}"
-                            class="{{ request()->routeIs('about.us*') ? 'active' : '' }}">
-                            About Us
-                        </a>
-                    </li>
+        <li>
+            <a href="{{ route('industries.cloudtravel') }}"
+               class="{{ request()->routeIs('industries.cloudtravel') ? 'active' : '' }}">
+                CloudTravel
+            </a>
+        </li>
 
-                    <li>
-                        <a href="{{ route('contact.us') }}">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
+        <li>
+            <a href="{{ route('industries.cloudrecruit') }}"
+               class="{{ request()->routeIs('industries.cloudrecruit') ? 'active' : '' }}">
+                CloudRecruit
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ route('industries.cloudpublic') }}"
+               class="{{ request()->routeIs('industries.cloudpublic') ? 'active' : '' }}">
+                CloudPublic
+            </a>
+        </li>
+    </ul>
+</li>
+
+
+        <li>
+            <a href="{{ route('portfolio') }}" class="{{ request()->routeIs('portfolio*') ? 'active' : '' }}">
+                Portfolio
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ route('case.studies') }}" class="{{ request()->routeIs('case.studies*') ? 'active' : '' }}">
+                Case Studies
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ route('pricing') }}" class="{{ request()->routeIs('pricing*') ? 'active' : '' }}">
+                Pricing
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ route('about.us') }}"
+   class="{{ request()->is('about-us') ? 'active' : '' }}">
+    About Us
+</a>
+
+        </li>
+
+        <li>
+            <a href="{{ route('contact.us') }}" class="{{ request()->routeIs('contact.us') ? 'active' : '' }}">
+                Contact Us
+            </a>
+        </li>
+    </ul>
+</nav>
+
 
 
             <a href="https://wa.me/{{ $globalCompany?->whatsapp }}" class="btn btn-sm btn-accent header-cta"

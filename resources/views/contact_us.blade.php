@@ -80,6 +80,25 @@
 
         $socialInitial = fn($p) => strtoupper(substr(trim((string) $p), 0, 1)) ?: 'S';
     @endphp
+                           @php
+    $socialIcon = function (string $platform) {
+        $p = strtolower(trim($platform));
+
+        return match (true) {
+            str_contains($p, 'facebook') => '<svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.56 9.87v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.25.2 2.25.2v2.46h-1.27c-1.25 0-1.64.78-1.64 1.57V12h2.79l-.45 2.88h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>',
+
+            str_contains($p, 'instagram') => '<svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.5A3.5 3.5 0 1 1 8.5 12 3.5 3.5 0 0 1 12 8.5zM18 6.7a.9.9 0 1 1-.9-.9.9.9 0 0 1 .9.9z"/></svg>',
+
+            str_contains($p, 'linkedin') => '<svg viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 1 1 2.5 6a2.5 2.5 0 0 1 2.48-2.5zM3 21h4V9H3zm6 0h4v-6.2c0-3.3 4-3.6 4 0V21h4v-7.6c0-6-6.5-5.8-8-2.8V9H9z"/></svg>',
+
+            str_contains($p, 'twitter') || str_contains($p, 'x') => '<svg viewBox="0 0 24 24"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.2l-4.9-6.4L6.3 22H3.2l7.3-8.4L1 2h6.3l4.4 5.8L18.9 2z"/></svg>',
+
+            str_contains($p, 'youtube') => '<svg viewBox="0 0 24 24"><path d="M21.6 7.2a2.7 2.7 0 0 0-1.9-1.9C18 5 12 5 12 5s-6 0-7.7.3A2.7 2.7 0 0 0 2.4 7.2 28.3 28.3 0 0 0 2 12c0 1.6.1 3.2.4 4.8a2.7 2.7 0 0 0 1.9 1.9C6 19 12 19 12 19s6 0 7.7-.3a2.7 2.7 0 0 0 1.9-1.9c.3-1.6.4-3.2.4-4.8zM10 15V9l6 3-6 3z"/></svg>',
+
+            default => '<svg viewBox="0 0 24 24"><path d="M3.9 12a5 5 0 0 1 5-5h6.2a5 5 0 0 1 0 10H9a1 1 0 1 1 0-2h6.1a3 3 0 0 0 0-6H8.9a3 3 0 0 0 0 6 1 1 0 1 1-2 0z"/></svg>',
+        };
+    };
+@endphp
 
     <main class="ct-contact">
 
@@ -105,19 +124,28 @@
                         @endforeach
                     </div>
 
-                    @if ($socialLinks->count())
-                        <div class="socialChips" aria-label="Social links">
-                            @foreach ($socialLinks as $link)
-                                @if (!empty($link->url))
-                                    <a class="socialChip" href="{{ $link->url }}" target="_blank"
-                                        rel="noopener noreferrer">
-                                        <span class="socialChip__dot" aria-hidden="true"></span>
-                                        <span class="socialChip__label">{{ $link->platform }}</span>
-                                    </a>
-                                @endif
-                            @endforeach
-                        </div>
-                    @endif
+                   @if ($socialLinks->count())
+    <div class="socialChips" aria-label="Social links">
+        @foreach ($socialLinks as $link)
+            @if (!empty($link->url))
+                <a class="socialChip"
+                   href="{{ $link->url }}"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <span class="socialChip__icon" aria-hidden="true">
+                        {!! $socialIcon($link->platform) !!}
+                    </span>
+
+                    <span class="socialChip__label">
+                        {{ ucfirst($link->platform) }}
+                    </span>
+                </a>
+            @endif
+        @endforeach
+    </div>
+@endif
+
                 </div>
 
                 {{-- RIGHT CARD --}}
@@ -394,25 +422,7 @@
                         <div class="sideCard">
                             <h3>Stay Connected</h3>
 
-                            @php
-    $socialIcon = function (string $platform) {
-        $p = strtolower(trim($platform));
-
-        return match (true) {
-            str_contains($p, 'facebook') => '<svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.56 9.87v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.25.2 2.25.2v2.46h-1.27c-1.25 0-1.64.78-1.64 1.57V12h2.79l-.45 2.88h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>',
-
-            str_contains($p, 'instagram') => '<svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.5A3.5 3.5 0 1 1 8.5 12 3.5 3.5 0 0 1 12 8.5zM18 6.7a.9.9 0 1 1-.9-.9.9.9 0 0 1 .9.9z"/></svg>',
-
-            str_contains($p, 'linkedin') => '<svg viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 1 1 2.5 6a2.5 2.5 0 0 1 2.48-2.5zM3 21h4V9H3zm6 0h4v-6.2c0-3.3 4-3.6 4 0V21h4v-7.6c0-6-6.5-5.8-8-2.8V9H9z"/></svg>',
-
-            str_contains($p, 'twitter') || str_contains($p, 'x') => '<svg viewBox="0 0 24 24"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.2l-4.9-6.4L6.3 22H3.2l7.3-8.4L1 2h6.3l4.4 5.8L18.9 2z"/></svg>',
-
-            str_contains($p, 'youtube') => '<svg viewBox="0 0 24 24"><path d="M21.6 7.2a2.7 2.7 0 0 0-1.9-1.9C18 5 12 5 12 5s-6 0-7.7.3A2.7 2.7 0 0 0 2.4 7.2 28.3 28.3 0 0 0 2 12c0 1.6.1 3.2.4 4.8a2.7 2.7 0 0 0 1.9 1.9C6 19 12 19 12 19s6 0 7.7-.3a2.7 2.7 0 0 0 1.9-1.9c.3-1.6.4-3.2.4-4.8zM10 15V9l6 3-6 3z"/></svg>',
-
-            default => '<svg viewBox="0 0 24 24"><path d="M3.9 12a5 5 0 0 1 5-5h6.2a5 5 0 0 1 0 10H9a1 1 0 1 1 0-2h6.1a3 3 0 0 0 0-6H8.9a3 3 0 0 0 0 6 1 1 0 1 1-2 0z"/></svg>',
-        };
-    };
-@endphp
+     
 
 
                             @if ($socialLinks->count())

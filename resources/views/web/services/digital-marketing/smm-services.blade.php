@@ -28,7 +28,7 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#cta" class="btn btn-lg btn-accent">Get Social Media Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-accent jsGetAudit" data-audit-type="social-media-audit">Get Social Media Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Strategy Call</a>
                 </div>
             </div>

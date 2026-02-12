@@ -20,11 +20,12 @@
             <p class="hero-trust">Trusted by 100+ London Businesses</p>
             <h1>SEO Services for Businesses Across the UK </h1>
             <p class="hero-subtitle">
-               Struggling to get noticed on Google? We help businesses across the UK rank on the first page with affordable, results-driven SEO services tailored for companies of all sizes and industries.
+                Struggling to get noticed on Google? We help businesses across the UK rank on the first page with
+                affordable, results-driven SEO services tailored for companies of all sizes and industries.
             </p>
             <!-- <p class="hero-subtitle">
-                Drive targeted traffic, generate real leads and grow your business online.
-            </p> -->
+                    Drive targeted traffic, generate real leads and grow your business online.
+                </p> -->
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Get Free SEO Review</a>
                 <a href="#services" class="btn btn-ghost">View Our Services</a>
@@ -41,27 +42,33 @@
     <section class="section">
         <div class="container">
             <!-- <div class="section-header">
-                <h2>What’s Included in Our Off-Page SEO Service?</h2>
-                <p>
-                    Complete off-page optimisation for authority and ranking growth.
-                </p>
-            </div> -->
+                    <h2>What’s Included in Our Off-Page SEO Service?</h2>
+                    <p>
+                        Complete off-page optimisation for authority and ranking growth.
+                    </p>
+                </div> -->
 
             <div class="services-layout">
                 <div class="services-copy">
-                        <h3>What Is Search Engine Optimisation (SEO)?</h3>
-                        <p class="services-intro">
-                           Search Engine Optimisation (SEO) is the process of improving your website’s visibility in Google’s organic search results. When potential customers search for your services, SEO ensures your website appears higher in search rankings, driving consistent, high-quality traffic without paid advertising.
-                        </p>
-                        <p>
-                            A strong SEO strategy combines keyword research, technical optimisation, content improvement, and authority building to help your business attract the right audience and generate more enquiries across the UK.
-                        </p>
-                    </div>
+                    <h3>What Is Search Engine Optimisation (SEO)?</h3>
+                    <p class="services-intro">
+                        Search Engine Optimisation (SEO) is the process of improving your website’s visibility in Google’s
+                        organic search results. When potential customers search for your services, SEO ensures your website
+                        appears higher in search rankings, driving consistent, high-quality traffic without paid
+                        advertising.
+                    </p>
+                    <p>
+                        A strong SEO strategy combines keyword research, technical optimisation, content improvement, and
+                        authority building to help your business attract the right audience and generate more enquiries
+                        across the UK.
+                    </p>
+                </div>
 
                 <div class="services-cards">
                     <div class="card services-card">
                         <h3>Why SEO Is Important for Every Business </h3>
-                        <p>Most customers now search online before choosing a product or service. If your website does not appear on the first page of Google, your competitors are getting those customers instead.</p>
+                        <p>Most customers now search online before choosing a product or service. If your website does not
+                            appear on the first page of Google, your competitors are getting those customers instead.</p>
                         <h4>SEO helps your business: </h4>
                         <ul class="services-list">
                             <li> Backlink profile audit and toxic link removal</li>
@@ -85,7 +92,7 @@
             <div class="section-header">
                 <h2>SEO Services</h2>
                 <p>
-                   Comprehensive SEO solutions tailored for businesses across the UK.
+                    Comprehensive SEO solutions tailored for businesses across the UK.
                 </p>
             </div>
 
@@ -129,13 +136,13 @@
         </div>
     </section>
 
-        <!-- SERVICES GRID -->
+    <!-- SERVICES GRID -->
     <section class="section" id="services">
         <div class="container">
             <div class="section-header">
                 <h2>SEO Services </h2>
                 <p>
-                   Comprehensive SEO solutions tailored for businesses across the UK.
+                    Comprehensive SEO solutions tailored for businesses across the UK.
                 </p>
             </div>
 
@@ -143,8 +150,10 @@
                 <!-- Row 1 -->
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/National.webp') }}" alt="National SEO" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.national-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/National.webp') }}" alt="National SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -161,8 +170,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/International.webp') }}" alt="International SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.international-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/International.webp') }}" alt="International SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -179,8 +190,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}" alt="Technical SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.technical-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}" alt="Technical SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -198,8 +211,10 @@
                 <!-- Row 2 -->
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Content.webp') }}" alt="Content SEO" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.content-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Content.webp') }}" alt="Content SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -217,8 +232,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.image-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO" loading="lazy"
+                                decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -235,8 +252,10 @@
                 <!-- Row 3 -->
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Local.webp') }}" alt="Local SEO" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.local-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Local.webp') }}" alt="Local SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -253,8 +272,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}" alt="eCommerce SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.ecommerce-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}" alt="eCommerce SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -271,8 +292,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}" alt="On-Page SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.on-page-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}" alt="On-Page SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -290,8 +313,10 @@
                 <!-- Row 4 -->
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}" alt="Off-Page SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.off-page-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}" alt="Off-Page SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -381,7 +406,7 @@
             </div>
 
             <div class="grid grid-2 results-grid">
-                @foreach($businessResults as $result)
+                @foreach ($businessResults as $result)
                     <article class="card result-card">
                         <div class="result-header">
                             <p class="business-name">{{ $result->business_name }}</p>
@@ -390,7 +415,7 @@
                         </div>
 
                         <div class="result-metrics">
-                            @foreach($result->metrics as $metric)
+                            @foreach ($result->metrics as $metric)
                                 <div>
                                     <p class="metric-label">{{ $metric['label'] }}</p>
                                     <p class="metric-value">{{ $metric['value'] }}</p>
@@ -436,7 +461,8 @@
             <div class="section-header">
                 <h2>We&apos;re Local, Responsive &amp; Built Just Like You</h2>
                 <p>
-                  As a digital agency, we understand your challenges and are committed to your success through effective SEO.
+                    As a digital agency, we understand your challenges and are committed to your success through effective
+                    SEO.
                 </p>
             </div>
 
@@ -487,7 +513,9 @@
                 <div class="cta-header">
                     <h2>Work With a Trusted SEO Agency in the UK</h2>
                     <p>
-                        Choosing the right SEO agency can be the difference between being invisible online and dominating search results. Our SEO services are designed to help UK businesses improve rankings, attract more visitors, and turn search traffic into real enquiries and sales.
+                        Choosing the right SEO agency can be the difference between being invisible online and dominating
+                        search results. Our SEO services are designed to help UK businesses improve rankings, attract more
+                        visitors, and turn search traffic into real enquiries and sales.
                     </p>
                 </div>
 
@@ -516,7 +544,7 @@
         </div>
     </section>
 
-     <section class="section section-alt section-faq" id="faq">
+    <section class="section section-alt section-faq" id="faq">
         <div class="container">
             <div class="section-header">
                 <h2>Search Engine Optimisation(SEO) FAQs</h2>
@@ -528,7 +556,9 @@
                         <summary>1. What is SEO and how does it help my business?</summary>
                         <div class="faq-content">
                             <p>
-                                SEO (Search Engine Optimisation) improves your website’s visibility in Google so potential customers can find your services when they search online, leading to more traffic, enquiries, and sales.
+                                SEO (Search Engine Optimisation) improves your website’s visibility in Google so potential
+                                customers can find your services when they search online, leading to more traffic,
+                                enquiries, and sales.
                             </p>
                         </div>
                     </details>
@@ -537,7 +567,8 @@
                         <summary>2. How long does SEO take to deliver results?</summary>
                         <div class="faq-content">
                             <p>
-                                 SEO is a long-term strategy. Most businesses see measurable improvements within 2–4 months, with stronger rankings and traffic growth over time.
+                                SEO is a long-term strategy. Most businesses see measurable improvements within 2–4 months,
+                                with stronger rankings and traffic growth over time.
                             </p>
                         </div>
                     </details>
@@ -546,7 +577,9 @@
                         <summary>3.What is included in a professional SEO service?</summary>
                         <div class="faq-content">
                             <p>
-                                 A complete SEO service includes keyword research, on-page optimisation, technical SEO improvements, content optimisation, local SEO, and authority building through backlinks and citations.
+                                A complete SEO service includes keyword research, on-page optimisation, technical SEO
+                                improvements, content optimisation, local SEO, and authority building through backlinks and
+                                citations.
                             </p>
                         </div>
                     </details>
@@ -555,7 +588,8 @@
                         <summary>4.Why is ongoing SEO important?</summary>
                         <div class="faq-content">
                             <p>
-                                 Search rankings change constantly. Ongoing SEO ensures your website stays competitive, maintains rankings, and continues to grow in visibility.
+                                Search rankings change constantly. Ongoing SEO ensures your website stays competitive,
+                                maintains rankings, and continues to grow in visibility.
                             </p>
                         </div>
                     </details>
@@ -563,7 +597,8 @@
                     <details class="faq-item">
                         <summary>5. Can SEO generate real leads and customers?</summary>
                         <div class="faq-content">
-                            <p> Yes. SEO targets users actively searching for your services, resulting in high-intent traffic that converts into real enquiries and customers.
+                            <p> Yes. SEO targets users actively searching for your services, resulting in high-intent
+                                traffic that converts into real enquiries and customers.
                             </p>
                         </div>
                     </details>
@@ -572,7 +607,8 @@
                         <summary>6. How do you measure SEO success?</summary>
                         <div class="faq-content">
                             <p>
-                                 SEO success is measured through keyword rankings, organic traffic growth, user engagement, and the number of leads or conversions generated from search engines.
+                                SEO success is measured through keyword rankings, organic traffic growth, user engagement,
+                                and the number of leads or conversions generated from search engines.
                             </p>
                         </div>
                     </details>

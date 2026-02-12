@@ -26,7 +26,9 @@
                     Optimize your listing to improve local visibility, gain more clicks, and attract nearby customers.
                 </p>
                 <div class="hero-actions">
-                    <a href="#cta" class="btn btn-lg btn-primary">Get Free Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="general-audit">Get Free Audit</a>
+
+
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Call Now</a>
                 </div>
             </div>

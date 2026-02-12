@@ -115,11 +115,13 @@
 
             <div class="grid grid-3 services-grid">
                 <!-- Row 1 -->
-        
+
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/gbp.webp') }}"
-                            alt="Google Business Profile Optimisation" loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}">
+                            <img src="{{ asset('assets/images/digitalmark/gbp.webp') }}"
+                                alt="Google Business Profile Optimisation" loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -136,11 +138,13 @@
                     <a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}"
                         class="service-link">Learn More</a>
                 </article>
-                
+
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/meta.webp') }}" alt="Meta Ads Services"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.meta-ads-services') }}">
+                            <img src="{{ asset('assets/images/digitalmark/meta.webp') }}" alt="Meta Ads Services"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -158,8 +162,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/ppc.webp') }}" alt="PPC Services" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.ppc-services') }}">
+                            <img src="{{ asset('assets/images/digitalmark/ppc.webp') }}" alt="PPC Services" loading="lazy"
+                                decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -177,8 +183,10 @@
                 <!-- Row 5 -->
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/smm.webp') }}" alt="SMM Services" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.smm-services') }}">
+                            <img src="{{ asset('assets/images/digitalmark/smm.webp') }}" alt="SMM Services" loading="lazy"
+                                decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -311,45 +319,45 @@
 
     <!-- DIGITAL MARKETING INSIGHTS -->
     <!-- <section class="section section-alt" id="insights">
-                    <div class="container">
-                        <div class="section-header">
-                            <h2>Digital Marketing Insights</h2>
-                            <p>
-                                Stay ahead with the latest trends and statistics in digital marketing.
-                            </p>
+                        <div class="container">
+                            <div class="section-header">
+                                <h2>Digital Marketing Insights</h2>
+                                <p>
+                                    Stay ahead with the latest trends and statistics in digital marketing.
+                                </p>
+                            </div>
+
+                            <div class="grid grid-4 insights-grid">
+                                <article class="card insight-card">
+                                    <p class="insight-value">93%</p>
+                                    <p class="insight-text">
+                                        of online experiences begin with a search engine, making SEO essential.
+                                    </p>
+                                </article>
+
+                                <article class="card insight-card">
+                                    <p class="insight-value">63%</p>
+                                    <p class="insight-text">
+                                        of Google searches happen on mobile devices, requiring mobile optimisation.
+                                    </p>
+                                </article>
+
+                                <article class="card insight-card">
+                                    <p class="insight-value">5.3x</p>
+                                    <p class="insight-text">
+                                        ROI on average for businesses investing in SEO compared to traditional marketing.
+                                    </p>
+                                </article>
+
+                                <article class="card insight-card">
+                                    <p class="insight-value">70%</p>
+                                    <p class="insight-text">
+                                        of marketers say SEO is more effective than PPC for generating sales.
+                                    </p>
+                                </article>
+                            </div>
                         </div>
-
-                        <div class="grid grid-4 insights-grid">
-                            <article class="card insight-card">
-                                <p class="insight-value">93%</p>
-                                <p class="insight-text">
-                                    of online experiences begin with a search engine, making SEO essential.
-                                </p>
-                            </article>
-
-                            <article class="card insight-card">
-                                <p class="insight-value">63%</p>
-                                <p class="insight-text">
-                                    of Google searches happen on mobile devices, requiring mobile optimisation.
-                                </p>
-                            </article>
-
-                            <article class="card insight-card">
-                                <p class="insight-value">5.3x</p>
-                                <p class="insight-text">
-                                    ROI on average for businesses investing in SEO compared to traditional marketing.
-                                </p>
-                            </article>
-
-                            <article class="card insight-card">
-                                <p class="insight-value">70%</p>
-                                <p class="insight-text">
-                                    of marketers say SEO is more effective than PPC for generating sales.
-                                </p>
-                            </article>
-                        </div>
-                    </div>
-                </section> -->
+                    </section> -->
 
     <!-- CTA -->
     <section class="section dm-cta" style="margin-top:35px" id="cta">

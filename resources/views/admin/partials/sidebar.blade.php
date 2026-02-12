@@ -135,7 +135,12 @@
                     </a>
                 @endif
 
-
+                @if (Route::has('admin.audit-leads.index'))
+                <a class="{{ request()->routeIs('admin.audit-leads.*') ? 'active' : '' }}"
+                    href="{{ route('admin.audit-leads.index') }}">
+                    <span class="dot"></span><span>Audit</span>
+                </a>
+                @endif
                 {{-- Portfolio (NEW) --}}
                 @if (Route::has('admin.portfolio-items.index') || Route::has('admin.portfolio-platforms.index'))
                     <div style="height:6px;"></div>

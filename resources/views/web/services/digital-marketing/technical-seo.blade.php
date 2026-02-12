@@ -27,7 +27,7 @@
                     performance and organic traffic.</p>
 
                 <div class="hero-actions">
-                    <a href="#cta" class="btn btn-lg btn-primary">Get Technical Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="technical-seo">Get Technical Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Speak to Expert</a>
                 </div>
 
@@ -319,7 +319,7 @@
                     </p>
                 </div>
                 <div class="cta-actions tech-cta-actions">
-                    <a href="#contact-form" class="btn btn-primary">Get Technical Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="technical-seo">Get Technical Audit</a>
                     <a href="#why" class="btn btn-outline-light">See Why It Matters</a>
                 </div>
             </div>

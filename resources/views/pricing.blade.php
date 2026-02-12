@@ -1,6 +1,5 @@
 @extends('layouts.cloudtech')
 
-
 @section('title', 'Pricing')
 @section('meta_title', 'Cloud Technologies Ltd Pricing')
 @section('meta_description', 'Transparent pricing for websites, SEO, and ongoing support. Choose a plan that fits your business goals.')
@@ -17,126 +16,174 @@
 
 @section('content')
 
-<section class="hero pricing-hero" id="pricing-hero">
+<section class="prHero" id="pricing-hero">
   <div class="container">
-    <div class="hero-head fx-reveal reveal-up">
-      <p class="eyebrow">Pricing</p>
-      <h1>Plans built for performance</h1>
-      <p class="subtitle">
-        Choose a plan based on scope and speed. We focus on clean builds, SEO-friendly structure, and Core Web Vitals.
-      </p>
-    </div>
+    <div class="prHero__grid">
+      <div class="prHero__copy fx-reveal reveal-up">
+        <p class="prEyebrow">Pricing</p>
+        <h1 class="prTitle">Plans built for performance</h1>
+        <p class="prSubtitle">
+          Choose a plan based on scope and speed. We focus on clean builds, SEO-friendly structure, and Core Web Vitals.
+        </p>
 
-    <div class="toggle-row fx-reveal reveal-up">
-      <div class="toggle">
-        <button class="toggleBtn active" data-billing="monthly" type="button">Monthly</button>
-        <button class="toggleBtn" data-billing="one-time" type="button">One-Time</button>
+        <div class="prTrust">
+          <div class="prTrust__item">
+            <span class="prTrust__kpi">Core Web Vitals</span>
+            <span class="prTrust__label">Performance-first builds</span>
+          </div>
+          <div class="prTrust__item">
+            <span class="prTrust__kpi">SEO-ready</span>
+            <span class="prTrust__label">Structured + scalable</span>
+          </div>
+          <div class="prTrust__item">
+            <span class="prTrust__kpi">Fast delivery</span>
+            <span class="prTrust__label">Clear timelines</span>
+          </div>
+        </div>
       </div>
-      <div class="toggleHint">Switch billing to see the best fit.</div>
+
+   
     </div>
   </div>
 </section>
 
-<section class="section pricing-section">
+<section class="prSection" id="pricing-plans">
   <div class="container">
 
-    <div class="pricing-grid">
+   <header class="prSectionHead fx-reveal reveal-up">
+  <div class="prSectionHead__grid">
+    <div class="prSectionHead__copy">
+      <h2 class="prH2">Choose your plan</h2>
+      <p class="prP">
+        Transparent deliverables, clean scope, and clear next steps. Pick a plan — we can tailor it after discovery.
+      </p>
+    </div>
+
+    <div class="prBilling">
+      <div class="prToggle" role="tablist" aria-label="Billing options">
+        <button class="toggleBtn active" data-billing="monthly" type="button" role="tab" aria-selected="true">
+          Monthly
+        </button>
+        <button class="toggleBtn" data-billing="one-time" type="button" role="tab" aria-selected="false">
+          One-Time
+        </button>
+      </div>
+
+      <div class="prToggleHint">Switch billing to compare costs.</div>
+      <div class="prMiniNote">
+  <strong>Tip:</strong> Monthly works best for continuous growth & support. One-time is ideal for fixed builds.
+</div>
+
+    </div>
+  </div>
+</header>
+
+
+    <div class="prGrid" id="pricingGrid">
       @foreach($plans as $plan)
         @php
           $monthly = $plan->priceByBilling('monthly');
           $oneTime = $plan->priceByBilling('one-time');
 
-          $isFeatured = $plan->is_featured ? 'featured' : '';
+          $isFeatured = (bool) $plan->is_featured;
 
           $badgeClass = match($plan->badge_variant){
-            'cyan' => 'badgeCyan',
-            'navy' => 'badgeNavy',
-            default => '',
+            'cyan' => 'prBadge--cyan',
+            'navy' => 'prBadge--navy',
+            default => 'prBadge--orange',
           };
 
-          $ctaClass = $plan->cta_variant === 'ghost' ? 'btn-ghost' : 'btn-primary';
-          $monthlyCurrency = $monthly?->currency ?? '£';
-          $monthlyAmount = $monthly?->amount_text ?? '—';
-          $monthlyPeriod = $monthly?->period_text ?? 'per month';
-          $oneTimeCurrency = $oneTime?->currency ?? '£';
-          $oneTimeAmount = $oneTime?->amount_text ?? '—';
-          $oneTimePeriod = $oneTime?->period_text ?? 'one-time';
+          $ctaClass = $plan->cta_variant === 'ghost' ? 'prBtn prBtn--ghost' : 'prBtn prBtn--primary';
+
+          $mCur  = $monthly?->currency ?? '£';
+          $mAmt  = $monthly?->amount_text ?? '—';
+          $mPer  = $monthly?->period_text ?? 'per month';
+
+          $oCur  = $oneTime?->currency ?? '£';
+          $oAmt  = $oneTime?->amount_text ?? '—';
+          $oPer  = $oneTime?->period_text ?? 'one-time';
+
+          $iconText = strtoupper(substr($plan->title ?? 'P', 0, 1));
         @endphp
 
-        <article class="price-card {{ $isFeatured }} fx-reveal reveal-up" data-plan="{{ $plan->key }}">
-        @if($plan->is_featured)
-          <div class="featured-flag">
-            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <!-- Brand gradient: navy → blue -->
-                <linearGradient id="ctFlagGrad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stop-color="#0f172a"/>   <!-- navy -->
-                  <stop offset="100%" stop-color="#2563eb"/> <!-- blue -->
-                </linearGradient>
-              </defs>
+        {{-- IMPORTANT:
+             Keep "price-card", "price", "sub" classes for toggle JS compatibility --}}
+        <article class="price-card prCard {{ $isFeatured ? 'isFeatured' : '' }} fx-reveal reveal-up" data-plan="{{ $plan->key }}">
+          @if($isFeatured)
+            <div class="prRibbon" aria-label="Recommended plan">Recommended</div>
+          @endif
 
-              <!-- corner shape -->
-              <polygon points="120,0 40,0 120,80" fill="url(#ctFlagGrad)" />
+          <div class="prCardTop">
+            <div class="prIcon" aria-hidden="true">{{ $iconText }}</div>
 
-              <!-- text -->
-              <text x="79" y="35"
-                    fill="#ffffff"
-                    font-size="12"
-                    font-weight="700"
-                    text-anchor="middle"
-                    transform="rotate(45 78 38)">
-                Recommended
-              </text>
-            </svg>
-          </div>
-        @endif
+            <div class="prTopText">
+              @if($plan->badge_text)
+                <div class="prBadge {{ $badgeClass }}">{{ $plan->badge_text }}</div>
+              @endif
 
-          <div class="top">
-            @if($plan->badge_text)
-              <div class="badge {{ $badgeClass }}">{{ $plan->badge_text }}</div>
-            @endif
+              <h3 class="prPlan">{{ $plan->title }}</h3>
 
-            <h3>{{ $plan->title }}</h3>
-            @if($plan->description)
-              <p class="desc">{{ $plan->description }}</p>
-            @endif
+              @if($plan->description)
+                <p class="prDesc">{{ $plan->description }}</p>
+              @endif
+            </div>
           </div>
 
-        <div class="price"
-            data-monthly="{{ $monthlyCurrency }}{{ $monthlyAmount }}"
-            data-onetime="{{ $oneTimeCurrency }}{{ $oneTimeAmount }}">
-          <span class="currency">{{ $monthlyCurrency }}</span>{{ $monthlyAmount }}
-        </div>
-          <div class="sub"
-               data-monthly="{{ $monthlyPeriod }}"
-               data-onetime="{{ $oneTimePeriod }}">
-            {{ $monthlyPeriod }}
+          <div class="prPriceWrap">
+            <div
+              class="price prPrice"
+              data-monthly="{{ $mCur }}{{ $mAmt }}"
+              data-onetime="{{ $oCur }}{{ $oAmt }}"
+            >
+              {{ $mCur }}{{ $mAmt }}
+            </div>
+
+            <div
+              class="sub prSub"
+              data-monthly="{{ $mPer }}"
+              data-onetime="{{ $oPer }}"
+            >
+              {{ $mPer }}
+            </div>
           </div>
 
-          <ul class="list">
-            @foreach($plan->features as $feature)
-              <li>{{ $feature->text }}</li>
-            @endforeach
-          </ul>
+          @if($plan->features?->count())
+            <ul class="prList">
+              @foreach($plan->features->sortBy('sort_order') as $feature)
+                <li>{{ $feature->text }}</li>
+              @endforeach
+            </ul>
+          @endif
 
-          <a href="{{ url($plan->cta_url) }}" class="{{ $ctaClass }}">{{ $plan->cta_text }}</a>
+          <div class="prCardActions">
+            <a href="{{ url($plan->cta_url) }}" class="{{ $ctaClass }}">{{ $plan->cta_text }}</a>
+            <div class="prMeta">No hidden fees • Clear deliverables</div>
+          </div>
         </article>
       @endforeach
     </div>
 
-    @if($faqs->count())
-      <div class="faq fx-reveal reveal-up">
-        <h2>FAQ</h2>
+    @if(isset($faqs) && $faqs->count())
+      <section class="prFaq fx-reveal reveal-up" aria-label="Pricing FAQ">
+        <header class="prFaqHead">
+          <h2 class="prH2">FAQ</h2>
+          <p class="prP">Quick answers about scope, timelines, billing, and support.</p>
+        </header>
 
-        <div class="faq-grid">
+        <div class="prFaqGrid">
           @foreach($faqs as $faq)
-            <details class="faq-item">
-              <summary>{{ $faq->question }}</summary>
-              <p>{{ $faq->answer }}</p>
+            <details class="prFaqItem">
+              <summary>
+                <span>{{ $faq->question }}</span>
+                <span class="prFaqChevron" aria-hidden="true">+</span>
+              </summary>
+              <div class="prFaqBody">
+                <p>{{ $faq->answer }}</p>
+              </div>
             </details>
           @endforeach
         </div>
-      </div>
+      </section>
     @endif
 
   </div>

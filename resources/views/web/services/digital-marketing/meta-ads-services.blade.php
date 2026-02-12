@@ -27,7 +27,8 @@
                     measurable business growth across all Meta platforms.
                 </p>
                 <div class="hero-actions">
-                    <a href="#cta" class="btn btn-lg btn-accent">Get Meta Ads Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-accent jsGetAudit" data-audit-type="meta-ads">Get Meta Ads Audit</a>
+                    
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Strategy Call</a>
                 </div>
             </div>

@@ -20,6 +20,10 @@
     {{-- Page-specific CSS --}}
     @stack('styles')
     <link rel="canonical" href="@yield('canonical', url()->current())" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="{{ asset('assets/audit/audit-modal.css') }}">
 
 </head>
 
@@ -48,6 +52,9 @@
 
     {{-- Global scripts always --}}
     <script src="{{ asset('assets/js/forms-global.js') }}" defer></script>
+    <script src="{{ asset('assets/audit/audit-modal.js') }}" defer></script>
+
+    @include('partials.audit-modal')
 
 </body>
 

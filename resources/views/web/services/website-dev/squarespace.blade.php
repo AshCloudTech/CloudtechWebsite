@@ -171,6 +171,69 @@
             </div>
         </div>
     </section>
+    <!-- What Are Squarespace Development Services?   -->
+<section class="section section-national-about" id="about-meta_ads-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are Squarespace Development Services? </h2>
+
+                <p>
+               Squarespace development services focus on creating visually engaging, mobile-responsive, and easy-to-manage websites using Squarespace’s intuitive website builder. These services include custom template design, eCommerce setup, SEO enhancement, content migration, and advanced customisation through code injection.
+                </p>
+
+                <p>
+                 A professional Squarespace development approach ensures your website is cost-effective, fast to launch, and structured to present your brand professionally while remaining simple to manage.
+                </p>
+                <p>If you want a stylish, reliable website without complex infrastructure, Squarespace development services are an excellent choice.</p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Who Needs Squarespace Development? </h3>
+
+                <p>
+                 Squarespace development is ideal for: 
+                </p>
+
+                <ul>
+                    <li>Small businesses wanting a professional online presence</li>
+                    <li>Personal brands, consultants, and creatives</li>
+                    <li>Startups needing a fast and cost-effective website</li>
+                    <li>Businesses selling a small range of products online</li>
+                    <li>Companies prioritising design and simplicity</li>
+                    <li>Brands wanting easy website management without technical skills</li>
+                </ul>
+
+                <p class="">
+                If you value design, speed, and simplicity, Squarespace provides a practical platform to launch and grow online.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Why Squarespace Is Ideal for Modern Businesses    -->
+<section class="section section-national-growth" id="meta_ads-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Squarespace Is Ideal for Modern Businesses   </h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+            Squarespace combines elegant design with built-in functionality, making it perfect for businesses that want professional presentation without technical complexity. With secure hosting, mobile-ready templates, and integrated SEO tools, Squarespace websites are reliable, responsive, and easy to maintain.
+
+            <p>
+           With the right Squarespace development strategy, your website benefits from strong visuals, smooth user experience, clean structure for search engines, and a scalable setup that grows with your business needs.
+            </p>
+        </div>
+
+    </div>
+</section>
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">

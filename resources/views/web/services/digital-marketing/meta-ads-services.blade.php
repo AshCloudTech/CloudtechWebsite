@@ -27,7 +27,8 @@
                     measurable business growth across all Meta platforms.
                 </p>
                 <div class="hero-actions">
-                    <a href="#cta" class="btn btn-lg btn-accent">Get Meta Ads Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-accent jsGetAudit" data-audit-type="meta-ads">Get Meta Ads Audit</a>
+                    
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Strategy Call</a>
                 </div>
             </div>
@@ -275,6 +276,72 @@
                 </div>
             </div>
         </section> -->
+
+          <!-- WHAT ARE meta-ads SERVICES -->
+<section class="section section-national-about" id="about-meta_ads-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are Meta Ads Services?</h2>
+
+                <p>
+                    Meta Ads services focus on creating, managing, and optimising paid campaigns across Facebook, Instagram, Messenger, and the Audience Network using Meta Ads Manager. These campaigns are designed to reach highly specific audiences, drive engagement, and convert users into customers through data-driven targeting and creative testing.
+                </p>
+
+                <p>
+                    A successful Meta advertising strategy combines audience research, compelling creatives, conversion tracking, and continuous optimisation to reduce costs and increase return on ad spend.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Conversion Tracking: Pixel & Conversions API</h3>
+
+                <p>
+                   Accurate tracking is the foundation of profitable Meta campaigns.
+                </p>
+
+                <p>
+                   We implement:
+                </p>
+
+                <ul>
+                    <li>Meta Pixel for on-site behaviour tracking</li>
+                    <li>Meta Conversions API for server-side data accuracy</li>
+                    <li>Event tracking for purchases, leads, add-to-cart, and page views</li>
+                    <li>Custom conversions for precise optimisation</li>
+                </ul>
+
+                <p class="">
+                   This allows Meta to learn who converts and shows ads to more of the right people.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Why Creative Testing Is Key to Meta Ads Success-->
+<section class="section section-national-growth" id="meta_ads-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Creative Testing Is Key to Meta Ads Success</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+                On Meta platforms, creative performance has a bigger impact than targeting alone. We continuously test images, videos, headlines, and copy variations to discover what resonates most with your audience.
+            </p>
+
+            <p>
+                Winning creatives are scaled, while underperforming ads are replaced ensuring consistent improvement in click-through rates, conversions, and return on ad spend.
+            </p>
+        </div>
+
+    </div>
+</section>
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">

@@ -156,6 +156,69 @@
             </div>
         </div>
     </section>
+       <!-- What Are Shopify Development Services?   -->
+<section class="section section-national-about" id="about-meta_ads-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are Shopify Development Services? </h2>
+
+                <p>
+                Shopify development services focus on creating fast, secure, and conversion-focused online stores that are easy to manage and built to scale. These services include custom theme development, store setup, app integrations, technical optimisation, and ongoing support to ensure long-term performance.
+                </p>
+
+                <p>
+                  A professional Shopify development approach ensures your eCommerce website is structured for SEO, delivers smooth user experiences, and turns visitors into customers. From product architecture to checkout optimization, every element is designed to improve visibility, engagement, and sales.
+                </p>
+                <p>If you want a reliable, SEO-friendly online store that supports business growth, Shopify development services are an ideal solution.</p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Who Needs Shopify Development? </h3>
+
+                <p>
+                  Shopify development is ideal for:
+                </p>
+
+                <ul>
+                    <li>eCommerce businesses selling across the UK</li>
+                    <li>Retail brands moving from offline to online sales</li>
+                    <li>Startups launching new online stores quickly</li>
+                    <li>Businesses needing secure, hosted eCommerce infrastructure</li>
+                    <li>Companies requiring custom app integrations and features</li>
+                    <li>Brands focused on mobile-first shopping experiences</li>
+                </ul>
+
+                <p class="">
+                 If your goal is to sell products online efficiently while keeping management simple, Shopify provides the flexibility and scalability you need.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Why Shopify Is Essential for eCommerce Growth   -->
+<section class="section section-national-growth" id="meta_ads-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Shopify Is Essential for eCommerce Growth  </h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+             Shopify combines ease of use with powerful eCommerce functionality, making it perfect for businesses that want performance without technical complexity. As a hosted platform, Shopify provides built-in security, fast loading speeds, reliable checkout systems, and a structure that supports SEO best practices.
+
+            <p>
+             With the right Shopify development strategy, your store benefits from responsive design, optimised product pages, clean URL structures, app-enhanced functionality, and a scalable foundation that supports long-term growth in organic traffic and online sales.
+            </p>
+        </div>
+
+    </div>
+</section>
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">

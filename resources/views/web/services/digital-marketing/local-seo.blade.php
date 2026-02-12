@@ -28,7 +28,7 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#cta" class="btn btn-lg btn-primary">Get Local SEO Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="local-seo">Get Local SEO Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Consultation</a>
                 </div>
             </div>
@@ -277,7 +277,7 @@
                     </p>
                 </div>
                 <div class="cta-actions local-cta-actions">
-                    <a href="#contact-form" class="btn btn-primary">Get Free Local Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="local-seo">Get Free Local Audit</a>
                     <a href="#stats" class="btn btn-outline-light">View Local Stats</a>
                 </div>
             </div>

@@ -28,7 +28,7 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#cta" class="btn btn-lg btn-primary">Get Free SEO Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="national-seo-audit">Get Free SEO Audit</a>
                     <a href="#why" class="btn btn-lg btn-ghost hero-ghost-light">Speak to an Expert</a>
                 </div>
 
@@ -262,7 +262,7 @@
                     </p>
                 </div>
                 <div class="cta-actions seo-cta-actions">
-                    <a href="#contact-form" class="btn btn-primary">Request Free SEO Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="national-seo-audit">Request Free SEO Audit</a>
                     <a href="#process" class="btn btn-outline-light">View Our Process</a>
                 </div>
             </div>

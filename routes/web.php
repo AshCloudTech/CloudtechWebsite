@@ -12,6 +12,7 @@ use App\Http\Controllers\Web\ServicesController;
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\Admin\AdminDashboardController;
+use App\Http\Controllers\Admin\AuditLeadAdminController;
 use App\Http\Controllers\Admin\PermissionController;
 use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\UserController;
@@ -38,6 +39,7 @@ use App\Http\Controllers\Admin\PricingPlanFeatureController;
 use App\Http\Controllers\Admin\PricingFaqController;
 use App\Http\Controllers\Web\ConsultationController;
 use App\Http\Controllers\Admin\BusinessResultController;
+use App\Http\Controllers\Web\AuditLeadController;
 use App\Models\PortfolioItem;
 
 Route::get('/dashboard', function () {
@@ -122,6 +124,8 @@ Route::prefix('services/digital-marketing')->group(function () {
     Route::get('/smm-services', [DigitalMarkController::class, 'smmServices'])->name('services.digi-marketing.smm-services');
 });
 
+Route::post('/audit-leads', [AuditLeadController::class, 'store'])->name('audit-leads.store');
+
 Route::middleware(['auth', 'verified'])->group(function () {
     // Default dashboard (role-aware redirect handled in controller)
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
@@ -182,6 +186,10 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Route::put('/consultations/{consultation}/status', [ConsultationAdminController::class, 'updateStatus'])->name('consultations.status');
             Route::post('/consultations/{consultation}/remarks', [ConsultationAdminController::class, 'addRemark'])->name('consultations.remarks.store');
 
+            // Consultation Management
+            Route::get('audit-leads', [AuditLeadAdminController::class, 'index'])->name('audit-leads.index');
+            Route::get('audit-leads/{auditLead}', [AuditLeadAdminController::class, 'show'])->name('audit-leads.show');
+            Route::post('audit-leads/{auditLead}', [AuditLeadAdminController::class, 'update'])->name('audit-leads.update');
 
             //Pricing Plans
 

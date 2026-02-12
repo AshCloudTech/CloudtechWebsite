@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/seo/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/seo/js/script.js') }}" defer></script>
@@ -17,14 +18,14 @@
     <section class="hero seo-hero" id="hero">
         <div class="container hero-inner">
             <p class="hero-trust">Trusted by 100+ London Businesses</p>
-            <h1>SEO &amp; Website Design for<br>Small Businesses in London</h1>
+            <h1>SEO Services for Businesses Across the UK </h1>
             <p class="hero-subtitle">
-                Struggling to get noticed online? We help London small businesses rank on Google&apos;s first page.
-                Affordable SEO and website development tailored for small businesses and home-based entrepreneurs.
+                Struggling to get noticed on Google? We help businesses across the UK rank on the first page with
+                affordable, results-driven SEO services tailored for companies of all sizes and industries.
             </p>
-            <p class="hero-subtitle">
-                Drive targeted traffic, generate real leads and grow your business online.
-            </p>
+            <!-- <p class="hero-subtitle">
+                    Drive targeted traffic, generate real leads and grow your business online.
+                </p> -->
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Get Free SEO Review</a>
                 <a href="#services" class="btn btn-ghost">View Our Services</a>
@@ -38,13 +39,60 @@
         </div>
     </section>
 
+    <section class="section">
+        <div class="container">
+            <!-- <div class="section-header">
+                    <h2>What’s Included in Our Off-Page SEO Service?</h2>
+                    <p>
+                        Complete off-page optimisation for authority and ranking growth.
+                    </p>
+                </div> -->
+
+            <div class="services-layout">
+                <div class="services-copy">
+                    <h3>What Is Search Engine Optimisation (SEO)?</h3>
+                    <p class="services-intro">
+                        Search Engine Optimisation (SEO) is the process of improving your website’s visibility in Google’s
+                        organic search results. When potential customers search for your services, SEO ensures your website
+                        appears higher in search rankings, driving consistent, high-quality traffic without paid
+                        advertising.
+                    </p>
+                    <p>
+                        A strong SEO strategy combines keyword research, technical optimisation, content improvement, and
+                        authority building to help your business attract the right audience and generate more enquiries
+                        across the UK.
+                    </p>
+                </div>
+
+                <div class="services-cards">
+                    <div class="card services-card">
+                        <h3>Why SEO Is Important for Every Business </h3>
+                        <p>Most customers now search online before choosing a product or service. If your website does not
+                            appear on the first page of Google, your competitors are getting those customers instead.</p>
+                        <h4>SEO helps your business: </h4>
+                        <ul class="services-list">
+                            <li> Backlink profile audit and toxic link removal</li>
+                            <li>High-quality manual link building</li>
+                            <li>Guest posting and blogger outreach</li>
+                            <li> Local citation and directory submissions</li>
+                            <li>Social bookmarking and brand mentions</li>
+                            <li>Forum submissions and community links</li>
+                            <li>Competitor backlink analysis</li>
+                            <li>Monthly backlink and authority reports</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- SEO & WEB DESIGN SERVICES -->
     <section class="section section-services" id="services">
         <div class="container">
             <div class="section-header">
-                <h2>SEO &amp; Web Design Services</h2>
+                <h2>SEO Services</h2>
                 <p>
-                    Comprehensive digital solutions tailored for London&apos;s small businesses and home-based entrepreneurs.
+                    Comprehensive SEO solutions tailored for businesses across the UK.
                 </p>
             </div>
 
@@ -53,8 +101,8 @@
                     <div class="card-icon"></div>
                     <h3>Local SEO Services</h3>
                     <ul class="service-list">
-                        <li>Google Business Profile setup &amp; local pack optimisation</li>
-                        <li>Local keyword research specific to your London area</li>
+                        <li>Google Business Profile optimisation and local map pack rankings</li>
+                        <li>Local keyword research specific to your service areas</li>
                         <li>On-page &amp; off-page SEO optimisation</li>
                         <li>Directory listings, citation building &amp; backlink strategies</li>
                         <li>Monthly performance reports &amp; analytics tracking</li>
@@ -63,13 +111,13 @@
 
                 <article class="card service-card">
                     <div class="card-icon"></div>
-                    <h3>Website Development</h3>
+                    <h3>Technical SEO</h3>
                     <ul class="service-list">
-                        <li>Mobile-responsive design starting at just &pound;250</li>
-                        <li>Built on WordPress, Wix, Shopify &amp; more</li>
-                        <li>Speed-optimised &amp; SEO-ready 5-page starter sites</li>
-                        <li>Contact forms, WhatsApp chat, service pages &amp; galleries</li>
-                        <li>Maintenance &amp; support packages available</li>
+                        <li>Website speed optimisation and Core Web Vitals improvements</li>
+                        <li>SEO-friendly site structure and internal linking</li>
+                        <li>Meta tags, headings, and content optimisation</li>
+                        <li>Image optimisation and schema markup implementation</li>
+                        <li>Ongoing SEO health monitoring and improvements</li>
                     </ul>
                 </article>
 
@@ -77,25 +125,24 @@
                     <div class="card-icon"></div>
                     <h3>Perfect For</h3>
                     <ul class="service-list">
-                        <li>Local tradespeople – plumbers, electricians, builders, handymen</li>
-                        <li>Beauty &amp; wellness – salons, spas, personal trainers</li>
-                        <li>Home businesses – bakers, cleaners, tutors</li>
-                        <li>Professionals – consultants, freelancers, coaches</li>
-                        <li>Any London business looking to grow their online presence</li>
+                        <li>Local trades and service provider</li>
+                        <li>Retail, eCommerce, and product-based businesses</li>
+                        <li>Beauty, wellness, and hospitality businesses</li>
+                        <li>Professional services – consultants, agencies, freelancers</li>
+                        <li>Any UK business looking to grow its online presence through SEO</li>
                     </ul>
                 </article>
             </div>
         </div>
     </section>
 
-        <!-- SERVICES GRID -->
+    <!-- SERVICES GRID -->
     <section class="section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2>Comprehensive SEO Services </h2>
+                <h2>SEO Services </h2>
                 <p>
-                    From local SEO to technical optimisations, we offer a full suite of services to boost your online
-                    presence and drive real results for your business.
+                    Comprehensive SEO solutions tailored for businesses across the UK.
                 </p>
             </div>
 
@@ -103,8 +150,10 @@
                 <!-- Row 1 -->
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/National.webp') }}" alt="National SEO" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.national-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/National.webp') }}" alt="National SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -121,8 +170,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/International.webp') }}" alt="International SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.international-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/International.webp') }}" alt="International SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -139,8 +190,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}" alt="Technical SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.technical-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}" alt="Technical SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -158,8 +211,10 @@
                 <!-- Row 2 -->
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Content.webp') }}" alt="Content SEO" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.content-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Content.webp') }}" alt="Content SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -177,8 +232,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.image-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO" loading="lazy"
+                                decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -195,8 +252,10 @@
                 <!-- Row 3 -->
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Local.webp') }}" alt="Local SEO" loading="lazy"
-                            decoding="async">
+                        <a href="{{ route('services.digi-marketing.local-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Local.webp') }}" alt="Local SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -213,8 +272,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}" alt="eCommerce SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.ecommerce-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}" alt="eCommerce SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -231,8 +292,10 @@
 
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}" alt="On-Page SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.on-page-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}" alt="On-Page SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -250,8 +313,10 @@
                 <!-- Row 4 -->
                 <article class="card service-card">
                     <div class="service-thumb">
-                        <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}" alt="Off-Page SEO"
-                            loading="lazy" decoding="async">
+                        <a href="{{ route('services.digi-marketing.off-page-seo') }}">
+                            <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}" alt="Off-Page SEO"
+                                loading="lazy" decoding="async">
+                        </a>
                     </div>
 
                     <div class="service-header">
@@ -282,15 +347,15 @@
 
             <div class="grid grid-3 pricing-grid">
                 <article class="card pricing-card">
-                    <p class="plan-name">Starter Website</p>
+                    <p class="plan-name">Starter SEO</p>
                     <p class="plan-price">&pound;250</p>
                     <p class="plan-tagline">One time payment</p>
                     <ul class="plan-list">
-                        <li>5-page mobile-friendly website</li>
-                        <li>Basic SEO setup &amp; optimisation</li>
-                        <li>Contact form integration</li>
-                        <li>WhatsApp chat button</li>
-                        <li>Fast loading speed</li>
+                        <li>Complete SEO audit and initial setup</li>
+                        <li>On-page SEO optimisation</li>
+                        <li>Google Business Profile optimisation</li>
+                        <li>Basic keyword targeting</li>
+                        <li>Technical SEO fixes for better indexing</li>
                     </ul>
                     <a href="#cta" class="btn btn-outline-dark">Get Started</a>
                 </article>
@@ -314,9 +379,9 @@
                     <p class="plan-price">&pound;350</p>
                     <p class="plan-tagline">Per month</p>
                     <ul class="plan-list">
-                        <li>Website + SEO combined</li>
-                        <li>Advanced SEO strategies</li>
-                        <li>Website maintenance &amp; updates</li>
+                        <li>Advanced local and on-page SEO strategies</li>
+                        <li>Technical SEO monitoring and improvements</li>
+                        <li>Authority building through backlinks and citations</li>
                         <li>Priority support (24–48hr response)</li>
                         <li>Dedicated account manager</li>
                     </ul>
@@ -341,7 +406,7 @@
             </div>
 
             <div class="grid grid-2 results-grid">
-                @foreach($businessResults as $result)
+                @foreach ($businessResults as $result)
                     <article class="card result-card">
                         <div class="result-header">
                             <p class="business-name">{{ $result->business_name }}</p>
@@ -350,7 +415,7 @@
                         </div>
 
                         <div class="result-metrics">
-                            @foreach($result->metrics as $metric)
+                            @foreach ($result->metrics as $metric)
                                 <div>
                                     <p class="metric-label">{{ $metric['label'] }}</p>
                                     <p class="metric-value">{{ $metric['value'] }}</p>
@@ -373,11 +438,11 @@
         <div class="container stats-grid">
             <article class="stat">
                 <p class="stat-value">100+</p>
-                <p class="stat-label">Projects Completed</p>
+                <p class="stat-label">SEO Campaigns Successfully Delivered</p>
             </article>
             <article class="stat">
                 <p class="stat-value">250%</p>
-                <p class="stat-label">Average Traffic Increase</p>
+                <p class="stat-label">Strong Growth in Organic Traffic and Leads</p>
             </article>
             <article class="stat">
                 <p class="stat-value">5★</p>
@@ -396,7 +461,8 @@
             <div class="section-header">
                 <h2>We&apos;re Local, Responsive &amp; Built Just Like You</h2>
                 <p>
-                    As a small business ourselves, we understand your challenges and are committed to your success.
+                    As a digital agency, we understand your challenges and are committed to your success through effective
+                    SEO.
                 </p>
             </div>
 
@@ -412,21 +478,21 @@
                     <span class="why-bullet"></span>
                     <div class="why-content">
                         <p class="why-title">Fast Turnaround</p>
-                        <p class="why-text">Quick implementation and responsive changes when you need them.</p>
+                        <p class="why-text">Quick implementation and responsive changes when you need changes.</p>
                     </div>
                 </div>
                 <div class="why-item">
                     <span class="why-bullet"></span>
                     <div class="why-content">
                         <p class="why-title">We Understand Small Businesses</p>
-                        <p class="why-text">Strategies tailored to limited budgets and real-world constraints.</p>
+                        <p class="why-text">SEO strategies tailored to real-world business goals and competition.</p>
                     </div>
                 </div>
                 <div class="why-item">
                     <span class="why-bullet"></span>
                     <div class="why-content">
-                        <p class="why-title">Trusted Locally</p>
-                        <p class="why-text">Proven results for London-based trades, services and home businesses.</p>
+                        <p class="why-title">Trusted Across the UK</p>
+                        <p class="why-text">Proven SEO results for UK-based trades, services, and companies.</p>
                     </div>
                 </div>
                 <div class="why-item">
@@ -445,10 +511,11 @@
         <div class="container">
             <div class="cta-inner">
                 <div class="cta-header">
-                    <h2>Get a Free SEO Review</h2>
+                    <h2>Work With a Trusted SEO Agency in the UK</h2>
                     <p>
-                        Let&apos;s discuss how we can help your London business grow online.
-                        No obligation, just honest advice and a clear roadmap to success.
+                        Choosing the right SEO agency can be the difference between being invisible online and dominating
+                        search results. Our SEO services are designed to help UK businesses improve rankings, attract more
+                        visitors, and turn search traffic into real enquiries and sales.
                     </p>
                 </div>
 
@@ -472,6 +539,79 @@
 
                 <div class="cta-action-main">
                     <a href="#" class="btn btn-light">Schedule a Free Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Search Engine Optimisation(SEO) FAQs</h2>
+            </div>
+
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1. What is SEO and how does it help my business?</summary>
+                        <div class="faq-content">
+                            <p>
+                                SEO (Search Engine Optimisation) improves your website’s visibility in Google so potential
+                                customers can find your services when they search online, leading to more traffic,
+                                enquiries, and sales.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>2. How long does SEO take to deliver results?</summary>
+                        <div class="faq-content">
+                            <p>
+                                SEO is a long-term strategy. Most businesses see measurable improvements within 2–4 months,
+                                with stronger rankings and traffic growth over time.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>3.What is included in a professional SEO service?</summary>
+                        <div class="faq-content">
+                            <p>
+                                A complete SEO service includes keyword research, on-page optimisation, technical SEO
+                                improvements, content optimisation, local SEO, and authority building through backlinks and
+                                citations.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>4.Why is ongoing SEO important?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Search rankings change constantly. Ongoing SEO ensures your website stays competitive,
+                                maintains rankings, and continues to grow in visibility.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>5. Can SEO generate real leads and customers?</summary>
+                        <div class="faq-content">
+                            <p> Yes. SEO targets users actively searching for your services, resulting in high-intent
+                                traffic that converts into real enquiries and customers.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>6. How do you measure SEO success?</summary>
+                        <div class="faq-content">
+                            <p>
+                                SEO success is measured through keyword rankings, organic traffic growth, user engagement,
+                                and the number of leads or conversions generated from search engines.
+                            </p>
+                        </div>
+                    </details>
                 </div>
             </div>
         </div>

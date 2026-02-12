@@ -1,0 +1,79 @@
+.auditModal{position:fixed;inset:0;display:none;z-index:9999}
+.auditModal.isOpen{display:block}
+
+.auditModal__overlay{position:absolute;inset:0;background:rgba(11,18,32,.62);backdrop-filter:blur(6px)}
+.auditModal__card{
+  position:relative;
+  width:min(560px, 92vw);
+  margin:6vh auto 0;
+  background:#fff;
+  border-radius:18px;
+  border:1px solid rgba(16,56,128,.14);
+  box-shadow:0 26px 90px rgba(11,18,32,.26);
+  padding:18px;
+}
+
+.auditModal__close{
+  position:absolute;top:12px;right:12px;
+  width:40px;height:40px;border-radius:12px;
+  border:1px solid rgba(16,56,128,.14);
+  background:#fff;cursor:pointer;
+}
+.auditModal__head{padding:10px 8px 12px}
+.auditModal__eyebrow{margin:0 0 6px;font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#f28c28}
+.auditModal__title{margin:0 0 6px;font-size:20px;color:#0b1220}
+.auditModal__sub{margin:0;color:rgba(11,18,32,.72);font-size:14px;line-height:1.5}
+
+.auditForm{padding:4px 8px 10px}
+.auditForm__grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.auditField--full{grid-column:1 / -1}
+
+.auditField label{display:block;font-weight:800;font-size:13px;margin-bottom:6px;color:#0b1220}
+.auditField label span{color:#d94343}
+.auditField input,.auditField textarea{
+  width:100%;
+  border-radius:14px;
+  border:1px solid rgba(16,56,128,.18);
+  padding:12px 12px;
+  outline:none;
+  font-size:14px;
+  background:#fff;
+}
+.auditField input:focus,.auditField textarea:focus{
+  border-color:rgba(242,140,40,.65);
+  box-shadow:0 0 0 4px rgba(242,140,40,.16);
+}
+.auditHint{display:block;margin-top:6px;color:rgba(11,18,32,.55);font-size:12px}
+.auditError{display:block;margin-top:6px;color:#c62828;font-size:12px;min-height:14px}
+
+.auditForm__actions{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.auditForm__note{margin:0;color:rgba(11,18,32,.62);font-size:12px;line-height:1.4}
+
+.auditToast{
+  margin-top:12px;
+  padding:10px 12px;
+  border-radius:14px;
+  border:1px solid transparent;
+  font-size:13px;
+  display:none;
+}
+.auditToast.isVisible{display:block}
+.auditToast.isOk{background:rgba(46,160,67,.10);border-color:rgba(46,160,67,.25);color:#1e7c34}
+.auditToast.isBad{background:rgba(214,67,67,.10);border-color:rgba(214,67,67,.25);color:#b12020}
+
+.auditModal.isSubmitting .auditBtnSpinner{
+  width:14px;height:14px;border-radius:50%;
+  border:2px solid rgba(255,255,255,.45);
+  border-top-color:#fff;
+  display:inline-block;
+  margin-left:8px;
+  animation:spin .9s linear infinite;
+}
+.auditBtnSpinner{display:none}
+.auditModal.isSubmitting .auditBtnSpinner{display:inline-block}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+@media (max-width:640px){
+  .auditForm__grid{grid-template-columns:1fr}
+  .auditModal__card{margin:4vh auto 0}
+}

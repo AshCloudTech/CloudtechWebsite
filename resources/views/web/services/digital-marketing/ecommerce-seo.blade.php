@@ -377,7 +377,7 @@
                     </p>
                 </div>
                 <div class="cta-actions ecommerce-cta-actions">
-                    <a href="#contact-form" class="btn btn-primary">Get eCommerce SEO Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="ecommerce-seo">Get eCommerce SEO Audit</a>
                 </div>
             </div>
         </div>

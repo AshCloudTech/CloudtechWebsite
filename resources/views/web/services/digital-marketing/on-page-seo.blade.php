@@ -30,7 +30,7 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#cta" class="btn btn-lg btn-primary">Get Free SEO Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="on-page-seo">Get Free SEO Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Speak to Expert</a>
                 </div>
             </div>
@@ -323,7 +323,7 @@
                     </p>
                 </div>
                 <div class="cta-actions onpage-cta-actions">
-                    <a href="#contact-form" class="btn btn-primary">Get Free SEO Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="on-page-seo">Get Free SEO Audit</a>
                     <a href="#process" class="btn btn-outline-light">View Our Process</a>
                 </div>
             </div>

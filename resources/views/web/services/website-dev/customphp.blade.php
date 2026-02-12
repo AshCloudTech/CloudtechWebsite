@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/customphp/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('assets/services/webDevelopment/customphp/js/script.js') }}" defer></script>
@@ -202,6 +203,74 @@
             </div>
         </div>
     </section>
+    <!-- WHAT ARE CUSTOM PHP DEVELOPMENT SERVICES -->
+<section class="section section-services" id="about-custom-php-development">
+    <div class="container">
+        <div class="section-header">
+            <h2>What Are Custom PHP Development Services?</h2>
+        </div>
+
+        <div class="wix-about-wrapper">
+
+            <div class="wix-about-content">
+                <p>
+                   <b>Custom PHP development</b>  services focus on building bespoke, high-performance web applications and systems using core PHP without platform limitations. These services include custom web applications, API development, legacy modernisation, performance optimisation, security hardening, and long-term support.
+                </p>
+
+                <p>
+                    A professional custom PHP approach ensures full ownership of your codebase, framework-agnostic flexibility, and deep integrations aligned exactly to your business requirements.
+                </p>
+
+                <p>
+                    If you need complete architectural control, seamless integrations, and reliable performance, custom PHP development is the ideal solution.
+                </p>
+            </div>
+
+            <div class="wix-about-highlight" style="background-color: #ffffff">
+                <h3>Who Needs Custom PHP Development?</h3>
+
+                <p>Custom PHP development is ideal for:</p>
+
+                <ul>
+                    <li>Businesses needing bespoke web applications and portals</li>
+                    <li>Organisations with complex workflows and integrations</li>
+                    <li>Companies modernising legacy systems</li>
+                    <li>Platforms requiring high performance and scalability</li>
+                    <li>Startups building MVPs that can evolve into products</li>
+                    <li>Enterprises needing secure internal tools and dashboards</li>
+                </ul>
+
+                <p class="wix-about-note">
+                    If your project goes beyond the limits of website builders or standard frameworks, custom PHP provides the flexibility you need.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY CUSTOM PHP IS IDEAL -->
+<section class="section section-business" id="why-custom-php-modern" style="background-color: #ffffff">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Custom PHP Is Ideal for Bespoke Systems</h2>
+        </div>
+
+        <div class="wix-growth-card">
+            <p>
+                Custom PHP offers fine-grained control over architecture, integrations, and performance without vendor lock-in. With a clean, modular codebase and security-first practices, PHP applications can be optimised precisely for your workflows and traffic demands.
+            </p>
+
+            <p>
+                With the right custom PHP development strategy, your system benefits from optimised performance, flexible integrations, strong security, and long-term maintainability supported by clear documentation and standards.
+            </p>
+        </div>
+
+    </div>
+</section>
+
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">
@@ -218,5 +287,73 @@
             </div>
         </div>
     </section>
+
+ <!-- FAQ -->
+<section class="section section-alt section-faq" id="faq">
+    <div class="container">
+        <div class="section-header">
+            <h2>PHP Development Services – FAQs</h2>
+        </div>
+
+        <div class="faq-wrap">
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>1. What are PHP development services used for?</summary>
+                    <div class="faq-content">
+                        <p>
+                            PHP development services are used to build dynamic websites, custom web applications, portals, dashboards, and APIs that are fast, secure, and tailored to specific business requirements.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>2. When should I choose custom PHP instead of a CMS platform?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Custom PHP is ideal when you need bespoke features, complex integrations, or full control over your system architecture beyond the limits of standard CMS solutions.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>3. Is PHP suitable for scalable, high-traffic websites?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes. With proper architecture, caching, and database optimisation, PHP can power large, high-performance websites and applications efficiently.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>4. Can PHP applications integrate with third-party systems?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Absolutely. PHP is well-suited for REST API development and seamless integrations with CRMs, ERPs, payment gateways, and other external platforms.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>5. Is PHP development SEO-friendly?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes. PHP allows clean URL structures, fast loading speeds, and full technical SEO control to help websites rank well in Google Search.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>6. Do you provide ongoing support after PHP development?</summary>
+                    <div class="faq-content">
+                        <p>
+                            Yes. Ongoing maintenance, updates, monitoring, and performance improvements are provided to keep your PHP application secure and reliable.
+                        </p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </div>
+</section>
+
     
 @endsection

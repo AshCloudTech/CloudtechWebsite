@@ -191,6 +191,75 @@
         </div>
     </section>
 
+    <!-- WHAT ARE LARAVEL DEVELOPMENT SERVICES -->
+<section class="section section-services" id="about-laravel-development">
+    <div class="container">
+        <div class="section-header">
+            <h2>What Are Laravel Development Services?</h2>
+        </div>
+
+        <div class="wix-about-wrapper">
+
+            <div class="wix-about-content">
+                <p>
+                   <b> Laravel development</b> services focus on building secure, scalable, and high-performance web applications using Laravel’s modern PHP framework. These services include custom application development, RESTful APIs, database architecture, security implementation, cloud deployment, and legacy system migration.
+                </p>
+
+                <p>
+                    A professional Laravel development approach ensures your application is technically robust, easy to scale, and structured to handle complex business logic with clean, maintainable code.
+                </p>
+
+                <p>
+                    If you need a powerful web application tailored to advanced workflows and long-term growth, Laravel development services are the ideal solution.
+                </p>
+            </div>
+
+            <div class="wix-about-highlight" style="background-color: #ffffff">
+                <h3>Who Needs Laravel Development?</h3>
+
+                <p>Laravel development is ideal for:</p>
+
+                <ul>
+                    <li>Businesses requiring custom web applications</li>
+                    <li>SaaS platforms and multi-tenant systems</li>
+                    <li>Companies needing secure APIs and integrations</li>
+                    <li>Organisations migrating from legacy systems</li>
+                    <li>Enterprises building portals and internal tools</li>
+                    <li>Startups developing scalable digital products</li>
+                </ul>
+
+                <p class="wix-about-note">
+                    If your project involves complex features, data handling, or integrations, Laravel provides the flexibility and performance required.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY LARAVEL IS IDEAL -->
+<section class="section section-business" id="why-laravel-modern" style="background-color: #ffffff">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Laravel Is Ideal for Complex Applications</h2>
+        </div>
+
+        <div class="wix-growth-card">
+            <p>
+                Laravel combines clean architecture with powerful features that support scalability, security, and performance. With built-in authentication, modular structure, caching support, and modern development practices, Laravel applications are reliable and future-ready.
+            </p>
+
+            <p>
+                With the right Laravel development strategy, your application benefits from optimised database performance, secure code practices, seamless integrations, and cloud-ready deployments that support long-term scalability.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
     <!-- CTA -->
     <section class="section section-cta" id="cta">
         <div class="container">

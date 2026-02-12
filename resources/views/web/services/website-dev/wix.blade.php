@@ -184,6 +184,75 @@
         </div>
     </section>
 
+    <!-- WHAT ARE WIX DEVELOPMENT SERVICES -->
+<section class="section section-services" id="about-wix-development">
+    <div class="container">
+        <div class="section-header">
+            <h2>What Are Wix Development Services?</h2>
+        </div>
+
+        <div class="wix-about-wrapper">
+
+            <div class="wix-about-content">
+                <p>
+                    Wix development services focus on creating visually engaging, mobile-responsive, and cost-effective websites using Wix’s flexible website builder. These services include custom design, store setup, app integrations, SEO optimisation, and advanced functionality using Velo.
+                </p>
+
+                <p>
+                    A professional Wix development approach ensures your website is easy to manage, quick to launch, and structured to present your business professionally while remaining budget-friendly.
+                </p>
+
+                <p>
+                    If you want a flexible website with strong design control and simple management, Wix development services are a practical solution.
+                </p>
+            </div>
+
+            <div class="wix-about-highlight">
+                <h3>Who Needs Wix Development?</h3>
+
+                <p>Wix development is ideal for:</p>
+
+                <ul>
+                    <li>Small and medium-sized businesses</li>
+                    <li>Service providers needing professional websites</li>
+                    <li>Startups looking for fast and affordable launches</li>
+                    <li>Restaurants, salons, and booking-based businesses</li>
+                    <li>Creatives building portfolios and blogs</li>
+                    <li>Businesses wanting eCommerce without complexity</li>
+                </ul>
+
+                <p class="wix-about-note">
+                    If you need a website that is easy to update, visually appealing, and quick to deploy, Wix is a suitable platform.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY WIX IS SUITABLE -->
+<section class="section section-business" id="why-wix-modern" style="background-color: #f5f5f5">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Wix Is Suitable for Modern Businesses</h2>
+        </div>
+
+        <div class="wix-growth-card">
+            <p>
+                Wix combines design flexibility with an intuitive drag-and-drop builder, allowing businesses to create professional websites without technical barriers. With built-in SEO tools, secure hosting, and transparent pricing, Wix websites are reliable, responsive, and simple to maintain.
+            </p>
+
+            <p>
+                With the right Wix development strategy, your website benefits from clean design, smooth functionality, mobile optimisation, and a scalable setup that supports business growth.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
     <!-- CTA -->
     <section class="section section-cta" id="cta">
         <div class="container">

@@ -556,3 +556,80 @@ button {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+.wix-about-wrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 1.8fr) minmax(0, 1.3fr);
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.wix-about-content p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #4b5563;
+}
+
+.wix-about-highlight {
+    background-color: #f3f4f6;
+    padding: 24px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+}
+
+.wix-about-highlight h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.wix-about-highlight ul {
+    margin: 12px 0 16px 0;
+    padding-left: 18px;
+    list-style: disc;
+}
+
+.wix-about-highlight ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #374151;
+}
+
+.wix-about-note {
+    font-size: 14px;
+    color: #111827;
+    margin: 0;
+}
+
+
+.wix-growth-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 28px 30px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+}
+
+.wix-growth-card p {
+    font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 14px;
+}
+
+.wix-growth-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* ===================================== */
+/* RESPONSIVE */
+/* ===================================== */
+
+@media (max-width: 1024px) {
+    .wix-about-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

@@ -201,6 +201,74 @@
             </div>
         </div>
     </section>
+    <!-- WHAT ARE GODADDY WEBSITE BUILDER SERVICES -->
+<section class="section section-services" id="about-godaddy-development">
+    <div class="container">
+        <div class="section-header">
+            <h2>What Are GoDaddy Website Builder Services?</h2>
+        </div>
+
+        <div class="wix-about-wrapper">
+
+            <div class="wix-about-content">
+                <p>
+                    <b>GoDaddy Website Builder</b> services focus on helping small businesses create affordable, secure, and professional websites quickly using GoDaddy’s easy website builder. These services include full site setup, template customisation, domain integration, eCommerce features, SEO setup, and marketing tools.
+                </p>
+
+                <p>
+                    A professional GoDaddy website builder setup ensures your website is mobile-friendly, simple to manage, and ready to launch without technical complexity or hidden costs.
+                </p>
+
+                <p>
+                    If you need a reliable website with transparent pricing and fast deployment, GoDaddy website builder services are a practical solution.
+                </p>
+            </div>
+
+            <div class="wix-about-highlight" style="background-color: #ffffff">
+                <h3>Who Needs GoDaddy Website Builder?</h3>
+
+                <p>GoDaddy website builder is ideal for:</p>
+
+                <ul>
+                    <li>Small local businesses needing a quick online presence</li>
+                    <li>Freelancers building personal brand websites</li>
+                    <li>Startups looking for affordable website solutions</li>
+                    <li>Small eCommerce sellers</li>
+                    <li>Businesses wanting simple website management</li>
+                    <li>Companies needing fast setup with secure hosting</li>
+                </ul>
+
+                <p class="wix-about-note">
+                    If you want to get online quickly without complicated development, GoDaddy is a suitable platform.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <!-- WHY GODADDY IS SUITABLE -->
+<section class="section section-business" id="why-godaddy-modern" style="background-color: #ffffff">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why GoDaddy Is Suitable for Small Businesses</h2>
+        </div>
+
+        <div class="wix-growth-card">
+            <p>
+                GoDaddy combines simplicity, affordability, and reliable hosting in one platform. With mobile-ready templates, built-in SEO tools, and clear pricing, businesses can launch professional websites without worrying about technical setup.
+            </p>
+
+            <p>
+                With the right GoDaddy website builder approach, your site benefits from clean design, secure hosting, easy updates, and essential marketing tools that support lead generation and visibility.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">
@@ -217,6 +285,8 @@
             </div>
         </div>
     </section>
+
+
 <!-- FAQ -->
 <section class="section section-alt section-faq" id="faq">
     <div class="container">

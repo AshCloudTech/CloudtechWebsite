@@ -336,7 +336,67 @@
             </div>
         </div>
     </section>
+         <!-- What Is Social Media Marketing?  -->
+<section class="section section-national-about" id="about-meta_ads-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
 
+            <div class="national-about-content">
+                <h2>What Is Social Media Marketing?</h2>
+
+                <p>
+                  Social media marketing is the strategic use of social platforms to increase brand visibility, engage audiences, and generate leads or sales. It combines content creation, community engagement, paid advertising, and data analysis to build a strong online presence that supports real business growth.
+                </p>
+
+                <p>
+                   A successful social media strategy ensures your brand stays visible, relevant, and connected to your audience across the platforms they use every day.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Content Strategy & Brand Voice </h3>
+
+                <p>
+                   We don’t post randomly. We build a content plan that includes:
+                </p>
+
+                <ul>
+                    <li>Educational posts that build authority</li>
+                    <li>Promotional posts that drive action</li>
+                    <li>Engaging posts that encourage interaction</li>
+                    <li>Trend-based content that increases reach</li>
+                </ul>
+
+                <p class="">
+                   A consistent brand voice across all platforms strengthens recognition and trust.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Why Social Media Marketing Is Essential for Modern Brands -->
+<section class="section section-national-growth" id="meta_ads-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Social Media Marketing Is Essential for Modern Brands </h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+               Customers now research brands on social media before making decisions. An active, engaging presence builds credibility and keeps your brand top of mind.
+            </p>
+
+            <p>
+              With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+            </p>
+        </div>
+
+    </div>
+</section>
     <!-- CTA -->
     <section class="section smm-cta" style="margin-top:35px" id="cta">
         <div class="container">

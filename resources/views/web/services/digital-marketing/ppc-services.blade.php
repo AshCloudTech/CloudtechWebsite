@@ -262,6 +262,69 @@
         </div>
     </section>
 
+             <!-- WHAT ARE ppc SERVICES -->
+<section class="section section-national-about" id="about-meta_ads-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>What Are PPC Management Services? </h2>
+
+                <p>
+                   PPC management services involve planning, launching, and continuously optimising paid advertising campaigns across search engines and social platforms. The goal is to generate high-intent traffic, reduce wasted ad spend, and maximise return on ad spend through data-driven optimisation.
+                </p>
+
+                <p>
+                   A professional PPC strategy includes keyword research, audience targeting, ad creation, conversion tracking, landing page optimisation, and ongoing performance improvements to ensure consistent growth.
+                </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Reducing Wasted Spend with Smart Optimisation</h3>
+
+                <p>
+                  Many PPC campaigns fail due to poor optimisation. We actively manage:
+                </p>
+
+                <ul>
+                    <li>Negative keyword lists</li>
+                    <li>Search term analysis</li>
+                    <li>Geo and device targeting</li>
+                    <li>Time-of-day bid adjustments</li>
+                    <li>Audience exclusions</li>
+                </ul>
+
+                <p class="">
+                 These improvements quickly lower CPC and increase conversion rates.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Why PPC Management Is Essential for Fast Business Growth -->
+<section class="section section-national-growth" id="meta_ads-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why PPC Management Is Essential for Fast Business Growth</h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+              Unlike SEO, PPC delivers immediate visibility in search results and social feeds. With expert management, your campaigns can generate qualified traffic and leads from day one while building a predictable system for scaling growth.
+            </p>
+
+            <p>
+               A well-optimised PPC campaign becomes a reliable source of revenue with measurable ROI.
+            </p>
+        </div>
+
+    </div>
+</section>
+
     <!-- CTA -->
     <section class="section section-cta" style="margin-top:35px" id="cta">
         <div class="container">

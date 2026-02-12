@@ -605,11 +605,11 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
    Social list (Aside)
 ========================= */
 .socialList{
-  display:grid;
+  display:flex;
   gap: 10px;
 }
 .socialRow{
-  display:flex;
+  /* display:flex; */
   align-items:center;
   justify-content:space-between;
   gap: 12px;
@@ -861,3 +861,12 @@ body{
 .brand-color{
   color: var(--ct-orange);
 }
+/* stay connected box */
+.socialIcon svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+
+

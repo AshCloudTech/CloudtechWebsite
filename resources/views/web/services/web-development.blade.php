@@ -338,6 +338,72 @@
         </div>
     </section>
 
+       <!-- Why Choose Cloud Technologies Ltd for Website Development Services?   -->
+<section class="section section-national-about" id="about-meta_ads-seo">
+    <div class="container">
+        <div class="national-about-wrapper">
+
+            <div class="national-about-content">
+                <h2>Why Choose Cloud Technologies Ltd for Website Development Services? </h2>
+
+                <p>
+                 Cloud Technologies Ltd is a trusted provider of professional website development services for startups, small businesses, and growing enterprises. We specialise in building fast, SEO-optimised, mobile-responsive websites that help businesses increase visibility, attract customers, and drive conversions.
+                </p>
+
+                <p>
+                  Whether you need a business website, eCommerce store, booking platform, or custom web application, our expert developers deliver solutions using modern frameworks, secure architecture, and performance-focused design.
+                </p>
+                <p>We provide website development solutions across multiple platforms including WordPress, Shopify, WooCommerce, Wix, Squarespace, GoDaddy Website Builder, and fully custom solutions using Laravel and PHP. </p>
+            </div>
+
+            <div class="national-about-highlight">
+                <h3>Our Expertise in Website Development Across Industries </h3>
+
+                <p>
+                  We have delivered website development projects for clients in:
+                </p>
+
+                <ul>
+                    <li>Travel & Tourism</li>
+                    <li>Legal & Immigration</li>
+                    <li>Education & eLearning</li>
+                    <li>Healthcare & Therapy</li>
+                    <li>Professional Services</li>
+                    <li>eCommerce & Retail Business</li>
+                    <li>Digital Marketing Agencies</li>
+                </ul>
+
+                <p class="">
+                  Our industry experience allows us to understand user behaviour, design conversion-focused layouts, and implement the right functionality for each business type.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Why Social Media Marketing Is Essential for Modern Brands -->
+<section class="section section-national-growth" id="meta_ads-growth">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Why Social Media Marketing Is Essential for Modern Brands </h2>
+        </div>
+
+        <div class="national-growth-card">
+            <p>
+               Customers now research brands on social media before making decisions. An active, engaging presence builds credibility and keeps your brand top of mind.
+            </p>
+
+            <p>
+              With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+            </p>
+        </div>
+
+    </div>
+</section>
+
     <!-- CTA -->
     <section class="section webdev-cta" id="cta">
         <div class="container">

@@ -24,8 +24,8 @@
                 affordable, results-driven SEO services tailored for companies of all sizes and industries.
             </p>
             <!-- <p class="hero-subtitle">
-                    Drive targeted traffic, generate real leads and grow your business online.
-                </p> -->
+                        Drive targeted traffic, generate real leads and grow your business online.
+                    </p> -->
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Get Free SEO Review</a>
                 <a href="#services" class="btn btn-ghost">View Our Services</a>
@@ -42,11 +42,11 @@
     <section class="section">
         <div class="container">
             <!-- <div class="section-header">
-                    <h2>What’s Included in Our Off-Page SEO Service?</h2>
-                    <p>
-                        Complete off-page optimisation for authority and ranking growth.
-                    </p>
-                </div> -->
+                        <h2>What’s Included in Our Off-Page SEO Service?</h2>
+                        <p>
+                            Complete off-page optimisation for authority and ranking growth.
+                        </p>
+                    </div> -->
 
             <div class="services-layout">
                 <div class="services-copy">

@@ -71,6 +71,7 @@
                 <!-- Digital Marketing -->
                 <article class="card service-card">
                     <div class="card-tag tag-blue">Digital Marketing</div>
+                    <img src="{{ asset('assets/images/home/digital_marketing.webp') }}" class="service-image" alt="Digital Marketing" loading="lazy" decoding="async">
                     <h3><a href="{{ route('services.digital.marketing') }}">Digital Marketing</a></h3>
                     <p>Digital marketing solutions designed to boost visibility and drive sales.</p>
                     <ul class="service-list">
@@ -84,6 +85,7 @@
                 <!-- UI/UX Design -->
                 <article class="card service-card">
                     <div class="card-tag tag-purple">UI/UX Design</div>
+                    <img src="{{ asset('assets/images/home/ui_&_ux_design.webp') }}" class="service-image" alt="UI/UX Design" loading="lazy" decoding="async">
                     <h3><a href="{{ route('services.uiux') }}">UI/UX Design</a></h3>
                     <p>End-to-end UI/UX design that aligns business goals with user needs.</p>
                     <ul class="service-list">
@@ -97,6 +99,7 @@
                 <!-- Web Development -->
                 <article class="card service-card">
                     <div class="card-tag tag-green">Web Development</div>
+                    <img src="{{ asset('assets/images/home/web_development.webp') }}" class="service-image" alt="Web Development" loading="lazy" decoding="async">
                     <h3><a href="{{ route('services.web.development') }}">Web Development</a></h3>
                     <p>Fast, responsive websites developed for seamless user experiences.</p>
                     <ul class="service-list">
@@ -110,6 +113,7 @@
                 <!-- Branding -->
                 <article class="card service-card">
                     <div class="card-tag tag-orange">Branding</div>
+                    <img src="{{ asset('assets/images/home/branding.webp') }}" class="service-image" alt="Branding" loading="lazy" decoding="async">
                     <h3><a href="{{ route('services.branding') }}">Branding</a></h3>
                     <p>Bold branding that captures attention and elevates your presence.</p>
                     <ul class="service-list">
@@ -123,6 +127,7 @@
                 <!-- SEO -->
                 <article class="card service-card">
                     <div class="card-tag tag-teal">SEO</div>
+                    <img src="{{ asset('assets/images/home/seo.webp') }}" class="service-image" alt="SEO" loading="lazy" decoding="async">
                     <h3><a href="{{ route('services.seo') }}">SEO</a></h3>
                     <p>Powerful SEO that improves rankings, traffic, and conversions.</p>
                     <ul class="service-list">
@@ -136,6 +141,7 @@
                 <!-- Product Marketing -->
                 <article class="card service-card">
                     <div class="card-tag tag-pink">Product Marketing</div>
+                    <img src="{{ asset('assets/images/home/product_marketing.webp') }}" class="service-image" alt="Product Marketing" loading="lazy" decoding="async">
                     <h3><a href="{{ route('services.product.marketing') }}">Product Marketing</a></h3>
                     <p>Complete product marketing solutions designed to maximize product success.</p>
                     <ul class="service-list">
@@ -273,8 +279,7 @@
                 <!-- Healthcare -->
                 <article class="card industry-card">
                     <div class="card-tag tag-blue">Healthcare Solutions</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
+                    <img src="{{ asset('assets/images/home/healthcare_solutions.webp') }}" class="industry-image" alt="Healthcare Solutions" loading="lazy" decoding="async">                    
                     <h3><a href="{{ route('industries.cloudhealth') }}">Healthcare Solutions</a></h3>
                     <p>
                         Complete digital tools for healthcare providers, offering easy appointment scheduling and efficient
@@ -286,9 +291,8 @@
                 <!-- Care Dashboard -->
                 <article class="card industry-card">
                     <div class="card-tag tag-purple">Care Dashboard Management</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
-
+              
+                    <img src="{{ asset('assets/images/home/care_dashboard_management.webp') }}" class="industry-image" alt="Care Dashboard Management" loading="lazy" decoding="async">
                     <h3><a href="{{ route('industries.cloudcare') }}">Care Dashboard Management</a></h3>
                     <p>
                         Digital solutions for care homes that include CQC-ready websites, easy resident management, and
@@ -300,9 +304,7 @@
                 <!-- Education -->
                 <article class="card industry-card">
                     <div class="card-tag tag-green">Education Technology</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
-
+                    <img src="{{ asset('assets/images/home/education_technology.webp') }}" class="industry-image" alt="Education Technology" loading="lazy" decoding="async">
                     <h3><a href="{{ route('industries.cloudedu') }}">Education Technology</a></h3>
                     <p>
                         End-to-end school digitalization solutions featuring admission CRM, parent communication apps, and
@@ -314,9 +316,7 @@
                 <!-- Travel -->
                 <article class="card industry-card">
                     <div class="card-tag tag-orange">Travel &amp; Tourism</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
-
+                    <img src="{{ asset('assets/images/home/travel_&_tourism.webp') }}" class="industry-image" alt="Travel & Tourism" loading="lazy" decoding="async">
                     <h3><a href="{{ route('industries.cloudtravel') }}">Travel &amp; Tourism</a></h3>
                     <p>
                         Travel solutions with real-time Expedia and Viator integrations, easy booking tools, and full travel
@@ -328,9 +328,7 @@
                 <!-- Recruitment -->
                 <article class="card industry-card">
                     <div class="card-tag tag-teal">Recruitment Solutions</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
-
+                    <img src="{{ asset('assets/images/home/recruitment_solutions.webp') }}" class="industry-image" alt="Recruitment Solutions" loading="lazy" decoding="async">
                     <h3><a href="{{ route('industries.cloudrecruit') }}">Recruitment Solutions</a></h3>
                     <p>
                         AI-enhanced recruitment systems combining powerful ATS, intelligent CRM workflows, and automated
@@ -342,9 +340,7 @@
                 <!-- Public Sector -->
                 <article class="card industry-card">
                     <div class="card-tag tag-pink">Public Sector</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
-
+                    <img src="{{ asset('assets/images/home/public_sector.webp') }}" class="industry-image" alt="Public Sector" loading="lazy" decoding="async">
                     <h3><a href="{{ route('industries.cloudpublic') }}">Public Sector</a></h3>
                     <p>
                         Specialized public-sector platforms that streamline governance, enhance QA processes, and support
@@ -370,8 +366,8 @@
             <div class="grid grid-3 ai-grid">
                 <article class="card ai-card">
                     <div class="card-tag tag-blue">AI Chatbot Assistant</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
+                <img src="{{ asset('assets/images/home/ai_chatbot_assistant.webp') }}" class="service-image" alt="AI Chatbot Assistant" loading="lazy" decoding="async">
+
 
                     <h3>AI Chatbot Assistant</h3>
                     <p>
@@ -382,8 +378,8 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-purple">AI Recruiter</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
+                                    <img src="{{ asset('assets/images/home/ai_recruiter.webp') }}" class="service-image" alt="AI Recruiter" loading="lazy" decoding="async">
+
 
                     <h3>AI Recruiter</h3>
                     <p>
@@ -394,8 +390,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-green">AI Itinerary Builder</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
+                        <img src="{{ asset('assets/images/home/ai_itinerary_builder.webp') }}" class="service-image" alt="AI Itinerary Builder" loading="lazy" decoding="async">
 
                     <h3>AI Itinerary Builder</h3>
                     <p>
@@ -406,9 +401,8 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-orange">AI Healthcare Assistant</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
-
+                  
+                    <img src="{{ asset('assets/images/home/ai_healthcare_assistant.webp') }}" class="service-image" alt="AI Healthcare Assistant" loading="lazy" decoding="async">
                     <h3>AI Healthcare Assistant</h3>
                     <p>
                         AI-powered healthcare support that automates appointment booking, analyzes symptoms, and offers
@@ -418,9 +412,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-teal">AI Learning Platform</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
-
+                    <img src="{{ asset('assets/images/home/ai_learning_platform.webp') }}" class="service-image" alt="AI Learning Platform" loading="lazy" decoding="async">
                     <h3>AI Learning Platform</h3>
                     <p>
                         An AI-driven learning platform that personalizes lessons, tracks student progress, and delivers
@@ -430,9 +422,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-pink">AI Care Coordinator</div>
-                    {{-- <img src="{{ asset('assets/images/dashboard/industries.jpg') }}" alt="Healthcare Solutions"
-                        class="industry-image"> --}}
-
+                    <img src="{{ asset('assets/images/home/ai_care_coordinator.webp') }}" class="service-image" alt="AI Care Coordinator" loading="lazy" decoding="async">
                     <h3>AI Care Coordinator</h3>
                     <p>
                         AI-powered care coordination that centralizes resident care plans, supports medication management,
@@ -448,7 +438,7 @@
                     capabilities.
                 </p>
                 <div class="ai-cta-actions">
-                    <a href="#consultation" class="btn btn-primary openConsultationModal">Schedule AI Demo</a>
+                    <a href="#consultation" class="btn btn-primary openConsultationModal">Schedule Consultation</a>
                     <a href="#case-studies" class="btn btn-ghost">View AI Case Studies</a>
                 </div>
             </div>

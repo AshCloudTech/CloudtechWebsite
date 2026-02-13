@@ -256,7 +256,7 @@ button {
 }
 @media (max-width: 768px) {
     .main-nav a {
-        color: #fff;
+        color: #000000;
     }
 }
 
@@ -471,12 +471,12 @@ button {
     display: inline-flex;
     align-items: center;
     padding: 4px 10px;
-    border-radius: 999px;
+    border-top-left-radius: 999px;
+    border-top-right-radius: 999px;
     font-size: 11px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    background-color: #eef1ff;
 }
 
 /* Tag colors */
@@ -683,12 +683,56 @@ button {
     overflow: hidden;
 }
 
-.global-bg {
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(circle at center, #101633 0%, #050712 60%, #020309 100%);
-    z-index: -1;
+.global-bg{
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+
+  background-image: url("../../../assets/images/home/global_presence.webp");
+  background-size: cover;
+  background-position: center;
 }
+
+/* Fog layer */
+.global-bg::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  /* blur the backdrop (fog effect) */
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+
+  /* fog color tint */
+  background: rgba(10, 14, 28, 0.45);
+}
+
+/* Optional: extra soft mist */
+.global-bg::after{
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background: radial-gradient(circle at 30% 20%, rgba(255,255,255,.14), transparent 55%),
+              radial-gradient(circle at 70% 60%, rgba(255,255,255,.10), transparent 60%),
+              radial-gradient(circle at 50% 90%, rgba(255,255,255,.08), transparent 55%);
+  opacity: .4;
+  pointer-events: none;
+}
+
+@media (max-width: 768px){
+  .global-bg{
+    background-image: url("../../../assets/images/home/global_presence_mobile_view.webp");
+    background-position: center top;
+  }
+
+  .global-bg::before{
+    backdrop-filter: blur(6px);     /* slightly less blur for performance */
+    -webkit-backdrop-filter: blur(6px);
+    background: rgba(10, 14, 28, 0.55);
+  }
+}
+
 
 .global-section .section-header p {
     color: #c7cff5;
@@ -956,7 +1000,7 @@ button {
         top: 100%;
         left: 0;
         right: 0;
-        background: rgba(7, 10, 26, 0.98);
+        background: rgb(255, 255, 255);
         max-height: 0;
         overflow: auto;
         transition: max-height 0.2s ease;

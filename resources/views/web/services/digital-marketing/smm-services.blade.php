@@ -36,40 +36,49 @@
     </section>
 
     <!-- BENEFITS -->
-    <section class="section section-benefits" id="benefits">
-        <div class="container">
-            <div class="section-header">
-                <h2>Benefits of Social Media Marketing</h2>
-                <p>Boost visibility engagement and customer growth online.</p>
-            </div>
+<section class="section section-benefits" id="benefits">
+  <div class="container">
+    <div class="section-header">
+      <h2>Benefits of Social Media Marketing</h2>
+      <p>Boost visibility, engagement, and customer growth online.</p>
+    </div>
 
-            <div class="grid grid-4 benefits-grid">
-                <article class="benefit-card">
-                    <div class="benefit-icon"></div>
-                    <h3>Brand Awareness</h3>
-                    <p>Increase your brand’s recognition and reach new audiences fast.</p>
-                </article>
-
-                <article class="benefit-card">
-                    <div class="benefit-icon"></div>
-                    <h3>Engagement</h3>
-                    <p>Build stronger connections through meaningful interactions daily.</p>
-                </article>
-
-                <article class="benefit-card">
-                    <div class="benefit-icon"></div>
-                    <h3>Customer Service</h3>
-                    <p>Deliver quick responses and support directly through social platforms.</p>
-                </article>
-
-                <article class="benefit-card">
-                    <div class="benefit-icon"></div>
-                    <h3>Lead Generation</h3>
-                    <p>Capture high quality leads using targeted social media strategies.</p>
-                </article>
-            </div>
+    <div class="grid grid-4 benefits-grid benefits-grid-ui">
+      <article class="benefit-card benefit-card-ui">
+        <div class="benefit-icon" aria-hidden="true">
+          <i data-lucide="megaphone"></i>
         </div>
-    </section>
+        <h3>Brand Awareness</h3>
+        <p>Increase your brand’s recognition and reach new audiences fast.</p>
+      </article>
+
+      <article class="benefit-card benefit-card-ui">
+        <div class="benefit-icon" aria-hidden="true">
+          <i data-lucide="heart-handshake"></i>
+        </div>
+        <h3>Engagement</h3>
+        <p>Build stronger connections through meaningful interactions daily.</p>
+      </article>
+
+      <article class="benefit-card benefit-card-ui">
+        <div class="benefit-icon" aria-hidden="true">
+          <i data-lucide="message-circle"></i>
+        </div>
+        <h3>Customer Service</h3>
+        <p>Deliver quick responses and support directly through social platforms.</p>
+      </article>
+
+      <article class="benefit-card benefit-card-ui">
+        <div class="benefit-icon" aria-hidden="true">
+          <i data-lucide="trending-up"></i>
+        </div>
+        <h3>Lead Generation</h3>
+        <p>Capture high-quality leads using targeted social media strategies.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- PLATFORMS -->
     <section class="section section-platforms" id="platforms">
@@ -156,37 +165,49 @@
     </section>
 
     <!-- CONTENT TYPES -->
-    <section class="section section-alt section-content-types">
-        <div class="container">
-            <div class="section-header">
-                <h2>Content Types We Create</h2>
-                <p>We create engaging visual written video and interactive content for all platforms.</p>
-            </div>
+<section class="section section-alt section-content-types">
+  <div class="container">
+    <div class="section-header">
+      <h2>Content Types We Create</h2>
+      <p>We create engaging visual, written, video, and interactive content for all platforms.</p>
+    </div>
 
-            <div class="grid grid-4 content-type-grid">
-                <article class="content-type-card">
-                    <div class="content-type-icon"></div>
-                    <h3>Visual Content</h3>
-                    <p>Eye catching graphics that boost engagement. </p>
-                </article>
-                <article class="content-type-card">
-                    <div class="content-type-icon"></div>
-                    <h3>Video Content</h3>
-                    <p>High impact videos for stronger brand storytelling. </p>
-                </article>
-                <article class="content-type-card">
-                    <div class="content-type-icon"></div>
-                    <h3>Written Content</h3>
-                    <p>Captivating captions posts and social copy. </p>
-                </article>
-                <article class="content-type-card">
-                    <div class="content-type-icon"></div>
-                    <h3>Interactive Content</h3>
-                    <p>Polls quizzes and content that drives actions. </p>
-                </article>
-            </div>
+    <div class="grid grid-4 content-type-grid content-type-grid-ui">
+      <article class="content-type-card content-type-card-ui">
+        <div class="content-type-icon" aria-hidden="true">
+          <i data-lucide="image"></i>
         </div>
-    </section>
+        <h3>Visual Content</h3>
+        <p>Eye-catching graphics that boost engagement.</p>
+      </article>
+
+      <article class="content-type-card content-type-card-ui">
+        <div class="content-type-icon" aria-hidden="true">
+          <i data-lucide="video"></i>
+        </div>
+        <h3>Video Content</h3>
+        <p>High-impact videos for stronger brand storytelling.</p>
+      </article>
+
+      <article class="content-type-card content-type-card-ui">
+        <div class="content-type-icon" aria-hidden="true">
+          <i data-lucide="file-text"></i>
+        </div>
+        <h3>Written Content</h3>
+        <p>Captivating captions, posts, and social copy.</p>
+      </article>
+
+      <article class="content-type-card content-type-card-ui">
+        <div class="content-type-icon" aria-hidden="true">
+          <i data-lucide="layers"></i>
+        </div>
+        <h3>Interactive Content</h3>
+        <p>Polls, quizzes, and content that drives actions.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- COMPLETE SERVICES -->
     <section class="section section-services" id="services">

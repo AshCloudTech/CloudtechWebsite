@@ -2,18 +2,19 @@
 
 @section('title', 'WordPress Development Services | Cloud Technologies Ltd')
 @section('meta_title', 'Cloud Technologies Ltd – WordPress Development Services')
-@section('meta_description', 'Custom WordPress development services for fast, secure, and SEO-friendly websites. Themes, plugins, performance optimisation, and ongoing support.')
+@section('meta_description', 'Custom WordPress development services for fast, secure, and SEO-friendly websites. Themes,
+    plugins, performance optimisation, and ongoing support.')
 
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/wordpress/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/wordpress/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
 
-@push('scripts')
-    <script src="{{ asset('assets/services/webDevelopment/wordpress/js/script.js') }}" defer></script>
-@endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/webDevelopment/wordpress/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 
@@ -44,49 +45,61 @@
                 </p>
             </div>
 
-            <div class="grid grid-3 solutions-grid">
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+            <div class="grid grid-3 solutions-grid solutions-grid-ui">
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="code-2"></i>
+                    </div>
                     <h3>Custom WordPress Development</h3>
                     <p>
                         Tailored WordPress builds aligned to your brand, user journeys, and conversion goals.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="layout-template"></i>
+                    </div>
                     <h3>Theme Design &amp; Builds</h3>
                     <p>
                         Responsive, accessible themes with clean code and a premium UI — built for performance.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="puzzle"></i>
+                    </div>
                     <h3>Plugin Development</h3>
                     <p>
                         Custom plugins and integrations to extend your site without bloating the codebase.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="shopping-cart"></i>
+                    </div>
                     <h3>WooCommerce Integration</h3>
                     <p>
                         Product, checkout and payment flows optimised for conversion — with scalable store architecture.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="zap"></i>
+                    </div>
                     <h3>Performance Optimisation</h3>
                     <p>
                         Core Web Vitals improvements: image optimisation, caching, critical CSS, and script hygiene.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="shield-check"></i>
+                    </div>
                     <h3>Maintenance &amp; Support</h3>
                     <p>
                         Version updates, security patches, backups, and monitoring — with clear SLAs.
@@ -95,6 +108,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- WHY WORDPRESS -->
     <section class="section section-why" id="why">
@@ -166,70 +180,79 @@
             </div>
         </div>
     </section>
-       <!-- What Are WordPress Development Services?  -->
-<section class="section section-national-about" id="about-meta_ads-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <!-- What Are WordPress Development Services?  -->
+    <section class="section section-national-about" id="about-meta_ads-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are WordPress Development Services? </h2>
+                <div class="national-about-content">
+                    <h2>What Are WordPress Development Services? </h2>
 
-                <p>
-                 WordPress development services focus on building fast, secure, and SEO-friendly websites using WordPress, the world’s most popular content management system. These services include custom theme development, plugin engineering, performance optimisation, security hardening, and long-term maintenance.
-                </p>
+                    <p>
+                        WordPress development services focus on building fast, secure, and SEO-friendly websites using
+                        WordPress, the world’s most popular content management system. These services include custom theme
+                        development, plugin engineering, performance optimisation, security hardening, and long-term
+                        maintenance.
+                    </p>
 
-                <p>
-                   A professional WordPress development approach ensures your website is easy to manage, scalable as your business grows, and technically structured to rank well on search engines.
-                </p>
-                <p>If you want a website that combines flexibility, performance, and long-term reliability, investing in expert WordPress development services is the right choice.</p>
+                    <p>
+                        A professional WordPress development approach ensures your website is easy to manage, scalable as
+                        your business grows, and technically structured to rank well on search engines.
+                    </p>
+                    <p>If you want a website that combines flexibility, performance, and long-term reliability, investing in
+                        expert WordPress development services is the right choice.</p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Who Needs WordPress Development? </h3>
+
+                    <p>
+                        WordPress development is ideal for:
+                    </p>
+
+                    <ul>
+                        <li>Businesses needing a professional marketing website</li>
+                        <li>Companies wanting full control over their content</li>
+                        <li>eCommerce stores using WooCommerce</li>
+                        <li>Startups and growing brands needing scalable website</li>
+                        <li>Service providers generating leads online</li>
+                        <li>Organisations requiring custom features and integrations</li>
+                    </ul>
+
+                    <p class="">
+                        If your website is central to your marketing, WordPress gives you the flexibility and power to grow
+                        without limitations.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why WordPress Is Essential for Business Growth  -->
+    <section class="section section-national-growth" id="meta_ads-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why WordPress Is Essential for Business Growth </h2>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Who Needs WordPress Development? </h3>
-
+            <div class="national-growth-card">
                 <p>
-                  WordPress development is ideal for:
+                    Websites built with WordPress offer the perfect balance of usability, performance, and SEO structure.
+                    Unlike restrictive builders, WordPress allows complete customisation while remaining easy for teams to
+                    manage daily content. A well-developed WordPress website becomes a long-term digital asset that supports
+                    marketing, branding, and lead generation.
                 </p>
 
-                <ul>
-                    <li>Businesses needing a professional marketing website</li>
-                    <li>Companies wanting full control over their content</li>
-                    <li>eCommerce stores using WooCommerce</li>
-                    <li>Startups and growing brands needing scalable website</li>
-                    <li>Service providers generating leads online</li>
-                    <li>Organisations requiring custom features and integrations</li>
-                </ul>
-
-                <p class="">
-                  If your website is central to your marketing, WordPress gives you the flexibility and power to grow without limitations.
-                </p>
+                <!-- <p>
+                  With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+                </p> -->
             </div>
 
         </div>
-    </div>
-</section>
-
-
-<!-- Why WordPress Is Essential for Business Growth  -->
-<section class="section section-national-growth" id="meta_ads-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why WordPress Is Essential for Business Growth  </h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-              Websites built with WordPress offer the perfect balance of usability, performance, and SEO structure. Unlike restrictive builders, WordPress allows complete customisation while remaining easy for teams to manage daily content. A well-developed WordPress website becomes a long-term digital asset that supports marketing, branding, and lead generation.
-            </p>
-
-            <!-- <p>
-              With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
-            </p> -->
-        </div>
-
-    </div>
-</section>
+    </section>
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">

@@ -2,16 +2,17 @@
 
 @section('title', 'WooCommerce Development Services | Cloud Technologies Ltd')
 @section('meta_title', 'Cloud Technologies Ltd – WooCommerce Development Services')
-@section('meta_description', 'Professional WooCommerce development services for scalable online stores. Custom features, performance optimisation, payments, shipping, and ongoing support.')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/woocommerce/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/webDevelopment/woocommerce/js/script.js') }}" defer></script>
-@endpush
+@section('meta_description', 'Professional WooCommerce development services for scalable online stores. Custom features,
+    performance optimisation, payments, shipping, and ongoing support.')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/woocommerce/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/webDevelopment/woocommerce/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -22,7 +23,7 @@
             <h1>Professional WooCommerce<br>Development Service</h1>
             <p class="hero-subtitle">
                 We deliver scalable WooCommerce development solutions with secure architecture, custom features,
-                 and conversion-focused design to help businesses sell online efficiently.
+                and conversion-focused design to help businesses sell online efficiently.
             </p>
             <div class="hero-actions">
                 <a href="#contact" class="btn btn-primary">Launch Your Store</a>
@@ -36,61 +37,78 @@
         <div class="container">
             <div class="section-header">
                 <h2>Complete WooCommerce Solutions</h2>
-                <p>End-to-end WooCommerce website development services including store setup, design, integrations, optimization, 
-                    and long-term support from a trusted WooCommerce development company.</p>
+                <p>
+                    End-to-end WooCommerce website development services including store setup, design, integrations,
+                    optimization, and long-term support from a trusted WooCommerce development company.
+                </p>
             </div>
 
-            <div class="grid grid-3 solutions-grid">
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+            <div class="grid grid-3 solutions-grid solutions-grid-ui">
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="store"></i>
+                    </div>
                     <h3>Custom Store Setup</h3>
                     <p>
-                        Professional WooCommerce website development agency services to create fully customized, brand-aligned online stores ready for growth.
+                        Professional WooCommerce website development agency services to create fully customized,
+                        brand-aligned online stores ready for growth.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="credit-card"></i>
+                    </div>
                     <h3>Payment Gateway Integration</h3>
                     <p>
-                        Secure payment gateway integration by an experienced WooCommerce web developer, supporting multiple payment methods and smooth checkout experiences.
+                        Secure payment gateway integration supporting multiple payment methods and smooth checkout
+                        experiences.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="package"></i>
+                    </div>
                     <h3>Product Management</h3>
                     <p>
-                        Efficient product setup and management through advanced WooCommerce web development services for inventory, variations, and pricing control.
+                        Efficient product setup and management for inventory, variations, and pricing control.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="zap"></i>
+                    </div>
                     <h3>Performance Optimisation</h3>
                     <p>
-                        Speed and performance optimization handled by a WooCommerce development company to ensure fast loading and improved user experience.
+                        Speed and performance optimization to ensure fast loading and improved user experience.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="truck"></i>
+                    </div>
                     <h3>Shipping Configuration</h3>
                     <p>
-                        Flexible shipping rules and zone configuration implemented through expert WooCommerce website development services.
+                        Flexible shipping rules and zone configuration implemented for seamless logistics management.
                     </p>
                 </article>
 
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
                     <h3>Analytics &amp; Reporting</h3>
                     <p>
-                        Detailed analytics and reporting tools integrated by a WooCommerce website development agency to track sales, customers, and store performance.
+                        Detailed analytics and reporting tools integrated to track sales, customers, and store performance.
                     </p>
                 </article>
             </div>
         </div>
     </section>
+
 
     <!-- POWERFUL ECOMMERCE CAPABILITIES -->
     <section class="section section-capabilities" id="capabilities">
@@ -101,7 +119,8 @@
             <div class="capabilities-copy">
                 <h2>Powerful eCommerce Capabilities</h2>
                 <p class="capabilities-intro">
-                   Robust WooCommerce web design and development features built to support scalability, security, and seamless online selling experiences.
+                    Robust WooCommerce web design and development features built to support scalability, security, and
+                    seamless online selling experiences.
                 </p>
                 <div class="capabilities-lists">
                     <ul>
@@ -143,70 +162,78 @@
         </div>
     </section>
 
-       <!-- What Are WooCommerce Development Services?  -->
-<section class="section section-national-about" id="about-meta_ads-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <!-- What Are WooCommerce Development Services?  -->
+    <section class="section section-national-about" id="about-meta_ads-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are WooCommerce Development Services?</h2>
+                <div class="national-about-content">
+                    <h2>What Are WooCommerce Development Services?</h2>
 
-                <p>
-                WooCommerce development services focus on building scalable, secure, and conversion-focused online stores using WooCommerce on WordPress. These services include custom store setup, theme design, payment integrations, product architecture, performance optimisation, and ongoing support.
-                </p>
+                    <p>
+                        WooCommerce development services focus on building scalable, secure, and conversion-focused online
+                        stores using WooCommerce on WordPress. These services include custom store setup, theme design,
+                        payment integrations, product architecture, performance optimisation, and ongoing support.
+                    </p>
 
-                <p>
-                  A professional WooCommerce development approach ensures your online store is easy to manage, technically strong, and structured to convert visitors into paying customers.
-                </p>
-                <p>If you want a powerful eCommerce website that is flexible, SEO-friendly, and built for growth, WooCommerce development services are the ideal solution.</p>
+                    <p>
+                        A professional WooCommerce development approach ensures your online store is easy to manage,
+                        technically strong, and structured to convert visitors into paying customers.
+                    </p>
+                    <p>If you want a powerful eCommerce website that is flexible, SEO-friendly, and built for growth,
+                        WooCommerce development services are the ideal solution.</p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Who Needs WooCommerce Development? </h3>
+
+                    <p>
+                        WooCommerce development is ideal for:
+                    </p>
+
+                    <ul>
+                        <li>Businesses selling products across the UK</li>
+                        <li>Retail brands moving from offline to online sales</li>
+                        <li>Companies needing full control over their store features</li>
+                        <li>Startups launching new eCommerce brand</li>
+                        <li>Businesses requiring custom checkout, shipping, or pricing rules</li>
+                        <li>Stores needing advanced integrations and scalability</li>
+                    </ul>
+
+                    <p class="">
+                        If selling online is central to your business, WooCommerce provides the flexibility and power to
+                        scale without limitations.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why WooCommerce Is Essential for eCommerce Growth   -->
+    <section class="section section-national-growth" id="meta_ads-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why WooCommerce Is Essential for eCommerce Growth </h2>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Who Needs WooCommerce Development? </h3>
-
+            <div class="national-growth-card">
                 <p>
-                  WooCommerce development is ideal for: 
+                    WooCommerce combines the flexibility of WordPress with powerful eCommerce functionality, giving
+                    businesses complete control over store design, checkout flows, product structure, and third-party
+                    integrations. Unlike closed platforms, WooCommerce allows full customisation while remaining
+                    SEO-friendly, scalable, and easy to manage.
                 </p>
 
-                <ul>
-                    <li>Businesses selling products across the UK</li>
-                    <li>Retail brands moving from offline to online sales</li>
-                    <li>Companies needing full control over their store features</li>
-                    <li>Startups launching new eCommerce brand</li>
-                    <li>Businesses requiring custom checkout, shipping, or pricing rules</li>
-                    <li>Stores needing advanced integrations and scalability</li>
-                </ul>
-
-                <p class="">
-                 If selling online is central to your business, WooCommerce provides the flexibility and power to scale without limitations.
-                </p>
+                <!-- <p>
+                  With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+                </p> -->
             </div>
 
         </div>
-    </div>
-</section>
-
-
-<!-- Why WooCommerce Is Essential for eCommerce Growth   -->
-<section class="section section-national-growth" id="meta_ads-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why WooCommerce Is Essential for eCommerce Growth </h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-             WooCommerce combines the flexibility of WordPress with powerful eCommerce functionality, giving businesses complete control over store design, checkout flows, product structure, and third-party integrations. Unlike closed platforms, WooCommerce allows full customisation while remaining SEO-friendly, scalable, and easy to manage.
-            </p>
-
-            <!-- <p>
-              With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
-            </p> -->
-        </div>
-
-    </div>
-</section>
+    </section>
 
     <!-- CTA -->
     <section class="section section-cta" id="contact">
@@ -215,7 +242,8 @@
                 <div class="cta-text">
                     <h2>Start Selling Online Today</h2>
                     <p>
-                       Launch your online store with professional WooCommerce website development backed by expert WooCommerce web development services that drive sales and business growth.
+                        Launch your online store with professional WooCommerce website development backed by expert
+                        WooCommerce web development services that drive sales and business growth.
                     </p>
                 </div>
                 <div class="cta-actions">
@@ -226,78 +254,87 @@
         </div>
     </section>
 
-<!-- FAQ -->
-<section class="section section-alt section-faq" id="faq">
-    <div class="container">
-        <div class="section-header">
-            <h2>WooCommerce Development FAQ</h2>
-            <p>
-                Answers to common questions about WooCommerce development, features, timelines, and ongoing support.
-            </p>
-        </div>
+    <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>WooCommerce Development FAQ</h2>
+                <p>
+                    Answers to common questions about WooCommerce development, features, timelines, and ongoing support.
+                </p>
+            </div>
 
-        <div class="faq-wrap">
-            <div class="faq-list">
-                <details class="faq-item">
-                    <summary>1. What is WooCommerce development?</summary>
-                    <div class="faq-content">
-                        <p>
-                            WooCommerce development involves creating, customizing, and optimizing eCommerce stores using the WooCommerce platform. It includes store setup, theme customization, plugin development, payment gateway integration, and performance optimization.
-                        </p>
-                    </div>
-                </details>
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1. What is WooCommerce development?</summary>
+                        <div class="faq-content">
+                            <p>
+                                WooCommerce development involves creating, customizing, and optimizing eCommerce stores
+                                using the WooCommerce platform. It includes store setup, theme customization, plugin
+                                development, payment gateway integration, and performance optimization.
+                            </p>
+                        </div>
+                    </details>
 
-                <details class="faq-item">
-                    <summary>2. Why should I choose WooCommerce for my online store?</summary>
-                    <div class="faq-content">
-                        <p>
-                            WooCommerce is flexible, scalable, and cost-effective. It offers full control over design and functionality, supports unlimited products, integrates with multiple payment gateways, and is highly SEO-friendly for online store growth.
-                        </p>
-                    </div>
-                </details>
+                    <details class="faq-item">
+                        <summary>2. Why should I choose WooCommerce for my online store?</summary>
+                        <div class="faq-content">
+                            <p>
+                                WooCommerce is flexible, scalable, and cost-effective. It offers full control over design
+                                and functionality, supports unlimited products, integrates with multiple payment gateways,
+                                and is highly SEO-friendly for online store growth.
+                            </p>
+                        </div>
+                    </details>
 
-                <details class="faq-item">
-                    <summary>3. Do you provide custom WooCommerce development services?</summary>
-                    <div class="faq-content">
-                        <p>
-                            Yes, custom WooCommerce development allows businesses to build tailored online stores based on their specific requirements. This includes custom themes,
-                             plugins, checkout optimization, and advanced store features.
-                        </p>
-                    </div>
-                </details>
+                    <details class="faq-item">
+                        <summary>3. Do you provide custom WooCommerce development services?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Yes, custom WooCommerce development allows businesses to build tailored online stores based
+                                on their specific requirements. This includes custom themes,
+                                plugins, checkout optimization, and advanced store features.
+                            </p>
+                        </div>
+                    </details>
 
-                <details class="faq-item">
-                    <summary>4. Is WooCommerce SEO-friendly?</summary>
-                    <div class="faq-content">
-                        <p>
-                            Yes, WooCommerce is SEO-friendly when developed correctly. With optimized product pages, clean URLs,
-                             fast loading speed, mobile responsiveness, and proper SEO plugins, WooCommerce stores can rank well on search engines.
-                        </p>
-                    </div>
-                </details>
+                    <details class="faq-item">
+                        <summary>4. Is WooCommerce SEO-friendly?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Yes, WooCommerce is SEO-friendly when developed correctly. With optimized product pages,
+                                clean URLs,
+                                fast loading speed, mobile responsiveness, and proper SEO plugins, WooCommerce stores can
+                                rank well on search engines.
+                            </p>
+                        </div>
+                    </details>
 
-                <details class="faq-item">
-                    <summary>5. How long does it take to develop a WooCommerce store?</summary>
-                    <div class="faq-content">
-                        <p>
-                            A basic WooCommerce store can be developed in 2–4 weeks. More complex stores with custom features,
-                             integrations, or large product catalogs may take 6–8 weeks or longer.
-                        </p>
-                    </div>
-                </details>
+                    <details class="faq-item">
+                        <summary>5. How long does it take to develop a WooCommerce store?</summary>
+                        <div class="faq-content">
+                            <p>
+                                A basic WooCommerce store can be developed in 2–4 weeks. More complex stores with custom
+                                features,
+                                integrations, or large product catalogs may take 6–8 weeks or longer.
+                            </p>
+                        </div>
+                    </details>
 
-                <details class="faq-item">
-                    <summary>6. Do you offer WooCommerce maintenance and support?</summary>
-                    <div class="faq-content">
-                        <p>
-                            Yes, WooCommerce maintenance services include regular updates, security monitoring, backups, performance optimization, 
-                            bug fixes, and ongoing technical support to ensure smooth store operation.
-                        </p>
-                    </div>
-                </details>
+                    <details class="faq-item">
+                        <summary>6. Do you offer WooCommerce maintenance and support?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Yes, WooCommerce maintenance services include regular updates, security monitoring, backups,
+                                performance optimization,
+                                bug fixes, and ongoing technical support to ensure smooth store operation.
+                            </p>
+                        </div>
+                    </details>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 @endsection

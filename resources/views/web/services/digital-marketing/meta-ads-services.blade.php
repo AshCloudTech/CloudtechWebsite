@@ -48,38 +48,52 @@
     </section>
 
     <!-- WHY META ADS -->
-    <section class="section section-why" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Choose Meta Ads?</h2>
-                <p>Meta Ads offer extensive reach, advanced targeting, and high-performing ad formats that help brands scale
-                    quickly and effectively.</p>
-            </div>
+<section class="section section-why" id="why">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Choose Meta Ads?</h2>
+      <p>
+        Meta Ads offer extensive reach, advanced targeting, and high-performing ad formats that help brands scale
+        quickly and effectively.
+      </p>
+    </div>
 
-            <div class="grid grid-4 why-grid">
-                <article class="why-card">
-                    <div class="why-icon"></div>
-                    <h3>Massive Reach</h3>
-                    <p>Promote your business across millions of active daily users.</p>
-                </article>
-                <article class="why-card">
-                    <div class="why-icon"></div>
-                    <h3>Precise Targeting</h3>
-                    <p>Reach ideal customers using advanced Meta targeting tools.</p>
-                </article>
-                <article class="why-card">
-                    <div class="why-icon"></div>
-                    <h3>Visual Impact</h3>
-                    <p>Use eye-catching ad formats to capture attention instantly.</p>
-                </article>
-                <article class="why-card">
-                    <div class="why-icon"></div>
-                    <h3>Mobile‑First</h3>
-                    <p>Deliver seamless ad experiences optimized for mobile users.</p>
-                </article>
-            </div>
+    <div class="grid grid-4 why-grid why-grid-ui">
+      <article class="why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="users"></i>
         </div>
-    </section>
+        <h3>Massive Reach</h3>
+        <p>Promote your business across millions of active daily users.</p>
+      </article>
+
+      <article class="why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="crosshair"></i>
+        </div>
+        <h3>Precise Targeting</h3>
+        <p>Reach ideal customers using advanced Meta targeting tools.</p>
+      </article>
+
+      <article class="why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="sparkles"></i>
+        </div>
+        <h3>Visual Impact</h3>
+        <p>Use eye-catching ad formats to capture attention instantly.</p>
+      </article>
+
+      <article class="why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="smartphone"></i>
+        </div>
+        <h3>Mobile-First</h3>
+        <p>Deliver seamless ad experiences optimized for mobile users.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- META ADVERTISING PLATFORMS -->
     <section class="section section-platforms" id="platforms">

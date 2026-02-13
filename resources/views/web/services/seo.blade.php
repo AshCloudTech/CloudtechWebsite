@@ -24,8 +24,8 @@
                 affordable, results-driven SEO services tailored for companies of all sizes and industries.
             </p>
             <!-- <p class="hero-subtitle">
-                        Drive targeted traffic, generate real leads and grow your business online.
-                    </p> -->
+                                Drive targeted traffic, generate real leads and grow your business online.
+                            </p> -->
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Get Free SEO Review</a>
                 <a href="#services" class="btn btn-ghost">View Our Services</a>
@@ -42,11 +42,11 @@
     <section class="section">
         <div class="container">
             <!-- <div class="section-header">
-                        <h2>What’s Included in Our Off-Page SEO Service?</h2>
-                        <p>
-                            Complete off-page optimisation for authority and ranking growth.
-                        </p>
-                    </div> -->
+                                <h2>What’s Included in Our Off-Page SEO Service?</h2>
+                                <p>
+                                    Complete off-page optimisation for authority and ranking growth.
+                                </p>
+                            </div> -->
 
             <div class="services-layout">
                 <div class="services-copy">
@@ -91,14 +91,14 @@
         <div class="container">
             <div class="section-header">
                 <h2>SEO Services</h2>
-                <p>
-                    Comprehensive SEO solutions tailored for businesses across the UK.
-                </p>
+                <p>Comprehensive SEO solutions tailored for businesses across the UK.</p>
             </div>
 
-            <div class="grid grid-3 services-grid">
-                <article class="card service-card">
-                    <div class="card-icon"></div>
+            <div class="grid grid-3 services-grid services-grid-ui">
+                <article class="card service-card service-card-ui">
+                    <div class="svcIcon" aria-hidden="true">
+                        <i data-lucide="map-pin"></i>
+                    </div>
                     <h3>Local SEO Services</h3>
                     <ul class="service-list">
                         <li>Google Business Profile optimisation and local map pack rankings</li>
@@ -109,8 +109,10 @@
                     </ul>
                 </article>
 
-                <article class="card service-card">
-                    <div class="card-icon"></div>
+                <article class="card service-card service-card-ui">
+                    <div class="svcIcon" aria-hidden="true">
+                        <i data-lucide="settings"></i>
+                    </div>
                     <h3>Technical SEO</h3>
                     <ul class="service-list">
                         <li>Website speed optimisation and Core Web Vitals improvements</li>
@@ -121,8 +123,10 @@
                     </ul>
                 </article>
 
-                <article class="card service-card">
-                    <div class="card-icon"></div>
+                <article class="card service-card service-card-ui">
+                    <div class="svcIcon" aria-hidden="true">
+                        <i data-lucide="target"></i>
+                    </div>
                     <h3>Perfect For</h3>
                     <ul class="service-list">
                         <li>Local trades and service provider</li>
@@ -135,6 +139,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- SERVICES GRID -->
     <section class="section" id="services">
@@ -233,8 +238,8 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.digi-marketing.image-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO" loading="lazy"
-                                decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO"
+                                loading="lazy" decoding="async">
                         </a>
                     </div>
 

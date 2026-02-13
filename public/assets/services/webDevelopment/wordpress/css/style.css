@@ -594,3 +594,30 @@ button{ font-family:inherit; }
   .btn:hover{ transform:none !important; }
   .main-nav a::after{ transition:none !important; }
 }
+
+.solutions-grid-ui{
+  gap: 18px;
+}
+
+.solution-card-ui{
+  padding: 22px;
+  border-radius: 16px;
+}
+
+.solution-icon{
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 12px;
+
+  background: rgba(255, 133, 2, 0.12);
+  border: 1px solid rgba(255, 133, 2, 0.18);
+}
+
+.solution-icon svg{
+  width: 22px;
+  height: 22px;
+  color: #ff8502;
+}

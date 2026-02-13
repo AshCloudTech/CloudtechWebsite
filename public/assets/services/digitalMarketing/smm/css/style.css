@@ -937,3 +937,58 @@ button {
         grid-template-columns: 1fr;
     }
 }
+
+
+.benefits-grid-ui{
+  gap: 18px;
+}
+
+.benefit-card-ui{
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.benefit-icon{
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 12px;
+
+  background: rgba(255, 133, 2, 0.12);
+  border: 1px solid rgba(255, 133, 2, 0.18);
+}
+
+.benefit-icon svg{
+  width: 22px;
+  height: 22px;
+  color: #ff8502;
+}
+
+.content-type-grid-ui{
+  gap: 18px;
+}
+
+.content-type-card-ui{
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.content-type-icon{
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 12px;
+
+  background: rgba(255, 133, 2, 0.12);
+  border: 1px solid rgba(255, 133, 2, 0.18);
+}
+
+.content-type-icon svg{
+  width: 22px;
+  height: 22px;
+  color: #ff8502;
+}

@@ -54,55 +54,68 @@
     </section>
 
     <!-- SERVICES -->
-    <section class="section section-solutions" id="services">
-        <div class="container">
-            <div class="section-header">
-                <h2>Custom PHP Project Services</h2>
-                <p>
-                    End-to-end PHP engineering to design, build and operate bespoke systems&mdash;from MVPs to
-                    enterprise-grade applications.
-                </p>
-            </div>
+<section class="section section-solutions" id="services">
+  <div class="container">
+    <div class="section-header">
+      <h2>Custom PHP Project Services</h2>
+      <p>
+        End-to-end PHP engineering to design, build and operate bespoke systems—from MVPs to
+        enterprise-grade applications.
+      </p>
+    </div>
 
-            <div class="grid grid-3 solutions-grid">
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
-                    <h3>Bespoke Web Applications</h3>
-                    <p>Custom-built portals, dashboards and workflows designed around your business processes.</p>
-                </article>
-
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
-                    <h3>API Development &amp; Integration</h3>
-                    <p>Secure REST APIs and integrations with CRMs, ERPs, payment gateways, and third-party platforms.</p>
-                </article>
-
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
-                    <h3>Legacy Modernisation</h3>
-                    <p>Refactors, rewrites and migrations to improve maintainability, security and performance.</p>
-                </article>
-
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
-                    <h3>Performance Optimisation</h3>
-                    <p>Caching, query tuning and profiling to reduce load time and increase throughput.</p>
-                </article>
-
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
-                    <h3>Security Hardening</h3>
-                    <p>Authentication, authorisation, secure coding, vulnerability remediation and audit readiness.</p>
-                </article>
-
-                <article class="card solution-card">
-                    <div class="card-icon"></div>
-                    <h3>Maintenance &amp; Support</h3>
-                    <p>Ongoing improvements, monitoring, upgrades and incident response with clear SLAs.</p>
-                </article>
-            </div>
+    <div class="grid grid-3 solutions-grid solutions-grid-ui">
+      <article class="card solution-card solution-card-ui">
+        <div class="solution-icon" aria-hidden="true">
+          <i data-lucide="layers"></i>
         </div>
-    </section>
+        <h3>Bespoke Web Applications</h3>
+        <p>Custom-built portals, dashboards and workflows designed around your business processes.</p>
+      </article>
+
+      <article class="card solution-card solution-card-ui">
+        <div class="solution-icon" aria-hidden="true">
+          <i data-lucide="plug-zap"></i>
+        </div>
+        <h3>API Development &amp; Integration</h3>
+        <p>Secure REST APIs and integrations with CRMs, ERPs, payment gateways, and third-party platforms.</p>
+      </article>
+
+      <article class="card solution-card solution-card-ui">
+        <div class="solution-icon" aria-hidden="true">
+          <i data-lucide="refresh-ccw"></i>
+        </div>
+        <h3>Legacy Modernisation</h3>
+        <p>Refactors, rewrites and migrations to improve maintainability, security and performance.</p>
+      </article>
+
+      <article class="card solution-card solution-card-ui">
+        <div class="solution-icon" aria-hidden="true">
+          <i data-lucide="zap"></i>
+        </div>
+        <h3>Performance Optimisation</h3>
+        <p>Caching, query tuning and profiling to reduce load time and increase throughput.</p>
+      </article>
+
+      <article class="card solution-card solution-card-ui">
+        <div class="solution-icon" aria-hidden="true">
+          <i data-lucide="shield-check"></i>
+        </div>
+        <h3>Security Hardening</h3>
+        <p>Authentication, authorisation, secure coding, vulnerability remediation and audit readiness.</p>
+      </article>
+
+      <article class="card solution-card solution-card-ui">
+        <div class="solution-icon" aria-hidden="true">
+          <i data-lucide="life-buoy"></i>
+        </div>
+        <h3>Maintenance &amp; Support</h3>
+        <p>Ongoing improvements, monitoring, upgrades and incident response with clear SLAs.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- WHY CHOOSE -->
     <section class="section section-why" id="why">
@@ -128,81 +141,90 @@
         </div>
     </section>
 
-    <!-- IDEAL FOR -->
-    <section class="section section-use-cases" id="ideal">
-        <div class="container">
-            <div class="section-header">
-                <h2>Ideal For</h2>
-                <p>Projects that need bespoke features, heavy integrations, and predictable performance at scale.</p>
-            </div>
+<!-- IDEAL FOR -->
+<section class="section section-use-cases" id="ideal">
+  <div class="container">
+    <div class="section-header">
+      <h2>Ideal For</h2>
+      <p>Projects that need bespoke features, heavy integrations, and predictable performance at scale.</p>
+    </div>
 
-            <div class="grid grid-2 use-cases-grid">
-                <article class="use-case">
-                    <div class="card-icon small"></div>
-                    <h3>Internal Business Systems</h3>
-                    <p>Operational dashboards, HR tools, workflow automation and reporting.</p>
-                </article>
-                <article class="use-case">
-                    <div class="card-icon small"></div>
-                    <h3>Integration-Heavy Platforms</h3>
-                    <p>Systems that connect with third-party APIs, CRMs, payment gateways and data sources.</p>
-                </article>
-                <article class="use-case">
-                    <div class="card-icon small"></div>
-                    <h3>High-Performance Websites</h3>
-                    <p>Content sites and portals that demand fast rendering and strong SEO foundations.</p>
-                </article>
-                <article class="use-case">
-                    <div class="card-icon small"></div>
-                    <h3>MVPs and Product Builds</h3>
-                    <p>Rapid iterations with clean architecture that can evolve into a long-term product.</p>
-                </article>
-            </div>
-        </div>
-    </section>
+    <div class="grid grid-2 use-cases-grid use-cases-grid-ui">
+      <article class="use-case use-case-ui">
+        <div class="useIcon" aria-hidden="true"><i data-lucide="briefcase"></i></div>
+        <h3>Internal Business Systems</h3>
+        <p>Operational dashboards, HR tools, workflow automation and reporting.</p>
+      </article>
 
-    <!-- DELIVERABLES -->
-    <section class="section section-solutions" id="benefits">
-        <div class="container">
-            <div class="section-header">
-                <h2>What You Get</h2>
-                <p>Clear deliverables that make your system maintainable, secure, and ready to scale.</p>
-            </div>
+      <article class="use-case use-case-ui">
+        <div class="useIcon" aria-hidden="true"><i data-lucide="plug-zap"></i></div>
+        <h3>Integration-Heavy Platforms</h3>
+        <p>Systems that connect with third-party APIs, CRMs, payment gateways and data sources.</p>
+      </article>
 
-            <div class="benefits-grid">
-                <article class="card benefit">
-                    <div class="card-icon"></div>
-                    <h3>Clean Codebase</h3>
-                    <p>Consistent standards, modular structure and reviewable commits.</p>
-                </article>
-                <article class="card benefit">
-                    <div class="card-icon"></div>
-                    <h3>Documentation</h3>
-                    <p>Functional specs, setup guides and API documentation.</p>
-                </article>
-                <article class="card benefit">
-                    <div class="card-icon"></div>
-                    <h3>Testing</h3>
-                    <p>Unit/integration tests for critical flows and regressions.</p>
-                </article>
-                <article class="card benefit">
-                    <div class="card-icon"></div>
-                    <h3>Secure Deployment</h3>
-                    <p>Environment configuration, CI/CD options and rollback strategy.</p>
-                </article>
-                <article class="card benefit">
-                    <div class="card-icon"></div>
-                    <h3>Security Baseline</h3>
-                    <p>Input validation, access control and security hardening.</p>
-                </article>
-                <article class="card benefit">
-                    <div class="card-icon"></div>
-                    <h3>Monitoring &amp; Support</h3>
-                    <p>Error tracking, logging and ongoing improvements.</p>
-                </article>
-            </div>
-        </div>
-    </section>
+      <article class="use-case use-case-ui">
+        <div class="useIcon" aria-hidden="true"><i data-lucide="zap"></i></div>
+        <h3>High-Performance Websites</h3>
+        <p>Content sites and portals that demand fast rendering and strong SEO foundations.</p>
+      </article>
+
+      <article class="use-case use-case-ui">
+        <div class="useIcon" aria-hidden="true"><i data-lucide="rocket"></i></div>
+        <h3>MVPs and Product Builds</h3>
+        <p>Rapid iterations with clean architecture that can evolve into a long-term product.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- DELIVERABLES -->
+<section class="section section-solutions" id="benefits">
+  <div class="container">
+    <div class="section-header">
+      <h2>What You Get</h2>
+      <p>Clear deliverables that make your system maintainable, secure, and ready to scale.</p>
+    </div>
+
+    <div class="benefits-grid benefits-grid-ui">
+      <article class="card benefit benefit-ui">
+        <div class="svcIcon" aria-hidden="true"><i data-lucide="code-2"></i></div>
+        <h3>Clean Codebase</h3>
+        <p>Consistent standards, modular structure and reviewable commits.</p>
+      </article>
+
+      <article class="card benefit benefit-ui">
+        <div class="svcIcon" aria-hidden="true"><i data-lucide="file-text"></i></div>
+        <h3>Documentation</h3>
+        <p>Functional specs, setup guides and API documentation.</p>
+      </article>
+
+      <article class="card benefit benefit-ui">
+        <div class="svcIcon" aria-hidden="true"><i data-lucide="flask-conical"></i></div>
+        <h3>Testing</h3>
+        <p>Unit/integration tests for critical flows and regressions.</p>
+      </article>
+
+      <article class="card benefit benefit-ui">
+        <div class="svcIcon" aria-hidden="true"><i data-lucide="cloud-upload"></i></div>
+        <h3>Secure Deployment</h3>
+        <p>Environment configuration, CI/CD options and rollback strategy.</p>
+      </article>
+
+      <article class="card benefit benefit-ui">
+        <div class="svcIcon" aria-hidden="true"><i data-lucide="shield-check"></i></div>
+        <h3>Security Baseline</h3>
+        <p>Input validation, access control and security hardening.</p>
+      </article>
+
+      <article class="card benefit benefit-ui">
+        <div class="svcIcon" aria-hidden="true"><i data-lucide="activity"></i></div>
+        <h3>Monitoring &amp; Support</h3>
+        <p>Error tracking, logging and ongoing improvements.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
     <!-- WHAT ARE CUSTOM PHP DEVELOPMENT SERVICES -->
 <section class="section section-services" id="about-custom-php-development">
     <div class="container">

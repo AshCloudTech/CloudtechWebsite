@@ -274,11 +274,10 @@
                 </p>
             </div>
 
-            <div class="grid grid-3 success-grid">
+            <div class="grid grid-3 success-grid success-grid-6">
                 <article class="card success-card">
-                    <div class="success-avatar"></div>
+                    <div class="success-avatar" aria-hidden="true"><i data-lucide="search"></i></div>
                     <h3>Search Visibility Drives Growth</h3>
-                    <!-- <p class="success-role">Marketing Director, TechStart Solutions</p> -->
                     <p class="success-quote">
                         Most online journeys begin with a search, making strong SEO essential for gaining visibility and
                         attracting potential customers.
@@ -286,9 +285,8 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-avatar"></div>
+                    <div class="success-avatar" aria-hidden="true"><i data-lucide="globe"></i></div>
                     <h3>Online Research Shapes Buying Decisions</h3>
-                    <!-- <p class="success-role">CEO, Elite Fitness UK</p> -->
                     <p class="success-quote">
                         Consumers routinely research brands online before purchasing, highlighting the importance of a solid
                         digital presence.
@@ -296,68 +294,87 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-avatar"></div>
+                    <div class="success-avatar" aria-hidden="true"><i data-lucide="share-2"></i></div>
                     <h3>Social Media Builds Brand Discovery</h3>
-                    <!-- <p class="success-role">E‑commerce Manager, Luxe Fashion Store</p> -->
                     <p class="success-quote">
                         Social platforms play a major role in how people find and engage with brands, making consistent
                         social activity crucial.
                     </p>
                 </article>
+
                 <article class="card success-card">
-                    <div class="success-avatar"></div>
+                    <div class="success-avatar" aria-hidden="true"><i data-lucide="bar-chart-3"></i></div>
                     <h3>Data-Driven Marketing Boosts Performance</h3>
-                    <!-- <p class="success-role">E‑commerce Manager, Luxe Fashion Store</p> -->
                     <p class="success-quote">
                         Businesses that rely on analytics make smarter decisions, optimize campaigns effectively, and
                         achieve stronger long-term results.
+                    </p>
+                </article>
+
+                <article class="card success-card">
+                    <div class="success-avatar" aria-hidden="true"><i data-lucide="rocket"></i></div>
+                    <h3>Better UX Improves Conversions</h3>
+                    <p class="success-quote">
+                        Fast, user-friendly experiences reduce drop-offs and help convert more visitors into leads and
+                        paying customers.
+                    </p>
+                </article>
+
+                <article class="card success-card">
+                    <div class="success-avatar" aria-hidden="true"><i data-lucide="shield-check"></i></div>
+                    <h3>Trust Signals Increase Enquiries</h3>
+                    <p class="success-quote">
+                        Clear reviews, certifications, and consistent branding build credibility and encourage customers to
+                        take action.
                     </p>
                 </article>
             </div>
         </div>
     </section>
 
+
+
     <!-- DIGITAL MARKETING INSIGHTS -->
     <!-- <section class="section section-alt" id="insights">
-                        <div class="container">
-                            <div class="section-header">
-                                <h2>Digital Marketing Insights</h2>
-                                <p>
-                                    Stay ahead with the latest trends and statistics in digital marketing.
-                                </p>
+                            <div class="container">
+                                <div class="section-header">
+                                    <h2>Digital Marketing Insights</h2>
+                                    <p>
+                                        Stay ahead with the latest trends and statistics in digital marketing.
+                                    </p>
+                                </div>
+
+                                <div class="grid grid-4 insights-grid">
+                                    <article class="card insight-card">
+                                        <p class="insight-value">93%</p>
+                                        <p class="insight-text">
+                                            of online experiences begin with a search engine, making SEO essential.
+                                        </p>
+                                    </article>
+
+                                    <article class="card insight-card">
+                                        <p class="insight-value">63%</p>
+                                        <p class="insight-text">
+                                            of Google searches happen on mobile devices, requiring mobile optimisation.
+                                        </p>
+                                    </article>
+
+                                    <article class="card insight-card">
+                                        <p class="insight-value">5.3x</p>
+                                        <p class="insight-text">
+                                            ROI on average for businesses investing in SEO compared to traditional marketing.
+                                        </p>
+                                    </article>
+
+                                    <article class="card insight-card">
+                                        <p class="insight-value">70%</p>
+                                        <p class="insight-text">
+                                            of marketers say SEO is more effective than PPC for generating sales.
+                                        </p>
+                                    </article>
+                                </div>
                             </div>
-
-                            <div class="grid grid-4 insights-grid">
-                                <article class="card insight-card">
-                                    <p class="insight-value">93%</p>
-                                    <p class="insight-text">
-                                        of online experiences begin with a search engine, making SEO essential.
-                                    </p>
-                                </article>
-
-                                <article class="card insight-card">
-                                    <p class="insight-value">63%</p>
-                                    <p class="insight-text">
-                                        of Google searches happen on mobile devices, requiring mobile optimisation.
-                                    </p>
-                                </article>
-
-                                <article class="card insight-card">
-                                    <p class="insight-value">5.3x</p>
-                                    <p class="insight-text">
-                                        ROI on average for businesses investing in SEO compared to traditional marketing.
-                                    </p>
-                                </article>
-
-                                <article class="card insight-card">
-                                    <p class="insight-value">70%</p>
-                                    <p class="insight-text">
-                                        of marketers say SEO is more effective than PPC for generating sales.
-                                    </p>
-                                </article>
-                            </div>
-                        </div>
-                    </section> -->
+                        </section> -->
 
     <!-- CTA -->
     <section class="section dm-cta" style="margin-top:35px" id="cta">

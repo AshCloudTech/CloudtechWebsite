@@ -677,17 +677,7 @@
                     @endphp
 
                     <article class="card case-card fx-reveal">
-                        {{-- Image --}}
-                        @if ($imgUrl)
-                            <a href="{{ route('case.studies.detail', $case->slug) }}" class="case-thumb"
-                                aria-label="Open {{ $case->title }}">
-                                <img src="{{ $imgUrl }}" alt="{{ $imgAlt }}" loading="lazy"
-                                    decoding="async">
-                            </a>
-                        @else
-                            {{-- Optional: placeholder if no image --}}
-                            <div class="case-thumb case-thumb--placeholder" aria-hidden="true"></div>
-                        @endif
+
 
                         <div class="case-body">
                             {{-- Industry tag --}}
@@ -696,7 +686,17 @@
                                     {{ $case->industry }}
                                 </div>
                             @endif
-
+                            {{-- Image --}}
+                            @if ($imgUrl)
+                                <a href="{{ route('case.studies.detail', $case->slug) }}" class="case-thumb"
+                                    aria-label="Open {{ $case->title }}">
+                                    <img src="{{ $imgUrl }}" alt="{{ $imgAlt }}" loading="lazy"
+                                        decoding="async">
+                                </a>
+                            @else
+                                {{-- Optional: placeholder if no image --}}
+                                <div class="case-thumb case-thumb--placeholder" aria-hidden="true"></div>
+                            @endif
                             {{-- Title --}}
                             <h3>{{ $case->title }}</h3>
 

@@ -838,3 +838,95 @@ button {
         padding: 22px;
     }
 }
+
+
+/* =========================
+   SERVICES SECTION (MOBILE RESPONSIVE)
+   ========================= */
+
+.services-grid{
+  align-items: stretch;
+}
+
+/* Make cards consistent + comfortable */
+.services-grid .service-card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.services-grid .service-card h3{
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.services-grid .service-card p{
+  margin: 0;
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+/* UL styling (you already have li styles, just ensure spacing) */
+.services-grid .service-card ul{
+  margin-top: 8px;
+  display: grid;
+  gap: 6px;
+}
+
+/* ✅ Tablet: 3 -> 2 columns */
+@media (max-width: 1024px){
+  .services-grid.grid-3{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ✅ Mobile: 2 -> 1 column + tighter card padding */
+@media (max-width: 768px){
+  .services-grid.grid-3{
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .services-grid .service-card{
+    padding: 18px 16px;
+    border-radius: 16px;
+  }
+
+  .section-header h2{
+    font-size: 26px;
+  }
+
+  .section-header p{
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .services-grid .service-card h3{
+    font-size: 16px;
+  }
+
+  .services-grid .service-card p{
+    font-size: 13px;
+  }
+
+  .services-grid .service-card li{
+    font-size: 13px;
+  }
+}
+
+/* ✅ Small phones: reduce side padding and keep list readable */
+@media (max-width: 420px){
+  .section{
+    padding: 60px 0;
+  }
+
+  .services-grid .service-card{
+    padding: 16px 14px;
+  }
+
+  .services-grid .service-card ul{
+    gap: 5px;
+  }
+}

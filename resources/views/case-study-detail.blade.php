@@ -413,8 +413,8 @@
                     <p class="csd-sub">Let’s discuss how we can help transform your digital product</p>
 
                     <div class="csd-actions">
-                        <a class="csd-btn csd-btn-primary" href="{{ url('/contact') }}">Get in Touch</a>
-                        <a class="csd-btn csd-btn-ghost" href="{{ url('/work') }}">View More Work</a>
+                        <a class="csd-btn csd-btn-primary" href="{{ url('/contact-us') }}">Get in Touch</a>
+                        <a class="csd-btn csd-btn-ghost" href="{{ url('/case-studies') }}">View More Work</a>
                     </div>
                 </div>
             </div>

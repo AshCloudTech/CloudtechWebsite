@@ -25,7 +25,7 @@
   --ease: cubic-bezier(.2,.9,.2,1);
 }
 
-body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
+body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111;  font-family: 'Roboto', sans-serif; }
 
 .container { max-width:1180px; margin:auto; padding:0 20px; }
 
@@ -608,6 +608,21 @@ body { margin:0; font-family:system-ui; background:#f5f6fb; color:#111; }
   display:flex;
   gap: 10px;
 }
+
+.socialChip__icon svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.socialChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .socialRow{
   /* display:flex; */
   align-items:center;

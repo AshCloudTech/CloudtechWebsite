@@ -47,163 +47,159 @@
         </div>
     </section>
 
-    <!-- WHY -->
-    <section class="section section-alt" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Choose Our Off-Page SEO Services in UK?</h2>
-                <p>
-                    Drive organic traffic and increase domain authority with advanced off-page optimisation strategies.
-                </p>
-            </div>
+<!-- WHY -->
+<section class="section section-alt" id="why">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Choose Our Off-Page SEO Services in the UK?</h2>
+      <p>Drive organic traffic and increase domain authority with advanced off-page optimisation strategies.</p>
+    </div>
 
-            <div class="grid grid-4 why-grid">
-                <article class="card why-card">
-                    <div class="why-icon icon-quality"></div>
-                    <h3>High-Quality Link Building </h3>
-                    <p>
-                        Acquire authoritative backlinks from relevant and trusted websites.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-keyword"></div>
-                    <h3>Guest Posting & Outreach </h3>
-                    <p>
-                        Manual outreach and guest posting on niche-relevant blogs for SEO value.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-engagement"></div>
-                    <h3>Citation & Directory Submissions </h3>
-                    <p>
-                        Build local citations and business listings for stronger local SEO signals.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-authority"></div>
-                    <h3>Improve Domain Authority</h3>
-                    <p>
-                        Strengthen website trust, authority, and ranking potential in Google.
-                    </p>
-                </article>
-            </div>
+    <div class="why-grid why-grid-ui">
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="link-2"></i></div>
+        <h3>High-Quality Link Building</h3>
+        <p>Acquire authoritative backlinks from relevant and trusted websites.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="send"></i></div>
+        <h3>Guest Posting &amp; Outreach</h3>
+        <p>Manual outreach and guest posting on niche-relevant sites for sustainable SEO value.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="list-checks"></i></div>
+        <h3>Citation &amp; Directory Submissions</h3>
+        <p>Build local citations and consistent listings for stronger local SEO signals.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="shield-check"></i></div>
+        <h3>Improve Domain Authority</h3>
+        <p>Strengthen trust, authority, and ranking potential in Google through quality signals.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROCESS -->
+<section class="section section-process" id="process">
+  <div class="container">
+    <div class="section-header section-header-light">
+      <h2>Our Off-Page SEO Process</h2>
+      <p>A strategic approach to build authority outside your website.</p>
+    </div>
+
+    <div class="process-grid process-grid-ui">
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="scan"></i></div>
+        <h3>Backlink Audit</h3>
+        <p>Analyse existing backlinks, remove toxic links, and identify opportunities.</p>
+      </article>
+
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="target"></i></div>
+        <h3>Link Building Strategy</h3>
+        <p>Plan niche-relevant backlinks, guest posts, and authority placements.</p>
+      </article>
+
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="megaphone"></i></div>
+        <h3>Manual Outreach Implementation</h3>
+        <p>Perform outreach, content placements, and link acquisition with quality control.</p>
+      </article>
+
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="line-chart"></i></div>
+        <h3>Performance Tracking</h3>
+        <p>Monitor backlinks, authority, and keyword movement to guide improvements.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTENT TYPES -->
+<section class="section content-types" id="content-types">
+  <div class="container">
+    <div class="section-header">
+      <h2>Off-Page SEO Activities We Perform</h2>
+      <p>Comprehensive off-page SEO techniques to boost authority and visibility.</p>
+    </div>
+
+    <div class="ct-grid ct-grid-ui">
+      <!-- Card 1 -->
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon" aria-hidden="true"><i data-lucide="edit-3"></i></div>
+          <div class="ct-title">
+            <h3>Guest Posting on Authority Websites</h3>
+            <p>Guest posts on niche sites for contextual backlinks via manual outreach.</p>
+          </div>
         </div>
-    </section>
+        <ul class="ct-points">
+          <li>Niche-relevant publishers</li>
+          <li>Contextual backlinks</li>
+          <li>Quality placements</li>
+          <li>Manual outreach</li>
+        </ul>
+      </article>
 
-    <!-- PROCESS -->
-    <section class="section section-process" id="process">
-        <div class="container">
-            <div class="section-header section-header-light">
-                <h2>Our Off-Page SEO Process</h2>
-                <p>
-                    A strategic approach to build authority outside your website.
-                </p>
-            </div>
-
-            <div class="grid grid-4 process-grid">
-                <article class="process-card">
-                    <h3>Backlink Audit</h3>
-                    <p> Analyse existing backlinks, remove toxic links, and identify opportunities.</p>
-                </article>
-                <article class="process-card">
-                    <h3>Link Building Strategy</h3>
-                    <p>Plan niche-relevant backlinks, guest posts, and authority links.</p>
-                </article>
-                <article class="process-card">
-                    <h3>Manual Outreach Implementation</h3>
-                    <p>Perform blogger outreach, content placements, and link acquisition.</p>
-                </article>
-                <article class="process-card">
-                    <h3>Performance Tracking</h3>
-                    <p>Monitor backlinks, domain authority, and keyword ranking improvements.</p>
-                </article>
-            </div>
+      <!-- Card 2 -->
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon" aria-hidden="true"><i data-lucide="map"></i></div>
+          <div class="ct-title">
+            <h3>Business Listings &amp; Citations</h3>
+            <p>Accurate listings to strengthen local SEO and improve NAP consistency.</p>
+          </div>
         </div>
-    </section>
+        <ul class="ct-points">
+          <li>Directory submissions</li>
+          <li>Local citations</li>
+          <li>NAP consistency</li>
+          <li>Local trust signals</li>
+        </ul>
+      </article>
 
-    <!-- CONTENT TYPES -->
-    <section class="section content-types" id="content-types">
-        <div class="container">
-            <div class="section-header">
-                <h2>Off-Page SEO Activities We Perform </h2>
-                <p>Comprehensive off-page SEO techniques to boost authority and visibility.</p>
-            </div>
-
-            <div class="ct-grid">
-                <!-- Card 1 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Guest Posting on Authority Websites</h3>
-                            <p>Guest posts on niche blogs for contextual do-follow backlinks via outreach.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Niche-relevant blogs</li>
-                        <li>Contextual backlinks</li>
-                        <li>Do-follow links</li>
-                        <li>Manual outreach</li>
-                    </ul>
-                </article>
-
-                <!-- Card 2 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Business Listings & Citations</h3>
-                            <p>Accurate business listings and citations to strengthen local SEO and NAP consistency.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Local directory submissions</li>
-                        <li>Google Business citations</li>
-                        <li>NAP consistency</li>
-                        <li>Local SEO signals</li>
-                    </ul>
-                </article>
-
-                <!-- Card 3 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Social Bookmarking & Brand Mentions</h3>
-                            <p>Social sharing and brand mentions to generate referral traffic and authority signals.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Social sharing platforms</li>
-                        <li>Brand signals</li>
-                        <li>Referral traffic</li>
-                        <li>Content promotion</li>
-                    </ul>
-                </article>
-
-                <!-- Card 4 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Forum & Community Engagement</h3>
-                            <p>Relevant forum participation to build trust and maintain a natural backlink profile.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Relevant forum links</li>
-                        <li>Community participation</li>
-                        <li>Trust building</li>
-                        <li>Natural link profile</li>
-                    </ul>
-                </article>
-            </div>
+      <!-- Card 3 -->
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon" aria-hidden="true"><i data-lucide="share-2"></i></div>
+          <div class="ct-title">
+            <h3>Social Bookmarking &amp; Brand Mentions</h3>
+            <p>Content distribution that drives referral traffic and authority signals.</p>
+          </div>
         </div>
-    </section>
+        <ul class="ct-points">
+          <li>Social sharing platforms</li>
+          <li>Brand signals</li>
+          <li>Referral traffic</li>
+          <li>Content promotion</li>
+        </ul>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon" aria-hidden="true"><i data-lucide="message-square"></i></div>
+          <div class="ct-title">
+            <h3>Forum &amp; Community Engagement</h3>
+            <p>Relevant participation to build trust and maintain a natural link profile.</p>
+          </div>
+        </div>
+        <ul class="ct-points">
+          <li>Community participation</li>
+          <li>Trust building</li>
+          <li>Natural link profile</li>
+          <li>Brand visibility</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
 
 
     <!-- INCLUDED -->

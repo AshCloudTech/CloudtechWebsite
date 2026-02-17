@@ -49,163 +49,158 @@
         </div>
     </section>
 
-    <!-- WHY -->
-    <section class="section section-alt" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Choose Our On-Page SEO Services?</h2>
-                <p>
-                    Drive organic traffic across the UK with advanced on-page optimisation strategies.
-                </p>
-            </div>
+<!-- WHY -->
+<section class="section section-alt" id="why">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Choose Our On-Page SEO Services?</h2>
+      <p>Drive organic traffic across the UK with advanced on-page optimisation strategies.</p>
+    </div>
 
-            <div class="grid grid-4 why-grid">
-                <article class="card why-card">
-                    <div class="why-icon icon-quality"></div>
-                    <h3>Content Optimization</h3>
-                    <p>
-                        SEO-friendly content structure for readability and search engine understanding.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-keyword"></div>
-                    <h3>Keyword Optimisation</h3>
-                    <p>
-                        Strategic keyword placement in titles, headings, and content for higher rankings.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-engagement"></div>
-                    <h3>Meta Tags Optimisation </h3>
-                    <p>
-                        Optimised title tags and meta descriptions to improve CTR and relevance.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-authority"></div>
-                    <h3>Higher Search Rankings</h3>
-                    <p>
-                        Improve page relevance to rank better in Google search results.
-                    </p>
-                </article>
-            </div>
+    <div class="why-grid why-grid-ui">
+      <article class="card why-card why-card-ui">
+        <div class="why-icon"><i data-lucide="file-text"></i></div>
+        <h3>Content Optimisation</h3>
+        <p>SEO-friendly content structure for readability and search engine understanding.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon"><i data-lucide="search"></i></div>
+        <h3>Keyword Optimisation</h3>
+        <p>Strategic keyword placement in titles, headings, and content for higher rankings.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon"><i data-lucide="tag"></i></div>
+        <h3>Meta Tags Optimisation</h3>
+        <p>Optimised title tags and meta descriptions to improve CTR and relevance.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon"><i data-lucide="trending-up"></i></div>
+        <h3>Higher Search Rankings</h3>
+        <p>Improve page relevance to rank better in Google search results.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROCESS -->
+<section class="section section-process" id="process">
+  <div class="container">
+    <div class="section-header section-header-light">
+      <h2>Our On-Page SEO Process</h2>
+      <p>A strategic approach to optimise website pages for search engines.</p>
+    </div>
+
+    <div class="process-grid process-grid-ui">
+      <article class="card process-card process-card-ui">
+        <div class="process-icon"><i data-lucide="keyboard"></i></div>
+        <h3>Website Audit</h3>
+        <p>Analyse pages for keyword gaps, meta issues, and content structure problems.</p>
+      </article>
+
+      <article class="card process-card process-card-ui">
+        <div class="process-icon"><i data-lucide="layout-template"></i></div>
+        <h3>Optimisation Strategy</h3>
+        <p>Plan keyword mapping, meta tags, headings, internal links, and schema markup.</p>
+      </article>
+
+      <article class="card process-card process-card-ui">
+        <div class="process-icon"><i data-lucide="settings"></i></div>
+        <h3>Implementation</h3>
+        <p>Apply on-page fixes including content updates, URL optimisation, and technical tags.</p>
+      </article>
+
+      <article class="card process-card process-card-ui">
+        <div class="process-icon"><i data-lucide="line-chart"></i></div>
+        <h3>Performance Tracking</h3>
+        <p>Monitor keyword rankings, page indexing, and organic traffic growth.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTENT TYPES -->
+<section class="section content-types" id="content-types">
+  <div class="container">
+    <div class="section-header">
+      <h2>Page Types We Optimise</h2>
+      <p>Comprehensive on-page SEO services for all types of website pages.</p>
+    </div>
+
+    <div class="ct-grid ct-grid-ui">
+
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon"><i data-lucide="home"></i></div>
+          <div class="ct-title">
+            <h3>Homepage Optimisation</h3>
+            <p>Optimise homepage content, headings, and keywords for brand visibility.</p>
+          </div>
         </div>
-    </section>
+        <ul class="ct-points">
+          <li>Primary keyword targeting</li>
+          <li>Internal linking</li>
+          <li>Content structure</li>
+          <li>Meta tags optimisation</li>
+        </ul>
+      </article>
 
-    <!-- PROCESS -->
-    <section class="section section-process" id="process">
-        <div class="container">
-            <div class="section-header section-header-light">
-                <h2>Our On-Page SEO Process</h2>
-                <p>
-                    A strategic approach to optimize website pages for search engines.
-                </p>
-            </div>
-
-            <div class="grid grid-4 process-grid">
-                <article class="process-card">
-                    <h3>Website Audit</h3>
-                    <p>Analyse pages for keyword gaps, meta issues, and content structure problems.</p>
-                </article>
-                <article class="process-card">
-                    <h3>Optimisation Strategy</h3>
-                    <p>Plan keyword mapping, meta tags, headings, internal links, and schema markup.</p>
-                </article>
-                <article class="process-card">
-                    <h3>Implementation </h3>
-                    <p>Apply on-page fixes including content updates, URL optimisation, and technical tags.</p>
-                </article>
-                <article class="process-card">
-                    <h3>Performance Tracking </h3>
-                    <p>Monitor keyword rankings, page indexing, and organic traffic growth.</p>
-                </article>
-            </div>
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon"><i data-lucide="layout"></i></div>
+          <div class="ct-title">
+            <h3>Service & Landing Pages</h3>
+            <p>Conversion-focused pages optimised for search engines and users.</p>
+          </div>
         </div>
-    </section>
+        <ul class="ct-points">
+          <li>Keyword mapping</li>
+          <li>SEO heading structure</li>
+          <li>URL optimisation</li>
+          <li>Schema markup</li>
+        </ul>
+      </article>
 
-    <!-- CONTENT TYPES -->
-    <section class="section content-types" id="content-types">
-        <div class="container">
-            <div class="section-header">
-                <h2>Page Types We Optimise</h2>
-                <p>Comprehensive on-page SEO services for all types of website pages.</p>
-            </div>
-
-            <div class="ct-grid">
-                <!-- Card 1 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Homepage Optimisation </h3>
-                            <p>Optimise homepage content, headings, and keywords for brand visibility.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Primary keyword targeting</li>
-                        <li>Internal linking</li>
-                        <li>Content structure</li>
-                        <li>Meta tags Optimisation</li>
-                    </ul>
-                </article>
-
-                <!-- Card 2 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Service & Landing Pages</h3>
-                            <p>Conversion-focused pages optimised for search engines and users.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Keyword mapping</li>
-                        <li>SEO headings structure</li>
-                        <li>URL optimisation</li>
-                        <li>Schema markup</li>
-                    </ul>
-                </article>
-
-                <!-- Card 3 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Product & E-commerce Pages </h3>
-                            <p>Product pages optimized to rank and improve conversions.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Product keyword optimisation</li>
-                        <li>Meta data setup</li>
-                        <li>Internal links</li>
-                        <li>Content enhancement</li>
-                    </ul>
-                </article>
-
-                <!-- Card 4 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Blog & Content Pages </h3>
-                            <p>SEO-optimised blogs that drive organic traffic.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Topic clusters</li>
-                        <li>Keyword placement</li>
-                        <li>Content readability</li>
-                        <li>Internal linking strategy</li>
-                    </ul>
-                </article>
-            </div>
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon"><i data-lucide="shopping-bag"></i></div>
+          <div class="ct-title">
+            <h3>Product & E-commerce Pages</h3>
+            <p>Product pages optimised to rank and improve conversions.</p>
+          </div>
         </div>
-    </section>
+        <ul class="ct-points">
+          <li>Product keyword optimisation</li>
+          <li>Meta data setup</li>
+          <li>Internal links</li>
+          <li>Content enhancement</li>
+        </ul>
+      </article>
+
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon"><i data-lucide="book-open"></i></div>
+          <div class="ct-title">
+            <h3>Blog & Content Pages</h3>
+            <p>SEO-optimised blogs that drive organic traffic.</p>
+          </div>
+        </div>
+        <ul class="ct-points">
+          <li>Topic clusters</li>
+          <li>Keyword placement</li>
+          <li>Content readability</li>
+          <li>Internal linking strategy</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
 
     <!-- INCLUDED -->
     <section class="section" id="included">

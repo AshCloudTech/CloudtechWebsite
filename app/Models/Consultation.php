@@ -13,16 +13,31 @@ class Consultation extends Model
         'phone',
         'email',
         'website_url',
+
+        // NEW wizard fields
+        'project_type',
+        'service_needed',
+        'industry',
+        'project_description',
+        'budget_range',
+        'timeline',
+        'specific_requirements',
+        'reference_projects',
+        'project_urgency',
+        'hear_about_us',
+
+        // OLD fields (keep for backward compatibility)
         'services_interested_in',
         'services_other',
         'website_development',
         'website_development_other',
         'brief_description',
         'approximate_budget',
-        'hear_about_us',
         'preferred_method',
         'preferred_datetime',
         'additional_notes',
+
+        // admin management
         'status',
         'handled_at',
         'handled_by'

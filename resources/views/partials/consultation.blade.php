@@ -294,7 +294,40 @@
 </div>
 
 <style>
-    /* Overlay / modal shell */
+    /* =========================================================
+   Consultation Wizard Modal (Compact + CloudTech UI)
+   ========================================================= */
+
+    :root {
+        --ct-bg: #fff;
+        --ct-text: #0b1220;
+        --ct-muted: rgba(11, 18, 32, .70);
+        --ct-border: rgba(16, 56, 128, .12);
+        --ct-border-strong: rgba(16, 56, 128, .18);
+        --ct-overlay: rgba(11, 18, 32, .55);
+
+        --ct-accent: #ff8a00;
+        --ct-accent-soft: rgba(255, 138, 0, .10);
+
+        --ct-shadow: 0 22px 70px rgba(11, 18, 32, .18);
+        --ct-radius: 18px;
+
+        --ct-pad: 18px;
+        --ct-gap: 12px;
+
+        --ct-font: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    }
+
+    .ct-modal,
+    .ct-modal * {
+        box-sizing: border-box;
+    }
+
+    .ct-modal {
+        font-family: var(--ct-font);
+    }
+
+    /* Modal shell */
     .ct-modal {
         position: fixed;
         inset: 0;
@@ -309,26 +342,26 @@
     .ct-modal__overlay {
         position: absolute;
         inset: 0;
-        background: rgba(11, 18, 32, .65);
+        background: var(--ct-overlay);
     }
 
+    /* Dialog */
     .ct-modal__dialog {
         position: relative;
-        width: min(860px, 94vw);
-        margin: 6vh auto;
-        background: #fff;
-        border-radius: 22px;
-        border: 1px solid rgba(16, 56, 128, .12);
-        box-shadow: 0 28px 90px rgba(11, 18, 32, .25);
-        padding: 22px 22px 18px;
-        max-height: 88vh;
+        width: calc(100vw - 24px);
+        max-width: 980px;
+        margin: 7vh auto;
+        background: var(--ct-bg);
+        border: 1px solid var(--ct-border);
+        border-radius: var(--ct-radius);
+        box-shadow: var(--ct-shadow);
+        padding: var(--ct-pad);
+        max-height: 86vh;
         overflow: auto;
+        -webkit-overflow-scrolling: touch;
+
         transform: translateY(10px);
         animation: ctModalIn .18s ease-out forwards;
-    }
-
-    .ct-modal__dialog--xl {
-        width: min(980px, 94vw);
     }
 
     @keyframes ctModalIn {
@@ -337,13 +370,25 @@
         }
     }
 
+    /* Small screens: fullscreen-like */
+    @media (max-width: 640px) {
+        .ct-modal__dialog {
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+            max-height: 100vh;
+            border-radius: 0;
+            padding: 14px 12px 12px;
+        }
+    }
+
     .ct-modal__close {
         position: absolute;
-        top: 14px;
-        right: 14px;
-        width: 40px;
-        height: 40px;
-        border: 1px solid rgba(16, 56, 128, .14);
+        top: 10px;
+        right: 10px;
+        width: 38px;
+        height: 38px;
+        border: 1px solid var(--ct-border);
         background: #fff;
         border-radius: 12px;
         cursor: pointer;
@@ -351,93 +396,113 @@
         line-height: 1;
     }
 
-    /* Header (Figma style) */
+    /* Header */
     .ct-modal__top {
         text-align: center;
-        padding: 6px 0 14px;
+        padding: 4px 0 12px;
         border-bottom: 1px solid rgba(16, 56, 128, .10);
-        margin-bottom: 14px;
+        margin-bottom: 12px;
     }
 
     .ct-brand__logo {
-        height: 40px;
+        height: 34px;
         width: auto;
         display: inline-block;
     }
 
+    .logo-mark {
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 14px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+        color: #fff;
+        background: var(--ct-accent);
+    }
+
+    /* Compact pill */
     .ct-pill {
         display: inline-flex;
         align-items: center;
+        justify-content: center;
         gap: 10px;
-        margin: 12px 0 10px;
-        padding: 10px 16px;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin: 10px 0 8px;
+        padding: 8px 12px;
         border-radius: 999px;
         border: 1px solid rgba(11, 18, 32, .12);
         box-shadow: 0 8px 18px rgba(11, 18, 32, .06);
-        color: rgba(11, 18, 32, .75);
-        font-weight: 600;
+        color: rgba(11, 18, 32, .72);
+        font-weight: 650;
+        font-size: 13px;
     }
 
     .ct-pill__dot {
-        width: 10px;
-        height: 10px;
+        width: 9px;
+        height: 9px;
         border-radius: 999px;
-        background: #ff8a00;
-        display: inline-block;
+        background: var(--ct-accent);
     }
 
+    /* Compact title (match site UI) */
     .ct-modal__title {
         margin: 6px 0 8px;
-        font-size: 34px;
-        line-height: 1.15;
+        font-size: clamp(18px, 2.6vw, 26px);
+        line-height: 1.2;
         font-weight: 900;
-        color: #0b1220;
+        color: var(--ct-text);
     }
 
+    /* Compact badges */
     .ct-badges {
         display: flex;
         justify-content: center;
-        gap: 22px;
+        gap: 10px 18px;
         flex-wrap: wrap;
-        margin-bottom: 4px;
+        margin-bottom: 2px;
     }
 
     .ct-badge {
         display: inline-flex;
         align-items: center;
-        gap: 10px;
-        color: rgba(11, 18, 32, .72);
+        gap: 8px;
+        color: rgba(11, 18, 32, .70);
         font-weight: 700;
+        font-size: 13px;
     }
 
     .ct-badge__icon {
-        width: 26px;
-        height: 26px;
+        width: 22px;
+        height: 22px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
     }
 
-    /* Stepper */
+    /* Stepper: mobile stacked */
     .ct-stepper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 14px;
-        margin: 16px 0 18px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 12px 0 14px;
     }
 
     .ct-step {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        gap: 8px;
-        min-width: 130px;
+        gap: 10px;
+        padding: 10px 12px;
+        border-radius: 14px;
+        border: 1px solid rgba(16, 56, 128, .12);
+        background: rgba(233, 237, 243, .35);
     }
 
     .ct-step__circle {
-        width: 44px;
-        height: 44px;
+        width: 34px;
+        height: 34px;
         border-radius: 999px;
         display: flex;
         align-items: center;
@@ -445,46 +510,91 @@
         font-weight: 900;
         background: #e9edf3;
         color: #6b7280;
+        flex: 0 0 auto;
+        font-size: 13px;
+    }
+
+    .ct-step__label {
+        font-weight: 850;
+        color: rgba(11, 18, 32, .72);
+        font-size: 13px;
     }
 
     .ct-step.is-active .ct-step__circle,
     .ct-step.is-done .ct-step__circle {
-        background: #ff8a00;
+        background: var(--ct-accent);
         color: #fff;
     }
 
-    .ct-step__label {
-        font-weight: 800;
-        color: rgba(11, 18, 32, .70);
+    .ct-step.is-active {
+        background: #fff;
+        border-color: rgba(255, 138, 0, .25);
     }
 
     .ct-step.is-active .ct-step__label {
-        color: #0b1220;
+        color: var(--ct-text);
     }
 
+    /* Hide connector lines on mobile */
     .ct-step__line {
-        width: 120px;
-        height: 4px;
-        border-radius: 999px;
-        background: #e9edf3;
+        display: none;
     }
 
-    /* Form fields */
+    /* Desktop stepper (inline) */
+    @media (min-width: 860px) {
+        .ct-stepper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin: 14px 0 16px;
+        }
+
+        .ct-step {
+            flex-direction: column;
+            gap: 6px;
+            padding: 0;
+            border: 0;
+            background: transparent;
+            min-width: 140px;
+        }
+
+        .ct-step__line {
+            display: block;
+            width: 100px;
+            height: 4px;
+            border-radius: 999px;
+            background: #e9edf3;
+        }
+    }
+
+    /* Form grid */
+    .ct-modal__form {
+        margin-top: 6px;
+    }
+
     .ct-grid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 16px;
+        grid-template-columns: 1fr;
+        gap: var(--ct-gap);
+    }
+
+    @media (min-width: 900px) {
+        .ct-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
     }
 
     .ct-field--full {
         grid-column: 1 / -1;
     }
 
+    /* Labels & controls (match your current UI: smaller) */
     .ct-field label {
         display: block;
         font-weight: 800;
-        font-size: 14px;
-        margin-bottom: 8px;
+        font-size: 13px;
+        margin-bottom: 6px;
         color: rgba(11, 18, 32, .82);
     }
 
@@ -492,24 +602,26 @@
     .ct-field select,
     .ct-field textarea {
         width: 100%;
-        border: 1px solid rgba(16, 56, 128, .18);
+        border: 1px solid var(--ct-border-strong);
         border-radius: 12px;
-        padding: 14px 14px;
-        font-size: 15px;
+        padding: 11px 12px;
+        font-size: 14px;
         outline: none;
         background: #fff;
+        min-height: 44px;
     }
 
     .ct-field textarea {
         resize: vertical;
-        min-height: 110px;
+        min-height: 100px;
+        padding-top: 10px;
     }
 
     .ct-field input:focus,
     .ct-field select:focus,
     .ct-field textarea:focus {
-        border-color: rgba(255, 138, 0, .65);
-        box-shadow: 0 0 0 4px rgba(255, 138, 0, .12);
+        border-color: rgba(255, 138, 0, .55);
+        box-shadow: 0 0 0 4px var(--ct-accent-soft);
     }
 
     .req {
@@ -517,7 +629,7 @@
         font-weight: 900;
     }
 
-    /* Steps panels */
+    /* Panels */
     .ct-stepPanel {
         display: none;
     }
@@ -531,78 +643,82 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 18px;
+        gap: 10px;
+        margin-top: 14px;
     }
 
     .ct-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
         border-radius: 12px;
-        padding: 14px 18px;
+        padding: 12px 14px;
         font-weight: 900;
-        border: 1px solid rgba(16, 56, 128, .18);
+        font-size: 14px;
+        border: 1px solid var(--ct-border-strong);
         background: #fff;
+        color: var(--ct-text);
         cursor: pointer;
+        min-height: 44px;
     }
 
     .ct-btn--ghost {
         background: #fff;
-        color: #0b1220;
     }
 
     .ct-btn--primary {
         border-color: transparent;
-        background: #ff8a00;
+        background: var(--ct-accent);
         color: #fff;
-        box-shadow: 0 14px 34px rgba(255, 138, 0, .25);
-        min-width: 180px;
+        box-shadow: 0 14px 34px rgba(255, 138, 0, .20);
+        min-width: 160px;
     }
 
     .ct-btn--wide {
-        min-width: 340px;
+        min-width: 280px;
     }
 
     .ct-btn__arrow {
-        margin-left: 10px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
+    /* Mobile: stack buttons full width */
+    @media (max-width: 640px) {
+        .ct-actions {
+            flex-direction: column-reverse;
+            align-items: stretch;
+        }
+
+        .ct-actions>span {
+            display: none;
+        }
+
+        .ct-btn--primary,
+        .ct-btn--wide {
+            width: 100%;
+            min-width: 0;
+        }
+    }
+
+    /* Info block */
     .ct-info {
         background: rgba(37, 99, 235, .08);
         border: 1px solid rgba(37, 99, 235, .18);
         color: rgba(11, 18, 32, .85);
         border-radius: 14px;
-        padding: 14px 14px;
-        font-weight: 650;
-    }
-
-    .ct-privacy {
-        margin: 14px 0 0;
-        text-align: center;
-        color: rgba(11, 18, 32, .60);
+        padding: 12px 12px;
         font-weight: 650;
         font-size: 13px;
     }
 
-    @media (max-width: 820px) {
-        .ct-modal__title {
-            font-size: 26px;
-        }
-
-        .ct-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .ct-step__line {
-            width: 60px;
-        }
-
-        .ct-btn--wide {
-            min-width: 200px;
-            width: 100%;
-        }
-
-        .ct-actions {
-            gap: 10px;
-        }
+    /* Privacy note */
+    .ct-privacy {
+        margin: 12px 0 0;
+        text-align: center;
+        color: rgba(11, 18, 32, .60);
+        font-weight: 650;
+        font-size: 12.5px;
     }
 </style>
 

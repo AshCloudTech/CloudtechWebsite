@@ -30,7 +30,8 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="ppc-audit">Get Free PPC Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="ppc-audit">Get Free PPC
+                        Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Strategy Call</a>
                 </div>
             </div>
@@ -93,54 +94,44 @@
             <div class="grid grid-2 platforms-grid">
                 <article class="card platform-card">
                     <h3>Google Ads</h3>
-                    <p class="platform-meta">Search Ads, Display Ads, Shopping Ads, Video Ads, Remarketing Ads — designed to
-                        capture buyers at every stage.</p>
-                    <!-- <ul>
-                            <li>Search Network</li>
-                            <li>Display Network</li>
-                            <li>Shopping Campaigns</li>
-                            <li>YouTube Ads</li>
-                        </ul> -->
+                    <img src="{{ asset('assets/services/digitalMarketing/ppc/images/google_ads.webp') }}" alt="Google Ads"
+                        class="platform-icon">
+                    <p class="platform-meta">
+                        Search Ads, Display Ads, Shopping Ads, Video Ads, Remarketing Ads — designed to capture buyers at
+                        every stage.
+                    </p>
                 </article>
 
                 <article class="card platform-card">
                     <h3>Microsoft Ads</h3>
-                    <p class="platform-meta">Search Ads, Audience Ads, Shopping Ads, and Bing placements that expand reach
-                        beyond Google.</p>
-                    <!-- <ul>
-                            <li>Bing Search</li>
-                            <li>Yahoo Search</li>
-                            <li>Partner Sites</li>
-                            <li>Lower Competition</li>
-                        </ul> -->
+                    <img src="{{ asset('assets/services/digitalMarketing/ppc/images/microsoft_ads.webp') }}"
+                        alt="Microsoft Ads" class="platform-icon">
+                    <p class="platform-meta">
+                        Search Ads, Audience Ads, Shopping Ads, and Bing placements that expand reach beyond Google.
+                    </p>
                 </article>
 
                 <article class="card platform-card">
                     <h3>Facebook Ads</h3>
-                    <p class="platform-meta">Image Ads, Video Ads, Carousel Ads, and Retargeting Ads tailored for
-                        high-engagement audiences.</p>
-                    <!-- <ul>
-                            <li>Facebook Feed</li>
-                            <li>Instagram Stories</li>
-                            <li>Messenger Ads</li>
-                            <li>Audience Network</li>
-                        </ul> -->
+                    <img src="{{ asset('assets/services/digitalMarketing/ppc/images/facebook_ads.webp') }}"
+                        alt="Facebook Ads" class="platform-icon">
+                    <p class="platform-meta">
+                        Image Ads, Video Ads, Carousel Ads, and Retargeting Ads tailored for high-engagement audiences.
+                    </p>
                 </article>
 
                 <article class="card platform-card">
                     <h3>LinkedIn Ads</h3>
-                    <p class="platform-meta">Sponsored Content, Message Ads, Lead Gen Forms, and Text Ads focused on
-                        professional B2B targeting.</p>
-                    <!-- <ul>
-                            <li>Sponsored Content</li>
-                            <li>Message Ads</li>
-                            <li>Dynamic Ads</li>
-                            <li>Lead Gen Forms</li>
-                        </ul> -->
+                    <img src="{{ asset('assets/services/digitalMarketing/ppc/images/linkedin_ads.webp') }}"
+                        alt="LinkedIn Ads" class="platform-icon">
+                    <p class="platform-meta">
+                        Sponsored Content, Message Ads, Lead Gen Forms, and Text Ads focused on professional B2B targeting.
+                    </p>
                 </article>
             </div>
         </div>
     </section>
+
 
     <!-- WHY CHOOSE OUR PPC SERVICES -->
     <section class="section section-why" id="why">
@@ -204,18 +195,18 @@
                         <li>Ongoing Optimization and Scaling</li>
                     </ul>
                 </div>
-                <!-- <div class="services-panel" aria-hidden="true">
-                        <div class="services-panel-inner">
-                            <p class="panel-label">Performance Dashboard</p>
-                            <p class="panel-text">
-                                A consolidated view of impressions, clicks, conversions and cost so you always know
-                                how your campaigns are performing.
-                            </p>
-                            <p class="panel-meta">
-                                Built for clarity and aligned with your business KPIs.
-                            </p>
+                <div class="services-panel" aria-hidden="true">
+                            <div class="services-panel-inner">
+                                <p class="panel-label">Transparent Performance Reporting</p>
+                                <p class="panel-text">
+                                    Get a complete view of your campaign performance with our custom-built performance dashboard.
+                                    Track key metrics like impressions, clicks, conversions, and cost to make data-driven decisions.
+                                </p>
+                                <p class="panel-meta">
+                                    We align our reporting with your business goals and KPIs, so you always know how your campaigns are performing.
+                                </p>
+                            </div>
                         </div>
-                    </div> -->
             </div>
         </div>
     </section>
@@ -262,68 +253,74 @@
         </div>
     </section>
 
-             <!-- WHAT ARE ppc SERVICES -->
-<section class="section section-national-about" id="about-meta_ads-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <!-- WHAT ARE ppc SERVICES -->
+    <section class="section section-national-about" id="about-meta_ads-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are PPC Management Services? </h2>
+                <div class="national-about-content">
+                    <h2>What Are PPC Management Services? </h2>
 
+                    <p>
+                        PPC management services involve planning, launching, and continuously optimising paid advertising
+                        campaigns across search engines and social platforms. The goal is to generate high-intent traffic,
+                        reduce wasted ad spend, and maximise return on ad spend through data-driven optimisation.
+                    </p>
+
+                    <p>
+                        A professional PPC strategy includes keyword research, audience targeting, ad creation, conversion
+                        tracking, landing page optimisation, and ongoing performance improvements to ensure consistent
+                        growth.
+                    </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Reducing Wasted Spend with Smart Optimisation</h3>
+
+                    <p>
+                        Many PPC campaigns fail due to poor optimisation. We actively manage:
+                    </p>
+
+                    <ul>
+                        <li>Negative keyword lists</li>
+                        <li>Search term analysis</li>
+                        <li>Geo and device targeting</li>
+                        <li>Time-of-day bid adjustments</li>
+                        <li>Audience exclusions</li>
+                    </ul>
+
+                    <p class="">
+                        These improvements quickly lower CPC and increase conversion rates.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why PPC Management Is Essential for Fast Business Growth -->
+    <section class="section section-national-growth" id="meta_ads-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why PPC Management Is Essential for Fast Business Growth</h2>
+            </div>
+
+            <div class="national-growth-card">
                 <p>
-                   PPC management services involve planning, launching, and continuously optimising paid advertising campaigns across search engines and social platforms. The goal is to generate high-intent traffic, reduce wasted ad spend, and maximise return on ad spend through data-driven optimisation.
+                    Unlike SEO, PPC delivers immediate visibility in search results and social feeds. With expert
+                    management, your campaigns can generate qualified traffic and leads from day one while building a
+                    predictable system for scaling growth.
                 </p>
 
                 <p>
-                   A professional PPC strategy includes keyword research, audience targeting, ad creation, conversion tracking, landing page optimisation, and ongoing performance improvements to ensure consistent growth.
+                    A well-optimised PPC campaign becomes a reliable source of revenue with measurable ROI.
                 </p>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Reducing Wasted Spend with Smart Optimisation</h3>
-
-                <p>
-                  Many PPC campaigns fail due to poor optimisation. We actively manage:
-                </p>
-
-                <ul>
-                    <li>Negative keyword lists</li>
-                    <li>Search term analysis</li>
-                    <li>Geo and device targeting</li>
-                    <li>Time-of-day bid adjustments</li>
-                    <li>Audience exclusions</li>
-                </ul>
-
-                <p class="">
-                 These improvements quickly lower CPC and increase conversion rates.
-                </p>
-            </div>
-
         </div>
-    </div>
-</section>
-
-
-<!-- Why PPC Management Is Essential for Fast Business Growth -->
-<section class="section section-national-growth" id="meta_ads-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why PPC Management Is Essential for Fast Business Growth</h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-              Unlike SEO, PPC delivers immediate visibility in search results and social feeds. With expert management, your campaigns can generate qualified traffic and leads from day one while building a predictable system for scaling growth.
-            </p>
-
-            <p>
-               A well-optimised PPC campaign becomes a reliable source of revenue with measurable ROI.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
     <!-- CTA -->
     <section class="section section-cta" style="margin-top:35px" id="cta">

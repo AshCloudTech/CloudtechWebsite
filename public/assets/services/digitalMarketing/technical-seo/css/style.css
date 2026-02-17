@@ -925,3 +925,77 @@ button {
         padding: 22px;
     }
 }
+
+
+/* WHY grid: supports 5 cards nicely */
+.why-grid-ui{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.why-card-ui{
+  padding: 20px;
+  border-radius: 16px;
+}
+
+/* Reuse your standard orange icon badge */
+.why-icon{
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 12px;
+  background: rgba(255, 133, 2, 0.12);
+  border: 1px solid rgba(255, 133, 2, 0.18);
+}
+.why-icon svg{
+  width: 22px;
+  height: 22px;
+  color: #ff8502;
+}
+
+/* Responsive: 4 -> 2 -> 1 */
+@media (max-width: 1100px){
+  .why-grid-ui{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px){
+  .why-grid-ui{ grid-template-columns: 1fr; }
+}
+
+/* ISSUES grid */
+.issues-grid-ui{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.issue-card-ui{
+  padding: 20px;
+  border-radius: 16px;
+}
+
+/* same badge style */
+.issue-icon{
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 12px;
+  background: rgba(255, 133, 2, 0.12);
+  border: 1px solid rgba(255, 133, 2, 0.18);
+}
+.issue-icon svg{
+  width: 22px;
+  height: 22px;
+  color: #ff8502;
+}
+
+@media (max-width: 1100px){
+  .issues-grid-ui{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px){
+  .issues-grid-ui{ grid-template-columns: 1fr; }
+}

@@ -80,89 +80,101 @@
 </section>
 
 
-    <!-- PLATFORMS -->
-    <section class="section section-platforms" id="platforms">
-        <div class="container">
-            <div class="section-header">
-                <h2>Social Media Platforms We Manage</h2>
-                <p>We manage top social platforms to grow your brand and engage customers.</p>
-            </div>
-
-            <div class="grid grid-3 platform-grid">
-                <article class="card platform-card">
-                    <h3>Facebook</h3>
-                    <p class="platform-meta">2.9B+ users</p>
-                    <p>Grow brand presence with targeted Facebook marketing.</p>
-                    <ul>
-                        <li>Audience Growth </li>
-                        <li>Targeted Advertising</li>
-                        <li>Content Posting </li>
-                        <li>Reach Expansion </li>
-                    </ul>
-                </article>
-
-                <article class="card platform-card">
-                    <h3>Instagram</h3>
-                    <p class="platform-meta">2B+ users</p>
-                    <p>Boost engagement with creative Instagram content strategies.</p>
-                    <ul>
-                        <li>Profile Growth </li>
-                        <li>Reels Creation </li>
-                        <li>Ad Campaigns </li>
-                        <li>Trend Optimization </li>
-                    </ul>
-                </article>
-
-                <article class="card platform-card">
-                    <h3>LinkedIn</h3>
-                    <p class="platform-meta">900M+ users</p>
-                    <p>Build authority and generate B2B leads on LinkedIn.</p>
-                    <ul>
-                        <li>Lead Generation </li>
-                        <li>Professional Posting </li>
-                        <li>LinkedIn Ads </li>
-                        <li>Brand Positioning </li>
-                    </ul>
-                </article>
-
-                <article class="card platform-card">
-                    <h3>Twitter</h3>
-                    <p class="platform-meta">450M+ users</p>
-                    <p>Increase visibility and real time engagement on Twitter.</p>
-                    <ul>
-                        <li>Follower Growth </li>
-                        <li>Trend Marketing </li>
-                        <li>Reach Improvement </li>
-                        <li>Post Engagement </li>
-                    </ul>
-                </article>
-
-                <article class="card platform-card">
-                    <h3>TikTok</h3>
-                    <p class="platform-meta">1B+ users</p>
-                    <p>Create viral short form content to grow your TikTok audience.</p>
-                    <ul>
-                        <li>Community Growth </li>
-                        <li>Ad Promotion </li>
-                        <li>Trend Content </li>
-                        <li>Viral Strategy </li>
-                    </ul>
-                </article>
-
-                <article class="card platform-card">
-                    <h3>YouTube</h3>
-                    <p class="platform-meta">2.7B+ users</p>
-                    <p>Grow your brand with optimized video content on YouTube.</p>
-                    <ul>
-                        <li>Channel Growth </li>
-                        <li>Video SEO </li>
-                        <li>Video Ads </li>
-                        <li>View Generation </li>
-                    </ul>
-                </article>
-            </div>
+ <!-- PLATFORMS -->
+<section class="section section-platforms" id="platforms">
+    <div class="container">
+        <div class="section-header">
+            <h2>Social Media Platforms We Manage</h2>
+            <p>We manage top social platforms to grow your brand and engage customers.</p>
         </div>
-    </section>
+
+        <div class="grid grid-3 platform-grid">
+            <article class="card platform-card">
+                <h3>Facebook</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/smm/images/facebook.webp') }}"
+                    alt="Facebook" class="platform-icon">
+                <p class="platform-meta">2.9B+ users</p>
+                <p>Grow brand presence with targeted Facebook marketing.</p>
+                <ul>
+                    <li>Audience Growth</li>
+                    <li>Targeted Advertising</li>
+                    <li>Content Posting</li>
+                    <li>Reach Expansion</li>
+                </ul>
+            </article>
+
+            <article class="card platform-card">
+                <h3>Instagram</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/smm/images/instagram.webp') }}"
+                    alt="Instagram" class="platform-icon">
+                <p class="platform-meta">2B+ users</p>
+                <p>Boost engagement with creative Instagram content strategies.</p>
+                <ul>
+                    <li>Profile Growth</li>
+                    <li>Reels Creation</li>
+                    <li>Ad Campaigns</li>
+                    <li>Trend Optimization</li>
+                </ul>
+            </article>
+
+            <article class="card platform-card">
+                <h3>LinkedIn</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/smm/images/linkedin.webp') }}"
+                    alt="LinkedIn" class="platform-icon">
+                <p class="platform-meta">900M+ users</p>
+                <p>Build authority and generate B2B leads on LinkedIn.</p>
+                <ul>
+                    <li>Lead Generation</li>
+                    <li>Professional Posting</li>
+                    <li>LinkedIn Ads</li>
+                    <li>Brand Positioning</li>
+                </ul>
+            </article>
+
+            <article class="card platform-card">
+                <h3>Twitter</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/smm/images/twitter.webp') }}"
+                    alt="Twitter" class="platform-icon">
+                <p class="platform-meta">450M+ users</p>
+                <p>Increase visibility and real time engagement on Twitter.</p>
+                <ul>
+                    <li>Follower Growth</li>
+                    <li>Trend Marketing</li>
+                    <li>Reach Improvement</li>
+                    <li>Post Engagement</li>
+                </ul>
+            </article>
+
+            <article class="card platform-card">
+                <h3>TikTok</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/smm/images/tiktok.webp') }}"
+                    alt="TikTok" class="platform-icon">
+                <p class="platform-meta">1B+ users</p>
+                <p>Create viral short form content to grow your TikTok audience.</p>
+                <ul>
+                    <li>Community Growth</li>
+                    <li>Ad Promotion</li>
+                    <li>Trend Content</li>
+                    <li>Viral Strategy</li>
+                </ul>
+            </article>
+
+            <article class="card platform-card">
+                <h3>YouTube</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/smm/images/youtube.webp') }}"
+                    alt="YouTube" class="platform-icon">
+                <p class="platform-meta">2.7B+ users</p>
+                <p>Grow your brand with optimized video content on YouTube.</p>
+                <ul>
+                    <li>Channel Growth</li>
+                    <li>Video SEO</li>
+                    <li>Video Ads</li>
+                    <li>View Generation</li>
+                </ul>
+            </article>
+        </div>
+    </div>
+</section>
 
     <!-- CONTENT TYPES -->
 <section class="section section-alt section-content-types">
@@ -232,19 +244,20 @@
                         <li>Creative Design and Visual Branding </li>
                     </ul>
                 </div>
-                <!-- <div class="services-panel">
+              <div class="services-panel">
                         <div class="services-panel-inner">
-                            <p class="services-label">Campaign Overview</p>
+                            <p class="services-label">Campaign Insights</p>
                             <p class="services-text">
-                                A visual snapshot of your campaigns, audience growth and engagement trends
-                                across all social media platforms.
+                                Dive into your campaign performance across all social media platforms. See what's
+                                driving engagement, where your audience is growing, and which platforms are
+                                performing best.
                             </p>
                             <p class="services-meta">
-                                Designed for brands that want clear, data‑driven insight into what&apos;s
-                                working and where to grow next.
+                                Our campaign overview provides actionable insights to help you optimize your social media
+                                strategy and drive real business results.
                             </p>
                         </div>
-                    </div> -->
+                    </div>
             </div>
         </div>
     </section>

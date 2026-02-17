@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
 use App\Models\CaseStudy;
+use App\Models\Company;
 use Illuminate\Http\Request;
 
 use App\Models\PricingPlan;
@@ -30,7 +31,23 @@ class HomeController extends Controller
             ->take(3)
             ->get();
 
-        return view('welcome', compact('caseStudies', 'featuredPlans'));
+                $company = Company::query()
+        ->where('is_active', true)
+        ->with(['branches' => function ($q) {
+            $q->where('is_active', true)->orderBy('sort_order');
+        }])
+        ->first();
+
+    // Collect unique ISO2 country codes (must match SVG path ids)
+    $countryCodes = $company?->branches
+        ->pluck('country_code')
+        ->filter()
+        ->map(fn($c) => strtoupper(trim($c)))
+        ->unique()
+        ->values()
+        ->all();
+
+        return view('welcome', compact('caseStudies', 'featuredPlans', 'company', 'countryCodes'));
     }
 
     public function careers()

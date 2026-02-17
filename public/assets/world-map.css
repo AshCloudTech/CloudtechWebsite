@@ -1,0 +1,116 @@
+.worldMap {
+    width: 100%;
+    padding: 56px 0
+}
+
+.worldMap__container {
+    width: min(1200px, 92vw);
+    margin: 0 auto;
+    grid-template-columns: 360px 1fr;
+    gap: 28px;
+    align-items: center
+}
+
+.worldMap__svgWrap {
+    position: relative;
+    width: 100%
+}
+
+.worldMap__svg {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+.worldMap__svg path {
+    transition: fill .25s ease, opacity .25s ease;
+    cursor: pointer
+}
+
+.worldMap__svg path.has-branch {
+    opacity: 1;
+    fill: #173f84;
+
+}
+
+.worldMap__svg path.dim {
+    opacity: .35
+}
+
+.worldMap__svg path.is-active {
+    opacity: 1;
+    fill: #fc8a10
+}
+
+.worldMap__pins circle {
+    fill: #fff;
+    stroke: #fc8a10;
+    stroke-width: 2
+}
+
+.worldMap__pins circle.is-hq {
+    fill: #fc8a10;
+    stroke: #fff
+}
+
+.worldMap__tooltip {
+    position: absolute;
+    inset: auto auto 12px 12px;
+    background: rgba(0, 0, 0, .75);
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+    line-height: 1.3;
+    display: none;
+    max-width: min(340px, 92%)
+}
+
+.worldMap__tooltip.is-open {
+    display: block
+}
+
+.worldMap__list {
+    list-style: none;
+    padding: 0;
+    margin: 18px 0 0;
+    display: grid;
+    gap: 10px
+}
+
+.worldMap__btn {
+    width: 100%;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, .08);
+    background: #fff;
+    border-radius: 14px;
+    padding: 12px;
+    cursor: pointer
+}
+
+.worldMap__btn.is-active {
+    border-color: rgba(245, 158, 11, .6);
+    box-shadow: 0 8px 24px rgba(245, 158, 11, .12)
+}
+
+.worldMap__branchName {
+    display: block;
+    font-weight: 700
+}
+
+.worldMap__meta {
+    display: block;
+    opacity: .7;
+    font-size: 13px;
+    margin-top: 2px
+}
+
+.worldMap__empty {
+    opacity: .7
+}
+
+@media (max-width:900px) {
+    .worldMap__container {
+        grid-template-columns: 1fr
+    }
+}

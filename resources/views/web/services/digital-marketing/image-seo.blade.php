@@ -50,166 +50,187 @@
     </section>
 
     <!-- WHY -->
-    <section class="section section-alt" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Choose Our Image SEO Services in the UK?</h2>
-                <!-- <p>
-                        Drive organic traffic from across the UK with our comprehensive image SEO strategies.
-                    </p> -->
-            </div>
+<section class="section section-alt" id="why">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Choose Our Image SEO Services in the UK?</h2>
+    </div>
 
-            <div class="grid grid-4 why-grid">
-                <article class="card why-card">
-                    <div class="why-icon icon-quality"></div>
-                    <h3>Alt Text Optimisation for Image Search</h3>
-                    <p>
-                        SEO-friendly alt tags that help search engines understand image context and improve accessibility.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-keyword"></div>
-                    <h3>Image Compression for Page Speed</h3>
-                    <p>
-                        Reduce image sizes without quality loss to enhance loading speed and Core Web Vitals.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-engagement"></div>
-                    <h3>Next-Gen Image Formats (WebP & AVIF)</h3>
-                    <p>
-                        Convert images into modern formats for faster delivery and better performance.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-authority"></div>
-                    <h3>Improve Google Images Rankings </h3>
-                    <p>
-                        Optimise images to rank higher in Google Images and visual search results.
-                    </p>
-                </article>
-            </div>
+    <div class="why-grid why-grid-ui">
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="image"></i>
         </div>
-    </section>
+        <h3>Alt Text Optimisation for Image Search</h3>
+        <p>
+          SEO-friendly alt tags that help search engines understand image context and improve accessibility.
+        </p>
+      </article>
 
-    <!-- PROCESS -->
-    <section class="section section-process" id="process">
-        <div class="container">
-            <div class="section-header section-header-light">
-                <h2>Our Image SEO Process</h2>
-                <!-- <p>
-                        A comprehensive 4-step approach to optimize your visual content.
-                    </p> -->
-            </div>
-
-            <div class="grid grid-4 process-grid">
-                <article class="process-card">
-                    <h3>Image SEO Audit</h3>
-                    <p>Analyse existing images, formats, sizes, metadata, and indexing issues.</p>
-                </article>
-                <article class="process-card">
-                    <h3>Image Optimization Strategy</h3>
-                    <p>Plan alt tags, file names, compression levels, formats, and structured data.</p>
-                </article>
-                <article class="process-card">
-                    <h3>Technical Image SEO Implementation</h3>
-                    <p>Apply lazy loading, responsive images, WebP/AVIF, schema markup, and image sitemaps.</p>
-                </article>
-                <article class="process-card">
-                    <h3>Image Performance Tracking</h3>
-                    <p>Monitor image indexing, rankings, and search visibility.</p>
-                </article>
-            </div>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="zap"></i>
         </div>
-    </section>
+        <h3>Image Compression for Page Speed</h3>
+        <p>
+          Reduce image sizes without quality loss to enhance loading speed and Core Web Vitals.
+        </p>
+      </article>
 
-
-    <!-- CONTENT TYPES -->
-    <section class="section content-types" id="content-types">
-        <div class="container">
-            <div class="section-header">
-                <h2>Image Types We Optimise for SEO</h2>
-                <!-- <p>Comprehensive content SEO services for all types of business content</p> -->
-            </div>
-
-            <div class="ct-grid">
-                <!-- Card 1 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Blog Posts &amp; Articles Graphics SEO</h3>
-                            <p>Optimised blog images with alt tags, SEO file names, and compression for better Google Images
-                                visibility.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Alt tag optimisation</li>
-                        <li>SEO file naming</li>
-                        <li>Image compression</li>
-                        <li>Context relevance</li>
-                    </ul>
-                </article>
-
-                <!-- Card 2 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Landing Page Image Optimisation</h3>
-                            <p>Next-gen formats, responsive sizing, and lazy loading for faster pages and better SEO.</p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>WebP / AVIF format</li>
-                        <li>Responsive images</li>
-                        <li>Lazy loading</li>
-                        <li>Image metadata</li>
-                    </ul>
-                </article>
-
-                <!-- Card 3 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Product and E-commerce Image SEO </h3>
-                            <p>Product images optimised for faster loading, better indexing, and improved search visibility.
-                            </p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Product image optimisation</li>
-                        <li>Schema markup for images</li>
-                        <li>Image zoom optimisation</li>
-                        <li>Thumbnail optimisation</li>
-                    </ul>
-                </article>
-
-                <!-- Card 4 -->
-                <article class="ct-card">
-                    <div class="ct-head">
-                        <div class="ct-icon" aria-hidden="true"></div>
-                        <div class="ct-title">
-                            <h3>Technical and Website Graphics Optimisation </h3>
-                            <p>Structured data, image sitemaps, and indexing fixes for stronger technical SEO performance.
-                            </p>
-                        </div>
-                    </div>
-
-                    <ul class="ct-points">
-                        <li>Image sitemap</li>
-                        <li>Structured data</li>
-                        <li>Fix indexing issues</li>
-                        <li>Core Web Vitals optimisation</li>
-                    </ul>
-                </article>
-            </div>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="file-image"></i>
         </div>
-    </section>
+        <h3>Next-Gen Image Formats (WebP &amp; AVIF)</h3>
+        <p>
+          Convert images into modern formats for faster delivery and better performance.
+        </p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="trending-up"></i>
+        </div>
+        <h3>Improve Google Images Rankings</h3>
+        <p>
+          Optimise images to rank higher in Google Images and visual search results.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROCESS -->
+<section class="section section-process" id="process">
+  <div class="container">
+    <div class="section-header section-header-light">
+      <h2>Our Image SEO Process</h2>
+    </div>
+
+    <div class="process-grid process-grid-ui">
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="scan"></i></div>
+        <h3>Image SEO Audit</h3>
+        <p>Analyse existing images, formats, sizes, metadata, and indexing issues.</p>
+      </article>
+
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="clipboard-list"></i></div>
+        <h3>Image Optimization Strategy</h3>
+        <p>Plan alt tags, file names, compression levels, formats, and structured data.</p>
+      </article>
+
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="wrench"></i></div>
+        <h3>Technical Image SEO Implementation</h3>
+        <p>Apply lazy loading, responsive images, WebP/AVIF, schema markup, and image sitemaps.</p>
+      </article>
+
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="line-chart"></i></div>
+        <h3>Image Performance Tracking</h3>
+        <p>Monitor image indexing, rankings, and search visibility.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTENT TYPES -->
+<section class="section content-types" id="content-types">
+  <div class="container">
+    <div class="section-header">
+      <h2>Image Types We Optimise for SEO</h2>
+    </div>
+
+    <div class="ct-grid ct-grid-ui">
+
+      <!-- Card 1 -->
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon" aria-hidden="true">
+            <i data-lucide="file-text"></i>
+          </div>
+          <div class="ct-title">
+            <h3>Blog Posts &amp; Articles Graphics SEO</h3>
+            <p>
+              Optimised blog images with alt tags, SEO file names, and compression for better Google Images visibility.
+            </p>
+          </div>
+        </div>
+
+        <ul class="ct-points">
+          <li>Alt tag optimisation</li>
+          <li>SEO file naming</li>
+          <li>Image compression</li>
+          <li>Context relevance</li>
+        </ul>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon" aria-hidden="true">
+            <i data-lucide="layout"></i>
+          </div>
+          <div class="ct-title">
+            <h3>Landing Page Image Optimisation</h3>
+            <p>Next-gen formats, responsive sizing, and lazy loading for faster pages and better SEO.</p>
+          </div>
+        </div>
+
+        <ul class="ct-points">
+          <li>WebP / AVIF format</li>
+          <li>Responsive images</li>
+          <li>Lazy loading</li>
+          <li>Image metadata</li>
+        </ul>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon" aria-hidden="true">
+            <i data-lucide="shopping-bag"></i>
+          </div>
+          <div class="ct-title">
+            <h3>Product and E-commerce Image SEO</h3>
+            <p>Product images optimised for faster loading, better indexing, and improved search visibility.</p>
+          </div>
+        </div>
+
+        <ul class="ct-points">
+          <li>Product image optimisation</li>
+          <li>Schema markup for images</li>
+          <li>Image zoom optimisation</li>
+          <li>Thumbnail optimisation</li>
+        </ul>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="ct-card ct-card-ui">
+        <div class="ct-head">
+          <div class="ct-icon" aria-hidden="true">
+            <i data-lucide="settings"></i>
+          </div>
+          <div class="ct-title">
+            <h3>Technical and Website Graphics Optimisation</h3>
+            <p>Structured data, image sitemaps, and indexing fixes for stronger technical SEO performance.</p>
+          </div>
+        </div>
+
+        <ul class="ct-points">
+          <li>Image sitemap</li>
+          <li>Structured data</li>
+          <li>Fix indexing issues</li>
+          <li>Core Web Vitals optimisation</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
 
     <!-- INCLUDED -->
     <section class="section" id="included">

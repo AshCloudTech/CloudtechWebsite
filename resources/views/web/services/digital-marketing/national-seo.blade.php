@@ -51,50 +51,49 @@
     </section>
 
     <!-- WHY NATIONAL SEO WITH US -->
-    <section class="section section-alt" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Choose Our National SEO Services?</h2>
-                <p>
-                    Nationwide SEO expertise that strengthens your brand and drives results.
-                </p>
-            </div>
+ <section class="section section-alt" id="why">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Choose Our National SEO Services?</h2>
+      <p>Nationwide SEO expertise that strengthens your brand and drives results.</p>
+    </div>
 
-            <div class="grid grid-4 why-grid">
-                <article class="card why-card">
-                    <div class="why-icon icon-uk"></div>
-                    <h3>World Wide Visibility</h3>
-                    <p>
-                        Boost world wide visibility with expert National SEO from a trusted National SEO Company.
-                    </p>
-                </article>
-
-                <article class="card why-card">
-                    <div class="why-icon icon-data"></div>
-                    <h3>Data-Driven Strategies</h3>
-                    <p>
-                        We use advanced analytics and proven SEO methodologies to build campaigns around real data.
-                    </p>
-                </article>
-
-                <article class="card why-card">
-                    <div class="why-icon icon-target"></div>
-                    <h3>Nationwide Targeting</h3>
-                    <p>
-                        A leading Nationwide SEO Company optimizing your reach with targeted National SEO.
-                    </p>
-                </article>
-
-                <article class="card why-card">
-                    <div class="why-icon icon-results"></div>
-                    <h3>Proven Results</h3>
-                    <p>
-                        A proven National SEO Agency delivering strong rankings and reliable nationwide growth.
-                    </p>
-                </article>
-            </div>
+    <div class="grid grid-4 why-grid why-grid-ui">
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="globe"></i>
         </div>
-    </section>
+        <h3>Worldwide Visibility</h3>
+        <p>Boost worldwide visibility with expert National SEO from a trusted National SEO company.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="bar-chart-3"></i>
+        </div>
+        <h3>Data-Driven Strategies</h3>
+        <p>We use analytics and proven SEO methodology to build campaigns around real performance data.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="crosshair"></i>
+        </div>
+        <h3>Nationwide Targeting</h3>
+        <p>A results-led approach to reach customers across the UK with targeted National SEO.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="badge-check"></i>
+        </div>
+        <h3>Proven Results</h3>
+        <p>A proven National SEO agency delivering strong rankings and reliable long-term growth.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- PROCESS -->
     <section class="section" id="process">

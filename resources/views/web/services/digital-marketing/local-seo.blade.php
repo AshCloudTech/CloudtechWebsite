@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <!-- <div class="hero-panel hero-media">
+             {{-- <div class="hero-panel hero-media">
                     <div class="hero-media-inner">
                         <p class="hero-media-label">Local Presence Preview</p>
                         <p class="hero-media-text">
@@ -44,7 +44,7 @@
                             <div class="hero-map-lines"></div>
                         </div>
                     </div>
-                </div> -->
+                </div>  --}}
         </div>
     </section>
 
@@ -77,86 +77,90 @@
         </div>
     </section>
 
-    <!-- LOCAL SEO PROCESS -->
-    <section class="section" id="process">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Local SEO Process</h2>
-                <p>A clear, streamlined strategy that enhances your local presence, improves visibility, and drives steady
-                    customer growth.</p>
-            </div>
+<!-- LOCAL SEO PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Local SEO Process</h2>
+      <p>
+        A clear, streamlined strategy that enhances your local presence, improves visibility,
+        and drives steady customer growth.
+      </p>
+    </div>
 
-            <div class="grid grid-3 process-grid">
-                <article class="card process-card">
-                    <div class="process-icon">1</div>
-                    <h3>Local Audit</h3>
-                    <p>
-                        We assess your local presence to identify gaps and opportunities for stronger visibility.
-                    </p>
-                </article>
+    <div class="process-grid process-grid-ui-3">
+      <article class="card process-card process-card-ui">
+        <div class="process-step">1</div>
+        <h3>Local Audit</h3>
+        <p>
+          We assess your local presence to identify gaps and opportunities for stronger visibility.
+        </p>
+      </article>
 
-                <article class="card process-card">
-                    <div class="process-icon">2</div>
-                    <h3>Optimisation</h3>
-                    <p>
-                        We enhance key SEO elements to improve local rankings, relevance, and customer engagement.
-                    </p>
-                </article>
+      <article class="card process-card process-card-ui">
+        <div class="process-step">2</div>
+        <h3>Optimisation</h3>
+        <p>
+          We enhance key SEO elements to improve local rankings, relevance, and customer engagement.
+        </p>
+      </article>
 
-                <article class="card process-card">
-                    <div class="process-icon">3</div>
-                    <h3>Growth</h3>
-                    <p>
-                        We apply targeted strategies that drive increased local traffic, leads, and ongoing growth.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
+      <article class="card process-card process-card-ui">
+        <div class="process-step">3</div>
+        <h3>Growth</h3>
+        <p>
+          We apply targeted strategies that drive increased local traffic, leads, and ongoing growth.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <!-- WHY CHOOSE OUR LOCAL SEO SERVICES -->
-    <section class="section section-alt" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Choose Our Local SEO Services?</h2>
-                <p>Our Local SEO Agency boosts local rankings and helps you attract more nearby customers.</p>
-            </div>
 
-            <div class="grid grid-4 why-grid">
-                <article class="card why-card">
-                    <div class="why-icon icon-rank"></div>
-                    <h3>Local Search Rankings</h3>
-                    <p>
-                        We improve your Local SEO rankings to boost visibility and attract nearby customers.
-                    </p>
-                </article>
+<!-- WHY CHOOSE OUR LOCAL SEO SERVICES -->
+<section class="section section-alt" id="why">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Choose Our Local SEO Services?</h2>
+      <p>Our Local SEO agency boosts local rankings and helps you attract more nearby customers.</p>
+    </div>
 
-                <article class="card why-card">
-                    <div class="why-icon icon-gmb"></div>
-                    <h3>Google My Business</h3>
-                    <p>
-                        We optimize your Google Business Profile for stronger Local SEO performance and map results.
-                    </p>
-                </article>
+    <div class="why-grid why-grid-ui">
+      <article class="card why-card why-card-ui">
+        <div class="why-icon"><i data-lucide="map-pin"></i></div>
+        <h3>Local Search Rankings</h3>
+        <p>
+          We improve your local SEO rankings to boost visibility and attract nearby customers.
+        </p>
+      </article>
 
-                <article class="card why-card">
-                    <div class="why-icon icon-community"></div>
-                    <h3>Community Visibility</h3>
-                    <p>
-                        We enhance your local business visibility across directories to support your Local SEO strategy.
-                    </p>
-                </article>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon"><i data-lucide="building-2"></i></div>
+        <h3>Google Business Profile</h3>
+        <p>
+          We optimise your Google Business Profile for stronger map visibility and local performance.
+        </p>
+      </article>
 
-                <article class="card why-card">
-                    <div class="why-icon icon-mobile"></div>
-                    <h3>Mobile Optimisation</h3>
-                    <p>
-                        We optimize your site for mobile users to improve Local SEO results and local search engagement.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon"><i data-lucide="users"></i></div>
+        <h3>Community Visibility</h3>
+        <p>
+          We enhance your business presence across directories to strengthen your local footprint.
+        </p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon"><i data-lucide="smartphone"></i></div>
+        <h3>Mobile Optimisation</h3>
+        <p>
+          We optimise your site for mobile users to maximise local search engagement.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- COMPLETE LOCAL SEO SERVICES -->
     <section class="section section-services" id="services">
@@ -181,19 +185,20 @@
                         <li>Local Performance Tracking</li>
                     </ul>
                 </div>
-                <!-- <div class="services-panel">
+                <div class="services-panel">
                         <div class="services-panel-inner">
                             <p class="services-label">Local Visibility Panel</p>
                             <p class="services-text">
-                                Snapshot of how visible your business is in local search, including maps, reviews
-                                and organic rankings.
+                                Get a clear picture of your business's local online presence, including search rankings,
+                                review performance, and map visibility. This snapshot provides actionable recommendations to
+                                improve calls, visits, and enquiries.
                             </p>
                             <p class="services-meta">
-                                Ideal for local businesses that want clear, actionable recommendations to increase
-                                calls, visits and enquiries.
+                                Perfect for local businesses that want to understand their online presence and make data-driven
+                                decisions to drive growth.
                             </p>
                         </div>
-                    </div> -->
+                    </div>
             </div>
         </div>
     </section>

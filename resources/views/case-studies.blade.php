@@ -69,7 +69,9 @@
                                 <img src="{{ $imgUrl }}" alt="{{ $case->title }} case study" loading="lazy"
                                     decoding="async">
                             @else
-                                <div class="caseCardUI__imgPlaceholder" aria-hidden="true"></div>
+                                <img src="{{ asset('assets/case-studies/img/placeholder.png') }}"
+                                    alt="{{ $case->title }} case study" loading="lazy" decoding="async"
+                                    style="filter: grayscale(100%); opacity: 0.5;object-fit: contain;">
                             @endif
                         </a>
 

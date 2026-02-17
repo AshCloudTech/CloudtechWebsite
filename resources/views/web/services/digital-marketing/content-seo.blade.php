@@ -51,51 +51,50 @@
         </div>
     </section>
 
-    <!-- WHY CONTENT SEO MATTERS -->
-    <section class="section section-alt" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Content SEO Matters</h2>
-                <p>
-                    Content SEO improves visibility, attracts traffic, and strengthens brand authority.
-                </p>
-            </div>
+<!-- WHY CONTENT SEO MATTERS -->
+<section class="section section-alt" id="why">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Content SEO Matters</h2>
+      <p>Content SEO improves visibility, attracts traffic, and strengthens brand authority.</p>
+    </div>
 
-            <div class="grid grid-4 why-grid">
-                <article class="card why-card">
-                    <div class="why-icon icon-quality"></div>
-                    <h3>Quality Content</h3>
-                    <p>
-                        Quality Content creates value that attracts and retains your audience.
-                    </p>
-                </article>
-
-                <article class="card why-card">
-                    <div class="why-icon icon-keyword"></div>
-                    <h3>Keyword Optimisation</h3>
-                    <p>
-                        Keyword Optimization aligns content with search intent for better rankings.
-                    </p>
-                </article>
-
-                <article class="card why-card">
-                    <div class="why-icon icon-engagement"></div>
-                    <h3>User Engagement</h3>
-                    <p>
-                        User Engagement encourages interaction that boosts visibility and trust.
-                    </p>
-                </article>
-
-                <article class="card why-card">
-                    <div class="why-icon icon-authority"></div>
-                    <h3>Authority Building</h3>
-                    <p>
-                        Authority Building establishes credibility to rank higher and earn trust.
-                    </p>
-                </article>
-            </div>
+    <div class="why-grid why-grid-ui">
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="file-text"></i>
         </div>
-    </section>
+        <h3>Quality Content</h3>
+        <p>High-quality content creates value that attracts and retains your audience.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="search"></i>
+        </div>
+        <h3>Keyword Optimisation</h3>
+        <p>Keyword optimisation aligns content with search intent for better rankings.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="users"></i>
+        </div>
+        <h3>User Engagement</h3>
+        <p>User engagement encourages interaction that boosts visibility and trust.</p>
+      </article>
+
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true">
+          <i data-lucide="award"></i>
+        </div>
+        <h3>Authority Building</h3>
+        <p>Authority building establishes credibility to rank higher and earn trust.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- CONTENT TYPES WE OPTIMISE -->
     <section class="section" id="types">
@@ -264,51 +263,44 @@
 </section>
 
 
-    <!-- PROCESS -->
-    <section class="section section-process" style="margin-top:35px" id="process">
-        <div class="container">
-            <div class="section-header section-header-light">
-                <h2>Our Content SEO Process</h2>
-                <p>
-                    A streamlined, data-driven approach that optimizes your content for visibility, relevance, and results.
-                </p>
-            </div>
+<!-- PROCESS -->
+<section class="section section-process" style="margin-top:35px" id="process">
+  <div class="container">
+    <div class="section-header section-header-light">
+      <h2>Our Content SEO Process</h2>
+      <p>
+        A streamlined, data-driven approach that optimizes your content for visibility, relevance, and results.
+      </p>
+    </div>
 
-            <div class="grid grid-4 process-grid">
-                <article class="card process-card">
-                    <div class="process-icon"></div>
-                    <h3>Research &amp; Analysis</h3>
-                    <p>
-                        We identify keywords, audiences, and opportunities to guide your strategy.
-                    </p>
-                </article>
+    <div class="process-grid process-grid-ui">
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="search"></i></div>
+        <h3>Research &amp; Analysis</h3>
+        <p>We identify keywords, audiences, and opportunities to guide your strategy.</p>
+      </article>
 
-                <article class="card process-card">
-                    <div class="process-icon"></div>
-                    <h3>Content Creation</h3>
-                    <p>
-                        We produce high-quality, SEO-focused content tailored to user intent.
-                    </p>
-                </article>
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="pen-tool"></i></div>
+        <h3>Content Creation</h3>
+        <p>We produce high-quality, SEO-focused content tailored to user intent.</p>
+      </article>
 
-                <article class="card process-card">
-                    <div class="process-icon"></div>
-                    <h3>Optimisation</h3>
-                    <p>
-                        We refine on-page elements to improve visibility and search performance.
-                    </p>
-                </article>
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="sliders-horizontal"></i></div>
+        <h3>Optimisation</h3>
+        <p>We refine on-page elements to improve visibility and search performance.</p>
+      </article>
 
-                <article class="card process-card">
-                    <div class="process-icon"></div>
-                    <h3>Performance Tracking</h3>
-                    <p>
-                        We monitor rankings and engagement to guide ongoing improvements.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
+      <article class="card process-card process-card-ui">
+        <div class="process-icon" aria-hidden="true"><i data-lucide="line-chart"></i></div>
+        <h3>Performance Tracking</h3>
+        <p>We monitor rankings and engagement to guide ongoing improvements.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- CTA -->
     <section class="section content-cta" style="margin-top:35px" id="cta">

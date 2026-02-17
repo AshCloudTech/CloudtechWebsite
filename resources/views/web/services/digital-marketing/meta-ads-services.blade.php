@@ -27,8 +27,9 @@
                     measurable business growth across all Meta platforms.
                 </p>
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-accent jsGetAudit" data-audit-type="meta-ads">Get Meta Ads Audit</a>
-                    
+                    <a href="#audit" class="btn btn-lg btn-accent jsGetAudit" data-audit-type="meta-ads">Get Meta Ads
+                        Audit</a>
+
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Strategy Call</a>
                 </div>
             </div>
@@ -48,107 +49,118 @@
     </section>
 
     <!-- WHY META ADS -->
-<section class="section section-why" id="why">
-  <div class="container">
-    <div class="section-header">
-      <h2>Why Choose Meta Ads?</h2>
-      <p>
-        Meta Ads offer extensive reach, advanced targeting, and high-performing ad formats that help brands scale
-        quickly and effectively.
-      </p>
-    </div>
-
-    <div class="grid grid-4 why-grid why-grid-ui">
-      <article class="why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="users"></i>
-        </div>
-        <h3>Massive Reach</h3>
-        <p>Promote your business across millions of active daily users.</p>
-      </article>
-
-      <article class="why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="crosshair"></i>
-        </div>
-        <h3>Precise Targeting</h3>
-        <p>Reach ideal customers using advanced Meta targeting tools.</p>
-      </article>
-
-      <article class="why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="sparkles"></i>
-        </div>
-        <h3>Visual Impact</h3>
-        <p>Use eye-catching ad formats to capture attention instantly.</p>
-      </article>
-
-      <article class="why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="smartphone"></i>
-        </div>
-        <h3>Mobile-First</h3>
-        <p>Deliver seamless ad experiences optimized for mobile users.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-
-    <!-- META ADVERTISING PLATFORMS -->
-    <section class="section section-platforms" id="platforms">
+    <section class="section section-why" id="why">
         <div class="container">
             <div class="section-header">
-                <h2>Meta Advertising Platforms</h2>
-                <p>We manage Meta campaigns across multiple placements to maximize reach and conversions.</p>
+                <h2>Why Choose Meta Ads?</h2>
+                <p>
+                    Meta Ads offer extensive reach, advanced targeting, and high-performing ad formats that help brands
+                    scale
+                    quickly and effectively.
+                </p>
             </div>
 
-            <div class="grid grid-2 platform-grid">
-                <article class="card platform-card">
-                    <h3>Facebook Feed</h3>
-                    <p class="platform-meta"> High-impact placements designed to engage Facebook users effectively.</p>
-                    <li>Image Ads</li>
-                    <li>Video Ads</li>
-                    <li>Carousel Ads</li>
-                    <li>Collection Ads</li>
-                    </ul>
+            <div class="grid grid-4 why-grid why-grid-ui">
+                <article class="why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Massive Reach</h3>
+                    <p>Promote your business across millions of active daily users.</p>
                 </article>
 
-                <article class="card platform-card">
-                    <h3>Instagram Ads</h3>
-                    <p class="platform-meta"> Perfect for visual storytelling and reaching highly engaged audiences.</p>
-                    <ul>
-                        <li>Photo Ads</li>
-                        <li>Story Ads</li>
-                        <li>Reel Ads</li>
-                        <li> Explore Ads</li>
-                    </ul>
+                <article class="why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="crosshair"></i>
+                    </div>
+                    <h3>Precise Targeting</h3>
+                    <p>Reach ideal customers using advanced Meta targeting tools.</p>
                 </article>
 
-                <article class="card platform-card">
-                    <h3>Messenger Ads</h3>
-                    <p class="platform-meta"> Ideal for conversational ads and direct user engagement.</p>
-                    <ul>
-                        <li>Sponsored Messages</li>
-                        <li>Click-to-Messenger Ads</li>
-                        <li>Retargeting Messages</li>
-                        <li>Inbox Ads</li>
-                    </ul>
+                <article class="why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="sparkles"></i>
+                    </div>
+                    <h3>Visual Impact</h3>
+                    <p>Use eye-catching ad formats to capture attention instantly.</p>
                 </article>
 
-                <article class="card platform-card">
-                    <h3>Audience Network</h3>
-                    <p class="platform-meta">Expand your reach beyond Meta apps through partner websites and apps.</p>
-                    <ul>
-                        <li>Native Ads</li>
-                        <li>Banner Ads</li>
-                        <li>Interstitial Ads</li>
-                        <li>Rewarded Video Ads</li>
-                    </ul>
+                <article class="why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="smartphone"></i>
+                    </div>
+                    <h3>Mobile-First</h3>
+                    <p>Deliver seamless ad experiences optimized for mobile users.</p>
                 </article>
             </div>
         </div>
     </section>
+
+
+<!-- META ADVERTISING PLATFORMS -->
+<section class="section section-platforms" id="platforms">
+    <div class="container">
+        <div class="section-header">
+            <h2>Meta Advertising Platforms</h2>
+            <p>We manage Meta campaigns across multiple placements to maximize reach and conversions.</p>
+        </div>
+
+        <div class="grid grid-2 platform-grid">
+            <article class="card platform-card">
+                <h3>Facebook Feed</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/facebook_feed.webp') }}"
+                    alt="Facebook Feed" class="platform-icon">
+                <p class="platform-meta">High-impact placements designed to engage Facebook users effectively.</p>
+                <ul>
+                    <li>Image Ads</li>
+                    <li>Video Ads</li>
+                    <li>Carousel Ads</li>
+                    <li>Collection Ads</li>
+                </ul>
+            </article>
+
+            <article class="card platform-card">
+                <h3>Instagram Ads</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/instagram_ads.webp') }}"
+                    alt="Instagram Ads" class="platform-icon">
+                <p class="platform-meta">Perfect for visual storytelling and reaching highly engaged audiences.</p>
+                <ul>
+                    <li>Photo Ads</li>
+                    <li>Story Ads</li>
+                    <li>Reel Ads</li>
+                    <li>Explore Ads</li>
+                </ul>
+            </article>
+
+            <article class="card platform-card">
+                <h3>Messenger Ads</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/messenger_ads.webp') }}"
+                    alt="Messenger Ads" class="platform-icon">
+                <p class="platform-meta">Ideal for conversational ads and direct user engagement.</p>
+                <ul>
+                    <li>Sponsored Messages</li>
+                    <li>Click-to-Messenger Ads</li>
+                    <li>Retargeting Messages</li>
+                    <li>Inbox Ads</li>
+                </ul>
+            </article>
+
+            <article class="card platform-card">
+                <h3>Audience Network</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/audience_network.webp') }}"
+                    alt="Audience Network" class="platform-icon">
+                <p class="platform-meta">Expand your reach beyond Meta apps through partner websites and apps.</p>
+                <ul>
+                    <li>Native Ads</li>
+                    <li>Banner Ads</li>
+                    <li>Interstitial Ads</li>
+                    <li>Rewarded Video Ads</li>
+                </ul>
+            </article>
+        </div>
+    </div>
+</section>
+
 
     <!-- ADVANCED TARGETING OPTIONS -->
     <section class="section section-targeting" id="targeting">
@@ -235,127 +247,133 @@
                     </ul>
                 </div>
                 <!-- <div class="services-panel" aria-hidden="true">
-                        <div class="services-panel-inner">
-                            <p class="panel-label">Meta Ads Overview</p>
-                            <p class="panel-text">
-                                A consolidated view of reach, clicks, leads and sales across all your Meta
-                                advertising campaigns.
-                            </p>
-                            <p class="panel-meta">
-                                Built for marketing teams that want clear, actionable insight on what&apos;s working.
-                            </p>
-                        </div>
-                    </div> -->
+                            <div class="services-panel-inner">
+                                <p class="panel-label">Meta Ads Overview</p>
+                                <p class="panel-text">
+                                    A consolidated view of reach, clicks, leads and sales across all your Meta
+                                    advertising campaigns.
+                                </p>
+                                <p class="panel-meta">
+                                    Built for marketing teams that want clear, actionable insight on what&apos;s working.
+                                </p>
+                            </div>
+                        </div> -->
             </div>
         </div>
     </section>
 
     <!-- META ADS PROCESS -->
     <!-- <section class="section section-process" id="process">
-            <div class="container">
-                <div class="section-header section-header-light">
-                    <h2>Our Meta Ads Process</h2>
-                    <p>A proven approach to social media advertising success</p>
+                <div class="container">
+                    <div class="section-header section-header-light">
+                        <h2>Our Meta Ads Process</h2>
+                        <p>A proven approach to social media advertising success</p>
+                    </div>
+
+                    <div class="grid grid-4 process-grid">
+                        <article class="card process-card">
+                            <div class="process-step">1</div>
+                            <h3>Audience Research</h3>
+                            <p>
+                                Identify and analyse your target audience on social media.
+                            </p>
+                        </article>
+                        <article class="card process-card">
+                            <div class="process-step">2</div>
+                            <h3>Creative Development</h3>
+                            <p>
+                                Create compelling ad creatives that resonate with your audience.
+                            </p>
+                        </article>
+                        <article class="card process-card">
+                            <div class="process-step">3</div>
+                            <h3>Campaign Launch</h3>
+                            <p>
+                                Launch targeted campaigns across Facebook and Instagram.
+                            </p>
+                        </article>
+                        <article class="card process-card">
+                            <div class="process-step">4</div>
+                            <h3>Optimise &amp; Scale</h3>
+                            <p>
+                                Continuously optimise and scale successful campaigns.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section> -->
+
+    <!-- WHAT ARE meta-ads SERVICES -->
+    <section class="section section-national-about" id="about-meta_ads-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
+
+                <div class="national-about-content">
+                    <h2>What Are Meta Ads Services?</h2>
+
+                    <p>
+                        Meta Ads services focus on creating, managing, and optimising paid campaigns across Facebook,
+                        Instagram, Messenger, and the Audience Network using Meta Ads Manager. These campaigns are designed
+                        to reach highly specific audiences, drive engagement, and convert users into customers through
+                        data-driven targeting and creative testing.
+                    </p>
+
+                    <p>
+                        A successful Meta advertising strategy combines audience research, compelling creatives, conversion
+                        tracking, and continuous optimisation to reduce costs and increase return on ad spend.
+                    </p>
                 </div>
 
-                <div class="grid grid-4 process-grid">
-                    <article class="card process-card">
-                        <div class="process-step">1</div>
-                        <h3>Audience Research</h3>
-                        <p>
-                            Identify and analyse your target audience on social media.
-                        </p>
-                    </article>
-                    <article class="card process-card">
-                        <div class="process-step">2</div>
-                        <h3>Creative Development</h3>
-                        <p>
-                            Create compelling ad creatives that resonate with your audience.
-                        </p>
-                    </article>
-                    <article class="card process-card">
-                        <div class="process-step">3</div>
-                        <h3>Campaign Launch</h3>
-                        <p>
-                            Launch targeted campaigns across Facebook and Instagram.
-                        </p>
-                    </article>
-                    <article class="card process-card">
-                        <div class="process-step">4</div>
-                        <h3>Optimise &amp; Scale</h3>
-                        <p>
-                            Continuously optimise and scale successful campaigns.
-                        </p>
-                    </article>
+                <div class="national-about-highlight">
+                    <h3>Conversion Tracking: Pixel & Conversions API</h3>
+
+                    <p>
+                        Accurate tracking is the foundation of profitable Meta campaigns.
+                    </p>
+
+                    <p>
+                        We implement:
+                    </p>
+
+                    <ul>
+                        <li>Meta Pixel for on-site behaviour tracking</li>
+                        <li>Meta Conversions API for server-side data accuracy</li>
+                        <li>Event tracking for purchases, leads, add-to-cart, and page views</li>
+                        <li>Custom conversions for precise optimisation</li>
+                    </ul>
+
+                    <p class="">
+                        This allows Meta to learn who converts and shows ads to more of the right people.
+                    </p>
                 </div>
+
             </div>
-        </section> -->
+        </div>
+    </section>
 
-          <!-- WHAT ARE meta-ads SERVICES -->
-<section class="section section-national-about" id="about-meta_ads-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are Meta Ads Services?</h2>
+    <!-- Why Creative Testing Is Key to Meta Ads Success-->
+    <section class="section section-national-growth" id="meta_ads-growth">
+        <div class="container">
 
-                <p>
-                    Meta Ads services focus on creating, managing, and optimising paid campaigns across Facebook, Instagram, Messenger, and the Audience Network using Meta Ads Manager. These campaigns are designed to reach highly specific audiences, drive engagement, and convert users into customers through data-driven targeting and creative testing.
-                </p>
-
-                <p>
-                    A successful Meta advertising strategy combines audience research, compelling creatives, conversion tracking, and continuous optimisation to reduce costs and increase return on ad spend.
-                </p>
+            <div class="section-header">
+                <h2>Why Creative Testing Is Key to Meta Ads Success</h2>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Conversion Tracking: Pixel & Conversions API</h3>
-
+            <div class="national-growth-card">
                 <p>
-                   Accurate tracking is the foundation of profitable Meta campaigns.
+                    On Meta platforms, creative performance has a bigger impact than targeting alone. We continuously test
+                    images, videos, headlines, and copy variations to discover what resonates most with your audience.
                 </p>
 
                 <p>
-                   We implement:
-                </p>
-
-                <ul>
-                    <li>Meta Pixel for on-site behaviour tracking</li>
-                    <li>Meta Conversions API for server-side data accuracy</li>
-                    <li>Event tracking for purchases, leads, add-to-cart, and page views</li>
-                    <li>Custom conversions for precise optimisation</li>
-                </ul>
-
-                <p class="">
-                   This allows Meta to learn who converts and shows ads to more of the right people.
+                    Winning creatives are scaled, while underperforming ads are replaced ensuring consistent improvement in
+                    click-through rates, conversions, and return on ad spend.
                 </p>
             </div>
 
         </div>
-    </div>
-</section>
-
-
-<!-- Why Creative Testing Is Key to Meta Ads Success-->
-<section class="section section-national-growth" id="meta_ads-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why Creative Testing Is Key to Meta Ads Success</h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-                On Meta platforms, creative performance has a bigger impact than targeting alone. We continuously test images, videos, headlines, and copy variations to discover what resonates most with your audience.
-            </p>
-
-            <p>
-                Winning creatives are scaled, while underperforming ads are replaced ensuring consistent improvement in click-through rates, conversions, and return on ad spend.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">

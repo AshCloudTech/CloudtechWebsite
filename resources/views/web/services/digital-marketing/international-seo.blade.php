@@ -49,148 +49,126 @@
             </div>
         </div>
     </section>
+<!-- TARGET INTERNATIONAL MARKETS -->
+<section class="section" id="markets">
+  <div class="container">
+    <div class="section-header">
+      <h2>Target International Markets</h2>
+      <p>Expand your reach and grow globally with targeted International SEO across key international markets.</p>
+    </div>
 
-    <!-- TARGET INTERNATIONAL MARKETS -->
-    <section class="section" id="markets">
-        <div class="container">
-            <div class="section-header">
-                <h2>Target International Markets</h2>
-                <p>
-                    Expand your reach and grow globally with targeted International SEO across key international markets.
-                </p>
-            </div>
+    <div class="markets-grid markets-grid-ui">
+      <article class="market-card market-card-ui">
+        <div class="market-badge">US</div>
+        <h3>United States</h3>
+        <p>Reach U.S. customers with targeted international SEO.</p>
+      </article>
 
-            <div class="markets-grid">
-                <article class="market-card">
-                    <div class="market-code">US</div>
-                    <h3>United States</h3>
-                    <p>Reach U.S. customers with targeted international SEO.</p>
-                </article>
+      <article class="market-card market-card-ui">
+        <div class="market-badge">DE</div>
+        <h3>Germany</h3>
+        <p>Boost visibility in Germany with localized optimization.</p>
+      </article>
 
-                <article class="market-card">
-                    <div class="market-code">DE</div>
-                    <h3>Germany</h3>
-                    <p>Boost visibility in Germany with localized optimization.</p>
-                </article>
+      <article class="market-card market-card-ui">
+        <div class="market-badge">FR</div>
+        <h3>France</h3>
+        <p>Connect with French audiences through tailored SEO.</p>
+      </article>
 
-                <article class="market-card">
-                    <div class="market-code">FR</div>
-                    <h3>France</h3>
-                    <p>Connect with French audiences through tailored SEO.</p>
-                </article>
+      <article class="market-card market-card-ui">
+        <div class="market-badge">ES</div>
+        <h3>Spain</h3>
+        <p>Increase Spanish market reach with effective international SEO.</p>
+      </article>
 
-                <article class="market-card">
-                    <div class="market-code">ES</div>
-                    <h3>Spain</h3>
-                    <p>Increase Spanish market reach with effective international SEO.</p>
-                </article>
+      <article class="market-card market-card-ui">
+        <div class="market-badge">IT</div>
+        <h3>Italy</h3>
+        <p>Target Italian customers with localized search strategies.</p>
+      </article>
 
-                <article class="market-card">
-                    <div class="market-code">IT</div>
-                    <h3>Italy</h3>
-                    <p>Target Italian customers with localized search strategies.</p>
-                </article>
+      <article class="market-card market-card-ui">
+        <div class="market-badge">NL</div>
+        <h3>Netherlands</h3>
+        <p>Improve visibility in the Netherlands with region-focused SEO.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-                <article class="market-card">
-                    <div class="market-code">NL</div>
-                    <h3>Netherlands</h3>
-                    <p>Improve visibility in the Netherlands with region-focused SEO.</p>
-                </article>
-            </div>
-        </div>
-    </section>
+<!-- WHY CHOOSE OUR INTERNATIONAL SEO -->
+<section class="section section-alt" id="why">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Choose Our International SEO?</h2>
+      <p>Expert global strategies that help your business rank, compete, and convert worldwide.</p>
+    </div>
 
-    <!-- WHY CHOOSE OUR INTERNATIONAL SEO -->
-    <section class="section section-alt" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Choose Our International SEO?</h2>
-                <p>
-                    Expert global strategies that help your business rank, compete, and convert worldwide.
-                </p>
-            </div>
+    <div class="grid grid-4 why-grid why-grid-ui">
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="globe"></i></div>
+        <h3>Global Reach</h3>
+        <p>Expand your visibility and connect with customers worldwide.</p>
+      </article>
 
-            <div class="grid grid-4 why-grid">
-                <article class="card why-card">
-                    <div class="why-icon icon-global"></div>
-                    <h3>Global Reach</h3>
-                    <p>
-                        Expand your visibility and connect with customers worldwide.
-                    </p>
-                </article>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="languages"></i></div>
+        <h3>Multi-Language SEO</h3>
+        <p>Optimise content in multiple languages for better global engagement.</p>
+      </article>
 
-                <article class="card why-card">
-                    <div class="why-icon icon-language"></div>
-                    <h3>Multi Language SEO</h3>
-                    <p>
-                        Optimise content in multiple languages for better global engagement.
-                    </p>
-                </article>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="map-pin"></i></div>
+        <h3>Geo Targeting</h3>
+        <p>Target specific countries and regions with precise SEO strategies.</p>
+      </article>
 
-                <article class="card why-card">
-                    <div class="why-icon icon-geo"></div>
-                    <h3>Geo Targeting</h3>
-                    <p>
-                        Target specific countries and regions with precise SEO strategies.
-                    </p>
-                </article>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="trending-up"></i></div>
+        <h3>International Growth</h3>
+        <p>Drive consistent traffic, leads, and revenue across global markets.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-                <article class="card why-card">
-                    <div class="why-icon icon-growth"></div>
-                    <h3>International Growth</h3>
-                    <p>
-                        Drive consistent traffic, leads, and revenue across global markets.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
+<!-- INTERNATIONAL SEO PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our International SEO Process</h2>
+      <p>A results-driven International SEO process built to optimise your site for multiple countries and languages.</p>
+    </div>
 
-    <!-- INTERNATIONAL SEO PROCESS -->
-    <section class="section" id="process">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our International SEO Process</h2>
-                <p>
-                    A results-driven International SEO process built to optimise your site for multiple countries and
-                    languages.
-                </p>
-            </div>
+    <div class="grid grid-4 process-grid process-grid-ui">
+      <article class="card process-card process-card-ui">
+        <div class="process-step">1</div>
+        <h3>Market Research</h3>
+        <p>Identify top global opportunities with in-depth international market analysis.</p>
+      </article>
 
-            <div class="grid grid-4 process-grid">
-                <article class="card process-card">
-                    <div class="process-step">1</div>
-                    <h3>Market Research</h3>
-                    <p>
-                        Identify top global opportunities with in-depth international market analysis.</p>
-                </article>
+      <article class="card process-card process-card-ui">
+        <div class="process-step">2</div>
+        <h3>Strategy Development</h3>
+        <p>Create a tailored International SEO strategy for each target region.</p>
+      </article>
 
-                <article class="card process-card">
-                    <div class="process-step">2</div>
-                    <h3>Strategy Development</h3>
-                    <p>
-                        Create a tailored International SEO strategy for each target region.
-                    </p>
-                </article>
+      <article class="card process-card process-card-ui">
+        <div class="process-step">3</div>
+        <h3>Implementation</h3>
+        <p>Execute multilingual content, technical SEO, and geo-targeted optimization.</p>
+      </article>
 
-                <article class="card process-card">
-                    <div class="process-step">3</div>
-                    <h3>Implementation</h3>
-                    <p>
-                        Execute multilingual content, technical SEO, and geo-targeted optimization.
-                    </p>
-                </article>
+      <article class="card process-card process-card-ui">
+        <div class="process-step">4</div>
+        <h3>Global Monitoring</h3>
+        <p>Track performance across all countries to ensure ongoing international growth.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-                <article class="card process-card">
-                    <div class="process-step">4</div>
-                    <h3>Global Monitoring</h3>
-                    <p>
-                        Track performance across all countries to ensure ongoing international growth.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
 
     <!-- COMPLETE INTERNATIONAL SEO SERVICES -->
     <section class="section section-services" id="services">

@@ -37,15 +37,15 @@
 
             <div class="hero-stats">
                 <div class="stat-card">
-                    <span class="stat-value">500+</span>
+                    <span class="stat-value">200+</span>
                     <span class="stat-label">Projects Delivered</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-value">£36M+</span>
-                    <span class="stat-label">Revenue Generated for Clients</span>
+                    <span class="stat-value">£1.3M+</span>
+                    <span class="stat-label">Project Value Delivered</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-value">25+</span>
+                    <span class="stat-value">UK • UAE • India</span>
                     <span class="stat-label">Countries Served</span>
                 </div>
                 <div class="stat-card">
@@ -557,7 +557,7 @@
 
                     <div class="cta-stats" aria-label="Company highlights">
                         <div class="cta-stat">
-                            <div class="cta-stat__value">10k+</div>
+                            <div class="cta-stat__value">100 +</div>
                             <div class="cta-stat__label">Happy Clients</div>
                         </div>
 
@@ -750,13 +750,13 @@
     </section>
 
     <!-- GLOBAL PRESENCE -->
-    <section class="section global-section" id="portfolio">
+    {{-- <section class="section global-section" id="portfolio">
         <div class="global-bg"></div>
         <div class="container">
             <div class="section-header">
                 <h2>Global Presence</h2>
                 <p>
-                    A worldwide footprint that allows us to support clients across diverse markets and time zones. </p>
+                    With offices in the UK, UAE, and India and a registered entity in the United States, we support clients across regions and time zones. </p>
             </div>
 
             <div class="grid grid-4 global-grid">
@@ -836,7 +836,63 @@
                 </article>
             </div>
         </div>
+    </section> --}}
+    @php
+        $branches = ($company?->branches ?? collect())->where('is_active', true)->sortBy('sort_order')->values();
+
+        $mapCountryCodes = $branches
+            ->pluck('country_code')
+            ->filter()
+            ->map(fn($c) => strtoupper(trim($c)))
+            ->unique()
+            ->values();
+
+        $mapBranches = $branches
+            ->map(function ($b) {
+                return [
+                    'id' => (int) $b->id,
+                    'name' => (string) ($b->name ?? ''),
+                    'code' => (string) ($b->code ?? ''),
+                    'city' => (string) ($b->city ?? ''),
+                    'country_code' => strtoupper(trim((string) ($b->country_code ?? ''))),
+                    'lat' => $b->latitude !== null ? (float) $b->latitude : null,
+                    'lon' => $b->longitude !== null ? (float) $b->longitude : null,
+                    'is_hq' => (bool) $b->is_hq,
+                ];
+            })
+            ->values();
+    @endphp
+
+    <section class="worldMap" id="worldMap">
+        <div class="worldMap__container">
+            <div class="section-header">
+                <h2>Global Presence</h2>
+                <p>
+                    With offices in the UK, UAE, and India and a registered entity in the United States, we support clients
+                    across regions and time zones. </p>
+            </div>
+
+            <div class="worldMap__right">
+                <div class="worldMap__svgWrap" aria-label="World map showing branch locations">
+                    @include('partials.world-map-svg')
+
+                    <div class="worldMap__tooltip" id="mapTooltip" role="status" aria-live="polite"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            window.WORLD_MAP_COUNTRY_CODES = @js($mapCountryCodes);
+            window.WORLD_MAP_BRANCHES = @js($mapBranches);
+        </script>
     </section>
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/world-map.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/world-map.js') }}" defer></script>
+    @endpush
+
 
     <!-- CTA SECTION -->
     <section class="section cta-sectionconsult" id="contact">

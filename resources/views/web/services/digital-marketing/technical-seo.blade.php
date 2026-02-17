@@ -54,108 +54,89 @@
         </div>
     </section>
 
-    <!-- WHY TECHNICAL SEO MATTERS -->
-    <section class="section section-alt" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Technical SEO Matters</h2>
-                <p>
-                    Technical SEO matters because it improves site speed, crawlability, user experience, and search
-                    rankings, helping your website perform at its best.
-                </p>
-            </div>
+<!-- WHY TECHNICAL SEO MATTERS -->
+<section class="section section-alt" id="why">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Technical SEO Matters</h2>
+      <p>
+        Technical SEO matters because it improves site speed, crawlability, user experience, and search rankings,
+        helping your website perform at its best.
+      </p>
+    </div>
 
-            <div class="grid grid-4 why-grid">
-                <article class="card why-card">
-                    <div class="why-icon icon-speed"></div>
-                    <h3>Site Speed Optimisation</h3>
-                    <p>
-                        Faster page speed improves user experience and boosts search rankings.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <div class="why-icon icon-core"></div>
-                    <h3>Optimization </h3>
-                    <p>
-                        Technical optimization enhances site structure for better visibility.
-                    </p>
-                </article>
+    <div class="why-grid why-grid-ui">
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="zap"></i></div>
+        <h3>Site Speed Optimisation</h3>
+        <p>Faster page speed improves user experience and boosts search rankings.</p>
+      </article>
 
-                <article class="card why-card">
-                    <div class="why-icon icon-crawl"></div>
-                    <h3>Crawlability</h3>
-                    <p>
-                        Improved crawlability helps search engines index your site efficiently.
-                    </p>
-                </article>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="settings"></i></div>
+        <h3>Technical Optimisation</h3>
+        <p>Technical optimisation enhances site structure for better visibility.</p>
+      </article>
 
-                <article class="card why-card">
-                    <div class="why-icon icon-rank"></div>
-                    <h3>1st Page Rankings</h3>
-                    <p>
-                        Strong technical SEO increases your chances of first-page rankings.
-                    </p>
-                </article>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="search"></i></div>
+        <h3>Crawlability</h3>
+        <p>Improved crawlability helps search engines index your site efficiently.</p>
+      </article>
 
-                <article class="card why-card">
-                    <div class="why-icon icon-core"></div>
-                    <h3>Core Web Vitals</h3>
-                    <p>
-                        Optimizing Core Web Vitals boosts performance and overall SEO results.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="trophy"></i></div>
+        <h3>1st Page Rankings</h3>
+        <p>Strong technical SEO increases your chances of first-page rankings.</p>
+      </article>
 
-    <!-- COMMON TECHNICAL ISSUES -->
-    <section class="section" id="issues">
-        <div class="container">
-            <div class="section-header">
-                <h2>Common Technical Issues We Fix</h2>
-                <p>
-                    We fix technical issues like speed problems, broken links, and indexing errors to improve website
-                    performance and search rankings.
-                </p>
-            </div>
+      <article class="card why-card why-card-ui">
+        <div class="why-icon" aria-hidden="true"><i data-lucide="activity"></i></div>
+        <h3>Core Web Vitals</h3>
+        <p>Optimising Core Web Vitals boosts performance and overall SEO results.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-            <div class="grid grid-4 issues-grid">
-                <article class="card issue-card">
-                    <div class="issue-icon"></div>
-                    <h3>Slow Page Speed</h3>
-                    <p>
-                        Improving load speed to boost user experience, reduce bounce rates, and increase Google rankings.
-                    </p>
-                </article>
+<!-- COMMON TECHNICAL ISSUES -->
+<section class="section" id="issues">
+  <div class="container">
+    <div class="section-header">
+      <h2>Common Technical Issues We Fix</h2>
+      <p>
+        We fix technical issues like speed problems, broken links, and indexing errors to improve website
+        performance and search rankings.
+      </p>
+    </div>
 
-                <article class="card issue-card">
-                    <div class="issue-icon"></div>
-                    <h3>Poor Mobile Experience</h3>
-                    <p>
-                        Fixing mobile layout, responsiveness, and usability to improve engagement and SEO performance.
-                    </p>
-                </article>
+    <div class="issues-grid issues-grid-ui">
+      <article class="card issue-card issue-card-ui">
+        <div class="issue-icon" aria-hidden="true"><i data-lucide="timer"></i></div>
+        <h3>Slow Page Speed</h3>
+        <p>Improving load speed to boost user experience, reduce bounce rates, and increase Google rankings.</p>
+      </article>
 
-                <article class="card issue-card">
-                    <div class="issue-icon"></div>
-                    <h3>Crawling Errors</h3>
-                    <p>
-                        Resolving crawl and indexing issues so search engines can access, read, and rank your website
-                        properly.
-                    </p>
-                </article>
+      <article class="card issue-card issue-card-ui">
+        <div class="issue-icon" aria-hidden="true"><i data-lucide="smartphone"></i></div>
+        <h3>Poor Mobile Experience</h3>
+        <p>Fixing mobile layout, responsiveness, and usability to improve engagement and SEO performance.</p>
+      </article>
 
-                <article class="card issue-card">
-                    <div class="issue-icon"></div>
-                    <h3>Duplicate Content</h3>
-                    <p>
-                        Eliminating duplicate pages to avoid ranking loss and ensure Google sees unique, high-quality
-                        content.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
+      <article class="card issue-card issue-card-ui">
+        <div class="issue-icon" aria-hidden="true"><i data-lucide="bug"></i></div>
+        <h3>Crawling Errors</h3>
+        <p>Resolving crawl and indexing issues so search engines can access, read, and rank your website properly.</p>
+      </article>
+
+      <article class="card issue-card issue-card-ui">
+        <div class="issue-icon" aria-hidden="true"><i data-lucide="copy"></i></div>
+        <h3>Duplicate Content</h3>
+        <p>Eliminating duplicate pages to avoid ranking loss and ensure Google sees unique, high-quality content.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
     <!-- TECHNICAL SEO PROCESS -->
     <section class="section section-process" id="process">

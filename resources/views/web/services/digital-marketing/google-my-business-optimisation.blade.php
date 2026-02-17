@@ -57,56 +57,61 @@
         </div>
     </section>
 
-    <!-- WHY GMB MATTERS -->
-    <section class="section section-alt" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Google Business Profile Matters </h2>
-                <p>
-                    It boosts your local visibility, builds trust, and helps customers find and choose your business faster.
-                </p>
-            </div>
-
-            <div class="grid grid-3 why-grid">
-                <article class="card why-card">
-                    <h3>Increased Local Visibility</h3>
-                    <p>
-                        Improves how often your business appears in local searches and map results.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <h3>Build Trust &amp; Credibility</h3>
-                    <p>
-                        A complete profile helps customers trust your business and choose you confidently.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <h3>Direct Customer Engagement</h3>
-                    <p>
-                        Enables customers to call, message, or visit your business directly from search.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <h3>Valuable Insights</h3>
-                    <p>
-                        Provides data on views, searches, and actions to guide better local decisions.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <h3>Review Management</h3>
-                    <p>
-                        Helps you manage reviews to strengthen trust and improve your local reputation.
-                    </p>
-                </article>
-                <article class="card why-card">
-                    <h3>Local Pack Rankings</h3>
-                    <p>
-                        Boosts your chances of appearing in Google’s top local 3-pack for more visibility.
-                    </p>
-                </article>
-            </div>
+<!-- WHY GMB MATTERS -->
+<section class="section section-alt" id="why">
+    <div class="container">
+        <div class="section-header">
+            <h2>Why Google Business Profile Matters</h2>
+            <p>
+                It boosts your local visibility, builds trust, and helps customers find and choose your business faster.
+            </p>
         </div>
-    </section>
+
+        <div class="grid grid-3 why-grid">
+            <article class="card why-card">
+                <h3>Increased Local Visibility</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/increased_local_visibility.webp') }}"
+                    alt="Increased Local Visibility" class="why-image">
+                <p>Improves how often your business appears in local searches and map results.</p>
+            </article>
+
+            <article class="card why-card">
+                <h3>Build Trust &amp; Credibility</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/build_trust_credibility.webp') }}"
+                    alt="Build Trust &amp; Credibility" class="why-image">
+                <p>A complete profile helps customers trust your business and choose you confidently.</p>
+            </article>
+
+            <article class="card why-card">
+                <h3>Direct Customer Engagement</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/direct_customer_engagement.webp') }}"
+                    alt="Direct Customer Engagement" class="why-image">
+                <p>Enables customers to call, message, or visit your business directly from search.</p>
+            </article>
+
+            <article class="card why-card">
+                <h3>Valuable Insights</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/valuable_insights.webp') }}"
+                    alt="Valuable Insights" class="why-image">
+                <p>Provides data on views, searches, and actions to guide better local decisions.</p>
+            </article>
+
+            <article class="card why-card">
+                <h3>Review Management</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/review_management.webp') }}"
+                    alt="Review Management" class="why-image">
+                <p>Helps you manage reviews to strengthen trust and improve your local reputation.</p>
+            </article>
+
+            <article class="card why-card">
+                <h3>Local Pack Rankings</h3>
+                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/local_pack_rankings.webp') }}"
+                    alt="Local Pack Rankings" class="why-image">
+                <p>Boosts your chances of appearing in Google’s top local 3-pack for more visibility.</p>
+            </article>
+        </div>
+    </div>
+</section>
 
     <!-- OUR SERVICES -->
     <section class="section" id="services">

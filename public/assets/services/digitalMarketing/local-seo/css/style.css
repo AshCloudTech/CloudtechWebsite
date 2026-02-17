@@ -531,6 +531,17 @@ button {
     margin-bottom: 14px;
 }
 
+.services-list {
+     display: grid;
+    grid-template-columns: minmax(0, 1.9fr) minmax(0, 1.4fr);
+    
+}
+@media screen and (max-width: 768px) {
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+    
+}
 .services-list li {
     font-size: 14px;
     color: #e5f6ff;
@@ -951,4 +962,75 @@ button {
     .national-growth-card {
         padding: 22px;
     }
+}
+
+
+/* 3 column process grid */
+.process-grid-ui-3{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.process-card-ui{
+  padding: 20px;
+  border-radius: 16px;
+}
+
+/* Number badge */
+.process-step{
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 12px;
+
+  font-weight: 800;
+  font-size: 15px;
+
+  background: rgba(255, 133, 2, 0.12);
+  border: 1px solid rgba(255, 133, 2, 0.18);
+  color: #ff8502;
+}
+
+/* WHY icons */
+.why-grid-ui{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.why-card-ui{
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.why-icon{
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 12px;
+
+  background: rgba(255, 133, 2, 0.12);
+  border: 1px solid rgba(255, 133, 2, 0.18);
+}
+
+.why-icon svg{
+  width: 22px;
+  height: 22px;
+  color: #ff8502;
+}
+
+/* Responsive */
+@media (max-width: 1100px){
+  .process-grid-ui-3{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .why-grid-ui{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px){
+  .process-grid-ui-3{ grid-template-columns: 1fr; }
+  .why-grid-ui{ grid-template-columns: 1fr; }
 }

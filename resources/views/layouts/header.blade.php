@@ -128,12 +128,6 @@
             </nav>
 
 
-
-            <a href="https://wa.me/{{ $globalCompany?->whatsapp }}" class="btn btn-sm btn-accent header-cta"
-                target="_blank" rel="noopener" aria-label="WhatsApp Us">
-                <i data-lucide="message-circle" aria-hidden="true"></i>
-                <span>WhatsApp Us</span>
-            </a>
             <script>
                 document.addEventListener('DOMContentLoaded', () => {
                     if (window.lucide) lucide.createIcons();

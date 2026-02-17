@@ -60,7 +60,22 @@
     <script src="{{ asset('assets/audit/audit-modal.js') }}" defer></script>
 
     @include('partials.audit-modal')
+    <!-- Floating WhatsApp Chat Button -->
+        <a href="https://wa.me/{{ $globalCompany?->whatsapp }}" 
+        class="whatsapp-float" 
+        target="_blank" 
+        rel="noopener"
+        aria-label="Chat with us on WhatsApp">
 
+            <span class="whatsapp-text">
+                <strong>We’re Online</strong><br>
+                Chat With Us Now
+            </span>
+
+            <span class="whatsapp-icon">
+                <i data-lucide="message-circle"></i>
+            </span>
+        </a>
 </body>
 
 </html>

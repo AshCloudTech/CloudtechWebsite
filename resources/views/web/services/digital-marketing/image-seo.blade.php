@@ -243,12 +243,10 @@
             </div>
 
             <div class="services-layout">
-                <!-- <div class="services-copy">
-                        <h3>Complete image optimisation that supports rankings + speed</h3>
-                        <p class="services-intro">
-                            From file formats to metadata and delivery, we optimise the full image pipeline so your pages load faster and your visuals can rank in Google Images.
-                        </p>
-                    </div> -->
+                <div class="services-copy">
+                         <img src="{{ asset('assets/images/seo/image/image_seo_services.webp') }}" alt="Image SEO Services" title="Image SEO Services" aria-hidden="true" aria-label="Image SEO Services Image"
+                                loading="lazy" decoding="async">
+                    </div>
 
                 <div class="services-cards">
                     <div class="card services-card">

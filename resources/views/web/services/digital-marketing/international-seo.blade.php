@@ -28,7 +28,8 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="international-seo-audit">Get Global Strategy</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit"
+                        data-audit-type="international-seo-audit">Get Global Strategy</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Consultation</a>
                 </div>
 
@@ -49,125 +50,134 @@
             </div>
         </div>
     </section>
-<!-- TARGET INTERNATIONAL MARKETS -->
-<section class="section" id="markets">
-  <div class="container">
-    <div class="section-header">
-      <h2>Target International Markets</h2>
-      <p>Expand your reach and grow globally with targeted International SEO across key international markets.</p>
-    </div>
+    <!-- TARGET INTERNATIONAL MARKETS -->
+    <section class="section" id="markets">
+        <div class="container">
+            <div class="section-header">
+                <h2>Target International Markets</h2>
+                <p>Expand your reach and grow globally with targeted International SEO across key international markets.</p>
+            </div>
 
-    <div class="markets-grid markets-grid-ui">
-      <article class="market-card market-card-ui">
-        <div class="market-badge">US</div>
-        <h3>United States</h3>
-        <p>Reach U.S. customers with targeted international SEO.</p>
-      </article>
+            <div class="markets-grid markets-grid-ui">
+                <article class="market-card market-card-ui">
+                    <img src="{{ asset('assets/images/seo/international/international_seo_services_1.webp') }}"
+                        alt="International SEO Services in United States" title="International SEO Services in United States" aria-hidden="true" aria-label="International SEO Services in United States" loading="lazy" decoding="async">
+                    <h3>United States</h3>
+                    <p>Reach U.S. customers with targeted international SEO.</p>
+                </article>
 
-      <article class="market-card market-card-ui">
-        <div class="market-badge">DE</div>
-        <h3>Germany</h3>
-        <p>Boost visibility in Germany with localized optimization.</p>
-      </article>
+                <article class="market-card market-card-ui">
 
-      <article class="market-card market-card-ui">
-        <div class="market-badge">FR</div>
-        <h3>France</h3>
-        <p>Connect with French audiences through tailored SEO.</p>
-      </article>
+                    <img src="{{ asset('assets/images/seo/international/international_seo_services_2.webp') }}"
+                        alt="International SEO Services in Germany" title="International SEO Services in Germany" aria-hidden="true" aria-label="International SEO Services in Germany" loading="lazy" decoding="async">
+                    <h3>Germany</h3>
+                    <p>Boost visibility in Germany with localized optimization.</p>
+                </article>
 
-      <article class="market-card market-card-ui">
-        <div class="market-badge">ES</div>
-        <h3>Spain</h3>
-        <p>Increase Spanish market reach with effective international SEO.</p>
-      </article>
+                <article class="market-card market-card-ui">
+                    <img src="{{ asset('assets/images/seo/international/international_seo_services_3.webp') }}"
+                        alt="International SEO Services in France" title="International SEO Services in France" aria-hidden="true" aria-label="International SEO Services in France" loading="lazy" decoding="async">
+                    <h3>France</h3>
+                    <p>Connect with French audiences through tailored SEO.</p>
+                </article>
 
-      <article class="market-card market-card-ui">
-        <div class="market-badge">IT</div>
-        <h3>Italy</h3>
-        <p>Target Italian customers with localized search strategies.</p>
-      </article>
+                <article class="market-card market-card-ui">
+                    <img src="{{ asset('assets/images/seo/international/international_seo_services_4.webp') }}"
+                        alt="International SEO Services in Spain" title="International SEO Services in Spain" aria-hidden="true" aria-label="International SEO Services in Spain" loading="lazy" decoding="async">
+                    <h3>Spain</h3>
+                    <p>Increase Spanish market reach with effective international SEO.</p>
+                </article>
 
-      <article class="market-card market-card-ui">
-        <div class="market-badge">NL</div>
-        <h3>Netherlands</h3>
-        <p>Improve visibility in the Netherlands with region-focused SEO.</p>
-      </article>
-    </div>
-  </div>
-</section>
+                <article class="market-card market-card-ui">
+                    <img src="{{ asset('assets/images/seo/international/international_seo_services_5.webp') }}"
+                        alt="International SEO Services in Italy" title="International SEO Services in Italy" aria-hidden="true" aria-label="International SEO Services in Italy" loading="lazy" decoding="async">
+                    <h3>Italy</h3>
+                    <p>Target Italian customers with localized search strategies.</p>
+                </article>
 
-<!-- WHY CHOOSE OUR INTERNATIONAL SEO -->
-<section class="section section-alt" id="why">
-  <div class="container">
-    <div class="section-header">
-      <h2>Why Choose Our International SEO?</h2>
-      <p>Expert global strategies that help your business rank, compete, and convert worldwide.</p>
-    </div>
+                <article class="market-card market-card-ui">
+                    <img src="{{ asset('assets/images/seo/international/international_seo_services_6.webp') }}"
+                        alt="International SEO Services in Netherlands" title="International SEO Services in Netherlands" aria-hidden="true" aria-label="International SEO Services in Netherlands" loading="lazy" decoding="async">
+                    <h3>Netherlands</h3>
+                    <p>Improve visibility in the Netherlands with region-focused SEO.</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
-    <div class="grid grid-4 why-grid why-grid-ui">
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="globe"></i></div>
-        <h3>Global Reach</h3>
-        <p>Expand your visibility and connect with customers worldwide.</p>
-      </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="languages"></i></div>
-        <h3>Multi-Language SEO</h3>
-        <p>Optimise content in multiple languages for better global engagement.</p>
-      </article>
+    <!-- WHY CHOOSE OUR INTERNATIONAL SEO -->
+    <section class="section section-alt" id="why">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Our International SEO?</h2>
+                <p>Expert global strategies that help your business rank, compete, and convert worldwide.</p>
+            </div>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="map-pin"></i></div>
-        <h3>Geo Targeting</h3>
-        <p>Target specific countries and regions with precise SEO strategies.</p>
-      </article>
+            <div class="grid grid-4 why-grid why-grid-ui">
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="globe"></i></div>
+                    <h3>Global Reach</h3>
+                    <p>Expand your visibility and connect with customers worldwide.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="trending-up"></i></div>
-        <h3>International Growth</h3>
-        <p>Drive consistent traffic, leads, and revenue across global markets.</p>
-      </article>
-    </div>
-  </div>
-</section>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="languages"></i></div>
+                    <h3>Multi-Language SEO</h3>
+                    <p>Optimise content in multiple languages for better global engagement.</p>
+                </article>
 
-<!-- INTERNATIONAL SEO PROCESS -->
-<section class="section" id="process">
-  <div class="container">
-    <div class="section-header">
-      <h2>Our International SEO Process</h2>
-      <p>A results-driven International SEO process built to optimise your site for multiple countries and languages.</p>
-    </div>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="map-pin"></i></div>
+                    <h3>Geo Targeting</h3>
+                    <p>Target specific countries and regions with precise SEO strategies.</p>
+                </article>
 
-    <div class="grid grid-4 process-grid process-grid-ui">
-      <article class="card process-card process-card-ui">
-        <div class="process-step">1</div>
-        <h3>Market Research</h3>
-        <p>Identify top global opportunities with in-depth international market analysis.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="trending-up"></i></div>
+                    <h3>International Growth</h3>
+                    <p>Drive consistent traffic, leads, and revenue across global markets.</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
-      <article class="card process-card process-card-ui">
-        <div class="process-step">2</div>
-        <h3>Strategy Development</h3>
-        <p>Create a tailored International SEO strategy for each target region.</p>
-      </article>
+    <!-- INTERNATIONAL SEO PROCESS -->
+    <section class="section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our International SEO Process</h2>
+                <p>A results-driven International SEO process built to optimise your site for multiple countries and
+                    languages.</p>
+            </div>
 
-      <article class="card process-card process-card-ui">
-        <div class="process-step">3</div>
-        <h3>Implementation</h3>
-        <p>Execute multilingual content, technical SEO, and geo-targeted optimization.</p>
-      </article>
+            <div class="grid grid-4 process-grid process-grid-ui">
+                <article class="card process-card process-card-ui">
+                    <div class="process-step">1</div>
+                    <h3>Market Research</h3>
+                    <p>Identify top global opportunities with in-depth international market analysis.</p>
+                </article>
 
-      <article class="card process-card process-card-ui">
-        <div class="process-step">4</div>
-        <h3>Global Monitoring</h3>
-        <p>Track performance across all countries to ensure ongoing international growth.</p>
-      </article>
-    </div>
-  </div>
-</section>
+                <article class="card process-card process-card-ui">
+                    <div class="process-step">2</div>
+                    <h3>Strategy Development</h3>
+                    <p>Create a tailored International SEO strategy for each target region.</p>
+                </article>
+
+                <article class="card process-card process-card-ui">
+                    <div class="process-step">3</div>
+                    <h3>Implementation</h3>
+                    <p>Execute multilingual content, technical SEO, and geo-targeted optimization.</p>
+                </article>
+
+                <article class="card process-card process-card-ui">
+                    <div class="process-step">4</div>
+                    <h3>Global Monitoring</h3>
+                    <p>Track performance across all countries to ensure ongoing international growth.</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
 
     <!-- COMPLETE INTERNATIONAL SEO SERVICES -->
@@ -192,84 +202,96 @@
 
                     </ul>
                 </div>
-                <!-- <div class="services-panel">
-                        <div class="services-panel-inner">
-                            <h3>Global Strategy Snapshot</h3>
-                            <p>
-                                We’ll map your current visibility, identify priority markets and outline a clear plan
-                                for expanding your search presence worldwide.
-                            </p>
-                            <p class="services-note">
-                                Includes: key markets overview, opportunity analysis, and recommended next steps.
-                            </p>
-                        </div>
-                    </div> -->
+                <div class="services-panel">
+                    <div class="services-panel-inner">
+                        <h3>Global Strategy Snapshot</h3>
+                        <p>
+                            Get a clear understanding of your current global search visibility, identify
+                            priority markets, and receive a tailored plan for expanding your search
+                            presence worldwide.
+                        </p>
+                        <p class="services-note">
+                            Includes: key markets overview, opportunity analysis, and recommended next steps
+                            to help you rank higher, drive more traffic, and increase conversions in target regions.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- WHAT ARE INTERNATIONAL SEO SERVICES -->
-<section class="section section-national-about" id="about-international-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <section class="section section-national-about" id="about-international-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are International SEO Services?</h2>
+                <div class="national-about-content">
+                    <h2>What Are International SEO Services?</h2>
 
+                    <p>
+                        International SEO services help businesses rank in search engines across multiple countries and
+                        languages. Unlike standard SEO, international SEO focuses on optimising your website so search
+                        engines understand which countries you target, which languages you serve, and which version of your
+                        content should appear for users in different regions.
+                    </p>
+
+                    <p>
+                        This involves advanced technical setup such as hreflang implementation, multilingual content
+                        optimisation, geo-targeting, and country-specific keyword research to ensure your website performs
+                        strongly in each target market.
+                    </p>
+
+                    <p>
+                        If your customers are located in different countries, international SEO is essential for making your
+                        website visible, relevant, and competitive worldwide.
+                    </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Who Needs International SEO?</h3>
+
+                    <ul>
+                        <li>eCommerce brands shipping worldwide</li>
+                        <li>SaaS and digital platforms with global users</li>
+                        <li>Businesses expanding into new countries</li>
+                        <li>Companies with multilingual websites</li>
+                        <li>B2B brands targeting international markets</li>
+                        <li>Organisations competing in multiple regions</li>
+                    </ul>
+
+                    <p class="national-about-note">
+                        If your audience speaks different languages or lives in different countries, international SEO
+                        ensures they find the right version of your website.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY INTERNATIONAL SEO IS CRITICAL -->
+    <section class="section section-national-growth" id="international-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why International SEO Is Critical for Global Growth</h2>
+            </div>
+
+            <div class="national-growth-card">
                 <p>
-                    International SEO services help businesses rank in search engines across multiple countries and languages. Unlike standard SEO, international SEO focuses on optimising your website so search engines understand which countries you target, which languages you serve, and which version of your content should appear for users in different regions.
+                    Without international SEO, search engines may show the wrong version of your website to users in
+                    different countries, or fail to rank your pages at all. This leads to lost traffic, poor user
+                    experience, and missed revenue opportunities.
                 </p>
 
                 <p>
-                    This involves advanced technical setup such as hreflang implementation, multilingual content optimisation, geo-targeting, and country-specific keyword research to ensure your website performs strongly in each target market.
-                </p>
-
-                <p>
-                    If your customers are located in different countries, international SEO is essential for making your website visible, relevant, and competitive worldwide.
+                    A properly executed international SEO strategy ensures your website ranks for the right keywords, in the
+                    right language, in the right country giving your business a competitive advantage in global markets.
                 </p>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Who Needs International SEO?</h3>
-
-                <ul>
-                    <li>eCommerce brands shipping worldwide</li>
-                    <li>SaaS and digital platforms with global users</li>
-                    <li>Businesses expanding into new countries</li>
-                    <li>Companies with multilingual websites</li>
-                    <li>B2B brands targeting international markets</li>
-                    <li>Organisations competing in multiple regions</li>
-                </ul>
-
-                <p class="national-about-note">
-                    If your audience speaks different languages or lives in different countries, international SEO ensures they find the right version of your website.
-                </p>
-            </div>
-
         </div>
-    </div>
-</section>
-
-
-<!-- WHY INTERNATIONAL SEO IS CRITICAL -->
-<section class="section section-national-growth" id="international-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why International SEO Is Critical for Global Growth</h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-                Without international SEO, search engines may show the wrong version of your website to users in different countries, or fail to rank your pages at all. This leads to lost traffic, poor user experience, and missed revenue opportunities.
-            </p>
-
-            <p>
-                A properly executed international SEO strategy ensures your website ranks for the right keywords, in the right language, in the right country giving your business a competitive advantage in global markets.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
 
     <!-- CTA -->

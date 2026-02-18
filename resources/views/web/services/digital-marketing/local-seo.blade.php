@@ -28,12 +28,13 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="local-seo">Get Local SEO Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="local-seo">Get Local SEO
+                        Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Consultation</a>
                 </div>
             </div>
 
-             {{-- <div class="hero-panel hero-media">
+            {{-- <div class="hero-panel hero-media">
                     <div class="hero-media-inner">
                         <p class="hero-media-label">Local Presence Preview</p>
                         <p class="hero-media-text">
@@ -77,89 +78,89 @@
         </div>
     </section>
 
-<!-- LOCAL SEO PROCESS -->
-<section class="section" id="process">
-  <div class="container">
-    <div class="section-header">
-      <h2>Our Local SEO Process</h2>
-      <p>
-        A clear, streamlined strategy that enhances your local presence, improves visibility,
-        and drives steady customer growth.
-      </p>
-    </div>
+    <!-- LOCAL SEO PROCESS -->
+    <section class="section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Local SEO Process</h2>
+                <p>
+                    A clear, streamlined strategy that enhances your local presence, improves visibility,
+                    and drives steady customer growth.
+                </p>
+            </div>
 
-    <div class="process-grid process-grid-ui-3">
-      <article class="card process-card process-card-ui">
-        <div class="process-step">1</div>
-        <h3>Local Audit</h3>
-        <p>
-          We assess your local presence to identify gaps and opportunities for stronger visibility.
-        </p>
-      </article>
+            <div class="process-grid process-grid-ui-3">
+                <article class="card process-card process-card-ui">
+                    <div class="process-step">1</div>
+                    <h3>Local Audit</h3>
+                    <p>
+                        We assess your local presence to identify gaps and opportunities for stronger visibility.
+                    </p>
+                </article>
 
-      <article class="card process-card process-card-ui">
-        <div class="process-step">2</div>
-        <h3>Optimisation</h3>
-        <p>
-          We enhance key SEO elements to improve local rankings, relevance, and customer engagement.
-        </p>
-      </article>
+                <article class="card process-card process-card-ui">
+                    <div class="process-step">2</div>
+                    <h3>Optimisation</h3>
+                    <p>
+                        We enhance key SEO elements to improve local rankings, relevance, and customer engagement.
+                    </p>
+                </article>
 
-      <article class="card process-card process-card-ui">
-        <div class="process-step">3</div>
-        <h3>Growth</h3>
-        <p>
-          We apply targeted strategies that drive increased local traffic, leads, and ongoing growth.
-        </p>
-      </article>
-    </div>
-  </div>
-</section>
+                <article class="card process-card process-card-ui">
+                    <div class="process-step">3</div>
+                    <h3>Growth</h3>
+                    <p>
+                        We apply targeted strategies that drive increased local traffic, leads, and ongoing growth.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
 
 
-<!-- WHY CHOOSE OUR LOCAL SEO SERVICES -->
-<section class="section section-alt" id="why">
-  <div class="container">
-    <div class="section-header">
-      <h2>Why Choose Our Local SEO Services?</h2>
-      <p>Our Local SEO agency boosts local rankings and helps you attract more nearby customers.</p>
-    </div>
+    <!-- WHY CHOOSE OUR LOCAL SEO SERVICES -->
+    <section class="section section-alt" id="why">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Our Local SEO Services?</h2>
+                <p>Our Local SEO agency boosts local rankings and helps you attract more nearby customers.</p>
+            </div>
 
-    <div class="why-grid why-grid-ui">
-      <article class="card why-card why-card-ui">
-        <div class="why-icon"><i data-lucide="map-pin"></i></div>
-        <h3>Local Search Rankings</h3>
-        <p>
-          We improve your local SEO rankings to boost visibility and attract nearby customers.
-        </p>
-      </article>
+            <div class="why-grid why-grid-ui">
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon"><i data-lucide="map-pin"></i></div>
+                    <h3>Local Search Rankings</h3>
+                    <p>
+                        We improve your local SEO rankings to boost visibility and attract nearby customers.
+                    </p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon"><i data-lucide="building-2"></i></div>
-        <h3>Google Business Profile</h3>
-        <p>
-          We optimise your Google Business Profile for stronger map visibility and local performance.
-        </p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon"><i data-lucide="building-2"></i></div>
+                    <h3>Google Business Profile</h3>
+                    <p>
+                        We optimise your Google Business Profile for stronger map visibility and local performance.
+                    </p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon"><i data-lucide="users"></i></div>
-        <h3>Community Visibility</h3>
-        <p>
-          We enhance your business presence across directories to strengthen your local footprint.
-        </p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon"><i data-lucide="users"></i></div>
+                    <h3>Community Visibility</h3>
+                    <p>
+                        We enhance your business presence across directories to strengthen your local footprint.
+                    </p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon"><i data-lucide="smartphone"></i></div>
-        <h3>Mobile Optimisation</h3>
-        <p>
-          We optimise your site for mobile users to maximise local search engagement.
-        </p>
-      </article>
-    </div>
-  </div>
-</section>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon"><i data-lucide="smartphone"></i></div>
+                    <h3>Mobile Optimisation</h3>
+                    <p>
+                        We optimise your site for mobile users to maximise local search engagement.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
 
 
     <!-- COMPLETE LOCAL SEO SERVICES -->
@@ -186,89 +187,87 @@
                     </ul>
                 </div>
                 <div class="services-panel">
-                        <div class="services-panel-inner">
-                            <p class="services-label">Local Visibility Panel</p>
-                            <p class="services-text">
-                                Get a clear picture of your business's local online presence, including search rankings,
-                                review performance, and map visibility. This snapshot provides actionable recommendations to
-                                improve calls, visits, and enquiries.
-                            </p>
-                            <p class="services-meta">
-                                Perfect for local businesses that want to understand their online presence and make data-driven
-                                decisions to drive growth.
-                            </p>
-                        </div>
+                    <div class="services-panel-inner">
+                        <img src="{{ asset('assets/images/seo/local/local_seo_services.webp') }}" alt="Local SEO Services" title="Local SEO Services" aria-hidden="true" aria-label="Local SEO Services Image"
+                            loading="lazy" decoding="async">
                     </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- WHAT ARE LOCAL SEO SERVICES -->
-<section class="section section-national-about" id="about-local-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <section class="section section-national-about" id="about-local-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are Local SEO Services?</h2>
+                <div class="national-about-content">
+                    <h2>What Are Local SEO Services?</h2>
 
+                    <p>
+                        Local SEO services focus on helping your business appear in location-based searches when customers
+                        look for services “near me” or within their area. These searches often trigger Google’s map pack,
+                        where only the top three local businesses are shown prominently above regular search results.
+                    </p>
+
+                    <p>
+                        Local SEO combines website optimisation, Google Business Profile enhancement, local citations,
+                        reviews, and location signals to improve your visibility where it matters most in front of nearby
+                        customers ready to buy.
+                    </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>What’s Included in Professional Local SEO</h3>
+
+                    <p>
+                        A complete local SEO campaign includes:
+                    </p>
+
+                    <ul>
+                        <li>Google Business Profile optimisation</li>
+                        <li>NAP consistency across directories</li>
+                        <li>Local citation building</li>
+                        <li>Location-based keyword targeting</li>
+                        <li>On-page local landing pages</li>
+                        <li>Review acquisition strategy</li>
+                        <li>Local link building</li>
+                        <li>Map pack optimisation</li>
+                        <li>Mobile optimisation for local searches</li>
+                    </ul>
+
+                    <p class="national-about-note">
+                        These elements work together to strengthen your local presence across Google Search and Maps.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY LOCAL SEO IS ESSENTIAL -->
+    <section class="section section-national-growth" id="local-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why Local SEO Is Essential for Small and Medium Businesses</h2>
+            </div>
+
+            <div class="national-growth-card">
                 <p>
-                    Local SEO services focus on helping your business appear in location-based searches when customers look for services “near me” or within their area. These searches often trigger Google’s map pack, where only the top three local businesses are shown prominently above regular search results.
+                    Most customers now search online before visiting a local business. If your company does not appear in
+                    local search results or the map pack, you are losing customers to competitors who do.
                 </p>
 
                 <p>
-                    Local SEO combines website optimisation, Google Business Profile enhancement, local citations, reviews, and location signals to improve your visibility where it matters most in front of nearby customers ready to buy.
+                    Local SEO ensures your business is visible at the exact moment people are searching for your services
+                    nearby, turning searches into calls, visits, and enquiries.
                 </p>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>What’s Included in Professional Local SEO</h3>
-
-                <p>
-                    A complete local SEO campaign includes:
-                </p>
-
-                <ul>
-                    <li>Google Business Profile optimisation</li>
-                    <li>NAP consistency across directories</li>
-                    <li>Local citation building</li>
-                    <li>Location-based keyword targeting</li>
-                    <li>On-page local landing pages</li>
-                    <li>Review acquisition strategy</li>
-                    <li>Local link building</li>
-                    <li>Map pack optimisation</li>
-                    <li>Mobile optimisation for local searches</li>
-                </ul>
-
-                <p class="national-about-note">
-                    These elements work together to strengthen your local presence across Google Search and Maps.
-                </p>
-            </div>
-
         </div>
-    </div>
-</section>
-
-
-<!-- WHY LOCAL SEO IS ESSENTIAL -->
-<section class="section section-national-growth" id="local-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why Local SEO Is Essential for Small and Medium Businesses</h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-                Most customers now search online before visiting a local business. If your company does not appear in local search results or the map pack, you are losing customers to competitors who do.
-            </p>
-
-            <p>
-                Local SEO ensures your business is visible at the exact moment people are searching for your services nearby, turning searches into calls, visits, and enquiries.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
 
     <!-- CTA -->
@@ -282,7 +281,8 @@
                     </p>
                 </div>
                 <div class="cta-actions local-cta-actions">
-                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="local-seo">Get Free Local Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="local-seo">Get Free Local
+                        Audit</a>
                     <a href="#stats" class="btn btn-outline-light">View Local Stats</a>
                 </div>
             </div>

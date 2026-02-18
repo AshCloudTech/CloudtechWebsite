@@ -28,7 +28,8 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="content-seo">Get Content Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="content-seo">Get Content
+                        Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Discuss Strategy</a>
                 </div>
             </div>
@@ -51,49 +52,49 @@
         </div>
     </section>
 
-<!-- WHY CONTENT SEO MATTERS -->
-<section class="section section-alt" id="why">
-  <div class="container">
-    <div class="section-header">
-      <h2>Why Content SEO Matters</h2>
-      <p>Content SEO improves visibility, attracts traffic, and strengthens brand authority.</p>
-    </div>
+    <!-- WHY CONTENT SEO MATTERS -->
+    <section class="section section-alt" id="why">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Content SEO Matters</h2>
+                <p>Content SEO improves visibility, attracts traffic, and strengthens brand authority.</p>
+            </div>
 
-    <div class="why-grid why-grid-ui">
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="file-text"></i>
-        </div>
-        <h3>Quality Content</h3>
-        <p>High-quality content creates value that attracts and retains your audience.</p>
-      </article>
+            <div class="why-grid why-grid-ui">
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="file-text"></i>
+                    </div>
+                    <h3>Quality Content</h3>
+                    <p>High-quality content creates value that attracts and retains your audience.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="search"></i>
-        </div>
-        <h3>Keyword Optimisation</h3>
-        <p>Keyword optimisation aligns content with search intent for better rankings.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="search"></i>
+                    </div>
+                    <h3>Keyword Optimisation</h3>
+                    <p>Keyword optimisation aligns content with search intent for better rankings.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="users"></i>
-        </div>
-        <h3>User Engagement</h3>
-        <p>User engagement encourages interaction that boosts visibility and trust.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>User Engagement</h3>
+                    <p>User engagement encourages interaction that boosts visibility and trust.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="award"></i>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="award"></i>
+                    </div>
+                    <h3>Authority Building</h3>
+                    <p>Authority building establishes credibility to rank higher and earn trust.</p>
+                </article>
+            </div>
         </div>
-        <h3>Authority Building</h3>
-        <p>Authority building establishes credibility to rank higher and earn trust.</p>
-      </article>
-    </div>
-  </div>
-</section>
+    </section>
 
 
     <!-- CONTENT TYPES WE OPTIMISE -->
@@ -182,124 +183,129 @@
 
                     </ul>
                 </div>
-                <!-- <div class="services-panel">
-                            <div class="services-panel-inner">
-                                <p class="services-label">Editorial Overview Panel</p>
-                                <p class="services-text">
-                                    A clear view of your current content inventory, performance and opportunities.
-                                </p>
-                                <p class="services-meta">
-                                    Ideal for marketing teams that need a structured editorial roadmap aligned with SEO goals.
-                                </p>
-                            </div>
-                        </div> -->
+                <div class="services-panel">
+                    <div class="services-panel-inner">
+                        <img src="{{ asset('assets/images/seo/content/content_seo_services.webp') }}"
+                            alt="Content SEO Services" title="Content SEO Services" aria-hidden="true"
+                            aria-label="Content SEO Services" loading="lazy" decoding="async">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- WHAT ARE CONTENT SEO SERVICES -->
-<section class="section section-national-about" id="about-content-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <section class="section section-national-about" id="about-content-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are Content SEO Services?</h2>
+                <div class="national-about-content">
+                    <h2>What Are Content SEO Services?</h2>
 
+                    <p>
+                        Content SEO services focus on creating and optimising website content so it ranks in search engines,
+                        attracts the right audience, and converts visitors into customers. This goes beyond writing blog
+                        posts — it involves strategic keyword research, search intent mapping, topic clusters, internal
+                        linking, and continuous content improvement.
+                    </p>
+
+                    <p>
+                        A strong content SEO strategy ensures every page on your website has a clear purpose, targets
+                        valuable keywords, and contributes to your overall search visibility and authority.
+                    </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Topic Clusters & Content Hubs</h3>
+
+                    <p>
+                        We don’t create random content. We build structured content hubs around your core services and
+                        products.
+                    </p>
+
+                    <p>
+                        A content hub consists of:
+                    </p>
+
+                    <ul>
+                        <li>A main pillar page targeting a high-value keyword</li>
+                        <li>Supporting blog posts answering related questions</li>
+                        <li>Internal links connecting all content together</li>
+                        <li>Ongoing updates to maintain relevance</li>
+                    </ul>
+
+                    <p class="national-about-note">
+                        This model is one of the most effective ways to build topical authority and improve rankings across
+                        your entire website.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY CONTENT SEO IS CORE -->
+    <section class="section section-national-growth" id="content-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why Content SEO Is the Core of Modern SEO</h2>
+            </div>
+
+            <div class="national-growth-card">
                 <p>
-                    Content SEO services focus on creating and optimising website content so it ranks in search engines, attracts the right audience, and converts visitors into customers. This goes beyond writing blog posts — it involves strategic keyword research, search intent mapping, topic clusters, internal linking, and continuous content improvement.
+                    Google prioritises websites that demonstrate expertise, authority, and trust through high-quality,
+                    relevant content. Content SEO ensures your website answers the questions your audience is asking while
+                    positioning your brand as an industry leader.
                 </p>
 
                 <p>
-                    A strong content SEO strategy ensures every page on your website has a clear purpose, targets valuable keywords, and contributes to your overall search visibility and authority.
+                    With the right strategy, your content becomes a long-term traffic asset that continues to attract
+                    visitors and generate leads without paid advertising.
                 </p>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Topic Clusters & Content Hubs</h3>
+        </div>
+    </section>
 
+
+    <!-- PROCESS -->
+    <section class="section section-process" style="margin-top:35px" id="process">
+        <div class="container">
+            <div class="section-header section-header-light">
+                <h2>Our Content SEO Process</h2>
                 <p>
-                    We don’t create random content. We build structured content hubs around your core services and products.
-                </p>
-
-                <p>
-                    A content hub consists of:
-                </p>
-
-                <ul>
-                    <li>A main pillar page targeting a high-value keyword</li>
-                    <li>Supporting blog posts answering related questions</li>
-                    <li>Internal links connecting all content together</li>
-                    <li>Ongoing updates to maintain relevance</li>
-                </ul>
-
-                <p class="national-about-note">
-                    This model is one of the most effective ways to build topical authority and improve rankings across your entire website.
+                    A streamlined, data-driven approach that optimizes your content for visibility, relevance, and results.
                 </p>
             </div>
 
+            <div class="process-grid process-grid-ui">
+                <article class="card process-card process-card-ui">
+                    <div class="process-icon" aria-hidden="true"><i data-lucide="search"></i></div>
+                    <h3>Research &amp; Analysis</h3>
+                    <p>We identify keywords, audiences, and opportunities to guide your strategy.</p>
+                </article>
+
+                <article class="card process-card process-card-ui">
+                    <div class="process-icon" aria-hidden="true"><i data-lucide="pen-tool"></i></div>
+                    <h3>Content Creation</h3>
+                    <p>We produce high-quality, SEO-focused content tailored to user intent.</p>
+                </article>
+
+                <article class="card process-card process-card-ui">
+                    <div class="process-icon" aria-hidden="true"><i data-lucide="sliders-horizontal"></i></div>
+                    <h3>Optimisation</h3>
+                    <p>We refine on-page elements to improve visibility and search performance.</p>
+                </article>
+
+                <article class="card process-card process-card-ui">
+                    <div class="process-icon" aria-hidden="true"><i data-lucide="line-chart"></i></div>
+                    <h3>Performance Tracking</h3>
+                    <p>We monitor rankings and engagement to guide ongoing improvements.</p>
+                </article>
+            </div>
         </div>
-    </div>
-</section>
-
-
-<!-- WHY CONTENT SEO IS CORE -->
-<section class="section section-national-growth" id="content-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why Content SEO Is the Core of Modern SEO</h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-                Google prioritises websites that demonstrate expertise, authority, and trust through high-quality, relevant content. Content SEO ensures your website answers the questions your audience is asking while positioning your brand as an industry leader.
-            </p>
-
-            <p>
-                With the right strategy, your content becomes a long-term traffic asset that continues to attract visitors and generate leads without paid advertising.
-            </p>
-        </div>
-
-    </div>
-</section>
-
-
-<!-- PROCESS -->
-<section class="section section-process" style="margin-top:35px" id="process">
-  <div class="container">
-    <div class="section-header section-header-light">
-      <h2>Our Content SEO Process</h2>
-      <p>
-        A streamlined, data-driven approach that optimizes your content for visibility, relevance, and results.
-      </p>
-    </div>
-
-    <div class="process-grid process-grid-ui">
-      <article class="card process-card process-card-ui">
-        <div class="process-icon" aria-hidden="true"><i data-lucide="search"></i></div>
-        <h3>Research &amp; Analysis</h3>
-        <p>We identify keywords, audiences, and opportunities to guide your strategy.</p>
-      </article>
-
-      <article class="card process-card process-card-ui">
-        <div class="process-icon" aria-hidden="true"><i data-lucide="pen-tool"></i></div>
-        <h3>Content Creation</h3>
-        <p>We produce high-quality, SEO-focused content tailored to user intent.</p>
-      </article>
-
-      <article class="card process-card process-card-ui">
-        <div class="process-icon" aria-hidden="true"><i data-lucide="sliders-horizontal"></i></div>
-        <h3>Optimisation</h3>
-        <p>We refine on-page elements to improve visibility and search performance.</p>
-      </article>
-
-      <article class="card process-card process-card-ui">
-        <div class="process-icon" aria-hidden="true"><i data-lucide="line-chart"></i></div>
-        <h3>Performance Tracking</h3>
-        <p>We monitor rankings and engagement to guide ongoing improvements.</p>
-      </article>
-    </div>
-  </div>
-</section>
+    </section>
 
 
     <!-- CTA -->
@@ -313,7 +319,8 @@
                     </p>
                 </div>
                 <div class="cta-actions content-cta-actions">
-                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="content-seo">Request Content Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="content-seo">Request Content
+                        Audit</a>
                     <a href="#types" class="btn btn-outline-light">Explore Content Types</a>
                 </div>
             </div>

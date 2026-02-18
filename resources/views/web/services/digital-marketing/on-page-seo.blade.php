@@ -213,12 +213,10 @@
             </div>
 
             <div class="services-layout">
-                <!-- <div class="services-copy">
-                        <h3>End-to-end on-page upgrades (content + technical)</h3>
-                        <p class="services-intro">
-                            We optimise the elements Google evaluates on-page: content intent, HTML structure, metadata, internal links, schema and performance—without breaking your site’s UX.
-                        </p>
-                    </div> -->
+                 <div class="services-copy">
+                       <img src="{{ asset('assets/images/seo/on_page/on_page_seo_services.webp') }}" alt="On-Page SEO Services" title="On-Page SEO Services" aria-hidden="true" aria-label="On-Page SEO Services Image"
+                                loading="lazy" decoding="async">
+                    </div>
 
                 <div class="services-cards">
                     <div class="card services-card">

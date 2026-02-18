@@ -2,7 +2,8 @@
 
 @section('title', 'WooCommerce Development Services | Cloud Technologies Ltd')
 @section('meta_title', 'Cloud Technologies Ltd – WooCommerce Development Services')
-@section('meta_description', 'Professional WooCommerce development services for scalable online stores. Custom features,
+@section('meta_description',
+    'Professional WooCommerce development services for scalable online stores. Custom features,
     performance optimisation, payments, shipping, and ongoing support.')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/woocommerce/css/style.css') }}">
@@ -114,7 +115,9 @@
     <section class="section section-capabilities" id="capabilities">
         <div class="container capabilities-layout">
             <div class="capabilities-media" aria-hidden="true">
-                <div class="media-placeholder"></div>
+                <img src="{{ asset('assets/images/web/woocommerce.webp') }}" alt="WooCommerce Capabilities"
+                    title="WooCommerce Capabilities" aria-label="WooCommerce Capabilities" aria-hidden="true" loading="lazy"
+                    decoding="async" class="media-placeholder">
             </div>
             <div class="capabilities-copy">
                 <h2>Powerful eCommerce Capabilities</h2>
@@ -228,8 +231,8 @@
                 </p>
 
                 <!-- <p>
-                  With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
-                </p> -->
+                      With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+                    </p> -->
             </div>
 
         </div>

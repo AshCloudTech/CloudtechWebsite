@@ -154,8 +154,9 @@
                 </ul>
             </div>
             <div class="why-media" aria-hidden="true">
-                <div class="media-placeholder"></div>
-            </div>
+                <img src="{{ asset('assets/images/web/squarespace.webp') }}" alt="Squarespace Capabilities"
+                    title="Squarespace Capabilities" aria-label="Squarespace Capabilities" aria-hidden="true"
+                    loading="lazy" decoding="async" class="media-placeholder">            </div>
         </div>
     </section>
 

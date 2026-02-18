@@ -109,7 +109,7 @@
             <article class="card platform-card">
                 <h3>Facebook Feed</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/facebook_feed.webp') }}"
-                    alt="Facebook Feed" class="platform-icon">
+                    alt="Facebook Feed" title="Facebook Feed" aria-label="Facebook Feed" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">High-impact placements designed to engage Facebook users effectively.</p>
                 <ul>
                     <li>Image Ads</li>
@@ -122,7 +122,7 @@
             <article class="card platform-card">
                 <h3>Instagram Ads</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/instagram_ads.webp') }}"
-                    alt="Instagram Ads" class="platform-icon">
+                    alt="Instagram Ads" title="Instagram Ads" aria-label="Instagram Ads" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">Perfect for visual storytelling and reaching highly engaged audiences.</p>
                 <ul>
                     <li>Photo Ads</li>
@@ -135,7 +135,7 @@
             <article class="card platform-card">
                 <h3>Messenger Ads</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/messenger_ads.webp') }}"
-                    alt="Messenger Ads" class="platform-icon">
+                    alt="Messenger Ads" title="Messenger Ads" aria-label="Messenger Ads" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">Ideal for conversational ads and direct user engagement.</p>
                 <ul>
                     <li>Sponsored Messages</li>
@@ -148,7 +148,7 @@
             <article class="card platform-card">
                 <h3>Audience Network</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/audience_network.webp') }}"
-                    alt="Audience Network" class="platform-icon">
+                    alt="Audience Network" title="Audience Network" aria-label="Audience Network" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">Expand your reach beyond Meta apps through partner websites and apps.</p>
                 <ul>
                     <li>Native Ads</li>

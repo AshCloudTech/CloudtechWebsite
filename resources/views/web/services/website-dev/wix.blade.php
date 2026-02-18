@@ -152,8 +152,9 @@
                 </ul>
             </div>
             <div class="why-media" aria-hidden="true">
-                <div class="media-placeholder"></div>
-            </div>
+                <img src="{{ asset('assets/images/web/wix.webp') }}" alt="Wix Capabilities"
+                    title="Wix Capabilities" aria-label="Wix Capabilities" aria-hidden="true"
+                    loading="lazy" decoding="async" class="media-placeholder">            </div>
         </div>
     </section>
 

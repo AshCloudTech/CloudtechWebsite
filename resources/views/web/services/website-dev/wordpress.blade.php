@@ -2,7 +2,8 @@
 
 @section('title', 'WordPress Development Services | Cloud Technologies Ltd')
 @section('meta_title', 'Cloud Technologies Ltd – WordPress Development Services')
-@section('meta_description', 'Custom WordPress development services for fast, secure, and SEO-friendly websites. Themes,
+@section('meta_description',
+    'Custom WordPress development services for fast, secure, and SEO-friendly websites. Themes,
     plugins, performance optimisation, and ongoing support.')
 
     @push('styles')
@@ -137,7 +138,10 @@
             </div>
 
             <div class="why-media" aria-hidden="true">
-                <div class="media-placeholder"></div>
+                <img src="{{ asset('assets/images/web/wordpress.webp') }}" alt="WordPress Development Services"
+                    title="WordPress Development Services" aria-label="WordPress Development Services" aria-hidden="true"
+                    loading="lazy" decoding="async" class="media-placeholder">
+
             </div>
         </div>
     </section>
@@ -247,8 +251,8 @@
                 </p>
 
                 <!-- <p>
-                  With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
-                </p> -->
+                      With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+                    </p> -->
             </div>
 
         </div>

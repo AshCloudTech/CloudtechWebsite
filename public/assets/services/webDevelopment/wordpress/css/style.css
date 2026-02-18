@@ -360,9 +360,7 @@ button{ font-family:inherit; }
 
 .why-media .media-placeholder{
   width:100%;
-  padding-top:60%;
   border-radius:20px;
-  background: linear-gradient(135deg, rgba(80,176,208,.14), rgba(48,112,176,.10), rgba(248,128,0,.10));
   box-shadow: var(--shadow-strong);
   border: 1px solid rgba(16,56,128,.12);
 }

@@ -71,42 +71,42 @@
             <article class="card why-card">
                 <h3>Increased Local Visibility</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/gmb/images/increased_local_visibility.webp') }}"
-                    alt="Increased Local Visibility" class="why-image">
+                    alt="Increased Local Visibility" title="Increased Local Visibility" aria-label="Increased Local Visibility" aria-hidden="true" class="why-image">
                 <p>Improves how often your business appears in local searches and map results.</p>
             </article>
 
             <article class="card why-card">
                 <h3>Build Trust &amp; Credibility</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/gmb/images/build_trust_credibility.webp') }}"
-                    alt="Build Trust &amp; Credibility" class="why-image">
+                    alt="Build Trust &amp; Credibility" title="Build Trust &amp; Credibility" aria-label="Build Trust &amp; Credibility" aria-hidden="true" class="why-image">
                 <p>A complete profile helps customers trust your business and choose you confidently.</p>
             </article>
 
             <article class="card why-card">
                 <h3>Direct Customer Engagement</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/gmb/images/direct_customer_engagement.webp') }}"
-                    alt="Direct Customer Engagement" class="why-image">
+                    alt="Direct Customer Engagement" title="Direct Customer Engagement" aria-label="Direct Customer Engagement" aria-hidden="true" class="why-image">
                 <p>Enables customers to call, message, or visit your business directly from search.</p>
             </article>
 
             <article class="card why-card">
                 <h3>Valuable Insights</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/gmb/images/valuable_insights.webp') }}"
-                    alt="Valuable Insights" class="why-image">
+                    alt="Valuable Insights" title="Valuable Insights" aria-label="Valuable Insights" aria-hidden="true" class="why-image">
                 <p>Provides data on views, searches, and actions to guide better local decisions.</p>
             </article>
 
             <article class="card why-card">
                 <h3>Review Management</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/gmb/images/review_management.webp') }}"
-                    alt="Review Management" class="why-image">
+                    alt="Review Management" title="Review Management" aria-label="Review Management" aria-hidden="true" class="why-image">
                 <p>Helps you manage reviews to strengthen trust and improve your local reputation.</p>
             </article>
 
             <article class="card why-card">
                 <h3>Local Pack Rankings</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/gmb/images/local_pack_rankings.webp') }}"
-                    alt="Local Pack Rankings" class="why-image">
+                    alt="Local Pack Rankings" title="Local Pack Rankings" aria-label="Local Pack Rankings" aria-hidden="true" class="why-image">
                 <p>Boosts your chances of appearing in Google’s top local 3-pack for more visibility.</p>
             </article>
         </div>

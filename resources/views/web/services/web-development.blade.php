@@ -229,7 +229,7 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/bookmygetaway.webp') }}" alt="BookMyGetAway"
+                        <img src="{{ asset('assets/images/webdev/bookmygetaway.webp') }}" alt="BookMyGetAway" title="BookMyGetAway" aria-label="BookMyGetAway" aria-hidden="true"
                             loading="lazy" decoding="async">
                     </div>
                     <span class="project-tag project-tag-blue">Travel / Booking Website</span>
@@ -239,8 +239,8 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/rbj.webp') }}" alt="RBJ Immigration" loading="lazy"
-                            decoding="async">
+                        <img src="{{ asset('assets/images/webdev/rbj.webp') }}" alt="RBJ Immigration" title="RBJ Immigration" aria-label="RBJ Immigration" aria-hidden="true"
+                            loading="lazy" decoding="async">
                     </div>
                     <span class="project-tag project-tag-purple">Immigration / Legal Services</span>
                     <h3><a href="https://rbjimmigration.co.uk/" target="_blank">RBJ Immigration</a></h3>
@@ -249,7 +249,7 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/digitally.webp') }}" alt="Digitally Insync"
+                        <img src="{{ asset('assets/images/webdev/digitally.webp') }}" alt="Digitally Insync" title="Digitally Insync" aria-label="Digitally Insync" aria-hidden="true"
                             loading="lazy" decoding="async">
                     </div>
                     <span class="project-tag project-tag-emerald">Digital Marketing / Agency Website</span>
@@ -259,7 +259,7 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/topmaths.webp') }}" alt="Top Maths Tutors"
+                        <img src="{{ asset('assets/images/webdev/topmaths.webp') }}" alt="Top Maths Tutors" title="Top Maths Tutors" aria-label="Top Maths Tutors" aria-hidden="true"
                             loading="lazy" decoding="async">
                     </div>
                     <span class="project-tag project-tag-sky">Education / Tutoring</span>
@@ -269,7 +269,7 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/jane.webp') }}" alt="Jane Gore Therapy" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/jane.webp') }}" alt="Jane Gore Therapy" title="Jane Gore Therapy" aria-label="Jane Gore Therapy" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-amber">Healthcare / Therapy Services</span>
@@ -279,7 +279,7 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/innes.webp') }}" alt="Innes Mitchell" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/innes.webp') }}" alt="Innes Mitchell" title="Innes Mitchell" aria-label="Innes Mitchell" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-rose">Professional Services / Consultancy</span>

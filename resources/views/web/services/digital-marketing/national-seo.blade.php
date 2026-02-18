@@ -28,7 +28,8 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="national-seo-audit">Get Free SEO Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="national-seo-audit">Get
+                        Free SEO Audit</a>
                     <a href="#why" class="btn btn-lg btn-ghost hero-ghost-light">Speak to an Expert</a>
                 </div>
 
@@ -51,48 +52,48 @@
     </section>
 
     <!-- WHY NATIONAL SEO WITH US -->
- <section class="section section-alt" id="why">
-  <div class="container">
-    <div class="section-header">
-      <h2>Why Choose Our National SEO Services?</h2>
-      <p>Nationwide SEO expertise that strengthens your brand and drives results.</p>
-    </div>
+    <section class="section section-alt" id="why">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Our National SEO Services?</h2>
+                <p>Nationwide SEO expertise that strengthens your brand and drives results.</p>
+            </div>
 
-    <div class="grid grid-4 why-grid why-grid-ui">
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="globe"></i>
-        </div>
-        <h3>Worldwide Visibility</h3>
-        <p>Boost worldwide visibility with expert National SEO from a trusted National SEO company.</p>
-      </article>
+            <div class="grid grid-4 why-grid why-grid-ui">
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <h3>Worldwide Visibility</h3>
+                    <p>Boost worldwide visibility with expert National SEO from a trusted National SEO company.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="bar-chart-3"></i>
-        </div>
-        <h3>Data-Driven Strategies</h3>
-        <p>We use analytics and proven SEO methodology to build campaigns around real performance data.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
+                    <h3>Data-Driven Strategies</h3>
+                    <p>We use analytics and proven SEO methodology to build campaigns around real performance data.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="crosshair"></i>
-        </div>
-        <h3>Nationwide Targeting</h3>
-        <p>A results-led approach to reach customers across the UK with targeted National SEO.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="crosshair"></i>
+                    </div>
+                    <h3>Nationwide Targeting</h3>
+                    <p>A results-led approach to reach customers across the UK with targeted National SEO.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true">
-          <i data-lucide="badge-check"></i>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true">
+                        <i data-lucide="badge-check"></i>
+                    </div>
+                    <h3>Proven Results</h3>
+                    <p>A proven National SEO agency delivering strong rankings and reliable long-term growth.</p>
+                </article>
+            </div>
         </div>
-        <h3>Proven Results</h3>
-        <p>A proven National SEO agency delivering strong rankings and reliable long-term growth.</p>
-      </article>
-    </div>
-  </div>
-</section>
+    </section>
 
 
     <!-- PROCESS -->
@@ -168,85 +169,87 @@
                         <li>Monthly reports and tracking to monitor rankings and growth.</li>
                     </ul>
                 </div>
-                <!-- <div class="included-panel">
-                        <h3>Who is National SEO for?</h3>
-                        <p>
-                            National SEO is ideal for businesses that want to reach customers all over the UK, including:
-                        </p>
-                        <ul>
-                            <li>Service-based businesses operating in multiple cities</li>
-                            <li>eCommerce brands shipping nationwide</li>
-                            <li>Franchises and multi-location organisations</li>
-                            <li>Consultancies and agencies targeting UK-wide clients</li>
-                        </ul>
-                    </div> -->
+                <div class="included-panel">
+                    <img src="{{ asset('assets/images/seo/national/national_seo.webp') }}" alt="National SEO" title="National SEO" aria-hidden="true" aria-label="National SEO" loading="lazy"
+                        decoding="async">
+                </div>
             </div>
         </div>
     </section>
 
     <!-- WHAT ARE NATIONAL SEO SERVICES -->
-<section class="section section-national-about" id="about-national-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <section class="section section-national-about" id="about-national-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are National SEO Services?</h2>
+                <div class="national-about-content">
+                    <h2>What Are National SEO Services?</h2>
 
+                    <p>
+                        National SEO services help businesses rank across an entire country rather than in a single city or
+                        local area. Unlike local SEO, which targets nearby searches, national SEO focuses on high-volume,
+                        competitive keywords that attract customers from anywhere in the UK.
+                    </p>
+
+                    <p>
+                        A professional national SEO strategy ensures your website appears for broad, high-intent search
+                        terms your ideal customers are using every day. This includes advanced keyword targeting, technical
+                        optimisation, content strategy, and authority building designed specifically for nationwide
+                        visibility.
+                    </p>
+
+                    <p>
+                        If you want your business to be found by customers across the UK, investing in expert national SEO
+                        services is essential for long-term online growth.
+                    </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Who Needs National SEO?</h3>
+
+                    <ul>
+                        <li>eCommerce stores selling across the UK</li>
+                        <li>Service businesses operating nationwide</li>
+                        <li>SaaS and online platforms</li>
+                        <li>B2B companies targeting national clients</li>
+                        <li>Brands expanding beyond local markets</li>
+                        <li>Companies competing for high-volume industry keywords</li>
+                    </ul>
+
+                    <p class="national-about-note">
+                        If your customers can come from anywhere in the country, national SEO is the strategy that brings
+                        them to you.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY NATIONAL SEO IS ESSENTIAL -->
+    <section class="section section-national-growth" id="national-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why National SEO Is Essential for Long-Term Growth</h2>
+            </div>
+
+            <div class="national-growth-card">
                 <p>
-                    National SEO services help businesses rank across an entire country rather than in a single city or local area. Unlike local SEO, which targets nearby searches, national SEO focuses on high-volume, competitive keywords that attract customers from anywhere in the UK.
+                    Ranking nationally in Google is one of the most powerful ways to generate consistent, high-quality
+                    traffic. Unlike paid ads, national SEO creates long-term visibility that continues to bring customers to
+                    your website without ongoing ad spend.
                 </p>
 
                 <p>
-                    A professional national SEO strategy ensures your website appears for broad, high-intent search terms your ideal customers are using every day. This includes advanced keyword targeting, technical optimisation, content strategy, and authority building designed specifically for nationwide visibility.
-                </p>
-
-                <p>
-                    If you want your business to be found by customers across the UK, investing in expert national SEO services is essential for long-term online growth.
+                    With the right national SEO campaign, your business can dominate search results for the keywords that
+                    matter most, build trust with your audience, and outperform competitors across the UK.
                 </p>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Who Needs National SEO?</h3>
-
-                <ul>
-                    <li>eCommerce stores selling across the UK</li>
-                    <li>Service businesses operating nationwide</li>
-                    <li>SaaS and online platforms</li>
-                    <li>B2B companies targeting national clients</li>
-                    <li>Brands expanding beyond local markets</li>
-                    <li>Companies competing for high-volume industry keywords</li>
-                </ul>
-
-                <p class="national-about-note">
-                    If your customers can come from anywhere in the country, national SEO is the strategy that brings them to you.
-                </p>
-            </div>
-
         </div>
-    </div>
-</section>
-
-
-<!-- WHY NATIONAL SEO IS ESSENTIAL -->
-<section class="section section-national-growth" id="national-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why National SEO Is Essential for Long-Term Growth</h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-                Ranking nationally in Google is one of the most powerful ways to generate consistent, high-quality traffic. Unlike paid ads, national SEO creates long-term visibility that continues to bring customers to your website without ongoing ad spend.
-            </p>
-
-            <p>
-                With the right national SEO campaign, your business can dominate search results for the keywords that matter most, build trust with your audience, and outperform competitors across the UK.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
 
     <!-- CTA -->
@@ -261,7 +264,8 @@
                     </p>
                 </div>
                 <div class="cta-actions seo-cta-actions">
-                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="national-seo-audit">Request Free SEO Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="national-seo-audit">Request Free
+                        SEO Audit</a>
                     <a href="#process" class="btn btn-outline-light">View Our Process</a>
                 </div>
             </div>

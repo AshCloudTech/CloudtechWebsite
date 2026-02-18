@@ -2,7 +2,8 @@
 
 @section('title', 'GoDaddy Website Builder Services | Cloud Technologies Ltd')
 @section('meta_title', 'GoDaddy Website Builder Services | Cloud Technologies Ltd')
-@section('meta_description', 'Professional GoDaddy website builder services for small businesses. Fast setup, template
+@section('meta_description',
+    'Professional GoDaddy website builder services for small businesses. Fast setup, template
     customization, eCommerce solutions, SEO optimisation, and clear GoDaddy website pricing.')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/godaddy/css/style.css') }}">
@@ -150,7 +151,8 @@
                     <li>Trusted global platform</li>
                 </ul>
             </div>
-            <div class="why-panel" aria-hidden="true"></div>
+            <img src="{{ asset('assets/images/web/godaddy.webp') }}" alt="GoDaddy Capabilities" title="GoDaddy Capabilities"
+                aria-label="GoDaddy Capabilities" aria-hidden="true" loading="lazy" decoding="async" class="why-panel">
         </div>
     </section>
 

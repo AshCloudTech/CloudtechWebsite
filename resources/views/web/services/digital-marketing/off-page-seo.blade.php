@@ -213,12 +213,10 @@
             </div>
 
             <div class="services-layout">
-                <!-- <div class="services-copy">
-                        <h3>White-hat authority building (no risky shortcuts)</h3>
-                        <p class="services-intro">
-                            We focus on relevance, trust and long-term growth—clean link acquisition, PR and citations with measurable improvements to authority and rankings.
-                        </p>
-                    </div> -->
+                <div class="services-copy">
+                       <img src="{{ asset('assets/images/seo/off_page/off_page_seo_services.webp') }}" alt="Off-Page SEO Services" title="Off-Page SEO Services" aria-hidden="true" aria-label="Off-Page SEO Services Image"
+                                loading="lazy" decoding="async">
+                    </div> 
 
                 <div class="services-cards">
                     <div class="card services-card">

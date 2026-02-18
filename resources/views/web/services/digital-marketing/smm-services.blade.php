@@ -92,7 +92,7 @@
             <article class="card platform-card">
                 <h3>Facebook</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/smm/images/facebook.webp') }}"
-                    alt="Facebook" class="platform-icon">
+                    alt="Facebook"title="Facebook" aria-label="Facebook" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">2.9B+ users</p>
                 <p>Grow brand presence with targeted Facebook marketing.</p>
                 <ul>
@@ -106,7 +106,7 @@
             <article class="card platform-card">
                 <h3>Instagram</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/smm/images/instagram.webp') }}"
-                    alt="Instagram" class="platform-icon">
+                    alt="Instagram" title="Instagram" aria-label="Instagram" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">2B+ users</p>
                 <p>Boost engagement with creative Instagram content strategies.</p>
                 <ul>
@@ -120,7 +120,7 @@
             <article class="card platform-card">
                 <h3>LinkedIn</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/smm/images/linkedin.webp') }}"
-                    alt="LinkedIn" class="platform-icon">
+                    alt="LinkedIn" title="LinkedIn" aria-label="LinkedIn" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">900M+ users</p>
                 <p>Build authority and generate B2B leads on LinkedIn.</p>
                 <ul>
@@ -134,7 +134,7 @@
             <article class="card platform-card">
                 <h3>Twitter</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/smm/images/twitter.webp') }}"
-                    alt="Twitter" class="platform-icon">
+                    alt="Twitter" title="Twitter" aria-label="Twitter" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">450M+ users</p>
                 <p>Increase visibility and real time engagement on Twitter.</p>
                 <ul>
@@ -148,7 +148,7 @@
             <article class="card platform-card">
                 <h3>TikTok</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/smm/images/tiktok.webp') }}"
-                    alt="TikTok" class="platform-icon">
+                    alt="TikTok" title="TikTok" aria-label="TikTok" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">1B+ users</p>
                 <p>Create viral short form content to grow your TikTok audience.</p>
                 <ul>
@@ -162,7 +162,7 @@
             <article class="card platform-card">
                 <h3>YouTube</h3>
                 <img src="{{ asset('assets/services/digitalMarketing/smm/images/youtube.webp') }}"
-                    alt="YouTube" class="platform-icon">
+                    alt="YouTube" title="YouTube" aria-label="YouTube" aria-hidden="true" class="platform-icon">
                 <p class="platform-meta">2.7B+ users</p>
                 <p>Grow your brand with optimized video content on YouTube.</p>
                 <ul>

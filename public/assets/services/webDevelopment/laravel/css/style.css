@@ -344,9 +344,7 @@ button {
 
 .media-placeholder {
     width: 100%;
-    padding-top: 65%;
     border-radius: 20px;
-    background: linear-gradient(135deg, #e5e7eb, #f3f4f6);
     box-shadow: 0 18px 40px rgba(15, 23, 42, 0.15);
 }
 

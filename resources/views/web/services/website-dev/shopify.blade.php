@@ -137,8 +137,9 @@
                 </div>
             </div>
             <div class="why-media" aria-hidden="true">
-                <div class="media-placeholder"></div>
-            </div>
+                <img src="{{ asset('assets/images/web/shopify.webp') }}" alt="Shopify Capabilities"
+                    title="Shopify Capabilities" aria-label="Shopify Capabilities" aria-hidden="true"
+                    loading="lazy" decoding="async" class="media-placeholder">            </div>
         </div>
     </section>
 

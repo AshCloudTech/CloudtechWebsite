@@ -95,7 +95,7 @@
                 <article class="card platform-card">
                     <h3>Google Ads</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/ppc/images/google_ads.webp') }}" alt="Google Ads"
-                        class="platform-icon">
+                        title="Google Ads" aria-label="Google Ads" aria-hidden="true" class="platform-icon">
                     <p class="platform-meta">
                         Search Ads, Display Ads, Shopping Ads, Video Ads, Remarketing Ads — designed to capture buyers at
                         every stage.
@@ -105,7 +105,8 @@
                 <article class="card platform-card">
                     <h3>Microsoft Ads</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/ppc/images/microsoft_ads.webp') }}"
-                        alt="Microsoft Ads" class="platform-icon">
+                        alt="Microsoft Ads" title="Microsoft Ads" aria-label="Microsoft Ads" aria-hidden="true"
+                        class="platform-icon">
                     <p class="platform-meta">
                         Search Ads, Audience Ads, Shopping Ads, and Bing placements that expand reach beyond Google.
                     </p>
@@ -114,7 +115,8 @@
                 <article class="card platform-card">
                     <h3>Facebook Ads</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/ppc/images/facebook_ads.webp') }}"
-                        alt="Facebook Ads" class="platform-icon">
+                        alt="Facebook Ads" title="Facebook Ads" aria-label="Facebook Ads" aria-hidden="true"
+                        class="platform-icon">
                     <p class="platform-meta">
                         Image Ads, Video Ads, Carousel Ads, and Retargeting Ads tailored for high-engagement audiences.
                     </p>
@@ -123,7 +125,8 @@
                 <article class="card platform-card">
                     <h3>LinkedIn Ads</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/ppc/images/linkedin_ads.webp') }}"
-                        alt="LinkedIn Ads" class="platform-icon">
+                        alt="LinkedIn Ads" title="LinkedIn Ads" aria-label="LinkedIn Ads" aria-hidden="true"
+                        class="platform-icon">
                     <p class="platform-meta">
                         Sponsored Content, Message Ads, Lead Gen Forms, and Text Ads focused on professional B2B targeting.
                     </p>
@@ -196,17 +199,18 @@
                     </ul>
                 </div>
                 <div class="services-panel" aria-hidden="true">
-                            <div class="services-panel-inner">
-                                <p class="panel-label">Transparent Performance Reporting</p>
-                                <p class="panel-text">
-                                    Get a complete view of your campaign performance with our custom-built performance dashboard.
-                                    Track key metrics like impressions, clicks, conversions, and cost to make data-driven decisions.
-                                </p>
-                                <p class="panel-meta">
-                                    We align our reporting with your business goals and KPIs, so you always know how your campaigns are performing.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="services-panel-inner">
+                        <p class="panel-label">Transparent Performance Reporting</p>
+                        <p class="panel-text">
+                            Get a complete view of your campaign performance with our custom-built performance dashboard.
+                            Track key metrics like impressions, clicks, conversions, and cost to make data-driven decisions.
+                        </p>
+                        <p class="panel-meta">
+                            We align our reporting with your business goals and KPIs, so you always know how your campaigns
+                            are performing.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

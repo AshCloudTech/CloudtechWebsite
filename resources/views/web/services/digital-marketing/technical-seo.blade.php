@@ -27,7 +27,8 @@
                     performance and organic traffic.</p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="technical-seo">Get Technical Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="technical-seo">Get
+                        Technical Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Speak to Expert</a>
                 </div>
 
@@ -54,89 +55,92 @@
         </div>
     </section>
 
-<!-- WHY TECHNICAL SEO MATTERS -->
-<section class="section section-alt" id="why">
-  <div class="container">
-    <div class="section-header">
-      <h2>Why Technical SEO Matters</h2>
-      <p>
-        Technical SEO matters because it improves site speed, crawlability, user experience, and search rankings,
-        helping your website perform at its best.
-      </p>
-    </div>
+    <!-- WHY TECHNICAL SEO MATTERS -->
+    <section class="section section-alt" id="why">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Technical SEO Matters</h2>
+                <p>
+                    Technical SEO matters because it improves site speed, crawlability, user experience, and search
+                    rankings,
+                    helping your website perform at its best.
+                </p>
+            </div>
 
-    <div class="why-grid why-grid-ui">
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="zap"></i></div>
-        <h3>Site Speed Optimisation</h3>
-        <p>Faster page speed improves user experience and boosts search rankings.</p>
-      </article>
+            <div class="why-grid why-grid-ui">
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="zap"></i></div>
+                    <h3>Site Speed Optimisation</h3>
+                    <p>Faster page speed improves user experience and boosts search rankings.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="settings"></i></div>
-        <h3>Technical Optimisation</h3>
-        <p>Technical optimisation enhances site structure for better visibility.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="settings"></i></div>
+                    <h3>Technical Optimisation</h3>
+                    <p>Technical optimisation enhances site structure for better visibility.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="search"></i></div>
-        <h3>Crawlability</h3>
-        <p>Improved crawlability helps search engines index your site efficiently.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="search"></i></div>
+                    <h3>Crawlability</h3>
+                    <p>Improved crawlability helps search engines index your site efficiently.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="trophy"></i></div>
-        <h3>1st Page Rankings</h3>
-        <p>Strong technical SEO increases your chances of first-page rankings.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="trophy"></i></div>
+                    <h3>1st Page Rankings</h3>
+                    <p>Strong technical SEO increases your chances of first-page rankings.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="activity"></i></div>
-        <h3>Core Web Vitals</h3>
-        <p>Optimising Core Web Vitals boosts performance and overall SEO results.</p>
-      </article>
-    </div>
-  </div>
-</section>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="activity"></i></div>
+                    <h3>Core Web Vitals</h3>
+                    <p>Optimising Core Web Vitals boosts performance and overall SEO results.</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
-<!-- COMMON TECHNICAL ISSUES -->
-<section class="section" id="issues">
-  <div class="container">
-    <div class="section-header">
-      <h2>Common Technical Issues We Fix</h2>
-      <p>
-        We fix technical issues like speed problems, broken links, and indexing errors to improve website
-        performance and search rankings.
-      </p>
-    </div>
+    <!-- COMMON TECHNICAL ISSUES -->
+    <section class="section" id="issues">
+        <div class="container">
+            <div class="section-header">
+                <h2>Common Technical Issues We Fix</h2>
+                <p>
+                    We fix technical issues like speed problems, broken links, and indexing errors to improve website
+                    performance and search rankings.
+                </p>
+            </div>
 
-    <div class="issues-grid issues-grid-ui">
-      <article class="card issue-card issue-card-ui">
-        <div class="issue-icon" aria-hidden="true"><i data-lucide="timer"></i></div>
-        <h3>Slow Page Speed</h3>
-        <p>Improving load speed to boost user experience, reduce bounce rates, and increase Google rankings.</p>
-      </article>
+            <div class="issues-grid issues-grid-ui">
+                <article class="card issue-card issue-card-ui">
+                    <div class="issue-icon" aria-hidden="true"><i data-lucide="timer"></i></div>
+                    <h3>Slow Page Speed</h3>
+                    <p>Improving load speed to boost user experience, reduce bounce rates, and increase Google rankings.</p>
+                </article>
 
-      <article class="card issue-card issue-card-ui">
-        <div class="issue-icon" aria-hidden="true"><i data-lucide="smartphone"></i></div>
-        <h3>Poor Mobile Experience</h3>
-        <p>Fixing mobile layout, responsiveness, and usability to improve engagement and SEO performance.</p>
-      </article>
+                <article class="card issue-card issue-card-ui">
+                    <div class="issue-icon" aria-hidden="true"><i data-lucide="smartphone"></i></div>
+                    <h3>Poor Mobile Experience</h3>
+                    <p>Fixing mobile layout, responsiveness, and usability to improve engagement and SEO performance.</p>
+                </article>
 
-      <article class="card issue-card issue-card-ui">
-        <div class="issue-icon" aria-hidden="true"><i data-lucide="bug"></i></div>
-        <h3>Crawling Errors</h3>
-        <p>Resolving crawl and indexing issues so search engines can access, read, and rank your website properly.</p>
-      </article>
+                <article class="card issue-card issue-card-ui">
+                    <div class="issue-icon" aria-hidden="true"><i data-lucide="bug"></i></div>
+                    <h3>Crawling Errors</h3>
+                    <p>Resolving crawl and indexing issues so search engines can access, read, and rank your website
+                        properly.</p>
+                </article>
 
-      <article class="card issue-card issue-card-ui">
-        <div class="issue-icon" aria-hidden="true"><i data-lucide="copy"></i></div>
-        <h3>Duplicate Content</h3>
-        <p>Eliminating duplicate pages to avoid ranking loss and ensure Google sees unique, high-quality content.</p>
-      </article>
-    </div>
-  </div>
-</section>
+                <article class="card issue-card issue-card-ui">
+                    <div class="issue-icon" aria-hidden="true"><i data-lucide="copy"></i></div>
+                    <h3>Duplicate Content</h3>
+                    <p>Eliminating duplicate pages to avoid ranking loss and ensure Google sees unique, high-quality
+                        content.</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
     <!-- TECHNICAL SEO PROCESS -->
     <section class="section section-process" id="process">
@@ -200,92 +204,95 @@
 
                     </ul>
                 </div>
-                <!-- <div class="services-panel">
-                        <div class="services-panel-inner">
-                            <p class="services-label">Technical Overview Panel</p>
-                            <p class="services-text">
-                                Visual summary of your current technical health with prioritised actions
-                                for fastest impact.
-                            </p>
-                            <p class="services-meta">
-                                Ideal for marketing teams, developers and leadership who need a clear technical roadmap.
-                            </p>
-                        </div>
-                    </div> -->
+                <div class="services-panel">
+                    <div class="services-panel-inner">
+                        <img src="{{ asset('assets/images/seo/technical/technical_seo_services.webp') }}" title="Technical SEO Services" alt="Technical SEO Services" aria-hidden="true" aria-label="Technical SEO Services Image"
+                             loading="lazy" decoding="async">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- WHAT ARE TECHNICAL SEO SERVICES -->
-<section class="section section-national-about" id="about-technical-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <section class="section section-national-about" id="about-technical-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are Technical SEO Services?</h2>
+                <div class="national-about-content">
+                    <h2>What Are Technical SEO Services?</h2>
 
+                    <p>
+                        Technical SEO services focus on optimising the foundation of your website so search engines can
+                        efficiently crawl, index, and rank your pages. While content and backlinks are important, they
+                        cannot perform effectively if your website has technical barriers that prevent search engines from
+                        accessing it properly.
+                    </p>
+
+                    <p>
+                        Technical SEO includes improving site speed, Core Web Vitals, mobile usability, crawlability,
+                        indexation, site structure, and resolving errors that negatively impact search performance.
+                    </p>
+
+                    <p>
+                        A technically optimised website creates the perfect environment for higher rankings, better user
+                        experience, and stronger organic growth.
+                    </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Key Areas Covered in Technical SEO</h3>
+
+                    <p>
+                        A complete technical SEO campaign addresses:
+                    </p>
+
+                    <ul>
+                        <li>Core Web Vitals optimisation (LCP, CLS, INP)</li>
+                        <li>Crawl budget management</li>
+                        <li>XML sitemap optimisation</li>
+                        <li>Robots.txt configuration</li>
+                        <li>Canonical tag implementation</li>
+                        <li>Redirect management (301/302)</li>
+                        <li>Schema markup for enhanced search results</li>
+                        <li>URL structure and site architecture</li>
+                        <li>Mobile-first optimisation</li>
+                        <li>Indexation control and duplicate prevention</li>
+                    </ul>
+
+                    <p class="national-about-note">
+                        These elements ensure your website is easy for search engines to understand and rank.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY TECHNICAL SEO IS THE FOUNDATION -->
+    <section class="section section-national-growth" id="technical-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why Technical SEO Is the Foundation of All SEO Success</h2>
+            </div>
+
+            <div class="national-growth-card">
                 <p>
-                    Technical SEO services focus on optimising the foundation of your website so search engines can efficiently crawl, index, and rank your pages. While content and backlinks are important, they cannot perform effectively if your website has technical barriers that prevent search engines from accessing it properly.
+                    Many websites struggle to rank not because of poor content, but because of hidden technical issues
+                    limiting their potential. Technical SEO ensures that every page on your website can be properly crawled,
+                    indexed, and evaluated by search engines.
                 </p>
 
                 <p>
-                    Technical SEO includes improving site speed, Core Web Vitals, mobile usability, crawlability, indexation, site structure, and resolving errors that negatively impact search performance.
-                </p>
-
-                <p>
-                    A technically optimised website creates the perfect environment for higher rankings, better user experience, and stronger organic growth.
+                    Without strong technical foundations, even the best content and backlinks will underperform. With expert
+                    technical SEO, your entire website becomes easier to rank, faster to load, and more accessible to users
+                    and search engines alike.
                 </p>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Key Areas Covered in Technical SEO</h3>
-
-                <p>
-                    A complete technical SEO campaign addresses:
-                </p>
-
-                <ul>
-                    <li>Core Web Vitals optimisation (LCP, CLS, INP)</li>
-                    <li>Crawl budget management</li>
-                    <li>XML sitemap optimisation</li>
-                    <li>Robots.txt configuration</li>
-                    <li>Canonical tag implementation</li>
-                    <li>Redirect management (301/302)</li>
-                    <li>Schema markup for enhanced search results</li>
-                    <li>URL structure and site architecture</li>
-                    <li>Mobile-first optimisation</li>
-                    <li>Indexation control and duplicate prevention</li>
-                </ul>
-
-                <p class="national-about-note">
-                    These elements ensure your website is easy for search engines to understand and rank.
-                </p>
-            </div>
-
         </div>
-    </div>
-</section>
-
-
-<!-- WHY TECHNICAL SEO IS THE FOUNDATION -->
-<section class="section section-national-growth" id="technical-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why Technical SEO Is the Foundation of All SEO Success</h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-                Many websites struggle to rank not because of poor content, but because of hidden technical issues limiting their potential. Technical SEO ensures that every page on your website can be properly crawled, indexed, and evaluated by search engines.
-            </p>
-
-            <p>
-                Without strong technical foundations, even the best content and backlinks will underperform. With expert technical SEO, your entire website becomes easier to rank, faster to load, and more accessible to users and search engines alike.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
 
     <!-- CTA -->
@@ -300,7 +307,8 @@
                     </p>
                 </div>
                 <div class="cta-actions tech-cta-actions">
-                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="technical-seo">Get Technical Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="technical-seo">Get Technical
+                        Audit</a>
                     <a href="#why" class="btn btn-outline-light">See Why It Matters</a>
                 </div>
             </div>

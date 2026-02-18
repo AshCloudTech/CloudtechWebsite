@@ -120,7 +120,7 @@
                     <div class="service-thumb">
                         <a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}">
                             <img src="{{ asset('assets/images/digitalmark/gbp.webp') }}"
-                                alt="Google Business Profile Optimisation" loading="lazy" decoding="async">
+                                alt="Google Business Profile Optimisation" title="Google Business Profile Optimisation" aria-label="Google Business Profile Optimisation" aria-hidden="true" loading="lazy" decoding="async">
                         </a>
                     </div>
 
@@ -142,7 +142,7 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.digi-marketing.meta-ads-services') }}">
-                            <img src="{{ asset('assets/images/digitalmark/meta.webp') }}" alt="Meta Ads Services"
+                            <img src="{{ asset('assets/images/digitalmark/meta.webp') }}" alt="Meta Ads Services" title="Meta Ads Services" aria-label="Meta Ads Services" aria-hidden="true"
                                 loading="lazy" decoding="async">
                         </a>
                     </div>
@@ -163,7 +163,7 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.digi-marketing.ppc-services') }}">
-                            <img src="{{ asset('assets/images/digitalmark/ppc.webp') }}" alt="PPC Services" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/ppc.webp') }}" alt="PPC Services" title="PPC Services" aria-label="PPC Services" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>
@@ -184,7 +184,7 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.digi-marketing.smm-services') }}">
-                            <img src="{{ asset('assets/images/digitalmark/smm.webp') }}" alt="SMM Services" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/smm.webp') }}" alt="SMM Services" title="SMM Services" aria-label="SMM Services" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>

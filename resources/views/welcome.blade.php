@@ -73,7 +73,8 @@
                     <div class="card-tag tag-blue">Digital Marketing</div>
                     <a href="{{ route('services.digital.marketing') }}">
                         <img src="{{ asset('assets/images/home/digital_marketing.webp') }}" class="service-image"
-                            alt="Digital Marketing" loading="lazy" decoding="async">
+                            alt="Digital Marketing" title="Digital Marketing" aria-label="Digital Marketing"
+                            aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('services.digital.marketing') }}">Digital Marketing</a></h3>
                     <p>Digital marketing solutions designed to boost visibility and drive sales.</p>
@@ -90,7 +91,8 @@
                     <div class="card-tag tag-purple">UI/UX Design</div>
                     <a href="{{ route('services.uiux') }}">
                         <img src="{{ asset('assets/images/home/ui_&_ux_design.webp') }}" class="service-image"
-                            alt="UI/UX Design" loading="lazy" decoding="async">
+                            alt="UI/UX Design" title="UI/UX Design" aria-label="UI/UX Design" aria-hidden="true"
+                            loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('services.uiux') }}">UI/UX Design</a></h3>
                     <p>End-to-end UI/UX design that aligns business goals with user needs.</p>
@@ -107,7 +109,8 @@
                     <div class="card-tag tag-green">Web Development</div>
                     <a href="{{ route('services.web.development') }}">
                         <img src="{{ asset('assets/images/home/web_development.webp') }}" class="service-image"
-                            alt="Web Development" loading="lazy" decoding="async">
+                            alt="Web Development" title="Web Development" aria-label="Web Development" aria-hidden="true"
+                            loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('services.web.development') }}">Web Development</a></h3>
                     <p>Fast, responsive websites developed for seamless user experiences.</p>
@@ -124,7 +127,7 @@
                     <div class="card-tag tag-orange">Branding</div>
                     <a href="{{ route('services.branding') }}">
                         <img src="{{ asset('assets/images/home/branding.webp') }}" class="service-image" alt="Branding"
-                            loading="lazy" decoding="async">
+                            title="Branding" aria-label="Branding" aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('services.branding') }}">Branding</a></h3>
                     <p>Bold branding that captures attention and elevates your presence.</p>
@@ -141,7 +144,7 @@
                     <div class="card-tag tag-teal">SEO</div>
                     <a href="{{ route('services.seo') }}">
                         <img src="{{ asset('assets/images/home/seo.webp') }}" class="service-image" alt="SEO"
-                            loading="lazy" decoding="async">
+                            title="SEO" aria-label="SEO" aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('services.seo') }}">SEO</a></h3>
                     <p>Powerful SEO that improves rankings, traffic, and conversions.</p>
@@ -158,7 +161,8 @@
                     <div class="card-tag tag-pink">Product Marketing</div>
                     <a href="{{ route('services.product.marketing') }}">
                         <img src="{{ asset('assets/images/home/product_marketing.webp') }}" class="service-image"
-                            alt="Product Marketing" loading="lazy" decoding="async">
+                            alt="Product Marketing" title="Product Marketing" aria-label="Product Marketing"
+                            aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('services.product.marketing') }}">Product Marketing</a></h3>
                     <p>Complete product marketing solutions designed to maximize product success.</p>
@@ -299,7 +303,7 @@
                     <div class="card-tag tag-blue">Healthcare Solutions</div>
                     <a href="{{ route('industries.cloudhealth') }}">
                         <img src="{{ asset('assets/images/home/healthcare_solutions.webp') }}" class="industry-image"
-                            alt="Healthcare Solutions" loading="lazy" decoding="async">
+                            alt="Healthcare Solutions" title="Healthcare Solutions" aria-label="Healthcare Solutions" aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudhealth') }}">Healthcare Solutions</a></h3>
                     <p>
@@ -314,7 +318,7 @@
                     <div class="card-tag tag-purple">Care Dashboard Management</div>
                     <a href="{{ route('industries.cloudcare') }}">
                         <img src="{{ asset('assets/images/home/care_dashboard_management.webp') }}"
-                            class="industry-image" alt="Care Dashboard Management" loading="lazy" decoding="async">
+                            class="industry-image" alt="Care Dashboard Management" title="Care Dashboard Management" aria-label="Care Dashboard Management" aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudcare') }}">Care Dashboard Management</a></h3>
                     <p>
@@ -329,7 +333,7 @@
                     <div class="card-tag tag-green">Education Technology</div>
                     <a href="{{ route('industries.cloudedu') }}">
                         <img src="{{ asset('assets/images/home/education_technology.webp') }}" class="industry-image"
-                            alt="Education Technology" loading="lazy" decoding="async">
+                            alt="Education Technology" title="Education Technology" aria-label="Education Technology" aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudedu') }}">Education Technology</a></h3>
                     <p>
@@ -344,7 +348,7 @@
                     <div class="card-tag tag-orange">Travel &amp; Tourism</div>
                     <a href="{{ route('industries.cloudtravel') }}">
                         <img src="{{ asset('assets/images/home/travel_&_tourism.webp') }}" class="industry-image"
-                            alt="Travel & Tourism" loading="lazy" decoding="async">
+                            alt="Travel & Tourism" title="Travel & Tourism" aria-label="Travel & Tourism" aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudtravel') }}">Travel &amp; Tourism</a></h3>
                     <p>
@@ -359,7 +363,7 @@
                     <div class="card-tag tag-teal">Recruitment Solutions</div>
                     <a href="{{ route('industries.cloudrecruit') }}">
                         <img src="{{ asset('assets/images/home/recruitment_solutions.webp') }}" class="industry-image"
-                            alt="Recruitment Solutions" loading="lazy" decoding="async">
+                            alt="Recruitment Solutions" title="Recruitment Solutions" aria-label="Recruitment Solutions" aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudrecruit') }}">Recruitment Solutions</a></h3>
                     <p>
@@ -374,7 +378,7 @@
                     <div class="card-tag tag-pink">Public Sector</div>
                     <a href="{{ route('industries.cloudpublic') }}">
                         <img src="{{ asset('assets/images/home/public_sector.webp') }}" class="industry-image"
-                            alt="Public Sector" loading="lazy" decoding="async">
+                            alt="Public Sector" title="Public Sector" aria-label="Public Sector" aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudpublic') }}">Public Sector</a></h3>
                     <p>
@@ -402,7 +406,7 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-blue">AI Chatbot Assistant</div>
                     <img src="{{ asset('assets/images/home/ai_chatbot_assistant.webp') }}" class="service-image"
-                        alt="AI Chatbot Assistant" loading="lazy" decoding="async">
+                        alt="AI Chatbot Assistant" title="AI Chatbot Assistant" aria-label="AI Chatbot Assistant" aria-hidden="true" loading="lazy" decoding="async">
 
 
                     <h3>AI Chatbot Assistant</h3>
@@ -415,7 +419,7 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-purple">AI Recruiter</div>
                     <img src="{{ asset('assets/images/home/ai_recruiter.webp') }}" class="service-image"
-                        alt="AI Recruiter" loading="lazy" decoding="async">
+                        alt="AI Recruiter" title="AI Recruiter" aria-label="AI Recruiter" aria-hidden="true" loading="lazy" decoding="async">
 
 
                     <h3>AI Recruiter</h3>
@@ -428,7 +432,7 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-green">AI Itinerary Builder</div>
                     <img src="{{ asset('assets/images/home/ai_itinerary_builder.webp') }}" class="service-image"
-                        alt="AI Itinerary Builder" loading="lazy" decoding="async">
+                        alt="AI Itinerary Builder" title="AI Itinerary Builder" aria-label="AI Itinerary Builder" aria-hidden="true" loading="lazy" decoding="async">
 
                     <h3>AI Itinerary Builder</h3>
                     <p>
@@ -441,7 +445,7 @@
                     <div class="card-tag tag-orange">AI Healthcare Assistant</div>
 
                     <img src="{{ asset('assets/images/home/ai_healthcare_assistant.webp') }}" class="service-image"
-                        alt="AI Healthcare Assistant" loading="lazy" decoding="async">
+                        alt="AI Healthcare Assistant" title="AI Healthcare Assistant" aria-label="AI Healthcare Assistant" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>AI Healthcare Assistant</h3>
                     <p>
                         AI-powered healthcare support that automates appointment booking, analyzes symptoms, and offers
@@ -452,7 +456,7 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-teal">AI Learning Platform</div>
                     <img src="{{ asset('assets/images/home/ai_learning_platform.webp') }}" class="service-image"
-                        alt="AI Learning Platform" loading="lazy" decoding="async">
+                        alt="AI Learning Platform" title="AI Learning Platform" aria-label="AI Learning Platform" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>AI Learning Platform</h3>
                     <p>
                         An AI-driven learning platform that personalizes lessons, tracks student progress, and delivers
@@ -463,7 +467,7 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-pink">AI Care Coordinator</div>
                     <img src="{{ asset('assets/images/home/ai_care_coordinator.webp') }}" class="service-image"
-                        alt="AI Care Coordinator" loading="lazy" decoding="async">
+                        alt="AI Care Coordinator" title="AI Care Coordinator" aria-label="AI Care Coordinator" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>AI Care Coordinator</h3>
                     <p>
                         AI-powered care coordination that centralizes resident care plans, supports medication management,

@@ -394,11 +394,10 @@ button {
 }
 
 .media-placeholder {
-    width: 100%;
-    padding-top: 70%;
-    border-radius: 20px;
-    background: linear-gradient(135deg, #4b4b50, #6b7280);
-    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+  width:100%;
+  border-radius:20px;
+  box-shadow: var(--shadow-strong);
+  border: 1px solid rgba(16,56,128,.12);
 }
 
 /* ==== PROCESS ==== */

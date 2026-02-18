@@ -109,19 +109,22 @@ Route::prefix('services/website-development')->group(function () {
 });
 
 Route::prefix('services/digital-marketing')->group(function () {
-    Route::get('/national-seo', [DigitalMarkController::class, 'nationalseo'])->name('services.digi-marketing.national-seo');
-    Route::get('/international-seo', [DigitalMarkController::class, 'internationalseo'])->name('services.digi-marketing.international-seo');
-    Route::get('/technical-seo', [DigitalMarkController::class, 'tecnicalseo'])->name('services.digi-marketing.technical-seo');
-    Route::get('/content-seo', [DigitalMarkController::class, 'contentseo'])->name('services.digi-marketing.content-seo');
     Route::get('/google-my-business-optimisation', [DigitalMarkController::class, 'googleMyBusinessOptimisation'])->name('services.digi-marketing.google-my-business-optimisation');
-    Route::get('/image-seo', [DigitalMarkController::class, 'imageSeo'])->name('services.digi-marketing.image-seo');
-    Route::get('/local-seo', [DigitalMarkController::class, 'localSeo'])->name('services.digi-marketing.local-seo');
-    Route::get('/ecommerce-seo', [DigitalMarkController::class, 'ecommerceSeo'])->name('services.digi-marketing.ecommerce-seo');
-    Route::get('/on-page-seo', [DigitalMarkController::class, 'onPageSeo'])->name('services.digi-marketing.on-page-seo');
-    Route::get('/off-page-seo', [DigitalMarkController::class, 'offPageSeo'])->name('services.digi-marketing.off-page-seo');
     Route::get('/meta-ads-services', [DigitalMarkController::class, 'metaAdsServices'])->name('services.digi-marketing.meta-ads-services');
     Route::get('/ppc-services', [DigitalMarkController::class, 'ppcServices'])->name('services.digi-marketing.ppc-services');
     Route::get('/smm-services', [DigitalMarkController::class, 'smmServices'])->name('services.digi-marketing.smm-services');
+});
+
+Route::prefix('services/seo')->group(function () {
+    Route::get('/national-seo', [DigitalMarkController::class, 'nationalseo'])->name('services.seo.national-seo');
+    Route::get('/international-seo', [DigitalMarkController::class, 'internationalseo'])->name('services.seo.international-seo');
+    Route::get('/technical-seo', [DigitalMarkController::class, 'tecnicalseo'])->name('services.seo.technical-seo');
+    Route::get('/content-seo', [DigitalMarkController::class, 'contentseo'])->name('services.seo.content-seo');
+    Route::get('/image-seo', [DigitalMarkController::class, 'imageSeo'])->name('services.seo.image-seo');
+    Route::get('/local-seo', [DigitalMarkController::class, 'localSeo'])->name('services.seo.local-seo');
+    Route::get('/ecommerce-seo', [DigitalMarkController::class, 'ecommerceSeo'])->name('services.seo.ecommerce-seo');
+    Route::get('/on-page-seo', [DigitalMarkController::class, 'onPageSeo'])->name('services.seo.on-page-seo');
+    Route::get('/off-page-seo', [DigitalMarkController::class, 'offPageSeo'])->name('services.seo.off-page-seo');
 });
 
 Route::post('/audit-leads', [AuditLeadController::class, 'store'])->name('audit-leads.store');

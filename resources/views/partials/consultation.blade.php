@@ -3,24 +3,176 @@
         {{ session('success') }}
     </div>
 @endif
+
 @php
     $brandName = $globalCompany?->brand_name ?? 'Cloud Technologies';
-
     $siteLogoLight = !empty($globalCompany?->logo_light_path) ? asset($globalCompany->logo_light_path) : null;
     $siteLogoDark = !empty($globalCompany?->logo_dark_path) ? asset($globalCompany->logo_dark_path) : null;
+
+    // -----------------------------
+    // Project Type (top-level)
+    // -----------------------------
+    $projectTypes = [
+        'new_website' => 'New Website Development',
+        'redesign' => 'Website Redesign / Revamp',
+        'ecommerce' => 'E-commerce Development',
+        'seo' => 'SEO Services',
+        'marketing' => 'Digital Marketing',
+        'mobile_app' => 'Mobile App Development',
+        'web_app' => 'Web Application / Portal Development',
+        'maintenance' => 'Website Maintenance & Support',
+        'uiux' => 'UI/UX Design',
+        'branding' => 'Branding & Creative Services',
+    ];
+
+    // -----------------------------
+    // Service Needed (dependent)
+    // -----------------------------
+    $serviceNeededMap = [
+        'new_website' => [
+            'business_service' => 'Business / Service Website',
+            'corporate' => 'Corporate Website',
+            'portfolio' => 'Portfolio Website',
+            'landing' => 'Landing Page / Microsite',
+            'custom_bespoke' => 'Custom / Bespoke Website',
+            'cms' => 'CMS Website (WordPress or Other)',
+            'booking' => 'Booking / Appointment Website',
+            'membership' => 'Membership Website',
+            'directory_marketplace' => 'Directory / Marketplace Website',
+        ],
+        'redesign' => [
+            'visual_redesign' => 'Visual Redesign Only',
+            'full_rebuild' => 'Full Website Rebuild',
+            'performance_speed' => 'Performance & Speed Optimisation',
+            'mobile_optimisation' => 'Mobile Optimisation',
+            'ux_conversion' => 'UX / Conversion Improvements',
+            'migration_platform' => 'Migration to New Platform',
+            'content_restructure' => 'Content Restructuring',
+        ],
+        'ecommerce' => [
+            'new_store' => 'New Online Store',
+            'shopify' => 'Shopify Development',
+            'woocommerce' => 'WooCommerce Development',
+            'catalogue_setup' => 'Product Catalogue Setup',
+            'payment_gateway' => 'Payment Gateway Integration',
+            'subscription_store' => 'Subscription-Based Store',
+            'multi_vendor' => 'Multi-Vendor Marketplace',
+            'fix_upgrade_store' => 'Fix / Upgrade Existing Store',
+        ],
+        'seo' => [
+            'local_seo' => 'Local SEO (Google Maps / GMB)',
+            'technical_audit' => 'Technical SEO Audit & Fixes',
+            'on_page' => 'On-Page SEO',
+            'off_page' => 'Off-Page SEO / Backlinks',
+            'keyword_strategy' => 'Keyword Research & Strategy',
+            'content_seo' => 'Content SEO',
+            'ecommerce_seo' => 'E-commerce SEO',
+            'seo_recovery' => 'SEO Recovery (Ranking Drop)',
+            'monthly_seo' => 'Monthly Managed SEO',
+        ],
+        'marketing' => [
+            'social_media' => 'Social Media Marketing',
+            'google_ads' => 'Google Ads / PPC',
+            'meta_ads' => 'Meta Ads (Facebook & Instagram)',
+            'lead_gen' => 'Lead Generation Campaigns',
+            'email_marketing' => 'Email Marketing',
+            'cro' => 'Conversion Optimisation (CRO)',
+            'content_marketing' => 'Content Marketing',
+            'reputation' => 'Reputation Management',
+        ],
+        'mobile_app' => [
+            'ios' => 'iOS App Development',
+            'android' => 'Android App Development',
+            'cross_platform' => 'Cross-Platform App (Flutter / React Native)',
+            'pwa' => 'Web App / Progressive Web App (PWA)',
+            'mvp' => 'MVP Development',
+            'enterprise_app' => 'Enterprise App',
+            'app_upgrade' => 'App Upgrade / Redesign',
+            'backend_api' => 'Backend / API Development',
+        ],
+        'web_app' => [
+            'business_portal' => 'Business Portal / Dashboard',
+            'saas' => 'SaaS Platform',
+            'crm_erp' => 'CRM / ERP System',
+            'booking_system' => 'Booking System',
+            'marketplace' => 'Marketplace Platform',
+            'internal_system' => 'Internal Business System',
+            'automation_tool' => 'Custom Automation Tool',
+            'api_integration' => 'API Integration Development',
+        ],
+        'maintenance' => [
+            'monthly_plan' => 'Monthly Maintenance Plan',
+            'security_updates' => 'Security Updates',
+            'bug_fixing' => 'Bug Fixing',
+            'speed_optimisation' => 'Speed Optimisation',
+            'hosting_support' => 'Hosting Support',
+            'content_updates' => 'Content Updates',
+            'emergency_fix' => 'Emergency Fix',
+        ],
+        'uiux' => [
+            'website_ui' => 'Website UI Design',
+            'mobile_ui' => 'Mobile App UI Design',
+            'ux_audit' => 'UX Audit',
+            'wireframing' => 'Wireframing & Prototyping',
+            'design_system' => 'Design System Creation',
+            'conversion_ux' => 'Conversion-Focused UX',
+        ],
+        'branding' => [
+            'logo' => 'Logo Design',
+            'brand_identity' => 'Brand Identity Package',
+            'social_branding' => 'Social Media Branding',
+            'collateral' => 'Marketing Collateral',
+            'rebranding' => 'Rebranding',
+            'brand_guidelines' => 'Brand Guidelines',
+        ],
+    ];
+
+    $budgetRanges = [
+        'under_500' => 'Under £500',
+        '500_1500' => '£500 - £1,500',
+        '1500_5000' => '£1,500 - £5,000',
+        '5000_10000' => '£5,000 - £10,000',
+        '10000_plus' => '£10,000+',
+    ];
+
+    $timelines = [
+        'asap' => 'ASAP',
+        '2_4_weeks' => '2 - 4 Weeks',
+        '1_3_months' => '1 - 3 Months',
+        '3_6_months' => '3 - 6 Months',
+        'flexible' => 'Flexible',
+    ];
+
+    $hearAbout = [
+        'google' => 'Google Search',
+        'facebook' => 'Facebook',
+        'instagram' => 'Instagram',
+        'linkedin' => 'LinkedIn',
+        'referral' => 'Referral',
+        'email' => 'Email',
+        'other' => 'Other',
+    ];
+
+    $urgency = [
+        'low' => 'Low',
+        'medium' => 'Medium',
+        'high' => 'High',
+        'immediate' => 'Immediate',
+    ];
+
+    $oldProjectType = old('project_type');
+    $oldServiceNeeded = old('service_needed');
 @endphp
 
 <div class="ct-modal" id="consultationModal" aria-hidden="true">
     <div class="ct-modal__overlay" data-close="true"></div>
 
-    <div class="ct-modal__dialog ct-modal__dialog--xl" role="dialog" aria-modal="true"
-        aria-labelledby="consultationModalTitle">
+    <div class="ct-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="consultationModalTitle">
         <button class="ct-modal__close" type="button" aria-label="Close modal" data-close="true">×</button>
 
         {{-- Header --}}
         <div class="ct-modal__top">
             <div class="ct-brand">
-                {{-- Replace with your actual logo path if needed --}}
                 @if ($siteLogoLight || $siteLogoDark)
                     @if ($siteLogoLight)
                         <img class="ct-brand__logo" src="{{ $siteLogoLight }}" alt="{{ $brandName }} logo">
@@ -38,14 +190,8 @@
             <h2 class="ct-modal__title" id="consultationModalTitle">Let's Build Something Great</h2>
 
             <div class="ct-badges">
-                <span class="ct-badge">
-                    <span class="ct-badge__icon">💬</span>
-                    Speak with Founder
-                </span>
-                <span class="ct-badge">
-                    <span class="ct-badge__icon">⏱</span>
-                    Response in 1 Hour
-                </span>
+                <span class="ct-badge"><span class="ct-badge__icon">💬</span> Speak with Founder</span>
+                <span class="ct-badge"><span class="ct-badge__icon">⏱</span> Response in 1 Hour</span>
             </div>
         </div>
 
@@ -67,93 +213,30 @@
             </div>
         </div>
 
-        <form class="ct-modal__form" method="POST" action="{{ route('consultations.store') }}"
-            id="consultationWizardForm">
+        <form class="ct-modal__form" method="POST" action="{{ route('consultations.store') }}" id="consultationWizardForm">
             @csrf
-
-            @php
-                $projectTypes = [
-                    'new_website' => 'New Website',
-                    'redesign' => 'Redesign / Revamp',
-                    'ecommerce' => 'E-commerce Website',
-                    'web_app' => 'Web Application',
-                    'mobile_app' => 'Mobile App',
-                    'seo' => 'SEO Project',
-                    'marketing' => 'Marketing Campaign',
-                    'other' => 'Other',
-                ];
-
-                $servicesNeeded = [
-                    'website_dev' => 'Website Development',
-                    'ecommerce_dev' => 'E-commerce Development',
-                    'uiux' => 'UI/UX Design',
-                    'seo' => 'SEO',
-                    'google_ads' => 'Google Ads (PPC)',
-                    'social_media' => 'Social Media Marketing',
-                    'branding' => 'Branding',
-                    'maintenance' => 'Maintenance & Hosting',
-                    'other' => 'Other',
-                ];
-
-                $budgetRanges = [
-                    'under_500' => 'Under £500',
-                    '500_1500' => '£500 - £1,500',
-                    '1500_5000' => '£1,500 - £5,000',
-                    '5000_10000' => '£5,000 - £10,000',
-                    '10000_plus' => '£10,000+',
-                ];
-
-                $timelines = [
-                    'asap' => 'ASAP',
-                    '2_4_weeks' => '2 - 4 Weeks',
-                    '1_3_months' => '1 - 3 Months',
-                    '3_6_months' => '3 - 6 Months',
-                    'flexible' => 'Flexible',
-                ];
-
-                $hearAbout = [
-                    'google' => 'Google Search',
-                    'facebook' => 'Facebook',
-                    'instagram' => 'Instagram',
-                    'linkedin' => 'LinkedIn',
-                    'referral' => 'Referral',
-                    'email' => 'Email',
-                    'other' => 'Other',
-                ];
-
-                $urgency = [
-                    'low' => 'Low',
-                    'medium' => 'Medium',
-                    'high' => 'High',
-                    'immediate' => 'Immediate',
-                ];
-            @endphp
 
             {{-- STEP 1 --}}
             <section class="ct-stepPanel is-active" data-step="1">
                 <div class="ct-grid">
                     <div class="ct-field">
                         <label for="full_name">Full Name <span class="req">*</span></label>
-                        <input id="full_name" name="full_name" type="text" required value="{{ old('full_name') }}"
-                            placeholder="John Doe">
+                        <input id="full_name" name="full_name" type="text" required value="{{ old('full_name') }}" placeholder="John Doe">
                     </div>
 
                     <div class="ct-field">
                         <label for="email">Email Address <span class="req">*</span></label>
-                        <input id="email" name="email" type="email" required value="{{ old('email') }}"
-                            placeholder="john@example.com">
+                        <input id="email" name="email" type="email" required value="{{ old('email') }}" placeholder="john@example.com">
                     </div>
 
                     <div class="ct-field">
                         <label for="phone">Phone Number <span class="req">*</span></label>
-                        <input id="phone" name="phone" type="text" required value="{{ old('phone') }}"
-                            placeholder="+1 (555) 000-0000">
+                        <input id="phone" name="phone" type="text" required value="{{ old('phone') }}" placeholder="+44 0000 000000">
                     </div>
 
                     <div class="ct-field">
                         <label for="company_name">Company Name</label>
-                        <input id="company_name" name="company_name" type="text" value="{{ old('company_name') }}"
-                            placeholder="Your Company">
+                        <input id="company_name" name="company_name" type="text" value="{{ old('company_name') }}" placeholder="Your Company">
                     </div>
                 </div>
 
@@ -173,27 +256,22 @@
                         <select id="project_type" name="project_type" required>
                             <option value="" selected>Select project type</option>
                             @foreach ($projectTypes as $k => $label)
-                                <option value="{{ $k }}" @selected(old('project_type') === $k)>{{ $label }}
-                                </option>
+                                <option value="{{ $k }}" @selected($oldProjectType === $k)>{{ $label }}</option>
                             @endforeach
                         </select>
                     </div>
 
                     <div class="ct-field">
                         <label for="service_needed">Service Needed <span class="req">*</span></label>
-                        <select id="service_needed" name="service_needed" required>
+                        <select id="service_needed" name="service_needed" required disabled>
                             <option value="" selected>Select service</option>
-                            @foreach ($servicesNeeded as $k => $label)
-                                <option value="{{ $k }}" @selected(old('service_needed') === $k)>{{ $label }}
-                                </option>
-                            @endforeach
                         </select>
+                        <small class="ct-help" id="serviceHelp">Select Project Type first</small>
                     </div>
 
                     <div class="ct-field ct-field--full">
                         <label for="industry">Industry</label>
-                        <input id="industry" name="industry" type="text" value="{{ old('industry') }}"
-                            placeholder="E.g., Healthcare, Finance, Education">
+                        <input id="industry" name="industry" type="text" value="{{ old('industry') }}" placeholder="E.g., Healthcare, Finance, Education">
                     </div>
 
                     <div class="ct-field ct-field--full">
@@ -207,8 +285,7 @@
                         <select id="budget_range" name="budget_range" required>
                             <option value="" selected>Select budget</option>
                             @foreach ($budgetRanges as $k => $label)
-                                <option value="{{ $k }}" @selected(old('budget_range') === $k)>{{ $label }}
-                                </option>
+                                <option value="{{ $k }}" @selected(old('budget_range') === $k)>{{ $label }}</option>
                             @endforeach
                         </select>
                     </div>
@@ -218,8 +295,7 @@
                         <select id="timeline" name="timeline" required>
                             <option value="" selected>Select timeline</option>
                             @foreach ($timelines as $k => $label)
-                                <option value="{{ $k }}" @selected(old('timeline') === $k)>{{ $label }}
-                                </option>
+                                <option value="{{ $k }}" @selected(old('timeline') === $k)>{{ $label }}</option>
                             @endforeach
                         </select>
                     </div>
@@ -244,9 +320,8 @@
 
                     <div class="ct-field ct-field--full">
                         <label for="reference_projects">Reference Projects or Inspiration</label>
-                        <input id="reference_projects" name="reference_projects" type="text"
-                            value="{{ old('reference_projects') }}"
-                            placeholder="Share links to projects you like or that inspire you">
+                        <input id="reference_projects" name="reference_projects" type="text" value="{{ old('reference_projects') }}"
+                            placeholder="Share links (comma separated) e.g., example.com, another.com">
                     </div>
 
                     <div class="ct-field">
@@ -254,8 +329,7 @@
                         <select id="hear_about_us" name="hear_about_us">
                             <option value="" selected>Select option</option>
                             @foreach ($hearAbout as $k => $label)
-                                <option value="{{ $k }}" @selected(old('hear_about_us') === $k)>{{ $label }}
-                                </option>
+                                <option value="{{ $k }}" @selected(old('hear_about_us') === $k)>{{ $label }}</option>
                             @endforeach
                         </select>
                     </div>
@@ -265,16 +339,14 @@
                         <select id="project_urgency" name="project_urgency">
                             <option value="" selected>Select urgency</option>
                             @foreach ($urgency as $k => $label)
-                                <option value="{{ $k }}" @selected(old('project_urgency') === $k)>{{ $label }}
-                                </option>
+                                <option value="{{ $k }}" @selected(old('project_urgency') === $k)>{{ $label }}</option>
                             @endforeach
                         </select>
                     </div>
 
                     <div class="ct-info ct-field--full">
                         <strong>What happens next?</strong>
-                        You’ll receive a confirmation email immediately, and our founder will personally reach out to
-                        you within 1 hour to discuss your project in detail.
+                        You’ll receive a confirmation email immediately, and our founder will personally reach out to you within 1 hour.
                     </div>
                 </div>
 
@@ -294,560 +366,512 @@
 </div>
 
 <style>
-    /* =========================================================
+/* =========================================================
    Consultation Wizard Modal (Compact + CloudTech UI)
    ========================================================= */
+:root{
+  --ct-bg:#fff;
+  --ct-text:#0b1220;
+  --ct-muted:rgba(11,18,32,.70);
+  --ct-border:rgba(16,56,128,.12);
+  --ct-border-strong:rgba(16,56,128,.18);
+  --ct-overlay:rgba(11,18,32,.55);
+  --ct-accent:#ff8a00;
+  --ct-accent-soft:rgba(255,138,0,.10);
+  --ct-shadow:0 22px 70px rgba(11,18,32,.18);
+  --ct-radius:18px;
+  --ct-pad:18px;
+  --ct-gap:12px;
+  --ct-font:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;
+}
 
-    :root {
-        --ct-bg: #fff;
-        --ct-text: #0b1220;
-        --ct-muted: rgba(11, 18, 32, .70);
-        --ct-border: rgba(16, 56, 128, .12);
-        --ct-border-strong: rgba(16, 56, 128, .18);
-        --ct-overlay: rgba(11, 18, 32, .55);
+.ct-modal, .ct-modal *{ box-sizing:border-box; }
+.ct-modal{ font-family:var(--ct-font); }
 
-        --ct-accent: #ff8a00;
-        --ct-accent-soft: rgba(255, 138, 0, .10);
+.ct-modal{
+  position:fixed;
+  inset:0;
+  display:none;
+  z-index:9999;
+}
+.ct-modal.is-open{ display:block; }
 
-        --ct-shadow: 0 22px 70px rgba(11, 18, 32, .18);
-        --ct-radius: 18px;
+.ct-modal__overlay{
+  position:absolute;
+  inset:0;
+  background:var(--ct-overlay);
+}
 
-        --ct-pad: 18px;
-        --ct-gap: 12px;
+.ct-modal__dialog{
+  position:relative;
+  width:calc(100vw - 24px);
+  max-width:980px;
+  margin:7vh auto;
+  background:var(--ct-bg);
+  border:1px solid var(--ct-border);
+  border-radius:var(--ct-radius);
+  box-shadow:var(--ct-shadow);
+  padding:var(--ct-pad);
+  max-height:86vh;
+  overflow:auto;
+  -webkit-overflow-scrolling:touch;
+  transform:translateY(10px);
+  animation:ctModalIn .18s ease-out forwards;
+}
 
-        --ct-font: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-    }
+@keyframes ctModalIn{ to{ transform:translateY(0); } }
 
-    .ct-modal,
-    .ct-modal * {
-        box-sizing: border-box;
-    }
+@media (max-width:640px){
+  .ct-modal__dialog{
+    width:100%;
+    max-width:100%;
+    margin:0;
+    max-height:100vh;
+    border-radius:0;
+    padding:14px 12px 12px;
+  }
+}
 
-    .ct-modal {
-        font-family: var(--ct-font);
-    }
+.ct-modal__close{
+  position:absolute;
+  top:10px;
+  right:10px;
+  width:38px;
+  height:38px;
+  border:1px solid var(--ct-border);
+  background:#fff;
+  border-radius:12px;
+  cursor:pointer;
+  font-size:22px;
+  line-height:1;
+}
 
-    /* Modal shell */
-    .ct-modal {
-        position: fixed;
-        inset: 0;
-        display: none;
-        z-index: 9999;
-    }
+/* Header */
+.ct-modal__top{
+  text-align:center;
+  padding:4px 0 12px;
+  border-bottom:1px solid rgba(16,56,128,.10);
+  margin-bottom:12px;
+}
+.ct-brand__logo{ height:34px; width:auto; display:inline-block; }
+.logo-mark{
+  display:inline-flex;
+  width:40px;height:40px;
+  border-radius:14px;
+  align-items:center;justify-content:center;
+  font-weight:900;
+  color:#fff;
+  background:var(--ct-accent);
+}
+.ct-pill{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  max-width:100%;
+  flex-wrap:wrap;
+  margin:10px 0 8px;
+  padding:8px 12px;
+  border-radius:999px;
+  border:1px solid rgba(11,18,32,.12);
+  box-shadow:0 8px 18px rgba(11,18,32,.06);
+  color:rgba(11,18,32,.72);
+  font-weight:650;
+  font-size:13px;
+}
+.ct-pill__dot{ width:9px;height:9px;border-radius:999px;background:var(--ct-accent); }
+.ct-modal__title{
+  margin:6px 0 8px;
+  font-size:clamp(18px, 2.6vw, 26px);
+  line-height:1.2;
+  font-weight:900;
+  color:var(--ct-text);
+}
+.ct-badges{
+  display:flex;
+  justify-content:center;
+  gap:10px 18px;
+  flex-wrap:wrap;
+  margin-bottom:2px;
+}
+.ct-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:rgba(11,18,32,.70);
+  font-weight:700;
+  font-size:13px;
+}
+.ct-badge__icon{
+  width:22px;height:22px;
+  display:inline-flex;
+  align-items:center;justify-content:center;
+}
 
-    .ct-modal.is-open {
-        display: block;
-    }
+/* Stepper (mobile stacked) */
+.ct-stepper{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:10px;
+  margin:12px 0 14px;
+}
+.ct-step{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 12px;
+  border-radius:14px;
+  border:1px solid rgba(16,56,128,.12);
+  background:rgba(233,237,243,.35);
+}
+.ct-step__circle{
+  width:34px;height:34px;border-radius:999px;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:900;
+  background:#e9edf3;
+  color:#6b7280;
+  font-size:13px;
+  flex:0 0 auto;
+}
+.ct-step__label{ font-weight:850; color:rgba(11,18,32,.72); font-size:13px; }
+.ct-step.is-active .ct-step__circle,
+.ct-step.is-done .ct-step__circle{ background:var(--ct-accent); color:#fff; }
+.ct-step.is-active{ background:#fff; border-color:rgba(255,138,0,.25); }
+.ct-step.is-active .ct-step__label{ color:var(--ct-text); }
+.ct-step__line{ display:none; }
 
-    .ct-modal__overlay {
-        position: absolute;
-        inset: 0;
-        background: var(--ct-overlay);
-    }
+/* Desktop stepper (inline) */
+@media (min-width:860px){
+  .ct-stepper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    margin:14px 0 16px;
+  }
+  .ct-step{
+    flex-direction:column;
+    gap:6px;
+    padding:0;
+    border:0;
+    background:transparent;
+    min-width:140px;
+  }
+  .ct-step__line{
+    display:block;
+    width:100px;height:4px;border-radius:999px;
+    background:#e9edf3;
+  }
+}
 
-    /* Dialog */
-    .ct-modal__dialog {
-        position: relative;
-        width: calc(100vw - 24px);
-        max-width: 980px;
-        margin: 7vh auto;
-        background: var(--ct-bg);
-        border: 1px solid var(--ct-border);
-        border-radius: var(--ct-radius);
-        box-shadow: var(--ct-shadow);
-        padding: var(--ct-pad);
-        max-height: 86vh;
-        overflow: auto;
-        -webkit-overflow-scrolling: touch;
+/* Form */
+.ct-modal__form{ margin-top:6px; }
+.ct-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:var(--ct-gap);
+}
+@media (min-width:900px){
+  .ct-grid{ grid-template-columns:repeat(2, minmax(0,1fr)); }
+}
+.ct-field--full{ grid-column:1 / -1; }
 
-        transform: translateY(10px);
-        animation: ctModalIn .18s ease-out forwards;
-    }
+.ct-field label{
+  display:block;
+  font-weight:800;
+  font-size:13px;
+  margin-bottom:6px;
+  color:rgba(11,18,32,.82);
+}
 
-    @keyframes ctModalIn {
-        to {
-            transform: translateY(0);
-        }
-    }
+.ct-field input,
+.ct-field select,
+.ct-field textarea{
+  width:100%;
+  border:1px solid var(--ct-border-strong);
+  border-radius:12px;
+  padding:11px 12px;
+  font-size:14px;
+  outline:none;
+  background:#fff;
+  min-height:44px;
+}
 
-    /* Small screens: fullscreen-like */
-    @media (max-width: 640px) {
-        .ct-modal__dialog {
-            width: 100%;
-            max-width: 100%;
-            margin: 0;
-            max-height: 100vh;
-            border-radius: 0;
-            padding: 14px 12px 12px;
-        }
-    }
+.ct-field textarea{
+  resize:vertical;
+  min-height:100px;
+  padding-top:10px;
+}
 
-    .ct-modal__close {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        width: 38px;
-        height: 38px;
-        border: 1px solid var(--ct-border);
-        background: #fff;
-        border-radius: 12px;
-        cursor: pointer;
-        font-size: 22px;
-        line-height: 1;
-    }
+.ct-field input:focus,
+.ct-field select:focus,
+.ct-field textarea:focus{
+  border-color:rgba(255,138,0,.55);
+  box-shadow:0 0 0 4px var(--ct-accent-soft);
+}
 
-    /* Header */
-    .ct-modal__top {
-        text-align: center;
-        padding: 4px 0 12px;
-        border-bottom: 1px solid rgba(16, 56, 128, .10);
-        margin-bottom: 12px;
-    }
+.req{ color:#ff3b30; font-weight:900; }
 
-    .ct-brand__logo {
-        height: 34px;
-        width: auto;
-        display: inline-block;
-    }
+.ct-help{
+  display:block;
+  margin-top:6px;
+  font-size:12px;
+  color:rgba(11,18,32,.62);
+}
 
-    .logo-mark {
-        display: inline-flex;
-        width: 40px;
-        height: 40px;
-        border-radius: 14px;
-        align-items: center;
-        justify-content: center;
-        font-weight: 900;
-        color: #fff;
-        background: var(--ct-accent);
-    }
+/* Panels */
+.ct-stepPanel{ display:none; }
+.ct-stepPanel.is-active{ display:block; }
 
-    /* Compact pill */
-    .ct-pill {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        max-width: 100%;
-        flex-wrap: wrap;
-        margin: 10px 0 8px;
-        padding: 8px 12px;
-        border-radius: 999px;
-        border: 1px solid rgba(11, 18, 32, .12);
-        box-shadow: 0 8px 18px rgba(11, 18, 32, .06);
-        color: rgba(11, 18, 32, .72);
-        font-weight: 650;
-        font-size: 13px;
-    }
+/* Actions */
+.ct-actions{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  margin-top:14px;
+}
 
-    .ct-pill__dot {
-        width: 9px;
-        height: 9px;
-        border-radius: 999px;
-        background: var(--ct-accent);
-    }
+.ct-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  border-radius:12px;
+  padding:12px 14px;
+  font-weight:900;
+  font-size:14px;
+  border:1px solid var(--ct-border-strong);
+  background:#fff;
+  color:var(--ct-text);
+  cursor:pointer;
+  min-height:44px;
+}
+.ct-btn--ghost{ background:#fff; }
+.ct-btn--primary{
+  border-color:transparent;
+  background:var(--ct-accent);
+  color:#fff;
+  box-shadow:0 14px 34px rgba(255,138,0,.20);
+  min-width:160px;
+}
+.ct-btn--wide{ min-width:280px; }
+.ct-btn__arrow{ font-size:16px; }
 
-    /* Compact title (match site UI) */
-    .ct-modal__title {
-        margin: 6px 0 8px;
-        font-size: clamp(18px, 2.6vw, 26px);
-        line-height: 1.2;
-        font-weight: 900;
-        color: var(--ct-text);
-    }
+@media (max-width:640px){
+  .ct-actions{ flex-direction:column-reverse; align-items:stretch; }
+  .ct-actions > span{ display:none; }
+  .ct-btn--primary, .ct-btn--wide{ width:100%; min-width:0; }
+}
 
-    /* Compact badges */
-    .ct-badges {
-        display: flex;
-        justify-content: center;
-        gap: 10px 18px;
-        flex-wrap: wrap;
-        margin-bottom: 2px;
-    }
-
-    .ct-badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        color: rgba(11, 18, 32, .70);
-        font-weight: 700;
-        font-size: 13px;
-    }
-
-    .ct-badge__icon {
-        width: 22px;
-        height: 22px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    /* Stepper: mobile stacked */
-    .ct-stepper {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 10px;
-        margin: 12px 0 14px;
-    }
-
-    .ct-step {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding: 10px 12px;
-        border-radius: 14px;
-        border: 1px solid rgba(16, 56, 128, .12);
-        background: rgba(233, 237, 243, .35);
-    }
-
-    .ct-step__circle {
-        width: 34px;
-        height: 34px;
-        border-radius: 999px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 900;
-        background: #e9edf3;
-        color: #6b7280;
-        flex: 0 0 auto;
-        font-size: 13px;
-    }
-
-    .ct-step__label {
-        font-weight: 850;
-        color: rgba(11, 18, 32, .72);
-        font-size: 13px;
-    }
-
-    .ct-step.is-active .ct-step__circle,
-    .ct-step.is-done .ct-step__circle {
-        background: var(--ct-accent);
-        color: #fff;
-    }
-
-    .ct-step.is-active {
-        background: #fff;
-        border-color: rgba(255, 138, 0, .25);
-    }
-
-    .ct-step.is-active .ct-step__label {
-        color: var(--ct-text);
-    }
-
-    /* Hide connector lines on mobile */
-    .ct-step__line {
-        display: none;
-    }
-
-    /* Desktop stepper (inline) */
-    @media (min-width: 860px) {
-        .ct-stepper {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            margin: 14px 0 16px;
-        }
-
-        .ct-step {
-            flex-direction: column;
-            gap: 6px;
-            padding: 0;
-            border: 0;
-            background: transparent;
-            min-width: 140px;
-        }
-
-        .ct-step__line {
-            display: block;
-            width: 100px;
-            height: 4px;
-            border-radius: 999px;
-            background: #e9edf3;
-        }
-    }
-
-    /* Form grid */
-    .ct-modal__form {
-        margin-top: 6px;
-    }
-
-    .ct-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: var(--ct-gap);
-    }
-
-    @media (min-width: 900px) {
-        .ct-grid {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-    }
-
-    .ct-field--full {
-        grid-column: 1 / -1;
-    }
-
-    /* Labels & controls (match your current UI: smaller) */
-    .ct-field label {
-        display: block;
-        font-weight: 800;
-        font-size: 13px;
-        margin-bottom: 6px;
-        color: rgba(11, 18, 32, .82);
-    }
-
-    .ct-field input,
-    .ct-field select,
-    .ct-field textarea {
-        width: 100%;
-        border: 1px solid var(--ct-border-strong);
-        border-radius: 12px;
-        padding: 11px 12px;
-        font-size: 14px;
-        outline: none;
-        background: #fff;
-        min-height: 44px;
-    }
-
-    .ct-field textarea {
-        resize: vertical;
-        min-height: 100px;
-        padding-top: 10px;
-    }
-
-    .ct-field input:focus,
-    .ct-field select:focus,
-    .ct-field textarea:focus {
-        border-color: rgba(255, 138, 0, .55);
-        box-shadow: 0 0 0 4px var(--ct-accent-soft);
-    }
-
-    .req {
-        color: #ff3b30;
-        font-weight: 900;
-    }
-
-    /* Panels */
-    .ct-stepPanel {
-        display: none;
-    }
-
-    .ct-stepPanel.is-active {
-        display: block;
-    }
-
-    /* Actions */
-    .ct-actions {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
-        margin-top: 14px;
-    }
-
-    .ct-btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        border-radius: 12px;
-        padding: 12px 14px;
-        font-weight: 900;
-        font-size: 14px;
-        border: 1px solid var(--ct-border-strong);
-        background: #fff;
-        color: var(--ct-text);
-        cursor: pointer;
-        min-height: 44px;
-    }
-
-    .ct-btn--ghost {
-        background: #fff;
-    }
-
-    .ct-btn--primary {
-        border-color: transparent;
-        background: var(--ct-accent);
-        color: #fff;
-        box-shadow: 0 14px 34px rgba(255, 138, 0, .20);
-        min-width: 160px;
-    }
-
-    .ct-btn--wide {
-        min-width: 280px;
-    }
-
-    .ct-btn__arrow {
-        font-size: 16px;
-    }
-
-    /* Mobile: stack buttons full width */
-    @media (max-width: 640px) {
-        .ct-actions {
-            flex-direction: column-reverse;
-            align-items: stretch;
-        }
-
-        .ct-actions>span {
-            display: none;
-        }
-
-        .ct-btn--primary,
-        .ct-btn--wide {
-            width: 100%;
-            min-width: 0;
-        }
-    }
-
-    /* Info block */
-    .ct-info {
-        background: rgba(37, 99, 235, .08);
-        border: 1px solid rgba(37, 99, 235, .18);
-        color: rgba(11, 18, 32, .85);
-        border-radius: 14px;
-        padding: 12px 12px;
-        font-weight: 650;
-        font-size: 13px;
-    }
-
-    /* Privacy note */
-    .ct-privacy {
-        margin: 12px 0 0;
-        text-align: center;
-        color: rgba(11, 18, 32, .60);
-        font-weight: 650;
-        font-size: 12.5px;
-    }
+/* Info & privacy */
+.ct-info{
+  background:rgba(37,99,235,.08);
+  border:1px solid rgba(37,99,235,.18);
+  color:rgba(11,18,32,.85);
+  border-radius:14px;
+  padding:12px;
+  font-weight:650;
+  font-size:13px;
+}
+.ct-privacy{
+  margin:12px 0 0;
+  text-align:center;
+  color:rgba(11,18,32,.60);
+  font-weight:650;
+  font-size:12.5px;
+}
 </style>
 
 <script>
-    (function() {
-        const openBtns = document.querySelectorAll('.openConsultationModal');
-        const modal = document.getElementById('consultationModal');
-        if (!modal) return;
+(function () {
+  // ----------------------------
+  // Modal open/close + focus trap
+  // ----------------------------
+  const modal = document.getElementById('consultationModal');
+  const openBtns = document.querySelectorAll('.openConsultationModal');
+  if (!modal || !openBtns.length) return;
 
-        const focusableSelector =
-            'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
+  const focusableSelector =
+    'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
 
-        let lastActiveEl = null;
+  let lastActiveEl = null;
 
-        function openModal() {
-            lastActiveEl = document.activeElement;
-            modal.classList.add('is-open');
-            modal.setAttribute('aria-hidden', 'false');
-            document.documentElement.style.overflow = 'hidden';
+  function openModal() {
+    lastActiveEl = document.activeElement;
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.documentElement.style.overflow = 'hidden';
 
-            // Reset to step 1 on open
-            setStep(1);
+    setStep(1);
 
-            const first = modal.querySelector(focusableSelector);
-            if (first) first.focus();
-        }
+    const first = modal.querySelector(focusableSelector);
+    if (first) first.focus();
+  }
 
-        function closeModal() {
-            modal.classList.remove('is-open');
-            modal.setAttribute('aria-hidden', 'true');
-            document.documentElement.style.overflow = '';
-            if (lastActiveEl) lastActiveEl.focus();
-        }
+  function closeModal() {
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.documentElement.style.overflow = '';
+    if (lastActiveEl) lastActiveEl.focus();
+  }
 
-        openBtns.forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                openModal();
-            });
-        });
+  openBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      openModal();
+    });
+  });
 
-        modal.addEventListener('click', (e) => {
-            if (e.target && e.target.dataset.close === 'true') closeModal();
-        });
+  modal.addEventListener('click', (e) => {
+    if (e.target && e.target.dataset.close === 'true') closeModal();
+  });
 
-        document.addEventListener('keydown', (e) => {
-            if (!modal.classList.contains('is-open')) return;
+  document.addEventListener('keydown', (e) => {
+    if (!modal.classList.contains('is-open')) return;
 
-            if (e.key === 'Escape') {
-                e.preventDefault();
-                closeModal();
-                return;
-            }
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      closeModal();
+      return;
+    }
 
-            if (e.key === 'Tab') {
-                const focusables = Array.from(modal.querySelectorAll(focusableSelector))
-                    .filter(el => el.offsetParent !== null);
+    if (e.key === 'Tab') {
+      const focusables = Array.from(modal.querySelectorAll(focusableSelector))
+        .filter(el => el.offsetParent !== null);
 
-                if (!focusables.length) return;
+      if (!focusables.length) return;
 
-                const first = focusables[0];
-                const last = focusables[focusables.length - 1];
+      const first = focusables[0];
+      const last = focusables[focusables.length - 1];
 
-                if (e.shiftKey && document.activeElement === first) {
-                    e.preventDefault();
-                    last.focus();
-                } else if (!e.shiftKey && document.activeElement === last) {
-                    e.preventDefault();
-                    first.focus();
-                }
-            }
-        });
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+  });
 
-        // Wizard logic
-        let currentStep = 1;
+  // Expose close for success auto-close
+  modal._close = closeModal;
 
-        function setStep(step) {
-            currentStep = step;
+  // ----------------------------
+  // Wizard
+  // ----------------------------
+  let currentStep = 1;
 
-            modal.querySelectorAll('.ct-stepPanel').forEach(p => {
-                p.classList.toggle('is-active', Number(p.dataset.step) === step);
-            });
+  function setStep(step) {
+    currentStep = step;
 
-            modal.querySelectorAll('[data-step-indicator]').forEach(ind => {
-                const s = Number(ind.dataset.stepIndicator);
-                ind.classList.toggle('is-active', s === step);
-                ind.classList.toggle('is-done', s < step);
-            });
-        }
+    modal.querySelectorAll('.ct-stepPanel').forEach(p => {
+      p.classList.toggle('is-active', Number(p.dataset.step) === step);
+    });
 
-        function validateCurrentStep() {
-            const panel = modal.querySelector('.ct-stepPanel.is-active');
-            if (!panel) return true;
+    modal.querySelectorAll('[data-step-indicator]').forEach(ind => {
+      const s = Number(ind.dataset.stepIndicator);
+      ind.classList.toggle('is-active', s === step);
+      ind.classList.toggle('is-done', s < step);
+    });
+  }
 
-            // validate only inputs inside current panel
-            const required = Array.from(panel.querySelectorAll('input, select, textarea'));
-            for (const el of required) {
-                if (!el.checkValidity()) {
-                    el.reportValidity();
-                    return false;
-                }
-            }
-            return true;
-        }
+  function validateCurrentStep() {
+    const panel = modal.querySelector('.ct-stepPanel.is-active');
+    if (!panel) return true;
 
-        modal.addEventListener('click', (e) => {
-            const nextBtn = e.target.closest('[data-next]');
-            const prevBtn = e.target.closest('[data-prev]');
+    const fields = Array.from(panel.querySelectorAll('input, select, textarea'));
+    for (const el of fields) {
+      if (!el.checkValidity()) {
+        el.reportValidity();
+        return false;
+      }
+    }
+    return true;
+  }
 
-            if (nextBtn) {
-                if (!validateCurrentStep()) return;
-                if (currentStep < 3) setStep(currentStep + 1);
-            }
+  modal.addEventListener('click', (e) => {
+    const nextBtn = e.target.closest('[data-next]');
+    const prevBtn = e.target.closest('[data-prev]');
 
-            if (prevBtn) {
-                if (currentStep > 1) setStep(currentStep - 1);
-            }
-        });
+    if (nextBtn) {
+      if (!validateCurrentStep()) return;
+      if (currentStep < 3) setStep(currentStep + 1);
+    }
 
-        modal._close = closeModal;
-    })();
+    if (prevBtn) {
+      if (currentStep > 1) setStep(currentStep - 1);
+    }
+  });
+
+  // ----------------------------
+  // Dependent dropdown: Project Type -> Service Needed
+  // ----------------------------
+  const projectSelect = document.getElementById('project_type');
+  const serviceSelect = document.getElementById('service_needed');
+  const help = document.getElementById('serviceHelp');
+
+  const map = @json($serviceNeededMap);
+  const oldProject = @json($oldProjectType);
+  const oldService = @json($oldServiceNeeded);
+
+  function setServiceDisabled(message) {
+    serviceSelect.innerHTML = '<option value="" selected>Select service</option>';
+    serviceSelect.disabled = true;
+    if (help) help.textContent = message || 'Select Project Type first';
+  }
+
+  function populateServices(projectKey) {
+    const options = map[projectKey];
+
+    serviceSelect.innerHTML = '<option value="" selected>Select service</option>';
+
+    if (!options) {
+      setServiceDisabled('Select Project Type first');
+      return;
+    }
+
+    Object.entries(options).forEach(([value, label]) => {
+      const opt = document.createElement('option');
+      opt.value = value;
+      opt.textContent = label;
+      serviceSelect.appendChild(opt);
+    });
+
+    serviceSelect.disabled = false;
+    if (help) help.textContent = 'Select the most relevant service';
+  }
+
+  if (projectSelect && serviceSelect) {
+    projectSelect.addEventListener('change', () => {
+      const key = projectSelect.value;
+      if (!key) {
+        setServiceDisabled('Select Project Type first');
+        return;
+      }
+      populateServices(key);
+      serviceSelect.value = '';
+    });
+
+    // Initial load: restore old values if validation failed
+    if (oldProject) {
+      populateServices(oldProject);
+      if (oldService) serviceSelect.value = oldService;
+    } else {
+      setServiceDisabled('Select Project Type first');
+    }
+  }
+
+})();
 </script>
 
 {{-- Auto close after success --}}
 @if (session('success'))
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const modal = document.getElementById('consultationModal');
-            if (modal && modal._close) modal._close();
-        });
-    </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const modal = document.getElementById('consultationModal');
+    if (modal && modal._close) modal._close();
+  });
+</script>
 @endif

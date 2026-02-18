@@ -877,11 +877,18 @@
             </div>
 
             <div class="worldMap__right">
-                <div class="worldMap__svgWrap" aria-label="World map showing branch locations">
-                    @include('partials.world-map-svg')
+                <div class="worldMap__svgWrap">
+    <figure class="worldMap__figure">
+        @include('partials.world-map-svg')
 
-                    <div class="worldMap__tooltip" id="mapTooltip" role="status" aria-live="polite"></div>
-                </div>
+        <figcaption class="sr-only" id="worldMapCaption">
+            World map showing branch locations.
+        </figcaption>
+
+        <div class="worldMap__tooltip" id="mapTooltip" role="status" aria-live="polite"></div>
+    </figure>
+</div>
+
             </div>
         </div>
 

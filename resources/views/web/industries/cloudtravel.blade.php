@@ -1,15 +1,20 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies')
-@section('meta_title', 'Cloud Technologies Ltd – CloudTravel')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-travel/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/cloud-travel/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Travel SEO Services UK | Tourism Marketing Agency')
+@section('meta_title', 'Travel SEO Services UK | Tourism Marketing Agency.')
+@section('meta_description', 'Travel SEO UK offering digital marketing, SEO and website development to improve rankings,
+    attract travellers and grow your travel business UK for growth today.')
+@section('meta_keywords', 'travel SEO services UK, tourism marketing agency UK, travel digital marketing UK, travel
+    website development UK, SEO for travel businesses UK, travel search engine optimisation UK, tourism SEO strategies UK,
+    travel content marketing UK, local SEO for travel agencies UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-travel/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-travel/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 

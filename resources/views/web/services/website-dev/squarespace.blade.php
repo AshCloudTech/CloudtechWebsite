@@ -1,9 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Squarespace Website Development Services | Cloud Technologies Ltd')
-@section('meta_title', 'Squarespace Website Development Services | Cloud Technologies Ltd')
-@section('meta_description', 'Professional Squarespace website development services for visually engaging,
-    cost-effective websites with easy management and scalable design.')
+@section('title', 'Squarespace Web Design UK | Website Development Agency')
+@section('meta_title', 'Squarespace Web Design UK | Website Development Agency')
+@section('meta_description', 'Squarespace web design UK offering website development, pricing guidance and custom design
+    to build fast, modern and SEO friendly websites across UK.')
+@section('meta_keywords', 'Squarespace web design UK, Squarespace website development UK, Squarespace pricing UK, custom
+    Squarespace design UK, SEO-friendly Squarespace UK, mobile-responsive Squarespace UK, professional Squarespace websites
+    UK, Squarespace agency UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/squarespace/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
@@ -155,8 +158,9 @@
             </div>
             <div class="why-media" aria-hidden="true">
                 <img src="{{ asset('assets/images/web/squarespace.webp') }}" alt="Squarespace Capabilities"
-                    title="Squarespace Capabilities" aria-label="Squarespace Capabilities" aria-hidden="true"
-                    loading="lazy" decoding="async" class="media-placeholder">            </div>
+                    title="Squarespace Capabilities" aria-label="Squarespace Capabilities" aria-hidden="true" loading="lazy"
+                    decoding="async" class="media-placeholder">
+            </div>
         </div>
     </section>
 

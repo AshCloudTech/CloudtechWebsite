@@ -1,9 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Wix Website Development Services | Cloud Technologies Ltd')
-@section('meta_title', 'Wix Website Development Services | Cloud Technologies Ltd')
-@section('meta_description', 'Professional Wix website development services for scalable, visually engaging websites
-    with flexible design and clear pricing.')
+@section('title', 'Wix Website Development Agency UK | Wix Website Experts')
+@section('meta_title', 'Wix Website Development Agency UK | Wix Website Experts.')
+@section('meta_description', 'Wix website development UK offering website design, pricing guidance and custom Wix
+    websites to build fast, modern and SEO friendly sites UK online.')
+@section('meta_keywords', 'Wix website development UK, Wix website design UK, Wix website pricing UK, custom Wix
+    websites UK, SEO-friendly Wix development UK, Wix website experts UK, affordable Wix development UK, professional Wix
+    design UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/wix/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
@@ -152,9 +155,10 @@
                 </ul>
             </div>
             <div class="why-media" aria-hidden="true">
-                <img src="{{ asset('assets/images/web/wix.webp') }}" alt="Wix Capabilities"
-                    title="Wix Capabilities" aria-label="Wix Capabilities" aria-hidden="true"
-                    loading="lazy" decoding="async" class="media-placeholder">            </div>
+                <img src="{{ asset('assets/images/web/wix.webp') }}" alt="Wix Capabilities" title="Wix Capabilities"
+                    aria-label="Wix Capabilities" aria-hidden="true" loading="lazy" decoding="async"
+                    class="media-placeholder">
+            </div>
         </div>
     </section>
 

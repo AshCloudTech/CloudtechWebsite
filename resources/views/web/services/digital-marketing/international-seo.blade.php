@@ -1,16 +1,21 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'International SEO Services')
-@section('meta_title', 'Cloud Technologies Ltd – International SEO Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/international-seo/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/international-seo/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'International SEO Services UK | Global SEO Agency')
+@section('meta_title', 'International SEO Services UK | Global SEO Agency.')
+@section('meta_description', 'International SEO services UK offering multilingual and global SEO solutions to improve
+    rankings, traffic and generate leads across international markets UK.')
+@section('meta_keywords', 'international SEO services UK, global SEO agency UK, multilingual SEO UK, geo-targeted SEO
+    UK, international keyword research UK, hreflang implementation UK, global link building UK, international SEO audit UK,
+    worldwide SEO strategy UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/international-seo/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/international-seo/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -61,7 +66,9 @@
             <div class="markets-grid markets-grid-ui">
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_1.webp') }}"
-                        alt="International SEO Services in United States" title="International SEO Services in United States" aria-hidden="true" aria-label="International SEO Services in United States" loading="lazy" decoding="async">
+                        alt="International SEO Services in United States"
+                        title="International SEO Services in United States" aria-hidden="true"
+                        aria-label="International SEO Services in United States" loading="lazy" decoding="async">
                     <h3>United States</h3>
                     <p>Reach U.S. customers with targeted international SEO.</p>
                 </article>
@@ -69,35 +76,43 @@
                 <article class="market-card market-card-ui">
 
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_2.webp') }}"
-                        alt="International SEO Services in Germany" title="International SEO Services in Germany" aria-hidden="true" aria-label="International SEO Services in Germany" loading="lazy" decoding="async">
+                        alt="International SEO Services in Germany" title="International SEO Services in Germany"
+                        aria-hidden="true" aria-label="International SEO Services in Germany" loading="lazy"
+                        decoding="async">
                     <h3>Germany</h3>
                     <p>Boost visibility in Germany with localized optimization.</p>
                 </article>
 
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_3.webp') }}"
-                        alt="International SEO Services in France" title="International SEO Services in France" aria-hidden="true" aria-label="International SEO Services in France" loading="lazy" decoding="async">
+                        alt="International SEO Services in France" title="International SEO Services in France"
+                        aria-hidden="true" aria-label="International SEO Services in France" loading="lazy"
+                        decoding="async">
                     <h3>France</h3>
                     <p>Connect with French audiences through tailored SEO.</p>
                 </article>
 
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_4.webp') }}"
-                        alt="International SEO Services in Spain" title="International SEO Services in Spain" aria-hidden="true" aria-label="International SEO Services in Spain" loading="lazy" decoding="async">
+                        alt="International SEO Services in Spain" title="International SEO Services in Spain"
+                        aria-hidden="true" aria-label="International SEO Services in Spain" loading="lazy" decoding="async">
                     <h3>Spain</h3>
                     <p>Increase Spanish market reach with effective international SEO.</p>
                 </article>
 
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_5.webp') }}"
-                        alt="International SEO Services in Italy" title="International SEO Services in Italy" aria-hidden="true" aria-label="International SEO Services in Italy" loading="lazy" decoding="async">
+                        alt="International SEO Services in Italy" title="International SEO Services in Italy"
+                        aria-hidden="true" aria-label="International SEO Services in Italy" loading="lazy" decoding="async">
                     <h3>Italy</h3>
                     <p>Target Italian customers with localized search strategies.</p>
                 </article>
 
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_6.webp') }}"
-                        alt="International SEO Services in Netherlands" title="International SEO Services in Netherlands" aria-hidden="true" aria-label="International SEO Services in Netherlands" loading="lazy" decoding="async">
+                        alt="International SEO Services in Netherlands" title="International SEO Services in Netherlands"
+                        aria-hidden="true" aria-label="International SEO Services in Netherlands" loading="lazy"
+                        decoding="async">
                     <h3>Netherlands</h3>
                     <p>Improve visibility in the Netherlands with region-focused SEO.</p>
                 </article>

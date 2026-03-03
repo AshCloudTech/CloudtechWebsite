@@ -1,16 +1,19 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Meta Ads Services')
-@section('meta_title', 'Cloud Technologies Ltd – Meta Ads Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/meta-ads/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/meta-ads/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Meta Ads Services UK | Facebook & Instagram Ads Experts')
+@section('meta_title', 'Meta Ads Services UK | Facebook & Instagram Ads Experts')
+@section('meta_description', 'Meta Ads services UK offering Facebook and Instagram ads to increase traffic, leads and
+    sales with targeted campaigns and expert ad strategies UK now')
+@section('meta_keywords', 'Meta Ads services UK, Facebook Ads UK, Instagram Ads UK, social media advertising UK, Meta advertising agency, targeted ad campaigns UK, ad strategy UK, business growth UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/meta-ads/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/meta-ads/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -97,69 +100,73 @@
     </section>
 
 
-<!-- META ADVERTISING PLATFORMS -->
-<section class="section section-platforms" id="platforms">
-    <div class="container">
-        <div class="section-header">
-            <h2>Meta Advertising Platforms</h2>
-            <p>We manage Meta campaigns across multiple placements to maximize reach and conversions.</p>
+    <!-- META ADVERTISING PLATFORMS -->
+    <section class="section section-platforms" id="platforms">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meta Advertising Platforms</h2>
+                <p>We manage Meta campaigns across multiple placements to maximize reach and conversions.</p>
+            </div>
+
+            <div class="grid grid-2 platform-grid">
+                <article class="card platform-card">
+                    <h3>Facebook Feed</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/facebook_feed.webp') }}"
+                        alt="Facebook Feed" title="Facebook Feed" aria-label="Facebook Feed" aria-hidden="true"
+                        class="platform-icon">
+                    <p class="platform-meta">High-impact placements designed to engage Facebook users effectively.</p>
+                    <ul>
+                        <li>Image Ads</li>
+                        <li>Video Ads</li>
+                        <li>Carousel Ads</li>
+                        <li>Collection Ads</li>
+                    </ul>
+                </article>
+
+                <article class="card platform-card">
+                    <h3>Instagram Ads</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/instagram_ads.webp') }}"
+                        alt="Instagram Ads" title="Instagram Ads" aria-label="Instagram Ads" aria-hidden="true"
+                        class="platform-icon">
+                    <p class="platform-meta">Perfect for visual storytelling and reaching highly engaged audiences.</p>
+                    <ul>
+                        <li>Photo Ads</li>
+                        <li>Story Ads</li>
+                        <li>Reel Ads</li>
+                        <li>Explore Ads</li>
+                    </ul>
+                </article>
+
+                <article class="card platform-card">
+                    <h3>Messenger Ads</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/messenger_ads.webp') }}"
+                        alt="Messenger Ads" title="Messenger Ads" aria-label="Messenger Ads" aria-hidden="true"
+                        class="platform-icon">
+                    <p class="platform-meta">Ideal for conversational ads and direct user engagement.</p>
+                    <ul>
+                        <li>Sponsored Messages</li>
+                        <li>Click-to-Messenger Ads</li>
+                        <li>Retargeting Messages</li>
+                        <li>Inbox Ads</li>
+                    </ul>
+                </article>
+
+                <article class="card platform-card">
+                    <h3>Audience Network</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/audience_network.webp') }}"
+                        alt="Audience Network" title="Audience Network" aria-label="Audience Network" aria-hidden="true"
+                        class="platform-icon">
+                    <p class="platform-meta">Expand your reach beyond Meta apps through partner websites and apps.</p>
+                    <ul>
+                        <li>Native Ads</li>
+                        <li>Banner Ads</li>
+                        <li>Interstitial Ads</li>
+                        <li>Rewarded Video Ads</li>
+                    </ul>
+                </article>
+            </div>
         </div>
-
-        <div class="grid grid-2 platform-grid">
-            <article class="card platform-card">
-                <h3>Facebook Feed</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/facebook_feed.webp') }}"
-                    alt="Facebook Feed" title="Facebook Feed" aria-label="Facebook Feed" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">High-impact placements designed to engage Facebook users effectively.</p>
-                <ul>
-                    <li>Image Ads</li>
-                    <li>Video Ads</li>
-                    <li>Carousel Ads</li>
-                    <li>Collection Ads</li>
-                </ul>
-            </article>
-
-            <article class="card platform-card">
-                <h3>Instagram Ads</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/instagram_ads.webp') }}"
-                    alt="Instagram Ads" title="Instagram Ads" aria-label="Instagram Ads" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">Perfect for visual storytelling and reaching highly engaged audiences.</p>
-                <ul>
-                    <li>Photo Ads</li>
-                    <li>Story Ads</li>
-                    <li>Reel Ads</li>
-                    <li>Explore Ads</li>
-                </ul>
-            </article>
-
-            <article class="card platform-card">
-                <h3>Messenger Ads</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/messenger_ads.webp') }}"
-                    alt="Messenger Ads" title="Messenger Ads" aria-label="Messenger Ads" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">Ideal for conversational ads and direct user engagement.</p>
-                <ul>
-                    <li>Sponsored Messages</li>
-                    <li>Click-to-Messenger Ads</li>
-                    <li>Retargeting Messages</li>
-                    <li>Inbox Ads</li>
-                </ul>
-            </article>
-
-            <article class="card platform-card">
-                <h3>Audience Network</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/audience_network.webp') }}"
-                    alt="Audience Network" title="Audience Network" aria-label="Audience Network" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">Expand your reach beyond Meta apps through partner websites and apps.</p>
-                <ul>
-                    <li>Native Ads</li>
-                    <li>Banner Ads</li>
-                    <li>Interstitial Ads</li>
-                    <li>Rewarded Video Ads</li>
-                </ul>
-            </article>
-        </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- ADVANCED TARGETING OPTIONS -->
@@ -247,61 +254,61 @@
                     </ul>
                 </div>
                 <!-- <div class="services-panel" aria-hidden="true">
-                            <div class="services-panel-inner">
-                                <p class="panel-label">Meta Ads Overview</p>
-                                <p class="panel-text">
-                                    A consolidated view of reach, clicks, leads and sales across all your Meta
-                                    advertising campaigns.
-                                </p>
-                                <p class="panel-meta">
-                                    Built for marketing teams that want clear, actionable insight on what&apos;s working.
-                                </p>
-                            </div>
-                        </div> -->
+                                <div class="services-panel-inner">
+                                    <p class="panel-label">Meta Ads Overview</p>
+                                    <p class="panel-text">
+                                        A consolidated view of reach, clicks, leads and sales across all your Meta
+                                        advertising campaigns.
+                                    </p>
+                                    <p class="panel-meta">
+                                        Built for marketing teams that want clear, actionable insight on what&apos;s working.
+                                    </p>
+                                </div>
+                            </div> -->
             </div>
         </div>
     </section>
 
     <!-- META ADS PROCESS -->
     <!-- <section class="section section-process" id="process">
-                <div class="container">
-                    <div class="section-header section-header-light">
-                        <h2>Our Meta Ads Process</h2>
-                        <p>A proven approach to social media advertising success</p>
-                    </div>
+                    <div class="container">
+                        <div class="section-header section-header-light">
+                            <h2>Our Meta Ads Process</h2>
+                            <p>A proven approach to social media advertising success</p>
+                        </div>
 
-                    <div class="grid grid-4 process-grid">
-                        <article class="card process-card">
-                            <div class="process-step">1</div>
-                            <h3>Audience Research</h3>
-                            <p>
-                                Identify and analyse your target audience on social media.
-                            </p>
-                        </article>
-                        <article class="card process-card">
-                            <div class="process-step">2</div>
-                            <h3>Creative Development</h3>
-                            <p>
-                                Create compelling ad creatives that resonate with your audience.
-                            </p>
-                        </article>
-                        <article class="card process-card">
-                            <div class="process-step">3</div>
-                            <h3>Campaign Launch</h3>
-                            <p>
-                                Launch targeted campaigns across Facebook and Instagram.
-                            </p>
-                        </article>
-                        <article class="card process-card">
-                            <div class="process-step">4</div>
-                            <h3>Optimise &amp; Scale</h3>
-                            <p>
-                                Continuously optimise and scale successful campaigns.
-                            </p>
-                        </article>
+                        <div class="grid grid-4 process-grid">
+                            <article class="card process-card">
+                                <div class="process-step">1</div>
+                                <h3>Audience Research</h3>
+                                <p>
+                                    Identify and analyse your target audience on social media.
+                                </p>
+                            </article>
+                            <article class="card process-card">
+                                <div class="process-step">2</div>
+                                <h3>Creative Development</h3>
+                                <p>
+                                    Create compelling ad creatives that resonate with your audience.
+                                </p>
+                            </article>
+                            <article class="card process-card">
+                                <div class="process-step">3</div>
+                                <h3>Campaign Launch</h3>
+                                <p>
+                                    Launch targeted campaigns across Facebook and Instagram.
+                                </p>
+                            </article>
+                            <article class="card process-card">
+                                <div class="process-step">4</div>
+                                <h3>Optimise &amp; Scale</h3>
+                                <p>
+                                    Continuously optimise and scale successful campaigns.
+                                </p>
+                            </article>
+                        </div>
                     </div>
-                </div>
-            </section> -->
+                </section> -->
 
     <!-- WHAT ARE meta-ads SERVICES -->
     <section class="section section-national-about" id="about-meta_ads-seo">

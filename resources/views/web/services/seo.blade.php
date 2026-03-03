@@ -1,16 +1,21 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'SEO & Website Design Services in the UK | Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – SEO & Website Design Services in the UK')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/seo/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/seo/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'SEO Services UK | Search Engine Optimization Agency')
+@section('meta_title', 'SEO Services UK | Search Engine Optimization Agency.')
+@section('meta_description',
+    'Search engine optimization agency UK offering on-page, off-page and ecommerce SEO services
+    to improve rankings, traffic and leads for your website UK.')
+@section('meta_keywords', 'SEO services UK, search engine optimization agency, on-page SEO, off-page SEO, ecommerce SEO,
+    local SEO, technical SEO, content SEO, image SEO, affordable SEO, UK businesses')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/seo/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/seo/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -24,8 +29,8 @@
                 affordable, results-driven SEO services tailored for companies of all sizes and industries.
             </p>
             <!-- <p class="hero-subtitle">
-                                    Drive targeted traffic, generate real leads and grow your business online.
-                                </p> -->
+                                            Drive targeted traffic, generate real leads and grow your business online.
+                                        </p> -->
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Get Free SEO Review</a>
                 <a href="#services" class="btn btn-ghost">View Our Services</a>
@@ -42,11 +47,11 @@
     <section class="section">
         <div class="container">
             <!-- <div class="section-header">
-                                    <h2>What’s Included in Our Off-Page SEO Service?</h2>
-                                    <p>
-                                        Complete off-page optimisation for authority and ranking growth.
-                                    </p>
-                                </div> -->
+                                            <h2>What’s Included in Our Off-Page SEO Service?</h2>
+                                            <p>
+                                                Complete off-page optimisation for authority and ranking growth.
+                                            </p>
+                                        </div> -->
 
             <div class="services-layout">
                 <div class="services-copy">
@@ -156,8 +161,9 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.national-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/National.webp') }}" alt="National SEO" title="National SEO" aria-label="National SEO" aria-hidden="true"
-                                loading="lazy" decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/National.webp') }}" alt="National SEO"
+                                title="National SEO" aria-label="National SEO" aria-hidden="true" loading="lazy"
+                                decoding="async">
                         </a>
                     </div>
 
@@ -176,8 +182,9 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.international-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/International.webp') }}" alt="International SEO" title="International SEO" aria-label="International SEO" aria-hidden="true"
-                                loading="lazy" decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/International.webp') }}" alt="International SEO"
+                                title="International SEO" aria-label="International SEO" aria-hidden="true" loading="lazy"
+                                decoding="async">
                         </a>
                     </div>
 
@@ -196,8 +203,9 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.technical-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}" alt="Technical SEO" title="Technical SEO" aria-label="Technical SEO" aria-hidden="true"
-                                loading="lazy" decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}" alt="Technical SEO"
+                                title="Technical SEO" aria-label="Technical SEO" aria-hidden="true" loading="lazy"
+                                decoding="async">
                         </a>
                     </div>
 
@@ -217,8 +225,9 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.content-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Content.webp') }}" alt="Content SEO" title="Content SEO" aria-label="Content SEO" aria-hidden="true"
-                                loading="lazy" decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/Content.webp') }}" alt="Content SEO"
+                                title="Content SEO" aria-label="Content SEO" aria-hidden="true" loading="lazy"
+                                decoding="async">
                         </a>
                     </div>
 
@@ -238,8 +247,9 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.image-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO" title="Image SEO" aria-label="Image SEO" aria-hidden="true"
-                                loading="lazy" decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO"
+                                title="Image SEO" aria-label="Image SEO" aria-hidden="true" loading="lazy"
+                                decoding="async">
                         </a>
                     </div>
 
@@ -258,8 +268,9 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.local-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Local.webp') }}" alt="Local SEO" title="Local SEO" aria-label="Local SEO" aria-hidden="true"
-                                loading="lazy" decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/Local.webp') }}" alt="Local SEO"
+                                title="Local SEO" aria-label="Local SEO" aria-hidden="true" loading="lazy"
+                                decoding="async">
                         </a>
                     </div>
 
@@ -278,8 +289,9 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.ecommerce-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}" alt="eCommerce SEO" title="eCommerce SEO" aria-label="eCommerce SEO" aria-hidden="true"
-                                loading="lazy" decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}" alt="eCommerce SEO"
+                                title="eCommerce SEO" aria-label="eCommerce SEO" aria-hidden="true" loading="lazy"
+                                decoding="async">
                         </a>
                     </div>
 
@@ -298,8 +310,9 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.on-page-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}" alt="On-Page SEO" title="On-Page SEO" aria-label="On-Page SEO" aria-hidden="true"
-                                loading="lazy" decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}" alt="On-Page SEO"
+                                title="On-Page SEO" aria-label="On-Page SEO" aria-hidden="true" loading="lazy"
+                                decoding="async">
                         </a>
                     </div>
 
@@ -319,8 +332,9 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.off-page-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}" alt="Off-Page SEO" title="Off-Page SEO" aria-label="Off-Page SEO" aria-hidden="true"
-                                loading="lazy" decoding="async">
+                            <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}" alt="Off-Page SEO"
+                                title="Off-Page SEO" aria-label="Off-Page SEO" aria-hidden="true" loading="lazy"
+                                decoding="async">
                         </a>
                     </div>
 

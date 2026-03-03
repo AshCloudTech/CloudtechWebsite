@@ -1,49 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
-    <title>@yield('title', 'Cloud Technologies Ltd – British-Built Digital Transformation')</title>
+
+    @php
+        $pageTitle = trim($__env->yieldContent('title'))
+            ?: 'Cloud Technologies Ltd – British-Built Digital Transformation';
+
+        $pageDescription = trim($__env->yieldContent('meta_description'))
+            ?: 'British-led global digital transformation partner delivering end-to-end solutions for healthcare, education, travel, recruitment, and public sector organizations worldwide.';
+    @endphp
+
+    <!-- Title -->
+    <title>{{ $pageTitle }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-        content="British-led global digital transformation partner delivering end-to-end solutions for healthcare, education, travel, recruitment, and public sector organizations worldwide.">
-    @php
-        $faviconUrl =
-            !empty($globalCompany?->favicon_path) && file_exists(public_path($globalCompany->favicon_path))
-                ? asset($globalCompany->favicon_path)
-                : asset('assets/images/favicon.png');
-    @endphp
-    <!-- font-family -->
-    <link rel="icon" href="{{ $faviconUrl }}" type="image/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- Meta Description -->
+    <meta name="description" content="{{ $pageDescription }}">
+
+    <!-- Keywords (optional) -->
+    @hasSection('meta_keywords')
+        <meta name="keywords" content="@yield('meta_keywords')">
+    @endif
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ url()->current() }}" />
+
+    @php
+        $faviconUrl = !empty($globalCompany?->favicon_path)
+            ? asset(ltrim($globalCompany->favicon_path, '/'))
+            : asset('assets/images/favicon.png');
+
+        $ogImageUrl = !empty($globalCompany?->og_image_path)
+            ? asset(ltrim($globalCompany->og_image_path, '/'))
+            : asset('assets/images/og-default.jpg');
+    @endphp
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ $faviconUrl }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ $faviconUrl }}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Cloud Technologies Ltd">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:title" content="{{ $pageTitle }}">
+    <meta property="og:description" content="{{ $pageDescription }}">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="{{ $ogImageUrl }}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $pageTitle }}">
+    <meta name="twitter:description" content="{{ $pageDescription }}">
+    <meta name="twitter:image" content="{{ $ogImageUrl }}">
+
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="rxQnU-7ZRd02KJKnFK-2P3jP4xk0WI2QDEhf1NCogz8" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFQG0JPV04"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-QFQG0JPV04');
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
     @yield('meta_tags')
-    {{-- Page-specific CSS --}}
     @stack('styles')
-    <link rel="canonical" href="@yield('canonical', url()->current())" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="{{ asset('assets/audit/audit-modal.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('assets/audit/audit-modal.css') }}">
 </head>
 
 <body>
-    <!-- HEADER -->
+
     @include('layouts.header')
-    <!-- MAIN CONTENT -->
+
     <main>
         @yield('content')
     </main>
-    <!-- FOOTER -->
-    @include('layouts.footer')
 
+    @include('layouts.footer')
     @include('partials.consultation')
-    {{-- Flash nodes (must exist before JS runs) --}}
+
     @if (session('success'))
         <div id="global-flash-success" data-message="{{ session('success') }}"></div>
     @endif
@@ -52,30 +100,26 @@
         <div id="global-flash-error" data-message="{{ session('error') }}"></div>
     @endif
 
-    {{-- Page scripts first --}}
     @stack('scripts')
 
-    {{-- Global scripts always --}}
     <script src="{{ asset('assets/js/forms-global.js') }}" defer></script>
     <script src="{{ asset('assets/audit/audit-modal.js') }}" defer></script>
 
     @include('partials.audit-modal')
-    <!-- Floating WhatsApp Chat Button -->
-        <a href="https://wa.me/{{ $globalCompany?->whatsapp }}" 
-        class="whatsapp-float" 
-        target="_blank" 
-        rel="noopener"
-        aria-label="Chat with us on WhatsApp">
 
-            <span class="whatsapp-text">
-                <strong>We’re Online</strong><br>
-                Chat With Us Now
-            </span>
+    <a href="https://wa.me/{{ $globalCompany?->whatsapp }}"
+       class="whatsapp-float"
+       target="_blank"
+       rel="noopener"
+       aria-label="Chat with us on WhatsApp">
+        <span class="whatsapp-text">
+            <strong>We’re Online</strong><br>
+            Chat With Us Now
+        </span>
+        <span class="whatsapp-icon">
+            <i data-lucide="message-circle"></i>
+        </span>
+    </a>
 
-            <span class="whatsapp-icon">
-                <i data-lucide="message-circle"></i>
-            </span>
-        </a>
 </body>
-
 </html>

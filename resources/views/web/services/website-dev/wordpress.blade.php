@@ -1,10 +1,13 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'WordPress Development Services | Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – WordPress Development Services')
-@section('meta_description',
-    'Custom WordPress development services for fast, secure, and SEO-friendly websites. Themes,
-    plugins, performance optimisation, and ongoing support.')
+@section('title', 'WordPress Development Agency UK | Web Design Services')
+@section('meta_title', 'WordPress Development Agency UK | Web Design Services')
+@section('meta_description', 'WordPress web development UK delivering website design and development services to build
+    SEO friendly, fast and secure websites across UK markets.')
+@section('meta_keywords',
+    'WordPress web development UK, WordPress website development UK, WordPress pricing UK, custom
+    WordPress design UK, SEO-friendly WordPress UK, mobile-responsive WordPress UK, professional WordPress websites
+    UK, WordPress agency UK')
 
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/wordpress/css/style.css') }}">
@@ -251,8 +254,8 @@
                 </p>
 
                 <!-- <p>
-                      With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
-                    </p> -->
+                          With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+                        </p> -->
             </div>
 
         </div>

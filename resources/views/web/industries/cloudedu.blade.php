@@ -1,15 +1,20 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies')
-@section('meta_title', 'Cloud Technologies Ltd – CloudEdu Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-edu/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/cloud-edu/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Education SEO Services UK | Education Marketing Agency')
+@section('meta_title', 'Education SEO Services UK | Education Marketing Agency.')
+@section('meta_description', 'Education SEO UK offering digital marketing, SEO and website development to improve
+    rankings, attract students and grow your institution UK for growth today.')
+@section('meta_keywords', 'education SEO services UK, education marketing agency UK, school SEO UK, university SEO UK,
+    education digital marketing UK, student recruitment marketing UK, education website development UK, local SEO for
+    schools UK, online visibility for education UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-edu/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-edu/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 

@@ -1,16 +1,21 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Technical SEO Services')
-@section('meta_title', 'Cloud Technologies Ltd – Technical SEO Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/technical-seo/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/technical-seo/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Technical SEO Services UK | Website SEO Experts')
+@section('meta_title', 'Technical SEO Services UK | Website SEO Experts.')
+@section('meta_description', 'Technical SEO services UK delivering improvements in speed, crawlability, indexing and
+    performance to increase rankings, traffic and user experience UK.')
+@section('meta_keywords', 'technical SEO services UK, website SEO experts UK, site speed optimization UK, crawlability
+    improvement UK, indexing fixes UK, Core Web Vitals optimization UK, mobile SEO UK, technical SEO audit UK, on-page
+    technical SEO UK, SEO performance enhancement UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/technical-seo/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/technical-seo/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -206,8 +211,9 @@
                 </div>
                 <div class="services-panel">
                     <div class="services-panel-inner">
-                        <img src="{{ asset('assets/images/seo/technical/technical_seo_services.webp') }}" title="Technical SEO Services" alt="Technical SEO Services" aria-hidden="true" aria-label="Technical SEO Services Image"
-                             loading="lazy" decoding="async">
+                        <img src="{{ asset('assets/images/seo/technical/technical_seo_services.webp') }}"
+                            title="Technical SEO Services" alt="Technical SEO Services" aria-hidden="true"
+                            aria-label="Technical SEO Services Image" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>

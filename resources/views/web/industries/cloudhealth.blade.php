@@ -1,15 +1,20 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies')
-@section('meta_title', 'Cloud Technologies Ltd – Case Studies')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-health/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/cloud-health/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Healthcare SEO Service UK | Medical Marketing Agency')
+@section('meta_title', 'Healthcare SEO Service UK | Medical Marketing Agency.')
+@section('meta_description', 'Healthcare SEO UK offering medical SEO, digital marketing and website development to
+    improve rankings, attract patients and grow your practice UK online success!.')
+@section('meta_keywords', 'healthcare SEO UK, medical SEO UK, healthcare digital marketing UK, medical marketing agency
+    UK, healthcare website development UK, patient acquisition UK, local SEO for healthcare UK, healthcare online marketing
+    UK, medical practice growth UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-health/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-health/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -276,5 +281,5 @@
             </div>
         </div>
     </section>
-    
+
 @endsection

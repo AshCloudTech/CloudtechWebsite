@@ -1,16 +1,20 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Social Media Marketing Services in the UK | Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – Social Media Marketing Services in the UK')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/smm/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/smm/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Social Media Marketing Agency UK | Marketing & Advertising')
+@section('meta_title', 'Social Media Marketing Agency UK | Marketing & Advertising.')
+@section('meta_description', 'Social media marketing agency UK offering management, advertising and strategy on
+    Facebook, Instagram and TikTok to grow traffic, leads and sales online UK now.')
+@section('meta_keywords', 'social media marketing agency UK, social media management UK, Facebook marketing UK, Instagram marketing UK, TikTok marketing UK, social media advertising UK, content creation UK, community management UK, social strategy UK')
+
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/smm/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/smm/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -28,7 +32,8 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-accent jsGetAudit" data-audit-type="social-media-audit">Get Social Media Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-accent jsGetAudit" data-audit-type="social-media-audit">Get
+                        Social Media Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Strategy Call</a>
                 </div>
             </div>
@@ -36,189 +41,189 @@
     </section>
 
     <!-- BENEFITS -->
-<section class="section section-benefits" id="benefits">
-  <div class="container">
-    <div class="section-header">
-      <h2>Benefits of Social Media Marketing</h2>
-      <p>Boost visibility, engagement, and customer growth online.</p>
-    </div>
+    <section class="section section-benefits" id="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Benefits of Social Media Marketing</h2>
+                <p>Boost visibility, engagement, and customer growth online.</p>
+            </div>
 
-    <div class="grid grid-4 benefits-grid benefits-grid-ui">
-      <article class="benefit-card benefit-card-ui">
-        <div class="benefit-icon" aria-hidden="true">
-          <i data-lucide="megaphone"></i>
+            <div class="grid grid-4 benefits-grid benefits-grid-ui">
+                <article class="benefit-card benefit-card-ui">
+                    <div class="benefit-icon" aria-hidden="true">
+                        <i data-lucide="megaphone"></i>
+                    </div>
+                    <h3>Brand Awareness</h3>
+                    <p>Increase your brand’s recognition and reach new audiences fast.</p>
+                </article>
+
+                <article class="benefit-card benefit-card-ui">
+                    <div class="benefit-icon" aria-hidden="true">
+                        <i data-lucide="heart-handshake"></i>
+                    </div>
+                    <h3>Engagement</h3>
+                    <p>Build stronger connections through meaningful interactions daily.</p>
+                </article>
+
+                <article class="benefit-card benefit-card-ui">
+                    <div class="benefit-icon" aria-hidden="true">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+                    <h3>Customer Service</h3>
+                    <p>Deliver quick responses and support directly through social platforms.</p>
+                </article>
+
+                <article class="benefit-card benefit-card-ui">
+                    <div class="benefit-icon" aria-hidden="true">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3>Lead Generation</h3>
+                    <p>Capture high-quality leads using targeted social media strategies.</p>
+                </article>
+            </div>
         </div>
-        <h3>Brand Awareness</h3>
-        <p>Increase your brand’s recognition and reach new audiences fast.</p>
-      </article>
+    </section>
 
-      <article class="benefit-card benefit-card-ui">
-        <div class="benefit-icon" aria-hidden="true">
-          <i data-lucide="heart-handshake"></i>
+
+    <!-- PLATFORMS -->
+    <section class="section section-platforms" id="platforms">
+        <div class="container">
+            <div class="section-header">
+                <h2>Social Media Platforms We Manage</h2>
+                <p>We manage top social platforms to grow your brand and engage customers.</p>
+            </div>
+
+            <div class="grid grid-3 platform-grid">
+                <article class="card platform-card">
+                    <h3>Facebook</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/facebook.webp') }}"
+                        alt="Facebook"title="Facebook" aria-label="Facebook" aria-hidden="true" class="platform-icon">
+                    <p class="platform-meta">2.9B+ users</p>
+                    <p>Grow brand presence with targeted Facebook marketing.</p>
+                    <ul>
+                        <li>Audience Growth</li>
+                        <li>Targeted Advertising</li>
+                        <li>Content Posting</li>
+                        <li>Reach Expansion</li>
+                    </ul>
+                </article>
+
+                <article class="card platform-card">
+                    <h3>Instagram</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/instagram.webp') }}" alt="Instagram"
+                        title="Instagram" aria-label="Instagram" aria-hidden="true" class="platform-icon">
+                    <p class="platform-meta">2B+ users</p>
+                    <p>Boost engagement with creative Instagram content strategies.</p>
+                    <ul>
+                        <li>Profile Growth</li>
+                        <li>Reels Creation</li>
+                        <li>Ad Campaigns</li>
+                        <li>Trend Optimization</li>
+                    </ul>
+                </article>
+
+                <article class="card platform-card">
+                    <h3>LinkedIn</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/linkedin.webp') }}" alt="LinkedIn"
+                        title="LinkedIn" aria-label="LinkedIn" aria-hidden="true" class="platform-icon">
+                    <p class="platform-meta">900M+ users</p>
+                    <p>Build authority and generate B2B leads on LinkedIn.</p>
+                    <ul>
+                        <li>Lead Generation</li>
+                        <li>Professional Posting</li>
+                        <li>LinkedIn Ads</li>
+                        <li>Brand Positioning</li>
+                    </ul>
+                </article>
+
+                <article class="card platform-card">
+                    <h3>Twitter</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/twitter.webp') }}" alt="Twitter"
+                        title="Twitter" aria-label="Twitter" aria-hidden="true" class="platform-icon">
+                    <p class="platform-meta">450M+ users</p>
+                    <p>Increase visibility and real time engagement on Twitter.</p>
+                    <ul>
+                        <li>Follower Growth</li>
+                        <li>Trend Marketing</li>
+                        <li>Reach Improvement</li>
+                        <li>Post Engagement</li>
+                    </ul>
+                </article>
+
+                <article class="card platform-card">
+                    <h3>TikTok</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/tiktok.webp') }}" alt="TikTok"
+                        title="TikTok" aria-label="TikTok" aria-hidden="true" class="platform-icon">
+                    <p class="platform-meta">1B+ users</p>
+                    <p>Create viral short form content to grow your TikTok audience.</p>
+                    <ul>
+                        <li>Community Growth</li>
+                        <li>Ad Promotion</li>
+                        <li>Trend Content</li>
+                        <li>Viral Strategy</li>
+                    </ul>
+                </article>
+
+                <article class="card platform-card">
+                    <h3>YouTube</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/youtube.webp') }}" alt="YouTube"
+                        title="YouTube" aria-label="YouTube" aria-hidden="true" class="platform-icon">
+                    <p class="platform-meta">2.7B+ users</p>
+                    <p>Grow your brand with optimized video content on YouTube.</p>
+                    <ul>
+                        <li>Channel Growth</li>
+                        <li>Video SEO</li>
+                        <li>Video Ads</li>
+                        <li>View Generation</li>
+                    </ul>
+                </article>
+            </div>
         </div>
-        <h3>Engagement</h3>
-        <p>Build stronger connections through meaningful interactions daily.</p>
-      </article>
-
-      <article class="benefit-card benefit-card-ui">
-        <div class="benefit-icon" aria-hidden="true">
-          <i data-lucide="message-circle"></i>
-        </div>
-        <h3>Customer Service</h3>
-        <p>Deliver quick responses and support directly through social platforms.</p>
-      </article>
-
-      <article class="benefit-card benefit-card-ui">
-        <div class="benefit-icon" aria-hidden="true">
-          <i data-lucide="trending-up"></i>
-        </div>
-        <h3>Lead Generation</h3>
-        <p>Capture high-quality leads using targeted social media strategies.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-
- <!-- PLATFORMS -->
-<section class="section section-platforms" id="platforms">
-    <div class="container">
-        <div class="section-header">
-            <h2>Social Media Platforms We Manage</h2>
-            <p>We manage top social platforms to grow your brand and engage customers.</p>
-        </div>
-
-        <div class="grid grid-3 platform-grid">
-            <article class="card platform-card">
-                <h3>Facebook</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/smm/images/facebook.webp') }}"
-                    alt="Facebook"title="Facebook" aria-label="Facebook" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">2.9B+ users</p>
-                <p>Grow brand presence with targeted Facebook marketing.</p>
-                <ul>
-                    <li>Audience Growth</li>
-                    <li>Targeted Advertising</li>
-                    <li>Content Posting</li>
-                    <li>Reach Expansion</li>
-                </ul>
-            </article>
-
-            <article class="card platform-card">
-                <h3>Instagram</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/smm/images/instagram.webp') }}"
-                    alt="Instagram" title="Instagram" aria-label="Instagram" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">2B+ users</p>
-                <p>Boost engagement with creative Instagram content strategies.</p>
-                <ul>
-                    <li>Profile Growth</li>
-                    <li>Reels Creation</li>
-                    <li>Ad Campaigns</li>
-                    <li>Trend Optimization</li>
-                </ul>
-            </article>
-
-            <article class="card platform-card">
-                <h3>LinkedIn</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/smm/images/linkedin.webp') }}"
-                    alt="LinkedIn" title="LinkedIn" aria-label="LinkedIn" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">900M+ users</p>
-                <p>Build authority and generate B2B leads on LinkedIn.</p>
-                <ul>
-                    <li>Lead Generation</li>
-                    <li>Professional Posting</li>
-                    <li>LinkedIn Ads</li>
-                    <li>Brand Positioning</li>
-                </ul>
-            </article>
-
-            <article class="card platform-card">
-                <h3>Twitter</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/smm/images/twitter.webp') }}"
-                    alt="Twitter" title="Twitter" aria-label="Twitter" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">450M+ users</p>
-                <p>Increase visibility and real time engagement on Twitter.</p>
-                <ul>
-                    <li>Follower Growth</li>
-                    <li>Trend Marketing</li>
-                    <li>Reach Improvement</li>
-                    <li>Post Engagement</li>
-                </ul>
-            </article>
-
-            <article class="card platform-card">
-                <h3>TikTok</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/smm/images/tiktok.webp') }}"
-                    alt="TikTok" title="TikTok" aria-label="TikTok" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">1B+ users</p>
-                <p>Create viral short form content to grow your TikTok audience.</p>
-                <ul>
-                    <li>Community Growth</li>
-                    <li>Ad Promotion</li>
-                    <li>Trend Content</li>
-                    <li>Viral Strategy</li>
-                </ul>
-            </article>
-
-            <article class="card platform-card">
-                <h3>YouTube</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/smm/images/youtube.webp') }}"
-                    alt="YouTube" title="YouTube" aria-label="YouTube" aria-hidden="true" class="platform-icon">
-                <p class="platform-meta">2.7B+ users</p>
-                <p>Grow your brand with optimized video content on YouTube.</p>
-                <ul>
-                    <li>Channel Growth</li>
-                    <li>Video SEO</li>
-                    <li>Video Ads</li>
-                    <li>View Generation</li>
-                </ul>
-            </article>
-        </div>
-    </div>
-</section>
+    </section>
 
     <!-- CONTENT TYPES -->
-<section class="section section-alt section-content-types">
-  <div class="container">
-    <div class="section-header">
-      <h2>Content Types We Create</h2>
-      <p>We create engaging visual, written, video, and interactive content for all platforms.</p>
-    </div>
+    <section class="section section-alt section-content-types">
+        <div class="container">
+            <div class="section-header">
+                <h2>Content Types We Create</h2>
+                <p>We create engaging visual, written, video, and interactive content for all platforms.</p>
+            </div>
 
-    <div class="grid grid-4 content-type-grid content-type-grid-ui">
-      <article class="content-type-card content-type-card-ui">
-        <div class="content-type-icon" aria-hidden="true">
-          <i data-lucide="image"></i>
-        </div>
-        <h3>Visual Content</h3>
-        <p>Eye-catching graphics that boost engagement.</p>
-      </article>
+            <div class="grid grid-4 content-type-grid content-type-grid-ui">
+                <article class="content-type-card content-type-card-ui">
+                    <div class="content-type-icon" aria-hidden="true">
+                        <i data-lucide="image"></i>
+                    </div>
+                    <h3>Visual Content</h3>
+                    <p>Eye-catching graphics that boost engagement.</p>
+                </article>
 
-      <article class="content-type-card content-type-card-ui">
-        <div class="content-type-icon" aria-hidden="true">
-          <i data-lucide="video"></i>
-        </div>
-        <h3>Video Content</h3>
-        <p>High-impact videos for stronger brand storytelling.</p>
-      </article>
+                <article class="content-type-card content-type-card-ui">
+                    <div class="content-type-icon" aria-hidden="true">
+                        <i data-lucide="video"></i>
+                    </div>
+                    <h3>Video Content</h3>
+                    <p>High-impact videos for stronger brand storytelling.</p>
+                </article>
 
-      <article class="content-type-card content-type-card-ui">
-        <div class="content-type-icon" aria-hidden="true">
-          <i data-lucide="file-text"></i>
-        </div>
-        <h3>Written Content</h3>
-        <p>Captivating captions, posts, and social copy.</p>
-      </article>
+                <article class="content-type-card content-type-card-ui">
+                    <div class="content-type-icon" aria-hidden="true">
+                        <i data-lucide="file-text"></i>
+                    </div>
+                    <h3>Written Content</h3>
+                    <p>Captivating captions, posts, and social copy.</p>
+                </article>
 
-      <article class="content-type-card content-type-card-ui">
-        <div class="content-type-icon" aria-hidden="true">
-          <i data-lucide="layers"></i>
+                <article class="content-type-card content-type-card-ui">
+                    <div class="content-type-icon" aria-hidden="true">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3>Interactive Content</h3>
+                    <p>Polls, quizzes, and content that drives actions.</p>
+                </article>
+            </div>
         </div>
-        <h3>Interactive Content</h3>
-        <p>Polls, quizzes, and content that drives actions.</p>
-      </article>
-    </div>
-  </div>
-</section>
+    </section>
 
 
     <!-- COMPLETE SERVICES -->
@@ -244,20 +249,20 @@
                         <li>Creative Design and Visual Branding </li>
                     </ul>
                 </div>
-              <div class="services-panel">
-                        <div class="services-panel-inner">
-                            <p class="services-label">Campaign Insights</p>
-                            <p class="services-text">
-                                Dive into your campaign performance across all social media platforms. See what's
-                                driving engagement, where your audience is growing, and which platforms are
-                                performing best.
-                            </p>
-                            <p class="services-meta">
-                                Our campaign overview provides actionable insights to help you optimize your social media
-                                strategy and drive real business results.
-                            </p>
-                        </div>
+                <div class="services-panel">
+                    <div class="services-panel-inner">
+                        <p class="services-label">Campaign Insights</p>
+                        <p class="services-text">
+                            Dive into your campaign performance across all social media platforms. See what's
+                            driving engagement, where your audience is growing, and which platforms are
+                            performing best.
+                        </p>
+                        <p class="services-meta">
+                            Our campaign overview provides actionable insights to help you optimize your social media
+                            strategy and drive real business results.
+                        </p>
                     </div>
+                </div>
             </div>
         </div>
     </section>
@@ -370,67 +375,72 @@
             </div>
         </div>
     </section>
-         <!-- What Is Social Media Marketing?  -->
-<section class="section section-national-about" id="about-meta_ads-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <!-- What Is Social Media Marketing?  -->
+    <section class="section section-national-about" id="about-meta_ads-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Is Social Media Marketing?</h2>
+                <div class="national-about-content">
+                    <h2>What Is Social Media Marketing?</h2>
 
+                    <p>
+                        Social media marketing is the strategic use of social platforms to increase brand visibility, engage
+                        audiences, and generate leads or sales. It combines content creation, community engagement, paid
+                        advertising, and data analysis to build a strong online presence that supports real business growth.
+                    </p>
+
+                    <p>
+                        A successful social media strategy ensures your brand stays visible, relevant, and connected to your
+                        audience across the platforms they use every day.
+                    </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Content Strategy & Brand Voice </h3>
+
+                    <p>
+                        We don’t post randomly. We build a content plan that includes:
+                    </p>
+
+                    <ul>
+                        <li>Educational posts that build authority</li>
+                        <li>Promotional posts that drive action</li>
+                        <li>Engaging posts that encourage interaction</li>
+                        <li>Trend-based content that increases reach</li>
+                    </ul>
+
+                    <p class="">
+                        A consistent brand voice across all platforms strengthens recognition and trust.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Social Media Marketing Is Essential for Modern Brands -->
+    <section class="section section-national-growth" id="meta_ads-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why Social Media Marketing Is Essential for Modern Brands </h2>
+            </div>
+
+            <div class="national-growth-card">
                 <p>
-                  Social media marketing is the strategic use of social platforms to increase brand visibility, engage audiences, and generate leads or sales. It combines content creation, community engagement, paid advertising, and data analysis to build a strong online presence that supports real business growth.
+                    Customers now research brands on social media before making decisions. An active, engaging presence
+                    builds credibility and keeps your brand top of mind.
                 </p>
 
                 <p>
-                   A successful social media strategy ensures your brand stays visible, relevant, and connected to your audience across the platforms they use every day.
+                    With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead
+                    generation that supports your overall digital marketing efforts.
                 </p>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Content Strategy & Brand Voice </h3>
-
-                <p>
-                   We don’t post randomly. We build a content plan that includes:
-                </p>
-
-                <ul>
-                    <li>Educational posts that build authority</li>
-                    <li>Promotional posts that drive action</li>
-                    <li>Engaging posts that encourage interaction</li>
-                    <li>Trend-based content that increases reach</li>
-                </ul>
-
-                <p class="">
-                   A consistent brand voice across all platforms strengthens recognition and trust.
-                </p>
-            </div>
-
         </div>
-    </div>
-</section>
-
-
-<!-- Why Social Media Marketing Is Essential for Modern Brands -->
-<section class="section section-national-growth" id="meta_ads-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why Social Media Marketing Is Essential for Modern Brands </h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-               Customers now research brands on social media before making decisions. An active, engaging presence builds credibility and keeps your brand top of mind.
-            </p>
-
-            <p>
-              With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
     <!-- CTA -->
     <section class="section smm-cta" style="margin-top:35px" id="cta">
         <div class="container">

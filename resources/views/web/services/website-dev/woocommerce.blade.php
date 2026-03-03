@@ -1,10 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'WooCommerce Development Services | Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – WooCommerce Development Services')
-@section('meta_description',
-    'Professional WooCommerce development services for scalable online stores. Custom features,
-    performance optimisation, payments, shipping, and ongoing support.')
+@section('title', 'WooCommerce Agency UK | Web Development Services')
+@section('meta_title', 'WooCommerce Agency UK | Web Development Services')
+@section('meta_description', 'WooCommerce agency UK offering web development services to build responsive, secure and
+    SEO friendly ecommerce websites for your business growth UK.')
+@section('meta_keywords', 'WooCommerce agency UK, WooCommerce web development UK, ecommerce website development UK,
+    WooCommerce store setup UK, custom WooCommerce development UK, responsive WooCommerce design UK, secure WooCommerce
+    development UK, SEO-friendly WooCommerce UK, online store development UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/woocommerce/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
@@ -231,8 +233,8 @@
                 </p>
 
                 <!-- <p>
-                      With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
-                    </p> -->
+                          With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
+                        </p> -->
             </div>
 
         </div>

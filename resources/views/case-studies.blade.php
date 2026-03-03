@@ -1,15 +1,18 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies')
-@section('meta_title', 'Cloud Technologies Ltd – Case Studies')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/case-studies/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/case-studies/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Case Studies | Digital Marketing, SEO & Web Development UK')
+@section('meta_title', 'Case Studies | Digital Marketing, SEO & Web Development UK')
+@section('meta_description', 'Explore our case studies showcasing SEO, web development and digital marketing results.
+    See how we increased traffic, leads and sales UK.')
+@section('meta_keywords', 'case studies, SEO case studies, web development case studies, digital marketing case studies, UK, traffic growth, lead generation, sales growth')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/case-studies/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/case-studies/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 

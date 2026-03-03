@@ -1,15 +1,20 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies')
-@section('meta_title', 'Cloud Technologies Ltd – CloudCare Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-care/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/cloud-care/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Care Home SEO Services UK | Care Home Marketing Agency Services')
+@section('meta_title', 'Care Home SEO Services UK | Care Home Marketing Agency Services.')
+@section('meta_description', 'SEO for care homes UK providing digital marketing, SEO and website development to increase
+    enquiries and occupancy rates UK for business growth today.')
+@section('meta_keywords', 'care home SEO services UK, care home marketing agency UK, SEO for care homes UK, digital
+    marketing for care homes UK, care home website development UK, local SEO for care homes UK, care home online marketing
+    UK, care home search engine optimisation UK, care home digital strategy UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-care/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-care/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
     <!-- HERO -->

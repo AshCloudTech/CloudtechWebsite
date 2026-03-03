@@ -1,16 +1,20 @@
 @extends('layouts.cloudtech')
 
-@section('title', '')
-@section('meta_title', '')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/off-page/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/off-page/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Off-Page SEO Agency UK | Link Building Experts')
+@section('meta_title', 'Off-Page SEO Agency UK | Link Building Experts.')
+@section('meta_description', 'Off-page SEO services UK to build backlinks, improve domain authority and increase
+    rankings, traffic and online visibility for your business UK online.')
+@section('meta_keywords', 'off-page SEO agency UK, link building services UK, backlink building UK, guest posting UK,
+    citation building UK, brand mentions UK, authority signals UK, domain authority improvement UK, organic visibility UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/off-page/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/off-page/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
     <!-- HERO -->
@@ -28,178 +32,179 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="off-page-seo">Get Free SEO Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="off-page-seo">Get Free SEO
+                        Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Speak to Expert</a>
                 </div>
             </div>
 
             <!-- <div class="hero-panel">
-                    <div class="hero-panel-inner">
-                        <p class="hero-panel-label">Authority Snapshot</p>
-                        <p class="hero-panel-text">
-                            We build authority with a white-hat approach: relevant links, digital PR, content distribution and brand citations—measured with clear reporting and KPIs.
-                        </p>
-                        <ul class="hero-panel-list">
-                            <li>Backlink profile & toxicity</li><li>High-authority placements</li><li>Brand mentions & citations</li><li>Reporting & growth tracking</li>
-                        </ul>
-                    </div>
-                </div> -->
+                        <div class="hero-panel-inner">
+                            <p class="hero-panel-label">Authority Snapshot</p>
+                            <p class="hero-panel-text">
+                                We build authority with a white-hat approach: relevant links, digital PR, content distribution and brand citations—measured with clear reporting and KPIs.
+                            </p>
+                            <ul class="hero-panel-list">
+                                <li>Backlink profile & toxicity</li><li>High-authority placements</li><li>Brand mentions & citations</li><li>Reporting & growth tracking</li>
+                            </ul>
+                        </div>
+                    </div> -->
         </div>
     </section>
 
-<!-- WHY -->
-<section class="section section-alt" id="why">
-  <div class="container">
-    <div class="section-header">
-      <h2>Why Choose Our Off-Page SEO Services in the UK?</h2>
-      <p>Drive organic traffic and increase domain authority with advanced off-page optimisation strategies.</p>
-    </div>
+    <!-- WHY -->
+    <section class="section section-alt" id="why">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Our Off-Page SEO Services in the UK?</h2>
+                <p>Drive organic traffic and increase domain authority with advanced off-page optimisation strategies.</p>
+            </div>
 
-    <div class="why-grid why-grid-ui">
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="link-2"></i></div>
-        <h3>High-Quality Link Building</h3>
-        <p>Acquire authoritative backlinks from relevant and trusted websites.</p>
-      </article>
+            <div class="why-grid why-grid-ui">
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="link-2"></i></div>
+                    <h3>High-Quality Link Building</h3>
+                    <p>Acquire authoritative backlinks from relevant and trusted websites.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="send"></i></div>
-        <h3>Guest Posting &amp; Outreach</h3>
-        <p>Manual outreach and guest posting on niche-relevant sites for sustainable SEO value.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="send"></i></div>
+                    <h3>Guest Posting &amp; Outreach</h3>
+                    <p>Manual outreach and guest posting on niche-relevant sites for sustainable SEO value.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="list-checks"></i></div>
-        <h3>Citation &amp; Directory Submissions</h3>
-        <p>Build local citations and consistent listings for stronger local SEO signals.</p>
-      </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="list-checks"></i></div>
+                    <h3>Citation &amp; Directory Submissions</h3>
+                    <p>Build local citations and consistent listings for stronger local SEO signals.</p>
+                </article>
 
-      <article class="card why-card why-card-ui">
-        <div class="why-icon" aria-hidden="true"><i data-lucide="shield-check"></i></div>
-        <h3>Improve Domain Authority</h3>
-        <p>Strengthen trust, authority, and ranking potential in Google through quality signals.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-
-<!-- PROCESS -->
-<section class="section section-process" id="process">
-  <div class="container">
-    <div class="section-header section-header-light">
-      <h2>Our Off-Page SEO Process</h2>
-      <p>A strategic approach to build authority outside your website.</p>
-    </div>
-
-    <div class="process-grid process-grid-ui">
-      <article class="card process-card process-card-ui">
-        <div class="process-icon" aria-hidden="true"><i data-lucide="scan"></i></div>
-        <h3>Backlink Audit</h3>
-        <p>Analyse existing backlinks, remove toxic links, and identify opportunities.</p>
-      </article>
-
-      <article class="card process-card process-card-ui">
-        <div class="process-icon" aria-hidden="true"><i data-lucide="target"></i></div>
-        <h3>Link Building Strategy</h3>
-        <p>Plan niche-relevant backlinks, guest posts, and authority placements.</p>
-      </article>
-
-      <article class="card process-card process-card-ui">
-        <div class="process-icon" aria-hidden="true"><i data-lucide="megaphone"></i></div>
-        <h3>Manual Outreach Implementation</h3>
-        <p>Perform outreach, content placements, and link acquisition with quality control.</p>
-      </article>
-
-      <article class="card process-card process-card-ui">
-        <div class="process-icon" aria-hidden="true"><i data-lucide="line-chart"></i></div>
-        <h3>Performance Tracking</h3>
-        <p>Monitor backlinks, authority, and keyword movement to guide improvements.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-
-<!-- CONTENT TYPES -->
-<section class="section content-types" id="content-types">
-  <div class="container">
-    <div class="section-header">
-      <h2>Off-Page SEO Activities We Perform</h2>
-      <p>Comprehensive off-page SEO techniques to boost authority and visibility.</p>
-    </div>
-
-    <div class="ct-grid ct-grid-ui">
-      <!-- Card 1 -->
-      <article class="ct-card ct-card-ui">
-        <div class="ct-head">
-          <div class="ct-icon" aria-hidden="true"><i data-lucide="edit-3"></i></div>
-          <div class="ct-title">
-            <h3>Guest Posting on Authority Websites</h3>
-            <p>Guest posts on niche sites for contextual backlinks via manual outreach.</p>
-          </div>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon" aria-hidden="true"><i data-lucide="shield-check"></i></div>
+                    <h3>Improve Domain Authority</h3>
+                    <p>Strengthen trust, authority, and ranking potential in Google through quality signals.</p>
+                </article>
+            </div>
         </div>
-        <ul class="ct-points">
-          <li>Niche-relevant publishers</li>
-          <li>Contextual backlinks</li>
-          <li>Quality placements</li>
-          <li>Manual outreach</li>
-        </ul>
-      </article>
+    </section>
 
-      <!-- Card 2 -->
-      <article class="ct-card ct-card-ui">
-        <div class="ct-head">
-          <div class="ct-icon" aria-hidden="true"><i data-lucide="map"></i></div>
-          <div class="ct-title">
-            <h3>Business Listings &amp; Citations</h3>
-            <p>Accurate listings to strengthen local SEO and improve NAP consistency.</p>
-          </div>
-        </div>
-        <ul class="ct-points">
-          <li>Directory submissions</li>
-          <li>Local citations</li>
-          <li>NAP consistency</li>
-          <li>Local trust signals</li>
-        </ul>
-      </article>
 
-      <!-- Card 3 -->
-      <article class="ct-card ct-card-ui">
-        <div class="ct-head">
-          <div class="ct-icon" aria-hidden="true"><i data-lucide="share-2"></i></div>
-          <div class="ct-title">
-            <h3>Social Bookmarking &amp; Brand Mentions</h3>
-            <p>Content distribution that drives referral traffic and authority signals.</p>
-          </div>
-        </div>
-        <ul class="ct-points">
-          <li>Social sharing platforms</li>
-          <li>Brand signals</li>
-          <li>Referral traffic</li>
-          <li>Content promotion</li>
-        </ul>
-      </article>
+    <!-- PROCESS -->
+    <section class="section section-process" id="process">
+        <div class="container">
+            <div class="section-header section-header-light">
+                <h2>Our Off-Page SEO Process</h2>
+                <p>A strategic approach to build authority outside your website.</p>
+            </div>
 
-      <!-- Card 4 -->
-      <article class="ct-card ct-card-ui">
-        <div class="ct-head">
-          <div class="ct-icon" aria-hidden="true"><i data-lucide="message-square"></i></div>
-          <div class="ct-title">
-            <h3>Forum &amp; Community Engagement</h3>
-            <p>Relevant participation to build trust and maintain a natural link profile.</p>
-          </div>
+            <div class="process-grid process-grid-ui">
+                <article class="card process-card process-card-ui">
+                    <div class="process-icon" aria-hidden="true"><i data-lucide="scan"></i></div>
+                    <h3>Backlink Audit</h3>
+                    <p>Analyse existing backlinks, remove toxic links, and identify opportunities.</p>
+                </article>
+
+                <article class="card process-card process-card-ui">
+                    <div class="process-icon" aria-hidden="true"><i data-lucide="target"></i></div>
+                    <h3>Link Building Strategy</h3>
+                    <p>Plan niche-relevant backlinks, guest posts, and authority placements.</p>
+                </article>
+
+                <article class="card process-card process-card-ui">
+                    <div class="process-icon" aria-hidden="true"><i data-lucide="megaphone"></i></div>
+                    <h3>Manual Outreach Implementation</h3>
+                    <p>Perform outreach, content placements, and link acquisition with quality control.</p>
+                </article>
+
+                <article class="card process-card process-card-ui">
+                    <div class="process-icon" aria-hidden="true"><i data-lucide="line-chart"></i></div>
+                    <h3>Performance Tracking</h3>
+                    <p>Monitor backlinks, authority, and keyword movement to guide improvements.</p>
+                </article>
+            </div>
         </div>
-        <ul class="ct-points">
-          <li>Community participation</li>
-          <li>Trust building</li>
-          <li>Natural link profile</li>
-          <li>Brand visibility</li>
-        </ul>
-      </article>
-    </div>
-  </div>
-</section>
+    </section>
+
+
+    <!-- CONTENT TYPES -->
+    <section class="section content-types" id="content-types">
+        <div class="container">
+            <div class="section-header">
+                <h2>Off-Page SEO Activities We Perform</h2>
+                <p>Comprehensive off-page SEO techniques to boost authority and visibility.</p>
+            </div>
+
+            <div class="ct-grid ct-grid-ui">
+                <!-- Card 1 -->
+                <article class="ct-card ct-card-ui">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"><i data-lucide="edit-3"></i></div>
+                        <div class="ct-title">
+                            <h3>Guest Posting on Authority Websites</h3>
+                            <p>Guest posts on niche sites for contextual backlinks via manual outreach.</p>
+                        </div>
+                    </div>
+                    <ul class="ct-points">
+                        <li>Niche-relevant publishers</li>
+                        <li>Contextual backlinks</li>
+                        <li>Quality placements</li>
+                        <li>Manual outreach</li>
+                    </ul>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="ct-card ct-card-ui">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"><i data-lucide="map"></i></div>
+                        <div class="ct-title">
+                            <h3>Business Listings &amp; Citations</h3>
+                            <p>Accurate listings to strengthen local SEO and improve NAP consistency.</p>
+                        </div>
+                    </div>
+                    <ul class="ct-points">
+                        <li>Directory submissions</li>
+                        <li>Local citations</li>
+                        <li>NAP consistency</li>
+                        <li>Local trust signals</li>
+                    </ul>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="ct-card ct-card-ui">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"><i data-lucide="share-2"></i></div>
+                        <div class="ct-title">
+                            <h3>Social Bookmarking &amp; Brand Mentions</h3>
+                            <p>Content distribution that drives referral traffic and authority signals.</p>
+                        </div>
+                    </div>
+                    <ul class="ct-points">
+                        <li>Social sharing platforms</li>
+                        <li>Brand signals</li>
+                        <li>Referral traffic</li>
+                        <li>Content promotion</li>
+                    </ul>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="ct-card ct-card-ui">
+                    <div class="ct-head">
+                        <div class="ct-icon" aria-hidden="true"><i data-lucide="message-square"></i></div>
+                        <div class="ct-title">
+                            <h3>Forum &amp; Community Engagement</h3>
+                            <p>Relevant participation to build trust and maintain a natural link profile.</p>
+                        </div>
+                    </div>
+                    <ul class="ct-points">
+                        <li>Community participation</li>
+                        <li>Trust building</li>
+                        <li>Natural link profile</li>
+                        <li>Brand visibility</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
 
 
     <!-- INCLUDED -->
@@ -214,9 +219,10 @@
 
             <div class="services-layout">
                 <div class="services-copy">
-                       <img src="{{ asset('assets/images/seo/off_page/off_page_seo_services.webp') }}" alt="Off-Page SEO Services" title="Off-Page SEO Services" aria-hidden="true" aria-label="Off-Page SEO Services Image"
-                                loading="lazy" decoding="async">
-                    </div> 
+                    <img src="{{ asset('assets/images/seo/off_page/off_page_seo_services.webp') }}"
+                        alt="Off-Page SEO Services" title="Off-Page SEO Services" aria-hidden="true"
+                        aria-label="Off-Page SEO Services Image" loading="lazy" decoding="async">
+                </div>
 
                 <div class="services-cards">
                     <div class="card services-card">
@@ -238,71 +244,77 @@
         </div>
     </section>
     <!-- WHAT ARE OFF-PAGE SEO SERVICES -->
-<section class="section section-national-about" id="about-offpage-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <section class="section section-national-about" id="about-offpage-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Are Off-Page SEO Services?</h2>
+                <div class="national-about-content">
+                    <h2>What Are Off-Page SEO Services?</h2>
 
+                    <p>
+                        Off-page SEO services focus on improving your website’s authority, trust, and reputation through
+                        signals that exist outside your website. The most important of these signals are high-quality
+                        backlinks from relevant, authoritative websites.
+                    </p>
+
+                    <p>
+                        Search engines use backlinks, brand mentions, citations, and online reputation to evaluate how
+                        trustworthy and credible your website is. A strong off-page SEO strategy helps your website earn
+                        these signals naturally and safely, leading to higher rankings and stronger organic visibility.
+                    </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Anchor Text & Natural Link Profile Strategy</h3>
+
+                    <p>
+                        A successful off-page SEO campaign requires a balanced and natural backlink profile.
+                    </p>
+
+                    <p>
+                        We carefully manage:
+                    </p>
+
+                    <ul>
+                        <li>Branded anchor texts</li>
+                        <li>Partial match keywords</li>
+                        <li>Generic anchors (e.g. “click here”)</li>
+                        <li>Naked URLs</li>
+                        <li>Contextual placements within relevant content</li>
+                    </ul>
+
+                    <p class="national-about-note">
+                        This prevents over-optimisation and ensures long-term ranking stability.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY OFF-PAGE SEO IS CRITICAL -->
+    <section class="section section-national-growth" id="offpage-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why Off-Page SEO Is Critical for Competitive Keywords</h2>
+            </div>
+
+            <div class="national-growth-card">
                 <p>
-                    Off-page SEO services focus on improving your website’s authority, trust, and reputation through signals that exist outside your website. The most important of these signals are high-quality backlinks from relevant, authoritative websites.
+                    For competitive keywords, on-page and technical SEO alone are not enough. Google needs to see external
+                    proof that your website is trusted within your industry.
                 </p>
 
                 <p>
-                    Search engines use backlinks, brand mentions, citations, and online reputation to evaluate how trustworthy and credible your website is. A strong off-page SEO strategy helps your website earn these signals naturally and safely, leading to higher rankings and stronger organic visibility.
+                    Off-page SEO provides this proof through authority links, brand mentions, and reputation signals that
+                    increase your domain strength and ranking potential across all pages.
                 </p>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Anchor Text & Natural Link Profile Strategy</h3>
-
-                <p>
-                    A successful off-page SEO campaign requires a balanced and natural backlink profile.
-                </p>
-
-                <p>
-                    We carefully manage:
-                </p>
-
-                <ul>
-                    <li>Branded anchor texts</li>
-                    <li>Partial match keywords</li>
-                    <li>Generic anchors (e.g. “click here”)</li>
-                    <li>Naked URLs</li>
-                    <li>Contextual placements within relevant content</li>
-                </ul>
-
-                <p class="national-about-note">
-                    This prevents over-optimisation and ensures long-term ranking stability.
-                </p>
-            </div>
-
         </div>
-    </div>
-</section>
-
-
-<!-- WHY OFF-PAGE SEO IS CRITICAL -->
-<section class="section section-national-growth" id="offpage-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why Off-Page SEO Is Critical for Competitive Keywords</h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-                For competitive keywords, on-page and technical SEO alone are not enough. Google needs to see external proof that your website is trusted within your industry.
-            </p>
-
-            <p>
-                Off-page SEO provides this proof through authority links, brand mentions, and reputation signals that increase your domain strength and ranking potential across all pages.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
 
     <!-- CTA -->
@@ -316,7 +328,8 @@
                     </p>
                 </div>
                 <div class="cta-actions offpage-cta-actions">
-                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="off-page-seo">Get Free SEO Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="off-page-seo">Get Free SEO
+                        Audit</a>
                     <a href="#process" class="btn btn-outline-light">View Our Process</a>
                 </div>
             </div>

@@ -1,9 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Laravel Development Services | Cloud Technologies Ltd')
-@section('meta_title', 'Laravel Development Services | Cloud Technologies Ltd')
-@section('meta_description', 'Professional Laravel development services for scalable, secure, and high-performance web
-    applications tailored to complex business needs.')
+@section('title', 'Laravel Web Development UK | Laravel Agency Experts')
+@section('meta_title', 'Laravel Web Development UK | Laravel Agency Experts.')
+@section('meta_description', 'Laravel web development UK providing website development, package development and scalable
+    solutions for high performance apps UK for business growth today.')
+@section('meta_keywords', 'Laravel web development UK, Laravel development services UK, Laravel package development UK,
+    scalable Laravel solutions UK, high performance Laravel apps UK, Laravel web development agency UK, business growth with
+    Laravel UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/laravel/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
@@ -116,8 +119,9 @@
         <div class="container stack-layout">
             <div class="stack-media" aria-hidden="true">
                 <img src="{{ asset('assets/images/web/laravel.webp') }}" alt="Laravel Capabilities"
-                    title="Laravel Capabilities" aria-label="Laravel Capabilities" aria-hidden="true"
-                    loading="lazy" decoding="async" class="media-placeholder">            </div>
+                    title="Laravel Capabilities" aria-label="Laravel Capabilities" aria-hidden="true" loading="lazy"
+                    decoding="async" class="media-placeholder">
+            </div>
             <div class="stack-copy">
                 <h2>Modern Technology Stack</h2>
                 <p class="stack-intro">

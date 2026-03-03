@@ -1,15 +1,20 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies')
-@section('meta_title', 'Cloud Technologies Ltd – CloudRecruit')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-recruit/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/cloud-recruit/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Recruitment SEO Services UK | Recruitment Marketing Agency')
+@section('meta_title', 'Recruitment SEO Services UK | Recruitment Marketing Agency.')
+@section('meta_description', 'Recruitment SEO UK offering digital marketing, SEO and website development to improve
+    rankings, attract candidates and grow your agency UK for growth today.')
+@section('meta_keywords', 'recruitment SEO services UK, recruitment marketing agency UK, SEO for recruitment agencies
+    UK, digital marketing for recruiters UK, recruitment website development UK, candidate attraction UK, agency growth UK,
+    recruitment SEO strategy UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-recruit/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-recruit/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 

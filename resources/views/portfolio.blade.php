@@ -1,167 +1,167 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Portfolio')
-@section('meta_title', 'Cloud Technologies Ltd – Portfolio')
+@section('title', 'Portfolio | Digital Marketing, SEO & Web Development UK')
+@section('meta_title', 'Portfolio | Digital Marketing, SEO & Web Development UK')
+@section('meta_description', 'Explore our portfolio showcasing SEO, web development and digital marketing projects. See
+    real results in traffic, leads and business growth UK.')
+@section('meta_keywords', 'portfolio, SEO projects, web development projects, digital marketing case studies, UK, traffic growth, lead generation, business growth')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/portfolio/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
 
-@push('styles')
-<link rel="stylesheet" href="{{ asset('assets/portfolio/css/style.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
-
-@push('scripts')
-<script src="{{ asset('assets/portfolio/js/script.js') }}" defer></script>
-@endpush
+    @push('scripts')
+        <script src="{{ asset('assets/portfolio/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 
-<section class="hero portfolio-hero" id="portfolio">
-  <div class="container hero-content">
-    <h1>Our Portfolio of Websites</h1>
-    <h3 style="color:#fc8a10;">Why Choose Cloud Technologies Ltd?</h3>
-    <p class="subtitle">
-      We’ve built websites across platforms like GoDaddy, Wix, Shopify, Squarespace, WordPress, and custom builds.
-      Below is a showcase of recent projects grouped by platform.
-    </p>
-  </div>
-</section>
+    <section class="hero portfolio-hero" id="portfolio">
+        <div class="container hero-content">
+            <h1>Our Portfolio of Websites</h1>
+            <h3 style="color:#fc8a10;">Why Choose Cloud Technologies Ltd?</h3>
+            <p class="subtitle">
+                We’ve built websites across platforms like GoDaddy, Wix, Shopify, Squarespace, WordPress, and custom builds.
+                Below is a showcase of recent projects grouped by platform.
+            </p>
+        </div>
+    </section>
 
-<section class="section">
-  <div class="container">
+    <section class="section">
+        <div class="container">
 
-    {{-- Optional stats: keep static or make a table later --}}
-    <div class="stats-row">
-      <div class="stat"><strong>50+</strong><span>Websites Delivered</span></div>
-      <div class="stat"><strong>6+</strong><span>Platforms Mastered</span></div>
-      <div class="stat"><strong>15+</strong><span>Industries Served</span></div>
-      <div class="stat"><strong>100%</strong><span>Client Satisfaction</span></div>
-    </div>
+            {{-- Optional stats: keep static or make a table later --}}
+            <div class="stats-row">
+                <div class="stat"><strong>50+</strong><span>Websites Delivered</span></div>
+                <div class="stat"><strong>6+</strong><span>Platforms Mastered</span></div>
+                <div class="stat"><strong>15+</strong><span>Industries Served</span></div>
+                <div class="stat"><strong>100%</strong><span>Client Satisfaction</span></div>
+            </div>
 
-    {{-- Filters --}}
-    <div class="filter-bar">
-      <button class="filter active" data-filter="all">All</button>
-      @foreach($platforms as $p)
-        <button class="filter" data-filter="{{ $p->slug }}">{{ $p->name }}</button>
-      @endforeach
-    </div>
+            {{-- Filters --}}
+            <div class="filter-bar">
+                <button class="filter active" data-filter="all">All</button>
+                @foreach ($platforms as $p)
+                    <button class="filter" data-filter="{{ $p->slug }}">{{ $p->name }}</button>
+                @endforeach
+            </div>
 
-    <div class="portfolio-grid">
-      @forelse($items as $row)
-        <article class="project-card" data-category="{{ $row->platform_slug }}">
-          <div class="p-img"
-               style="
-                 @if($row->thumbnail_image)
-                   background-image:url('{{ asset($row->thumbnail_image) }}');
-                 @endif
+            <div class="portfolio-grid">
+                @forelse($items as $row)
+                    <article class="project-card" data-category="{{ $row->platform_slug }}">
+                        <div class="p-img"
+                            style="
+                 @if ($row->thumbnail_image) background-image:url('{{ asset($row->thumbnail_image) }}'); @endif
                ">
-            <span class="p-tag blue">{{ $row->platform_name }}</span>
+                            <span class="p-tag blue">{{ $row->platform_name }}</span>
 
-            @if(!empty($row->industry))
-              <span class="p-tag white">{{ $row->industry }}</span>
-            @elseif(!empty($row->tags) && is_array($row->tags) && count($row->tags))
-              <span class="p-tag white">{{ $row->tags[0] }}</span>
-            @endif
-          </div>
+                            @if (!empty($row->industry))
+                                <span class="p-tag white">{{ $row->industry }}</span>
+                            @elseif(!empty($row->tags) && is_array($row->tags) && count($row->tags))
+                                <span class="p-tag white">{{ $row->tags[0] }}</span>
+                            @endif
+                        </div>
 
-          <div class="card-content">
-            <h3>{{ $row->title }}</h3>
+                        <div class="card-content">
+                            <h3>{{ $row->title }}</h3>
 
-            @if(!empty($row->short_description))
-              <p>{{ $row->short_description }}</p>
-            @endif
+                            @if (!empty($row->short_description))
+                                <p>{{ $row->short_description }}</p>
+                            @endif
 
-            <div class="card-footer">
-              @if(!empty($row->website_url))
-                <a href="{{ $row->website_url }}" class="p-link" target="_blank" rel="noopener">
-                  View Website →
-                </a>
-              @else
-                <span class="p-link" style="opacity:.65;">Website link unavailable</span>
-              @endif
+                            <div class="card-footer">
+                                @if (!empty($row->website_url))
+                                    <a href="{{ $row->website_url }}" class="p-link" target="_blank" rel="noopener">
+                                        View Website →
+                                    </a>
+                                @else
+                                    <span class="p-link" style="opacity:.65;">Website link unavailable</span>
+                                @endif
 
-              @if($row->is_live)
-                <span class="live-site">🌐 Live Site</span>
-              @endif
-            </div>
-          </div>
-        </article>
-      @empty
-        <p>No portfolio items found.</p>
-      @endforelse
-    </div>
-
-  </div>
-</section>
-
-<section class="why-us" id="stats">
-    <div class="container">
-        <div class="why-card">
-            <h2>Why Choose Cloud Technologies Ltd?</h2>
-
-            <div class="why-grid">
-                <div class="why-item">
-                    <span class="check">✓</span>
-                    <div>
-                        <strong>50+ websites delivered across multiple industries</strong>
-                        <p>
-                            Extensive experience across healthcare, education, travel,
-                            recruitment, and more.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="why-item">
-                    <span class="check">✓</span>
-                    <div>
-                        <strong>Mobile-first, SEO-optimised designs</strong>
-                        <p>
-                            Every website is built with mobile users in mind and optimised
-                            for search engines.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="why-item">
-                    <span class="check">✓</span>
-                    <div>
-                        <strong>Platform flexibility</strong>
-                        <p>
-                            WordPress, Shopify, Wix, Squarespace, Laravel, GoDaddy.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="why-item">
-                    <span class="check">✓</span>
-                    <div>
-                        <strong>Fast delivery with ongoing support</strong>
-                        <p>
-                            Quick turnaround times with post-launch support and maintenance.
-                        </p>
-                    </div>
-                </div>
+                                @if ($row->is_live)
+                                    <span class="live-site">🌐 Live Site</span>
+                                @endif
+                            </div>
+                        </div>
+                    </article>
+                @empty
+                    <p>No portfolio items found.</p>
+                @endforelse
             </div>
 
-            <div class="center">
-                <a href="{{ url('/#contact') }}" class="btn-primary">
-                    Start Your Project →
-                </a>
+        </div>
+    </section>
+
+    <section class="why-us" id="stats">
+        <div class="container">
+            <div class="why-card">
+                <h2>Why Choose Cloud Technologies Ltd?</h2>
+
+                <div class="why-grid">
+                    <div class="why-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>50+ websites delivered across multiple industries</strong>
+                            <p>
+                                Extensive experience across healthcare, education, travel,
+                                recruitment, and more.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="why-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>Mobile-first, SEO-optimised designs</strong>
+                            <p>
+                                Every website is built with mobile users in mind and optimised
+                                for search engines.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="why-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>Platform flexibility</strong>
+                            <p>
+                                WordPress, Shopify, Wix, Squarespace, Laravel, GoDaddy.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="why-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>Fast delivery with ongoing support</strong>
+                            <p>
+                                Quick turnaround times with post-launch support and maintenance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <a href="{{ url('/#contact') }}" class="btn-primary">
+                        Start Your Project →
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
-<section class="cta" id="cta">
-    <div class="container cta-inner">
-        <h2>Ready to Build Your Website?</h2>
-        <p>Join our satisfied clients and get a professional website that drives results. Contact us today for a free
-            consultation and quote.</p>
-        <div class="cta-actions">
-            <a href="{{ url('/#contact') }}" class="btn btn-light">Get Free Quote</a>
-            <a href="#" class="btn btn-primary">View Case Studies</a>
+    <section class="cta" id="cta">
+        <div class="container cta-inner">
+            <h2>Ready to Build Your Website?</h2>
+            <p>Join our satisfied clients and get a professional website that drives results. Contact us today for a free
+                consultation and quote.</p>
+            <div class="cta-actions">
+                <a href="{{ url('/#contact') }}" class="btn btn-light">Get Free Quote</a>
+                <a href="#" class="btn btn-primary">View Case Studies</a>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 @endsection

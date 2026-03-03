@@ -1,16 +1,20 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Content SEO Services | Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – Content SEO Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/content-seo/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/content-seo/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Content SEO Services UK | SEO Content & Strategy Experts')
+@section('meta_title', 'Content SEO Services UK | SEO Content & Strategy Experts.')
+@section('meta_description', 'Content SEO services UK to optimise content, improve rankings and increase traffic with
+    keyword strategy, on page SEO and high quality content UK today.')
+@section('meta_keywords', 'content SEO services UK, SEO content strategy UK, content optimization UK, keyword research
+    UK, on-page SEO UK, content marketing UK, organic traffic UK, search rankings UK, business growth UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/content-seo/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/content-seo/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 

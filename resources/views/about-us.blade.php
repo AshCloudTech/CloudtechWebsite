@@ -1,16 +1,19 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'About Us - Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – About Us')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/about/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/about/js/script.js') }}" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-@endpush
+@section('title', 'About Our Agency | SEO, Web & Marketing Experts UK')
+@section('meta_title', 'About Our Agency | SEO, Web & Marketing Experts UK')
+@section('meta_description', 'Meet our digital agency team delivering SEO, web development and digital marketing
+    solutions to drive growth and success UK for your business with expertsupport.')
+@section('meta_keywords', 'about us, digital agency about, SEO about, web development about, UK, digital marketing about, business growth about')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/about/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/about/js/script.js') }}" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    @endpush
 
 @section('content')
 
@@ -75,57 +78,63 @@
                 </p>
             </div>
 
-       <div class="grid grid-3 solutions-grid solutions-grid-ui">
+            <div class="grid grid-3 solutions-grid solutions-grid-ui">
 
-  <article class="card feature-card feature-card-ui">
-    <div class="svcIcon">
-      <i data-lucide="cloud"></i>
-    </div>
-    <h3>Cloud Consulting</h3>
-    <p>Expert guidance on cloud strategy, architecture design, and implementation to maximize your cloud investment and business outcomes.</p>
-  </article>
+                <article class="card feature-card feature-card-ui">
+                    <div class="svcIcon">
+                        <i data-lucide="cloud"></i>
+                    </div>
+                    <h3>Cloud Consulting</h3>
+                    <p>Expert guidance on cloud strategy, architecture design, and implementation to maximize your cloud
+                        investment and business outcomes.</p>
+                </article>
 
-  <article class="card feature-card feature-card-ui">
-    <div class="svcIcon">
-      <i data-lucide="database"></i>
-    </div>
-    <h3>Data Analytics</h3>
-    <p>Transform your data into actionable insights with our advanced analytics solutions and business intelligence platforms.</p>
-  </article>
+                <article class="card feature-card feature-card-ui">
+                    <div class="svcIcon">
+                        <i data-lucide="database"></i>
+                    </div>
+                    <h3>Data Analytics</h3>
+                    <p>Transform your data into actionable insights with our advanced analytics solutions and business
+                        intelligence platforms.</p>
+                </article>
 
-  <article class="card feature-card feature-card-ui">
-    <div class="svcIcon">
-      <i data-lucide="shield-check"></i>
-    </div>
-    <h3>Security &amp; Compliance</h3>
-    <p>Comprehensive security solutions to protect your cloud infrastructure and ensure regulatory compliance across all platforms.</p>
-  </article>
+                <article class="card feature-card feature-card-ui">
+                    <div class="svcIcon">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3>Security &amp; Compliance</h3>
+                    <p>Comprehensive security solutions to protect your cloud infrastructure and ensure regulatory
+                        compliance across all platforms.</p>
+                </article>
 
-  <article class="card feature-card feature-card-ui">
-    <div class="svcIcon">
-      <i data-lucide="server"></i>
-    </div>
-    <h3>Infrastructure</h3>
-    <p>Scalable and reliable cloud infrastructure solutions designed to support your growing business needs and operations.</p>
-  </article>
+                <article class="card feature-card feature-card-ui">
+                    <div class="svcIcon">
+                        <i data-lucide="server"></i>
+                    </div>
+                    <h3>Infrastructure</h3>
+                    <p>Scalable and reliable cloud infrastructure solutions designed to support your growing business needs
+                        and operations.</p>
+                </article>
 
-  <article class="card feature-card feature-card-ui">
-    <div class="svcIcon">
-      <i data-lucide="code"></i>
-    </div>
-    <h3>DevOps Solutions</h3>
-    <p>Streamline your development and operations with our cutting-edge DevOps practices and automation tools.</p>
-  </article>
+                <article class="card feature-card feature-card-ui">
+                    <div class="svcIcon">
+                        <i data-lucide="code"></i>
+                    </div>
+                    <h3>DevOps Solutions</h3>
+                    <p>Streamline your development and operations with our cutting-edge DevOps practices and automation
+                        tools.</p>
+                </article>
 
-  <article class="card feature-card feature-card-ui">
-    <div class="svcIcon">
-      <i data-lucide="headset"></i>
-    </div>
-    <h3>24/7 Support</h3>
-    <p>Round-the-clock technical support and monitoring to ensure your systems run smoothly without interruption.</p>
-  </article>
+                <article class="card feature-card feature-card-ui">
+                    <div class="svcIcon">
+                        <i data-lucide="headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock technical support and monitoring to ensure your systems run smoothly without
+                        interruption.</p>
+                </article>
 
-</div>
+            </div>
 
         </div>
     </section>

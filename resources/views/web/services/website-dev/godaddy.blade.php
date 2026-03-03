@@ -1,10 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'GoDaddy Website Builder Services | Cloud Technologies Ltd')
-@section('meta_title', 'GoDaddy Website Builder Services | Cloud Technologies Ltd')
-@section('meta_description',
-    'Professional GoDaddy website builder services for small businesses. Fast setup, template
-    customization, eCommerce solutions, SEO optimisation, and clear GoDaddy website pricing.')
+@section('title', 'GoDaddy Website Builder UK | Design, Pricing & Setup')
+@section('meta_title', 'GoDaddy Website Builder UK | Design, Pricing & Setup.')
+@section('meta_description', 'GoDaddy website builder UK offering website design, pricing guidance and setup to build
+    fast, responsive and SEO friendly websites UK online today now.')
+@section('meta_keywords', 'GoDaddy website builder UK, GoDaddy website design UK, GoDaddy website pricing UK, GoDaddy
+    website setup UK, affordable website builder UK, small business websites UK, SEO-friendly websites UK, responsive web
+    design UK, GoDaddy hosting UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/godaddy/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">

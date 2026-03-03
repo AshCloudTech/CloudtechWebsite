@@ -1,16 +1,19 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Google My Business Optimisation | Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – Google My Business Optimisation Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/gmb/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/gmb/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Google Business Profile Services UK | Local SEO Experts')
+@section('meta_title', 'Google Business Profile Services UK | Local SEO Experts.')
+@section('meta_description', 'Google Business Profile management UK to improve local SEO, visibility, calls and leads
+    while helping your business attract more customers across UK.')
+@section('meta_keywords', 'Google Business Profile services UK, Google My Business management UK, local SEO UK, GBP optimization UK, Google Maps SEO UK, local search marketing UK, business listing management UK, online visibility UK, local customer acquisition UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/gmb/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/gmb/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -26,7 +29,8 @@
                     Optimize your listing to improve local visibility, gain more clicks, and attract nearby customers.
                 </p>
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="general-audit">Get Free Audit</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="general-audit">Get Free
+                        Audit</a>
 
 
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Call Now</a>
@@ -57,61 +61,67 @@
         </div>
     </section>
 
-<!-- WHY GMB MATTERS -->
-<section class="section section-alt" id="why">
-    <div class="container">
-        <div class="section-header">
-            <h2>Why Google Business Profile Matters</h2>
-            <p>
-                It boosts your local visibility, builds trust, and helps customers find and choose your business faster.
-            </p>
+    <!-- WHY GMB MATTERS -->
+    <section class="section section-alt" id="why">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Google Business Profile Matters</h2>
+                <p>
+                    It boosts your local visibility, builds trust, and helps customers find and choose your business faster.
+                </p>
+            </div>
+
+            <div class="grid grid-3 why-grid">
+                <article class="card why-card">
+                    <h3>Increased Local Visibility</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/gmb/images/increased_local_visibility.webp') }}"
+                        alt="Increased Local Visibility" title="Increased Local Visibility"
+                        aria-label="Increased Local Visibility" aria-hidden="true" class="why-image">
+                    <p>Improves how often your business appears in local searches and map results.</p>
+                </article>
+
+                <article class="card why-card">
+                    <h3>Build Trust &amp; Credibility</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/gmb/images/build_trust_credibility.webp') }}"
+                        alt="Build Trust &amp; Credibility" title="Build Trust &amp; Credibility"
+                        aria-label="Build Trust &amp; Credibility" aria-hidden="true" class="why-image">
+                    <p>A complete profile helps customers trust your business and choose you confidently.</p>
+                </article>
+
+                <article class="card why-card">
+                    <h3>Direct Customer Engagement</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/gmb/images/direct_customer_engagement.webp') }}"
+                        alt="Direct Customer Engagement" title="Direct Customer Engagement"
+                        aria-label="Direct Customer Engagement" aria-hidden="true" class="why-image">
+                    <p>Enables customers to call, message, or visit your business directly from search.</p>
+                </article>
+
+                <article class="card why-card">
+                    <h3>Valuable Insights</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/gmb/images/valuable_insights.webp') }}"
+                        alt="Valuable Insights" title="Valuable Insights" aria-label="Valuable Insights" aria-hidden="true"
+                        class="why-image">
+                    <p>Provides data on views, searches, and actions to guide better local decisions.</p>
+                </article>
+
+                <article class="card why-card">
+                    <h3>Review Management</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/gmb/images/review_management.webp') }}"
+                        alt="Review Management" title="Review Management" aria-label="Review Management" aria-hidden="true"
+                        class="why-image">
+                    <p>Helps you manage reviews to strengthen trust and improve your local reputation.</p>
+                </article>
+
+                <article class="card why-card">
+                    <h3>Local Pack Rankings</h3>
+                    <img src="{{ asset('assets/services/digitalMarketing/gmb/images/local_pack_rankings.webp') }}"
+                        alt="Local Pack Rankings" title="Local Pack Rankings" aria-label="Local Pack Rankings"
+                        aria-hidden="true" class="why-image">
+                    <p>Boosts your chances of appearing in Google’s top local 3-pack for more visibility.</p>
+                </article>
+            </div>
         </div>
-
-        <div class="grid grid-3 why-grid">
-            <article class="card why-card">
-                <h3>Increased Local Visibility</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/increased_local_visibility.webp') }}"
-                    alt="Increased Local Visibility" title="Increased Local Visibility" aria-label="Increased Local Visibility" aria-hidden="true" class="why-image">
-                <p>Improves how often your business appears in local searches and map results.</p>
-            </article>
-
-            <article class="card why-card">
-                <h3>Build Trust &amp; Credibility</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/build_trust_credibility.webp') }}"
-                    alt="Build Trust &amp; Credibility" title="Build Trust &amp; Credibility" aria-label="Build Trust &amp; Credibility" aria-hidden="true" class="why-image">
-                <p>A complete profile helps customers trust your business and choose you confidently.</p>
-            </article>
-
-            <article class="card why-card">
-                <h3>Direct Customer Engagement</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/direct_customer_engagement.webp') }}"
-                    alt="Direct Customer Engagement" title="Direct Customer Engagement" aria-label="Direct Customer Engagement" aria-hidden="true" class="why-image">
-                <p>Enables customers to call, message, or visit your business directly from search.</p>
-            </article>
-
-            <article class="card why-card">
-                <h3>Valuable Insights</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/valuable_insights.webp') }}"
-                    alt="Valuable Insights" title="Valuable Insights" aria-label="Valuable Insights" aria-hidden="true" class="why-image">
-                <p>Provides data on views, searches, and actions to guide better local decisions.</p>
-            </article>
-
-            <article class="card why-card">
-                <h3>Review Management</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/review_management.webp') }}"
-                    alt="Review Management" title="Review Management" aria-label="Review Management" aria-hidden="true" class="why-image">
-                <p>Helps you manage reviews to strengthen trust and improve your local reputation.</p>
-            </article>
-
-            <article class="card why-card">
-                <h3>Local Pack Rankings</h3>
-                <img src="{{ asset('assets/services/digitalMarketing/gmb/images/local_pack_rankings.webp') }}"
-                    alt="Local Pack Rankings" title="Local Pack Rankings" aria-label="Local Pack Rankings" aria-hidden="true" class="why-image">
-                <p>Boosts your chances of appearing in Google’s top local 3-pack for more visibility.</p>
-            </article>
-        </div>
-    </div>
-</section>
+    </section>
 
     <!-- OUR SERVICES -->
     <section class="section" id="services">
@@ -235,75 +245,82 @@
     </section>
 
     <!-- WHAT IS GOOGLE BUSINESS PROFILE OPTIMISATION -->
-<section class="section section-national-about" id="about-gbp-optimisation">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <section class="section section-national-about" id="about-gbp-optimisation">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>What Is Google Business Profile Optimisation?</h2>
+                <div class="national-about-content">
+                    <h2>What Is Google Business Profile Optimisation?</h2>
 
+                    <p>
+                        Google Business Profile optimisation is the process of improving your business listing so it ranks
+                        higher in Google’s local results and map pack. When customers search for services “near me” or
+                        within their area, Google uses Business Profile signals to decide which businesses appear first.
+                    </p>
+
+                    <p>
+                        Optimising your profile involves refining categories, services, descriptions, images, posts,
+                        reviews, and location signals so your business becomes more visible, trustworthy, and clickable in
+                        local search results.
+                    </p>
+
+                    <p>
+                        A fully optimised profile turns Google Search and Maps into a consistent source of calls, visits,
+                        and enquiries.
+                    </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>What We Optimise Inside Your Google Business Profile</h3>
+
+                    <p>
+                        We go far beyond basic setup. We optimise:
+                    </p>
+
+                    <ul>
+                        <li>Business categories and subcategories</li>
+                        <li>Service and product listings with keywords</li>
+                        <li>Business description for local search relevance</li>
+                        <li>High-quality geo-tagged images</li>
+                        <li>Weekly Google Posts for activity signals</li>
+                        <li>Review acquisition and response strategy</li>
+                        <li>Q&A section with pre-optimised questions</li>
+                        <li>NAP consistency across the web</li>
+                        <li>Map pin accuracy and service areas</li>
+                    </ul>
+
+                    <p class="national-about-note">
+                        These elements directly influence your local pack rankings.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY GBP IS CRITICAL -->
+    <section class="section section-national-growth" id="gbp-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why Google Business Profile Is Critical for Local Businesses</h2>
+            </div>
+
+            <div class="national-growth-card">
                 <p>
-                    Google Business Profile optimisation is the process of improving your business listing so it ranks higher in Google’s local results and map pack. When customers search for services “near me” or within their area, Google uses Business Profile signals to decide which businesses appear first.
+                    For local searches, Google often shows Business Profiles before websites. If your profile is not fully
+                    optimised, you are losing customers to competitors who appear higher in the map results.
                 </p>
 
                 <p>
-                    Optimising your profile involves refining categories, services, descriptions, images, posts, reviews, and location signals so your business becomes more visible, trustworthy, and clickable in local search results.
-                </p>
-
-                <p>
-                    A fully optimised profile turns Google Search and Maps into a consistent source of calls, visits, and enquiries.
+                    A professionally optimised Google Business Profile increases visibility, builds trust through reviews
+                    and content, and turns local searches into real customers.
                 </p>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>What We Optimise Inside Your Google Business Profile</h3>
-
-                <p>
-                    We go far beyond basic setup. We optimise:
-                </p>
-
-                <ul>
-                    <li>Business categories and subcategories</li>
-                    <li>Service and product listings with keywords</li>
-                    <li>Business description for local search relevance</li>
-                    <li>High-quality geo-tagged images</li>
-                    <li>Weekly Google Posts for activity signals</li>
-                    <li>Review acquisition and response strategy</li>
-                    <li>Q&A section with pre-optimised questions</li>
-                    <li>NAP consistency across the web</li>
-                    <li>Map pin accuracy and service areas</li>
-                </ul>
-
-                <p class="national-about-note">
-                    These elements directly influence your local pack rankings.
-                </p>
-            </div>
-
         </div>
-    </div>
-</section>
-
-
-<!-- WHY GBP IS CRITICAL -->
-<section class="section section-national-growth" id="gbp-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why Google Business Profile Is Critical for Local Businesses</h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-                For local searches, Google often shows Business Profiles before websites. If your profile is not fully optimised, you are losing customers to competitors who appear higher in the map results.
-            </p>
-
-            <p>
-                A professionally optimised Google Business Profile increases visibility, builds trust through reviews and content, and turns local searches into real customers.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
 
     <!-- CTA -->

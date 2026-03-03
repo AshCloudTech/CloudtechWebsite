@@ -1,16 +1,21 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'National SEO Services - CloudTech Digital Marketing Experts')
-@section('meta_title', 'Cloud Technologies Ltd – National SEO Services for UK Businesses')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/national-seo/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/national-seo/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'National SEO Services UK | Nationwide SEO Agency')
+@section('meta_title', 'National SEO Services UK | Nationwide SEO Agency.')
+@section('meta_description', 'National SEO services UK offering nationwide SEO solutions to improve rankings, increase
+    traffic and generate leads for your business across UK markets.')
+@section('meta_keywords', 'national SEO services UK, nationwide SEO agency UK, national search engine optimization UK,
+    SEO for national businesses UK, nationwide keyword targeting UK, national SEO strategy UK, improve national rankings UK,
+    increase national traffic UK, generate national leads UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/national-seo/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/national-seo/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -170,8 +175,8 @@
                     </ul>
                 </div>
                 <div class="included-panel">
-                    <img src="{{ asset('assets/images/seo/national/national_seo.webp') }}" alt="National SEO" title="National SEO" aria-hidden="true" aria-label="National SEO" loading="lazy"
-                        decoding="async">
+                    <img src="{{ asset('assets/images/seo/national/national_seo.webp') }}" alt="National SEO"
+                        title="National SEO" aria-hidden="true" aria-label="National SEO" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>

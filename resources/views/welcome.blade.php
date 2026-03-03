@@ -1,26 +1,29 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Home - Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – British-Built Digital Transformation Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-home/css/style.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/cloud-home/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Digital Marketing, SEO & Web Development Company UK')
+@section('meta_title', 'Digital Marketing, SEO & Web Development Company UK')
+@section('meta_description', 'Looking to grow your business online? Our UK team offers SEO, web development and digital
+    marketing to bring more traffic, leads and sales for business growth!')
+@section('meta_keywords', 'digital marketing, SEO, web development, UK, business growth, online marketing, search engine optimization, website design, digital solutions')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-home/css/style.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-home/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 
     <!-- HERO -->
-    <section class="hero" id="hero">
+    <section class="hero" id="hero" style="min-height: 550px;">
         <div class="hero-bg"></div>
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="hero-text">
-                <p class="hero-eyebrow">Smart Digital Solutions That Drive Growth and Performance</p>
-                <h1>Build. Grow. Transform. All in One Digital Powerhouse.</h1>
+                <p class="hero-eyebrow">Smart Digital Solutions for Growth & Performance</p>
+                <h1>Build. Grow. Transform.</h1>
                 <p class="hero-subtitle">
-                    Your complete hub for digital, design, and AI solutions that fuel business growth.
+                    All-in-one hub for digital, design, and AI solutions.
                 </p>
 
                 <div class="hero-actions">
@@ -29,10 +32,10 @@
                     <a href="#consultation" class="btn btn-lg btn-ghost openConsultationModal">Schedule a Consultation</a>
                 </div>
 
-                <p class="hero-note">
+                {{-- <p class="hero-note">
                     Delivering powerful cloud technology that helps entrepreneurs scale faster, <br> reach global markets
                     and achieve real results.
-                </p>
+                </p> --}}
             </div>
 
             <div class="hero-stats">
@@ -303,7 +306,8 @@
                     <div class="card-tag tag-blue">Healthcare Solutions</div>
                     <a href="{{ route('industries.cloudhealth') }}">
                         <img src="{{ asset('assets/images/home/healthcare_solutions.webp') }}" class="industry-image"
-                            alt="Healthcare Solutions" title="Healthcare Solutions" aria-label="Healthcare Solutions" aria-hidden="true" loading="lazy" decoding="async">
+                            alt="Healthcare Solutions" title="Healthcare Solutions" aria-label="Healthcare Solutions"
+                            aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudhealth') }}">Healthcare Solutions</a></h3>
                     <p>
@@ -318,7 +322,8 @@
                     <div class="card-tag tag-purple">Care Dashboard Management</div>
                     <a href="{{ route('industries.cloudcare') }}">
                         <img src="{{ asset('assets/images/home/care_dashboard_management.webp') }}"
-                            class="industry-image" alt="Care Dashboard Management" title="Care Dashboard Management" aria-label="Care Dashboard Management" aria-hidden="true" loading="lazy" decoding="async">
+                            class="industry-image" alt="Care Dashboard Management" title="Care Dashboard Management"
+                            aria-label="Care Dashboard Management" aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudcare') }}">Care Dashboard Management</a></h3>
                     <p>
@@ -333,7 +338,8 @@
                     <div class="card-tag tag-green">Education Technology</div>
                     <a href="{{ route('industries.cloudedu') }}">
                         <img src="{{ asset('assets/images/home/education_technology.webp') }}" class="industry-image"
-                            alt="Education Technology" title="Education Technology" aria-label="Education Technology" aria-hidden="true" loading="lazy" decoding="async">
+                            alt="Education Technology" title="Education Technology" aria-label="Education Technology"
+                            aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudedu') }}">Education Technology</a></h3>
                     <p>
@@ -348,7 +354,8 @@
                     <div class="card-tag tag-orange">Travel &amp; Tourism</div>
                     <a href="{{ route('industries.cloudtravel') }}">
                         <img src="{{ asset('assets/images/home/travel_&_tourism.webp') }}" class="industry-image"
-                            alt="Travel & Tourism" title="Travel & Tourism" aria-label="Travel & Tourism" aria-hidden="true" loading="lazy" decoding="async">
+                            alt="Travel & Tourism" title="Travel & Tourism" aria-label="Travel & Tourism"
+                            aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudtravel') }}">Travel &amp; Tourism</a></h3>
                     <p>
@@ -363,7 +370,8 @@
                     <div class="card-tag tag-teal">Recruitment Solutions</div>
                     <a href="{{ route('industries.cloudrecruit') }}">
                         <img src="{{ asset('assets/images/home/recruitment_solutions.webp') }}" class="industry-image"
-                            alt="Recruitment Solutions" title="Recruitment Solutions" aria-label="Recruitment Solutions" aria-hidden="true" loading="lazy" decoding="async">
+                            alt="Recruitment Solutions" title="Recruitment Solutions" aria-label="Recruitment Solutions"
+                            aria-hidden="true" loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudrecruit') }}">Recruitment Solutions</a></h3>
                     <p>
@@ -378,7 +386,8 @@
                     <div class="card-tag tag-pink">Public Sector</div>
                     <a href="{{ route('industries.cloudpublic') }}">
                         <img src="{{ asset('assets/images/home/public_sector.webp') }}" class="industry-image"
-                            alt="Public Sector" title="Public Sector" aria-label="Public Sector" aria-hidden="true" loading="lazy" decoding="async">
+                            alt="Public Sector" title="Public Sector" aria-label="Public Sector" aria-hidden="true"
+                            loading="lazy" decoding="async">
                     </a>
                     <h3><a href="{{ route('industries.cloudpublic') }}">Public Sector</a></h3>
                     <p>
@@ -406,7 +415,8 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-blue">AI Chatbot Assistant</div>
                     <img src="{{ asset('assets/images/home/ai_chatbot_assistant.webp') }}" class="service-image"
-                        alt="AI Chatbot Assistant" title="AI Chatbot Assistant" aria-label="AI Chatbot Assistant" aria-hidden="true" loading="lazy" decoding="async">
+                        alt="AI Chatbot Assistant" title="AI Chatbot Assistant" aria-label="AI Chatbot Assistant"
+                        aria-hidden="true" loading="lazy" decoding="async">
 
 
                     <h3>AI Chatbot Assistant</h3>
@@ -419,7 +429,8 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-purple">AI Recruiter</div>
                     <img src="{{ asset('assets/images/home/ai_recruiter.webp') }}" class="service-image"
-                        alt="AI Recruiter" title="AI Recruiter" aria-label="AI Recruiter" aria-hidden="true" loading="lazy" decoding="async">
+                        alt="AI Recruiter" title="AI Recruiter" aria-label="AI Recruiter" aria-hidden="true"
+                        loading="lazy" decoding="async">
 
 
                     <h3>AI Recruiter</h3>
@@ -432,7 +443,8 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-green">AI Itinerary Builder</div>
                     <img src="{{ asset('assets/images/home/ai_itinerary_builder.webp') }}" class="service-image"
-                        alt="AI Itinerary Builder" title="AI Itinerary Builder" aria-label="AI Itinerary Builder" aria-hidden="true" loading="lazy" decoding="async">
+                        alt="AI Itinerary Builder" title="AI Itinerary Builder" aria-label="AI Itinerary Builder"
+                        aria-hidden="true" loading="lazy" decoding="async">
 
                     <h3>AI Itinerary Builder</h3>
                     <p>
@@ -445,7 +457,8 @@
                     <div class="card-tag tag-orange">AI Healthcare Assistant</div>
 
                     <img src="{{ asset('assets/images/home/ai_healthcare_assistant.webp') }}" class="service-image"
-                        alt="AI Healthcare Assistant" title="AI Healthcare Assistant" aria-label="AI Healthcare Assistant" aria-hidden="true" loading="lazy" decoding="async">
+                        alt="AI Healthcare Assistant" title="AI Healthcare Assistant"
+                        aria-label="AI Healthcare Assistant" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>AI Healthcare Assistant</h3>
                     <p>
                         AI-powered healthcare support that automates appointment booking, analyzes symptoms, and offers
@@ -456,7 +469,8 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-teal">AI Learning Platform</div>
                     <img src="{{ asset('assets/images/home/ai_learning_platform.webp') }}" class="service-image"
-                        alt="AI Learning Platform" title="AI Learning Platform" aria-label="AI Learning Platform" aria-hidden="true" loading="lazy" decoding="async">
+                        alt="AI Learning Platform" title="AI Learning Platform" aria-label="AI Learning Platform"
+                        aria-hidden="true" loading="lazy" decoding="async">
                     <h3>AI Learning Platform</h3>
                     <p>
                         An AI-driven learning platform that personalizes lessons, tracks student progress, and delivers
@@ -467,7 +481,8 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-pink">AI Care Coordinator</div>
                     <img src="{{ asset('assets/images/home/ai_care_coordinator.webp') }}" class="service-image"
-                        alt="AI Care Coordinator" title="AI Care Coordinator" aria-label="AI Care Coordinator" aria-hidden="true" loading="lazy" decoding="async">
+                        alt="AI Care Coordinator" title="AI Care Coordinator" aria-label="AI Care Coordinator"
+                        aria-hidden="true" loading="lazy" decoding="async">
                     <h3>AI Care Coordinator</h3>
                     <p>
                         AI-powered care coordination that centralizes resident care plans, supports medication management,
@@ -878,16 +893,16 @@
 
             <div class="worldMap__right">
                 <div class="worldMap__svgWrap">
-    <figure class="worldMap__figure">
-        @include('partials.world-map-svg')
+                    <figure class="worldMap__figure">
+                        @include('partials.world-map-svg')
 
-        <figcaption class="sr-only" id="worldMapCaption">
-            World map showing branch locations.
-        </figcaption>
+                        <figcaption class="sr-only" id="worldMapCaption">
+                            World map showing branch locations.
+                        </figcaption>
 
-        <div class="worldMap__tooltip" id="mapTooltip" role="status" aria-live="polite"></div>
-    </figure>
-</div>
+                        <div class="worldMap__tooltip" id="mapTooltip" role="status" aria-live="polite"></div>
+                    </figure>
+                </div>
 
             </div>
         </div>

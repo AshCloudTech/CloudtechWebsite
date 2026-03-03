@@ -1,9 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Shopify Website Development Services | Cloud Technologies Ltd')
-@section('meta_title', 'Shopify Website Development Services | Cloud Technologies Ltd')
-@section('meta_description', 'Professional Shopify website development services for scalable, high-converting online
-    stores with custom themes, app integrations, and seamless migration.')
+@section('title', 'Shopify Development Agency UK | Shopify Experts Agency')
+@section('meta_title', 'Shopify Development Agency UK | Shopify Experts Agency')
+@section('meta_description', 'WooCommerce agency UK offering web development services to build responsive, secure and
+    SEO friendly ecommerce websites for your business growth UK.')
+@section('meta_keywords', 'Shopify development agency UK, Shopify experts UK, Shopify web development UK, eCommerce
+    website development UK, Shopify store setup UK, custom Shopify themes UK, Shopify app integration UK, Shopify migration
+    services UK, SEO-friendly Shopify development UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/shopify/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
@@ -138,8 +141,9 @@
             </div>
             <div class="why-media" aria-hidden="true">
                 <img src="{{ asset('assets/images/web/shopify.webp') }}" alt="Shopify Capabilities"
-                    title="Shopify Capabilities" aria-label="Shopify Capabilities" aria-hidden="true"
-                    loading="lazy" decoding="async" class="media-placeholder">            </div>
+                    title="Shopify Capabilities" aria-label="Shopify Capabilities" aria-hidden="true" loading="lazy"
+                    decoding="async" class="media-placeholder">
+            </div>
         </div>
     </section>
 

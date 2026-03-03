@@ -1,15 +1,20 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies')
-@section('meta_title', 'Cloud Technologies Ltd – CloudPublic Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-public/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/cloud-public/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Public Sector SEO Service UK | Digital Service Agency')
+@section('meta_title', 'Public Sector SEO Service UK | Digital Service Agency.')
+@section('meta_description', 'Public sector SEO UK providing digital marketing, SEO and website development to improve
+    visibility and engagement UK for better digital service growth today')
+@section('meta_keywords', 'public sector SEO service UK, public sector digital marketing UK, public sector website
+    development UK, government SEO UK, council SEO UK, public body SEO UK, digital services for public sector UK, improving
+    visibility for public services UK, engaging citizens online UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-public/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-public/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 

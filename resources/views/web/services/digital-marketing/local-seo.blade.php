@@ -1,16 +1,21 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Local SEO Services - Boost Your Local Business Visibility')
-@section('meta_title', 'Cloud Technologies Ltd – Local SEO Services to Dominate Your Local Market')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/local-seo/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/local-seo/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Local SEO Services UK | Local SEO Agency & Company')
+@section('meta_title', 'Local SEO Services UK | Local SEO Agency & Company.')
+@section('meta_description', 'Local SEO services UK to improve local rankings, Google Business Profile, visibility,
+    traffic and leads for your local business growth across UK areas.')
+@section('meta_keywords', 'local SEO services UK, local SEO agency UK, local SEO company UK, Google Business Profile
+    optimization UK, local search optimization UK, local SEO audit UK, local keyword targeting UK, local link building UK,
+    map pack optimization UK, mobile local SEO UK, local citation building UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/local-seo/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/local-seo/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -188,7 +193,8 @@
                 </div>
                 <div class="services-panel">
                     <div class="services-panel-inner">
-                        <img src="{{ asset('assets/images/seo/local/local_seo_services.webp') }}" alt="Local SEO Services" title="Local SEO Services" aria-hidden="true" aria-label="Local SEO Services Image"
+                        <img src="{{ asset('assets/images/seo/local/local_seo_services.webp') }}" alt="Local SEO Services"
+                            title="Local SEO Services" aria-hidden="true" aria-label="Local SEO Services Image"
                             loading="lazy" decoding="async">
                     </div>
                 </div>

@@ -1,16 +1,19 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'PPC Management Services | Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – PPC Management Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/ppc/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/ppc/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'PPC Advertising Agency UK | Pay Per Click Experts')
+@section('meta_title', 'PPC Advertising Agency UK | Pay Per Click Experts.')
+@section('meta_description', 'PPC agency UK offering Google Ads and pay per click campaigns to increase traffic, leads
+    and sales with expert advertising strategies across UK markets.')
+@section('meta_keywords', 'PPC advertising agency UK, pay per click experts, Google Ads management UK, PPC campaign management UK, search ads UK, display ads UK, shopping ads UK, social media ads UK, retargeting ads UK, PPC strategy UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/ppc/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/ppc/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 

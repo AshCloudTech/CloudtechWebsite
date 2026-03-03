@@ -1,16 +1,21 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Web Development Services in the UK | Cloud Technologies Ltd')
-@section('meta_title', 'Cloud Technologies Ltd – Web Development Services in the UK')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/webDevelopment/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Website Development Services UK | Web Design Experts')
+@section('meta_title', 'Website Development Services UK | Web Design Experts.')
+@section('meta_description', 'Website development services UK to build fast, responsive and SEO friendly websites that
+    improve user experience, traffic and business growth UK.')
+@section('meta_keywords', 'website development services UK, web design UK, responsive website design UK, website
+    development company UK, SEO-friendly web development UK, custom website development UK, eCommerce website development
+    UK, business website design UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/webDevelopment/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 
@@ -229,8 +234,9 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/bookmygetaway.webp') }}" alt="BookMyGetAway" title="BookMyGetAway" aria-label="BookMyGetAway" aria-hidden="true"
-                            loading="lazy" decoding="async">
+                        <img src="{{ asset('assets/images/webdev/bookmygetaway.webp') }}" alt="BookMyGetAway"
+                            title="BookMyGetAway" aria-label="BookMyGetAway" aria-hidden="true" loading="lazy"
+                            decoding="async">
                     </div>
                     <span class="project-tag project-tag-blue">Travel / Booking Website</span>
                     <h3><a href="https://bookmygetaway.com/" target="_blank">BookMyGetAway</a></h3>
@@ -239,8 +245,9 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/rbj.webp') }}" alt="RBJ Immigration" title="RBJ Immigration" aria-label="RBJ Immigration" aria-hidden="true"
-                            loading="lazy" decoding="async">
+                        <img src="{{ asset('assets/images/webdev/rbj.webp') }}" alt="RBJ Immigration"
+                            title="RBJ Immigration" aria-label="RBJ Immigration" aria-hidden="true" loading="lazy"
+                            decoding="async">
                     </div>
                     <span class="project-tag project-tag-purple">Immigration / Legal Services</span>
                     <h3><a href="https://rbjimmigration.co.uk/" target="_blank">RBJ Immigration</a></h3>
@@ -249,8 +256,9 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/digitally.webp') }}" alt="Digitally Insync" title="Digitally Insync" aria-label="Digitally Insync" aria-hidden="true"
-                            loading="lazy" decoding="async">
+                        <img src="{{ asset('assets/images/webdev/digitally.webp') }}" alt="Digitally Insync"
+                            title="Digitally Insync" aria-label="Digitally Insync" aria-hidden="true" loading="lazy"
+                            decoding="async">
                     </div>
                     <span class="project-tag project-tag-emerald">Digital Marketing / Agency Website</span>
                     <h3><a href="https://www.digitallyinsync.co.uk/" target="_blank">Digitally Insync</a></h3>
@@ -259,8 +267,9 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/topmaths.webp') }}" alt="Top Maths Tutors" title="Top Maths Tutors" aria-label="Top Maths Tutors" aria-hidden="true"
-                            loading="lazy" decoding="async">
+                        <img src="{{ asset('assets/images/webdev/topmaths.webp') }}" alt="Top Maths Tutors"
+                            title="Top Maths Tutors" aria-label="Top Maths Tutors" aria-hidden="true" loading="lazy"
+                            decoding="async">
                     </div>
                     <span class="project-tag project-tag-sky">Education / Tutoring</span>
                     <h3><a href="https://www.topmathstutors.co.uk/" target="_blank">Top Maths Tutors</a></h3>
@@ -269,7 +278,8 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/jane.webp') }}" alt="Jane Gore Therapy" title="Jane Gore Therapy" aria-label="Jane Gore Therapy" aria-hidden="true" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/jane.webp') }}" alt="Jane Gore Therapy"
+                            title="Jane Gore Therapy" aria-label="Jane Gore Therapy" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-amber">Healthcare / Therapy Services</span>
@@ -279,7 +289,8 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/innes.webp') }}" alt="Innes Mitchell" title="Innes Mitchell" aria-label="Innes Mitchell" aria-hidden="true" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/innes.webp') }}" alt="Innes Mitchell"
+                            title="Innes Mitchell" aria-label="Innes Mitchell" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-rose">Professional Services / Consultancy</span>
@@ -338,71 +349,81 @@
         </div>
     </section>
 
-       <!-- Why Choose Cloud Technologies Ltd for Website Development Services?   -->
-<section class="section section-national-about" id="about-meta_ads-seo">
-    <div class="container">
-        <div class="national-about-wrapper">
+    <!-- Why Choose Cloud Technologies Ltd for Website Development Services?   -->
+    <section class="section section-national-about" id="about-meta_ads-seo">
+        <div class="container">
+            <div class="national-about-wrapper">
 
-            <div class="national-about-content">
-                <h2>Why Choose Cloud Technologies Ltd for Website Development Services? </h2>
+                <div class="national-about-content">
+                    <h2>Why Choose Cloud Technologies Ltd for Website Development Services? </h2>
 
-                <p>
-                 Cloud Technologies Ltd is a trusted provider of professional website development services for startups, small businesses, and growing enterprises. We specialise in building fast, SEO-optimised, mobile-responsive websites that help businesses increase visibility, attract customers, and drive conversions.
-                </p>
+                    <p>
+                        Cloud Technologies Ltd is a trusted provider of professional website development services for
+                        startups, small businesses, and growing enterprises. We specialise in building fast, SEO-optimised,
+                        mobile-responsive websites that help businesses increase visibility, attract customers, and drive
+                        conversions.
+                    </p>
 
-                <p>
-                  Whether you need a business website, eCommerce store, booking platform, or custom web application, our expert developers deliver solutions using modern frameworks, secure architecture, and performance-focused design.
-                </p>
-                <p>We provide website development solutions across multiple platforms including WordPress, Shopify, WooCommerce, Wix, Squarespace, GoDaddy Website Builder, and fully custom solutions using Laravel and PHP. </p>
+                    <p>
+                        Whether you need a business website, eCommerce store, booking platform, or custom web application,
+                        our expert developers deliver solutions using modern frameworks, secure architecture, and
+                        performance-focused design.
+                    </p>
+                    <p>We provide website development solutions across multiple platforms including WordPress, Shopify,
+                        WooCommerce, Wix, Squarespace, GoDaddy Website Builder, and fully custom solutions using Laravel and
+                        PHP. </p>
+                </div>
+
+                <div class="national-about-highlight">
+                    <h3>Our Expertise in Website Development Across Industries </h3>
+
+                    <p>
+                        We have delivered website development projects for clients in:
+                    </p>
+
+                    <ul>
+                        <li>Travel & Tourism</li>
+                        <li>Legal & Immigration</li>
+                        <li>Education & eLearning</li>
+                        <li>Healthcare & Therapy</li>
+                        <li>Professional Services</li>
+                        <li>eCommerce & Retail Business</li>
+                        <li>Digital Marketing Agencies</li>
+                    </ul>
+
+                    <p class="">
+                        Our industry experience allows us to understand user behaviour, design conversion-focused layouts,
+                        and implement the right functionality for each business type.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Social Media Marketing Is Essential for Modern Brands -->
+    <section class="section section-national-growth" id="meta_ads-growth">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why Social Media Marketing Is Essential for Modern Brands </h2>
             </div>
 
-            <div class="national-about-highlight">
-                <h3>Our Expertise in Website Development Across Industries </h3>
-
+            <div class="national-growth-card">
                 <p>
-                  We have delivered website development projects for clients in:
+                    Customers now research brands on social media before making decisions. An active, engaging presence
+                    builds credibility and keeps your brand top of mind.
                 </p>
 
-                <ul>
-                    <li>Travel & Tourism</li>
-                    <li>Legal & Immigration</li>
-                    <li>Education & eLearning</li>
-                    <li>Healthcare & Therapy</li>
-                    <li>Professional Services</li>
-                    <li>eCommerce & Retail Business</li>
-                    <li>Digital Marketing Agencies</li>
-                </ul>
-
-                <p class="">
-                  Our industry experience allows us to understand user behaviour, design conversion-focused layouts, and implement the right functionality for each business type.
+                <p>
+                    With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead
+                    generation that supports your overall digital marketing efforts.
                 </p>
             </div>
 
         </div>
-    </div>
-</section>
-
-
-<!-- Why Social Media Marketing Is Essential for Modern Brands -->
-<section class="section section-national-growth" id="meta_ads-growth">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Why Social Media Marketing Is Essential for Modern Brands </h2>
-        </div>
-
-        <div class="national-growth-card">
-            <p>
-               Customers now research brands on social media before making decisions. An active, engaging presence builds credibility and keeps your brand top of mind.
-            </p>
-
-            <p>
-              With the right strategy, social media becomes a powerful channel for awareness, engagement, and lead generation that supports your overall digital marketing efforts.
-            </p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
     <!-- CTA -->
     <section class="section webdev-cta" id="cta">

@@ -1,16 +1,21 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Ecommerce SEO Services')
-@section('meta_title', 'Cloud Technologies Ltd – Ecommerce SEO Services')
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/ecommerce-seo/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
-@endpush
-@push('scripts')
-    <script src="{{ asset('assets/services/digitalMarketing/ecommerce-seo/js/script.js') }}" defer></script>
-@endpush
+@section('title', 'Ecommerce SEO Agency UK | Online Store SEO Services')
+@section('meta_title', 'Ecommerce SEO Agency UK | Online Store SEO Services.')
+@section('meta_description', 'Ecommerce SEO agency UK offering Shopify, WooCommerce and Magento SEO services to improve
+    rankings, traffic, product visibility and online sales UK.')
+@section('meta_keywords', 'ecommerce SEO agency UK, online store SEO services UK, Shopify SEO UK, WooCommerce SEO UK,
+    Magento SEO UK, product page optimization UK, category page SEO UK, technical ecommerce SEO UK, ecommerce content
+    strategy UK, link building for ecommerce UK, local SEO for stores UK, mobile optimization for ecommerce UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/ecommerce-seo/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/digitalMarketing/ecommerce-seo/js/script.js') }}" defer></script>
+    @endpush
 @section('content')
 
 

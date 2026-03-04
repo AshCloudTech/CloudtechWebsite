@@ -2,19 +2,19 @@
 
 @section('title', 'Care Home SEO Services UK | Care Home Marketing Agency Services')
 @section('meta_title', 'Care Home SEO Services UK | Care Home Marketing Agency Services.')
-@section('meta_description', 'SEO for care homes UK providing digital marketing, SEO and website development to increase
-    enquiries and occupancy rates UK for business growth today.')
-@section('meta_keywords', 'care home SEO services UK, care home marketing agency UK, SEO for care homes UK, digital
-    marketing for care homes UK, care home website development UK, local SEO for care homes UK, care home online marketing
-    UK, care home search engine optimisation UK, care home digital strategy UK')
-    @push('styles')
-        <link rel="stylesheet" href="{{ asset('assets/cloud-care/css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    @endpush
-    @push('scripts')
-        <script src="{{ asset('assets/cloud-care/js/script.js') }}" defer></script>
-    @endpush
+@section('meta_description', 'SEO for care homes UK providing digital marketing, SEO and website development to increase enquiries and occupancy rates UK for business growth today.')
+@section('meta_keywords', 'care home SEO services UK, care home marketing agency UK, SEO for care homes UK, digital marketing for care homes UK, care home website development UK, local SEO for care homes UK, care home online marketing UK, care home search engine optimisation UK, care home digital strategy UK')
+
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('assets/cloud-care/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+@endpush
+
+@push('scripts')
+    <script src="{{ asset('assets/cloud-care/js/script.js') }}" defer></script>
+@endpush
+
 @section('content')
 
     <!-- HERO -->
@@ -24,152 +24,114 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <p class="hero-eyebrow">CloudCare</p>
-                <h1>Digital Solutions for<br>Outstanding Care Homes</h1>
+                <h1>Digital Solutions for Care Homes</h1>
                 <p class="hero-subtitle">
-                    CQC-compliant digital platforms for residential care homes, home care providers,
-                    and supported living services. Built to improve care quality, transparency,
-                    and family engagement.
+                    CQC-compliant platforms to improve care, visibility, and family engagement.
                 </p>
 
                 <div class="hero-actions">
                     <a href="#contact" class="btn btn-lg btn-primary">Start Your Project</a>
-                    <a href="#features" class="btn btn-lg btn-ghost hero-ghost-light">Explore Features</a>
+                    <a href="#pricing" class="btn btn-lg btn-ghost hero-ghost-light">Explore Features</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CARE HOME SOLUTIONS OVERVIEW -->
+    <!-- OVERVIEW -->
     <section class="section" id="solutions">
         <div class="container">
             <div class="section-header">
-                <h2>Care Home Technology Solutions</h2>
+                <h2>Care Home SEO That Drives Enquiries</h2>
                 <p>
-                    CloudCare supports care homes, home care providers, and supported living services
-                    with secure, easy-to-use digital tools built around CQC requirements.
+                    CloudCare delivers powerful care home SEO services designed to improve rankings, increase enquiries,
+                    and help your care home stand out online. As a leading seo company for care homes, we combine marketing
+                    with technology to deliver real results.
                 </p>
             </div>
 
             <div class="grid grid-3 services-grid care-solution-grid">
                 <article class="card feature-card">
-                    <div class="card-icon icon-blue">🏡</div>
-                    <h3>Care Home Websites</h3>
+                    <div class="card-icon icon-blue">🌐</div>
+                    <h3>SEO-Optimised Care Home Websites</h3>
+                    <p class="muted"><strong>Care Home Websites</strong></p>
                     <p>
-                        Professional CQC-focused websites showcasing services, facilities,
-                        and inspection ratings.
+                        We design high-performing care home website design and nursing home website design solutions that
+                        showcase your services, facilities, and CQC ratings—while improving visibility through SEO for care homes.
                     </p>
                 </article>
 
                 <article class="card feature-card">
-                    <div class="card-icon icon-teal">📋</div>
-                    <h3>Resident Management</h3>
+                    <div class="card-icon icon-teal">🧾</div>
+                    <h3>Smart Resident Management Systems</h3>
+                    <p class="muted"><strong>Resident Management</strong></p>
                     <p>
-                        Digital resident profiles, care plans, and daily notes accessible to staff
-                        in one secure system.
+                        Manage digital resident profiles, care plans, and daily notes in one secure system built by a leading
+                        care home SEO agency to improve both operations and trust.
                     </p>
                 </article>
 
                 <article class="card feature-card">
                     <div class="card-icon icon-purple">💊</div>
-                    <h3>Medication &amp; MAR Tracking</h3>
+                    <h3>Medication &amp; Compliance Made Simple</h3>
+                    <p class="muted"><strong>Medication &amp; MAR Tracking</strong></p>
                     <p>
-                        Electronic MAR charts, medication schedules, and audit trails to reduce errors
-                        and improve safety.
+                        Reduce errors and improve safety with digital medication tracking systems, supported by reliable
+                        care home SEO services to strengthen your credibility online.
                     </p>
                 </article>
 
                 <article class="card feature-card">
                     <div class="card-icon icon-orange">👨‍👩‍👧</div>
-                    <h3>Family Communication Portal</h3>
+                    <h3>Stronger Family Engagement Tools</h3>
+                    <p class="muted"><strong>Family Communication Portal</strong></p>
                     <p>
-                        Secure family logins to view updates, photos, and wellbeing information
-                        for their loved ones.
+                        Secure family portals designed alongside digital marketing for care homes, helping you build trust
+                        through transparency and real-time updates.
                     </p>
                 </article>
 
                 <article class="card feature-card">
-                    <div class="card-icon icon-green">👩‍⚕️</div>
-                    <h3>Staff Scheduling &amp; Rota</h3>
+                    <div class="card-icon icon-green">🗓️</div>
+                    <h3>Efficient Staff Scheduling &amp; Rota Management</h3>
+                    <p class="muted"><strong>Staff Scheduling &amp; Rota</strong></p>
                     <p>
-                        Shift planning, rota management, and absence tracking to keep staffing safe
-                        and compliant.
+                        Streamline staffing with smart rota tools developed by a leading care home digital marketing agency,
+                        ensuring compliance and efficiency.
                     </p>
                 </article>
 
                 <article class="card feature-card">
                     <div class="card-icon icon-yellow">📊</div>
-                    <h3>Compliance &amp; Reporting</h3>
+                    <h3>Data-Driven Compliance &amp; Reporting</h3>
+                    <p class="muted"><strong>Compliance &amp; Reporting</strong></p>
                     <p>
-                        CQC-aligned reporting dashboards, audits, and evidence logs for inspections
-                        and governance.
+                        CQC-aligned dashboards, audits, and reporting tools delivered by a trusted care home marketing agency
+                        to simplify inspections and governance.
                     </p>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- CORE FEATURES -->
-    <section class="section section-alt" id="features">
+    <!-- PACKAGES -->
+    <section class="section section-alt" id="pricing">
         <div class="container">
             <div class="section-header">
-                <h2>Built for Care Quality &amp; Compliance</h2>
+                <h2>Care Home Marketing Services That Scale</h2>
                 <p>
-                    CloudCare is designed around the CQC key lines of enquiry, with tools that help
-                    you demonstrate safe, effective, caring, responsive, and well-led services.
-                </p>
-            </div>
-
-            <div class="grid grid-3 care-feature-grid">
-                <article class="card care-feature-card">
-                    <h3>For Registered Managers</h3>
-                    <ul class="feature-list">
-                        <li>Real-time overview of residents &amp; staffing</li>
-                        <li>Incident &amp; safeguarding logging</li>
-                        <li>Policy &amp; document management</li>
-                        <li>Inspection-ready reporting</li>
-                    </ul>
-                </article>
-
-                <article class="card care-feature-card">
-                    <h3>For Care Staff</h3>
-                    <ul class="feature-list">
-                        <li>Mobile-friendly care notes</li>
-                        <li>Daily tasks &amp; checklists</li>
-                        <li>Medication prompts &amp; alerts</li>
-                        <li>Handover &amp; shift summaries</li>
-                    </ul>
-                </article>
-
-                <article class="card care-feature-card">
-                    <h3>For Families</h3>
-                    <ul class="feature-list">
-                        <li>Secure family logins</li>
-                        <li>Regular updates &amp; photo sharing</li>
-                        <li>Visit booking &amp; messaging</li>
-                        <li>Transparent care information</li>
-                    </ul>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- PRICING -->
-    <section class="section" id="pricing">
-        <div class="container">
-            <div class="section-header">
-                <h2>CloudCare Solutions &amp; Pricing</h2>
-                <p>
-                    Flexible packages for single homes, regional groups, and national care providers.
+                    Flexible care home marketing services tailored for single homes, regional groups, and national providers
+                    combining SEO, technology, and growth strategies.
                 </p>
             </div>
 
             <div class="grid grid-3 pricing-grid">
                 <!-- Care Home Website -->
                 <article class="card pricing-card">
-                    <h3>Care Home Website</h3>
-                    <p class="pricing-price">From £2,499</p>
+                    <h3>Professional Care Home Website Design</h3>
                     <p class="pricing-subtitle">
-                        Modern, CQC-focused website for individual care homes.
+                        <strong>Care Home Website</strong><br>
+                        Modern care home website design delivered by an experienced care home web design company, focused on
+                        generating enquiries and improving user experience.
                     </p>
                     <ul class="pricing-list">
                         <li>Custom care home website</li>
@@ -182,10 +144,11 @@
 
                 <!-- Care Home Digital Hub -->
                 <article class="card pricing-card">
-                    <h3>Care Home Digital Hub</h3>
-                    <p class="pricing-price">From £5,999</p>
+                    <h3>Advanced Care Home Website Development</h3>
                     <p class="pricing-subtitle">
-                        Website plus basic digital hub for resident &amp; family engagement.
+                        <strong>Care Home Digital Hub</strong><br>
+                        Scalable care home website development with integrated engagement features, powered by robust care home
+                        web development solutions.
                     </p>
                     <ul class="pricing-list">
                         <li>Everything in Care Home Website</li>
@@ -196,12 +159,13 @@
                     <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
                 </article>
 
-                <!-- Full Care Management Platform -->
+                <!-- Care Management Platform -->
                 <article class="card pricing-card">
-                    <h3>Care Management Platform</h3>
-                    <p class="pricing-price">From £9,999</p>
+                    <h3>Complete Care Management &amp; SEO Platform</h3>
                     <p class="pricing-subtitle">
-                        Complete digital care management for multi-site providers.
+                        <strong>Care Management Platform</strong><br>
+                        All-in-one platform from a trusted seo company care homes rely on, combining operations, compliance,
+                        and marketing performance.
                     </p>
                     <ul class="pricing-list">
                         <li>Resident &amp; care plan management</li>
@@ -216,13 +180,13 @@
     </section>
 
     <!-- SUCCESS STORIES -->
-    <section class="section section-alt" id="success">
+    <section class="section" id="success">
         <div class="container">
             <div class="section-header">
-                <h2>Care Home Success Stories</h2>
+                <h2>Success Stories from Care Home Providers</h2>
                 <p>
-                    Real examples of care providers using CloudCare to improve outcomes,
-                    achieve better ratings, and build trust with families.
+                    Real results from organisations using our care home SEO agency and care home advertising agency expertise
+                    to grow and improve care quality.
                 </p>
             </div>
 
@@ -231,12 +195,8 @@
                 <article class="card success-card">
                     <div class="success-image placeholder-image"></div>
                     <h3>Residential Care Home Group</h3>
-                    <p>
-                        Rolled out CloudCare across a group of homes with full digital care planning
-                        and family portal.
-                    </p>
                     <ul class="success-metrics">
-                        <li>3 homes moved from 'Good' to 'Outstanding'</li>
+                        <li>3 homes moved from ‘Good’ to ‘Outstanding’</li>
                         <li>65% reduction in paperwork</li>
                         <li>4.9/5 family satisfaction rating</li>
                         <li>Stronger inspection feedback</li>
@@ -247,9 +207,6 @@
                 <article class="card success-card">
                     <div class="success-image placeholder-image"></div>
                     <h3>Home Care Provider</h3>
-                    <p>
-                        Implemented mobile care notes and rota management for visiting care staff.
-                    </p>
                     <ul class="success-metrics">
                         <li>40% improvement in visit punctuality</li>
                         <li>Real-time oversight of care delivery</li>
@@ -262,29 +219,58 @@
                 <article class="card success-card">
                     <div class="success-image placeholder-image"></div>
                     <h3>Supported Living Services</h3>
-                    <p>
-                        Centralised documentation, risk assessments, and tenant records.
-                    </p>
                     <ul class="success-metrics">
                         <li>Single source of truth for records</li>
-                        <li>Faster response to incidents</li>
-                        <li>Better multi-agency collaboration</li>
-                        <li>Improved governance &amp; oversight</li>
+                        <li>Faster incident response</li>
+                        <li>Better collaboration</li>
+                        <li>Improved governance</li>
                     </ul>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- CTA SECTION -->
+    <!-- COMPLIANCE & SECURITY -->
+    <section class="section section-alt" id="compliance">
+        <div class="container">
+            <div class="section-header">
+                <h2>Secure, Compliant &amp; Built for Care Homes</h2>
+                <p>Our solutions meet the highest standards for care sector compliance and data protection.</p>
+            </div>
+
+            <div class="grid grid-4 compliance-grid">
+                <article class="card compliance-card">
+                    <h3>GDPR Compliant</h3>
+                    <p>Designed to support strong data protection practices.</p>
+                </article>
+
+                <article class="card compliance-card">
+                    <h3>CQC Aligned</h3>
+                    <p>Built around inspection readiness and governance needs.</p>
+                </article>
+
+                <article class="card compliance-card">
+                    <h3>Secure Data Systems</h3>
+                    <p>Secure architecture for sensitive care information.</p>
+                </article>
+
+                <article class="card compliance-card">
+                    <h3>End-to-End Encryption</h3>
+                    <p>Encrypted data transmission and access controls.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
     <section class="section care-cta" id="contact">
         <div class="container">
             <div class="cta-inner care-cta-inner">
                 <div class="cta-main">
-                    <h2>Ready to Transform Your Care Service?</h2>
+                    <h2>Ready to Grow Your Care Home?</h2>
                     <p>
-                        Book a free discovery call with our care sector specialists and see how
-                        CloudCare can support your residents, staff, and families.
+                        Partner with a trusted care home SEO agency, care home marketing agency, and care home digital marketing
+                        agency to increase enquiries and improve care delivery.
                     </p>
                 </div>
                 <div class="cta-actions care-cta-actions">
@@ -295,15 +281,12 @@
         </div>
     </section>
 
-    <!-- SIMPLE CONTACT FORM -->
+    <!-- CONTACT -->
     <section class="section section-alt" id="contact-form">
         <div class="container">
             <div class="section-header">
                 <h2>Contact the CloudCare Team</h2>
-                <p>
-                    Tell us about your care service and your current systems, and we’ll be in touch
-                    within one business day.
-                </p>
+                <p>Tell us about your care service and your current systems, and we’ll be in touch within one business day.</p>
             </div>
 
             <form class="contact-form">
@@ -317,9 +300,10 @@
                         <input type="email" id="email" placeholder="name@carehome.org">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="organisation">Care Provider</label>
+                        <label for="organisation">Care Service</label>
                         <input type="text" id="organisation" placeholder="Care home / provider name">
                     </div>
                     <div class="form-field">
@@ -327,14 +311,75 @@
                         <input type="text" id="role" placeholder="Registered Manager, Director, etc.">
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-field form-field-full">
                         <label for="message">How can we help?</label>
-                        <textarea id="message" rows="4" placeholder="Tell us about your services, number of homes, and goals."></textarea>
+                        <textarea id="message" rows="4" placeholder="Tell us about your goals, number of homes/clients, and current systems."></textarea>
                     </div>
                 </div>
+
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="section" id="faqs">
+        <div class="container">
+            <div class="section-header">
+                <h2>FAQs – Care Home SEO &amp; Digital Solutions</h2>
+            </div>
+
+            <div class="faq-grid">
+                <article class="card faq-card">
+                    <h3>1. What is care home SEO and why is it important?</h3>
+                    <p>
+                        Care home SEO helps care providers rank higher on search engines, making it easier for families to find
+                        your services and increasing enquiries and occupancy rates.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>2. How does SEO for care homes increase enquiries?</h3>
+                    <p>
+                        SEO for care homes improves visibility for searches related to care services, helping you attract more
+                        qualified leads and reduce reliance on paid advertising.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>3. What does a care home SEO agency do?</h3>
+                    <p>
+                        A care home SEO agency optimises your website, content, and local search presence to improve rankings,
+                        build trust, and generate more enquiries.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>4. Why is care home website design important?</h3>
+                    <p>
+                        Professional care home website design ensures your services, facilities, and CQC ratings are clearly
+                        presented, helping families make informed decisions.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>5. What are the benefits of digital marketing for care homes?</h3>
+                    <p>
+                        Digital marketing for care homes increases visibility, builds trust, and improves engagement through SEO,
+                        content, and online campaigns, leading to more enquiries.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>6. How can care home website development improve operations?</h3>
+                    <p>
+                        Care home website development enables features like enquiry forms, booking systems, and family portals,
+                        improving communication and operational efficiency.
+                    </p>
+                </article>
+            </div>
         </div>
     </section>
 

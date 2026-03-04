@@ -121,6 +121,7 @@ button {
     background: linear-gradient(135deg, #fb923c, #f97316);
     color: #ffffff;
     box-shadow: 0 8px 18px rgba(248, 113, 22, 0.35);
+        border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 .btn-primary:hover {
@@ -158,9 +159,15 @@ button {
     background-color: #171d33;
 }
 
-.btn-block {
-    width: 100%;
-    justify-content: center;
+.pricing-grid .pricing-card .btn-block{
+  margin-top: auto;
+}
+.btn-block{
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
 }
 
 /* ==== HEADER ==== */
@@ -267,6 +274,7 @@ button {
     color: #ffffff;
     padding: 120px 0 80px 0;
     overflow: hidden;
+    min-height: 490px;
 }
 
 .hero-bg {
@@ -399,7 +407,9 @@ button {
 /* ==== PRICING ==== */
 
 .pricing-grid .pricing-card {
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .pricing-price {

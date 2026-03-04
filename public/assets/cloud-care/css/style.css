@@ -160,7 +160,14 @@ button {
 
 .btn-block {
     width: 100%;
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
+    min-height: 44px;
+    /* consistent height */
+    padding: 12px 16px;
+    /* consistent padding */
+    text-align: center;
 }
 
 /* ==== HEADER ==== */
@@ -267,12 +274,14 @@ button {
     color: #ffffff;
     padding: 120px 0 80px 0;
     overflow: hidden;
+    min-height: 490px;
 }
 
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url("../img/cloudcare-hero.jpg"); /* replace with actual hero image */
+    background-image: url("../img/cloudcare-hero.jpg");
+    /* replace with actual hero image */
     background-size: cover;
     background-position: center;
     opacity: 0.3;
@@ -283,8 +292,8 @@ button {
     position: absolute;
     inset: 0;
     background: radial-gradient(circle at top left, rgba(96, 165, 250, 0.5), transparent 55%),
-                radial-gradient(circle at bottom right, rgba(37, 99, 235, 0.7), transparent 55%),
-                linear-gradient(to bottom, rgba(15, 23, 42, 0.95), #0b1120);
+        radial-gradient(circle at bottom right, rgba(37, 99, 235, 0.7), transparent 55%),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.95), #0b1120);
     z-index: -1;
 }
 
@@ -359,12 +368,29 @@ button {
     color: #ffffff;
 }
 
-.icon-blue { background: linear-gradient(135deg, #3b82f6, #2563eb); }
-.icon-teal { background: linear-gradient(135deg, #06b6d4, #0891b2); }
-.icon-purple { background: linear-gradient(135deg, #a855f7, #7c3aed); }
-.icon-orange { background: linear-gradient(135deg, #fb923c, #f97316); }
-.icon-green { background: linear-gradient(135deg, #22c55e, #16a34a); }
-.icon-yellow { background: linear-gradient(135deg, #facc15, #eab308); }
+.icon-blue {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.icon-teal {
+    background: linear-gradient(135deg, #06b6d4, #0891b2);
+}
+
+.icon-purple {
+    background: linear-gradient(135deg, #a855f7, #7c3aed);
+}
+
+.icon-orange {
+    background: linear-gradient(135deg, #fb923c, #f97316);
+}
+
+.icon-green {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.icon-yellow {
+    background: linear-gradient(135deg, #facc15, #eab308);
+}
 
 .feature-card {
     min-height: 180px;
@@ -399,7 +425,17 @@ button {
 /* ==== PRICING ==== */
 
 .pricing-grid .pricing-card {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pricing-grid .pricing-card .btn-block {
+    margin-top: auto;
+}
+
+.pricing-grid {
+    align-items: stretch;
 }
 
 .pricing-price {

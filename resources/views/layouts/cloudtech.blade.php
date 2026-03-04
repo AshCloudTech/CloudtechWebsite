@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
 
     @php
-        $pageTitle = trim($__env->yieldContent('title'))
-            ?: 'Cloud Technologies Ltd – British-Built Digital Transformation';
+        $metaTitle = trim($__env->yieldContent('meta_title'));
+        $pageTitle = trim($__env->yieldContent('title'));
 
-        $pageDescription = trim($__env->yieldContent('meta_description'))
-            ?: 'British-led global digital transformation partner delivering end-to-end solutions for healthcare, education, travel, recruitment, and public sector organizations worldwide.';
+        $finalTitle = $metaTitle ?: ($pageTitle ?: 'Cloud Technologies Ltd – British-Built Digital Transformation');
+
+        $pageDescription =
+            trim($__env->yieldContent('meta_description')) ?:
+            'British-led global digital transformation partner delivering end-to-end solutions for healthcare, education, travel, recruitment, and public sector organizations worldwide.';
     @endphp
 
     <!-- Title -->
-    <title>{{ $pageTitle }}</title>
+    <title>{{ $finalTitle }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -47,14 +51,14 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Cloud Technologies Ltd">
     <meta property="og:locale" content="en_GB">
-    <meta property="og:title" content="{{ $pageTitle }}">
+    <meta property="og:title" content="{{ $finalTitle }}">
     <meta property="og:description" content="{{ $pageDescription }}">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:image" content="{{ $ogImageUrl }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ $pageTitle }}">
+    <meta name="twitter:title" content="{{ $finalTitle }}">
     <meta name="twitter:description" content="{{ $pageDescription }}">
     <meta name="twitter:image" content="{{ $ogImageUrl }}">
 
@@ -65,15 +69,13 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFQG0JPV04"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){ dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
         gtag('config', 'G-QFQG0JPV04');
     </script>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
     @yield('meta_tags')
     @stack('styles')
@@ -107,11 +109,8 @@
 
     @include('partials.audit-modal')
 
-    <a href="https://wa.me/{{ $globalCompany?->whatsapp }}"
-       class="whatsapp-float"
-       target="_blank"
-       rel="noopener"
-       aria-label="Chat with us on WhatsApp">
+    <a href="https://wa.me/{{ $globalCompany?->whatsapp }}" class="whatsapp-float" target="_blank" rel="noopener"
+        aria-label="Chat with us on WhatsApp">
         <span class="whatsapp-text">
             <strong>We’re Online</strong><br>
             Chat With Us Now
@@ -122,4 +121,5 @@
     </a>
 
 </body>
+
 </html>

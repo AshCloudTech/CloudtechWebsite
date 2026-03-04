@@ -120,7 +120,8 @@ button {
 .btn-primary {
     background: linear-gradient(135deg, #22c55e, #16a34a);
     color: #ffffff;
-    box-shadow: 0 8px 18px rgba(22, 163, 74, 0.35);
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 .btn-primary:hover {
@@ -158,8 +159,14 @@ button {
     background-color: #171d33;
 }
 
+.pricing-grid .pricing-card .btn-block {
+    margin-top: auto;
+}
+
 .btn-block {
     width: 100%;
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -267,12 +274,14 @@ button {
     color: #ffffff;
     padding: 120px 0 80px 0;
     overflow: hidden;
+    min-height: 490px;
 }
 
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url("../img/cloudedu-hero.jpg"); /* replace with actual hero image */
+    background-image: url("../img/cloudedu-hero.jpg");
+    /* replace with actual hero image */
     background-size: cover;
     background-position: center;
     opacity: 0.3;
@@ -283,8 +292,8 @@ button {
     position: absolute;
     inset: 0;
     background: radial-gradient(circle at top left, rgba(74, 222, 128, 0.5), transparent 55%),
-                radial-gradient(circle at bottom right, rgba(22, 163, 74, 0.7), transparent 55%),
-                linear-gradient(to bottom, rgba(5, 46, 22, 0.95), #064e3b);
+        radial-gradient(circle at bottom right, rgba(22, 163, 74, 0.7), transparent 55%),
+        linear-gradient(to bottom, rgba(5, 46, 22, 0.95), #064e3b);
     z-index: -1;
 }
 
@@ -359,12 +368,29 @@ button {
     color: #ffffff;
 }
 
-.icon-green { background: linear-gradient(135deg, #22c55e, #16a34a); }
-.icon-blue { background: linear-gradient(135deg, #38bdf8, #0ea5e9); }
-.icon-purple { background: linear-gradient(135deg, #a855f7, #7c3aed); }
-.icon-orange { background: linear-gradient(135deg, #fb923c, #f97316); }
-.icon-teal { background: linear-gradient(135deg, #14b8a6, #0d9488); }
-.icon-yellow { background: linear-gradient(135deg, #facc15, #eab308); }
+.icon-green {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.icon-blue {
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+}
+
+.icon-purple {
+    background: linear-gradient(135deg, #a855f7, #7c3aed);
+}
+
+.icon-orange {
+    background: linear-gradient(135deg, #fb923c, #f97316);
+}
+
+.icon-teal {
+    background: linear-gradient(135deg, #14b8a6, #0d9488);
+}
+
+.icon-yellow {
+    background: linear-gradient(135deg, #facc15, #eab308);
+}
 
 .feature-card {
     min-height: 180px;
@@ -399,7 +425,9 @@ button {
 /* ==== PRICING ==== */
 
 .pricing-grid .pricing-card {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .pricing-price {

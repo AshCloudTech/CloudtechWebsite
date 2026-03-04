@@ -2,21 +2,20 @@
 
 @section('title', 'Public Sector SEO Service UK | Digital Service Agency')
 @section('meta_title', 'Public Sector SEO Service UK | Digital Service Agency.')
-@section('meta_description', 'Public sector SEO UK providing digital marketing, SEO and website development to improve
-    visibility and engagement UK for better digital service growth today')
-@section('meta_keywords', 'public sector SEO service UK, public sector digital marketing UK, public sector website
-    development UK, government SEO UK, council SEO UK, public body SEO UK, digital services for public sector UK, improving
-    visibility for public services UK, engaging citizens online UK')
-    @push('styles')
-        <link rel="stylesheet" href="{{ asset('assets/cloud-public/css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    @endpush
-    @push('scripts')
-        <script src="{{ asset('assets/cloud-public/js/script.js') }}" defer></script>
-    @endpush
-@section('content')
+@section('meta_description', 'Public sector SEO UK providing digital marketing, SEO and website development to improve visibility and engagement UK for better digital service growth today')
+@section('meta_keywords', 'public sector SEO service UK, public sector digital marketing UK, public sector website development UK, government SEO UK, council SEO UK, public body SEO UK, digital services for public sector UK, improving visibility for public services UK, engaging citizens online UK')
 
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('assets/cloud-public/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+@endpush
+
+@push('scripts')
+    <script src="{{ asset('assets/cloud-public/js/script.js') }}" defer></script>
+@endpush
+
+@section('content')
 
     <!-- HERO -->
     <section class="hero public-hero" id="hero">
@@ -25,29 +24,27 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <p class="hero-eyebrow">CloudPublic</p>
-                <h1>Secure Digital Platforms<br>for Public Sector &amp; Government</h1>
+                <h1>Digital Solutions for Public Sector</h1>
                 <p class="hero-subtitle">
-                    Websites, portals, and case management platforms designed for councils,
-                    government departments, and public sector organisations – secure,
-                    accessible, and built around citizen needs.
+                    Improve services, accessibility, and engagement with trusted digital solutions.
                 </p>
 
                 <div class="hero-actions">
                     <a href="#contact" class="btn btn-lg btn-primary">Start Your Project</a>
-                    <a href="#platforms" class="btn btn-lg btn-ghost hero-ghost-light">View Platforms</a>
+                    <a href="#pricing" class="btn btn-lg btn-ghost hero-ghost-light">View Platforms</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PUBLIC SECTOR SOLUTIONS OVERVIEW -->
+    <!-- PUBLIC SECTOR SEO -->
     <section class="section" id="solutions">
         <div class="container">
             <div class="section-header">
-                <h2>Public Sector Digital Solutions</h2>
+                <h2>Public Sector SEO</h2>
                 <p>
-                    CloudPublic supports government and public bodies with citizen-centred websites,
-                    digital services, and secure back-office platforms.
+                    Improve visibility and accessibility with public sector SEO and local government SEO strategies designed
+                    for councils and public organisations.
                 </p>
             </div>
 
@@ -56,26 +53,25 @@
                     <div class="card-icon icon-indigo">🏛️</div>
                     <h3>Public Sector Websites</h3>
                     <p>
-                        Accessible, content-rich websites to communicate services, news,
-                        and local information clearly to citizens.
+                        Accessible, high-performing government website design and public sector website design built to clearly
+                        communicate services and information.
                     </p>
                 </article>
 
                 <article class="card feature-card">
                     <div class="card-icon icon-blue">🧾</div>
-                    <h3>Online Forms &amp; Services</h3>
+                    <h3>Online Services &amp; Forms</h3>
                     <p>
-                        End-to-end digital service journeys for applications, renewals,
-                        and reporting issues online.
+                        End-to-end digital services supported by SEO for government websites, making it easier for citizens to
+                        apply, report, and access services online.
                     </p>
                 </article>
 
                 <article class="card feature-card">
                     <div class="card-icon icon-teal">📂</div>
-                    <h3>Case &amp; Request Management</h3>
+                    <h3>Case Management</h3>
                     <p>
-                        Track citizen requests, cases, and workflows from submission
-                        to resolution with full audit trails.
+                        Track requests, cases, and workflows with secure systems designed for efficiency and transparency.
                     </p>
                 </article>
 
@@ -83,8 +79,7 @@
                     <div class="card-icon icon-purple">👥</div>
                     <h3>Resident &amp; Business Portals</h3>
                     <p>
-                        Secure login areas where residents and businesses can view
-                        applications, balances, and messages.
+                        Secure portals for residents and businesses to access services, updates, and communications.
                     </p>
                 </article>
 
@@ -92,124 +87,76 @@
                     <div class="card-icon icon-green">📊</div>
                     <h3>Reporting &amp; Insights</h3>
                     <p>
-                        Dashboards to understand service demand, performance,
-                        and trends across departments.
+                        Performance dashboards powered by public sector marketing strategies to track demand, usage, and service delivery.
                     </p>
                 </article>
 
                 <article class="card feature-card">
                     <div class="card-icon icon-yellow">🔐</div>
-                    <h3>Compliance &amp; Governance</h3>
+                    <h3>Compliance &amp; Security</h3>
                     <p>
-                        Architected with security, accessibility, and data protection
-                        at the core from day one.
+                        Built with accessibility, governance, and security at the core, aligned with modern government website development standards.
                     </p>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- PLATFORMS / MODULES -->
-    <section class="section section-alt" id="platforms">
+    <!-- PUBLIC SECTOR MARKETING SERVICES -->
+    <section class="section section-alt" id="pricing">
         <div class="container">
             <div class="section-header">
-                <h2>Platforms for Modern Public Services</h2>
+                <h2>Public Sector Marketing Services</h2>
                 <p>
-                    CloudPublic can be tailored for councils, central government, housing,
-                    and wider public bodies – joining up citizen journeys across services.
-                </p>
-            </div>
-
-            <div class="grid grid-3 public-platform-grid">
-                <article class="card public-feature-card">
-                    <h3>For Local Authorities</h3>
-                    <ul class="feature-list">
-                        <li>Council website &amp; service directory</li>
-                        <li>Report, request &amp; pay online journeys</li>
-                        <li>Waste, council tax &amp; benefits flows</li>
-                        <li>Ward &amp; councillor information areas</li>
-                    </ul>
-                </article>
-
-                <article class="card public-feature-card">
-                    <h3>For Central Government</h3>
-                    <ul class="feature-list">
-                        <li>Campaign &amp; programme microsites</li>
-                        <li>Secure portals for stakeholders</li>
-                        <li>Application &amp; grants management</li>
-                        <li>Multi-language &amp; multi-region support</li>
-                    </ul>
-                </article>
-
-                <article class="card public-feature-card">
-                    <h3>For Public Bodies &amp; Housing</h3>
-                    <ul class="feature-list">
-                        <li>Resident &amp; tenant self-service</li>
-                        <li>Repairs &amp; maintenance logging</li>
-                        <li>Digital document &amp; notice delivery</li>
-                        <li>Feedback &amp; satisfaction surveys</li>
-                    </ul>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- PRICING -->
-    <section class="section" id="pricing">
-        <div class="container">
-            <div class="section-header">
-                <h2>CloudPublic Solutions &amp; Pricing</h2>
-                <p>
-                    Flexible starting points for different sizes of public organisations,
-                    with scope to grow into a broader digital platform.
+                    Scalable public sector marketing and government social media marketing solutions designed to improve citizen engagement and communication.
                 </p>
             </div>
 
             <div class="grid grid-3 pricing-grid">
                 <!-- Public Sector Website -->
                 <article class="card pricing-card">
-                    <h3>Public Sector Website</h3>
-                    <p class="pricing-price">From £3,999</p>
+                    <h3>Government Website Design</h3>
                     <p class="pricing-subtitle">
-                        Ideal for councils, agencies, and public bodies wanting to modernise their web presence.
+                        <strong>Public Sector Website</strong><br>
+                        Modern government website design focused on accessibility, usability, and citizen experience.
                     </p>
                     <ul class="pricing-list">
                         <li>Accessible public website</li>
-                        <li>Service &amp; content structure design</li>
+                        <li>Service &amp; content structure</li>
                         <li>News, events &amp; alerts</li>
                         <li>Search &amp; service finder</li>
                     </ul>
                     <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
                 </article>
 
-                <!-- Digital Services &amp; Forms -->
+                <!-- Digital Services & Forms -->
                 <article class="card pricing-card">
-                    <h3>Digital Services &amp; Forms</h3>
-                    <p class="pricing-price">From £8,499</p>
+                    <h3>Government Website Development</h3>
                     <p class="pricing-subtitle">
-                        Move priority services online with joined-up form and case management.
+                        <strong>Digital Services &amp; Forms</strong><br>
+                        Advanced government website development with integrated services and workflows.
                     </p>
                     <ul class="pricing-list">
                         <li>End-to-end form journeys</li>
-                        <li>Routing &amp; workflow setup</li>
+                        <li>Workflow &amp; routing setup</li>
                         <li>Notifications &amp; tracking</li>
-                        <li>Integration-ready APIs</li>
+                        <li>API-ready integrations</li>
                     </ul>
                     <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
                 </article>
 
-                <!-- Full Public Service Platform -->
+                <!-- End-to-End Platform -->
                 <article class="card pricing-card">
                     <h3>Full Public Service Platform</h3>
-                    <p class="pricing-price">From £16,999</p>
                     <p class="pricing-subtitle">
-                        Comprehensive public-facing and back-office platform for multi-service organisations.
+                        <strong>End-to-End Platform</strong><br>
+                        Complete solution combining public sector SEO, digital services, and platform development.
                     </p>
                     <ul class="pricing-list">
                         <li>Website + portals + forms</li>
                         <li>Central case management</li>
-                        <li>Reporting &amp; insights dashboards</li>
-                        <li>Multi-site &amp; multi-agency support</li>
+                        <li>Reporting dashboards</li>
+                        <li>Multi-agency support</li>
                     </ul>
                     <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
                 </article>
@@ -218,121 +165,78 @@
     </section>
 
     <!-- SUCCESS STORIES -->
-    <section class="section section-alt" id="success">
+    <section class="section" id="success">
         <div class="container">
             <div class="section-header">
-                <h2>Public Sector Success Stories</h2>
+                <h2>Public Sector SEO Success Stories</h2>
                 <p>
-                    See how CloudPublic has helped councils and public bodies modernise
-                    services and improve citizen experience.
+                    Real results from councils and public organisations using our public sector SEO and digital solutions.
                 </p>
             </div>
 
             <div class="grid grid-3 success-grid">
-                <!-- Local Council -->
                 <article class="card success-card">
                     <div class="success-image placeholder-image"></div>
                     <h3>UK Local Council</h3>
-                    <p>
-                        Rebuilt their council website and key services around citizen journeys and accessibility.
-                    </p>
                     <ul class="success-metrics">
                         <li>40% increase in online service usage</li>
-                        <li>Reduced calls for routine enquiries</li>
+                        <li>Reduced routine enquiry calls</li>
                         <li>Improved accessibility compliance</li>
-                        <li>Better feedback on user experience</li>
+                        <li>Better user feedback</li>
                     </ul>
                 </article>
 
-                <!-- Housing Association -->
                 <article class="card success-card">
                     <div class="success-image placeholder-image"></div>
                     <h3>Housing Association</h3>
-                    <p>
-                        Launched a resident portal for repairs, payments, and communications.
-                    </p>
                     <ul class="success-metrics">
-                        <li>More self-service repairs logged online</li>
-                        <li>Reduced wait times for updates</li>
-                        <li>Improved satisfaction scores</li>
-                        <li>Better data on recurring issues</li>
+                        <li>More online service usage</li>
+                        <li>Reduced response times</li>
+                        <li>Improved satisfaction</li>
+                        <li>Better data insights</li>
                     </ul>
                 </article>
 
-                <!-- National Public Body -->
                 <article class="card success-card">
                     <div class="success-image placeholder-image"></div>
                     <h3>National Public Body</h3>
-                    <p>
-                        Created secure stakeholder portals and centralised campaign sites.
-                    </p>
                     <ul class="success-metrics">
                         <li>Faster information sharing</li>
                         <li>Improved transparency</li>
-                        <li>Better stakeholder engagement</li>
-                        <li>Consistent digital brand presence</li>
+                        <li>Better engagement</li>
+                        <li>Consistent digital presence</li>
                     </ul>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- COMPLIANCE / BENEFITS -->
-    <section class="section public-benefits" id="benefits">
+    <!-- BENEFITS -->
+    <section class="section section-alt public-benefits" id="benefits">
         <div class="container">
             <div class="section-header">
                 <h2>Built for Public Sector Standards</h2>
-                <p>
-                    CloudPublic platforms are engineered around security, accessibility,
-                    and long-term partnership with public sector teams.
-                </p>
+                <p>Designed for long-term performance, compliance, and scalability.</p>
             </div>
 
             <div class="grid grid-4 benefits-grid">
-                <article class="card benefit-card">
-                    <h3>Accessibility by Design</h3>
-                    <p>
-                        Aligned with WCAG guidelines to ensure inclusive and usable
-                        experiences for all citizens.
-                    </p>
-                </article>
-
-                <article class="card benefit-card">
-                    <h3>Security &amp; Data Protection</h3>
-                    <p>
-                        Robust security practices and data handling aligned
-                        with public sector requirements.
-                    </p>
-                </article>
-
-                <article class="card benefit-card">
-                    <h3>Integration-Ready</h3>
-                    <p>
-                        APIs and integration patterns for CRMs, line-of-business systems,
-                        and analytics platforms.
-                    </p>
-                </article>
-
-                <article class="card benefit-card">
-                    <h3>Long-Term Partner</h3>
-                    <p>
-                        A delivery and support approach designed for multi-year
-                        digital programmes, not one-off launches.
-                    </p>
-                </article>
+                <article class="card benefit-card"><h3>Accessibility by Design</h3></article>
+                <article class="card benefit-card"><h3>Secure &amp; Compliant</h3></article>
+                <article class="card benefit-card"><h3>Integration-Ready</h3></article>
+                <article class="card benefit-card"><h3>Long-Term Support</h3></article>
             </div>
         </div>
     </section>
 
-    <!-- CTA SECTION -->
+    <!-- CTA -->
     <section class="section public-cta" id="contact">
         <div class="container">
             <div class="cta-inner public-cta-inner">
                 <div class="cta-main">
-                    <h2>Ready to Modernise Your Public Services?</h2>
+                    <h2>Modernise Your Public Services</h2>
                     <p>
-                        Share your current challenges and priorities and we’ll help you map out
-                        a CloudPublic roadmap tailored to your organisation.
+                        Partner with experts in government SEO, digital marketing for government, and government website development
+                        to improve services and citizen engagement.
                     </p>
                 </div>
                 <div class="cta-actions public-cta-actions">
@@ -343,15 +247,12 @@
         </div>
     </section>
 
-    <!-- SIMPLE CONTACT FORM -->
+    <!-- CONTACT -->
     <section class="section section-alt" id="contact-form">
         <div class="container">
             <div class="section-header">
                 <h2>Contact the CloudPublic Team</h2>
-                <p>
-                    Tell us about your organisation, services, and goals, and we’ll get back to you
-                    within one business day.
-                </p>
+                <p>Tell us about your organisation and we’ll respond within one business day.</p>
             </div>
 
             <form class="contact-form">
@@ -383,6 +284,65 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="section" id="faqs">
+        <div class="container">
+            <div class="section-header">
+                <h2>FAQs – Public Sector SEO &amp; Digital Solutions</h2>
+            </div>
+
+            <div class="faq-grid">
+                <article class="card faq-card">
+                    <h3>1. What is Public Sector SEO and why is it important?</h3>
+                    <p>
+                        Public sector SEO helps government organisations and councils improve their visibility on search engines.
+                        It ensures citizens can easily find services, information, and online forms, improving accessibility and engagement.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>2. How does SEO for government websites improve citizen services?</h3>
+                    <p>
+                        SEO for government websites makes it easier for users to find key services like applications, reporting tools,
+                        and local information. This reduces call volumes and improves digital service adoption.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>3. What does a public sector SEO agency do?</h3>
+                    <p>
+                        A public sector SEO agency provides strategies to improve rankings, optimise website content, and enhance user experience
+                        while ensuring compliance with accessibility and government standards.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>4. Why is government website design important for councils?</h3>
+                    <p>
+                        Government website design focuses on accessibility, usability, and clear communication. A well-designed site ensures citizens
+                        can quickly access services, understand information, and complete tasks online.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>5. What are the benefits of digital marketing for government organisations?</h3>
+                    <p>
+                        Digital marketing for government improves communication, increases awareness of public services, and boosts engagement
+                        through channels like search, social media, and content marketing.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>6. How can public sector website development improve efficiency?</h3>
+                    <p>
+                        Public sector website development enables automation of services, online forms, and case management systems.
+                        This reduces manual workload, speeds up processes, and improves service delivery.
+                    </p>
+                </article>
+            </div>
         </div>
     </section>
 

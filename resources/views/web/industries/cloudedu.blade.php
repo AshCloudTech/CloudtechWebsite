@@ -2,21 +2,20 @@
 
 @section('title', 'Education SEO Services UK | Education Marketing Agency')
 @section('meta_title', 'Education SEO Services UK | Education Marketing Agency.')
-@section('meta_description', 'Education SEO UK offering digital marketing, SEO and website development to improve
-    rankings, attract students and grow your institution UK for growth today.')
-@section('meta_keywords', 'education SEO services UK, education marketing agency UK, school SEO UK, university SEO UK,
-    education digital marketing UK, student recruitment marketing UK, education website development UK, local SEO for
-    schools UK, online visibility for education UK')
-    @push('styles')
-        <link rel="stylesheet" href="{{ asset('assets/cloud-edu/css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    @endpush
-    @push('scripts')
-        <script src="{{ asset('assets/cloud-edu/js/script.js') }}" defer></script>
-    @endpush
-@section('content')
+@section('meta_description', 'Education SEO UK offering digital marketing, SEO and website development to improve rankings, attract students and grow your institution UK for growth today.')
+@section('meta_keywords', 'education SEO services UK, education marketing agency UK, school SEO UK, university SEO UK, education digital marketing UK, student recruitment marketing UK, education website development UK, local SEO for schools UK, online visibility for education UK')
 
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('assets/cloud-edu/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+@endpush
+
+@push('scripts')
+    <script src="{{ asset('assets/cloud-edu/js/script.js') }}" defer></script>
+@endpush
+
+@section('content')
 
     <!-- HERO -->
     <section class="hero edu-hero" id="hero">
@@ -25,28 +24,27 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <p class="hero-eyebrow">CloudEdu</p>
-                <h1>Digital Education Solutions<br>for the Modern Classroom</h1>
+                <h1>Digital Solutions for Modern Education</h1>
                 <p class="hero-subtitle">
-                    End-to-end digital solutions for schools, academies, and training institutions.
-                    Designed to streamline administration, empower teachers, and engage parents.
+                    Streamline operations and grow enrolments with a trusted education SEO agency.
                 </p>
 
                 <div class="hero-actions">
                     <a href="#contact" class="btn btn-lg btn-primary">Start Your Project</a>
-                    <a href="#features" class="btn btn-lg btn-ghost hero-ghost-light">Explore Features</a>
+                    <a href="#pricing" class="btn btn-lg btn-ghost hero-ghost-light">Explore Features</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- EDUCATION SOLUTIONS OVERVIEW -->
+    <!-- EDUCATION SEO -->
     <section class="section" id="solutions">
         <div class="container">
             <div class="section-header">
-                <h2>Education Technology Solutions</h2>
+                <h2>Education SEO</h2>
                 <p>
-                    Comprehensive digital solutions built specifically for schools and educational organizations,
-                    covering everything from admissions to alumni engagement.
+                    Improve visibility and attract more students with targeted Education SEO and SEO for education strategies
+                    designed for schools and institutions.
                 </p>
             </div>
 
@@ -55,8 +53,8 @@
                     <div class="card-icon icon-green">🎓</div>
                     <h3>School Information System</h3>
                     <p>
-                        Centralized student information with attendance, grades, and performance tracking
-                        in one unified platform.
+                        Centralised student data, attendance, and performance tracking in one unified platform, supported by
+                        effective education digital marketing strategies.
                     </p>
                 </article>
 
@@ -64,7 +62,8 @@
                     <div class="card-icon icon-blue">💻</div>
                     <h3>Virtual Learning Platform</h3>
                     <p>
-                        Online classrooms, digital resources, and assessments to support hybrid and remote learning.
+                        Deliver engaging online classes, resources, and assessments with solutions aligned to
+                        digital marketing for education growth.
                     </p>
                 </article>
 
@@ -72,15 +71,17 @@
                     <div class="card-icon icon-purple">👨‍👩‍👧</div>
                     <h3>Parent &amp; Student Portal</h3>
                     <p>
-                        Real-time access for parents and students to timetables, reports, fees, and communication.
+                        Real-time access to timetables, reports, and communication, improving engagement through
+                        education marketing agency solutions.
                     </p>
                 </article>
 
                 <article class="card feature-card">
                     <div class="card-icon icon-orange">📥</div>
-                    <h3>Admission &amp; Enrolment CRM</h3>
+                    <h3>Admissions CRM</h3>
                     <p>
-                        Capture inquiries, manage applications, and automate admission communications.
+                        Capture enquiries, manage applications, and automate admissions with systems optimised for
+                        higher education SEO and lead generation.
                     </p>
                 </article>
 
@@ -88,7 +89,7 @@
                     <div class="card-icon icon-teal">📅</div>
                     <h3>Timetable &amp; Attendance</h3>
                     <p>
-                        Smart timetable management with automated attendance tracking and reporting.
+                        Smart scheduling and automated attendance tracking for better efficiency and reporting.
                     </p>
                 </article>
 
@@ -96,93 +97,47 @@
                     <div class="card-icon icon-yellow">📊</div>
                     <h3>Analytics &amp; Insights</h3>
                     <p>
-                        Dashboards for leadership teams to monitor performance, engagement,
-                        and operational efficiency.
+                        Track performance, engagement, and operations with dashboards designed by an expert education SEO agency.
                     </p>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- CORE FEATURES -->
-    <section class="section section-alt" id="features">
+    <!-- PACKAGES -->
+    <section class="section section-alt" id="pricing">
         <div class="container">
             <div class="section-header">
-                <h2>Core Features for Schools &amp; Academies</h2>
+                <h2>Education Marketing Services</h2>
                 <p>
-                    CloudEdu is built to support every stakeholder in the education ecosystem —
-                    management, teachers, students, and parents.
-                </p>
-            </div>
-
-            <div class="grid grid-3 edu-feature-grid">
-                <article class="card edu-feature-card">
-                    <h3>Leadership &amp; Management</h3>
-                    <ul class="feature-list">
-                        <li>Multi-branch school management</li>
-                        <li>Fee collection &amp; financial reporting</li>
-                        <li>Compliance-ready reporting</li>
-                        <li>Custom dashboards for SLT</li>
-                    </ul>
-                </article>
-
-                <article class="card edu-feature-card">
-                    <h3>Teachers &amp; Staff</h3>
-                    <ul class="feature-list">
-                        <li>Classroom management tools</li>
-                        <li>Digital gradebook &amp; assessments</li>
-                        <li>Lesson planning &amp; resources</li>
-                        <li>Staff scheduling &amp; timetables</li>
-                    </ul>
-                </article>
-
-                <article class="card edu-feature-card">
-                    <h3>Parents &amp; Students</h3>
-                    <ul class="feature-list">
-                        <li>Parent mobile app &amp; notifications</li>
-                        <li>Homework &amp; assignment tracking</li>
-                        <li>Exam results &amp; reports</li>
-                        <li>Secure messaging with school</li>
-                    </ul>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- PRICING -->
-    <section class="section" id="pricing">
-        <div class="container">
-            <div class="section-header">
-                <h2>CloudEdu Solutions &amp; Pricing</h2>
-                <p>
-                    Flexible pricing for institutions of all sizes — from single-site schools
-                    to large multi-academy trusts.
+                    Scalable education marketing agency and higher education marketing agency solutions tailored for institutions
+                    of all sizes.
                 </p>
             </div>
 
             <div class="grid grid-3 pricing-grid">
                 <!-- School Website & Portal -->
                 <article class="card pricing-card">
-                    <h3>School Website &amp; Portal</h3>
-                    <p class="pricing-price">From £3,999</p>
+                    <h3>Education Website Design</h3>
                     <p class="pricing-subtitle">
-                        Modern, mobile-friendly website with basic parent &amp; student portal.
+                        <strong>School Website &amp; Portal</strong><br>
+                        Modern education website design focused on accessibility, engagement, and conversions.
                     </p>
                     <ul class="pricing-list">
                         <li>Custom school website</li>
                         <li>News &amp; events modules</li>
                         <li>Document &amp; policy library</li>
-                        <li>Basic parent portal access</li>
+                        <li>Parent &amp; student portal access</li>
                     </ul>
                     <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
                 </article>
 
                 <!-- School Management System -->
                 <article class="card pricing-card">
-                    <h3>School Management System</h3>
-                    <p class="pricing-price">From £7,499</p>
+                    <h3>Education Website Development</h3>
                     <p class="pricing-subtitle">
-                        Complete SIS for independent schools and academies.
+                        <strong>School Management System</strong><br>
+                        Advanced education website development with integrated tools for managing students, staff, and operations.
                     </p>
                     <ul class="pricing-list">
                         <li>Student &amp; staff records</li>
@@ -195,10 +150,11 @@
 
                 <!-- Virtual Learning Platform -->
                 <article class="card pricing-card">
-                    <h3>Virtual Learning Platform</h3>
-                    <p class="pricing-price">From £9,999</p>
+                    <h3>Higher Education Marketing Solutions</h3>
                     <p class="pricing-subtitle">
-                        End-to-end VLE for hybrid and remote learning environments.
+                        <strong>Virtual Learning Platform</strong><br>
+                        Complete digital learning systems supported by a leading higher education marketing agency and education
+                        digital marketing expertise.
                     </p>
                     <ul class="pricing-list">
                         <li>Online classes &amp; resources</li>
@@ -213,112 +169,84 @@
     </section>
 
     <!-- SUCCESS STORIES -->
-    <section class="section section-alt" id="success">
+    <section class="section" id="success">
         <div class="container">
             <div class="section-header">
-                <h2>Education Success Stories</h2>
-                <p>
-                    See how schools and education providers transformed their operations
-                    using CloudEdu solutions.
-                </p>
+                <h2>Education SEO Agency Success Stories</h2>
+                <p>See how institutions grow with our education SEO agency and digital solutions.</p>
             </div>
 
             <div class="grid grid-3 success-grid">
-                <!-- UK Independent School -->
                 <article class="card success-card">
                     <div class="success-image placeholder-image"></div>
                     <h3>UK Independent School</h3>
-                    <p>
-                        Implemented CloudEdu SIS with integrated parent portal
-                        and online payments.
-                    </p>
                     <ul class="success-metrics">
                         <li>45% reduction in admin workload</li>
                         <li>3,000+ parent accounts activated</li>
                         <li>30% faster fee collection</li>
-                        <li>4.8/5 parent satisfaction rating</li>
+                        <li>4.8/5 parent satisfaction</li>
                     </ul>
                 </article>
 
-                <!-- Multi-Academy Trust -->
                 <article class="card success-card">
                     <div class="success-image placeholder-image"></div>
                     <h3>Multi-Academy Trust</h3>
-                    <p>
-                        Centralized data across multiple schools with unified reporting
-                        and analytics.
-                    </p>
                     <ul class="success-metrics">
                         <li>6 academies connected</li>
-                        <li>Single view of student data</li>
+                        <li>Unified student data</li>
                         <li>Improved Ofsted readiness</li>
-                        <li>Real-time performance dashboards</li>
+                        <li>Real-time dashboards</li>
                     </ul>
                 </article>
 
-                <!-- Training &amp; Coaching Centre -->
                 <article class="card success-card">
                     <div class="success-image placeholder-image"></div>
                     <h3>Training &amp; Coaching Centre</h3>
-                    <p>
-                        Launched a fully online learning platform with assessments
-                        and certification.
-                    </p>
                     <ul class="success-metrics">
-                        <li>200% growth in online enrolments</li>
+                        <li>200% growth in enrolments</li>
                         <li>1,500+ active learners</li>
-                        <li>Global student reach</li>
-                        <li>Automated certificate issuing</li>
+                        <li>Global reach</li>
+                        <li>Automated certification</li>
                     </ul>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- BENEFITS SECTION -->
-    <section class="section edu-benefits" id="benefits">
+    <!-- WHY CHOOSE -->
+    <section class="section section-alt" id="why">
         <div class="container">
             <div class="section-header">
-                <h2>Why Schools Choose CloudEdu</h2>
-                <p>
-                    Built in collaboration with school leaders, teachers, and IT teams
-                    to deliver real, measurable impact.
-                </p>
+                <h2>Why Choose</h2>
+                <p>Built with educators, for educators focused on performance, security, and scalability.</p>
             </div>
 
             <div class="grid grid-4 benefits-grid">
                 <article class="card benefit-card">
                     <h3>Education-First Design</h3>
-                    <p>Designed specifically for schools, not generic CRMs or ERPs.</p>
                 </article>
-
                 <article class="card benefit-card">
                     <h3>Cloud-Based &amp; Secure</h3>
-                    <p>Accessible anywhere with enterprise-grade security.</p>
                 </article>
-
                 <article class="card benefit-card">
-                    <h3>UK &amp; EU Compliance</h3>
-                    <p>GDPR-ready with best-practice data protection.</p>
+                    <h3>GDPR Compliant</h3>
                 </article>
-
                 <article class="card benefit-card">
                     <h3>Dedicated Support</h3>
-                    <p>Training, onboarding, and ongoing support for your team.</p>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- CTA SECTION -->
+    <!-- CTA -->
     <section class="section edu-cta" id="contact">
         <div class="container">
             <div class="cta-inner edu-cta-inner">
                 <div class="cta-main">
-                    <h2>Transform Your School’s Digital Experience</h2>
+                    <h2>Transform Your School Digitally</h2>
                     <p>
-                        Book a free strategy session with our education specialists and
-                        see how CloudEdu can support your vision.
+                        Partner with a leading education SEO agency to grow enrolments with Education SEO, digital marketing for
+                        education, and education website development.
                     </p>
                 </div>
                 <div class="cta-actions edu-cta-actions">
@@ -329,18 +257,15 @@
         </div>
     </section>
 
-    <!-- SIMPLE CONTACT FORM -->
+    <!-- CONTACT -->
     <section class="section section-alt" id="contact-form">
         <div class="container">
             <div class="section-header">
                 <h2>Contact the CloudEdu Team</h2>
-                <p>
-                    Share a few details about your institution and we’ll get back to you
-                    within one business day.
-                </p>
+                <p>Tell us about your institution and we’ll respond within one business day.</p>
             </div>
 
-            <form class="contact-form">
+          <form class="contact-form">
                 <div class="form-row">
                     <div class="form-field">
                         <label for="name">Full Name</label>
@@ -369,6 +294,65 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit Request</button>
             </form>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="section" id="faqs">
+        <div class="container">
+            <div class="section-header">
+                <h2>FAQs – Education SEO &amp; Digital Solutions</h2>
+            </div>
+
+            <div class="faq-grid">
+                <article class="card faq-card">
+                    <h3>1. What is education SEO and why is it important?</h3>
+                    <p>
+                        Education SEO helps schools, colleges, and institutions improve their visibility on search engines,
+                        making it easier for students and parents to find courses, admissions, and information online.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>2. How does SEO for education increase student enrolments?</h3>
+                    <p>
+                        SEO for education improves rankings for key searches like courses and admissions, driving more qualified
+                        traffic and increasing enquiries and enrolments.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>3. What does an education SEO agency do?</h3>
+                    <p>
+                        An education SEO agency optimises your website, content, and digital strategy to improve search rankings,
+                        attract students, and enhance online visibility.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>4. Why is education website design important for schools?</h3>
+                    <p>
+                        Education website design ensures a user-friendly experience where students and parents can easily access
+                        information, explore courses, and complete enquiries or applications.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>5. What are the benefits of digital marketing for education?</h3>
+                    <p>
+                        Digital marketing for education helps institutions reach a wider audience, improve engagement, and promote
+                        courses through SEO, content, and online campaigns.
+                    </p>
+                </article>
+
+                <article class="card faq-card">
+                    <h3>6. How does education website development improve operations?</h3>
+                    <p>
+                        Education website development enables systems like student portals, admissions CRM, and learning platforms,
+                        improving efficiency and enhancing the overall user experience.
+                    </p>
+                </article>
+            </div>
         </div>
     </section>
 

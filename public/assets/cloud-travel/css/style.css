@@ -280,12 +280,18 @@ button {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url("../img/cloudtravel-hero.jpg");
-    /* replace with actual hero image */
+    background-image: url("../../images/industries/desktop-banner/cloudtravel-2.webp"); 
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 1;
     z-index: -2;
+}
+
+
+@media (max-width: 768px){
+  .hero-bg{
+    background-image: url("../../images/industries/mobile-banner/cloudtravel.webp");
+  }
 }
 
 .hero-overlay {
@@ -294,7 +300,7 @@ button {
     background: radial-gradient(circle at top left, rgba(192, 132, 252, 0.6), transparent 55%),
         radial-gradient(circle at bottom right, rgba(129, 140, 248, 0.7), transparent 55%),
         linear-gradient(to bottom, rgba(30, 27, 75, 0.96), #111827);
-    z-index: -1;
+    z-index: -3;
 }
 
 .hero-content {

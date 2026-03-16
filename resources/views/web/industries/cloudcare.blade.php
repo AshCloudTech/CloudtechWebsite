@@ -2,18 +2,21 @@
 
 @section('title', 'Care Home SEO Services UK | Care Home Marketing Agency Services')
 @section('meta_title', 'Care Home SEO Services UK | Care Home Marketing Agency Services.')
-@section('meta_description', 'SEO for care homes UK providing digital marketing, SEO and website development to increase enquiries and occupancy rates UK for business growth today.')
-@section('meta_keywords', 'care home SEO services UK, care home marketing agency UK, SEO for care homes UK, digital marketing for care homes UK, care home website development UK, local SEO for care homes UK, care home online marketing UK, care home search engine optimisation UK, care home digital strategy UK')
+@section('meta_description', 'SEO for care homes UK providing digital marketing, SEO and website development to increase
+    enquiries and occupancy rates UK for business growth today.')
+@section('meta_keywords', 'care home SEO services UK, care home marketing agency UK, SEO for care homes UK, digital
+    marketing for care homes UK, care home website development UK, local SEO for care homes UK, care home online marketing
+    UK, care home search engine optimisation UK, care home digital strategy UK')
 
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-care/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-care/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
 
-@push('scripts')
-    <script src="{{ asset('assets/cloud-care/js/script.js') }}" defer></script>
-@endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-care/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 
@@ -56,7 +59,8 @@
                     <p class="muted"><strong>Care Home Websites</strong></p>
                     <p>
                         We design high-performing care home website design and nursing home website design solutions that
-                        showcase your services, facilities, and CQC ratings—while improving visibility through SEO for care homes.
+                        showcase your services, facilities, and CQC ratings—while improving visibility through SEO for care
+                        homes.
                     </p>
                 </article>
 
@@ -65,7 +69,8 @@
                     <h3>Smart Resident Management Systems</h3>
                     <p class="muted"><strong>Resident Management</strong></p>
                     <p>
-                        Manage digital resident profiles, care plans, and daily notes in one secure system built by a leading
+                        Manage digital resident profiles, care plans, and daily notes in one secure system built by a
+                        leading
                         care home SEO agency to improve both operations and trust.
                     </p>
                 </article>
@@ -105,7 +110,8 @@
                     <h3>Data-Driven Compliance &amp; Reporting</h3>
                     <p class="muted"><strong>Compliance &amp; Reporting</strong></p>
                     <p>
-                        CQC-aligned dashboards, audits, and reporting tools delivered by a trusted care home marketing agency
+                        CQC-aligned dashboards, audits, and reporting tools delivered by a trusted care home marketing
+                        agency
                         to simplify inspections and governance.
                     </p>
                 </article>
@@ -147,7 +153,8 @@
                     <h3>Advanced Care Home Website Development</h3>
                     <p class="pricing-subtitle">
                         <strong>Care Home Digital Hub</strong><br>
-                        Scalable care home website development with integrated engagement features, powered by robust care home
+                        Scalable care home website development with integrated engagement features, powered by robust care
+                        home
                         web development solutions.
                     </p>
                     <ul class="pricing-list">
@@ -185,7 +192,8 @@
             <div class="section-header">
                 <h2>Success Stories from Care Home Providers</h2>
                 <p>
-                    Real results from organisations using our care home SEO agency and care home advertising agency expertise
+                    Real results from organisations using our care home SEO agency and care home advertising agency
+                    expertise
                     to grow and improve care quality.
                 </p>
             </div>
@@ -193,7 +201,9 @@
             <div class="grid grid-3 success-grid">
                 <!-- Residential Care Home Group -->
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/care/residential-care-home-group.webp') }}"
+                        class="service-image" alt="Residential Care Home Group" title="Residential Care Home Group"
+                        aria-label="Residential Care Home Group" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Residential Care Home Group</h3>
                     <ul class="success-metrics">
                         <li>3 homes moved from ‘Good’ to ‘Outstanding’</li>
@@ -205,7 +215,9 @@
 
                 <!-- Home Care Provider -->
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/care/home-care-provider.webp') }}" class="service-image"
+                        alt="Home Care Provider" title="Home Care Provider" aria-label="Home Care Provider"
+                        aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Home Care Provider</h3>
                     <ul class="success-metrics">
                         <li>40% improvement in visit punctuality</li>
@@ -217,7 +229,9 @@
 
                 <!-- Supported Living Services -->
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/care/supported-living-services.webp') }}"
+                        class="service-image" alt="Supported Living Services" title="Supported Living Services"
+                        aria-label="Supported Living Services" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Supported Living Services</h3>
                     <ul class="success-metrics">
                         <li>Single source of truth for records</li>
@@ -269,7 +283,8 @@
                 <div class="cta-main">
                     <h2>Ready to Grow Your Care Home?</h2>
                     <p>
-                        Partner with a trusted care home SEO agency, care home marketing agency, and care home digital marketing
+                        Partner with a trusted care home SEO agency, care home marketing agency, and care home digital
+                        marketing
                         agency to increase enquiries and improve care delivery.
                     </p>
                 </div>
@@ -286,7 +301,8 @@
         <div class="container">
             <div class="section-header">
                 <h2>Contact the CloudCare Team</h2>
-                <p>Tell us about your care service and your current systems, and we’ll be in touch within one business day.</p>
+                <p>Tell us about your care service and your current systems, and we’ll be in touch within one business day.
+                </p>
             </div>
 
             <form class="contact-form">
@@ -315,7 +331,8 @@
                 <div class="form-row">
                     <div class="form-field form-field-full">
                         <label for="message">How can we help?</label>
-                        <textarea id="message" rows="4" placeholder="Tell us about your goals, number of homes/clients, and current systems."></textarea>
+                        <textarea id="message" rows="4"
+                            placeholder="Tell us about your goals, number of homes/clients, and current systems."></textarea>
                     </div>
                 </div>
 
@@ -335,7 +352,8 @@
                 <article class="card faq-card">
                     <h3>1. What is care home SEO and why is it important?</h3>
                     <p>
-                        Care home SEO helps care providers rank higher on search engines, making it easier for families to find
+                        Care home SEO helps care providers rank higher on search engines, making it easier for families to
+                        find
                         your services and increasing enquiries and occupancy rates.
                     </p>
                 </article>
@@ -343,7 +361,8 @@
                 <article class="card faq-card">
                     <h3>2. How does SEO for care homes increase enquiries?</h3>
                     <p>
-                        SEO for care homes improves visibility for searches related to care services, helping you attract more
+                        SEO for care homes improves visibility for searches related to care services, helping you attract
+                        more
                         qualified leads and reduce reliance on paid advertising.
                     </p>
                 </article>
@@ -351,7 +370,8 @@
                 <article class="card faq-card">
                     <h3>3. What does a care home SEO agency do?</h3>
                     <p>
-                        A care home SEO agency optimises your website, content, and local search presence to improve rankings,
+                        A care home SEO agency optimises your website, content, and local search presence to improve
+                        rankings,
                         build trust, and generate more enquiries.
                     </p>
                 </article>
@@ -367,7 +387,8 @@
                 <article class="card faq-card">
                     <h3>5. What are the benefits of digital marketing for care homes?</h3>
                     <p>
-                        Digital marketing for care homes increases visibility, builds trust, and improves engagement through SEO,
+                        Digital marketing for care homes increases visibility, builds trust, and improves engagement through
+                        SEO,
                         content, and online campaigns, leading to more enquiries.
                     </p>
                 </article>
@@ -375,7 +396,8 @@
                 <article class="card faq-card">
                     <h3>6. How can care home website development improve operations?</h3>
                     <p>
-                        Care home website development enables features like enquiry forms, booking systems, and family portals,
+                        Care home website development enables features like enquiry forms, booking systems, and family
+                        portals,
                         improving communication and operational efficiency.
                     </p>
                 </article>

@@ -280,13 +280,20 @@ button {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url("../img/cloudedu-hero.jpg");
-    /* replace with actual hero image */
+    background-image: url("../../images/industries/desktop-banner/cloudedu-2.webp"); 
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 1;
     z-index: -2;
 }
+
+
+@media (max-width: 768px){
+  .hero-bg{
+    background-image: url("../../images/industries/mobile-banner/cloudedu.webp");
+  }
+}
+
 
 .hero-overlay {
     position: absolute;
@@ -294,7 +301,7 @@ button {
     background: radial-gradient(circle at top left, rgba(74, 222, 128, 0.5), transparent 55%),
         radial-gradient(circle at bottom right, rgba(22, 163, 74, 0.7), transparent 55%),
         linear-gradient(to bottom, rgba(5, 46, 22, 0.95), #064e3b);
-    z-index: -1;
+    z-index: -3;
 }
 
 .hero-content {

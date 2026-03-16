@@ -2,9 +2,11 @@
 
 @section('title', 'Travel SEO Services UK | Tourism Marketing Agency')
 @section('meta_title', 'Travel SEO Services UK | Tourism Marketing Agency.')
-@section('meta_description', 'Travel SEO UK offering digital marketing, SEO and website development to improve rankings,
+@section('meta_description',
+    'Travel SEO UK offering digital marketing, SEO and website development to improve rankings,
     attract travellers and grow your travel business UK for growth today.')
-@section('meta_keywords', 'travel SEO services UK, tourism marketing agency UK, travel digital marketing UK, travel
+@section('meta_keywords',
+    'travel SEO services UK, tourism marketing agency UK, travel digital marketing UK, travel
     website development UK, SEO for travel businesses UK, travel search engine optimisation UK, tourism SEO strategies UK,
     travel content marketing UK, local SEO for travel agencies UK')
 
@@ -183,7 +185,9 @@
 
             <div class="grid grid-3 success-grid">
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/travel/adventure-tour-operator.webp') }}"
+                        class="service-image" alt="Adventure Tour Operator" title="Adventure Tour Operator"
+                        aria-label="Adventure Tour Operator" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Adventure Tour Operator</h3>
                     <ul class="success-metrics">
                         <li>55% increase in enquiries</li>
@@ -194,7 +198,9 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/travel/luxury-travel-agency.webp') }}"
+                        class="service-image" alt="Luxury Travel Agency" title="Luxury Travel Agency"
+                        aria-label="Luxury Travel Agency" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Luxury Travel Agency</h3>
                     <ul class="success-metrics">
                         <li>40% increase in repeat bookings</li>
@@ -205,7 +211,9 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/travel/destination-management-company.webp') }}"
+                        class="service-image" alt="Destination Management Company" title="Destination Management Company"
+                        aria-label="Destination Management Company" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Destination Management Company</h3>
                     <ul class="success-metrics">
                         <li>24/7 partner access</li>

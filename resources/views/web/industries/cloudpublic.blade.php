@@ -2,18 +2,21 @@
 
 @section('title', 'Public Sector SEO Service UK | Digital Service Agency')
 @section('meta_title', 'Public Sector SEO Service UK | Digital Service Agency.')
-@section('meta_description', 'Public sector SEO UK providing digital marketing, SEO and website development to improve visibility and engagement UK for better digital service growth today')
-@section('meta_keywords', 'public sector SEO service UK, public sector digital marketing UK, public sector website development UK, government SEO UK, council SEO UK, public body SEO UK, digital services for public sector UK, improving visibility for public services UK, engaging citizens online UK')
+@section('meta_description', 'Public sector SEO UK providing digital marketing, SEO and website development to improve
+    visibility and engagement UK for better digital service growth today')
+@section('meta_keywords', 'public sector SEO service UK, public sector digital marketing UK, public sector website
+    development UK, government SEO UK, council SEO UK, public body SEO UK, digital services for public sector UK, improving
+    visibility for public services UK, engaging citizens online UK')
 
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-public/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-public/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
 
-@push('scripts')
-    <script src="{{ asset('assets/cloud-public/js/script.js') }}" defer></script>
-@endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-public/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 
@@ -53,7 +56,8 @@
                     <div class="card-icon icon-indigo">🏛️</div>
                     <h3>Public Sector Websites</h3>
                     <p>
-                        Accessible, high-performing government website design and public sector website design built to clearly
+                        Accessible, high-performing government website design and public sector website design built to
+                        clearly
                         communicate services and information.
                     </p>
                 </article>
@@ -62,7 +66,8 @@
                     <div class="card-icon icon-blue">🧾</div>
                     <h3>Online Services &amp; Forms</h3>
                     <p>
-                        End-to-end digital services supported by SEO for government websites, making it easier for citizens to
+                        End-to-end digital services supported by SEO for government websites, making it easier for citizens
+                        to
                         apply, report, and access services online.
                     </p>
                 </article>
@@ -87,7 +92,8 @@
                     <div class="card-icon icon-green">📊</div>
                     <h3>Reporting &amp; Insights</h3>
                     <p>
-                        Performance dashboards powered by public sector marketing strategies to track demand, usage, and service delivery.
+                        Performance dashboards powered by public sector marketing strategies to track demand, usage, and
+                        service delivery.
                     </p>
                 </article>
 
@@ -95,7 +101,8 @@
                     <div class="card-icon icon-yellow">🔐</div>
                     <h3>Compliance &amp; Security</h3>
                     <p>
-                        Built with accessibility, governance, and security at the core, aligned with modern government website development standards.
+                        Built with accessibility, governance, and security at the core, aligned with modern government
+                        website development standards.
                     </p>
                 </article>
             </div>
@@ -108,7 +115,8 @@
             <div class="section-header">
                 <h2>Public Sector Marketing Services</h2>
                 <p>
-                    Scalable public sector marketing and government social media marketing solutions designed to improve citizen engagement and communication.
+                    Scalable public sector marketing and government social media marketing solutions designed to improve
+                    citizen engagement and communication.
                 </p>
             </div>
 
@@ -176,7 +184,9 @@
 
             <div class="grid grid-3 success-grid">
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/public/uk-local-council.webp') }}" class="service-image"
+                        alt="Uk Local Council" title="Uk Local Council" aria-label="Uk Local Council"
+                        aria-hidden="true" loading="lazy" decoding="async">
                     <h3>UK Local Council</h3>
                     <ul class="success-metrics">
                         <li>40% increase in online service usage</li>
@@ -187,7 +197,9 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/public/housing-association.webp') }}" class="service-image"
+                        alt="Housing Association" title="Housing Association" aria-label="Housing Association"
+                        aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Housing Association</h3>
                     <ul class="success-metrics">
                         <li>More online service usage</li>
@@ -198,7 +210,9 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/public/national-public-body.webp') }}"
+                        class="service-image" alt="National Public Body" title="National Public Body"
+                        aria-label="National Public Body" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>National Public Body</h3>
                     <ul class="success-metrics">
                         <li>Faster information sharing</li>
@@ -220,10 +234,18 @@
             </div>
 
             <div class="grid grid-4 benefits-grid">
-                <article class="card benefit-card"><h3>Accessibility by Design</h3></article>
-                <article class="card benefit-card"><h3>Secure &amp; Compliant</h3></article>
-                <article class="card benefit-card"><h3>Integration-Ready</h3></article>
-                <article class="card benefit-card"><h3>Long-Term Support</h3></article>
+                <article class="card benefit-card">
+                    <h3>Accessibility by Design</h3>
+                </article>
+                <article class="card benefit-card">
+                    <h3>Secure &amp; Compliant</h3>
+                </article>
+                <article class="card benefit-card">
+                    <h3>Integration-Ready</h3>
+                </article>
+                <article class="card benefit-card">
+                    <h3>Long-Term Support</h3>
+                </article>
             </div>
         </div>
     </section>
@@ -235,7 +257,8 @@
                 <div class="cta-main">
                     <h2>Modernise Your Public Services</h2>
                     <p>
-                        Partner with experts in government SEO, digital marketing for government, and government website development
+                        Partner with experts in government SEO, digital marketing for government, and government website
+                        development
                         to improve services and citizen engagement.
                     </p>
                 </div>
@@ -298,15 +321,18 @@
                 <article class="card faq-card">
                     <h3>1. What is Public Sector SEO and why is it important?</h3>
                     <p>
-                        Public sector SEO helps government organisations and councils improve their visibility on search engines.
-                        It ensures citizens can easily find services, information, and online forms, improving accessibility and engagement.
+                        Public sector SEO helps government organisations and councils improve their visibility on search
+                        engines.
+                        It ensures citizens can easily find services, information, and online forms, improving accessibility
+                        and engagement.
                     </p>
                 </article>
 
                 <article class="card faq-card">
                     <h3>2. How does SEO for government websites improve citizen services?</h3>
                     <p>
-                        SEO for government websites makes it easier for users to find key services like applications, reporting tools,
+                        SEO for government websites makes it easier for users to find key services like applications,
+                        reporting tools,
                         and local information. This reduces call volumes and improves digital service adoption.
                     </p>
                 </article>
@@ -314,7 +340,8 @@
                 <article class="card faq-card">
                     <h3>3. What does a public sector SEO agency do?</h3>
                     <p>
-                        A public sector SEO agency provides strategies to improve rankings, optimise website content, and enhance user experience
+                        A public sector SEO agency provides strategies to improve rankings, optimise website content, and
+                        enhance user experience
                         while ensuring compliance with accessibility and government standards.
                     </p>
                 </article>
@@ -322,7 +349,8 @@
                 <article class="card faq-card">
                     <h3>4. Why is government website design important for councils?</h3>
                     <p>
-                        Government website design focuses on accessibility, usability, and clear communication. A well-designed site ensures citizens
+                        Government website design focuses on accessibility, usability, and clear communication. A
+                        well-designed site ensures citizens
                         can quickly access services, understand information, and complete tasks online.
                     </p>
                 </article>
@@ -330,7 +358,8 @@
                 <article class="card faq-card">
                     <h3>5. What are the benefits of digital marketing for government organisations?</h3>
                     <p>
-                        Digital marketing for government improves communication, increases awareness of public services, and boosts engagement
+                        Digital marketing for government improves communication, increases awareness of public services, and
+                        boosts engagement
                         through channels like search, social media, and content marketing.
                     </p>
                 </article>
@@ -338,7 +367,8 @@
                 <article class="card faq-card">
                     <h3>6. How can public sector website development improve efficiency?</h3>
                     <p>
-                        Public sector website development enables automation of services, online forms, and case management systems.
+                        Public sector website development enables automation of services, online forms, and case management
+                        systems.
                         This reduces manual workload, speeds up processes, and improves service delivery.
                     </p>
                 </article>

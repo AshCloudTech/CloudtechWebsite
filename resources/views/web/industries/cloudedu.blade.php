@@ -2,18 +2,21 @@
 
 @section('title', 'Education SEO Services UK | Education Marketing Agency')
 @section('meta_title', 'Education SEO Services UK | Education Marketing Agency.')
-@section('meta_description', 'Education SEO UK offering digital marketing, SEO and website development to improve rankings, attract students and grow your institution UK for growth today.')
-@section('meta_keywords', 'education SEO services UK, education marketing agency UK, school SEO UK, university SEO UK, education digital marketing UK, student recruitment marketing UK, education website development UK, local SEO for schools UK, online visibility for education UK')
+@section('meta_description', 'Education SEO UK offering digital marketing, SEO and website development to improve
+    rankings, attract students and grow your institution UK for growth today.')
+@section('meta_keywords', 'education SEO services UK, education marketing agency UK, school SEO UK, university SEO UK,
+    education digital marketing UK, student recruitment marketing UK, education website development UK, local SEO for
+    schools UK, online visibility for education UK')
 
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-edu/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-edu/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
 
-@push('scripts')
-    <script src="{{ asset('assets/cloud-edu/js/script.js') }}" defer></script>
-@endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-edu/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 
@@ -43,7 +46,8 @@
             <div class="section-header">
                 <h2>Education SEO</h2>
                 <p>
-                    Improve visibility and attract more students with targeted Education SEO and SEO for education strategies
+                    Improve visibility and attract more students with targeted Education SEO and SEO for education
+                    strategies
                     designed for schools and institutions.
                 </p>
             </div>
@@ -97,7 +101,8 @@
                     <div class="card-icon icon-yellow">📊</div>
                     <h3>Analytics &amp; Insights</h3>
                     <p>
-                        Track performance, engagement, and operations with dashboards designed by an expert education SEO agency.
+                        Track performance, engagement, and operations with dashboards designed by an expert education SEO
+                        agency.
                     </p>
                 </article>
             </div>
@@ -110,7 +115,8 @@
             <div class="section-header">
                 <h2>Education Marketing Services</h2>
                 <p>
-                    Scalable education marketing agency and higher education marketing agency solutions tailored for institutions
+                    Scalable education marketing agency and higher education marketing agency solutions tailored for
+                    institutions
                     of all sizes.
                 </p>
             </div>
@@ -137,7 +143,8 @@
                     <h3>Education Website Development</h3>
                     <p class="pricing-subtitle">
                         <strong>School Management System</strong><br>
-                        Advanced education website development with integrated tools for managing students, staff, and operations.
+                        Advanced education website development with integrated tools for managing students, staff, and
+                        operations.
                     </p>
                     <ul class="pricing-list">
                         <li>Student &amp; staff records</li>
@@ -153,7 +160,8 @@
                     <h3>Higher Education Marketing Solutions</h3>
                     <p class="pricing-subtitle">
                         <strong>Virtual Learning Platform</strong><br>
-                        Complete digital learning systems supported by a leading higher education marketing agency and education
+                        Complete digital learning systems supported by a leading higher education marketing agency and
+                        education
                         digital marketing expertise.
                     </p>
                     <ul class="pricing-list">
@@ -178,7 +186,9 @@
 
             <div class="grid grid-3 success-grid">
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/edu/uk-independent-school.webp') }}" class="service-image"
+                        alt="UK Independent School" title="UK Independent School"
+                        aria-label="UK Independent School" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>UK Independent School</h3>
                     <ul class="success-metrics">
                         <li>45% reduction in admin workload</li>
@@ -189,7 +199,9 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/edu/multi-academy-trust.webp') }}" class="service-image"
+                        alt="Multi-Academy Trust" title="Multi-Academy Trust"
+                        aria-label="Multi-Academy Trust" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Multi-Academy Trust</h3>
                     <ul class="success-metrics">
                         <li>6 academies connected</li>
@@ -200,7 +212,9 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/edu/training-and-coaching-centre.webp') }}"
+                        class="service-image" alt="Training & Coaching Centre" title="Training & Coaching Centre"
+                        aria-label="Training & Coaching Centre" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Training &amp; Coaching Centre</h3>
                     <ul class="success-metrics">
                         <li>200% growth in enrolments</li>
@@ -245,7 +259,8 @@
                 <div class="cta-main">
                     <h2>Transform Your School Digitally</h2>
                     <p>
-                        Partner with a leading education SEO agency to grow enrolments with Education SEO, digital marketing for
+                        Partner with a leading education SEO agency to grow enrolments with Education SEO, digital marketing
+                        for
                         education, and education website development.
                     </p>
                 </div>
@@ -265,7 +280,7 @@
                 <p>Tell us about your institution and we’ll respond within one business day.</p>
             </div>
 
-          <form class="contact-form">
+            <form class="contact-form">
                 <div class="form-row">
                     <div class="form-field">
                         <label for="name">Full Name</label>
@@ -316,7 +331,8 @@
                 <article class="card faq-card">
                     <h3>2. How does SEO for education increase student enrolments?</h3>
                     <p>
-                        SEO for education improves rankings for key searches like courses and admissions, driving more qualified
+                        SEO for education improves rankings for key searches like courses and admissions, driving more
+                        qualified
                         traffic and increasing enquiries and enrolments.
                     </p>
                 </article>
@@ -324,7 +340,8 @@
                 <article class="card faq-card">
                     <h3>3. What does an education SEO agency do?</h3>
                     <p>
-                        An education SEO agency optimises your website, content, and digital strategy to improve search rankings,
+                        An education SEO agency optimises your website, content, and digital strategy to improve search
+                        rankings,
                         attract students, and enhance online visibility.
                     </p>
                 </article>
@@ -332,7 +349,8 @@
                 <article class="card faq-card">
                     <h3>4. Why is education website design important for schools?</h3>
                     <p>
-                        Education website design ensures a user-friendly experience where students and parents can easily access
+                        Education website design ensures a user-friendly experience where students and parents can easily
+                        access
                         information, explore courses, and complete enquiries or applications.
                     </p>
                 </article>
@@ -340,7 +358,8 @@
                 <article class="card faq-card">
                     <h3>5. What are the benefits of digital marketing for education?</h3>
                     <p>
-                        Digital marketing for education helps institutions reach a wider audience, improve engagement, and promote
+                        Digital marketing for education helps institutions reach a wider audience, improve engagement, and
+                        promote
                         courses through SEO, content, and online campaigns.
                     </p>
                 </article>
@@ -348,7 +367,8 @@
                 <article class="card faq-card">
                     <h3>6. How does education website development improve operations?</h3>
                     <p>
-                        Education website development enables systems like student portals, admissions CRM, and learning platforms,
+                        Education website development enables systems like student portals, admissions CRM, and learning
+                        platforms,
                         improving efficiency and enhancing the overall user experience.
                     </p>
                 </article>

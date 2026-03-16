@@ -281,18 +281,27 @@ button {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url("../img/cloudhealth-hero.jpg"); /* replace with your actual hero image */
+    background-image: url("../../images/industries/desktop-banner/cloudhealth-2.webp"); /* replace with your actual hero image */
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 1;
     z-index: -2;
 }
+
+
+@media (max-width: 768px){
+  .hero-bg{
+    background-image: url("../../images/industries/mobile-banner/cloudhealth.webp");
+  }
+}
+
 
 .hero-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(to bottom, rgba(128, 0, 0, 0.9), #8b0000);
-    z-index: -1;
+    opacity: 0.96;
+    z-index: -3;
 }
 
 .hero-content {

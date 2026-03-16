@@ -2,18 +2,21 @@
 
 @section('title', 'Recruitment SEO Services UK | Recruitment Marketing Agency')
 @section('meta_title', 'Recruitment SEO Services UK | Recruitment Marketing Agency.')
-@section('meta_description', 'Recruitment SEO UK offering digital marketing, SEO and website development to improve rankings, attract candidates and grow your agency UK for growth today.')
-@section('meta_keywords', 'recruitment SEO services UK, recruitment marketing agency UK, SEO for recruitment agencies UK, digital marketing for recruiters UK, recruitment website development UK, candidate attraction UK, agency growth UK, recruitment SEO strategy UK')
+@section('meta_description', 'Recruitment SEO UK offering digital marketing, SEO and website development to improve
+    rankings, attract candidates and grow your agency UK for growth today.')
+@section('meta_keywords', 'recruitment SEO services UK, recruitment marketing agency UK, SEO for recruitment agencies
+    UK, digital marketing for recruiters UK, recruitment website development UK, candidate attraction UK, agency growth UK,
+    recruitment SEO strategy UK')
 
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-recruit/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-recruit/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
 
-@push('scripts')
-    <script src="{{ asset('assets/cloud-recruit/js/script.js') }}" defer></script>
-@endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-recruit/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 
@@ -53,7 +56,8 @@
                     <div class="card-icon icon-orange">💼</div>
                     <h3>Recruitment Websites</h3>
                     <p>
-                        High-performing recruitment website design built for job search, sector pages, and conversion-focused
+                        High-performing recruitment website design built for job search, sector pages, and
+                        conversion-focused
                         candidate journeys.
                     </p>
                 </article>
@@ -62,7 +66,8 @@
                     <div class="card-icon icon-blue">🔍</div>
                     <h3>Job Search &amp; Matching</h3>
                     <p>
-                        Advanced job search and matching tools supported by SEO for recruitment agencies to improve candidate
+                        Advanced job search and matching tools supported by SEO for recruitment agencies to improve
+                        candidate
                         experience and conversions.
                     </p>
                 </article>
@@ -80,7 +85,8 @@
                     <div class="card-icon icon-purple">🤝</div>
                     <h3>Client Portals</h3>
                     <p>
-                        Secure portals for clients and hiring managers to review candidates, provide feedback, and track progress.
+                        Secure portals for clients and hiring managers to review candidates, provide feedback, and track
+                        progress.
                     </p>
                 </article>
 
@@ -111,7 +117,8 @@
             <div class="section-header">
                 <h2>Recruitment Marketing Services</h2>
                 <p>
-                    Scalable marketing for recruitment agencies designed to increase applications, improve hiring efficiency,
+                    Scalable marketing for recruitment agencies designed to increase applications, improve hiring
+                    efficiency,
                     and grow your brand.
                 </p>
             </div>
@@ -154,7 +161,8 @@
                     <h3>Full Recruitment Platform</h3>
                     <p class="pricing-subtitle">
                         <strong>End-to-End Platform</strong><br>
-                        Complete solution from a leading recruitment SEO agency, combining websites, search, and engagement tools.
+                        Complete solution from a leading recruitment SEO agency, combining websites, search, and engagement
+                        tools.
                     </p>
                     <ul class="pricing-list">
                         <li>Website + job search + portals</li>
@@ -178,7 +186,9 @@
 
             <div class="grid grid-3 success-grid">
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/recruit/tech-recruitment-agency.webp') }}"
+                        class="service-image" alt="Tech Recruitment Agency" title="Tech Recruitment Agency"
+                        aria-label="Tech Recruitment Agency" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Tech Recruitment Agency</h3>
                     <ul class="success-metrics">
                         <li>50% increase in quality applications</li>
@@ -189,7 +199,9 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/recruit/healthcare-staffing-provider.webp') }}"
+                        class="service-image" alt="Healthcare Staffing Provider" title="Healthcare Staffing Provider"
+                        aria-label="Healthcare Staffing Provider" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Healthcare Staffing Provider</h3>
                     <ul class="success-metrics">
                         <li>Faster time-to-fill roles</li>
@@ -200,7 +212,9 @@
                 </article>
 
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/recruit/in-house-talent-team.webp') }}"
+                        class="service-image" alt="In-House Talent Team" title="In-House Talent Team"
+                        aria-label="In-House Talent Team" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>In-House Talent Team</h3>
                     <ul class="success-metrics">
                         <li>35% reduction in agency spend</li>
@@ -222,10 +236,18 @@
             </div>
 
             <div class="grid grid-4 benefits-grid">
-                <article class="card benefit-card"><h3>Recruitment-Focused UX</h3></article>
-                <article class="card benefit-card"><h3>API &amp; CRM Integration</h3></article>
-                <article class="card benefit-card"><h3>Multi-Brand Support</h3></article>
-                <article class="card benefit-card"><h3>Data &amp; Insights</h3></article>
+                <article class="card benefit-card">
+                    <h3>Recruitment-Focused UX</h3>
+                </article>
+                <article class="card benefit-card">
+                    <h3>API &amp; CRM Integration</h3>
+                </article>
+                <article class="card benefit-card">
+                    <h3>Multi-Brand Support</h3>
+                </article>
+                <article class="card benefit-card">
+                    <h3>Data &amp; Insights</h3>
+                </article>
             </div>
         </div>
     </section>
@@ -237,7 +259,8 @@
                 <div class="cta-main">
                     <h2>Grow Your Recruitment Business</h2>
                     <p>
-                        Partner with a leading recruitment SEO agency to scale faster using SEO recruitment, digital marketing for
+                        Partner with a leading recruitment SEO agency to scale faster using SEO recruitment, digital
+                        marketing for
                         recruitment, and recruitment website development.
                     </p>
                 </div>
@@ -257,7 +280,7 @@
                 <p>Tell us about your recruitment business and we’ll respond within one business day.</p>
             </div>
 
-     
+
             <form class="contact-form">
                 <div class="form-row">
                     <div class="form-field">
@@ -301,7 +324,8 @@
                 <article class="card faq-card">
                     <h3>1. What is recruitment SEO and how does it help agencies?</h3>
                     <p>
-                        Recruitment SEO improves your agency’s visibility on search engines, helping you attract more candidates
+                        Recruitment SEO improves your agency’s visibility on search engines, helping you attract more
+                        candidates
                         and clients organically. It increases job applications and reduces reliance on job boards.
                     </p>
                 </article>
@@ -317,7 +341,8 @@
                 <article class="card faq-card">
                     <h3>3. What does a recruitment SEO agency do?</h3>
                     <p>
-                        A recruitment SEO agency optimises your website, job pages, and content to improve rankings, increase
+                        A recruitment SEO agency optimises your website, job pages, and content to improve rankings,
+                        increase
                         traffic, and generate more applications and placements.
                     </p>
                 </article>
@@ -325,7 +350,8 @@
                 <article class="card faq-card">
                     <h3>4. How does recruitment website design impact hiring?</h3>
                     <p>
-                        Effective recruitment website design improves user experience, making it easier for candidates to search
+                        Effective recruitment website design improves user experience, making it easier for candidates to
+                        search
                         jobs, apply quickly, and engage with your brand—leading to higher conversions.
                     </p>
                 </article>
@@ -333,7 +359,8 @@
                 <article class="card faq-card">
                     <h3>5. What are the benefits of digital marketing for recruitment?</h3>
                     <p>
-                        Digital marketing for recruitment helps agencies reach more candidates through SEO, social media, and
+                        Digital marketing for recruitment helps agencies reach more candidates through SEO, social media,
+                        and
                         content marketing, increasing brand visibility and improving hiring efficiency.
                     </p>
                 </article>

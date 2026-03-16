@@ -1,3 +1,8 @@
+RewriteEngine On
+
+# Block direct access to /public
+RewriteCond %{THE_REQUEST} \s/+public/ [NC]
+RewriteRule ^(.*)$ https://www.cloudtechnologiesltd.co.uk/ [R=301,L]
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes

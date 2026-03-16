@@ -3,19 +3,22 @@
 @section('title', 'Healthcare SEO Service UK | Medical Marketing Agency')
 @section('meta_title', 'Healthcare SEO Service UK | Medical Marketing Agency.')
 @section('meta_description',
-    'Healthcare SEO UK offering medical SEO, digital marketing and website development to improve rankings, attract patients and grow your practice UK online success!.')
+    'Healthcare SEO UK offering medical SEO, digital marketing and website development to
+    improve rankings, attract patients and grow your practice UK online success!.')
 @section('meta_keywords',
-    'healthcare SEO UK, medical SEO UK, healthcare digital marketing UK, medical marketing agency UK, healthcare website development UK, patient acquisition UK, local SEO for healthcare UK, healthcare online marketing UK, medical practice growth UK')
+    'healthcare SEO UK, medical SEO UK, healthcare digital marketing UK, medical marketing agency
+    UK, healthcare website development UK, patient acquisition UK, local SEO for healthcare UK, healthcare online marketing
+    UK, medical practice growth UK')
 
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/cloud-health/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-@endpush
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/cloud-health/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    @endpush
 
-@push('scripts')
-    <script src="{{ asset('assets/cloud-health/js/script.js') }}" defer></script>
-@endpush
+    @push('scripts')
+        <script src="{{ asset('assets/cloud-health/js/script.js') }}" defer></script>
+    @endpush
 
 @section('content')
 
@@ -28,7 +31,8 @@
                 <p class="hero-eyebrow">CloudHealth</p>
                 <h1>Smart Digital Solutions for <br>Modern Healthcare</h1>
                 <p class="hero-subtitle">
-                    Grow faster with a leading Healthcare SEO Company delivering compliant, patient-focused digital solutions.
+                    Grow faster with a leading Healthcare SEO Company delivering compliant, patient-focused digital
+                    solutions.
                 </p>
 
                 <div class="hero-actions">
@@ -66,7 +70,8 @@
                     <div class="card-icon icon-green">⚖️</div>
                     <h3>Healthcare SEO Agency</h3>
                     <p>
-                        Full compliance with healthcare data protection regulations and NHS standards, delivered by a trusted
+                        Full compliance with healthcare data protection regulations and NHS standards, delivered by a
+                        trusted
                         Healthcare SEO Agency focused on security, trust, and performance.
                     </p>
                 </article>
@@ -84,7 +89,8 @@
                     <div class="card-icon icon-purple">📑</div>
                     <h3>Digital Marketing for Healthcare</h3>
                     <p>
-                        Digital patient records with secure access and real-time updates, combined with Digital Marketing for
+                        Digital patient records with secure access and real-time updates, combined with Digital Marketing
+                        for
                         Healthcare strategies that enhance efficiency and communication.
                     </p>
                 </article>
@@ -93,7 +99,8 @@
                     <div class="card-icon icon-orange">📅</div>
                     <h3>Healthcare Digital Marketing Agency</h3>
                     <p>
-                        Online booking systems with automated reminders and calendar integration, powered by a results-driven
+                        Online booking systems with automated reminders and calendar integration, powered by a
+                        results-driven
                         Healthcare Digital Marketing Agency approach.
                     </p>
                 </article>
@@ -102,7 +109,8 @@
                     <div class="card-icon icon-teal">📊</div>
                     <h3>Medical Marketing Agency</h3>
                     <p>
-                        Advanced healthcare analytics, performance metrics, and compliance reporting delivered by a data-driven
+                        Advanced healthcare analytics, performance metrics, and compliance reporting delivered by a
+                        data-driven
                         Medical Marketing Agency to support smarter decisions.
                     </p>
                 </article>
@@ -116,7 +124,8 @@
             <div class="section-header">
                 <h2>Healthcare Marketing Services</h2>
                 <p>
-                    Tailored Healthcare Marketing Services for providers ranging from small clinics to large hospital networks.
+                    Tailored Healthcare Marketing Services for providers ranging from small clinics to large hospital
+                    networks.
                     Our solutions are built to scale with your organisation.
                 </p>
             </div>
@@ -142,7 +151,8 @@
                 <article class="card pricing-card">
                     <h3>Medical Website Development</h3>
                     <p class="pricing-subtitle">
-                        Complete Medical Website Development solutions for private clinics and GP practices, designed to match
+                        Complete Medical Website Development solutions for private clinics and GP practices, designed to
+                        match
                         your workflow and improve efficiency.
                     </p>
                     <ul class="pricing-list">
@@ -179,14 +189,17 @@
             <div class="section-header">
                 <h2>Healthcare SEO Agency Success Stories</h2>
                 <p>
-                    Real results from healthcare providers who transformed their operations with our Healthcare SEO Agency expertise.
+                    Real results from healthcare providers who transformed their operations with our Healthcare SEO Agency
+                    expertise.
                 </p>
             </div>
 
             <div class="grid grid-3 success-grid">
                 <!-- London Private Hospital -->
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/health/london-private-hospital.webp') }}"
+                        class="service-image" alt="London Private Hospital" title="London Private Hospital"
+                        aria-label="London Private Hospital" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>London Private Hospital</h3>
                     <p>Complete digital transformation with patient portal and online booking system.</p>
                     <ul class="success-metrics">
@@ -199,7 +212,9 @@
 
                 <!-- NHS Trust Digital Hub -->
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/health/nhs-trust-digital-hub.webp') }}"
+                        class="service-image" alt="NHS Trust Digital Hub" title="NHS Trust Digital Hub"
+                        aria-label="NHS Trust Digital Hub" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>NHS Trust Digital Hub</h3>
                     <p>Streamlined patient management system with integrated telemedicine capabilities.</p>
                     <ul class="success-metrics">
@@ -212,7 +227,9 @@
 
                 <!-- Specialist Clinic Network -->
                 <article class="card success-card">
-                    <div class="success-image placeholder-image"></div>
+                    <img src="{{ asset('assets/images/industries/health/specialist-clinic-network.webp') }}"
+                        class="service-image" alt="Specialist Clinic Network" title="Specialist Clinic Network"
+                        aria-label="Specialist Clinic Network" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Specialist Clinic Network</h3>
                     <p>Multi-location clinic management with centralised patient records.</p>
                     <ul class="success-metrics">
@@ -266,7 +283,8 @@
                     <h2>Transform Your Healthcare Practice Today</h2>
                     <p>
                         Join healthcare providers working with a trusted Healthcare SEO Company, leveraging Healthcare SEO,
-                        Medical SEO, Medical SEO Marketing, and complete Healthcare Marketing Services to grow faster and deliver
+                        Medical SEO, Medical SEO Marketing, and complete Healthcare Marketing Services to grow faster and
+                        deliver
                         better patient care.
                     </p>
                 </div>
@@ -289,7 +307,8 @@
                 <article class="card faq-card">
                     <h3>1. What is healthcare SEO and why is it important?</h3>
                     <p>
-                        Healthcare SEO helps hospitals, clinics, and providers rank higher on search engines, making it easier
+                        Healthcare SEO helps hospitals, clinics, and providers rank higher on search engines, making it
+                        easier
                         for patients to find services and book appointments online.
                     </p>
                 </article>
@@ -297,7 +316,8 @@
                 <article class="card faq-card">
                     <h3>2. How does medical SEO help attract more patients?</h3>
                     <p>
-                        Medical SEO improves visibility for healthcare-related searches, helping you reach the right audience,
+                        Medical SEO improves visibility for healthcare-related searches, helping you reach the right
+                        audience,
                         increase website traffic, and generate more patient enquiries.
                     </p>
                 </article>
@@ -321,7 +341,8 @@
                 <article class="card faq-card">
                     <h3>5. What are the benefits of digital marketing for healthcare?</h3>
                     <p>
-                        Digital marketing for healthcare improves patient engagement, increases visibility, and promotes services
+                        Digital marketing for healthcare improves patient engagement, increases visibility, and promotes
+                        services
                         through SEO, content, and online campaigns.
                     </p>
                 </article>
@@ -329,7 +350,8 @@
                 <article class="card faq-card">
                     <h3>6. How can medical website development improve operations?</h3>
                     <p>
-                        Medical website development enables features like patient portals, appointment booking, and telemedicine,
+                        Medical website development enables features like patient portals, appointment booking, and
+                        telemedicine,
                         improving efficiency and patient care delivery.
                     </p>
                 </article>

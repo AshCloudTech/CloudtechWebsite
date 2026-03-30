@@ -218,6 +218,46 @@
         </div>
     </section>
 
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related Services</h2>
+                <p>Discover complementary services to strengthen traffic quality, visibility, and conversion growth.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                    aria-label="Digital marketing services UK">
+                    <span>Digital Marketing Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/meta-ads-service-uk/" aria-label="Meta Ads services UK">
+                    <span>Meta Ads Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/google-business-profile-service-uk/"
+                    aria-label="Google Business Profile services UK">
+                    <span>Google Business Profile Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/website-development-service-uk/"
+                    aria-label="Website development services UK">
+                    <span>Website Development Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- OUR PPC MANAGEMENT PROCESS -->
     <section class="section section-process" style="margin-top:35px" id="process">
         <div class="container">

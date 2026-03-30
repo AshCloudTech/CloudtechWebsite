@@ -250,6 +250,47 @@
         </div>
     </section>
 
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related Services</h2>
+                <p>Improve public service visibility with connected SEO, website development, and digital marketing services.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="public sector SEO services UK">
+                    <span>Public Sector SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/local-seo-service-uk/"
+                    aria-label="local SEO for public services">
+                    <span>Local SEO for Public Services</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/website-development-service-uk/"
+                    aria-label="public sector website development UK">
+                    <span>Public Sector Website Development UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/content-seo-service-uk/"
+                    aria-label="content SEO for government websites">
+                    <span>Content SEO for Government Websites</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                    aria-label="public sector digital marketing UK">
+                    <span>Public Sector Digital Marketing UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA -->
     <section class="section public-cta" id="contact">
         <div class="container">

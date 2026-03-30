@@ -334,6 +334,14 @@ button {
   color: #ff8c3a;
 }
 
+@media (min-width: 769px) {
+  /* Nested dropdown (2nd level) opens to the right */
+  .main-nav ul li ul.dropdown li ul.dropdown {
+    top: 0;
+    left: calc(100% + 10px);
+  }
+}
+
 @media (max-width: 768px) { 
     .main-nav ul li ul.dropdown { 
      position: static;

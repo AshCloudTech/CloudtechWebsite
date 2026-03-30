@@ -182,6 +182,46 @@
         </div>
     </section>
 
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related SEO Services</h2>
+                <p>Strengthen your nationwide SEO growth with these connected specialist services.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/international-seo-service-uk/"
+                    aria-label="International SEO services UK">
+                    <span>International SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/technical-seo-service-uk/"
+                    aria-label="Technical SEO services UK">
+                    <span>Technical SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/content-seo-service-uk/" aria-label="Content SEO services UK">
+                    <span>Content SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                    aria-label="Digital marketing services UK">
+                    <span>Digital Marketing Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- WHAT ARE NATIONAL SEO SERVICES -->
     <section class="section section-national-about" id="about-national-seo">
         <div class="container">

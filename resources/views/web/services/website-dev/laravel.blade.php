@@ -290,6 +290,46 @@
         </div>
     </section>
 
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related Services</h2>
+                <p>Support your Laravel project with connected development, technical SEO, and digital marketing services.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/custom-php-website-development-service-uk/"
+                    aria-label="Custom PHP development UK">
+                    <span>Custom PHP Development UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/website-development-service-uk/"
+                    aria-label="Website development services UK">
+                    <span>Website Development Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/technical-seo-service-uk/" aria-label="Technical SEO services UK">
+                    <span>Technical SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                    aria-label="Digital marketing services UK">
+                    <span>Digital Marketing Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
 
     <!-- CTA -->
     <section class="section section-cta" id="cta">

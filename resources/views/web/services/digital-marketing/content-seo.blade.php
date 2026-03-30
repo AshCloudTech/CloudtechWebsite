@@ -197,6 +197,46 @@
             </div>
         </div>
     </section>
+
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related SEO Services</h2>
+                <p>Support your content-led growth with connected SEO and digital marketing services.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/on-page-seo-service-uk/" aria-label="On-page SEO services UK">
+                    <span>On-Page SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/ecommerce-seo-service-uk/"
+                    aria-label="eCommerce SEO services UK">
+                    <span>eCommerce SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                    aria-label="Digital marketing services UK">
+                    <span>Digital Marketing Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/local-seo-service-uk/" aria-label="Local SEO services UK">
+                    <span>Local SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- WHAT ARE CONTENT SEO SERVICES -->
     <section class="section section-national-about" id="about-content-seo">
         <div class="container">

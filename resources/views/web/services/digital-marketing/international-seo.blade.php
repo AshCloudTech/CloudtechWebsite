@@ -234,6 +234,46 @@
             </div>
         </div>
     </section>
+
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related SEO Services</h2>
+                <p>Support your international growth strategy with these connected SEO services.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/national-seo-service-uk/" aria-label="National SEO services UK">
+                    <span>National SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/technical-seo-service-uk/"
+                    aria-label="Technical SEO services UK">
+                    <span>Technical SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/content-seo-service-uk/" aria-label="Content SEO services UK">
+                    <span>Content SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/ecommerce-seo-service-uk/"
+                    aria-label="eCommerce SEO services UK">
+                    <span>eCommerce SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- WHAT ARE INTERNATIONAL SEO SERVICES -->
     <section class="section section-national-about" id="about-international-seo">
         <div class="container">

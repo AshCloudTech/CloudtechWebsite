@@ -253,18 +253,58 @@
 
                     </ul>
                 </div>
-                <!-- <div class="services-panel" aria-hidden="true">
+               <div class="services-panel" aria-hidden="true">
                                 <div class="services-panel-inner">
                                     <p class="panel-label">Meta Ads Overview</p>
                                     <p class="panel-text">
-                                        A consolidated view of reach, clicks, leads and sales across all your Meta
-                                        advertising campaigns.
+                                        A single, unified view of your Meta advertising performance, providing actionable insights to optimize your campaigns and drive business growth.
                                     </p>
                                     <p class="panel-meta">
-                                        Built for marketing teams that want clear, actionable insight on what&apos;s working.
+                                        Ideal for marketing teams looking to streamline their reporting and gain a deeper understanding of their Meta Ads campaigns.
                                     </p>
                                 </div>
-                            </div> -->
+                            </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related Services</h2>
+                <p>Connect your Meta campaigns with wider search, social, and website growth strategies.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/social-media-marketing-service-uk/"
+                    aria-label="Social media marketing services UK">
+                    <span>Social Media Marketing Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/ppc-advertising-service-uk/"
+                    aria-label="PPC advertising services UK">
+                    <span>PPC Advertising Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                    aria-label="Digital marketing services UK">
+                    <span>Digital Marketing Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/website-development-service-uk/"
+                    aria-label="Website development services UK">
+                    <span>Website Development Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
             </div>
         </div>
     </section>

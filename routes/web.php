@@ -9,7 +9,6 @@ use App\Http\Controllers\Web\ContactUsController;
 use App\Http\Controllers\Web\HomeController;
 use App\Http\Controllers\Web\PortfolioController;
 use App\Http\Controllers\Web\ServicesController;
-
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\Admin\AdminDashboardController;
 use App\Http\Controllers\Admin\AuditLeadAdminController;
@@ -24,7 +23,6 @@ use App\Http\Controllers\Admin\ConsultationAdminController;
 use App\Http\Controllers\Admin\ContactFormController;
 use App\Http\Controllers\Admin\ContactSubmissionController;
 use App\Http\Controllers\Admin\ImpersonationController;
-use App\Http\Controllers\Admin\PortfolioController as AdminPortfolioController;
 use App\Http\Controllers\Admin\PortfolioItemController;
 use App\Http\Controllers\Admin\PortfolioPlatformController;
 use App\Http\Controllers\Admin\SmtpMailerController;
@@ -40,7 +38,6 @@ use App\Http\Controllers\Admin\PricingFaqController;
 use App\Http\Controllers\Web\ConsultationController;
 use App\Http\Controllers\Admin\BusinessResultController;
 use App\Http\Controllers\Web\AuditLeadController;
-use App\Models\PortfolioItem;
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -52,11 +49,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/about-us', [AboutUsController::class, 'index'])->name('about.us');
-
 
 Route::get('/case-studies', [CaseStudyController::class, 'index'])->name('case.studies');
 Route::get('/case-studies/{slug}', [CaseStudyController::class, 'detail'])->name('case.studies.detail');
@@ -76,80 +71,195 @@ Route::get('/terms-of-service', [HomeController::class, 'termsOfService'])->name
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy.policy');
 
 Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
-
 Route::post('/consultations', [ConsultationController::class, 'store'])->name('consultations.store');
-
-Route::prefix('industries')->group(function () {
-    Route::get('/cloudhealth', [IndustryController::class, 'cloudhealth'])->name('industries.cloudhealth');
-    Route::get('/cloudcare', [IndustryController::class, 'cloudcare'])->name('industries.cloudcare');
-    Route::get('/cloudedu', [IndustryController::class, 'cloudedu'])->name('industries.cloudedu');
-    Route::get('/cloudtravel', [IndustryController::class, 'cloudtravel'])->name('industries.cloudtravel');
-    Route::get('/cloudrecruit', [IndustryController::class, 'cloudrecruit'])->name('industries.cloudrecruit');
-    Route::get('/cloudpublic', [IndustryController::class, 'cloudpublic'])->name('industries.cloudpublic');
-});
-
-Route::prefix('services')->group(function () {
-    Route::get('/digital-marketing', [ServicesController::class, 'digitalMarketing'])->name('services.digital.marketing');
-    Route::get('/ui-ux', [ServicesController::class, 'uiux'])->name('services.uiux');
-    Route::get('/web-development', [ServicesController::class, 'webDevelopment'])->name('services.web.development');
-    Route::get('/branding', [ServicesController::class, 'branding'])->name('services.branding');
-    Route::get('/seo', [ServicesController::class, 'seo'])->name('services.seo');
-    Route::get('/product-marketing', [ServicesController::class, 'productMarketing'])->name('services.product.marketing');
-});
-
-Route::prefix('services/website-development')->group(function () {
-    Route::get('/wordpress', [WebsiteDevController::class, 'wordpress'])->name('services.website-development.wordpress');
-    Route::get('/woocommerce', [WebsiteDevController::class, 'woocommerce'])->name('services.website-development.woocommerce');
-    Route::get('/shopify', [WebsiteDevController::class, 'shopify'])->name('services.website-development.shopify');
-    Route::get('/squarespace', [WebsiteDevController::class, 'squarespace'])->name('services.website-development.squarespace');
-    Route::get('/wix', [WebsiteDevController::class, 'wix'])->name('services.website-development.wix');
-    Route::get('/godaddy', [WebsiteDevController::class, 'godaddy'])->name('services.website-development.godaddy');
-    Route::get('/laravel', [WebsiteDevController::class, 'laravel'])->name('services.website-development.laravel');
-    Route::get('/custom-php', [WebsiteDevController::class, 'customphp'])->name('services.website-development.custom-php');
-});
-
-Route::prefix('services/digital-marketing')->group(function () {
-    Route::get('/google-my-business-optimisation', [DigitalMarkController::class, 'googleMyBusinessOptimisation'])->name('services.digi-marketing.google-my-business-optimisation');
-    Route::get('/meta-ads-services', [DigitalMarkController::class, 'metaAdsServices'])->name('services.digi-marketing.meta-ads-services');
-    Route::get('/ppc-services', [DigitalMarkController::class, 'ppcServices'])->name('services.digi-marketing.ppc-services');
-    Route::get('/smm-services', [DigitalMarkController::class, 'smmServices'])->name('services.digi-marketing.smm-services');
-});
-
-Route::prefix('services/seo')->group(function () {
-    Route::get('/national-seo', [DigitalMarkController::class, 'nationalseo'])->name('services.seo.national-seo');
-    Route::get('/international-seo', [DigitalMarkController::class, 'internationalseo'])->name('services.seo.international-seo');
-    Route::get('/technical-seo', [DigitalMarkController::class, 'tecnicalseo'])->name('services.seo.technical-seo');
-    Route::get('/content-seo', [DigitalMarkController::class, 'contentseo'])->name('services.seo.content-seo');
-    Route::get('/image-seo', [DigitalMarkController::class, 'imageSeo'])->name('services.seo.image-seo');
-    Route::get('/local-seo', [DigitalMarkController::class, 'localSeo'])->name('services.seo.local-seo');
-    Route::get('/ecommerce-seo', [DigitalMarkController::class, 'ecommerceSeo'])->name('services.seo.ecommerce-seo');
-    Route::get('/on-page-seo', [DigitalMarkController::class, 'onPageSeo'])->name('services.seo.on-page-seo');
-    Route::get('/off-page-seo', [DigitalMarkController::class, 'offPageSeo'])->name('services.seo.off-page-seo');
-});
-
 Route::post('/audit-leads', [AuditLeadController::class, 'store'])->name('audit-leads.store');
 
+/*
+|--------------------------------------------------------------------------
+| SEO PRIMARY ROUTES
+|--------------------------------------------------------------------------
+*/
+
+// Main service pages
+Route::get('/digital-marketing-service-uk', [ServicesController::class, 'digitalMarketing'])
+    ->name('services.digital.marketing');
+
+Route::get('/website-development-service-uk', [ServicesController::class, 'webDevelopment'])
+    ->name('services.web.development');
+
+Route::get('/seo-service-uk', [ServicesController::class, 'seo'])
+    ->name('services.seo');
+
+// Keep these if they are real service pages in your site
+Route::get('/ui-ux-service-uk', [ServicesController::class, 'uiux'])
+    ->name('services.uiux');
+
+Route::get('/branding-service-uk', [ServicesController::class, 'branding'])
+    ->name('services.branding');
+
+Route::get('/product-marketing-service-uk', [ServicesController::class, 'productMarketing'])
+    ->name('services.product.marketing');
+
+
+// Digital marketing child pages
+Route::get('/google-business-profile-service-uk', [DigitalMarkController::class, 'googleMyBusinessOptimisation'])
+    ->name('services.digi-marketing.google-my-business-optimisation');
+
+Route::get('/meta-ads-service-uk', [DigitalMarkController::class, 'metaAdsServices'])
+    ->name('services.digi-marketing.meta-ads-services');
+
+Route::get('/ppc-advertising-service-uk', [DigitalMarkController::class, 'ppcServices'])
+    ->name('services.digi-marketing.ppc-services');
+
+Route::get('/social-media-marketing-service-uk', [DigitalMarkController::class, 'smmServices'])
+    ->name('services.digi-marketing.smm-services');
+
+
+// SEO child pages
+Route::get('/national-seo-service-uk', [DigitalMarkController::class, 'nationalseo'])
+    ->name('services.seo.national-seo');
+
+Route::get('/international-seo-service-uk', [DigitalMarkController::class, 'internationalseo'])
+    ->name('services.seo.international-seo');
+
+Route::get('/technical-seo-service-uk', [DigitalMarkController::class, 'tecnicalseo'])
+    ->name('services.seo.technical-seo');
+
+Route::get('/content-seo-service-uk', [DigitalMarkController::class, 'contentseo'])
+    ->name('services.seo.content-seo');
+
+Route::get('/image-seo-service-uk', [DigitalMarkController::class, 'imageSeo'])
+    ->name('services.seo.image-seo');
+
+Route::get('/local-seo-service-uk', [DigitalMarkController::class, 'localSeo'])
+    ->name('services.seo.local-seo');
+
+Route::get('/ecommerce-seo-service-uk', [DigitalMarkController::class, 'ecommerceSeo'])
+    ->name('services.seo.ecommerce-seo');
+
+Route::get('/on-page-seo-service-uk', [DigitalMarkController::class, 'onPageSeo'])
+    ->name('services.seo.on-page-seo');
+
+Route::get('/off-page-seo-service-uk', [DigitalMarkController::class, 'offPageSeo'])
+    ->name('services.seo.off-page-seo');
+
+
+// Website development child pages
+Route::get('/wordpress-website-development-service-uk', [WebsiteDevController::class, 'wordpress'])
+    ->name('services.website-development.wordpress');
+
+Route::get('/shopify-website-development-service-uk', [WebsiteDevController::class, 'shopify'])
+    ->name('services.website-development.shopify');
+
+// Your SEO doc maps WooCommerce under wordpress URL naming.
+// If you truly need a separate WooCommerce page, better give it its own slug.
+Route::get('/woocommerce-website-development-service-uk', [WebsiteDevController::class, 'woocommerce'])
+    ->name('services.website-development.woocommerce');
+
+Route::get('/squarespace-website-development-service-uk', [WebsiteDevController::class, 'squarespace'])
+    ->name('services.website-development.squarespace');
+
+Route::get('/wix-website-development-service-uk', [WebsiteDevController::class, 'wix'])
+    ->name('services.website-development.wix');
+
+Route::get('/godaddy-website-development-uk', [WebsiteDevController::class, 'godaddy'])
+    ->name('services.website-development.godaddy');
+
+Route::get('/laravel-website-development-service-uk', [WebsiteDevController::class, 'laravel'])
+    ->name('services.website-development.laravel');
+
+Route::get('/custom-php-website-development-service-uk', [WebsiteDevController::class, 'customphp'])
+    ->name('services.website-development.custom-php');
+
+
+// Industry pages
+Route::get('/cloud-health-digital-service-uk', [IndustryController::class, 'cloudhealth'])
+    ->name('industries.cloudhealth');
+
+Route::get('/cloud-care-digital-service-uk', [IndustryController::class, 'cloudcare'])
+    ->name('industries.cloudcare');
+
+Route::get('/cloud-education-digital-service-uk', [IndustryController::class, 'cloudedu'])
+    ->name('industries.cloudedu');
+
+// Recommended corrected slug: travel, not traval
+Route::get('/cloud-travel-digital-service-uk', [IndustryController::class, 'cloudtravel'])
+    ->name('industries.cloudtravel');
+
+Route::get('/cloud-recruitment-digital-service-uk', [IndustryController::class, 'cloudrecruit'])
+    ->name('industries.cloudrecruit');
+
+Route::get('/cloud-public-digital-service-uk', [IndustryController::class, 'cloudpublic'])
+    ->name('industries.cloudpublic');
+
+
+/*
+|--------------------------------------------------------------------------
+| 301 REDIRECTS FROM OLD URLS
+|--------------------------------------------------------------------------
+*/
+
+// Old service pages
+Route::redirect('/services/digital-marketing', '/digital-marketing-service-uk', 301);
+Route::redirect('/services/web-development', '/website-development-service-uk', 301);
+Route::redirect('/services/seo', '/seo-service-uk', 301);
+Route::redirect('/services/ui-ux', '/ui-ux-service-uk', 301);
+Route::redirect('/services/branding', '/branding-service-uk', 301);
+Route::redirect('/services/product-marketing', '/product-marketing-service-uk', 301);
+
+// Old digital marketing child pages
+Route::redirect('/services/digital-marketing/google-my-business-optimisation', '/google-business-profile-service-uk', 301);
+Route::redirect('/services/digital-marketing/meta-ads-services', '/meta-ads-service-uk', 301);
+Route::redirect('/services/digital-marketing/ppc-services', '/ppc-advertising-service-uk', 301);
+Route::redirect('/services/digital-marketing/smm-services', '/social-media-marketing-service-uk', 301);
+
+// Old SEO child pages
+Route::redirect('/services/seo/national-seo', '/national-seo-service-uk', 301);
+Route::redirect('/services/seo/international-seo', '/international-seo-service-uk', 301);
+Route::redirect('/services/seo/technical-seo', '/technical-seo-service-uk', 301);
+Route::redirect('/services/seo/content-seo', '/content-seo-service-uk', 301);
+Route::redirect('/services/seo/image-seo', '/image-seo-service-uk', 301);
+Route::redirect('/services/seo/local-seo', '/local-seo-service-uk', 301);
+Route::redirect('/services/seo/ecommerce-seo', '/ecommerce-seo-service-uk', 301);
+Route::redirect('/services/seo/on-page-seo', '/on-page-seo-service-uk', 301);
+Route::redirect('/services/seo/off-page-seo', '/off-page-seo-service-uk', 301);
+
+// Old website development child pages
+Route::redirect('/services/website-development/wordpress', '/wordpress-website-development-service-uk', 301);
+Route::redirect('/services/website-development/woocommerce', '/woocommerce-website-development-service-uk', 301);
+Route::redirect('/services/website-development/shopify', '/shopify-website-development-service-uk', 301);
+Route::redirect('/services/website-development/squarespace', '/squarespace-website-development-service-uk', 301);
+Route::redirect('/services/website-development/wix', '/wix-website-development-service-uk', 301);
+Route::redirect('/services/website-development/godaddy', '/godaddy-website-development-uk', 301);
+Route::redirect('/services/website-development/laravel', '/laravel-website-development-service-uk', 301);
+Route::redirect('/services/website-development/custom-php', '/custom-php-website-development-service-uk', 301);
+
+// Old industry URLs
+Route::redirect('/industries/cloudhealth', '/cloud-health-digital-service-uk', 301);
+Route::redirect('/industries/cloudcare', '/cloud-care-digital-service-uk', 301);
+Route::redirect('/industries/cloudedu', '/cloud-education-digital-service-uk', 301);
+Route::redirect('/industries/cloudtravel', '/cloud-travel-digital-service-uk', 301);
+Route::redirect('/industries/cloudrecruit', '/cloud-recruitment-digital-service-uk', 301);
+Route::redirect('/industries/cloudpublic', '/cloud-public-digital-service-uk', 301);
+
+// In case typo URL was already shared anywhere
+Route::redirect('/cloud-traval-digital-service-uk', '/cloud-travel-digital-service-uk', 301);
+
 Route::middleware(['auth', 'verified'])->group(function () {
-    // Default dashboard (role-aware redirect handled in controller)
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
-    // Admin area (super-admin / admin)
     Route::prefix('admin')
         ->name('admin.')
         ->middleware(['role:super-admin|admin'])
         ->group(function () {
-            // Admin dashboard
             Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
 
-            // RBAC Management
             Route::resource('roles', RoleController::class)->except(['show']);
             Route::resource('permissions', PermissionController::class)->except(['show']);
             Route::resource('users', UserController::class)->only(['index', 'edit', 'update']);
 
-            // Audit logs
             Route::get('/audit-logs', [AuditLogController::class, 'index'])->name('audit-logs.index');
 
-            // Impersonation (super-admin only)
             Route::post('/impersonate/{user}', [ImpersonationController::class, 'start'])
                 ->middleware('role:super-admin')
                 ->name('impersonate.start');
@@ -158,12 +268,10 @@ Route::middleware(['auth', 'verified'])->group(function () {
                 ->middleware('role:super-admin')
                 ->name('impersonate.stop');
 
-            // Settings
             Route::prefix('settings')->name('settings.')->group(function () {
                 Route::get('/company', [CompanySettingsController::class, 'edit'])->name('company.edit');
                 Route::put('/company', [CompanySettingsController::class, 'update'])->name('company.update');
                 Route::put('company/social-links', [CompanySettingsController::class, 'updateSocialLinks'])->name('socialLinks.update');
-
 
                 Route::resource('branches', CompanyBranchController::class)->names('branches')->except(['show', 'destroy']);
 
@@ -178,33 +286,25 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Route::resource('portfolio-platforms', PortfolioPlatformController::class)->except(['show']);
             Route::resource('portfolio-items', PortfolioItemController::class)->except(['show']);
 
-            // Leads
             Route::get('/leads', [ContactSubmissionController::class, 'index'])->name('leads.index');
             Route::get('/leads/{submission}', [ContactSubmissionController::class, 'show'])->name('leads.show');
             Route::patch('/leads/{submission}/status', [ContactSubmissionController::class, 'updateStatus'])->name('leads.status');
 
-            // Consultation Management
             Route::get('/consultations', [ConsultationAdminController::class, 'index'])->name('consultations.index');
             Route::get('/consultations/{consultation}', [ConsultationAdminController::class, 'show'])->name('consultations.show');
             Route::put('/consultations/{consultation}/status', [ConsultationAdminController::class, 'updateStatus'])->name('consultations.status');
             Route::post('/consultations/{consultation}/remarks', [ConsultationAdminController::class, 'addRemark'])->name('consultations.remarks.store');
 
-            // Consultation Management
             Route::get('audit-leads', [AuditLeadAdminController::class, 'index'])->name('audit-leads.index');
             Route::get('audit-leads/{auditLead}', [AuditLeadAdminController::class, 'show'])->name('audit-leads.show');
             Route::post('audit-leads/{auditLead}', [AuditLeadAdminController::class, 'update'])->name('audit-leads.update');
 
-            //Pricing Plans
-
             Route::prefix('pricing')->name('pricing.')->group(function () {
-
                 Route::resource('plans', PricingPlanController::class);
                 Route::post('prices', [PricingPlanPriceController::class, 'store'])->name('prices.store');
                 Route::post('features', [PricingPlanFeatureController::class, 'store'])->name('features.store');
                 Route::delete('features/{feature}', [PricingPlanFeatureController::class, 'destroy'])->name('features.delete');
 
-
-                // FAQ Management
                 Route::prefix('faq')->name('faq.')->group(function () {
                     Route::get('/', [PricingFaqController::class, 'index'])->name('index');
                     Route::get('/create', [PricingFaqController::class, 'create'])->name('create');
@@ -214,12 +314,13 @@ Route::middleware(['auth', 'verified'])->group(function () {
                     Route::delete('/{faq}', [PricingFaqController::class, 'destroy'])->name('delete');
                 });
             });
+
             Route::resource('business-results', BusinessResultController::class);
         });
 });
 
 Route::fallback(function () {
-    return response()->view('404', [], 404); // or abort(404);
+    return response()->view('404', [], 404);
 });
 
 require __DIR__ . '/auth.php';

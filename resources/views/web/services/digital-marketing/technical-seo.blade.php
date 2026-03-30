@@ -219,6 +219,45 @@
             </div>
         </div>
     </section>
+
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related SEO Services</h2>
+                <p>Strengthen technical performance with connected SEO and website-focused services.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/on-page-seo-service-uk/" aria-label="On-page SEO services UK">
+                    <span>On-Page SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/image-seo-service-uk/" aria-label="Image SEO services UK">
+                    <span>Image SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/website-development-service-uk/"
+                    aria-label="Website development services UK">
+                    <span>Website Development Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/content-seo-service-uk/" aria-label="Content SEO services UK">
+                    <span>Content SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- WHAT ARE TECHNICAL SEO SERVICES -->
     <section class="section section-national-about" id="about-technical-seo">
         <div class="container">

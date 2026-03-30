@@ -275,6 +275,46 @@
         </div>
     </section>
 
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related Services</h2>
+                <p>Expand patient growth with connected SEO, website development, and digital marketing services.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="Healthcare SEO services UK">
+                    <span>Healthcare SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/local-seo-service-uk/" aria-label="Local SEO services for clinics">
+                    <span>Local SEO Services for Clinics</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/website-development-service-uk/"
+                    aria-label="Healthcare website development UK">
+                    <span>Healthcare Website Development UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/content-seo-service-uk/"
+                    aria-label="Medical content SEO services UK">
+                    <span>Medical Content SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                    aria-label="Healthcare digital marketing UK">
+                    <span>Healthcare Digital Marketing UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA SECTION -->
     <section class="section health-cta" id="contact">
         <div class="container">

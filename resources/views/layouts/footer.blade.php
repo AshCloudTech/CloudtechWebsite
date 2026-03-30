@@ -59,7 +59,6 @@
                         <li><a href="{{ route('case.studies') }}">Case Studies</a></li>
                         <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
                         <li><a href="{{ route('contact.us') }}">Contact Us</a></li>
-                        {{-- <li><a href="{{ route('cloud.digital.solutions') }}">Cloud Digital Solutions</a></li> --}}
                     </ul>
                 </div>
 

@@ -206,6 +206,46 @@
         </div>
     </section>
 
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related Services</h2>
+                <p>Strengthen your local growth strategy with complementary SEO and paid traffic services.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/local-seo-service-uk/" aria-label="Local SEO services UK">
+                    <span>Local SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                    aria-label="Digital marketing services UK">
+                    <span>Digital Marketing Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/social-media-marketing-service-uk/"
+                    aria-label="Social media marketing services UK">
+                    <span>Social Media Marketing Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/ppc-advertising-service-uk/"
+                    aria-label="PPC advertising services UK">
+                    <span>PPC Advertising Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- OUR PROCESS -->
     <section class="section section-process" id="process">
         <div class="container">

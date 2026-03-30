@@ -261,6 +261,47 @@
         </div>
     </section>
 
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related Services</h2>
+                <p>Combine development and SEO services to strengthen website performance and long-term growth.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/website-development-service-uk/"
+                    aria-label="Website development services UK">
+                    <span>Website Development Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/shopify-website-development-service-uk/"
+                    aria-label="Shopify development services UK">
+                    <span>Shopify Development Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/wix-website-development-service-uk/"
+                    aria-label="Wix website development UK">
+                    <span>Wix Website Development UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/ecommerce-seo-service-uk/"
+                    aria-label="eCommerce SEO services UK">
+                    <span>eCommerce SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA -->
     <section class="section section-cta" id="cta">
         <div class="container">

@@ -7,6 +7,14 @@
                     ? asset($globalCompany->logo_light_path)
                     : null;
                 $siteLogoDark = !empty($globalCompany?->logo_dark_path) ? asset($globalCompany->logo_dark_path) : null;
+
+                $isServicesActive = request()->routeIs('services.*');
+                $isDigitalMarketingActive = request()->routeIs('services.digital.marketing')
+                    || request()->routeIs('services.digi-marketing.*');
+                $isWebDevelopmentActive = request()->routeIs('services.web.development')
+                    || request()->routeIs('services.website-development.*');
+                $isSeoActive = request()->routeIs('services.seo')
+                    || request()->routeIs('services.seo.*');
             @endphp
 
             <a href="{{ url('/') }}" class="logo-link" aria-label="Go to {{ $brandName }} home">
@@ -38,6 +46,210 @@
                             Home
                         </a>
                     </li>
+
+                    <li class="has-dropdown {{ $isServicesActive ? 'active' : '' }}">
+                        <a href="#services" class="{{ $isServicesActive ? 'active' : '' }}">
+                            Services
+                        </a>
+
+                        <ul class="dropdown">
+                            <li class="has-dropdown {{ $isDigitalMarketingActive ? 'active' : '' }}">
+                                <a href="{{ route('services.digital.marketing') }}"
+                                    class="{{ $isDigitalMarketingActive ? 'active' : '' }}">
+                                    Digital Marketing
+                                </a>
+
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="{{ route('services.digi-marketing.google-my-business-optimisation') }}"
+                                            class="{{ request()->routeIs('services.digi-marketing.google-my-business-optimisation') ? 'active' : '' }}">
+                                            Google Business Profile
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.digi-marketing.meta-ads-services') }}"
+                                            class="{{ request()->routeIs('services.digi-marketing.meta-ads-services') ? 'active' : '' }}">
+                                            Meta Ads Services
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.digi-marketing.ppc-services') }}"
+                                            class="{{ request()->routeIs('services.digi-marketing.ppc-services') ? 'active' : '' }}">
+                                            PPC Services
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.digi-marketing.smm-services') }}"
+                                            class="{{ request()->routeIs('services.digi-marketing.smm-services') ? 'active' : '' }}">
+                                            SMM Services
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('services.uiux') }}"
+                                    class="{{ request()->routeIs('services.uiux') ? 'active' : '' }}">
+                                    UI/UX Design
+                                </a>
+                            </li>
+
+                            <li class="has-dropdown {{ $isWebDevelopmentActive ? 'active' : '' }}">
+                                <a href="{{ route('services.web.development') }}"
+                                    class="{{ $isWebDevelopmentActive ? 'active' : '' }}">
+                                    Web Development
+                                </a>
+
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="{{ route('services.website-development.wordpress') }}"
+                                            class="{{ request()->routeIs('services.website-development.wordpress') ? 'active' : '' }}">
+                                            WordPress Development
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.website-development.woocommerce') }}"
+                                            class="{{ request()->routeIs('services.website-development.woocommerce') ? 'active' : '' }}">
+                                            WooCommerce Development
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.website-development.shopify') }}"
+                                            class="{{ request()->routeIs('services.website-development.shopify') ? 'active' : '' }}">
+                                            Shopify Development
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.website-development.squarespace') }}"
+                                            class="{{ request()->routeIs('services.website-development.squarespace') ? 'active' : '' }}">
+                                            Squarespace Websites
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.website-development.wix') }}"
+                                            class="{{ request()->routeIs('services.website-development.wix') ? 'active' : '' }}">
+                                            Wix Websites
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.website-development.godaddy') }}"
+                                            class="{{ request()->routeIs('services.website-development.godaddy') ? 'active' : '' }}">
+                                            GoDaddy Builder
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.website-development.laravel') }}"
+                                            class="{{ request()->routeIs('services.website-development.laravel') ? 'active' : '' }}">
+                                            Laravel Development
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.website-development.custom-php') }}"
+                                            class="{{ request()->routeIs('services.website-development.custom-php') ? 'active' : '' }}">
+                                            Custom PHP Projects
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('services.branding') }}"
+                                    class="{{ request()->routeIs('services.branding') ? 'active' : '' }}">
+                                    Branding
+                                </a>
+                            </li>
+
+                            <li class="has-dropdown {{ $isSeoActive ? 'active' : '' }}">
+                                <a href="{{ route('services.seo') }}"
+                                    class="{{ $isSeoActive ? 'active' : '' }}">
+                                    SEO
+                                </a>
+
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="{{ route('services.seo.national-seo') }}"
+                                            class="{{ request()->routeIs('services.seo.national-seo') ? 'active' : '' }}">
+                                            National SEO
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.seo.international-seo') }}"
+                                            class="{{ request()->routeIs('services.seo.international-seo') ? 'active' : '' }}">
+                                            International SEO
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.seo.technical-seo') }}"
+                                            class="{{ request()->routeIs('services.seo.technical-seo') ? 'active' : '' }}">
+                                            Technical SEO
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.seo.content-seo') }}"
+                                            class="{{ request()->routeIs('services.seo.content-seo') ? 'active' : '' }}">
+                                            Content SEO
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.seo.image-seo') }}"
+                                            class="{{ request()->routeIs('services.seo.image-seo') ? 'active' : '' }}">
+                                            Image SEO
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.seo.local-seo') }}"
+                                            class="{{ request()->routeIs('services.seo.local-seo') ? 'active' : '' }}">
+                                            Local SEO
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.seo.ecommerce-seo') }}"
+                                            class="{{ request()->routeIs('services.seo.ecommerce-seo') ? 'active' : '' }}">
+                                            eCommerce SEO
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.seo.on-page-seo') }}"
+                                            class="{{ request()->routeIs('services.seo.on-page-seo') ? 'active' : '' }}">
+                                            On-Page SEO
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('services.seo.off-page-seo') }}"
+                                            class="{{ request()->routeIs('services.seo.off-page-seo') ? 'active' : '' }}">
+                                            Off-Page SEO
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('services.product.marketing') }}"
+                                    class="{{ request()->routeIs('services.product.marketing') ? 'active' : '' }}">
+                                    Product Marketing
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
                     <li class="has-dropdown {{ request()->routeIs('industries.*') ? 'active' : '' }}">
 
                         <a href="#industries" class="{{ request()->routeIs('industries.*') ? 'active' : '' }}">

@@ -268,6 +268,14 @@ html[data-theme="dark"] .site-logo--dark{ display:block; }
   color: #ff8c3a;
 }
 
+@media (min-width: 769px) {
+  /* Second-level dropdown (Services -> Digital Marketing/Web/SEO) */
+  .main-nav ul li ul.dropdown li.has-dropdown > ul.dropdown {
+    top: 0;
+    left: calc(100% + 10px);
+  }
+}
+
 @media (max-width: 768px) { 
   .main-nav ul li ul.dropdown { 
     position: static;

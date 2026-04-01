@@ -157,8 +157,10 @@
                 </ul>
             </div>
             <div class="why-media" aria-hidden="true">
-                <img src="{{ asset('assets/images/web/squarespace.webp') }}" alt="Squarespace Capabilities"
-                    title="Squarespace Capabilities" aria-label="Squarespace Capabilities" aria-hidden="true" loading="lazy"
+                <img src="{{ asset('assets/images/web/squarespace.webp') }}"
+                    alt="Squarespace Website Development – Cloud Technologies Ltd"
+                    title="Squarespace website development services for modern and responsive websites"
+                    aria-label="Squarespace Capabilities" aria-hidden="true" loading="lazy"
                     decoding="async" class="media-placeholder">
             </div>
         </div>

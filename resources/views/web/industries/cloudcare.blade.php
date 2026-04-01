@@ -202,7 +202,8 @@
                 <!-- Residential Care Home Group -->
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/care/residential-care-home-group.webp') }}"
-                        class="service-image" alt="Residential Care Home Group" title="Residential Care Home Group"
+                        class="service-image" alt="Residential Care Home Group – Cloud Technologies Ltd"
+                        title="Residential care home group supported by digital care solutions"
                         aria-label="Residential Care Home Group" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Residential Care Home Group</h3>
                     <ul class="success-metrics">
@@ -216,7 +217,9 @@
                 <!-- Home Care Provider -->
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/care/home-care-provider.webp') }}" class="service-image"
-                        alt="Home Care Provider" title="Home Care Provider" aria-label="Home Care Provider"
+                        alt="Home Care Provider Services – Cloud Technologies Ltd"
+                        title="Home care provider delivering support services to individuals at home"
+                        aria-label="Home Care Provider"
                         aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Home Care Provider</h3>
                     <ul class="success-metrics">
@@ -230,7 +233,8 @@
                 <!-- Supported Living Services -->
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/care/supported-living-services.webp') }}"
-                        class="service-image" alt="Supported Living Services" title="Supported Living Services"
+                        class="service-image" alt="Supported Living Services – Cloud Technologies Ltd"
+                        title="Supported living services for independent and assisted living care"
                         aria-label="Supported Living Services" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Supported Living Services</h3>
                     <ul class="success-metrics">

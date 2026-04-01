@@ -140,8 +140,10 @@
                         <li>Long-term maintainability with documentation and standards</li>
                     </ul>
                 </div>
-                <img src="{{ asset('assets/images/web/customphp.webp') }}" alt="Custom PHP Capabilities"
-                    title="Custom PHP Capabilities" aria-label="Custom PHP Capabilities" aria-hidden="true" loading="lazy"
+                <img src="{{ asset('assets/images/web/customphp.webp') }}"
+                    alt="Custom PHP Development – Cloud Technologies Ltd"
+                    title="Custom PHP development services for dynamic and high-performance web applications"
+                    aria-label="Custom PHP Capabilities" aria-hidden="true" loading="lazy"
                     decoding="async" class="why-panel">
             </div>
         </div>

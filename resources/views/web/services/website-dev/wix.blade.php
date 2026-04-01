@@ -155,7 +155,9 @@
                 </ul>
             </div>
             <div class="why-media" aria-hidden="true">
-                <img src="{{ asset('assets/images/web/wix.webp') }}" alt="Wix Capabilities" title="Wix Capabilities"
+                <img src="{{ asset('assets/images/web/wix.webp') }}"
+                    alt="Wix Website Development – Cloud Technologies Ltd"
+                    title="Wix website development services for modern and responsive websites"
                     aria-label="Wix Capabilities" aria-hidden="true" loading="lazy" decoding="async"
                     class="media-placeholder">
             </div>

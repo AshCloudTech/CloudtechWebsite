@@ -212,7 +212,8 @@
                 <div class="services-panel">
                     <div class="services-panel-inner">
                         <img src="{{ asset('assets/images/seo/technical/technical_seo_services.webp') }}"
-                            title="Technical SEO Services" alt="Technical SEO Services" aria-hidden="true"
+                            title="Technical SEO optimization for website speed and performance"
+                            alt="Technical SEO Services – Cloud Technologies Ltd" aria-hidden="true"
                             aria-label="Technical SEO Services Image" loading="lazy" decoding="async">
                     </div>
                 </div>

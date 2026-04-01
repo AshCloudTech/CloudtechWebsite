@@ -198,7 +198,8 @@
                 <!-- London Private Hospital -->
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/health/london-private-hospital.webp') }}"
-                        class="service-image" alt="London Private Hospital" title="London Private Hospital"
+                        class="service-image" alt="London Private Hospital Digital Solutions – Cloud Technologies Ltd"
+                        title="Digital healthcare solutions for a private hospital in London"
                         aria-label="London Private Hospital" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>London Private Hospital</h3>
                     <p>Complete digital transformation with patient portal and online booking system.</p>
@@ -213,7 +214,8 @@
                 <!-- NHS Trust Digital Hub -->
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/health/nhs-trust-digital-hub.webp') }}"
-                        class="service-image" alt="NHS Trust Digital Hub" title="NHS Trust Digital Hub"
+                        class="service-image" alt="NHS Trust Digital Hub – Cloud Technologies Ltd"
+                        title="NHS trust digital hub for managing healthcare data and services"
                         aria-label="NHS Trust Digital Hub" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>NHS Trust Digital Hub</h3>
                     <p>Streamlined patient management system with integrated telemedicine capabilities.</p>
@@ -228,7 +230,8 @@
                 <!-- Specialist Clinic Network -->
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/health/specialist-clinic-network.webp') }}"
-                        class="service-image" alt="Specialist Clinic Network" title="Specialist Clinic Network"
+                        class="service-image" alt="Specialist Clinic Network Solutions – Cloud Technologies Ltd"
+                        title="Specialist clinic network supported by healthcare technology solutions"
                         aria-label="Specialist Clinic Network" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Specialist Clinic Network</h3>
                     <p>Multi-location clinic management with centralised patient records.</p>

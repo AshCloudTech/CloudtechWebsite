@@ -187,7 +187,8 @@
             <div class="grid grid-3 success-grid">
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/edu/uk-independent-school.webp') }}" class="service-image"
-                        alt="UK Independent School" title="UK Independent School"
+                        alt="UK Independent School Digital Solutions – Cloud Technologies Ltd"
+                        title="Digital solutions for independent schools in the UK"
                         aria-label="UK Independent School" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>UK Independent School</h3>
                     <ul class="success-metrics">
@@ -200,7 +201,8 @@
 
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/edu/multi-academy-trust.webp') }}" class="service-image"
-                        alt="Multi-Academy Trust" title="Multi-Academy Trust"
+                        alt="Multi-Academy Trust Technology Solutions – Cloud Technologies Ltd"
+                        title="Technology solutions supporting multi-academy trusts and schools"
                         aria-label="Multi-Academy Trust" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Multi-Academy Trust</h3>
                     <ul class="success-metrics">
@@ -213,7 +215,8 @@
 
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/edu/training-and-coaching-centre.webp') }}"
-                        class="service-image" alt="Training & Coaching Centre" title="Training & Coaching Centre"
+                        class="service-image" alt="Training and Coaching Centre Solutions – Cloud Technologies Ltd"
+                        title="Training and coaching centre supported by digital education technology"
                         aria-label="Training & Coaching Centre" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Training &amp; Coaching Centre</h3>
                     <ul class="success-metrics">

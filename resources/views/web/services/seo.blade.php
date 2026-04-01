@@ -161,8 +161,10 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.national-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/National.webp') }}" alt="National SEO"
-                                title="National SEO" aria-label="National SEO" aria-hidden="true" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/National.webp') }}"
+                                alt="National SEO Services – Cloud Technologies Ltd"
+                                title="National SEO services for improving visibility across the UK"
+                                aria-label="National SEO" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>
@@ -182,8 +184,10 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.international-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/International.webp') }}" alt="International SEO"
-                                title="International SEO" aria-label="International SEO" aria-hidden="true" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/International.webp') }}"
+                                alt="International SEO Services – Cloud Technologies Ltd"
+                                title="International SEO services for global search visibility and ranking"
+                                aria-label="International SEO" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>
@@ -203,8 +207,10 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.technical-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}" alt="Technical SEO"
-                                title="Technical SEO" aria-label="Technical SEO" aria-hidden="true" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/Technical.webp') }}"
+                                alt="Technical SEO Services – Cloud Technologies Ltd"
+                                title="Technical SEO services for website performance and indexing optimization"
+                                aria-label="Technical SEO" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>
@@ -225,8 +231,10 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.content-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Content.webp') }}" alt="Content SEO"
-                                title="Content SEO" aria-label="Content SEO" aria-hidden="true" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/Content.webp') }}"
+                                alt="Content SEO Services – Cloud Technologies Ltd"
+                                title="Content SEO services for optimized and engaging website content"
+                                aria-label="Content SEO" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>
@@ -247,8 +255,10 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.image-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Image.webp') }}" alt="Image SEO"
-                                title="Image SEO" aria-label="Image SEO" aria-hidden="true" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/Image.webp') }}"
+                                alt="Image SEO Services – Cloud Technologies Ltd"
+                                title="Image SEO services for better visibility in search and faster loading"
+                                aria-label="Image SEO" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>
@@ -268,8 +278,10 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.local-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Local.webp') }}" alt="Local SEO"
-                                title="Local SEO" aria-label="Local SEO" aria-hidden="true" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/Local.webp') }}"
+                                alt="Local SEO Services – Cloud Technologies Ltd"
+                                title="Local SEO services to improve visibility in local search results"
+                                aria-label="Local SEO" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>
@@ -289,8 +301,10 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.ecommerce-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}" alt="eCommerce SEO"
-                                title="eCommerce SEO" aria-label="eCommerce SEO" aria-hidden="true" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/eCommerce.webp') }}"
+                                alt="eCommerce SEO Services – Cloud Technologies Ltd"
+                                title="eCommerce SEO services to boost online store traffic and sales"
+                                aria-label="eCommerce SEO" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>
@@ -310,8 +324,10 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.on-page-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}" alt="On-Page SEO"
-                                title="On-Page SEO" aria-label="On-Page SEO" aria-hidden="true" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/On-Page.webp') }}"
+                                alt="On-Page SEO Services – Cloud Technologies Ltd"
+                                title="On-page SEO services for website structure and keyword optimization"
+                                aria-label="On-Page SEO" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>
@@ -332,8 +348,10 @@
                 <article class="card service-card">
                     <div class="service-thumb">
                         <a href="{{ route('services.seo.off-page-seo') }}">
-                            <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}" alt="Off-Page SEO"
-                                title="Off-Page SEO" aria-label="Off-Page SEO" aria-hidden="true" loading="lazy"
+                            <img src="{{ asset('assets/images/digitalmark/Off-Page.webp') }}"
+                                alt="Off-Page SEO Services – Cloud Technologies Ltd"
+                                title="Off-page SEO services including link building and authority growth"
+                                aria-label="Off-Page SEO" aria-hidden="true" loading="lazy"
                                 decoding="async">
                         </a>
                     </div>

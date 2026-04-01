@@ -190,7 +190,8 @@
                 <div class="services-panel">
                     <div class="services-panel-inner">
                         <img src="{{ asset('assets/images/seo/content/content_seo_services.webp') }}"
-                            alt="Content SEO Services" title="Content SEO Services" aria-hidden="true"
+                            alt="Content SEO Services – Cloud Technologies Ltd"
+                            title="Content SEO services for high-quality and keyword-optimized content" aria-hidden="true"
                             aria-label="Content SEO Services" loading="lazy" decoding="async">
                     </div>
                 </div>

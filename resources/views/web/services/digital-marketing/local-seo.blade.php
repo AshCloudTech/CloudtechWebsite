@@ -193,8 +193,10 @@
                 </div>
                 <div class="services-panel">
                     <div class="services-panel-inner">
-                        <img src="{{ asset('assets/images/seo/local/local_seo_services.webp') }}" alt="Local SEO Services"
-                            title="Local SEO Services" aria-hidden="true" aria-label="Local SEO Services Image"
+                        <img src="{{ asset('assets/images/seo/local/local_seo_services.webp') }}"
+                            alt="Local SEO Services – Cloud Technologies Ltd"
+                            title="Local SEO services to improve Google Business Profile and local rankings"
+                            aria-hidden="true" aria-label="Local SEO Services Image"
                             loading="lazy" decoding="async">
                     </div>
                 </div>

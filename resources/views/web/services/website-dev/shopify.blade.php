@@ -140,8 +140,10 @@
                 </div>
             </div>
             <div class="why-media" aria-hidden="true">
-                <img src="{{ asset('assets/images/web/shopify.webp') }}" alt="Shopify Capabilities"
-                    title="Shopify Capabilities" aria-label="Shopify Capabilities" aria-hidden="true" loading="lazy"
+                <img src="{{ asset('assets/images/web/shopify.webp') }}"
+                    alt="Shopify Website Development – Cloud Technologies Ltd"
+                    title="Shopify website development services for eCommerce store design and development"
+                    aria-label="Shopify Capabilities" aria-hidden="true" loading="lazy"
                     decoding="async" class="media-placeholder">
             </div>
         </div>

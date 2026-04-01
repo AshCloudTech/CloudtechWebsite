@@ -186,7 +186,8 @@
             <div class="grid grid-3 success-grid">
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/travel/adventure-tour-operator.webp') }}"
-                        class="service-image" alt="Adventure Tour Operator" title="Adventure Tour Operator"
+                        class="service-image" alt="Adventure Tour Operator Solutions – Cloud Technologies Ltd"
+                        title="Digital solutions for adventure tour operators and travel businesses"
                         aria-label="Adventure Tour Operator" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Adventure Tour Operator</h3>
                     <ul class="success-metrics">
@@ -199,7 +200,8 @@
 
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/travel/luxury-travel-agency.webp') }}"
-                        class="service-image" alt="Luxury Travel Agency" title="Luxury Travel Agency"
+                        class="service-image" alt="Luxury Travel Agency Digital Solutions – Cloud Technologies Ltd"
+                        title="Technology solutions supporting luxury travel agencies and experiences"
                         aria-label="Luxury Travel Agency" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Luxury Travel Agency</h3>
                     <ul class="success-metrics">
@@ -212,7 +214,8 @@
 
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/travel/destination-management-company.webp') }}"
-                        class="service-image" alt="Destination Management Company" title="Destination Management Company"
+                        class="service-image" alt="Destination Management Company Solutions – Cloud Technologies Ltd"
+                        title="Destination management company using digital tools for travel operations"
                         aria-label="Destination Management Company" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Destination Management Company</h3>
                     <ul class="success-metrics">

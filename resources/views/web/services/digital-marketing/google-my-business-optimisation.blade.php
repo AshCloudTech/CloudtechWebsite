@@ -75,7 +75,8 @@
                 <article class="card why-card">
                     <h3>Increased Local Visibility</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/gmb/images/increased_local_visibility.webp') }}"
-                        alt="Increased Local Visibility" title="Increased Local Visibility"
+                        alt="Increased Local Visibility - Google Business Profile Services"
+                        title="Improve local visibility using Google Business Profile optimisation"
                         aria-label="Increased Local Visibility" aria-hidden="true" class="why-image">
                     <p>Improves how often your business appears in local searches and map results.</p>
                 </article>
@@ -83,7 +84,8 @@
                 <article class="card why-card">
                     <h3>Build Trust &amp; Credibility</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/gmb/images/build_trust_credibility.webp') }}"
-                        alt="Build Trust &amp; Credibility" title="Build Trust &amp; Credibility"
+                        alt="Build Trust and Credibility - GMB Optimisation"
+                        title="Build trust and credibility with a well-managed business profile"
                         aria-label="Build Trust &amp; Credibility" aria-hidden="true" class="why-image">
                     <p>A complete profile helps customers trust your business and choose you confidently.</p>
                 </article>
@@ -91,7 +93,8 @@
                 <article class="card why-card">
                     <h3>Direct Customer Engagement</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/gmb/images/direct_customer_engagement.webp') }}"
-                        alt="Direct Customer Engagement" title="Direct Customer Engagement"
+                        alt="Direct Customer Engagement - Google Business Profile"
+                        title="Engage directly with customers through Google Business Profile features"
                         aria-label="Direct Customer Engagement" aria-hidden="true" class="why-image">
                     <p>Enables customers to call, message, or visit your business directly from search.</p>
                 </article>
@@ -99,7 +102,9 @@
                 <article class="card why-card">
                     <h3>Valuable Insights</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/gmb/images/valuable_insights.webp') }}"
-                        alt="Valuable Insights" title="Valuable Insights" aria-label="Valuable Insights" aria-hidden="true"
+                        alt="Valuable Insights and Analytics - GMB Services"
+                        title="Gain valuable insights and analytics from Google Business Profile data"
+                        aria-label="Valuable Insights" aria-hidden="true"
                         class="why-image">
                     <p>Provides data on views, searches, and actions to guide better local decisions.</p>
                 </article>
@@ -107,7 +112,9 @@
                 <article class="card why-card">
                     <h3>Review Management</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/gmb/images/review_management.webp') }}"
-                        alt="Review Management" title="Review Management" aria-label="Review Management" aria-hidden="true"
+                        alt="Review Management Services - Google Business Profile"
+                        title="Manage and respond to customer reviews effectively on Google"
+                        aria-label="Review Management" aria-hidden="true"
                         class="why-image">
                     <p>Helps you manage reviews to strengthen trust and improve your local reputation.</p>
                 </article>
@@ -115,7 +122,9 @@
                 <article class="card why-card">
                     <h3>Local Pack Rankings</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/gmb/images/local_pack_rankings.webp') }}"
-                        alt="Local Pack Rankings" title="Local Pack Rankings" aria-label="Local Pack Rankings"
+                        alt="Local Pack Rankings Improvement - GMB SEO Services"
+                        title="Improve local pack rankings with Google Business Profile SEO"
+                        aria-label="Local Pack Rankings"
                         aria-hidden="true" class="why-image">
                     <p>Boosts your chances of appearing in Google’s top local 3-pack for more visibility.</p>
                 </article>

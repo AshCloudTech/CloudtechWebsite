@@ -112,7 +112,9 @@
                 <article class="card platform-card">
                     <h3>Facebook Feed</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/facebook_feed.webp') }}"
-                        alt="Facebook Feed" title="Facebook Feed" aria-label="Facebook Feed" aria-hidden="true"
+                        alt="Facebook Feed Ads - Meta Advertising Services"
+                        title="Facebook feed ads for targeted social media marketing campaigns"
+                        aria-label="Facebook Feed" aria-hidden="true"
                         class="platform-icon">
                     <p class="platform-meta">High-impact placements designed to engage Facebook users effectively.</p>
                     <ul>
@@ -126,7 +128,9 @@
                 <article class="card platform-card">
                     <h3>Instagram Ads</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/instagram_ads.webp') }}"
-                        alt="Instagram Ads" title="Instagram Ads" aria-label="Instagram Ads" aria-hidden="true"
+                        alt="Instagram Ads - Meta Advertising Services"
+                        title="Instagram ads to reach and engage a wider audience"
+                        aria-label="Instagram Ads" aria-hidden="true"
                         class="platform-icon">
                     <p class="platform-meta">Perfect for visual storytelling and reaching highly engaged audiences.</p>
                     <ul>
@@ -140,7 +144,9 @@
                 <article class="card platform-card">
                     <h3>Messenger Ads</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/messenger_ads.webp') }}"
-                        alt="Messenger Ads" title="Messenger Ads" aria-label="Messenger Ads" aria-hidden="true"
+                        alt="Messenger Ads - Meta Advertising Services"
+                        title="Messenger ads for direct communication and customer engagement"
+                        aria-label="Messenger Ads" aria-hidden="true"
                         class="platform-icon">
                     <p class="platform-meta">Ideal for conversational ads and direct user engagement.</p>
                     <ul>
@@ -154,7 +160,9 @@
                 <article class="card platform-card">
                     <h3>Audience Network</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/meta-ads/images/audience_network.webp') }}"
-                        alt="Audience Network" title="Audience Network" aria-label="Audience Network" aria-hidden="true"
+                        alt="Audience Network Ads - Meta Advertising Services"
+                        title="Audience network ads to extend reach across multiple platforms"
+                        aria-label="Audience Network" aria-hidden="true"
                         class="platform-icon">
                     <p class="platform-meta">Expand your reach beyond Meta apps through partner websites and apps.</p>
                     <ul>

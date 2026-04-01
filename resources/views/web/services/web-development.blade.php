@@ -234,8 +234,10 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/bookmygetaway.webp') }}" alt="BookMyGetAway"
-                            title="BookMyGetAway" aria-label="BookMyGetAway" aria-hidden="true" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/bookmygetaway.webp') }}"
+                            alt="Book My Getaway Website Development – Cloud Technologies Ltd"
+                            title="Website development project for Book My Getaway travel platform"
+                            aria-label="BookMyGetAway" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-blue">Travel / Booking Website</span>
@@ -245,8 +247,10 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/rbj.webp') }}" alt="RBJ Immigration"
-                            title="RBJ Immigration" aria-label="RBJ Immigration" aria-hidden="true" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/rbj.webp') }}"
+                            alt="RBJ Website Development Project – Cloud Technologies Ltd"
+                            title="Custom website development for RBJ business website"
+                            aria-label="RBJ Immigration" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-purple">Immigration / Legal Services</span>
@@ -256,8 +260,10 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/digitally.webp') }}" alt="Digitally Insync"
-                            title="Digitally Insync" aria-label="Digitally Insync" aria-hidden="true" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/digitally.webp') }}"
+                            alt="Digitally Website Development – Cloud Technologies Ltd"
+                            title="Website design and development for Digitally brand"
+                            aria-label="Digitally Insync" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-emerald">Digital Marketing / Agency Website</span>
@@ -267,8 +273,10 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/topmaths.webp') }}" alt="Top Maths Tutors"
-                            title="Top Maths Tutors" aria-label="Top Maths Tutors" aria-hidden="true" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/topmaths.webp') }}"
+                            alt="Top Maths Website Development – Cloud Technologies Ltd"
+                            title="Educational website development for Top Maths platform"
+                            aria-label="Top Maths Tutors" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-sky">Education / Tutoring</span>
@@ -278,8 +286,10 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/jane.webp') }}" alt="Jane Gore Therapy"
-                            title="Jane Gore Therapy" aria-label="Jane Gore Therapy" aria-hidden="true" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/jane.webp') }}"
+                            alt="Jane Website Development Project – Cloud Technologies Ltd"
+                            title="Professional website development project for Jane"
+                            aria-label="Jane Gore Therapy" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-amber">Healthcare / Therapy Services</span>
@@ -289,8 +299,10 @@
 
                 <article class="card project-card">
                     <div class="project-thumb">
-                        <img src="{{ asset('assets/images/webdev/innes.webp') }}" alt="Innes Mitchell"
-                            title="Innes Mitchell" aria-label="Innes Mitchell" aria-hidden="true" loading="lazy"
+                        <img src="{{ asset('assets/images/webdev/innes.webp') }}"
+                            alt="Innes Website Development Project – Cloud Technologies Ltd"
+                            title="Custom website design and development for Innes"
+                            aria-label="Innes Mitchell" aria-hidden="true" loading="lazy"
                             decoding="async">
                     </div>
                     <span class="project-tag project-tag-rose">Professional Services / Consultancy</span>

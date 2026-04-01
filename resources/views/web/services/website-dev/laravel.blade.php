@@ -118,8 +118,10 @@
     <section class="section section-stack" id="stack">
         <div class="container stack-layout">
             <div class="stack-media" aria-hidden="true">
-                <img src="{{ asset('assets/images/web/laravel.webp') }}" alt="Laravel Capabilities"
-                    title="Laravel Capabilities" aria-label="Laravel Capabilities" aria-hidden="true" loading="lazy"
+                <img src="{{ asset('assets/images/web/laravel.webp') }}"
+                    alt="Laravel Development – Cloud Technologies Ltd"
+                    title="Laravel development services for secure and scalable web applications"
+                    aria-label="Laravel Capabilities" aria-hidden="true" loading="lazy"
                     decoding="async" class="media-placeholder">
             </div>
             <div class="stack-copy">

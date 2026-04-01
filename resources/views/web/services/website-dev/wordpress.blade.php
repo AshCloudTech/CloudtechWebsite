@@ -141,8 +141,10 @@
             </div>
 
             <div class="why-media" aria-hidden="true">
-                <img src="{{ asset('assets/images/web/wordpress.webp') }}" alt="WordPress Development Services"
-                    title="WordPress Development Services" aria-label="WordPress Development Services" aria-hidden="true"
+                <img src="{{ asset('assets/images/web/wordpress.webp') }}"
+                    alt="WordPress Website Development – Cloud Technologies Ltd"
+                    title="WordPress website development services for custom and scalable websites"
+                    aria-label="WordPress Development Services" aria-hidden="true"
                     loading="lazy" decoding="async" class="media-placeholder">
 
             </div>

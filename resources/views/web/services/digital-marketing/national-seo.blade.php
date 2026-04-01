@@ -175,8 +175,10 @@
                     </ul>
                 </div>
                 <div class="included-panel">
-                    <img src="{{ asset('assets/images/seo/national/national_seo.webp') }}" alt="National SEO"
-                        title="National SEO" aria-hidden="true" aria-label="National SEO" loading="lazy" decoding="async">
+                    <img src="{{ asset('assets/images/seo/national/national_seo.webp') }}"
+                        alt="National SEO Services – Cloud Technologies Ltd"
+                        title="National SEO strategies to improve rankings across the UK" aria-hidden="true"
+                        aria-label="National SEO" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>

@@ -285,7 +285,8 @@
                     </p>
                     <div class="national-about-highlight" aria-hidden="true">
                         <img src="{{ asset('assets/images/seo/ecommerce/ecommerce_seo.webp') }}"
-                            alt="Ecommerce SEO Services" title="Ecommerce SEO Services" aria-hidden="true"
+                            alt="eCommerce SEO Services – Cloud Technologies Ltd"
+                            title="eCommerce SEO services to increase online store visibility and sales" aria-hidden="true"
                             aria-label="Ecommerce SEO Services Image" loading="lazy" decoding="async">
                     </div>
                 </div>

@@ -153,7 +153,9 @@
                     <li>Trusted global platform</li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/web/godaddy.webp') }}" alt="GoDaddy Capabilities" title="GoDaddy Capabilities"
+            <img src="{{ asset('assets/images/web/godaddy.webp') }}"
+                alt="GoDaddy Website Development – Cloud Technologies Ltd"
+                title="GoDaddy website builder services for easy and scalable website creation"
                 aria-label="GoDaddy Capabilities" aria-hidden="true" loading="lazy" decoding="async" class="why-panel">
         </div>
     </section>

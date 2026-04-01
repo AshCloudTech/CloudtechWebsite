@@ -97,7 +97,9 @@
                 <article class="card platform-card">
                     <h3>Facebook</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/smm/images/facebook.webp') }}"
-                        alt="Facebook"title="Facebook" aria-label="Facebook" aria-hidden="true" class="platform-icon">
+                        alt="Facebook Marketing Services - Cloud Technologies Ltd"
+                        title="Facebook marketing services to grow brand awareness and engagement"
+                        aria-label="Facebook" aria-hidden="true" class="platform-icon">
                     <p class="platform-meta">2.9B+ users</p>
                     <p>Grow brand presence with targeted Facebook marketing.</p>
                     <ul>
@@ -110,8 +112,10 @@
 
                 <article class="card platform-card">
                     <h3>Instagram</h3>
-                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/instagram.webp') }}" alt="Instagram"
-                        title="Instagram" aria-label="Instagram" aria-hidden="true" class="platform-icon">
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/instagram.webp') }}"
+                        alt="Instagram Marketing Services - Cloud Technologies Ltd"
+                        title="Instagram marketing campaigns for audience growth and visibility"
+                        aria-label="Instagram" aria-hidden="true" class="platform-icon">
                     <p class="platform-meta">2B+ users</p>
                     <p>Boost engagement with creative Instagram content strategies.</p>
                     <ul>
@@ -124,8 +128,10 @@
 
                 <article class="card platform-card">
                     <h3>LinkedIn</h3>
-                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/linkedin.webp') }}" alt="LinkedIn"
-                        title="LinkedIn" aria-label="LinkedIn" aria-hidden="true" class="platform-icon">
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/linkedin.webp') }}"
+                        alt="LinkedIn Marketing Services - Cloud Technologies Ltd"
+                        title="LinkedIn marketing services for B2B networking and lead generation"
+                        aria-label="LinkedIn" aria-hidden="true" class="platform-icon">
                     <p class="platform-meta">900M+ users</p>
                     <p>Build authority and generate B2B leads on LinkedIn.</p>
                     <ul>
@@ -138,8 +144,10 @@
 
                 <article class="card platform-card">
                     <h3>Twitter</h3>
-                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/twitter.webp') }}" alt="Twitter"
-                        title="Twitter" aria-label="Twitter" aria-hidden="true" class="platform-icon">
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/twitter.webp') }}"
+                        alt="Twitter Marketing Services - Cloud Technologies Ltd"
+                        title="Twitter marketing strategies for real-time engagement and updates"
+                        aria-label="Twitter" aria-hidden="true" class="platform-icon">
                     <p class="platform-meta">450M+ users</p>
                     <p>Increase visibility and real time engagement on Twitter.</p>
                     <ul>
@@ -152,8 +160,10 @@
 
                 <article class="card platform-card">
                     <h3>TikTok</h3>
-                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/tiktok.webp') }}" alt="TikTok"
-                        title="TikTok" aria-label="TikTok" aria-hidden="true" class="platform-icon">
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/tiktok.webp') }}"
+                        alt="TikTok Marketing Services - Cloud Technologies Ltd"
+                        title="TikTok marketing campaigns for viral content and audience reach"
+                        aria-label="TikTok" aria-hidden="true" class="platform-icon">
                     <p class="platform-meta">1B+ users</p>
                     <p>Create viral short form content to grow your TikTok audience.</p>
                     <ul>
@@ -166,8 +176,10 @@
 
                 <article class="card platform-card">
                     <h3>YouTube</h3>
-                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/youtube.webp') }}" alt="YouTube"
-                        title="YouTube" aria-label="YouTube" aria-hidden="true" class="platform-icon">
+                    <img src="{{ asset('assets/services/digitalMarketing/smm/images/youtube.webp') }}"
+                        alt="YouTube Marketing Services - Cloud Technologies Ltd"
+                        title="YouTube marketing services for video promotion and brand visibility"
+                        aria-label="YouTube" aria-hidden="true" class="platform-icon">
                     <p class="platform-meta">2.7B+ users</p>
                     <p>Grow your brand with optimized video content on YouTube.</p>
                     <ul>

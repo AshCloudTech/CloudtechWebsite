@@ -220,7 +220,8 @@
             <div class="services-layout">
                 <div class="services-copy">
                     <img src="{{ asset('assets/images/seo/off_page/off_page_seo_services.webp') }}"
-                        alt="Off-Page SEO Services" title="Off-Page SEO Services" aria-hidden="true"
+                        alt="Off-Page SEO Services – Cloud Technologies Ltd"
+                        title="Off-page SEO services including backlinks and authority building" aria-hidden="true"
                         aria-label="Off-Page SEO Services Image" loading="lazy" decoding="async">
                 </div>
 

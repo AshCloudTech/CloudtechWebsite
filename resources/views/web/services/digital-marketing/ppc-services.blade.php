@@ -97,8 +97,10 @@
             <div class="grid grid-2 platforms-grid">
                 <article class="card platform-card">
                     <h3>Google Ads</h3>
-                    <img src="{{ asset('assets/services/digitalMarketing/ppc/images/google_ads.webp') }}" alt="Google Ads"
-                        title="Google Ads" aria-label="Google Ads" aria-hidden="true" class="platform-icon">
+                    <img src="{{ asset('assets/services/digitalMarketing/ppc/images/google_ads.webp') }}"
+                        alt="Google Ads PPC Services - Cloud Technologies Ltd"
+                        title="Google Ads PPC campaigns for targeted traffic and conversions"
+                        aria-label="Google Ads" aria-hidden="true" class="platform-icon">
                     <p class="platform-meta">
                         Search Ads, Display Ads, Shopping Ads, Video Ads, Remarketing Ads — designed to capture buyers at
                         every stage.
@@ -108,7 +110,9 @@
                 <article class="card platform-card">
                     <h3>Microsoft Ads</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/ppc/images/microsoft_ads.webp') }}"
-                        alt="Microsoft Ads" title="Microsoft Ads" aria-label="Microsoft Ads" aria-hidden="true"
+                        alt="Microsoft Ads PPC Services - Cloud Technologies Ltd"
+                        title="Microsoft Ads PPC advertising for business growth"
+                        aria-label="Microsoft Ads" aria-hidden="true"
                         class="platform-icon">
                     <p class="platform-meta">
                         Search Ads, Audience Ads, Shopping Ads, and Bing placements that expand reach beyond Google.
@@ -118,7 +122,9 @@
                 <article class="card platform-card">
                     <h3>Facebook Ads</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/ppc/images/facebook_ads.webp') }}"
-                        alt="Facebook Ads" title="Facebook Ads" aria-label="Facebook Ads" aria-hidden="true"
+                        alt="Facebook Ads PPC Services - Cloud Technologies Ltd"
+                        title="Facebook Ads PPC campaigns for social media marketing"
+                        aria-label="Facebook Ads" aria-hidden="true"
                         class="platform-icon">
                     <p class="platform-meta">
                         Image Ads, Video Ads, Carousel Ads, and Retargeting Ads tailored for high-engagement audiences.
@@ -128,7 +134,9 @@
                 <article class="card platform-card">
                     <h3>LinkedIn Ads</h3>
                     <img src="{{ asset('assets/services/digitalMarketing/ppc/images/linkedin_ads.webp') }}"
-                        alt="LinkedIn Ads" title="LinkedIn Ads" aria-label="LinkedIn Ads" aria-hidden="true"
+                        alt="LinkedIn Ads PPC Services - Cloud Technologies Ltd"
+                        title="LinkedIn Ads PPC services for B2B lead generation"
+                        aria-label="LinkedIn Ads" aria-hidden="true"
                         class="platform-icon">
                     <p class="platform-meta">
                         Sponsored Content, Message Ads, Lead Gen Forms, and Text Ads focused on professional B2B targeting.

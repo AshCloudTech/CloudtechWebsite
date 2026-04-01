@@ -253,8 +253,10 @@
 
             <div class="services-layout">
                 <div class="services-copy">
-                    <img src="{{ asset('assets/images/seo/image/image_seo_services.webp') }}" alt="Image SEO Services"
-                        title="Image SEO Services" aria-hidden="true" aria-label="Image SEO Services Image"
+                    <img src="{{ asset('assets/images/seo/image/image_seo_services.webp') }}"
+                        alt="Image SEO Services – Cloud Technologies Ltd"
+                        title="Image SEO optimization for faster loading and better rankings" aria-hidden="true"
+                        aria-label="Image SEO Services Image"
                         loading="lazy" decoding="async">
                 </div>
 

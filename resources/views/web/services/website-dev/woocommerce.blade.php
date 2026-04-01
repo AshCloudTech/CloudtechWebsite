@@ -117,8 +117,10 @@
     <section class="section section-capabilities" id="capabilities">
         <div class="container capabilities-layout">
             <div class="capabilities-media" aria-hidden="true">
-                <img src="{{ asset('assets/images/web/woocommerce.webp') }}" alt="WooCommerce Capabilities"
-                    title="WooCommerce Capabilities" aria-label="WooCommerce Capabilities" aria-hidden="true" loading="lazy"
+                <img src="{{ asset('assets/images/web/woocommerce.webp') }}"
+                    alt="WordPress Website Development – Cloud Technologies Ltd"
+                    title="WordPress website development services for custom and scalable websites"
+                    aria-label="WooCommerce Capabilities" aria-hidden="true" loading="lazy"
                     decoding="async" class="media-placeholder">
             </div>
             <div class="capabilities-copy">

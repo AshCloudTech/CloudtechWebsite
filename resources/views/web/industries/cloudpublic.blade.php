@@ -185,7 +185,9 @@
             <div class="grid grid-3 success-grid">
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/public/uk-local-council.webp') }}" class="service-image"
-                        alt="Uk Local Council" title="Uk Local Council" aria-label="Uk Local Council"
+                        alt="UK Local Council Digital Solutions – Cloud Technologies Ltd"
+                        title="Digital solutions supporting UK local council services and operations"
+                        aria-label="Uk Local Council"
                         aria-hidden="true" loading="lazy" decoding="async">
                     <h3>UK Local Council</h3>
                     <ul class="success-metrics">
@@ -198,7 +200,9 @@
 
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/public/housing-association.webp') }}" class="service-image"
-                        alt="Housing Association" title="Housing Association" aria-label="Housing Association"
+                        alt="Housing Association Technology Solutions – Cloud Technologies Ltd"
+                        title="Technology solutions for housing associations managing tenant services"
+                        aria-label="Housing Association"
                         aria-hidden="true" loading="lazy" decoding="async">
                     <h3>Housing Association</h3>
                     <ul class="success-metrics">
@@ -211,7 +215,8 @@
 
                 <article class="card success-card">
                     <img src="{{ asset('assets/images/industries/public/national-public-body.webp') }}"
-                        class="service-image" alt="National Public Body" title="National Public Body"
+                        class="service-image" alt="National Public Body Digital Solutions – Cloud Technologies Ltd"
+                        title="Digital transformation solutions for national public sector organisations"
                         aria-label="National Public Body" aria-hidden="true" loading="lazy" decoding="async">
                     <h3>National Public Body</h3>
                     <ul class="success-metrics">

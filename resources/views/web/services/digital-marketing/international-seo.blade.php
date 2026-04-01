@@ -66,8 +66,8 @@
             <div class="markets-grid markets-grid-ui">
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_1.webp') }}"
-                        alt="International SEO Services in United States"
-                        title="International SEO Services in United States" aria-hidden="true"
+                        alt="International SEO Services – Cloud Technologies Ltd"
+                        title="International SEO services to improve global search rankings" aria-hidden="true"
                         aria-label="International SEO Services in United States" loading="lazy" decoding="async">
                     <h3>United States</h3>
                     <p>Reach U.S. customers with targeted international SEO.</p>
@@ -76,7 +76,8 @@
                 <article class="market-card market-card-ui">
 
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_2.webp') }}"
-                        alt="International SEO Services in Germany" title="International SEO Services in Germany"
+                        alt="Global SEO Strategy – Cloud Technologies Ltd"
+                        title="Global SEO strategy for expanding business across multiple countries"
                         aria-hidden="true" aria-label="International SEO Services in Germany" loading="lazy"
                         decoding="async">
                     <h3>Germany</h3>
@@ -85,7 +86,8 @@
 
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_3.webp') }}"
-                        alt="International SEO Services in France" title="International SEO Services in France"
+                        alt="International Search Engine Optimisation – Cloud Technologies Ltd"
+                        title="Search engine optimisation for international markets and audiences"
                         aria-hidden="true" aria-label="International SEO Services in France" loading="lazy"
                         decoding="async">
                     <h3>France</h3>
@@ -94,7 +96,8 @@
 
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_4.webp') }}"
-                        alt="International SEO Services in Spain" title="International SEO Services in Spain"
+                        alt="Worldwide SEO Services – Cloud Technologies Ltd"
+                        title="Worldwide SEO services for global visibility and traffic growth"
                         aria-hidden="true" aria-label="International SEO Services in Spain" loading="lazy" decoding="async">
                     <h3>Spain</h3>
                     <p>Increase Spanish market reach with effective international SEO.</p>
@@ -102,7 +105,8 @@
 
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_5.webp') }}"
-                        alt="International SEO Services in Italy" title="International SEO Services in Italy"
+                        alt="Global Digital Marketing SEO – Cloud Technologies Ltd"
+                        title="Global digital marketing SEO solutions for international reach"
                         aria-hidden="true" aria-label="International SEO Services in Italy" loading="lazy" decoding="async">
                     <h3>Italy</h3>
                     <p>Target Italian customers with localized search strategies.</p>
@@ -110,7 +114,8 @@
 
                 <article class="market-card market-card-ui">
                     <img src="{{ asset('assets/images/seo/international/international_seo_services_6.webp') }}"
-                        alt="International SEO Services in Netherlands" title="International SEO Services in Netherlands"
+                        alt="International SEO Solutions – Cloud Technologies Ltd"
+                        title="International SEO solutions for multi-country website optimisation"
                         aria-hidden="true" aria-label="International SEO Services in Netherlands" loading="lazy"
                         decoding="async">
                     <h3>Netherlands</h3>

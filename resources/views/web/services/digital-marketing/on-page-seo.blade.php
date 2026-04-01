@@ -222,8 +222,10 @@
 
             <div class="services-layout">
                 <div class="services-copy">
-                    <img src="{{ asset('assets/images/seo/on_page/on_page_seo_services.webp') }}" alt="On-Page SEO Services"
-                        title="On-Page SEO Services" aria-hidden="true" aria-label="On-Page SEO Services Image"
+                    <img src="{{ asset('assets/images/seo/on_page/on_page_seo_services.webp') }}"
+                        alt="On-Page SEO Services – Cloud Technologies Ltd"
+                        title="On-page SEO optimization for content structure and keywords" aria-hidden="true"
+                        aria-label="On-Page SEO Services Image"
                         loading="lazy" decoding="async">
                 </div>
 

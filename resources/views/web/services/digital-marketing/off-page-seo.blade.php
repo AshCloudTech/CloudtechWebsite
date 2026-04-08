@@ -326,28 +326,28 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO services UK">
                     <span>SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/content-seo-service-uk/" aria-label="Content SEO services UK">
+                <a class="related-link-card" href="/content-seo-service-uk" aria-label="Content SEO services UK">
                     <span>Content SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                <a class="related-link-card" href="/digital-marketing-service-uk"
                     aria-label="Digital marketing services UK">
                     <span>Digital Marketing Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/local-seo-service-uk/" aria-label="Local SEO services UK">
+                <a class="related-link-card" href="/local-seo-service-uk" aria-label="Local SEO services UK">
                     <span>Local SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/national-seo-service-uk/" aria-label="National SEO services UK">
+                <a class="related-link-card" href="/national-seo-service-uk" aria-label="National SEO services UK">
                     <span>National SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>

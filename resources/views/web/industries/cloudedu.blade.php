@@ -264,28 +264,28 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/seo-service-uk/" aria-label="education SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="education SEO services UK">
                     <span>Education SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/local-seo-service-uk/" aria-label="local SEO for schools UK">
+                <a class="related-link-card" href="/local-seo-service-uk" aria-label="local SEO for schools UK">
                     <span>Local SEO for Schools UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/website-development-service-uk/"
+                <a class="related-link-card" href="/website-development-service-uk"
                     aria-label="education website development UK">
                     <span>Education Website Development UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/content-seo-service-uk/" aria-label="content SEO for education websites">
+                <a class="related-link-card" href="/content-seo-service-uk" aria-label="content SEO for education websites">
                     <span>Content SEO for Education Websites</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                <a class="related-link-card" href="/digital-marketing-service-uk"
                     aria-label="education digital marketing UK">
                     <span>Education Digital Marketing UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>

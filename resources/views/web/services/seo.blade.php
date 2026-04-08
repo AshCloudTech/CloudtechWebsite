@@ -381,28 +381,28 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/technical-seo-service-uk/"
+                <a class="related-link-card" href="/technical-seo-service-uk"
                     aria-label="Technical SEO services UK">
                     <span>Technical SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/on-page-seo-service-uk/" aria-label="On-page SEO services UK">
+                <a class="related-link-card" href="/on-page-seo-service-uk" aria-label="On-page SEO services UK">
                     <span>On-Page SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/off-page-seo-service-uk/" aria-label="Off-page SEO services UK">
+                <a class="related-link-card" href="/off-page-seo-service-uk" aria-label="Off-page SEO services UK">
                     <span>Off-Page SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/local-seo-service-uk/" aria-label="Local SEO services UK">
+                <a class="related-link-card" href="/local-seo-service-uk" aria-label="Local SEO services UK">
                     <span>Local SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/ecommerce-seo-service-uk/"
+                <a class="related-link-card" href="/ecommerce-seo-service-uk"
                     aria-label="eCommerce SEO services UK">
                     <span>eCommerce SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>

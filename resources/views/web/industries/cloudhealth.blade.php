@@ -287,29 +287,29 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/seo-service-uk/" aria-label="Healthcare SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="Healthcare SEO services UK">
                     <span>Healthcare SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/local-seo-service-uk/" aria-label="Local SEO services for clinics">
+                <a class="related-link-card" href="/local-seo-service-uk" aria-label="Local SEO services for clinics">
                     <span>Local SEO Services for Clinics</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/website-development-service-uk/"
+                <a class="related-link-card" href="/website-development-service-uk"
                     aria-label="Healthcare website development UK">
                     <span>Healthcare Website Development UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/content-seo-service-uk/"
+                <a class="related-link-card" href="/content-seo-service-uk"
                     aria-label="Medical content SEO services UK">
                     <span>Medical Content SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                <a class="related-link-card" href="/digital-marketing-service-uk"
                     aria-label="Healthcare digital marketing UK">
                     <span>Healthcare Digital Marketing UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>

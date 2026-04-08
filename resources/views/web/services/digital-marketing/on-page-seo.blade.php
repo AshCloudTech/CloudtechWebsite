@@ -332,27 +332,27 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO services UK">
                     <span>SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/content-seo-service-uk/" aria-label="Content SEO services UK">
+                <a class="related-link-card" href="/content-seo-service-uk" aria-label="Content SEO services UK">
                     <span>Content SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/technical-seo-service-uk/" aria-label="Technical SEO services UK">
+                <a class="related-link-card" href="/technical-seo-service-uk" aria-label="Technical SEO services UK">
                     <span>Technical SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/off-page-seo-service-uk/" aria-label="Off-Page SEO services UK">
+                <a class="related-link-card" href="/off-page-seo-service-uk" aria-label="Off-Page SEO services UK">
                     <span>Off-Page SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/website-development-service-uk/"
+                <a class="related-link-card" href="/website-development-service-uk"
                     aria-label="Website development services UK">
                     <span>Website Development Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>

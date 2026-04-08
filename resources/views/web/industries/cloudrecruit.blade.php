@@ -261,30 +261,30 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/seo-service-uk/" aria-label="recruitment SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="recruitment SEO services UK">
                     <span>Recruitment SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/local-seo-service-uk/"
+                <a class="related-link-card" href="/local-seo-service-uk"
                     aria-label="local SEO for recruitment agencies">
                     <span>Local SEO for Recruitment Agencies</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/website-development-service-uk/"
+                <a class="related-link-card" href="/website-development-service-uk"
                     aria-label="recruitment website development UK">
                     <span>Recruitment Website Development UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/content-seo-service-uk/"
+                <a class="related-link-card" href="/content-seo-service-uk"
                     aria-label="content SEO for recruitment websites">
                     <span>Content SEO for Recruitment Websites</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                <a class="related-link-card" href="/digital-marketing-service-uk"
                     aria-label="recruitment digital marketing UK">
                     <span>Recruitment Digital Marketing UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>

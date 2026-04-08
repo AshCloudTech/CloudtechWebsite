@@ -265,30 +265,30 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/seo-service-uk/" aria-label="travel SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="travel SEO services UK">
                     <span>Travel SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/local-seo-service-uk/"
+                <a class="related-link-card" href="/local-seo-service-uk"
                     aria-label="local SEO for travel businesses">
                     <span>Local SEO for Travel Businesses</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/website-development-service-uk/"
+                <a class="related-link-card" href="/website-development-service-uk"
                     aria-label="travel website development UK">
                     <span>Travel Website Development UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/content-seo-service-uk/"
+                <a class="related-link-card" href="/content-seo-service-uk"
                     aria-label="content SEO for travel websites">
                     <span>Content SEO for Travel Websites</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                <a class="related-link-card" href="/digital-marketing-service-uk"
                     aria-label="travel digital marketing UK">
                     <span>Travel Digital Marketing UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>

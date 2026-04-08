@@ -289,29 +289,29 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/seo-service-uk/" aria-label="Care home SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="Care home SEO services UK">
                     <span>Care Home SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/local-seo-service-uk/" aria-label="Local SEO for care homes UK">
+                <a class="related-link-card" href="/local-seo-service-uk" aria-label="Local SEO for care homes UK">
                     <span>Local SEO for Care Homes UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/website-development-service-uk/"
+                <a class="related-link-card" href="/website-development-service-uk"
                     aria-label="Care home website development UK">
                     <span>Care Home Website Development UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/content-seo-service-uk/"
+                <a class="related-link-card" href="/content-seo-service-uk"
                     aria-label="Content SEO services for care homes">
                     <span>Content SEO Services for Care Homes</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/digital-marketing-service-uk/"
+                <a class="related-link-card" href="/digital-marketing-service-uk"
                     aria-label="Care home digital marketing UK">
                     <span>Care Home Digital Marketing UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>

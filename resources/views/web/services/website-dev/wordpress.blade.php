@@ -272,31 +272,31 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/website-development-service-uk/"
+                <a class="related-link-card" href="/website-development-service-uk"
                     aria-label="Website development services UK">
                     <span>Website Development Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/shopify-website-development-service-uk/"
+                <a class="related-link-card" href="/shopify-website-development-service-uk"
                     aria-label="Shopify development services UK">
                     <span>Shopify Development Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/wix-website-development-service-uk/"
+                <a class="related-link-card" href="/wix-website-development-service-uk"
                     aria-label="Wix website development UK">
                     <span>Wix Website Development UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/ecommerce-seo-service-uk/"
+                <a class="related-link-card" href="/ecommerce-seo-service-uk"
                     aria-label="eCommerce SEO services UK">
                     <span>eCommerce SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/seo-service-uk/" aria-label="SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO services UK">
                     <span>SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>

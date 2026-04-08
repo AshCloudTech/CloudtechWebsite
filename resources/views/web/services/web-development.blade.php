@@ -446,31 +446,31 @@
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/wordpress-website-development-service-uk/"
+                <a class="related-link-card" href="/wordpress-website-development-service-uk"
                     aria-label="WordPress development services UK">
                     <span>WordPress Development Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/shopify-website-development-service-uk/"
+                <a class="related-link-card" href="/shopify-website-development-service-uk"
                     aria-label="Shopify development services UK">
                     <span>Shopify Development Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/wix-website-development-service-uk/"
+                <a class="related-link-card" href="/wix-website-development-service-uk"
                     aria-label="Wix website development UK">
                     <span>Wix Website Development UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/squarespace-website-development-service-uk/"
+                <a class="related-link-card" href="/squarespace-website-development-service-uk"
                     aria-label="Squarespace development UK">
                     <span>Squarespace Development UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/custom-php-website-development-service-uk/"
+                <a class="related-link-card" href="/custom-php-website-development-service-uk"
                     aria-label="Custom PHP development UK">
                     <span>Custom PHP Development UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>

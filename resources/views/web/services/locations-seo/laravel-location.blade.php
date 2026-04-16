@@ -1,0 +1,430 @@
+@extends('layouts.cloudtech')
+
+@section('title', $page['meta_title'])
+@section('meta_title', $page['meta_title'])
+@section('meta_description', $page['meta_description'])
+@section('meta_keywords', 'Laravel web development UK, Laravel development services UK, Laravel package development UK,
+    scalable Laravel solutions UK, high performance Laravel apps UK, Laravel web development agency UK, business growth with
+    Laravel UK')
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/services/webDevelopment/laravel/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('assets/services/webDevelopment/laravel/js/script.js') }}" defer></script>
+    @endpush
+@section('content')
+
+
+    <!-- HERO -->
+    <section class="hero laravel-hero" id="hero">
+        <div class="container hero-inner">
+            <p class="hero-eyebrow">Laravel Development Services</p>
+            <h1>Scalable Laravel Web Development<br>Services</h1>
+            <p class="hero-subtitle">
+                We provide professional Laravel development services, delivering secure, scalable,
+                and high-performance web applications through expert Laravel web development tailored to complex business
+                needs.
+            </p>
+            <div class="hero-actions">
+                <a href="#cta" class="btn btn-primary">Start Your Project</a>
+                <a href="#solutions" class="btn btn-ghost">Explore Solutions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPREHENSIVE LARAVEL SOLUTIONS -->
+    <section class="section section-solutions" id="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comprehensive Laravel Solutions</h2>
+                <p>
+                    Our Laravel development agency offers end-to-end solutions including custom applications,
+                    APIs, database design, security, and cloud deployment for modern businesses.
+                </p>
+            </div>
+
+            <div class="grid grid-3 solutions-grid solutions-grid-ui">
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3>Custom Web Applications</h3>
+                    <p>
+                        Custom Laravel web development to build scalable, feature-rich applications aligned with your
+                        business logic.
+                    </p>
+                </article>
+
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="plug-zap"></i>
+                    </div>
+                    <h3>RESTful API Development</h3>
+                    <p>
+                        Robust RESTful APIs using Laravel to enable seamless integrations and system communication.
+                    </p>
+                </article>
+
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="database"></i>
+                    </div>
+                    <h3>Database Architecture</h3>
+                    <p>
+                        Efficient database architecture to ensure performance, scalability, and strong data integrity.
+                    </p>
+                </article>
+
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3>Security Implementation</h3>
+                    <p>
+                        Advanced security implementation following Laravel best practices to protect against vulnerabilities
+                        and threats.
+                    </p>
+                </article>
+
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="cloud"></i>
+                    </div>
+                    <h3>Cloud Deployment</h3>
+                    <p>
+                        Cloud-ready Laravel deployments optimized for performance, scalability, and high availability.
+                    </p>
+                </article>
+
+                <article class="card solution-card solution-card-ui">
+                    <div class="solution-icon" aria-hidden="true">
+                        <i data-lucide="arrow-right-left"></i>
+                    </div>
+                    <h3>Legacy System Migration</h3>
+                    <p>
+                        Secure migration from legacy systems to Laravel with minimal downtime and preserved data integrity.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MODERN TECHNOLOGY STACK -->
+    <section class="section section-stack" id="stack">
+        <div class="container stack-layout">
+            <div class="stack-media" aria-hidden="true">
+                <img src="{{ asset('assets/images/web/laravel.webp') }}"
+                    alt="Laravel Development – Cloud Technologies Ltd"
+                    title="Laravel development services for secure and scalable web applications"
+                    aria-label="Laravel Capabilities" aria-hidden="true" loading="lazy"
+                    decoding="async" class="media-placeholder">
+            </div>
+            <div class="stack-copy">
+                <h2>Modern Technology Stack</h2>
+                <p class="stack-intro">
+                    Our Laravel web development agency leverages a modern technology stack to deliver reliable, scalable,
+                    and future-ready applications.
+                </p>
+                <div class="stack-chips">
+                    <div class="chip-row">
+                        <span class="chip">Laravel framework</span>
+                        <span class="chip">RESTful APIs</span>
+                    </div>
+                    <div class="chip-row">
+                        <span class="chip">MySQL & PostgreSQL</span>
+                        <span class="chip">Redis Caching</span>
+                    </div>
+                    <div class="chip-row">
+                        <span class="chip">Cloud infrastructure</span>
+                        <span class="chip">Secure authentication</span>
+                    </div>
+                    <div class="chip-row">
+                        <span class="chip">Modular architecture</span>
+                        <span class="chip">Scalable deployments</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PERFECT FOR COMPLEX APPLICATIONS -->
+    <section class="section section-use-cases" id="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <h2>Perfect For Complex Applications</h2>
+                <p>
+                    Laravel development is ideal for complex, data-driven applications requiring performance, security, and
+                    scalability.
+                </p>
+            </div>
+
+            <div class="grid grid-2 use-cases-grid use-cases-grid-ui">
+                <article class="use-case use-case-ui">
+                    <div class="useIcon" aria-hidden="true"><i data-lucide="building-2"></i></div>
+                    <h3>Enterprise Portals</h3>
+                    <p>Secure and scalable enterprise portals built by a Laravel web development company.</p>
+                </article>
+
+                <article class="use-case use-case-ui">
+                    <div class="useIcon" aria-hidden="true"><i data-lucide="layers"></i></div>
+                    <h3>SaaS Applications</h3>
+                    <p>Multi-tenant SaaS platforms developed through advanced Laravel development expertise.</p>
+                </article>
+
+                <article class="use-case use-case-ui">
+                    <div class="useIcon" aria-hidden="true"><i data-lucide="users"></i></div>
+                    <h3>CRM Systems</h3>
+                    <p>Custom CRM systems designed using Laravel packages and scalable architecture.</p>
+                </article>
+
+                <article class="use-case use-case-ui">
+                    <div class="useIcon" aria-hidden="true"><i data-lucide="calendar-check"></i></div>
+                    <h3>Booking Platforms</h3>
+                    <p>High-performance booking platforms with real-time data handling and secure workflows.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- STATS STRIP -->
+    <section class="section section-stats">
+        <div class="container stats-grid">
+            <article class="stat">
+                <p class="stat-value">100+</p>
+                <p class="stat-label">Laravel Projects</p>
+            </article>
+            <article class="stat">
+                <p class="stat-value">10+</p>
+                <p class="stat-label">Years Experience</p>
+            </article>
+            <article class="stat">
+                <p class="stat-value">50+</p>
+                <p class="stat-label">Enterprise Clients</p>
+            </article>
+            <article class="stat">
+                <p class="stat-value">99%</p>
+                <p class="stat-label">Code Quality Score</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- WHAT ARE LARAVEL DEVELOPMENT SERVICES -->
+    <section class="section section-services" id="about-laravel-development">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Are Laravel Development Services?</h2>
+            </div>
+
+            <div class="wix-about-wrapper">
+
+                <div class="wix-about-content">
+                    <p>
+                        <b> Laravel development</b> services focus on building secure, scalable, and high-performance web
+                        applications using Laravel’s modern PHP framework. These services include custom application
+                        development, RESTful APIs, database architecture, security implementation, cloud deployment, and
+                        legacy system migration.
+                    </p>
+
+                    <p>
+                        A professional Laravel development approach ensures your application is technically robust, easy to
+                        scale, and structured to handle complex business logic with clean, maintainable code.
+                    </p>
+
+                    <p>
+                        If you need a powerful web application tailored to advanced workflows and long-term growth, Laravel
+                        development services are the ideal solution.
+                    </p>
+                </div>
+
+                <div class="wix-about-highlight" style="background-color: #ffffff">
+                    <h3>Who Needs Laravel Development?</h3>
+
+                    <p>Laravel development is ideal for:</p>
+
+                    <ul>
+                        <li>Businesses requiring custom web applications</li>
+                        <li>SaaS platforms and multi-tenant systems</li>
+                        <li>Companies needing secure APIs and integrations</li>
+                        <li>Organisations migrating from legacy systems</li>
+                        <li>Enterprises building portals and internal tools</li>
+                        <li>Startups developing scalable digital products</li>
+                    </ul>
+
+                    <p class="wix-about-note">
+                        If your project involves complex features, data handling, or integrations, Laravel provides the
+                        flexibility and performance required.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY LARAVEL IS IDEAL -->
+    <section class="section section-business" id="why-laravel-modern" style="background-color: #ffffff">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why Laravel Is Ideal for Complex Applications</h2>
+            </div>
+
+            <div class="wix-growth-card">
+                <p>
+                    Laravel combines clean architecture with powerful features that support scalability, security, and
+                    performance. With built-in authentication, modular structure, caching support, and modern development
+                    practices, Laravel applications are reliable and future-ready.
+                </p>
+
+                <p>
+                    With the right Laravel development strategy, your application benefits from optimised database
+                    performance, secure code practices, seamless integrations, and cloud-ready deployments that support
+                    long-term scalability.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RELATED SERVICES INTERLINKS -->
+    <section class="section section-related-links" id="related-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Related Services</h2>
+                <p>Support your Laravel project with connected development, technical SEO, and digital marketing services.</p>
+            </div>
+
+            <div class="related-links-grid">
+                <a class="related-link-card" href="/custom-php-website-development-service-uk"
+                    aria-label="Custom PHP development UK">
+                    <span>Custom PHP Development UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/website-development-service-uk"
+                    aria-label="Website development services UK">
+                    <span>Website Development Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO services UK">
+                    <span>SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/technical-seo-service-uk" aria-label="Technical SEO services UK">
+                    <span>Technical SEO Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="related-link-card" href="/digital-marketing-service-uk"
+                    aria-label="Digital marketing services UK">
+                    <span>Digital Marketing Services UK</span>
+                    <span class="related-link-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA -->
+    <section class="section section-cta" id="cta">
+        <div class="container">
+            <div class="cta-inner">
+                <div class="cta-text">
+                    <h2>Build Your Next Application with Laravel</h2>
+                    <p>
+                        Partner with a trusted Laravel development agency to build powerful, secure, and scalable
+                        applications using industry-leading Laravel website development services.
+                    </p>
+                </div>
+                <div class="cta-actions">
+                    <a href="#" class="btn btn-light">Call</a>
+                    <a href="#" class="btn btn-outline">Email Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Laravel Development Services FAQs</h2>
+                <p>
+                    Answers to common questions about Laravel development, scalability, security, and enterprise solutions.
+                </p>
+            </div>
+
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>1. What are Laravel development services?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Laravel development services include custom web application development, APIs, security
+                                implementation, database design, and cloud deployment using the Laravel framework.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>2. Why choose Laravel for web development?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Laravel offers scalability, security, clean architecture, and rapid development, making it
+                                ideal for complex and enterprise-level applications.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>3. Do you offer custom Laravel package development?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Yes, we provide Laravel package development to extend functionality and create reusable,
+                                modular components.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>4. Can you migrate existing applications to Laravel?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Yes, our Laravel development company handles secure legacy system migration while
+                                maintaining performance and data integrity.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>5. Do you provide enterprise Laravel solutions?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Absolutely. Our Laravel web development agency specializes in enterprise portals, SaaS
+                                platforms, and CRM systems.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>6. Is Laravel suitable for scalable applications?</summary>
+                        <div class="faq-content">
+                            <p>
+                                Yes, Laravel website development supports scalable architecture, cloud deployment, and
+                                high-traffic applications efficiently.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+@endsection

@@ -1,7 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', $page['meta_title'])
-@section('meta_title', $page['meta_title'])
+@section('title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
+
+@section('meta_title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
 @section('meta_description', $page['meta_description'])
 @section('meta_keywords', 'Laravel web development UK, Laravel development services UK, Laravel package development UK,
     scalable Laravel solutions UK, high performance Laravel apps UK, Laravel web development agency UK, business growth with

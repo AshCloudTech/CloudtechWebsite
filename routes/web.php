@@ -236,7 +236,7 @@ Route::get('/off-page-seo-service-{locationSlug}', [LocationSeoController::class
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/website-development-service-{locationSlug}', [LocationSeoController::class, 'websiteDevelopment'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/woocommerce-website-development-service-{locationSlug}', [LocationSeoController::class, 'woocommerce'])
+Route::get('/woocommerce-agency-in-{locationSlug}', [LocationSeoController::class, 'woocommerce'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/shopify-website-development-service-{locationSlug}', [LocationSeoController::class, 'shopify'])
     ->where('locationSlug', '[a-z0-9-]+');
@@ -254,15 +254,15 @@ Route::get('/custom-php-website-development-service-{locationSlug}', [LocationSe
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/cloud-health-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudhealth'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-care-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudcare'])
+Route::get('/care-home-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudcare'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-education-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudedu'])
+Route::get('/education-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudedu'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-travel-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudtravel'])
+Route::get('/travel-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudtravel'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-recruitment-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudrecruit'])
+Route::get('/recruitment-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudrecruit'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-public-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudpublic'])
+Route::get('/public-sector-seo-service-in-{locationSlug}', [LocationSeoController::class, 'cloudpublic'])
     ->where('locationSlug', '[a-z0-9-]+');
 /*
 |--------------------------------------------------------------------------

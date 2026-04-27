@@ -1,7 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', $page['meta_title'])
-@section('meta_title', $page['meta_title'])
+@section('title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
+
+@section('meta_title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
 @section('meta_description', $page['meta_description'])
 @section('meta_keywords', 'content SEO services UK, SEO content strategy UK, content optimization UK, keyword research
     UK, on-page SEO UK, content marketing UK, organic traffic UK, search rankings UK, business growth UK')

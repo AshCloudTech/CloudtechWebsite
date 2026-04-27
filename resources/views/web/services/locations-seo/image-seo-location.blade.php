@@ -1,7 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', $page['meta_title'])
-@section('meta_title', $page['meta_title'])
+@section('title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
+
+@section('meta_title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
 @section('meta_description', $page['meta_description'])
 @section('meta_keywords', 'Image SEO services UK, image optimization UK, alt tag optimization UK, image compression UK,
     WebP conversion UK, image sitemap UK, structured data for images UK, Google Images SEO UK, page speed optimization UK,

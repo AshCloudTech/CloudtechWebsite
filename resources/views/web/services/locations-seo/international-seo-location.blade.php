@@ -1,7 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', $page['meta_title'])
-@section('meta_title', $page['meta_title'])
+@section('title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
+
+@section('meta_title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
 @section('meta_description', $page['meta_description'])
 @section('meta_keywords', 'international SEO services UK, global SEO agency UK, multilingual SEO UK, geo-targeted SEO
     UK, international keyword research UK, hreflang implementation UK, global link building UK, international SEO audit UK,

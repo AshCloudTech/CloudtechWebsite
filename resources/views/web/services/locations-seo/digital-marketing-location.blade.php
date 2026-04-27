@@ -1,7 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', $page['meta_title'])
-@section('meta_title', $page['meta_title'])
+@section('title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
+
+@section('meta_title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
 @section('meta_description', $page['meta_description'])
 @section('meta_keywords', 'digital marketing agency UK, digital marketing services UK, online advertising UK, SEO services UK, PPC services UK, social media marketing UK, content marketing UK, email marketing UK, digital strategy UK')
     @push('styles')

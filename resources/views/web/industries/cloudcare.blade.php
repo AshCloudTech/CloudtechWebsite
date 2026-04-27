@@ -15,6 +15,7 @@
     @endpush
 
     @push('scripts')
+    <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script>
         <script src="{{ asset('assets/cloud-care/js/script.js') }}" defer></script>
     @endpush
 
@@ -349,33 +350,33 @@
                 </p>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form js-validate-form" method="POST" action="/contact">
                 <div class="form-row">
                     <div class="form-field">
                         <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
                     </div>
                     <div class="form-field">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@carehome.org">
+                        <input type="email" id="email"  name="email"  placeholder="name@carehome.org">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-field">
                         <label for="organisation">Care Service</label>
-                        <input type="text" id="organisation" placeholder="Care home / provider name">
+                        <input type="text"  name="organisation" id="organisation" placeholder="Care home / provider name">
                     </div>
                     <div class="form-field">
                         <label for="role">Your Role</label>
-                        <input type="text" id="role" placeholder="Registered Manager, Director, etc.">
+                        <input type="text"  name="role" id="role" placeholder="Registered Manager, Director, etc.">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-field form-field-full">
                         <label for="message">How can we help?</label>
-                        <textarea id="message" rows="4"
+                        <textarea id="message" rows="4" name="message"
                             placeholder="Tell us about your goals, number of homes/clients, and current systems."></textarea>
                     </div>
                 </div>

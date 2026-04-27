@@ -1,7 +1,11 @@
 @extends('layouts.cloudtech')
 
-@section('title', $page['meta_title'])
-@section('meta_title', $page['meta_title'])
+@section('title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
+@section('meta_title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
 @section('meta_description', $page['meta_description'])
 @section('meta_keywords', 'SEO services UK, search engine optimization agency, on-page SEO, off-page SEO, ecommerce SEO,
     local SEO, technical SEO, content SEO, image SEO, affordable SEO, UK businesses')
@@ -480,7 +484,7 @@
             </div>
 
             <div class="grid grid-2 results-grid">
-                @foreach ($businessResults as $result)
+                {{-- @foreach ($businessResults as $result)
                     <article class="card result-card">
                         <div class="result-header">
                             <p class="business-name">{{ $result->business_name }}</p>
@@ -501,7 +505,7 @@
                             “{{ $result->quote }}”
                         </p>
                     </article>
-                @endforeach
+                @endforeach --}}
             </div>
         </div>
     </section>

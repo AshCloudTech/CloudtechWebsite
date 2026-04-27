@@ -1,7 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', $page['meta_title'])
-@section('meta_title', $page['meta_title'])
+@section('title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
+
+@section('meta_title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
 @section('meta_description', $page['meta_description'])
 @section('meta_keywords', 'GoDaddy website builder UK, GoDaddy website design UK, GoDaddy website pricing UK, GoDaddy
     website setup UK, affordable website builder UK, small business websites UK, SEO-friendly websites UK, responsive web

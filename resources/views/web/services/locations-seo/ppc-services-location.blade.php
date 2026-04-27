@@ -1,7 +1,12 @@
 @extends('layouts.cloudtech')
 
-@section('title', $page['meta_title'])
-@section('meta_title', $page['meta_title'])
+@section('title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
+
+@section('meta_title')
+    {!! html_entity_decode($page['meta_title']) !!}
+@endsection
 @section('meta_description', $page['meta_description'])
 @section('meta_keywords', 'PPC advertising agency UK, pay per click experts, Google Ads management UK, PPC campaign management UK, search ads UK, display ads UK, shopping ads UK, social media ads UK, retargeting ads UK, PPC strategy UK')
     @push('styles')

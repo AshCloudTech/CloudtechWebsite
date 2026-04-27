@@ -8,6 +8,7 @@
 @endpush
 
 @push('scripts')
+ <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script> 
     <script src="{{ asset('assets/cloud-home/js/script.js') }}" defer></script>
 @endpush
 
@@ -75,7 +76,7 @@
 
                     <form method="POST"
                           action="{{ Route::has('contact.send') ? route('contact.send') : url('/contact') }}"
-                          class="cs-form">
+                          class="cs-form js-validate-form">
                         @csrf
 
                         <input type="hidden" name="service" value="{{ $serviceKey ?? '' }}">

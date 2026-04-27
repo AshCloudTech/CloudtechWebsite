@@ -10,7 +10,7 @@
       <p class="auditModal__sub">Share your details — we’ll reach out with recommendations.</p>
     </div>
 
-    <form class="auditForm" id="auditForm" method="POST" action="{{ route('audit-leads.store') }}">
+    <form class="auditForm js-validate-form" id="auditForm" method="POST" action="{{ route('audit-leads.store') }}">
       @csrf
 
       <input type="hidden" name="audit_type" id="audit_type" value="">

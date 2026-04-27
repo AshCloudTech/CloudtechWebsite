@@ -12,6 +12,7 @@
     @endpush
     @push('scripts')
         <script src="{{ asset('assets/about/js/script.js') }}" defer></script>
+          <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     @endpush
 
@@ -582,7 +583,7 @@
                 </p>
             </div>
 
-            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+            <form class="contact-form js-validate-form" method="POST" action="{{ route('contact.submit') }}">
                 @csrf
 
                 {{-- 🔐 FORM IDENTIFIERS (VERY IMPORTANT) --}}
@@ -604,13 +605,13 @@
                 <div class="form-row">
                     <div class="form-field">
                         <label for="company">Company</label>
-                        <input type="text" name="payload[company]" id="company" placeholder="Organisation name">
+                        <input type="text" name="payload[company]" id="company" placeholder="Organisation name" required>
                     </div>
 
                     <div class="form-field">
                         <label for="role">Your Role</label>
                         <input type="text" name="payload[role]" id="role"
-                            placeholder="Director, CTO, Head of IT">
+                            placeholder="Director, CTO, Head of IT" required>
                     </div>
                 </div>
 

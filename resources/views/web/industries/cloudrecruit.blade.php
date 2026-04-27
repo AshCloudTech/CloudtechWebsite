@@ -322,15 +322,15 @@
             </div>
 
 
-            <form class="contact-form">
+            <form class="contact-form js-validate-form" method="POST" action="/contact">
                 <div class="form-row">
                     <div class="form-field">
                         <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name">
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
                     </div>
                     <div class="form-field">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="name@agency.com">
+                        <input type="email" id="email"  name="email"  placeholder="name@carehome.org">
                     </div>
                 </div>
                 <div class="form-row">

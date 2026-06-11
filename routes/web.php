@@ -216,7 +216,11 @@ Route::get('/meta-ads-service-{locationSlug}', [LocationSeoController::class, 'm
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/seo-service-{locationSlug}', [LocationSeoController::class, 'seo'])
     ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/seo-agency-{locationSlug}', [LocationSeoController::class, 'seo'])
+    ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/national-seo-service-{locationSlug}', [LocationSeoController::class, 'nationalSeo'])
+    ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/international-seo-agency-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/international-seo-service-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
@@ -229,6 +233,8 @@ Route::get('/image-seo-service-{locationSlug}', [LocationSeoController::class, '
 Route::get('/local-seo-service-{locationSlug}', [LocationSeoController::class, 'localSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/ecommerce-seo-service-{locationSlug}', [LocationSeoController::class, 'ecommerceSeo'])
+    ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/ecommerce-seo-agency-{locationSlug}', [LocationSeoController::class, 'ecommerceSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/on-page-seo-service-{locationSlug}', [LocationSeoController::class, 'onPageSeo'])
     ->where('locationSlug', '[a-z0-9-]+');

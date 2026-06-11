@@ -2647,12 +2647,1772 @@ class LocationSeoController extends Controller
                 'meta_title' => 'SEO Services in Ilford | Search Engine Optimization Agency',
                 'meta_description' => 'Search engine optimization agency in Ilford offering on-page, off-page, and eCommerce SEO services to improve rankings, traffic, and leads for your website.',
             ],
+            'stratford' => [
+                'meta_title' => 'SEO Agency in Stratford | Expert SEO Services',
+
+                'meta_description' => 'Professional SEO agency in Stratford offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online visibility.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'SEO Agency in Stratford | Professional SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional SEO services in Stratford, helping businesses improve search rankings, increase website traffic, and generate more qualified leads. We deliver complete SEO solutions including Local SEO, Technical SEO, On-Page SEO, Content Optimisation, and Link Building strategies designed to achieve long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+
+                        'description' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Local SEO Services',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+
+                        'description' => 'Looking to grow beyond Stratford? We also provide international SEO services to help businesses improve search visibility and reach customers across multiple regions and countries.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Stratford or expanding further, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Link Building Services',
+                            'Google Business Profile Optimisation',
+                            'Ecommerce SEO Solutions',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable SEO Services in Stratford',
+
+                        'intro' => 'Looking for cost-effective SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong results without unnecessary costs, making SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and global SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is SEO and how does it work?',
+                                'a' => 'SEO (Search Engine Optimisation) improves your website’s visibility on search engines like Google. It helps businesses attract more organic traffic, leads, and customers online.'
+                            ],
+                            [
+                                'q' => 'How long does SEO take to show results?',
+                                'a' => 'SEO is a long-term strategy. Most businesses begin seeing improvements within 3 to 6 months depending on competition, website condition, and target keywords.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO services?',
+                                'a' => 'Yes, we provide local SEO services in Stratford to help businesses improve visibility in local Google searches and Google Maps results.'
+                            ],
+                            [
+                                'q' => 'Can SEO help generate more leads?',
+                                'a' => 'Yes, effective SEO helps attract targeted visitors who are actively searching for your products or services, increasing lead generation and conversions.'
+                            ],
+                            [
+                                'q' => 'Do you provide monthly SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'
+                            ],
+                            [
+                                'q' => 'Are your SEO strategies Google-friendly?',
+                                'a' => 'Yes, we follow ethical white-hat SEO practices designed to comply with Google guidelines and achieve long-term ranking improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'SEO Agency in Harrow | Expert SEO Services',
+
+                'meta_description' => 'Professional SEO agency in Harrow offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'SEO Agency in Harrow | Professional SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional SEO services in Harrow, helping businesses improve search rankings, increase website traffic, and generate more qualified leads. We deliver complete SEO solutions including Local SEO, Technical SEO, On-Page SEO, Content Optimisation, and Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+
+                        'description' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Local SEO Services',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+
+                        'description' => 'Looking to expand beyond Harrow? We also provide international SEO services to help businesses improve search visibility and reach customers across multiple countries and regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Harrow or expanding further, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Link Building Services',
+                            'Google Business Profile Optimisation',
+                            'Ecommerce SEO Solutions',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable SEO Services in Harrow',
+
+                        'intro' => 'Looking for cost-effective SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is SEO and how does it work?',
+                                'a' => 'SEO improves your website’s visibility on search engines like Google to help attract more organic traffic, leads, and customers.'
+                            ],
+                            [
+                                'q' => 'How long does SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable SEO improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO services?',
+                                'a' => 'Yes, we provide local SEO services in Harrow to help businesses improve visibility in local Google searches and Google Maps results.'
+                            ],
+                            [
+                                'q' => 'Can SEO help generate more leads?',
+                                'a' => 'Yes, effective SEO helps attract targeted visitors actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'SEO Agency in Collier Row | Expert SEO Services',
+                'meta_description' => 'Professional SEO agency in Collier Row offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'SEO Agency in Collier Row | Professional SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional SEO services in Collier Row, helping businesses improve search rankings, increase website traffic, and generate more qualified leads. We deliver complete SEO solutions including Local SEO, Technical SEO, On-Page SEO, Content Optimisation, and Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+                        'description' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Local SEO Services',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+                        'description' => 'Looking to expand beyond Collier Row? We also provide international SEO services to help businesses improve search visibility and reach customers across multiple countries and regions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Collier Row or expanding further, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Link Building Services',
+                            'Google Business Profile Optimisation',
+                            'Ecommerce SEO Solutions',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable SEO Services in Collier Row',
+
+                        'intro' => 'Looking for cost-effective SEO services in Collier Row? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is SEO and how does it work?',
+                                'a' => 'SEO improves your website’s visibility on search engines like Google to help attract more organic traffic, leads, and customers.'
+                            ],
+                            [
+                                'q' => 'How long does SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable SEO improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO services?',
+                                'a' => 'Yes, we provide local SEO services in Collier Row to help businesses improve visibility in local Google searches and Google Maps results.'
+                            ],
+                            [
+                                'q' => 'Can SEO help generate more leads?',
+                                'a' => 'Yes, effective SEO helps attract targeted visitors actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'SEO Agency in Goodmayes | Expert SEO Services',
+                'meta_description' => 'Professional SEO agency in Goodmayes offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'SEO Agency in Goodmayes | Professional SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional SEO services in Goodmayes, helping businesses improve search rankings, increase website traffic, and generate qualified leads. We deliver complete SEO solutions including Local SEO, Technical SEO, On-Page SEO, Content Optimisation, and Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+                        'description' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Local SEO Services',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+                        'description' => 'Looking to expand beyond Goodmayes? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Goodmayes or expanding further, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Link Building Services',
+                            'Google Business Profile Optimisation',
+                            'Ecommerce SEO Solutions',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact. Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable SEO Services in Goodmayes',
+
+                        'intro' => 'Looking for cost-effective SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is SEO and how does it work?',
+                                'a' => 'SEO improves your website’s visibility on search engines like Google to help attract more organic traffic, leads, and customers.'
+                            ],
+                            [
+                                'q' => 'How long does SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable SEO improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO services?',
+                                'a' => 'Yes, we provide local SEO services in Goodmayes to help businesses improve visibility in local Google searches and Google Maps results.'
+                            ],
+                            [
+                                'q' => 'Can SEO help generate more leads?',
+                                'a' => 'Yes, effective SEO helps attract targeted visitors actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'SEO Agency in Hainault | Expert SEO Services',
+                'meta_description' => 'Professional SEO agency in Hainault offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'SEO Agency in Hainault | Professional SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional SEO services in Hainault, helping businesses improve search rankings, increase website traffic, and generate more qualified leads. We deliver complete SEO solutions including Local SEO, Technical SEO, On-Page SEO, Content Optimisation, and Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+                        'description' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Local SEO Services',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+                        'description' => 'Looking to expand beyond Hainault? We also provide international SEO services to help businesses improve search visibility and reach customers across multiple countries and regions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Hainault or expanding further, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Link Building Services',
+                            'Google Business Profile Optimisation',
+                            'Ecommerce SEO Solutions',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable SEO Services in Hainault',
+
+                        'intro' => 'Looking for cost-effective SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is SEO and how does it work?',
+                                'a' => 'SEO improves your website’s visibility on search engines like Google to help attract more organic traffic, leads, and customers.'
+                            ],
+                            [
+                                'q' => 'How long does SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable SEO improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO services?',
+                                'a' => 'Yes, we provide local SEO services in Hainault to help businesses improve visibility in local Google searches and Google Maps results.'
+                            ],
+                            [
+                                'q' => 'Can SEO help generate more leads?',
+                                'a' => 'Yes, effective SEO helps attract targeted visitors actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+
         ],
 
         'national-seo' => [
             'ilford' => [
                 'meta_title' => 'National SEO Services in Ilford | Nationwide SEO Agency',
                 'meta_description' => 'National SEO services in Ilford offering nationwide SEO solutions to improve rankings, increase traffic, and generate leads across the UK market.',
+            ],
+            'stratford' => [
+                'meta_title' => 'National SEO Services Stratford | UK SEO Experts',
+
+                'meta_description' => 'National SEO services in Stratford helping businesses increase nationwide rankings, organic traffic and leads with scalable SEO strategies across the UK.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'National SEO Services Stratford | Professional SEO Solutions for Nationwide Growth',
+                        'subtitle' => 'Growing your business across the UK can be simple and results-driven with the right national SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted National SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional national SEO services in Stratford, helping businesses improve search visibility, increase organic traffic, and generate qualified leads across the UK. We deliver complete SEO solutions including Technical SEO, On-Page SEO, Content Optimisation, Link Building, and Nationwide SEO campaigns designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings Nationwide? We Make It Easy',
+
+                        'description' => 'Managing national SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or scaling your business nationally, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our National SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'National SEO Strategy',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+
+                        'description' => 'Looking to expand beyond the UK? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete National SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique goals. That’s why we create tailored national SEO strategies designed to maximise visibility, traffic, and conversions across competitive search markets.',
+
+                        'sub_intro' => "Whether you're targeting customers locally or nationwide, we offer:",
+
+                        'list' => [
+                            'National SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Authority Link Building',
+                            'SEO Content Creation',
+                            'Ecommerce SEO Solutions',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven National SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable National SEO Services',
+
+                        'intro' => 'Looking for cost-effective national SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making national SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing national SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is national SEO?',
+                                'a' => 'National SEO is the process of improving your website’s visibility across a wider geographic area rather than targeting only local searches. It helps businesses rank for competitive keywords nationwide.'
+                            ],
+                            [
+                                'q' => 'How long does national SEO take to work?',
+                                'a' => 'National SEO is a long-term strategy. Most businesses start seeing measurable improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Can national SEO help generate more leads?',
+                                'a' => 'Yes, national SEO helps attract targeted visitors from across the UK who are actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed monthly SEO reports including rankings, traffic, technical insights, and campaign performance.'
+                            ],
+                            [
+                                'q' => 'Is national SEO suitable for ecommerce businesses?',
+                                'a' => 'Yes, national SEO is highly effective for ecommerce websites and businesses targeting customers across multiple cities or regions.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve long-term rankings and sustainable growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'National SEO Services Harrow | UK SEO Experts',
+
+                'meta_description' => 'National SEO services in Harrow helping businesses increase nationwide rankings, organic traffic and leads with scalable SEO strategies across the UK.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'National SEO Services Harrow | Professional SEO Solutions for Nationwide Growth',
+                        'subtitle' => 'Growing your business across the UK can be simple and results-driven with the right national SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted National SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional national SEO services in Harrow, helping businesses improve search visibility, increase organic traffic, and generate qualified leads across the UK. We deliver complete SEO solutions including Technical SEO, On-Page SEO, Content Optimisation, Link Building, and Nationwide SEO campaigns designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings Nationwide? We Make It Easy',
+
+                        'description' => 'Managing national SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or scaling your business nationally, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our National SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'National SEO Strategy',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+
+                        'description' => 'Looking to expand beyond the UK? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete National SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique goals. That’s why we create tailored national SEO strategies designed to maximise visibility, traffic, and conversions across competitive search markets.',
+
+                        'sub_intro' => "Whether you're targeting customers locally or nationwide, we offer:",
+
+                        'list' => [
+                            'National SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Authority Link Building',
+                            'SEO Content Creation',
+                            'Ecommerce SEO Solutions',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven National SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable National SEO Services',
+
+                        'intro' => 'Looking for cost-effective national SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making national SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing national SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is national SEO?',
+                                'a' => 'National SEO is the process of improving your website’s visibility across a wider geographic area rather than targeting only local searches. It helps businesses rank for competitive keywords nationwide.'
+                            ],
+                            [
+                                'q' => 'How long does national SEO take to work?',
+                                'a' => 'National SEO is a long-term strategy. Most businesses start seeing measurable improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Can national SEO help generate more leads?',
+                                'a' => 'Yes, national SEO helps attract targeted visitors from across the UK who are actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed monthly SEO reports including rankings, traffic, technical insights, and campaign performance.'
+                            ],
+                            [
+                                'q' => 'Is national SEO suitable for ecommerce businesses?',
+                                'a' => 'Yes, national SEO is highly effective for ecommerce websites and businesses targeting customers across multiple cities or regions.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve long-term rankings and sustainable growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'National SEO Services Collier Row | UK SEO Experts',
+                'meta_description' => 'National SEO services in Collier Row helping businesses increase nationwide rankings, organic traffic and leads with scalable SEO strategies across the UK.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'National SEO Services Collier Row | Professional SEO Solutions for Nationwide Growth',
+                        'subtitle' => 'Growing your business across the UK can be simple and results-driven with the right national SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted National SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional national SEO services in Collier Row, helping businesses improve search visibility, increase organic traffic, and generate qualified leads across the UK. We deliver complete SEO solutions including Technical SEO, On-Page SEO, Content Optimisation, Link Building, and Nationwide SEO campaigns designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings Nationwide? We Make It Easy',
+                        'description' => 'Managing national SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or scaling your business nationally, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+
+                    'services_glance' => [
+                        'title' => 'Our National SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'National SEO Strategy',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+                        'description' => 'Looking to expand beyond the UK? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete National SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique goals. That’s why we create tailored national SEO strategies designed to maximise visibility, traffic, and conversions across competitive search markets.',
+
+                        'sub_intro' => "Whether you're targeting customers locally or nationwide, we offer:",
+
+                        'list' => [
+                            'National SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Authority Link Building',
+                            'SEO Content Creation',
+                            'Ecommerce SEO Solutions',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven National SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact. Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable National SEO Services',
+
+                        'intro' => 'Looking for cost-effective national SEO services in Collier Row?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making national SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing national SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is national SEO?',
+                                'a' => 'National SEO is the process of improving your website’s visibility across a wider geographic area rather than targeting only local searches. It helps businesses rank for competitive keywords nationwide.'
+                            ],
+                            [
+                                'q' => 'How long does national SEO take to work?',
+                                'a' => 'National SEO is a long-term strategy. Most businesses start seeing measurable improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Can national SEO help generate more leads?',
+                                'a' => 'Yes, national SEO helps attract targeted visitors from across the UK who are actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed monthly SEO reports including rankings, traffic, technical insights, and campaign performance.'
+                            ],
+                            [
+                                'q' => 'Is national SEO suitable for ecommerce businesses?',
+                                'a' => 'Yes, national SEO is highly effective for ecommerce websites and businesses targeting customers across multiple cities or regions.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve long-term rankings and sustainable growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'National SEO Services Goodmayes | UK SEO Experts',
+                'meta_description' => 'National SEO services in Goodmayes helping businesses increase nationwide rankings, organic traffic and leads with scalable SEO strategies across the UK.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'National SEO Services Goodmayes | Professional UK-Wide SEO Solutions',
+                        'subtitle' => 'Growing your business across the UK can be simple and results-driven with the right national SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted National SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional national SEO services in Goodmayes, helping businesses improve search visibility, increase organic traffic, and generate qualified leads across the UK. We deliver complete national SEO solutions including technical SEO, on-page SEO, content optimisation, link building, and nationwide keyword targeting designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better UK-Wide Rankings? We Make It Easy',
+                        'description' => 'Managing national SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or scaling your business across the UK, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our National SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'National Keyword Targeting',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+                        'description' => 'Looking to expand beyond the UK? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete National SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique growth goals. That’s why we create tailored national SEO strategies designed to maximise visibility, traffic, and conversions across competitive UK search markets.',
+
+                        'sub_intro' => "Whether you're targeting local customers or scaling nationwide, we offer:",
+
+                        'list' => [
+                            'National SEO Campaigns',
+                            'Technical SEO Audits',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Authority Link Building',
+                            'SEO Content Creation',
+                            'Conversion Optimisation',
+                            'Ecommerce National SEO',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven National SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact across the UK. Our national SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable National SEO Services',
+
+                        'intro' => 'Looking for cost-effective national SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable national SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making national SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your national growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is national SEO?',
+                                'a' => 'National SEO is the process of optimizing your website to rank for competitive keywords across the entire UK rather than targeting only local areas.'
+                            ],
+                            [
+                                'q' => 'How is national SEO different from local SEO?',
+                                'a' => 'Local SEO focuses on specific geographic areas, while national SEO targets broader audiences across the country.'
+                            ],
+                            [
+                                'q' => 'How long does national SEO take?',
+                                'a' => 'Most businesses start seeing measurable improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Can national SEO increase sales?',
+                                'a' => 'Yes, national SEO helps attract high-intent users from across the UK, improving leads and online sales.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including rankings, traffic performance, and campaign insights.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed for long-term rankings and sustainable growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'National SEO Services Hainault | UK SEO Experts',
+                'meta_description' => 'National SEO services in Hainault helping businesses increase nationwide rankings, organic traffic and leads with scalable SEO strategies across the UK.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'National SEO Services Hainault | Professional SEO Solutions for Nationwide Growth',
+                        'subtitle' => 'Growing your business across the UK can be simple and results-driven with the right national SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted National SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional national SEO services in Hainault, helping businesses improve search visibility, increase organic traffic, and generate qualified leads across the UK. We deliver complete SEO solutions including Technical SEO, On-Page SEO, Content Optimisation, Link Building, and Nationwide SEO campaigns designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings Nationwide? We Make It Easy',
+                        'description' => 'Managing national SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or scaling your business nationally, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our National SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'National SEO Strategy',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+                        'description' => 'Looking to expand beyond the UK? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete National SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique goals. That’s why we create tailored national SEO strategies designed to maximise visibility, traffic, and conversions across competitive search markets.',
+
+                        'sub_intro' => "Whether you're targeting customers locally or nationwide, we offer:",
+
+                        'list' => [
+                            'National SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Authority Link Building',
+                            'SEO Content Creation',
+                            'Ecommerce SEO Solutions',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven National SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable National SEO Services',
+
+                        'intro' => 'Looking for cost-effective national SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making national SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing national SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is national SEO?',
+                                'a' => 'National SEO is the process of improving your website’s visibility across a wider geographic area rather than targeting only local searches. It helps businesses rank for competitive keywords nationwide.'
+                            ],
+                            [
+                                'q' => 'How long does national SEO take to work?',
+                                'a' => 'National SEO is a long-term strategy. Most businesses start seeing measurable improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Can national SEO help generate more leads?',
+                                'a' => 'Yes, national SEO helps attract targeted visitors from across the UK who are actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed monthly SEO reports including rankings, traffic, technical insights, and campaign performance.'
+                            ],
+                            [
+                                'q' => 'Is national SEO suitable for ecommerce businesses?',
+                                'a' => 'Yes, national SEO is highly effective for ecommerce websites and businesses targeting customers across multiple cities or regions.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve long-term rankings and sustainable growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
             ],
         ],
 
@@ -2661,11 +4421,1790 @@ class LocationSeoController extends Controller
                 'meta_title' => 'International SEO Services in Ilford | Global SEO Agency',
                 'meta_description' => 'International SEO services in Ilford offering multilingual and global SEO solutions to improve rankings, traffic, and generate leads across international markets.',
             ],
+            'stratford' => [
+                'meta_title' => 'International SEO Agency Stratford | Global SEO Experts',
+
+                'meta_description' => 'International SEO agency in Stratford providing multilingual SEO, global targeting and search optimization for worldwide business growth online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'International SEO Agency Stratford | Global SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business internationally can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted International SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional international SEO services in Stratford, helping businesses improve global search visibility, increase international website traffic, and generate qualified leads across multiple countries and markets. We deliver complete international SEO solutions including Technical SEO, Multilingual SEO, On-Page SEO, Content Optimisation, International Keyword Research, and Global Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Global Google Rankings? We Make It Easy',
+
+                        'description' => 'Managing international SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are expanding into new countries or scaling your global presence, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our International SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'International SEO Strategy',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Multilingual SEO Optimisation',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Global Content Optimisation',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'International SEO Reporting',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Global SEO Services',
+
+                        'description' => 'Looking to grow your visibility across multiple international markets? We provide scalable international SEO services designed to help businesses improve rankings and reach customers worldwide through tailored SEO strategies.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete International SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique global goals. That’s why we create tailored international SEO strategies designed to maximise worldwide visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting one country or multiple international markets, we offer:",
+
+                        'list' => [
+                            'International SEO Campaigns',
+                            'Technical SEO Audits',
+                            'Multilingual SEO Optimisation',
+                            'Country-Specific Keyword Research',
+                            'International Content Optimisation',
+                            'hreflang Implementation',
+                            'Global Link Building',
+                            'Ecommerce International SEO',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real international business growth.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven International SEO Solutions',
+
+                        'intro' => 'Looking to improve your international rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and market insights to ensure your campaigns deliver maximum impact globally.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'International SEO audits',
+                            'Global competitor analysis',
+                            'Technical SEO improvements',
+                            'Multilingual content optimisation',
+                            'International performance tracking',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better international rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable International SEO Services',
+
+                        'intro' => 'Looking for cost-effective international SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your global business goals and expansion plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable international SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making international SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your international growth partner, focused on delivering high-performing SEO campaigns that drive real global business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional international SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and global SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is international SEO?',
+                                'a' => 'International SEO is the process of optimizing your website to improve visibility in multiple countries and languages across international search engines.'
+                            ],
+                            [
+                                'q' => 'How does international SEO work?',
+                                'a' => 'International SEO uses strategies such as country targeting, multilingual optimisation, international keyword research, and hreflang implementation to help search engines understand your target markets.'
+                            ],
+                            [
+                                'q' => 'How long does international SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable improvements within 3 to 6 months depending on competition, target countries, and website condition.'
+                            ],
+                            [
+                                'q' => 'Can international SEO help increase global traffic?',
+                                'a' => 'Yes, international SEO helps businesses attract targeted visitors from multiple countries and improve worldwide online visibility.'
+                            ],
+                            [
+                                'q' => 'Do you provide multilingual SEO services?',
+                                'a' => 'Yes, we provide multilingual SEO optimisation to help businesses rank in different languages and international markets.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable international rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'International SEO Agency Harrow | Global SEO Experts',
+
+                'meta_description' => 'International SEO agency in Harrow providing multilingual SEO, global targeting and search optimization for worldwide business growth online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'International SEO Agency Harrow | Global SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business internationally can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted International SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional international SEO services in Harrow, helping businesses improve global search visibility, increase international website traffic, and generate qualified leads across multiple countries and markets. We deliver complete international SEO solutions including Technical SEO, Multilingual SEO, On-Page SEO, Content Optimisation, International Keyword Research, and Global Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Global Google Rankings? We Make It Easy',
+
+                        'description' => 'Managing international SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are expanding into new countries or scaling your global presence, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our International SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'International SEO Strategy',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Multilingual SEO Optimisation',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Global Content Optimisation',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'International SEO Reporting',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Global SEO Services',
+
+                        'description' => 'Looking to grow your visibility across multiple international markets? We provide scalable international SEO services designed to help businesses improve rankings and reach customers worldwide through tailored SEO strategies.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete International SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique global goals. That’s why we create tailored international SEO strategies designed to maximise worldwide visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting one country or multiple international markets, we offer:",
+
+                        'list' => [
+                            'International SEO Campaigns',
+                            'Technical SEO Audits',
+                            'Multilingual SEO Optimisation',
+                            'Country-Specific Keyword Research',
+                            'International Content Optimisation',
+                            'hreflang Implementation',
+                            'Global Link Building',
+                            'Ecommerce International SEO',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real international business growth.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven International SEO Solutions',
+
+                        'intro' => 'Looking to improve your international rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and market insights to ensure your campaigns deliver maximum impact globally.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'International SEO audits',
+                            'Global competitor analysis',
+                            'Technical SEO improvements',
+                            'Multilingual content optimisation',
+                            'International performance tracking',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better international rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable International SEO Services',
+
+                        'intro' => 'Looking for cost-effective international SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your global business goals and expansion plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable international SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making international SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your international growth partner, focused on delivering high-performing SEO campaigns that drive real global business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional international SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and global SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is international SEO?',
+                                'a' => 'International SEO is the process of optimizing your website to improve visibility in multiple countries and languages across international search engines.'
+                            ],
+                            [
+                                'q' => 'How does international SEO work?',
+                                'a' => 'International SEO uses strategies such as country targeting, multilingual optimisation, international keyword research, and hreflang implementation to help search engines understand your target markets.'
+                            ],
+                            [
+                                'q' => 'How long does international SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable improvements within 3 to 6 months depending on competition, target countries, and website condition.'
+                            ],
+                            [
+                                'q' => 'Can international SEO help increase global traffic?',
+                                'a' => 'Yes, international SEO helps businesses attract targeted visitors from multiple countries and improve worldwide online visibility.'
+                            ],
+                            [
+                                'q' => 'Do you provide multilingual SEO services?',
+                                'a' => 'Yes, we provide multilingual SEO optimisation to help businesses rank in different languages and international markets.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable international rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'International SEO Agency Collier Row | Global SEO Experts',
+                'meta_description' => 'International SEO agency in Collier Row providing multilingual SEO, global targeting and search optimization for worldwide business growth online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'International SEO Agency Collier Row | Global SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business internationally can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted International SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional international SEO services in Collier Row, helping businesses improve global search visibility, increase international website traffic, and generate qualified leads across multiple countries and markets. We deliver complete international SEO solutions including Technical SEO, Multilingual SEO, On-Page SEO, Content Optimisation, International Keyword Research, and Global Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Global Google Rankings? We Make It Easy',
+                        'description' => 'Managing international SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are expanding into new countries or scaling your global presence, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our International SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'International SEO Strategy',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Multilingual SEO Optimisation',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Global Content Optimisation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'International SEO Reporting',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Global SEO Services',
+                        'description' => 'Looking to grow your visibility across multiple international markets? We provide scalable international SEO services designed to help businesses improve rankings and reach customers worldwide through tailored SEO strategies.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete International SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique global goals. That’s why we create tailored international SEO strategies designed to maximise worldwide visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting one country or multiple international markets, we offer:",
+
+                        'list' => [
+                            'International SEO Campaigns',
+                            'Technical SEO Audits',
+                            'Multilingual SEO Optimisation',
+                            'Country-Specific Keyword Research',
+                            'International Content Optimisation',
+                            'hreflang Implementation',
+                            'Global Link Building',
+                            'Ecommerce International SEO',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real international business growth.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven International SEO Solutions',
+
+                        'intro' => 'Looking to improve your international rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and market insights to ensure your campaigns deliver maximum impact globally. Our SEO services include:',
+
+                        'list' => [
+                            'International SEO audits',
+                            'Global competitor analysis',
+                            'Technical SEO improvements',
+                            'Multilingual content optimisation',
+                            'International performance tracking',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better international rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable International SEO Services',
+
+                        'intro' => 'Looking for cost-effective international SEO services in Collier Row?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your global business goals and expansion plans. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable international SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making international SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your international growth partner, focused on delivering high-performing SEO campaigns that drive real global business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional international SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and global SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is international SEO?',
+                                'a' => 'International SEO is the process of optimizing your website to improve visibility in multiple countries and languages across international search engines.'
+                            ],
+                            [
+                                'q' => 'How does international SEO work?',
+                                'a' => 'International SEO uses strategies such as country targeting, multilingual optimisation, international keyword research, and hreflang implementation to help search engines understand your target markets.'
+                            ],
+                            [
+                                'q' => 'How long does international SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable improvements within 3 to 6 months depending on competition, target countries, and website condition.'
+                            ],
+                            [
+                                'q' => 'Can international SEO help increase global traffic?',
+                                'a' => 'Yes, international SEO helps businesses attract targeted visitors from multiple countries and improve worldwide online visibility.'
+                            ],
+                            [
+                                'q' => 'Do you provide multilingual SEO services?',
+                                'a' => 'Yes, we provide multilingual SEO optimisation to help businesses rank in different languages and international markets.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable international rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'International SEO Agency Goodmayes | Global SEO Experts',
+                'meta_description' => 'International SEO agency in Goodmayes providing multilingual SEO, global targeting and search optimization for worldwide business growth online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'International SEO Agency Goodmayes | Global SEO Services for Business Growth',
+                        'subtitle' => 'Expanding your business globally can be simple and results-driven with the right international SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted International SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional international SEO services in Goodmayes, helping businesses improve global search visibility, increase international website traffic, and generate qualified leads across multiple countries. We deliver complete international SEO solutions including multilingual SEO, technical SEO, on-page optimisation, international keyword targeting, hreflang implementation, and global link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Global Rankings? We Make It Easy',
+                        'description' => 'Managing international SEO campaigns can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are entering new markets or scaling globally, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our International SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'International Keyword Strategy',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Multilingual SEO Optimisation',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Global Technical SEO',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Global SEO Services',
+                        'description' => 'Looking to expand your business beyond the UK? We provide scalable international SEO services designed to help businesses rank in multiple countries and reach global audiences through tailored SEO strategies.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete International SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different global goals. That’s why we create tailored international SEO strategies designed to maximise worldwide visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting one country or multiple international markets, we offer:",
+
+                        'list' => [
+                            'International SEO Campaigns',
+                            'Multilingual SEO Optimisation',
+                            'Country-Specific Keyword Research',
+                            'Technical SEO Audits',
+                            'hreflang Tag Implementation',
+                            'Global Content Optimisation',
+                            'International Link Building',
+                            'Ecommerce International SEO',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real global business growth.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven International SEO Solutions',
+
+                        'intro' => 'Looking to improve your global rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and international market insights to ensure your campaigns deliver maximum impact worldwide. Our international SEO services include:',
+
+                        'list' => [
+                            'International SEO audits',
+                            'Global keyword analysis',
+                            'Multilingual content optimisation',
+                            'Technical SEO improvements',
+                            'International performance tracking',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better global rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable International SEO Services',
+
+                        'intro' => 'Looking for cost-effective international SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your global expansion goals.',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable international SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making international SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your global growth partner, focused on delivering high-performing international SEO campaigns that drive real worldwide business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional international SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and global SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is international SEO?',
+                                'a' => 'International SEO is the process of optimizing your website to rank in multiple countries and languages across global search engines.'
+                            ],
+                            [
+                                'q' => 'How does international SEO work?',
+                                'a' => 'It involves multilingual optimisation, country targeting, hreflang setup, international keyword research, and global content strategies.'
+                            ],
+                            [
+                                'q' => 'How long does international SEO take?',
+                                'a' => 'Most businesses see improvements within 3 to 6 months depending on competition and target countries.'
+                            ],
+                            [
+                                'q' => 'Do you provide multilingual SEO?',
+                                'a' => 'Yes, we provide multilingual SEO services to help businesses rank in different languages and regions.'
+                            ],
+                            [
+                                'q' => 'Can international SEO increase global sales?',
+                                'a' => 'Yes, it helps attract international customers and improves conversions across multiple markets.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed international SEO reports including rankings, traffic, and global performance insights.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'International SEO Agency Hainault | Global SEO Experts',
+                'meta_description' => 'International SEO agency in Hainault providing multilingual SEO, global targeting and search optimization for worldwide business growth online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'International SEO Agency Hainault | Global SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business internationally can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted International SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional international SEO services in Hainault, helping businesses improve global search visibility, increase international website traffic, and generate qualified leads across multiple countries and markets. We deliver complete international SEO solutions including Technical SEO, Multilingual SEO, On-Page SEO, Content Optimisation, International Keyword Research, and Global Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Global Google Rankings? We Make It Easy',
+                        'description' => 'Managing international SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are expanding into new countries or scaling your global presence, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our International SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'International SEO Strategy',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Multilingual SEO Optimisation',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Global Content Optimisation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'International SEO Reporting',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Global SEO Services',
+                        'description' => 'Looking to grow your visibility across multiple international markets? We provide scalable international SEO services designed to help businesses improve rankings and reach customers worldwide through tailored SEO strategies.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete International SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique global goals. That’s why we create tailored international SEO strategies designed to maximise worldwide visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting one country or multiple international markets, we offer:",
+
+                        'list' => [
+                            'International SEO Campaigns',
+                            'Technical SEO Audits',
+                            'Multilingual SEO Optimisation',
+                            'Country-Specific Keyword Research',
+                            'International Content Optimisation',
+                            'hreflang Implementation',
+                            'Global Link Building',
+                            'Ecommerce International SEO',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real international business growth.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven International SEO Solutions',
+
+                        'intro' => 'Looking to improve your international rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and market insights to ensure your campaigns deliver maximum impact globally.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'International SEO audits',
+                            'Global competitor analysis',
+                            'Technical SEO improvements',
+                            'Multilingual content optimisation',
+                            'International performance tracking',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better international rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable International SEO Services',
+
+                        'intro' => 'Looking for cost-effective international SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your global business goals and expansion plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable international SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making international SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your international growth partner, focused on delivering high-performing SEO campaigns that drive real global business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional international SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and global SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is international SEO?',
+                                'a' => 'International SEO is the process of optimizing your website to improve visibility in multiple countries and languages across international search engines.'
+                            ],
+                            [
+                                'q' => 'How does international SEO work?',
+                                'a' => 'International SEO uses strategies such as country targeting, multilingual optimisation, international keyword research, and hreflang implementation to help search engines understand your target markets.'
+                            ],
+                            [
+                                'q' => 'How long does international SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable improvements within 3 to 6 months depending on competition, target countries, and website condition.'
+                            ],
+                            [
+                                'q' => 'Can international SEO help increase global traffic?',
+                                'a' => 'Yes, international SEO helps businesses attract targeted visitors from multiple countries and improve worldwide online visibility.'
+                            ],
+                            [
+                                'q' => 'Do you provide multilingual SEO services?',
+                                'a' => 'Yes, we provide multilingual SEO optimisation to help businesses rank in different languages and international markets.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable international rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
         ],
         'technical-seo' => [
             'ilford' => [
                 'meta_title' => 'Technical SEO Services in Ilford | Website SEO Experts',
                 'meta_description' => 'Technical SEO services in Ilford delivering improvements in speed, crawlability, indexing, and performance to increase rankings, traffic, and user experience.',
+            ],
+            'stratford' => [
+                'meta_title' => 'Technical SEO Services Stratford | Website SEO Specialists',
+
+                'meta_description' => 'Technical SEO services in Stratford improving website speed, indexing, crawlability, Core Web Vitals and search engine performance for better rankings.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Technical SEO Services Stratford | Professional Website SEO Optimisation Solutions',
+                        'subtitle' => 'Improving your website performance and search visibility can be simple and results-driven with the right technical SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Technical SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional technical SEO services in Stratford, helping businesses improve website structure, search engine visibility, and overall site performance. We deliver complete technical SEO solutions including website audits, crawl optimisation, indexing improvements, page speed optimisation, mobile SEO, structured data implementation, and technical issue resolution designed for long-term SEO growth.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+
+                        'description' => 'Technical SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or fixing SEO performance issues, our technical SEO specialists ensure your website is fully optimized, search-engine friendly, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Technical SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Technical SEO Audits',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Website Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Crawl & Indexing Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Reporting',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Technical SEO Services',
+
+                        'description' => 'Looking to improve your website’s technical foundation and Google performance? We provide advanced technical SEO solutions designed to improve website usability, crawlability, indexing, and organic search visibility.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Technical SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different technical SEO challenges. That’s why we create tailored technical SEO strategies designed to maximise website performance, visibility, and search engine accessibility.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or large-scale platform, we offer:",
+
+                        'list' => [
+                            'Technical SEO Audits',
+                            'Website Crawl Analysis',
+                            'Indexing Optimisation',
+                            'XML Sitemap Optimisation',
+                            'Robots.txt Configuration',
+                            'Core Web Vitals Improvements',
+                            'Page Speed Optimisation',
+                            'Mobile SEO Optimisation',
+                            'Structured Data & Schema Markup',
+                            'HTTPS & Website Security Checks',
+                            'Canonical Tag Optimisation',
+                            'Broken Link Resolution',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering technical SEO improvements that support higher rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Technical SEO Solutions',
+
+                        'intro' => 'Looking to improve your website performance and SEO ROI? At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify website issues and implement improvements that deliver measurable results.',
+
+                        'sub_intro' => 'Our technical SEO services include:',
+
+                        'list' => [
+                            'Full website SEO audits',
+                            'Technical error analysis',
+                            'Website performance optimisation',
+                            'Search engine crawl improvements',
+                            'Technical SEO reporting',
+                            'Continuous technical monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website performs efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Technical SEO Services',
+
+                        'intro' => 'Looking for cost-effective technical SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable technical SEO solutions tailored to your website requirements and business goals.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable technical SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong technical SEO performance without unnecessary costs, making website optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your technical SEO growth partner, focused on improving website performance, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every technical SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional technical SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is technical SEO?',
+                                'a' => 'Technical SEO focuses on improving your website’s technical structure to help search engines crawl, index, and rank your website more effectively.'
+                            ],
+                            [
+                                'q' => 'Why is technical SEO important?',
+                                'a' => 'Technical SEO improves website performance, user experience, crawlability, indexing, and overall search engine visibility.'
+                            ],
+                            [
+                                'q' => 'What does a technical SEO audit include?',
+                                'a' => 'A technical SEO audit includes website crawl analysis, indexing checks, page speed testing, mobile usability reviews, structured data analysis, and technical issue identification.'
+                            ],
+                            [
+                                'q' => 'Can technical SEO improve Google rankings?',
+                                'a' => 'Yes, fixing technical SEO issues can improve website performance, user experience, and search engine rankings over time.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Core Web Vitals?',
+                                'a' => 'Yes, we optimise Core Web Vitals including loading speed, visual stability, and website responsiveness to improve SEO performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical SEO reports?',
+                                'a' => 'Yes, we provide detailed technical SEO reports outlining website issues, improvements, and ongoing SEO performance tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'Technical SEO Services Harrow | Website SEO Specialists',
+
+                'meta_description' => 'Technical SEO services in Harrow improving website speed, indexing, crawlability, Core Web Vitals and search engine performance for better rankings.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Technical SEO Services Harrow | Professional Website SEO Optimisation Solutions',
+                        'subtitle' => 'Improving your website performance and search visibility can be simple and results-driven with the right technical SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Technical SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional technical SEO services in Harrow, helping businesses improve website structure, search engine visibility, and overall site performance. We deliver complete technical SEO solutions including website audits, crawl optimisation, indexing improvements, page speed optimisation, mobile SEO, structured data implementation, and technical issue resolution designed for long-term SEO growth.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+
+                        'description' => 'Technical SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or fixing SEO performance issues, our technical SEO specialists ensure your website is fully optimized, search-engine friendly, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Technical SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Technical SEO Audits',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Website Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Crawl & Indexing Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Reporting',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Technical SEO Services',
+
+                        'description' => 'Looking to improve your website’s technical foundation and Google performance? We provide advanced technical SEO solutions designed to improve website usability, crawlability, indexing, and organic search visibility.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Technical SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different technical SEO challenges. That’s why we create tailored technical SEO strategies designed to maximise website performance, visibility, and search engine accessibility.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or large-scale platform, we offer:",
+
+                        'list' => [
+                            'Technical SEO Audits',
+                            'Website Crawl Analysis',
+                            'Indexing Optimisation',
+                            'XML Sitemap Optimisation',
+                            'Robots.txt Configuration',
+                            'Core Web Vitals Improvements',
+                            'Page Speed Optimisation',
+                            'Mobile SEO Optimisation',
+                            'Structured Data & Schema Markup',
+                            'HTTPS & Website Security Checks',
+                            'Canonical Tag Optimisation',
+                            'Broken Link Resolution',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering technical SEO improvements that support higher rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Technical SEO Solutions',
+
+                        'intro' => 'Looking to improve your website performance and SEO ROI? At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify website issues and implement improvements that deliver measurable results.',
+
+                        'sub_intro' => 'Our technical SEO services include:',
+
+                        'list' => [
+                            'Full website SEO audits',
+                            'Technical error analysis',
+                            'Website performance optimisation',
+                            'Search engine crawl improvements',
+                            'Technical SEO reporting',
+                            'Continuous technical monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website performs efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Technical SEO Services',
+
+                        'intro' => 'Looking for cost-effective technical SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable technical SEO solutions tailored to your website requirements and business goals.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable technical SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong technical SEO performance without unnecessary costs, making website optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your technical SEO growth partner, focused on improving website performance, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every technical SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional technical SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is technical SEO?',
+                                'a' => 'Technical SEO focuses on improving your website’s technical structure to help search engines crawl, index, and rank your website more effectively.'
+                            ],
+                            [
+                                'q' => 'Why is technical SEO important?',
+                                'a' => 'Technical SEO improves website performance, user experience, crawlability, indexing, and overall search engine visibility.'
+                            ],
+                            [
+                                'q' => 'What does a technical SEO audit include?',
+                                'a' => 'A technical SEO audit includes website crawl analysis, indexing checks, page speed testing, mobile usability reviews, structured data analysis, and technical issue identification.'
+                            ],
+                            [
+                                'q' => 'Can technical SEO improve Google rankings?',
+                                'a' => 'Yes, fixing technical SEO issues can improve website performance, user experience, and search engine rankings over time.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Core Web Vitals?',
+                                'a' => 'Yes, we optimise Core Web Vitals including loading speed, visual stability, and website responsiveness to improve SEO performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical SEO reports?',
+                                'a' => 'Yes, we provide detailed technical SEO reports outlining website issues, improvements, and ongoing SEO performance tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'Technical SEO Services Collier Row | Website SEO Specialists',
+                'meta_description' => 'Technical SEO services in Collier Row improving website speed, indexing, crawlability, Core Web Vitals and search engine performance for better rankings.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Technical SEO Services Collier Row | Professional Website SEO Optimisation Solutions',
+                        'subtitle' => 'Improving your website performance and search visibility can be simple and results-driven with the right technical SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Technical SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional technical SEO services in Collier Row, helping businesses improve website structure, search engine visibility, and overall site performance. We deliver complete technical SEO solutions including website audits, crawl optimisation, indexing improvements, page speed optimisation, mobile SEO, structured data implementation, and technical issue resolution designed for long-term SEO growth.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+                        'description' => 'Technical SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or fixing SEO performance issues, our technical SEO specialists ensure your website is fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Technical SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Technical SEO Audits',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Website Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Crawl & Indexing Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Reporting',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Technical SEO Services',
+                        'description' => 'Looking to improve your website’s technical foundation and Google performance? We provide advanced technical SEO solutions designed to improve website usability, crawlability, indexing, and organic search visibility.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Technical SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different technical SEO challenges. That’s why we create tailored technical SEO strategies designed to maximise website performance, visibility, and search engine accessibility.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or large-scale platform, we offer:",
+
+                        'list' => [
+                            'Technical SEO Audits',
+                            'Website Crawl Analysis',
+                            'Indexing Optimisation',
+                            'XML Sitemap Optimisation',
+                            'Robots.txt Configuration',
+                            'Core Web Vitals Improvements',
+                            'Page Speed Optimisation',
+                            'Mobile SEO Optimisation',
+                            'Structured Data & Schema Markup',
+                            'HTTPS & Website Security Checks',
+                            'Canonical Tag Optimisation',
+                            'Broken Link Resolution',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering technical SEO improvements that support higher rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Technical SEO Solutions',
+
+                        'intro' => 'Looking to improve your website performance and SEO ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify website issues and implement improvements that deliver measurable results. Our technical SEO services include:',
+
+                        'list' => [
+                            'Full website SEO audits',
+                            'Technical error analysis',
+                            'Website performance optimisation',
+                            'Search engine crawl improvements',
+                            'Technical SEO reporting',
+                            'Continuous technical monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website performs efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Technical SEO Services',
+
+                        'intro' => 'Looking for cost-effective technical SEO services in Collier Row?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable technical SEO solutions tailored to your website requirements and business goals. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable technical SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong technical SEO performance without unnecessary costs, making website optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your technical SEO growth partner, focused on improving website performance, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every technical SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional technical SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is technical SEO?',
+                                'a' => 'Technical SEO focuses on improving your website’s technical structure to help search engines crawl, index, and rank your website more effectively.'
+                            ],
+                            [
+                                'q' => 'Why is technical SEO important?',
+                                'a' => 'Technical SEO improves website performance, user experience, crawlability, indexing, and overall search engine visibility.'
+                            ],
+                            [
+                                'q' => 'What does a technical SEO audit include?',
+                                'a' => 'A technical SEO audit includes website crawl analysis, indexing checks, page speed testing, mobile usability reviews, structured data analysis, and technical issue identification.'
+                            ],
+                            [
+                                'q' => 'Can technical SEO improve Google rankings?',
+                                'a' => 'Yes, fixing technical SEO issues can improve website performance, user experience, and search engine rankings over time.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Core Web Vitals?',
+                                'a' => 'Yes, we optimise Core Web Vitals including loading speed, visual stability, and website responsiveness to improve SEO performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical SEO reports?',
+                                'a' => 'Yes, we provide detailed technical SEO reports outlining website issues, improvements, and ongoing SEO performance tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Technical SEO Services Goodmayes | Website SEO Specialists',
+                'meta_description' => 'Technical SEO services in Goodmayes improving website speed, indexing, crawlability, Core Web Vitals and search engine performance for better rankings.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Technical SEO Services Goodmayes | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website performance and search visibility can be simple and results-driven with the right technical SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Technical SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional technical SEO services in Goodmayes, helping businesses improve website structure, fix SEO errors, and enhance search engine performance. We deliver complete technical SEO solutions including website audits, crawl optimisation, indexing fixes, page speed improvements, mobile optimisation, structured data implementation, and Core Web Vitals enhancements designed for long-term SEO success.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+                        'description' => 'Technical SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or fixing existing SEO issues, our technical SEO specialists ensure your website is fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Technical SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Technical SEO Audits',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Website Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Crawl & Indexing Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Technical SEO Services',
+                        'description' => 'Looking to improve your website’s technical foundation and Google performance? We provide advanced technical SEO solutions designed to improve crawlability, indexing, website speed, and overall search engine visibility.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Technical SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different technical challenges. That’s why we create tailored technical SEO strategies designed to maximise performance, visibility, and search rankings.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or large platform, we offer:",
+
+                        'list' => [
+                            'Technical SEO Audits',
+                            'Website Crawl Analysis',
+                            'Indexing Optimisation',
+                            'XML Sitemap Optimisation',
+                            'Robots.txt Configuration',
+                            'Core Web Vitals Optimisation',
+                            'Page Speed Improvements',
+                            'Mobile SEO Optimisation',
+                            'Structured Data & Schema Markup',
+                            'HTTPS & Security Checks',
+                            'Canonical Tag Optimisation',
+                            'Broken Link Fixing',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering technical SEO improvements that support stronger rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Technical SEO Solutions',
+
+                        'intro' => 'Looking to improve your SEO performance and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify website issues and implement improvements that deliver measurable results. Our technical SEO services include:',
+
+                        'list' => [
+                            'Full website SEO audits',
+                            'Crawl error analysis',
+                            'Indexing and visibility improvements',
+                            'Page speed optimisation',
+                            'Technical issue resolution',
+                            'Continuous SEO monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website performs efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Technical SEO Services',
+
+                        'intro' => 'Looking for cost-effective technical SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable technical SEO solutions tailored to your website goals and business needs. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable technical SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong technical SEO performance without unnecessary costs, making website optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your technical SEO growth partner, focused on improving website performance, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every technical SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional technical SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is technical SEO?',
+                                'a' => 'Technical SEO focuses on improving your website’s backend structure so search engines can crawl, index, and rank your site more effectively.'
+                            ],
+                            [
+                                'q' => 'Why is technical SEO important?',
+                                'a' => 'It improves website performance, speed, mobile usability, indexing, and overall search visibility.'
+                            ],
+                            [
+                                'q' => 'What does a technical SEO audit include?',
+                                'a' => 'A technical SEO audit includes crawl analysis, indexing checks, page speed testing, mobile optimisation, structured data review, and error fixing.'
+                            ],
+                            [
+                                'q' => 'Can technical SEO improve Google rankings?',
+                                'a' => 'Yes, fixing technical issues can significantly improve rankings, visibility, and user experience.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Core Web Vitals?',
+                                'a' => 'Yes, we optimise Core Web Vitals including loading speed, responsiveness, and visual stability.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical SEO reports?',
+                                'a' => 'Yes, we provide detailed reports showing technical issues, improvements, and ongoing SEO performance tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'Technical SEO Services Hainault | Website SEO Specialists',
+                'meta_description' => 'Technical SEO services in Hainault improving website speed, indexing, crawlability, Core Web Vitals and search engine performance for better rankings.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Technical SEO Services Hainault | Professional Website SEO Optimisation Solutions',
+                        'subtitle' => 'Improving your website performance and search visibility can be simple and results-driven with the right technical SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Technical SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional technical SEO services in Hainault, helping businesses improve website structure, search engine visibility, and overall site performance. We deliver complete technical SEO solutions including website audits, crawl optimisation, indexing improvements, page speed optimisation, mobile SEO, structured data implementation, and technical issue resolution designed for long-term SEO growth.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+                        'description' => 'Technical SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or fixing SEO performance issues, our technical SEO specialists ensure your website is fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Technical SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Technical SEO Audits',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Website Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Crawl & Indexing Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Reporting',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Technical SEO Services',
+                        'description' => 'Looking to improve your website’s technical foundation and Google performance? We provide advanced technical SEO solutions designed to improve website usability, crawlability, indexing, and organic search visibility.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Technical SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different technical SEO challenges. That’s why we create tailored technical SEO strategies designed to maximise website performance, visibility, and search engine accessibility.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or large-scale platform, we offer:",
+
+                        'list' => [
+                            'Technical SEO Audits',
+                            'Website Crawl Analysis',
+                            'Indexing Optimisation',
+                            'XML Sitemap Optimisation',
+                            'Robots.txt Configuration',
+                            'Core Web Vitals Improvements',
+                            'Page Speed Optimisation',
+                            'Mobile SEO Optimisation',
+                            'Structured Data & Schema Markup',
+                            'HTTPS & Website Security Checks',
+                            'Canonical Tag Optimisation',
+                            'Broken Link Resolution',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering technical SEO improvements that support higher rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Technical SEO Solutions',
+
+                        'intro' => 'Looking to improve your website performance and SEO ROI? At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify website issues and implement improvements that deliver measurable results.',
+
+                        'sub_intro' => 'Our technical SEO services include:',
+
+                        'list' => [
+                            'Full website SEO audits',
+                            'Technical error analysis',
+                            'Website performance optimisation',
+                            'Search engine crawl improvements',
+                            'Technical SEO reporting',
+                            'Continuous technical monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website performs efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Technical SEO Services',
+
+                        'intro' => 'Looking for cost-effective technical SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable technical SEO solutions tailored to your website requirements and business goals.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable technical SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong technical SEO performance without unnecessary costs, making website optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your technical SEO growth partner, focused on improving website performance, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every technical SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional technical SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is technical SEO?',
+                                'a' => 'Technical SEO focuses on improving your website’s technical structure to help search engines crawl, index, and rank your website more effectively.'
+                            ],
+                            [
+                                'q' => 'Why is technical SEO important?',
+                                'a' => 'Technical SEO improves website performance, user experience, crawlability, indexing, and overall search engine visibility.'
+                            ],
+                            [
+                                'q' => 'What does a technical SEO audit include?',
+                                'a' => 'A technical SEO audit includes website crawl analysis, indexing checks, page speed testing, mobile usability reviews, structured data analysis, and technical issue identification.'
+                            ],
+                            [
+                                'q' => 'Can technical SEO improve Google rankings?',
+                                'a' => 'Yes, fixing technical SEO issues can improve website performance, user experience, and search engine rankings over time.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Core Web Vitals?',
+                                'a' => 'Yes, we optimise Core Web Vitals including loading speed, visual stability, and website responsiveness to improve SEO performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical SEO reports?',
+                                'a' => 'Yes, we provide detailed technical SEO reports outlining website issues, improvements, and ongoing SEO performance tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
             ],
         ],
 
@@ -2674,12 +6213,1792 @@ class LocationSeoController extends Controller
                 'meta_title' => 'Content SEO Services in Ilford | SEO Content & Strategy Experts',
                 'meta_description' => 'Content SEO services in Ilford to optimise content, improve rankings, and increase traffic with keyword strategy, on-page SEO, and high-quality content.',
             ],
+            'stratford' => [
+                'meta_title' => 'Content SEO Services Stratford | SEO Content Agency',
+
+                'meta_description' => 'Content SEO services in Stratford focused on keyword strategy, SEO content writing, topic optimization and organic traffic growth for businesses and visibility.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Content SEO Services Stratford | Professional SEO Content Optimisation Solutions',
+                        'subtitle' => 'Creating high-quality SEO content can be simple and results-driven with the right content strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Content SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional content SEO services in Stratford, helping businesses improve search rankings, increase organic traffic, and attract targeted customers through optimized website content. We deliver complete content SEO solutions including keyword research, SEO copywriting, on-page optimisation, blog content creation, landing page optimisation, and content strategy development designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Rankings Through Content? We Make It Easy',
+
+                        'description' => 'Creating SEO-friendly content can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you need new website content or optimisation for existing pages, our SEO specialists ensure your content is fully optimized, targeted, engaging, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Content SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'SEO Content Strategy',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Copywriting',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'On-Page Content Optimisation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Content SEO Services',
+
+                        'description' => 'Looking to improve your website content and organic visibility? We provide tailored content SEO services designed to help businesses rank higher, improve user engagement, and increase conversions through strategic content optimisation.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Content SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different content goals. That’s why we create tailored SEO content strategies designed to maximise search visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'SEO Content Writing',
+                            'Blog Content Creation',
+                            'Landing Page Optimisation',
+                            'Website Content Optimisation',
+                            'Keyword Research & Targeting',
+                            'SEO Copywriting Services',
+                            'Ecommerce Content Optimisation',
+                            'Meta Titles & Meta Descriptions',
+                            'Internal Linking Strategies',
+                            'Content Audits & Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO content that generates real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Content SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and content ROI? At Cloud Technologies Ltd, we use advanced SEO tools, keyword research, competitor analysis, and data insights to create content strategies that deliver measurable results.',
+
+                        'sub_intro' => 'Our SEO content services include:',
+
+                        'list' => [
+                            'Content SEO audits',
+                            'Competitor content analysis',
+                            'Keyword-focused content planning',
+                            'SEO optimisation improvements',
+                            'Content performance tracking',
+                            'Continuous content updates',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your content achieves better rankings, increased traffic, and higher engagement.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Content SEO Services',
+
+                        'intro' => 'Looking for cost-effective content SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable content SEO solutions tailored to your business goals and marketing strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO content packages',
+                            'Transparent pricing',
+                            'Scalable content strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO content performance without unnecessary costs, making content marketing simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your content growth partner, focused on delivering high-performing SEO content strategies that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every content campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO content experts',
+                            'Data-driven content strategies',
+                            'SEO-friendly and engaging content creation',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is content SEO?',
+                                'a' => 'Content SEO is the process of creating and optimizing website content to improve search engine rankings, increase organic traffic, and attract targeted visitors.'
+                            ],
+                            [
+                                'q' => 'Why is SEO content important?',
+                                'a' => 'SEO content helps search engines understand your website while improving visibility, user engagement, and lead generation.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO copywriting services?',
+                                'a' => 'Yes, we provide professional SEO copywriting services including website content, blogs, landing pages, and ecommerce content optimisation.'
+                            ],
+                            [
+                                'q' => 'Can content SEO improve rankings?',
+                                'a' => 'Yes, high-quality optimized content can improve keyword rankings, increase organic traffic, and support long-term SEO growth.'
+                            ],
+                            [
+                                'q' => 'How often should website content be updated?',
+                                'a' => 'Regular content updates help improve SEO performance, maintain relevance, and increase search engine visibility over time.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO content reports?',
+                                'a' => 'Yes, we provide detailed reports covering content performance, keyword rankings, organic traffic, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'Content SEO Services Harrow | SEO Content Agency',
+
+                'meta_description' => 'Content SEO services in Harrow focused on keyword strategy, SEO content writing, topic optimization and organic traffic growth for businesses and visibility.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Content SEO Services Harrow | Professional SEO Content Optimisation Solutions',
+                        'subtitle' => 'Creating high-quality SEO content can be simple and results-driven with the right content strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Content SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional content SEO services in Harrow, helping businesses improve search rankings, increase organic traffic, and attract targeted customers through optimized website content. We deliver complete content SEO solutions including keyword research, SEO copywriting, on-page optimisation, blog content creation, landing page optimisation, and content strategy development designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Rankings Through Content? We Make It Easy',
+
+                        'description' => 'Creating SEO-friendly content can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you need new website content or optimisation for existing pages, our SEO specialists ensure your content is fully optimized, targeted, engaging, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Content SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'SEO Content Strategy',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Copywriting',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'On-Page Content Optimisation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Content SEO Services',
+
+                        'description' => 'Looking to improve your website content and organic visibility? We provide tailored content SEO services designed to help businesses rank higher, improve user engagement, and increase conversions through strategic content optimisation.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Content SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different content goals. That’s why we create tailored SEO content strategies designed to maximise search visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'SEO Content Writing',
+                            'Blog Content Creation',
+                            'Landing Page Optimisation',
+                            'Website Content Optimisation',
+                            'Keyword Research & Targeting',
+                            'SEO Copywriting Services',
+                            'Ecommerce Content Optimisation',
+                            'Meta Titles & Meta Descriptions',
+                            'Internal Linking Strategies',
+                            'Content Audits & Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO content that generates real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Content SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and content ROI? At Cloud Technologies Ltd, we use advanced SEO tools, keyword research, competitor analysis, and data insights to create content strategies that deliver measurable results.',
+
+                        'sub_intro' => 'Our SEO content services include:',
+
+                        'list' => [
+                            'Content SEO audits',
+                            'Competitor content analysis',
+                            'Keyword-focused content planning',
+                            'SEO optimisation improvements',
+                            'Content performance tracking',
+                            'Continuous content updates',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your content achieves better rankings, increased traffic, and higher engagement.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Content SEO Services',
+
+                        'intro' => 'Looking for cost-effective content SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable content SEO solutions tailored to your business goals and marketing strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO content packages',
+                            'Transparent pricing',
+                            'Scalable content strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO content performance without unnecessary costs, making content marketing simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your content growth partner, focused on delivering high-performing SEO content strategies that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every content campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO content experts',
+                            'Data-driven content strategies',
+                            'SEO-friendly and engaging content creation',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is content SEO?',
+                                'a' => 'Content SEO is the process of creating and optimizing website content to improve search engine rankings, increase organic traffic, and attract targeted visitors.'
+                            ],
+                            [
+                                'q' => 'Why is SEO content important?',
+                                'a' => 'SEO content helps search engines understand your website while improving visibility, user engagement, and lead generation.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO copywriting services?',
+                                'a' => 'Yes, we provide professional SEO copywriting services including website content, blogs, landing pages, and ecommerce content optimisation.'
+                            ],
+                            [
+                                'q' => 'Can content SEO improve rankings?',
+                                'a' => 'Yes, high-quality optimized content can improve keyword rankings, increase organic traffic, and support long-term SEO growth.'
+                            ],
+                            [
+                                'q' => 'How often should website content be updated?',
+                                'a' => 'Regular content updates help improve SEO performance, maintain relevance, and increase search engine visibility over time.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO content reports?',
+                                'a' => 'Yes, we provide detailed reports covering content performance, keyword rankings, organic traffic, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'Content SEO Services Collier Row | SEO Content Agency',
+                'meta_description' => 'Content SEO services in Collier Row focused on keyword strategy, SEO content writing, topic optimization and organic traffic growth for businesses and visibility.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Content SEO Services Collier Row | Professional SEO Content Optimisation Solutions',
+                        'subtitle' => 'Creating high-quality SEO content can be simple and results-driven with the right content strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Content SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional content SEO services in Collier Row, helping businesses improve search rankings, increase organic traffic, and attract targeted customers through optimized website content. We deliver complete content SEO solutions including keyword research, SEO copywriting, on-page optimisation, blog content creation, landing page optimisation, and content strategy development designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Rankings Through Content? We Make It Easy',
+                        'description' => 'Creating SEO-friendly content can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you need new website content or optimisation for existing pages, our SEO specialists ensure your content is fully optimized, targeted, engaging, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Content SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'SEO Content Strategy',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Copywriting',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'On-Page Content Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Content SEO Services',
+                        'description' => 'Looking to improve your website content and organic visibility? We provide tailored content SEO services designed to help businesses rank higher, improve user engagement, and increase conversions through strategic content optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Content SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different content goals. That’s why we create tailored SEO content strategies designed to maximise search visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'SEO Content Writing',
+                            'Blog Content Creation',
+                            'Landing Page Optimisation',
+                            'Website Content Optimisation',
+                            'Keyword Research & Targeting',
+                            'SEO Copywriting Services',
+                            'Ecommerce Content Optimisation',
+                            'Meta Titles & Meta Descriptions',
+                            'Internal Linking Strategies',
+                            'Content Audits & Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO content that generates real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Content SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and content ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, keyword research, competitor analysis, and data insights to create content strategies that deliver measurable results. Our SEO content services include:',
+
+                        'list' => [
+                            'Content SEO audits',
+                            'Competitor content analysis',
+                            'Keyword-focused content planning',
+                            'SEO optimisation improvements',
+                            'Content performance tracking',
+                            'Continuous content updates',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your content achieves better rankings, increased traffic, and higher engagement.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Content SEO Services',
+
+                        'intro' => 'Looking for cost-effective content SEO services in Collier Row?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable content SEO solutions tailored to your business goals and marketing strategy. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO content packages',
+                            'Transparent pricing',
+                            'Scalable content strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO content performance without unnecessary costs, making content marketing simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your content growth partner, focused on delivering high-performing SEO content strategies that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every content campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO content experts',
+                            'Data-driven content strategies',
+                            'SEO-friendly and engaging content creation',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is content SEO?',
+                                'a' => 'Content SEO is the process of creating and optimizing website content to improve search engine rankings, increase organic traffic, and attract targeted visitors.'
+                            ],
+                            [
+                                'q' => 'Why is SEO content important?',
+                                'a' => 'SEO content helps search engines understand your website while improving visibility, user engagement, and lead generation.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO copywriting services?',
+                                'a' => 'Yes, we provide professional SEO copywriting services including website content, blogs, landing pages, and ecommerce content optimisation.'
+                            ],
+                            [
+                                'q' => 'Can content SEO improve rankings?',
+                                'a' => 'Yes, high-quality optimized content can improve keyword rankings, increase organic traffic, and support long-term SEO growth.'
+                            ],
+                            [
+                                'q' => 'How often should website content be updated?',
+                                'a' => 'Regular content updates help improve SEO performance, maintain relevance, and increase search engine visibility over time.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO content reports?',
+                                'a' => 'Yes, we provide detailed reports covering content performance, keyword rankings, organic traffic, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Content SEO Services Goodmayes | SEO Content Agency',
+                'meta_description' => 'Content SEO services in Goodmayes focused on keyword strategy, SEO content writing, topic optimization and organic traffic growth for businesses and visibility.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Content SEO Services Goodmayes | Professional SEO Content Optimisation Solutions',
+                        'subtitle' => 'Creating high-quality SEO content can be simple and results-driven with the right content strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Content SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional content SEO services in Goodmayes, helping businesses improve search rankings, increase organic traffic, and attract targeted customers through strategic content optimisation. We deliver complete content SEO solutions including keyword research, SEO copywriting, blog content creation, landing page optimisation, on-page content improvements, and content strategy development designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Rankings Through Content? We Make It Easy',
+                        'description' => 'Creating SEO content can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you need new website content or optimisation for existing pages, our SEO specialists ensure your content is fully optimized, keyword-focused, engaging, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Content SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'SEO Content Strategy',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Copywriting',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Blog Content Creation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Content SEO Services',
+                        'description' => 'Looking to improve your website content and organic visibility? We provide tailored content SEO solutions designed to help businesses rank higher, improve engagement, and increase conversions through strategic content optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Content SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different content goals. That’s why we create tailored SEO content strategies designed to maximise search visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting local customers or nationwide audiences, we offer:",
+
+                        'list' => [
+                            'SEO Content Writing',
+                            'Blog Content Creation',
+                            'Landing Page Optimisation',
+                            'Website Content Optimisation',
+                            'Keyword Research & Targeting',
+                            'SEO Copywriting Services',
+                            'Ecommerce Content Optimisation',
+                            'Meta Titles & Descriptions',
+                            'Internal Linking Strategies',
+                            'Content Audits & Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO content that generates real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Content SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and content ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, keyword research, competitor analysis, and data insights to create content strategies that deliver measurable results. Our content SEO services include:',
+
+                        'list' => [
+                            'Content SEO audits',
+                            'Competitor content analysis',
+                            'Keyword-focused content planning',
+                            'Content optimisation improvements',
+                            'Performance tracking and reporting',
+                            'Continuous content updates',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your content achieves better rankings, increased traffic, and higher engagement.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Content SEO Services',
+
+                        'intro' => 'Looking for cost-effective content SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable content SEO solutions tailored to your business goals and marketing strategy.',
+
+                        'list' => [
+                            'Flexible SEO content packages',
+                            'Transparent pricing',
+                            'Scalable content strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO content performance without unnecessary costs, making content marketing simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your content growth partner, focused on delivering high-performing SEO content strategies that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every content campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO content experts',
+                            'Data-driven content strategies',
+                            'SEO-friendly and engaging content creation',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is content SEO?',
+                                'a' => 'Content SEO is the process of creating and optimizing website content to improve search engine rankings, increase organic traffic, and attract targeted users.'
+                            ],
+                            [
+                                'q' => 'Why is SEO content important?',
+                                'a' => 'SEO content helps search engines understand your website while improving visibility, engagement, and conversions.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO copywriting services?',
+                                'a' => 'Yes, we provide professional SEO copywriting services including blogs, landing pages, and website content optimisation.'
+                            ],
+                            [
+                                'q' => 'Can content SEO improve rankings?',
+                                'a' => 'Yes, well-optimised content can significantly improve keyword rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'How often should content be updated?',
+                                'a' => 'Regular updates help maintain rankings, improve relevance, and boost long-term SEO performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide content SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering content performance, keyword rankings, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'Content SEO Services Hainault | SEO Content Agency',
+                'meta_description' => 'Content SEO services in Hainault focused on keyword strategy, SEO content writing, topic optimization and organic traffic growth for businesses and visibility.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Content SEO Services Hainault | Professional SEO Content Optimisation Solutions',
+                        'subtitle' => 'Creating high-quality SEO content can be simple and results-driven with the right content strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Content SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional content SEO services in Hainault, helping businesses improve search rankings, increase organic traffic, and attract targeted customers through optimized website content. We deliver complete content SEO solutions including keyword research, SEO copywriting, on-page optimisation, blog content creation, landing page optimisation, and content strategy development designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Rankings Through Content? We Make It Easy',
+                        'description' => 'Creating SEO-friendly content can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you need new website content or optimisation for existing pages, our SEO specialists ensure your content is fully optimized, targeted, engaging, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Content SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'SEO Content Strategy',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Copywriting',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'On-Page Content Optimisation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Content SEO Services',
+                        'description' => 'Looking to improve your website content and organic visibility? We provide tailored content SEO services designed to help businesses rank higher, improve user engagement, and increase conversions through strategic content optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Content SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different content goals. That’s why we create tailored SEO content strategies designed to maximise search visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'SEO Content Writing',
+                            'Blog Content Creation',
+                            'Landing Page Optimisation',
+                            'Website Content Optimisation',
+                            'Keyword Research & Targeting',
+                            'SEO Copywriting Services',
+                            'Ecommerce Content Optimisation',
+                            'Meta Titles & Meta Descriptions',
+                            'Internal Linking Strategies',
+                            'Content Audits & Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO content that generates real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Content SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and content ROI? At Cloud Technologies Ltd, we use advanced SEO tools, keyword research, competitor analysis, and data insights to create content strategies that deliver measurable results.',
+
+                        'sub_intro' => 'Our SEO content services include:',
+
+                        'list' => [
+                            'Content SEO audits',
+                            'Competitor content analysis',
+                            'Keyword-focused content planning',
+                            'SEO optimisation improvements',
+                            'Content performance tracking',
+                            'Continuous content updates',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your content achieves better rankings, increased traffic, and higher engagement.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Content SEO Services',
+
+                        'intro' => 'Looking for cost-effective content SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable content SEO solutions tailored to your business goals and marketing strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO content packages',
+                            'Transparent pricing',
+                            'Scalable content strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO content performance without unnecessary costs, making content marketing simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your content growth partner, focused on delivering high-performing SEO content strategies that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every content campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO content experts',
+                            'Data-driven content strategies',
+                            'SEO-friendly and engaging content creation',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is content SEO?',
+                                'a' => 'Content SEO is the process of creating and optimizing website content to improve search engine rankings, increase organic traffic, and attract targeted visitors.'
+                            ],
+                            [
+                                'q' => 'Why is SEO content important?',
+                                'a' => 'SEO content helps search engines understand your website while improving visibility, user engagement, and lead generation.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO copywriting services?',
+                                'a' => 'Yes, we provide professional SEO copywriting services including website content, blogs, landing pages, and ecommerce content optimisation.'
+                            ],
+                            [
+                                'q' => 'Can content SEO improve rankings?',
+                                'a' => 'Yes, high-quality optimized content can improve keyword rankings, increase organic traffic, and support long-term SEO growth.'
+                            ],
+                            [
+                                'q' => 'How often should website content be updated?',
+                                'a' => 'Regular content updates help improve SEO performance, maintain relevance, and increase search engine visibility over time.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO content reports?',
+                                'a' => 'Yes, we provide detailed reports covering content performance, keyword rankings, organic traffic, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+
         ],
 
         'image-seo' => [
             'ilford' => [
                 'meta_title' => 'Image SEO Services in Ilford | Image Optimization Experts',
                 'meta_description' => 'Image SEO services in Ilford to optimise images, improve page speed, alt tags, and search visibility to boost rankings, traffic, and user experience.',
+            ],
+            'stratford' => [
+                'meta_title' => 'Image SEO Services Stratford | Image Optimisation Experts',
+
+                'meta_description' => 'Image SEO services in Stratford improving image rankings, page speed, alt tags, visibility and website performance for better SEO results online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Image SEO Services Stratford | Professional Image Optimisation Solutions',
+                        'subtitle' => 'Improving your website visibility through optimized images can be simple and results-driven with the right image SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Image SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional image SEO services in Stratford, helping businesses improve website performance, image search visibility, and overall SEO rankings through advanced image optimisation strategies. We deliver complete image SEO solutions including image compression, alt tag optimisation, structured image data, file optimisation, image indexing improvements, and page speed enhancements designed for long-term SEO growth.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+
+                        'description' => 'Managing image SEO can feel technical, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are optimizing a new website or improving existing image performance, our SEO specialists ensure your images are fully optimized, search-engine friendly, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Image SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Image Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Alt Tag & Metadata Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Page Speed Improvements',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Image SEO Reporting',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Image SEO Services',
+
+                        'description' => 'Looking to improve your website performance and image search visibility? We provide tailored image SEO solutions designed to help businesses improve Google Image rankings, website speed, and overall search engine performance.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Image SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different image optimisation needs. That’s why we create tailored image SEO strategies designed to maximise visibility, website speed, and search performance.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or portfolio platform, we offer:",
+
+                        'list' => [
+                            'Image Compression & Optimisation',
+                            'Alt Text Optimisation',
+                            'Image File Naming Optimisation',
+                            'Structured Data for Images',
+                            'Lazy Loading Optimisation',
+                            'Image Sitemap Optimisation',
+                            'WebP & Modern Image Format Conversion',
+                            'Mobile Image Optimisation',
+                            'Google Image Search Optimisation',
+                            'Ecommerce Product Image SEO',
+                            'Page Speed Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering image SEO improvements that support higher rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Image SEO Solutions',
+
+                        'intro' => 'Looking to improve your image performance and SEO ROI? At Cloud Technologies Ltd, we use advanced SEO tools and performance analysis to identify image-related SEO issues and implement improvements that deliver measurable results.',
+
+                        'sub_intro' => 'Our image SEO services include:',
+
+                        'list' => [
+                            'Image SEO audits',
+                            'Website performance analysis',
+                            'Technical image optimisation',
+                            'Search visibility improvements',
+                            'Image indexing optimisation',
+                            'Continuous SEO monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website images perform efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Image SEO Services',
+
+                        'intro' => 'Looking for cost-effective image SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable image SEO solutions tailored to your website requirements and business goals.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable image optimisation strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong image SEO performance without unnecessary costs, making image optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website performance partner, focused on improving image optimisation, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every image SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional image SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is image SEO?',
+                                'a' => 'Image SEO is the process of optimizing website images to improve page speed, search visibility, user experience, and Google Image search rankings.'
+                            ],
+                            [
+                                'q' => 'Why is image SEO important?',
+                                'a' => 'Image SEO helps improve website loading speed, accessibility, search engine visibility, and overall SEO performance.'
+                            ],
+                            [
+                                'q' => 'What does image optimisation include?',
+                                'a' => 'Image optimisation includes compression, alt text optimisation, structured data implementation, file naming improvements, and modern image formatting.'
+                            ],
+                            [
+                                'q' => 'Can image SEO improve Google rankings?',
+                                'a' => 'Yes, properly optimized images can improve page speed, user experience, and search engine rankings over time.'
+                            ],
+                            [
+                                'q' => 'Do you optimise ecommerce product images?',
+                                'a' => 'Yes, we provide ecommerce image SEO services designed to improve product visibility and website performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide image SEO reports?',
+                                'a' => 'Yes, we provide detailed reports outlining image performance, optimisation improvements, and ongoing SEO tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'Image SEO Services Harrow | Image Optimisation Experts',
+
+                'meta_description' => 'Image SEO services in Harrow improving image rankings, page speed, alt tags, visibility and website performance for better SEO results online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Image SEO Services Harrow | Professional Image Optimisation Solutions',
+                        'subtitle' => 'Improving your website visibility through optimized images can be simple and results-driven with the right image SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Image SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional image SEO services in Harrow, helping businesses improve website performance, image search visibility, and overall SEO rankings through advanced image optimisation strategies. We deliver complete image SEO solutions including image compression, alt tag optimisation, structured image data, file optimisation, image indexing improvements, and page speed enhancements designed for long-term SEO growth.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+
+                        'description' => 'Managing image SEO can feel technical, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are optimizing a new website or improving existing image performance, our SEO specialists ensure your images are fully optimized, search-engine friendly, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Image SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Image Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Alt Tag & Metadata Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Page Speed Improvements',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Image SEO Reporting',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Image SEO Services',
+
+                        'description' => 'Looking to improve your website performance and image search visibility? We provide tailored image SEO solutions designed to help businesses improve Google Image rankings, website speed, and overall search engine performance.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Image SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different image optimisation needs. That’s why we create tailored image SEO strategies designed to maximise visibility, website speed, and search performance.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or portfolio platform, we offer:",
+
+                        'list' => [
+                            'Image Compression & Optimisation',
+                            'Alt Text Optimisation',
+                            'Image File Naming Optimisation',
+                            'Structured Data for Images',
+                            'Lazy Loading Optimisation',
+                            'Image Sitemap Optimisation',
+                            'WebP & Modern Image Format Conversion',
+                            'Mobile Image Optimisation',
+                            'Google Image Search Optimisation',
+                            'Ecommerce Product Image SEO',
+                            'Page Speed Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering image SEO improvements that support higher rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Image SEO Solutions',
+
+                        'intro' => 'Looking to improve your image performance and SEO ROI? At Cloud Technologies Ltd, we use advanced SEO tools and performance analysis to identify image-related SEO issues and implement improvements that deliver measurable results.',
+
+                        'sub_intro' => 'Our image SEO services include:',
+
+                        'list' => [
+                            'Image SEO audits',
+                            'Website performance analysis',
+                            'Technical image optimisation',
+                            'Search visibility improvements',
+                            'Image indexing optimisation',
+                            'Continuous SEO monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website images perform efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Image SEO Services',
+
+                        'intro' => 'Looking for cost-effective image SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable image SEO solutions tailored to your website requirements and business goals.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable image optimisation strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong image SEO performance without unnecessary costs, making image optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website performance partner, focused on improving image optimisation, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every image SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional image SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is image SEO?',
+                                'a' => 'Image SEO is the process of optimizing website images to improve page speed, search visibility, user experience, and Google Image search rankings.'
+                            ],
+                            [
+                                'q' => 'Why is image SEO important?',
+                                'a' => 'Image SEO helps improve website loading speed, accessibility, search engine visibility, and overall SEO performance.'
+                            ],
+                            [
+                                'q' => 'What does image optimisation include?',
+                                'a' => 'Image optimisation includes compression, alt text optimisation, structured data implementation, file naming improvements, and modern image formatting.'
+                            ],
+                            [
+                                'q' => 'Can image SEO improve Google rankings?',
+                                'a' => 'Yes, properly optimized images can improve page speed, user experience, and search engine rankings over time.'
+                            ],
+                            [
+                                'q' => 'Do you optimise ecommerce product images?',
+                                'a' => 'Yes, we provide ecommerce image SEO services designed to improve product visibility and website performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide image SEO reports?',
+                                'a' => 'Yes, we provide detailed reports outlining image performance, optimisation improvements, and ongoing SEO tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'Image SEO Services Collier Row | Image Optimisation Experts',
+                'meta_description' => 'Image SEO services in Collier Row improving image rankings, page speed, alt tags, visibility and website performance for better SEO results online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Image SEO Services Collier Row | Professional Image Optimisation Solutions',
+                        'subtitle' => 'Improving your website visibility through optimized images can be simple and results-driven with the right image SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Image SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional image SEO services in Collier Row, helping businesses improve website performance, image search visibility, and overall SEO rankings through advanced image optimisation strategies. We deliver complete image SEO solutions including image compression, alt tag optimisation, structured image data, file optimisation, image indexing improvements, and page speed enhancements designed for long-term SEO growth.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+                        'description' => 'Managing image SEO can feel technical, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are optimizing a new website or improving existing image performance, our SEO specialists ensure your images are fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Image SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Image Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Alt Tag & Metadata Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Page Speed Improvements',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Image SEO Reporting',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Image SEO Services',
+                        'description' => 'Looking to improve your website performance and image search visibility? We provide tailored image SEO solutions designed to help businesses improve Google Image rankings, website speed, and overall search engine performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Image SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different image optimisation needs. That’s why we create tailored image SEO strategies designed to maximise visibility, website speed, and search performance.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or portfolio platform, we offer:",
+
+                        'list' => [
+                            'Image Compression & Optimisation',
+                            'Alt Text Optimisation',
+                            'Image File Naming Optimisation',
+                            'Structured Data for Images',
+                            'Lazy Loading Optimisation',
+                            'Image Sitemap Optimisation',
+                            'WebP & Modern Image Format Conversion',
+                            'Mobile Image Optimisation',
+                            'Google Image Search Optimisation',
+                            'Ecommerce Product Image SEO',
+                            'Page Speed Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering image SEO improvements that support higher rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Image SEO Solutions',
+
+                        'intro' => 'Looking to improve your image performance and SEO ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools and performance analysis to identify image-related SEO issues and implement improvements that deliver measurable results. Our image SEO services include:',
+
+                        'list' => [
+                            'Image SEO audits',
+                            'Website performance analysis',
+                            'Technical image optimisation',
+                            'Search visibility improvements',
+                            'Image indexing optimisation',
+                            'Continuous SEO monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website images perform efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Image SEO Services',
+
+                        'intro' => 'Looking for cost-effective image SEO services in Collier Row?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable image SEO solutions tailored to your website requirements and business goals. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable image optimisation strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong image SEO performance without unnecessary costs, making image optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website performance partner, focused on improving image optimisation, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every image SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional image SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is image SEO?',
+                                'a' => 'Image SEO is the process of optimizing website images to improve page speed, search visibility, user experience, and Google Image search rankings.'
+                            ],
+                            [
+                                'q' => 'Why is image SEO important?',
+                                'a' => 'Image SEO helps improve website loading speed, accessibility, search engine visibility, and overall SEO performance.'
+                            ],
+                            [
+                                'q' => 'What does image optimisation include?',
+                                'a' => 'Image optimisation includes compression, alt text optimisation, structured data implementation, file naming improvements, and modern image formatting.'
+                            ],
+                            [
+                                'q' => 'Can image SEO improve Google rankings?',
+                                'a' => 'Yes, properly optimized images can improve page speed, user experience, and search engine rankings over time.'
+                            ],
+                            [
+                                'q' => 'Do you optimise ecommerce product images?',
+                                'a' => 'Yes, we provide ecommerce image SEO services designed to improve product visibility and website performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide image SEO reports?',
+                                'a' => 'Yes, we provide detailed reports outlining image performance, optimisation improvements, and ongoing SEO tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Image SEO Services Goodmayes | Image Optimisation Experts',
+                'meta_description' => 'Image SEO services in Goodmayes improving image rankings, page speed, alt tags, visibility and website performance for better SEO results online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Image SEO Services Goodmayes | Professional Image Optimisation Solutions',
+                        'subtitle' => 'Improving your website speed and search visibility through images can be simple and results-driven with the right image SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Image SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional image SEO services in Goodmayes, helping businesses improve website performance, search visibility, and Google Image rankings through advanced image optimisation techniques. We deliver complete image SEO solutions including image compression, alt tag optimisation, file naming structure, WebP conversion, structured data implementation, lazy loading, and image indexing improvements designed for long-term SEO success.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Faster Websites & Better Rankings? We Make It Easy',
+                        'description' => 'Optimising images can feel technical, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are building a new website or improving existing performance, our SEO specialists ensure your images are fully optimized, lightweight, and search-engine friendly.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Image SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Image Compression & Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Alt Text & Metadata Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Page Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Image SEO Reporting',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Image SEO Services',
+                        'description' => 'Looking to improve your website performance and image search visibility? We provide tailored image SEO solutions designed to help businesses improve Google rankings, enhance page speed, and boost overall SEO performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Image SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different image optimisation needs. That’s why we create tailored image SEO strategies designed to maximise performance, visibility, and user experience.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or portfolio site, we offer:",
+
+                        'list' => [
+                            'Image Compression & Optimisation',
+                            'Alt Tag Optimisation',
+                            'Image File Naming Optimisation',
+                            'WebP & Next-Gen Formats',
+                            'Lazy Loading Implementation',
+                            'Image Sitemap Creation',
+                            'Structured Data for Images',
+                            'Mobile Image Optimisation',
+                            'Google Image Search Optimisation',
+                            'Ecommerce Product Image SEO',
+                            'Page Speed Enhancements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering image SEO improvements that support higher rankings and better website performance.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Image SEO Solutions',
+
+                        'intro' => 'Looking to improve your SEO performance and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools and performance analysis to identify image-related issues and implement improvements that deliver measurable results. Our image SEO services include:',
+
+                        'list' => [
+                            'Image SEO audits',
+                            'Page speed analysis',
+                            'Image indexing optimisation',
+                            'Technical image improvements',
+                            'Search visibility tracking',
+                            'Continuous optimisation monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website images perform efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Image SEO Services',
+
+                        'intro' => 'Looking for cost-effective image SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable image SEO solutions tailored to your website goals and business needs.',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable image optimisation strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong image SEO performance without unnecessary costs, making image optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website performance partner, focused on improving image optimisation, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every image SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional image SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is image SEO?',
+                                'a' => 'Image SEO is the process of optimizing website images to improve loading speed, search visibility, and Google Image rankings.'
+                            ],
+                            [
+                                'q' => 'Why is image SEO important?',
+                                'a' => 'It improves page speed, user experience, and helps your website rank better in both Google Search and Google Images.'
+                            ],
+                            [
+                                'q' => 'What does image optimisation include?',
+                                'a' => 'It includes compression, alt text optimisation, file naming, WebP conversion, and structured image data.'
+                            ],
+                            [
+                                'q' => 'Can image SEO improve Google rankings?',
+                                'a' => 'Yes, optimized images improve page speed and relevance, which can positively impact search rankings.'
+                            ],
+                            [
+                                'q' => 'Do you optimise ecommerce product images?',
+                                'a' => 'Yes, we optimise product images to improve ecommerce visibility and performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide image SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering image performance, optimisation improvements, and SEO tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'Image SEO Services Hainault | Image Optimisation Experts',
+                'meta_description' => 'Image SEO services in Hainault improving image rankings, page speed, alt tags, visibility and website performance for better SEO results online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Image SEO Services Hainault | Professional Image Optimisation Solutions',
+                        'subtitle' => 'Improving your website visibility through optimized images can be simple and results-driven with the right image SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Image SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional image SEO services in Hainault, helping businesses improve website performance, image search visibility, and overall SEO rankings through advanced image optimisation strategies. We deliver complete image SEO solutions including image compression, alt tag optimisation, structured image data, file optimisation, image indexing improvements, and page speed enhancements designed for long-term SEO growth.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+                        'description' => 'Managing image SEO can feel technical, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are optimizing a new website or improving existing image performance, our SEO specialists ensure your images are fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Image SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Image Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Alt Tag & Metadata Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Page Speed Improvements',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Image SEO Reporting',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Image SEO Services',
+                        'description' => 'Looking to improve your website performance and image search visibility? We provide tailored image SEO solutions designed to help businesses improve Google Image rankings, website speed, and overall search engine performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Image SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different image optimisation needs. That’s why we create tailored image SEO strategies designed to maximise visibility, website speed, and search performance.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or portfolio platform, we offer:",
+
+                        'list' => [
+                            'Image Compression & Optimisation',
+                            'Alt Text Optimisation',
+                            'Image File Naming Optimisation',
+                            'Structured Data for Images',
+                            'Lazy Loading Optimisation',
+                            'Image Sitemap Optimisation',
+                            'WebP & Modern Image Format Conversion',
+                            'Mobile Image Optimisation',
+                            'Google Image Search Optimisation',
+                            'Ecommerce Product Image SEO',
+                            'Page Speed Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering image SEO improvements that support higher rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Image SEO Solutions',
+
+                        'intro' => 'Looking to improve your image performance and SEO ROI? At Cloud Technologies Ltd, we use advanced SEO tools and performance analysis to identify image-related SEO issues and implement improvements that deliver measurable results.',
+
+                        'sub_intro' => 'Our image SEO services include:',
+
+                        'list' => [
+                            'Image SEO audits',
+                            'Website performance analysis',
+                            'Technical image optimisation',
+                            'Search visibility improvements',
+                            'Image indexing optimisation',
+                            'Continuous SEO monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website images perform efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Image SEO Services',
+
+                        'intro' => 'Looking for cost-effective image SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable image SEO solutions tailored to your website requirements and business goals.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable image optimisation strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong image SEO performance without unnecessary costs, making image optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website performance partner, focused on improving image optimisation, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every image SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional image SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is image SEO?',
+                                'a' => 'Image SEO is the process of optimizing website images to improve page speed, search visibility, user experience, and Google Image search rankings.'
+                            ],
+                            [
+                                'q' => 'Why is image SEO important?',
+                                'a' => 'Image SEO helps improve website loading speed, accessibility, search engine visibility, and overall SEO performance.'
+                            ],
+                            [
+                                'q' => 'What does image optimisation include?',
+                                'a' => 'Image optimisation includes compression, alt text optimisation, structured data implementation, file naming improvements, and modern image formatting.'
+                            ],
+                            [
+                                'q' => 'Can image SEO improve Google rankings?',
+                                'a' => 'Yes, properly optimized images can improve page speed, user experience, and search engine rankings over time.'
+                            ],
+                            [
+                                'q' => 'Do you optimise ecommerce product images?',
+                                'a' => 'Yes, we provide ecommerce image SEO services designed to improve product visibility and website performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide image SEO reports?',
+                                'a' => 'Yes, we provide detailed reports outlining image performance, optimisation improvements, and ongoing SEO tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
             ],
         ],
 
@@ -2688,11 +8007,1790 @@ class LocationSeoController extends Controller
                 'meta_title' => 'Local SEO Services in Ilford | Local SEO Agency & Company',
                 'meta_description' => 'Local SEO services in Ilford to improve local rankings, Google Business Profile, visibility, traffic, and leads for your local business growth.',
             ],
+            'stratford' => [
+                'meta_title' => 'Local SEO Services Stratford | Professional Local Search Optimisation Solutions',
+
+                'meta_description' => 'Local SEO services in Stratford helping businesses improve local rankings, Google visibility, website traffic and customer enquiries through strategic local SEO optimisation.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Local SEO Services Stratford | Professional Local Search Optimisation Solutions',
+                        'subtitle' => 'Growing your local business online can be simple and results-driven with the right local SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Local SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional local SEO services in Stratford, helping businesses improve local search rankings, attract nearby customers, and increase qualified leads. We deliver complete local SEO solutions including Google Business Profile optimisation, local keyword targeting, on-page SEO, local citation building, and location-based SEO strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Local Google Rankings? We Make It Easy',
+
+                        'description' => 'Managing local SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new business or improving your existing local visibility, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Local SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Google Business Profile Optimisation',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Keyword Targeting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Citation Building',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local SEO Reporting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Local SEO Services',
+
+                        'description' => 'Looking to improve your visibility in local search results and Google Maps? We provide tailored local SEO solutions designed to help businesses improve rankings, attract local customers, and increase enquiries through strategic local optimisation.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Local SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every local business has different goals. That’s why we create tailored local SEO strategies designed to maximise local visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Stratford or nearby areas, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Google Business Profile Optimisation',
+                            'Local Keyword Research',
+                            'On-Page SEO Optimisation',
+                            'Local Citation Building',
+                            'Google Maps SEO',
+                            'Reputation Management',
+                            'Local Content Optimisation',
+                            'Mobile SEO Optimisation',
+                            'SEO Reporting & Tracking',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing local SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Local SEO Solutions',
+
+                        'intro' => 'Looking to improve your local rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and local search insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our local SEO services include:',
+
+                        'list' => [
+                            'Local SEO audits',
+                            'Competitor analysis',
+                            'Google Business Profile improvements',
+                            'Local search optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves better local rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Local SEO Services',
+
+                        'intro' => 'Looking for cost-effective local SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable local SEO solutions tailored to your business goals and target audience.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable local SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making local SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your local business growth partner, focused on delivering high-performing local SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every local SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional local SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is local SEO?',
+                                'a' => 'Local SEO is the process of optimizing your online presence to improve visibility in local search results and attract nearby customers.'
+                            ],
+                            [
+                                'q' => 'Why is local SEO important?',
+                                'a' => 'Local SEO helps businesses appear in Google Maps and local search results, increasing visibility, traffic, and customer enquiries.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Google Business Profiles?',
+                                'a' => 'Yes, we provide Google Business Profile optimisation to improve local rankings and visibility in Google Maps.'
+                            ],
+                            [
+                                'q' => 'Can local SEO generate more leads?',
+                                'a' => 'Yes, local SEO helps attract targeted customers actively searching for services in your local area.'
+                            ],
+                            [
+                                'q' => 'How long does local SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable improvements within 2 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO reports?',
+                                'a' => 'Yes, we provide detailed reports including local rankings, traffic performance, and SEO campaign progress.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'Local SEO Services Harrow | Google Business SEO',
+
+                'meta_description' => 'Local SEO services in Harrow helping businesses improve Google Maps rankings, local visibility, leads and customer enquiries across nearby areas.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Local SEO Services Harrow | Professional Local Search Optimisation Solutions',
+                        'subtitle' => 'Growing your local business online can be simple and results-driven with the right local SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Local SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional local SEO services in Harrow, helping businesses improve local search rankings, attract nearby customers, and increase qualified leads. We deliver complete local SEO solutions including Google Business Profile optimisation, local keyword targeting, on-page SEO, local citation building, and location-based SEO strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Local Google Rankings? We Make It Easy',
+
+                        'description' => 'Managing local SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new business or improving your existing local visibility, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Local SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Google Business Profile Optimisation',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Keyword Targeting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Citation Building',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local SEO Reporting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Local SEO Services',
+
+                        'description' => 'Looking to improve your visibility in local search results and Google Maps? We provide tailored local SEO solutions designed to help businesses improve rankings, attract local customers, and increase enquiries through strategic local optimisation.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Local SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every local business has different goals. That’s why we create tailored local SEO strategies designed to maximise local visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Harrow or nearby areas, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Google Business Profile Optimisation',
+                            'Local Keyword Research',
+                            'On-Page SEO Optimisation',
+                            'Local Citation Building',
+                            'Google Maps SEO',
+                            'Reputation Management',
+                            'Local Content Optimisation',
+                            'Mobile SEO Optimisation',
+                            'SEO Reporting & Tracking',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing local SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Local SEO Solutions',
+
+                        'intro' => 'Looking to improve your local rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and local search insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our local SEO services include:',
+
+                        'list' => [
+                            'Local SEO audits',
+                            'Competitor analysis',
+                            'Google Business Profile improvements',
+                            'Local search optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves better local rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Local SEO Services',
+
+                        'intro' => 'Looking for cost-effective local SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable local SEO solutions tailored to your business goals and target audience.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable local SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making local SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your local business growth partner, focused on delivering high-performing local SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every local SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional local SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is local SEO?',
+                                'a' => 'Local SEO is the process of optimizing your online presence to improve visibility in local search results and attract nearby customers.'
+                            ],
+                            [
+                                'q' => 'Why is local SEO important?',
+                                'a' => 'Local SEO helps businesses appear in Google Maps and local search results, increasing visibility, traffic, and customer enquiries.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Google Business Profiles?',
+                                'a' => 'Yes, we provide Google Business Profile optimisation to improve local rankings and visibility in Google Maps.'
+                            ],
+                            [
+                                'q' => 'Can local SEO generate more leads?',
+                                'a' => 'Yes, local SEO helps attract targeted customers actively searching for services in your local area.'
+                            ],
+                            [
+                                'q' => 'How long does local SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable improvements within 2 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO reports?',
+                                'a' => 'Yes, we provide detailed reports including local rankings, traffic performance, and SEO campaign progress.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'Local SEO Services Collier Row | Google Business SEO',
+                'meta_description' => 'Local SEO services in Collier Row helping businesses improve Google Maps rankings, local visibility, leads and customer enquiries across nearby areas.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Local SEO Services Collier Row | Professional Local Search Optimisation Solutions',
+                        'subtitle' => 'Growing your local business online can be simple and results-driven with the right local SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Local SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional local SEO services in Collier Row, helping businesses improve local search rankings, attract nearby customers, and increase qualified leads. We deliver complete local SEO solutions including Google Business Profile optimisation, local keyword targeting, on-page SEO, local citation building, and location-based SEO strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Local Google Rankings? We Make It Easy',
+                        'description' => 'Managing local SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new business or improving your existing local visibility, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Local SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Google Business Profile Optimisation',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Keyword Targeting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Citation Building',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local SEO Reporting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Local SEO Services',
+                        'description' => 'Looking to improve your visibility in local search results and Google Maps? We provide tailored local SEO solutions designed to help businesses improve rankings, attract local customers, and increase enquiries through strategic local optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Local SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every local business has different goals. That’s why we create tailored local SEO strategies designed to maximise local visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Collier Row or nearby areas, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Google Business Profile Optimisation',
+                            'Local Keyword Research',
+                            'On-Page SEO Optimisation',
+                            'Local Citation Building',
+                            'Google Maps SEO',
+                            'Reputation Management',
+                            'Local Content Optimisation',
+                            'Mobile SEO Optimisation',
+                            'SEO Reporting & Tracking',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing local SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Local SEO Solutions',
+
+                        'intro' => 'Looking to improve your local rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and local search insights to ensure your campaigns deliver maximum impact. Our local SEO services include:',
+
+                        'list' => [
+                            'Local SEO audits',
+                            'Competitor analysis',
+                            'Google Business Profile improvements',
+                            'Local search optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves better local rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Local SEO Services',
+
+                        'intro' => 'Looking for cost-effective local SEO services in Collier Row?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable local SEO solutions tailored to your business goals and target audience. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable local SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making local SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your local business growth partner, focused on delivering high-performing local SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every local SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional local SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is local SEO?',
+                                'a' => 'Local SEO is the process of optimizing your online presence to improve visibility in local search results and attract nearby customers.'
+                            ],
+                            [
+                                'q' => 'Why is local SEO important?',
+                                'a' => 'Local SEO helps businesses appear in Google Maps and local search results, increasing visibility, traffic, and customer enquiries.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Google Business Profiles?',
+                                'a' => 'Yes, we provide Google Business Profile optimisation to improve local rankings and visibility in Google Maps.'
+                            ],
+                            [
+                                'q' => 'Can local SEO generate more leads?',
+                                'a' => 'Yes, local SEO helps attract targeted customers actively searching for services in your local area.'
+                            ],
+                            [
+                                'q' => 'How long does local SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable improvements within 2 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO reports?',
+                                'a' => 'Yes, we provide detailed reports including local rankings, traffic performance, and SEO campaign progress.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Local SEO Services Goodmayes | Google Business SEO',
+                'meta_description' => 'Local SEO services in Goodmayes helping businesses improve Google Maps rankings, local visibility, leads and customer enquiries across nearby areas.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Local SEO Services Goodmayes | Professional Local Search Optimisation Solutions',
+                        'subtitle' => 'Growing your local business online can be simple and results-driven with the right local SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Local SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional local SEO services in Goodmayes, helping businesses improve visibility in local search results, attract nearby customers, and generate more enquiries and sales. We deliver complete local SEO solutions including Google Business Profile optimisation, local keyword targeting, citation building, on-page optimisation, local content strategy, and Google Maps SEO designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want More Local Customers? We Make It Easy',
+                        'description' => 'Managing local SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are starting a new business or improving your local presence, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Local SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Google Business Profile Optimisation',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Keyword Targeting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Citation Building',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local SEO Reporting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Local SEO Services',
+                        'description' => 'Looking to improve your visibility in Google Maps and local search results? We provide tailored local SEO solutions designed to help businesses attract nearby customers, improve rankings, and increase enquiries through strategic optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Local SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every local business has unique goals. That’s why we create tailored local SEO strategies designed to maximise visibility, traffic, and customer conversions.',
+
+                        'sub_intro' => "Whether you're targeting Goodmayes or surrounding areas, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Google Business Profile Optimisation',
+                            'Local Keyword Research',
+                            'Citation Building Services',
+                            'Google Maps SEO',
+                            'On-Page Local Optimisation',
+                            'Local Content Creation',
+                            'Review & Reputation Management',
+                            'Mobile SEO Optimisation',
+                            'Local SEO Tracking & Reporting',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing local SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Local SEO Solutions',
+
+                        'intro' => 'Looking to improve your local rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and local search insights to ensure your campaigns deliver maximum impact. Our local SEO services include:',
+
+                        'list' => [
+                            'Local SEO audits',
+                            'Google Business Profile optimisation',
+                            'Competitor local analysis',
+                            'Local ranking improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves better local visibility, increased traffic, and more customer enquiries.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Local SEO Services',
+
+                        'intro' => 'Looking for cost-effective local SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable local SEO solutions tailored to your business goals and budget.',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable local SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong local SEO performance without unnecessary costs, making local SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your local growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every local SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional local SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is local SEO?',
+                                'a' => 'Local SEO is the process of improving your business visibility in local search results and Google Maps to attract nearby customers.'
+                            ],
+                            [
+                                'q' => 'Why is local SEO important?',
+                                'a' => 'Local SEO helps businesses appear when customers search for services near them, increasing leads, calls, and foot traffic.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Google Business Profile?',
+                                'a' => 'Yes, we fully optimise Google Business Profiles to improve map rankings and local visibility.'
+                            ],
+                            [
+                                'q' => 'Can local SEO increase calls and enquiries?',
+                                'a' => 'Yes, local SEO helps attract high-intent customers actively searching for your services in your area.'
+                            ],
+                            [
+                                'q' => 'How long does local SEO take?',
+                                'a' => 'Most businesses start seeing improvements within 2 to 6 months depending on competition and optimisation level.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, Google Maps performance, and lead generation.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'Local SEO Services Hainault | Google Business SEO',
+                'meta_description' => 'Local SEO services in Hainault helping businesses improve Google Maps rankings, local visibility, leads and customer enquiries across nearby areas.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Local SEO Services Hainault | Professional Local Search Optimisation Solutions',
+                        'subtitle' => 'Growing your local business online can be simple and results-driven with the right local SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Local SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional local SEO services in Hainault, helping businesses improve local search rankings, attract nearby customers, and increase qualified leads. We deliver complete local SEO solutions including Google Business Profile optimisation, local keyword targeting, on-page SEO, local citation building, and location-based SEO strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Local Google Rankings? We Make It Easy',
+                        'description' => 'Managing local SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new business or improving your existing local visibility, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Local SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Google Business Profile Optimisation',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Keyword Targeting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local Citation Building',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Local SEO Reporting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Local SEO Services',
+                        'description' => 'Looking to improve your visibility in local search results and Google Maps? We provide tailored local SEO solutions designed to help businesses improve rankings, attract local customers, and increase enquiries through strategic local optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Local SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every local business has different goals. That’s why we create tailored local SEO strategies designed to maximise local visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Hainault or nearby areas, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Google Business Profile Optimisation',
+                            'Local Keyword Research',
+                            'On-Page SEO Optimisation',
+                            'Local Citation Building',
+                            'Google Maps SEO',
+                            'Reputation Management',
+                            'Local Content Optimisation',
+                            'Mobile SEO Optimisation',
+                            'SEO Reporting & Tracking',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing local SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Local SEO Solutions',
+
+                        'intro' => 'Looking to improve your local rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and local search insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our local SEO services include:',
+
+                        'list' => [
+                            'Local SEO audits',
+                            'Competitor analysis',
+                            'Google Business Profile improvements',
+                            'Local search optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves better local rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Local SEO Services',
+
+                        'intro' => 'Looking for cost-effective local SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable local SEO solutions tailored to your business goals and target audience.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable local SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making local SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your local business growth partner, focused on delivering high-performing local SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every local SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional local SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is local SEO?',
+                                'a' => 'Local SEO is the process of optimizing your online presence to improve visibility in local search results and attract nearby customers.'
+                            ],
+                            [
+                                'q' => 'Why is local SEO important?',
+                                'a' => 'Local SEO helps businesses appear in Google Maps and local search results, increasing visibility, traffic, and customer enquiries.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Google Business Profiles?',
+                                'a' => 'Yes, we provide Google Business Profile optimisation to improve local rankings and visibility in Google Maps.'
+                            ],
+                            [
+                                'q' => 'Can local SEO generate more leads?',
+                                'a' => 'Yes, local SEO helps attract targeted customers actively searching for services in your local area.'
+                            ],
+                            [
+                                'q' => 'How long does local SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable improvements within 2 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO reports?',
+                                'a' => 'Yes, we provide detailed reports including local rankings, traffic performance, and SEO campaign progress.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
         ],
         'ecommerce-seo' => [
             'ilford' => [
                 'meta_title' => 'Ecommerce SEO Agency in Ilford | Online Store SEO Services',
                 'meta_description' => 'Ecommerce SEO agency in Ilford offering Shopify, WooCommerce, and Magento SEO services to improve rankings, traffic, product visibility, and online sales.',
+            ],
+            'stratford' => [
+                'meta_title' => 'Ecommerce SEO Agency Stratford | Shopify & WooCommerce SEO',
+
+                'meta_description' => 'Ecommerce SEO agency in Stratford providing Shopify, WooCommerce and Magento SEO services to increase traffic, product visibility and online sales.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Ecommerce SEO Agency Stratford | Professional Ecommerce SEO Services',
+                        'subtitle' => 'Growing your ecommerce business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Ecommerce SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional ecommerce SEO services in Stratford, helping online stores improve search rankings, increase website traffic, and generate more sales through strategic ecommerce SEO solutions. We deliver complete ecommerce SEO services including technical SEO, product page optimisation, category page SEO, keyword targeting, content optimisation, and ecommerce link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Ecommerce Rankings? We Make It Easy',
+
+                        'description' => 'Managing ecommerce SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new online store or improving an existing ecommerce website, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Ecommerce SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Product Page Optimisation',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical Ecommerce SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Category Page SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Ecommerce SEO Reporting',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Ecommerce SEO Services',
+
+                        'description' => 'Looking to improve your ecommerce visibility and increase online sales? We provide tailored ecommerce SEO solutions designed to help businesses improve rankings, attract targeted shoppers, and increase conversions through strategic SEO optimisation.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Ecommerce SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every ecommerce business has unique goals. That’s why we create tailored ecommerce SEO strategies designed to maximise visibility, traffic, and sales performance.',
+
+                        'sub_intro' => "Whether you're running a small online store or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'Ecommerce SEO Campaigns',
+                            'Product Page SEO',
+                            'Category Page Optimisation',
+                            'Technical SEO Audits',
+                            'Ecommerce Keyword Research',
+                            'SEO Content Optimisation',
+                            'Internal Linking Strategies',
+                            'Ecommerce Site Speed Optimisation',
+                            'Structured Data & Schema Markup',
+                            'Conversion Optimisation',
+                            'Mobile Ecommerce SEO',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing ecommerce SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Ecommerce SEO Solutions',
+
+                        'intro' => 'Looking to improve your ecommerce rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and ecommerce insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our ecommerce SEO services include:',
+
+                        'list' => [
+                            'Ecommerce SEO audits',
+                            'Product keyword analysis',
+                            'Technical SEO improvements',
+                            'Ecommerce content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your ecommerce website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Ecommerce SEO Services',
+
+                        'intro' => 'Looking for cost-effective ecommerce SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable ecommerce SEO solutions tailored to your online business goals and growth strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable ecommerce SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making ecommerce SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your ecommerce growth partner, focused on delivering high-performing SEO campaigns that drive real online business success.',
+
+                        'description_2' => 'Our experienced team ensures every ecommerce SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional ecommerce SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is ecommerce SEO?',
+                                'a' => 'Ecommerce SEO is the process of optimizing an online store to improve product rankings, increase organic traffic, and generate more online sales.'
+                            ],
+                            [
+                                'q' => 'Why is ecommerce SEO important?',
+                                'a' => 'Ecommerce SEO helps online stores improve visibility in search engines, attract targeted shoppers, and increase conversions without relying only on paid advertising.'
+                            ],
+                            [
+                                'q' => 'Do you optimise product and category pages?',
+                                'a' => 'Yes, we optimize product pages, category pages, metadata, content, and internal linking structures for better search visibility.'
+                            ],
+                            [
+                                'q' => 'Can ecommerce SEO increase online sales?',
+                                'a' => 'Yes, effective ecommerce SEO can improve rankings, attract qualified traffic, and increase ecommerce conversions and revenue.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical ecommerce SEO?',
+                                'a' => 'Yes, we provide technical ecommerce SEO including crawl optimisation, site speed improvements, schema markup, and mobile SEO.'
+                            ],
+                            [
+                                'q' => 'Do you provide ecommerce SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, conversions, and ecommerce SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'Ecommerce SEO Agency Harrow | Shopify & WooCommerce SEO',
+
+                'meta_description' => 'Ecommerce SEO agency in Harrow providing Shopify, WooCommerce and Magento SEO services to increase traffic, product visibility and online sales.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Ecommerce SEO Agency Harrow  Professional Ecommerce SEO Services',
+                        'subtitle' => 'Growing your ecommerce business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Ecommerce SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional ecommerce SEO services in Harrow, helping online stores improve search rankings, increase website traffic, and generate more sales through strategic ecommerce SEO solutions. We deliver complete ecommerce SEO services including technical SEO, product page optimisation, category page SEO, keyword targeting, content optimisation, and ecommerce link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Ecommerce Rankings? We Make It Easy',
+
+                        'description' => 'Managing ecommerce SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new online store or improving an existing ecommerce website, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Ecommerce SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Product Page Optimisation',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical Ecommerce SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Category Page SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Ecommerce SEO Reporting',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Ecommerce SEO Services',
+
+                        'description' => 'Looking to improve your ecommerce visibility and increase online sales? We provide tailored ecommerce SEO solutions designed to help businesses improve rankings, attract targeted shoppers, and increase conversions through strategic SEO optimisation.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Ecommerce SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every ecommerce business has unique goals. That’s why we create tailored ecommerce SEO strategies designed to maximise visibility, traffic, and sales performance.',
+
+                        'sub_intro' => "Whether you're running a small online store or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'Ecommerce SEO Campaigns',
+                            'Product Page SEO',
+                            'Category Page Optimisation',
+                            'Technical SEO Audits',
+                            'Ecommerce Keyword Research',
+                            'SEO Content Optimisation',
+                            'Internal Linking Strategies',
+                            'Ecommerce Site Speed Optimisation',
+                            'Structured Data & Schema Markup',
+                            'Conversion Optimisation',
+                            'Mobile Ecommerce SEO',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing ecommerce SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Ecommerce SEO Solutions',
+
+                        'intro' => 'Looking to improve your ecommerce rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and ecommerce insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our ecommerce SEO services include:',
+
+                        'list' => [
+                            'Ecommerce SEO audits',
+                            'Product keyword analysis',
+                            'Technical SEO improvements',
+                            'Ecommerce content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your ecommerce website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Ecommerce SEO Services',
+
+                        'intro' => 'Looking for cost-effective ecommerce SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable ecommerce SEO solutions tailored to your online business goals and growth strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable ecommerce SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making ecommerce SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your ecommerce growth partner, focused on delivering high-performing SEO campaigns that drive real online business success.',
+
+                        'description_2' => 'Our experienced team ensures every ecommerce SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional ecommerce SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is ecommerce SEO?',
+                                'a' => 'Ecommerce SEO is the process of optimizing an online store to improve product rankings, increase organic traffic, and generate more online sales.'
+                            ],
+                            [
+                                'q' => 'Why is ecommerce SEO important?',
+                                'a' => 'Ecommerce SEO helps online stores improve visibility in search engines, attract targeted shoppers, and increase conversions without relying only on paid advertising.'
+                            ],
+                            [
+                                'q' => 'Do you optimise product and category pages?',
+                                'a' => 'Yes, we optimize product pages, category pages, metadata, content, and internal linking structures for better search visibility.'
+                            ],
+                            [
+                                'q' => 'Can ecommerce SEO increase online sales?',
+                                'a' => 'Yes, effective ecommerce SEO can improve rankings, attract qualified traffic, and increase ecommerce conversions and revenue.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical ecommerce SEO?',
+                                'a' => 'Yes, we provide technical ecommerce SEO including crawl optimisation, site speed improvements, schema markup, and mobile SEO.'
+                            ],
+                            [
+                                'q' => 'Do you provide ecommerce SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, conversions, and ecommerce SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'Ecommerce SEO Agency Collier Row | Shopify & WooCommerce SEO',
+                'meta_description' => 'Ecommerce SEO agency in Collier Row providing Shopify, WooCommerce and Magento SEO services to increase traffic, product visibility and online sales.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Ecommerce SEO Agency Collier Row | Professional Ecommerce SEO Services',
+                        'subtitle' => 'Growing your ecommerce business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Ecommerce SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional ecommerce SEO services in Collier Row, helping online stores improve search rankings, increase website traffic, and generate more sales through strategic ecommerce SEO solutions. We deliver complete ecommerce SEO services including technical SEO, product page optimisation, category page SEO, keyword targeting, content optimisation, and ecommerce link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Ecommerce Rankings? We Make It Easy',
+                        'description' => 'Managing ecommerce SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new online store or improving an existing ecommerce website, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Ecommerce SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Product Page Optimisation',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical Ecommerce SEO',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Category Page SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Ecommerce SEO Reporting',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Ecommerce SEO Services',
+                        'description' => 'Looking to improve your ecommerce visibility and increase online sales? We provide tailored ecommerce SEO solutions designed to help businesses improve rankings, attract targeted shoppers, and increase conversions through strategic SEO optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Ecommerce SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every ecommerce business has unique goals. That’s why we create tailored ecommerce SEO strategies designed to maximise visibility, traffic, and sales performance.',
+
+                        'sub_intro' => "Whether you're running a small online store or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'Ecommerce SEO Campaigns',
+                            'Product Page SEO',
+                            'Category Page Optimisation',
+                            'Technical SEO Audits',
+                            'Ecommerce Keyword Research',
+                            'SEO Content Optimisation',
+                            'Internal Linking Strategies',
+                            'Ecommerce Site Speed Optimisation',
+                            'Structured Data & Schema Markup',
+                            'Conversion Optimisation',
+                            'Mobile Ecommerce SEO',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing ecommerce SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Ecommerce SEO Solutions',
+
+                        'intro' => 'Looking to improve your ecommerce rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and ecommerce insights to ensure your campaigns deliver maximum impact. Our ecommerce SEO services include:',
+
+                        'list' => [
+                            'Ecommerce SEO audits',
+                            'Product keyword analysis',
+                            'Technical SEO improvements',
+                            'Ecommerce content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your ecommerce website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Ecommerce SEO Services',
+
+                        'intro' => 'Looking for cost-effective ecommerce SEO services in Collier Row?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable ecommerce SEO solutions tailored to your online business goals and growth strategy.',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable ecommerce SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making ecommerce SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your ecommerce growth partner, focused on delivering high-performing SEO campaigns that drive real online business success.',
+
+                        'description_2' => 'Our experienced team ensures every ecommerce SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional ecommerce SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is ecommerce SEO?',
+                                'a' => 'Ecommerce SEO is the process of optimizing an online store to improve product rankings, increase organic traffic, and generate more online sales.'
+                            ],
+                            [
+                                'q' => 'Why is ecommerce SEO important?',
+                                'a' => 'Ecommerce SEO helps online stores improve visibility in search engines, attract targeted shoppers, and increase conversions without relying only on paid advertising.'
+                            ],
+                            [
+                                'q' => 'Do you optimise product and category pages?',
+                                'a' => 'Yes, we optimize product pages, category pages, metadata, content, and internal linking structures for better search visibility.'
+                            ],
+                            [
+                                'q' => 'Can ecommerce SEO increase online sales?',
+                                'a' => 'Yes, effective ecommerce SEO can improve rankings, attract qualified traffic, and increase ecommerce conversions and revenue.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical ecommerce SEO?',
+                                'a' => 'Yes, we provide technical ecommerce SEO including crawl optimisation, site speed improvements, schema markup, and mobile SEO.'
+                            ],
+                            [
+                                'q' => 'Do you provide ecommerce SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, conversions, and ecommerce SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Ecommerce SEO Agency Goodmayes | Shopify & WooCommerce SEO',
+                'meta_description' => 'Ecommerce SEO agency in Goodmayes providing Shopify, WooCommerce and Magento SEO services to increase traffic, product visibility and online sales.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Ecommerce SEO Agency Goodmayes | Professional Ecommerce SEO Services',
+                        'subtitle' => 'Growing your online store can be simple and results-driven with the right ecommerce SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Ecommerce SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional ecommerce SEO services in Goodmayes, helping online stores improve search rankings, increase website traffic, and generate more sales through strategic optimisation. We deliver complete ecommerce SEO solutions including product page optimisation, category page SEO, technical SEO, keyword research, content optimisation, and link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want More Online Sales? We Make It Easy',
+                        'description' => 'Managing ecommerce SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new online store or scaling an existing ecommerce website, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Ecommerce SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Product Page Optimisation',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Category Page SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical Ecommerce SEO',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Ecommerce SEO Reporting',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Ecommerce SEO Services',
+                        'description' => 'Looking to increase your online store visibility and sales? We provide tailored ecommerce SEO solutions designed to help businesses rank higher, attract targeted shoppers, and improve conversion rates.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Ecommerce SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every ecommerce business has unique goals. That’s why we create tailored ecommerce SEO strategies designed to maximise visibility, traffic, and online sales.',
+
+                        'sub_intro' => "Whether you're running a small online store or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'Ecommerce SEO Campaigns',
+                            'Product Page Optimisation',
+                            'Category Page SEO',
+                            'Technical SEO Audits',
+                            'Ecommerce Keyword Research',
+                            'SEO Content Optimisation',
+                            'Internal Linking Strategy',
+                            'Schema Markup for Products',
+                            'Conversion Rate Optimisation',
+                            'Mobile Ecommerce SEO',
+                            'Site Speed Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing ecommerce SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Ecommerce SEO Solutions',
+
+                        'intro' => 'Looking to improve your ecommerce rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and ecommerce insights to ensure your campaigns deliver maximum impact. Our ecommerce SEO services include:',
+
+                        'list' => [
+                            'Ecommerce SEO audits',
+                            'Product keyword analysis',
+                            'Competitor research',
+                            'Technical SEO improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO optimisation',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your ecommerce store achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Ecommerce SEO Services',
+
+                        'intro' => 'Looking for cost-effective ecommerce SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable ecommerce SEO solutions tailored to your business goals and growth plans.',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable ecommerce SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making ecommerce SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your ecommerce growth partner, focused on delivering high-performing SEO campaigns that drive real online business success.',
+
+                        'description_2' => 'Our experienced team ensures every ecommerce SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional ecommerce SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is ecommerce SEO?',
+                                'a' => 'Ecommerce SEO is the process of optimizing an online store to improve product rankings, increase organic traffic, and generate more online sales.'
+                            ],
+                            [
+                                'q' => 'Why is ecommerce SEO important?',
+                                'a' => 'Ecommerce SEO helps online stores improve visibility in search engines, attract targeted shoppers, and increase conversions without relying only on paid ads.'
+                            ],
+                            [
+                                'q' => 'Do you optimise product and category pages?',
+                                'a' => 'Yes, we optimise product pages, category pages, metadata, content, and internal linking structures.'
+                            ],
+                            [
+                                'q' => 'Can ecommerce SEO increase sales?',
+                                'a' => 'Yes, effective ecommerce SEO improves visibility, attracts high-intent customers, and increases conversions and revenue.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical ecommerce SEO?',
+                                'a' => 'Yes, we provide technical ecommerce SEO including crawl optimisation, site speed improvements, schema markup, and mobile SEO.'
+                            ],
+                            [
+                                'q' => 'Do you provide ecommerce SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, conversions, and ecommerce SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'Ecommerce SEO Agency Hainault | Shopify & WooCommerce SEO',
+                'meta_description' => 'Ecommerce SEO agency in Hainault providing Shopify, WooCommerce and Magento SEO services to increase traffic, product visibility and online sales.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Ecommerce SEO Agency Hainault | Professional Ecommerce SEO Services',
+                        'subtitle' => 'Growing your ecommerce business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Ecommerce SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional ecommerce SEO services in Hainault, helping online stores improve search rankings, increase website traffic, and generate more sales through strategic ecommerce SEO solutions. We deliver complete ecommerce SEO services including technical SEO, product page optimisation, category page SEO, keyword targeting, content optimisation, and ecommerce link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Ecommerce Rankings? We Make It Easy',
+                        'description' => 'Managing ecommerce SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new online store or improving an existing ecommerce website, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Ecommerce SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Product Page Optimisation',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical Ecommerce SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Category Page SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Ecommerce SEO Reporting',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Ecommerce SEO Services',
+                        'description' => 'Looking to improve your ecommerce visibility and increase online sales? We provide tailored ecommerce SEO solutions designed to help businesses improve rankings, attract targeted shoppers, and increase conversions through strategic SEO optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Ecommerce SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every ecommerce business has unique goals. That’s why we create tailored ecommerce SEO strategies designed to maximise visibility, traffic, and sales performance.',
+
+                        'sub_intro' => "Whether you're running a small online store or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'Ecommerce SEO Campaigns',
+                            'Product Page SEO',
+                            'Category Page Optimisation',
+                            'Technical SEO Audits',
+                            'Ecommerce Keyword Research',
+                            'SEO Content Optimisation',
+                            'Internal Linking Strategies',
+                            'Ecommerce Site Speed Optimisation',
+                            'Structured Data & Schema Markup',
+                            'Conversion Optimisation',
+                            'Mobile Ecommerce SEO',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing ecommerce SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Ecommerce SEO Solutions',
+
+                        'intro' => 'Looking to improve your ecommerce rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and ecommerce insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our ecommerce SEO services include:',
+
+                        'list' => [
+                            'Ecommerce SEO audits',
+                            'Product keyword analysis',
+                            'Technical SEO improvements',
+                            'Ecommerce content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your ecommerce website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Ecommerce SEO Services',
+
+                        'intro' => 'Looking for cost-effective ecommerce SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable ecommerce SEO solutions tailored to your online business goals and growth strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable ecommerce SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making ecommerce SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your ecommerce growth partner, focused on delivering high-performing SEO campaigns that drive real online business success.',
+
+                        'description_2' => 'Our experienced team ensures every ecommerce SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional ecommerce SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is ecommerce SEO?',
+                                'a' => 'Ecommerce SEO is the process of optimizing an online store to improve product rankings, increase organic traffic, and generate more online sales.'
+                            ],
+                            [
+                                'q' => 'Why is ecommerce SEO important?',
+                                'a' => 'Ecommerce SEO helps online stores improve visibility in search engines, attract targeted shoppers, and increase conversions without relying only on paid advertising.'
+                            ],
+                            [
+                                'q' => 'Do you optimise product and category pages?',
+                                'a' => 'Yes, we optimize product pages, category pages, metadata, content, and internal linking structures for better search visibility.'
+                            ],
+                            [
+                                'q' => 'Can ecommerce SEO increase online sales?',
+                                'a' => 'Yes, effective ecommerce SEO can improve rankings, attract qualified traffic, and increase ecommerce conversions and revenue.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical ecommerce SEO?',
+                                'a' => 'Yes, we provide technical ecommerce SEO including crawl optimisation, site speed improvements, schema markup, and mobile SEO.'
+                            ],
+                            [
+                                'q' => 'Do you provide ecommerce SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, conversions, and ecommerce SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
             ],
         ],
         'on-page-seo' => [
@@ -2700,6 +9798,899 @@ class LocationSeoController extends Controller
                 'meta_title' => 'On-Page SEO Agency in Ilford | SEO Optimization Services',
                 'meta_description' => 'On-page SEO services in Ilford to optimise website content, meta tags, structure, and keywords to improve rankings, traffic, and user experience.',
             ],
+            'stratford' => [
+                'meta_title' => 'On-Page SEO Services Stratford | Professional Website Optimisation Solutions',
+
+                'meta_description' => 'Professional on-page SEO services in Stratford helping businesses improve keyword rankings, website visibility, content optimisation, and organic traffic growth.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'On-Page SEO Services Stratford | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website rankings can be simple and results-driven with the right on-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted On-Page SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional on-page SEO services in Stratford, helping businesses improve website visibility, keyword rankings, and user experience through strategic page optimisation. We deliver complete on-page SEO solutions including keyword optimisation, meta tags, content improvements, internal linking, technical page enhancements, and SEO structure optimisation designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Rankings? We Make It Easy',
+
+                        'description' => 'Managing on-page SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your pages are fully optimized, search-engine friendly, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our On-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Keyword Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Meta Tags & SEO Content',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Internal Linking Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced On-Page SEO Services',
+
+                        'description' => 'Looking to improve your website rankings and organic visibility? We provide tailored on-page SEO solutions designed to help businesses improve search performance, increase targeted traffic, and enhance user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete On-Page SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different SEO goals. That’s why we create tailored on-page SEO strategies designed to maximise search visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're running a local business website or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'On-Page SEO Audits',
+                            'Keyword Optimisation',
+                            'Meta Title & Meta Description Optimisation',
+                            'Header Tag Optimisation',
+                            'SEO Content Improvements',
+                            'Internal Linking Strategies',
+                            'URL Structure Optimisation',
+                            'Image SEO Optimisation',
+                            'Page Speed Enhancements',
+                            'Mobile SEO Optimisation',
+                            'User Experience Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing on-page SEO improvements that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven On-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and website insights to ensure your on-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our on-page SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'SEO content optimisation',
+                            'Technical page improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable On-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective on-page SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your website goals and business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable on-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making on-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website growth partner, focused on delivering high-performing on-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is on-page SEO?',
+                                'a' => 'On-page SEO is the process of optimizing individual web pages to improve search engine rankings, user experience, and organic traffic.'
+                            ],
+                            [
+                                'q' => 'Why is on-page SEO important?',
+                                'a' => 'On-page SEO helps search engines understand your content while improving visibility, website structure, and user engagement.'
+                            ],
+                            [
+                                'q' => 'What does on-page SEO include?',
+                                'a' => 'On-page SEO includes keyword optimisation, meta tags, content improvements, internal linking, URL optimisation, image SEO, and technical page enhancements.'
+                            ],
+                            [
+                                'q' => 'Can on-page SEO improve Google rankings?',
+                                'a' => 'Yes, properly optimized pages can improve keyword rankings, organic traffic, and overall website performance.'
+                            ],
+                            [
+                                'q' => 'Do you optimise website content?',
+                                'a' => 'Yes, we optimize website content, headings, metadata, and page structure to improve SEO performance and user experience.'
+                            ],
+                            [
+                                'q' => 'Do you provide on-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering keyword rankings, page optimisation, website performance, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'On-Page SEO Services Harrow | Website Optimisation',
+
+                'meta_description' => 'On-page SEO services in Harrow improving website structure, content, internal links, metadata and keyword optimization for higher Google rankings for users.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'On-Page SEO Services Harrow | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website rankings can be simple and results-driven with the right on-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted On-Page SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional on-page SEO services in Harrow, helping businesses improve website visibility, keyword rankings, and user experience through strategic page optimisation. We deliver complete on-page SEO solutions including keyword optimisation, meta tags, content improvements, internal linking, technical page enhancements, and SEO structure optimisation designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Rankings? We Make It Easy',
+
+                        'description' => 'Managing on-page SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your pages are fully optimized, search-engine friendly, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our On-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Keyword Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Meta Tags & SEO Content',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Internal Linking Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced On-Page SEO Services',
+
+                        'description' => 'Looking to improve your website rankings and organic visibility? We provide tailored on-page SEO solutions designed to help businesses improve search performance, increase targeted traffic, and enhance user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete On-Page SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different SEO goals. That’s why we create tailored on-page SEO strategies designed to maximise search visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're running a local business website or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'On-Page SEO Audits',
+                            'Keyword Optimisation',
+                            'Meta Title & Meta Description Optimisation',
+                            'Header Tag Optimisation',
+                            'SEO Content Improvements',
+                            'Internal Linking Strategies',
+                            'URL Structure Optimisation',
+                            'Image SEO Optimisation',
+                            'Page Speed Enhancements',
+                            'Mobile SEO Optimisation',
+                            'User Experience Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing on-page SEO improvements that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven On-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and website insights to ensure your on-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our on-page SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'SEO content optimisation',
+                            'Technical page improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable On-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective on-page SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your website goals and business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable on-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making on-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website growth partner, focused on delivering high-performing on-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is on-page SEO?',
+                                'a' => 'On-page SEO is the process of optimizing individual web pages to improve search engine rankings, user experience, and organic traffic.'
+                            ],
+                            [
+                                'q' => 'Why is on-page SEO important?',
+                                'a' => 'On-page SEO helps search engines understand your content while improving visibility, website structure, and user engagement.'
+                            ],
+                            [
+                                'q' => 'What does on-page SEO include?',
+                                'a' => 'On-page SEO includes keyword optimisation, meta tags, content improvements, internal linking, URL optimisation, image SEO, and technical page enhancements.'
+                            ],
+                            [
+                                'q' => 'Can on-page SEO improve Google rankings?',
+                                'a' => 'Yes, properly optimized pages can improve keyword rankings, organic traffic, and overall website performance.'
+                            ],
+                            [
+                                'q' => 'Do you optimise website content?',
+                                'a' => 'Yes, we optimize website content, headings, metadata, and page structure to improve SEO performance and user experience.'
+                            ],
+                            [
+                                'q' => 'Do you provide on-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering keyword rankings, page optimisation, website performance, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'On-Page SEO Services Collier Row | Website Optimisation',
+                'meta_description' => 'On-page SEO services in Collier Row improving website structure, content, internal links, metadata and keyword optimization for higher Google rankings for users.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'On-Page SEO Services Collier Row | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website rankings can be simple and results-driven with the right on-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted On-Page SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional on-page SEO services in Collier Row, helping businesses improve website visibility, keyword rankings, and user experience through strategic page optimisation. We deliver complete on-page SEO solutions including keyword optimisation, meta tags, content improvements, internal linking, technical page enhancements, and SEO structure optimisation designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Rankings? We Make It Easy',
+                        'description' => 'Managing on-page SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your pages are fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our On-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Keyword Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Meta Tags & SEO Content',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Internal Linking Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced On-Page SEO Services',
+                        'description' => 'Looking to improve your website rankings and organic visibility? We provide tailored on-page SEO solutions designed to help businesses improve search performance, increase targeted traffic, and enhance user experience.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete On-Page SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different SEO goals. That’s why we create tailored on-page SEO strategies designed to maximise search visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're running a local business website or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'On-Page SEO Audits',
+                            'Keyword Optimisation',
+                            'Meta Title & Meta Description Optimisation',
+                            'Header Tag Optimisation',
+                            'SEO Content Improvements',
+                            'Internal Linking Strategies',
+                            'URL Structure Optimisation',
+                            'Image SEO Optimisation',
+                            'Page Speed Enhancements',
+                            'Mobile SEO Optimisation',
+                            'User Experience Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing on-page SEO improvements that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven On-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and website insights to ensure your on-page SEO campaigns deliver maximum impact. Our on-page SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'SEO content optimisation',
+                            'Technical page improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable On-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective on-page SEO services in Collier Row?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your website goals and business needs.',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable on-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making on-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website growth partner, focused on delivering high-performing on-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is on-page SEO?',
+                                'a' => 'On-page SEO is the process of optimizing individual web pages to improve search engine rankings, user experience, and organic traffic.'
+                            ],
+                            [
+                                'q' => 'Why is on-page SEO important?',
+                                'a' => 'On-page SEO helps search engines understand your content while improving visibility, website structure, and user engagement.'
+                            ],
+                            [
+                                'q' => 'What does on-page SEO include?',
+                                'a' => 'On-page SEO includes keyword optimisation, meta tags, content improvements, internal linking, URL optimisation, image SEO, and technical page enhancements.'
+                            ],
+                            [
+                                'q' => 'Can on-page SEO improve Google rankings?',
+                                'a' => 'Yes, properly optimized pages can improve keyword rankings, organic traffic, and overall website performance.'
+                            ],
+                            [
+                                'q' => 'Do you optimise website content?',
+                                'a' => 'Yes, we optimize website content, headings, metadata, and page structure to improve SEO performance and user experience.'
+                            ],
+                            [
+                                'q' => 'Do you provide on-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering keyword rankings, page optimisation, website performance, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'On-Page SEO Services Goodmayes | Website Optimisation',
+                'meta_description' => 'On-page SEO services in Goodmayes improving website structure, content, internal links, metadata and keyword optimization for higher Google rankings for users.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'On-Page SEO Services Goodmayes | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website rankings can be simple and results-driven with the right on-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted On-Page SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional on-page SEO services in Goodmayes, helping businesses improve website visibility, keyword rankings, and user experience through strategic optimisation. We deliver complete on-page SEO solutions including keyword optimisation, meta tags, content improvements, internal linking, URL structure optimisation, header optimisation, and SEO content refinement designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+                        'description' => 'Managing on-page SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your pages are fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our On-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Keyword Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Meta Tags & Content Optimisation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Internal Linking Strategy',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced On-Page SEO Services',
+                        'description' => 'Looking to improve your website visibility and organic rankings? We provide tailored on-page SEO solutions designed to help businesses rank higher, attract targeted traffic, and improve user engagement.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete On-Page SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has unique optimisation needs. That’s why we create tailored on-page SEO strategies designed to maximise search visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're running a business website or an ecommerce store, we offer:",
+
+                        'list' => [
+                            'On-Page SEO Audits',
+                            'Keyword Research & Targeting',
+                            'Meta Title & Description Optimisation',
+                            'Header Tag Optimisation (H1, H2, H3)',
+                            'Content Optimisation',
+                            'Internal Linking Strategy',
+                            'URL Structure Optimisation',
+                            'Image SEO Integration',
+                            'Mobile Optimisation Support',
+                            'User Experience Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing on-page SEO improvements that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven On-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and content insights to ensure your on-page SEO campaigns deliver maximum impact. Our on-page SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Keyword gap analysis',
+                            'Content optimisation strategy',
+                            'Technical on-page improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable On-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective on-page SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and budget.',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable on-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making on-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website growth partner, focused on delivering high-performing on-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is on-page SEO?',
+                                'a' => 'On-page SEO is the process of optimizing individual web pages to improve search engine rankings and user experience.'
+                            ],
+                            [
+                                'q' => 'Why is on-page SEO important?',
+                                'a' => 'It helps search engines understand your content and improves visibility, rankings, and traffic.'
+                            ],
+                            [
+                                'q' => 'What does on-page SEO include?',
+                                'a' => 'It includes keyword optimisation, meta tags, content updates, internal linking, URL structure, and header optimisation.'
+                            ],
+                            [
+                                'q' => 'Can on-page SEO improve rankings?',
+                                'a' => 'Yes, properly optimised pages can significantly improve Google rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'Do you optimise website content?',
+                                'a' => 'Yes, we optimise website content, headings, and structure to improve SEO performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide on-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports including keyword rankings, page performance, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'On-Page SEO Services Hainault | Website Optimisation',
+                'meta_description' => 'On-page SEO services in Hainault improving website structure, content, internal links, metadata and keyword optimization for higher Google rankings for users.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'On-Page SEO Services Hainault | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website rankings can be simple and results-driven with the right on-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted On-Page SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional on-page SEO services in Hainault, helping businesses improve website visibility, keyword rankings, and user experience through strategic page optimisation. We deliver complete on-page SEO solutions including keyword optimisation, meta tags, content improvements, internal linking, technical page enhancements, and SEO structure optimisation designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Rankings? We Make It Easy',
+                        'description' => 'Managing on-page SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your pages are fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our On-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Keyword Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Meta Tags & SEO Content',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Internal Linking Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced On-Page SEO Services',
+                        'description' => 'Looking to improve your website rankings and organic visibility? We provide tailored on-page SEO solutions designed to help businesses improve search performance, increase targeted traffic, and enhance user experience.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete On-Page SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different SEO goals. That’s why we create tailored on-page SEO strategies designed to maximise search visibility, website traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're running a local business website or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'On-Page SEO Audits',
+                            'Keyword Optimisation',
+                            'Meta Title & Meta Description Optimisation',
+                            'Header Tag Optimisation',
+                            'SEO Content Improvements',
+                            'Internal Linking Strategies',
+                            'URL Structure Optimisation',
+                            'Image SEO Optimisation',
+                            'Page Speed Enhancements',
+                            'Mobile SEO Optimisation',
+                            'User Experience Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing on-page SEO improvements that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven On-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and website insights to ensure your on-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our on-page SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'SEO content optimisation',
+                            'Technical page improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable On-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective on-page SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your website goals and business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable on-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making on-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website growth partner, focused on delivering high-performing on-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is on-page SEO?',
+                                'a' => 'On-page SEO is the process of optimizing individual web pages to improve search engine rankings, user experience, and organic traffic.'
+                            ],
+                            [
+                                'q' => 'Why is on-page SEO important?',
+                                'a' => 'On-page SEO helps search engines understand your content while improving visibility, website structure, and user engagement.'
+                            ],
+                            [
+                                'q' => 'What does on-page SEO include?',
+                                'a' => 'On-page SEO includes keyword optimisation, meta tags, content improvements, internal linking, URL optimisation, image SEO, and technical page enhancements.'
+                            ],
+                            [
+                                'q' => 'Can on-page SEO improve Google rankings?',
+                                'a' => 'Yes, properly optimized pages can improve keyword rankings, organic traffic, and overall website performance.'
+                            ],
+                            [
+                                'q' => 'Do you optimise website content?',
+                                'a' => 'Yes, we optimize website content, headings, metadata, and page structure to improve SEO performance and user experience.'
+                            ],
+                            [
+                                'q' => 'Do you provide on-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering keyword rankings, page optimisation, website performance, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+
+
         ],
 
         'off-page-seo' => [
@@ -2707,6 +10698,899 @@ class LocationSeoController extends Controller
                 'meta_title' => 'Off-Page SEO Agency in Ilford | Link Building Experts',
                 'meta_description' => 'Off-page SEO services in Ilford to build backlinks, improve domain authority, and increase rankings, traffic, and online visibility for your business.',
             ],
+            'stratford' => [
+                'meta_title' => 'Off-Page SEO Services Stratford | Link Building Agency',
+
+                'meta_description' => 'Off-page SEO services in Stratford focused on quality backlinks, authority building, outreach and organic ranking growth for businesses online today near.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Off-Page SEO Services Stratford | Professional Link Building & SEO Solutions',
+                        'subtitle' => 'Improving your website authority and search rankings can be simple and results-driven with the right off-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Off-Page SEO Agency in Stratford',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional off-page SEO services in Stratford, helping businesses improve website authority, search engine rankings, and organic traffic through strategic off-page optimisation. We deliver complete off-page SEO solutions including link building, digital outreach, citation management, brand mentions, content promotion, and authority-building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Authority? We Make It Easy',
+
+                        'description' => 'Managing off-page SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your off-page SEO strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Off-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Authority Link Building',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Digital Outreach Campaigns',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Citation Building Services',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Off-Page SEO Services',
+
+                        'description' => 'Looking to improve your search rankings and domain authority? We provide tailored off-page SEO solutions designed to help businesses build trust, improve visibility, and increase organic search performance.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Off-Page SEO Services in Stratford',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different SEO goals. That’s why we create tailored off-page SEO strategies designed to maximise authority, search visibility, and organic growth.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'Authority Link Building',
+                            'Guest Posting Services',
+                            'Digital PR & Outreach',
+                            'Citation Building',
+                            'Brand Mention Campaigns',
+                            'Competitor Backlink Analysis',
+                            'Local Citation Management',
+                            'Content Promotion Strategies',
+                            'Reputation Management',
+                            'Referral Traffic Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing off-page SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Off-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, backlink analysis, and competitor insights to ensure your off-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our off-page SEO services include:',
+
+                        'list' => [
+                            'Backlink profile audits',
+                            'Competitor link analysis',
+                            'Authority-building strategies',
+                            'SEO outreach campaigns',
+                            'Performance tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better authority, increased traffic, and higher rankings.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Off-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective off-page SEO services in Stratford? Cloud Technologies Ltd offers flexible and scalable off-page SEO solutions tailored to your business goals and SEO strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable off-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making off-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your SEO growth partner, focused on delivering high-performing off-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Stratford and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is off-page SEO?',
+                                'a' => 'Off-page SEO refers to activities outside your website that help improve search engine rankings, authority, and online visibility.'
+                            ],
+                            [
+                                'q' => 'Why is off-page SEO important?',
+                                'a' => 'Off-page SEO helps build website authority, trust, backlinks, and search engine credibility, which can improve rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'What does off-page SEO include?',
+                                'a' => 'Off-page SEO includes link building, digital outreach, citation management, guest posting, brand mentions, and reputation management.'
+                            ],
+                            [
+                                'q' => 'Can off-page SEO improve Google rankings?',
+                                'a' => 'Yes, high-quality backlinks and authority-building strategies can improve search rankings and website credibility over time.'
+                            ],
+                            [
+                                'q' => 'Do you provide link building services?',
+                                'a' => 'Yes, we provide ethical white-hat link building services focused on improving authority and organic search performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide off-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering backlink growth, authority improvements, rankings, and SEO campaign performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'harrow' => [
+                'meta_title' => 'Off-Page SEO Services Harrow | Link Building Agency',
+                'meta_description' => 'Off-page SEO services in Harrow focused on quality backlinks, authority building, outreach and organic ranking growth for businesses online today near you.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Off-Page SEO Services Harrow | Professional Link Building & SEO Solutions',
+                        'subtitle' => 'Improving your website authority and search rankings can be simple and results-driven with the right off-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Off-Page SEO Agency in Harrow',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional off-page SEO services in Harrow, helping businesses improve website authority, search engine rankings, and organic traffic through strategic off-page optimisation. We deliver complete off-page SEO solutions including link building, digital outreach, citation management, brand mentions, content promotion, and authority-building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Authority? We Make It Easy',
+
+                        'description' => 'Managing off-page SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your off-page SEO strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Off-Page SEO Services at a Glance',
+                        'items' => [
+                            [
+                                'title' => 'Authority Link Building',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Digital Outreach Campaigns',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Citation Building Services',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Off-Page SEO Services',
+
+                        'description' => 'Looking to improve your search rankings and domain authority? We provide tailored off-page SEO solutions designed to help businesses build trust, improve visibility, and increase organic search performance.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Off-Page SEO Services in Harrow',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different SEO goals. That’s why we create tailored off-page SEO strategies designed to maximise authority, search visibility, and organic growth.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'Authority Link Building',
+                            'Guest Posting Services',
+                            'Digital PR & Outreach',
+                            'Citation Building',
+                            'Brand Mention Campaigns',
+                            'Competitor Backlink Analysis',
+                            'Local Citation Management',
+                            'Content Promotion Strategies',
+                            'Reputation Management',
+                            'Referral Traffic Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing off-page SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Off-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, backlink analysis, and competitor insights to ensure your off-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our off-page SEO services include:',
+
+                        'list' => [
+                            'Backlink profile audits',
+                            'Competitor link analysis',
+                            'Authority-building strategies',
+                            'SEO outreach campaigns',
+                            'Performance tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better authority, increased traffic, and higher rankings.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Off-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective off-page SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable off-page SEO solutions tailored to your business goals and SEO strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable off-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making off-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your SEO growth partner, focused on delivering high-performing off-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Harrow and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is off-page SEO?',
+                                'a' => 'Off-page SEO refers to activities outside your website that help improve search engine rankings, authority, and online visibility.'
+                            ],
+
+                            [
+                                'q' => 'Why is off-page SEO important?',
+                                'a' => 'Off-page SEO helps build website authority, trust, backlinks, and search engine credibility, which can improve rankings and organic traffic.'
+                            ],
+
+                            [
+                                'q' => 'What does off-page SEO include?',
+                                'a' => 'Off-page SEO includes link building, digital outreach, citation management, guest posting, brand mentions, and reputation management.'
+                            ],
+
+                            [
+                                'q' => 'Can off-page SEO improve Google rankings?',
+                                'a' => 'Yes, high-quality backlinks and authority-building strategies can improve search rankings and website credibility over time.'
+                            ],
+
+                            [
+                                'q' => 'Do you provide link building services?',
+                                'a' => 'Yes, we provide ethical white-hat link building services focused on improving authority and organic search performance.'
+                            ],
+
+                            [
+                                'q' => 'Do you provide off-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering backlink growth, authority improvements, rankings, and SEO campaign performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'collier-row' => [
+                'meta_title' => 'Off-Page SEO Services Collier Row | Link Building Agency',
+                'meta_description' => 'Off-page SEO services in Collier Row focused on quality backlinks, authority building, outreach and organic ranking growth for businesses online today near you.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Off-Page SEO Services Collier Row | Professional Link Building & SEO Solutions',
+                        'subtitle' => 'Improving your website authority and search rankings can be simple and results-driven with the right off-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Off-Page SEO Agency in Collier Row',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional off-page SEO services in Collier Row, helping businesses improve website authority, search engine rankings, and organic traffic through strategic off-page optimisation. We deliver complete off-page SEO solutions including link building, digital outreach, citation management, brand mentions, content promotion, and authority-building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Authority? We Make It Easy',
+                        'description' => 'Managing off-page SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your off-page SEO strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Off-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Authority Link Building',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Digital Outreach Campaigns',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Citation Building Services',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Off-Page SEO Services',
+                        'description' => 'Looking to improve your search rankings and domain authority? We provide tailored off-page SEO solutions designed to help businesses build trust, improve visibility, and increase organic search performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Off-Page SEO Services in Collier Row',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different SEO goals. That’s why we create tailored off-page SEO strategies designed to maximise authority, search visibility, and organic growth.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'Authority Link Building',
+                            'Guest Posting Services',
+                            'Digital PR & Outreach',
+                            'Citation Building',
+                            'Brand Mention Campaigns',
+                            'Competitor Backlink Analysis',
+                            'Local Citation Management',
+                            'Content Promotion Strategies',
+                            'Reputation Management',
+                            'Referral Traffic Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing off-page SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Off-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, backlink analysis, and competitor insights to ensure your off-page SEO campaigns deliver maximum impact. Our off-page SEO services include:',
+
+                        'list' => [
+                            'Backlink profile audits',
+                            'Competitor link analysis',
+                            'Authority-building strategies',
+                            'SEO outreach campaigns',
+                            'Performance tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better authority, increased traffic, and higher rankings.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Off-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective off-page SEO services in Collier Row?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable off-page SEO solutions tailored to your business goals and SEO strategy.',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable off-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making off-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your SEO growth partner, focused on delivering high-performing off-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Collier Row and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is off-page SEO?',
+                                'a' => 'Off-page SEO refers to activities outside your website that help improve search engine rankings, authority, and online visibility.'
+                            ],
+                            [
+                                'q' => 'Why is off-page SEO important?',
+                                'a' => 'Off-page SEO helps build website authority, trust, backlinks, and search engine credibility, which can improve rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'What does off-page SEO include?',
+                                'a' => 'Off-page SEO includes link building, digital outreach, citation management, guest posting, brand mentions, and reputation management.'
+                            ],
+                            [
+                                'q' => 'Can off-page SEO improve Google rankings?',
+                                'a' => 'Yes, high-quality backlinks and authority-building strategies can improve search rankings and website credibility over time.'
+                            ],
+                            [
+                                'q' => 'Do you provide link building services?',
+                                'a' => 'Yes, we provide ethical white-hat link building services focused on improving authority and organic search performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide off-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering backlink growth, authority improvements, rankings, and SEO campaign performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Off-Page SEO Services Goodmayes | Link Building Agency',
+                'meta_description' => 'Off-page SEO services in Goodmayes focused on quality backlinks, authority building, outreach and organic ranking growth for businesses online today near you.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Off-Page SEO Services Goodmayes | Professional Link Building & Authority Building Solutions',
+                        'subtitle' => 'Building your website authority can be simple and results-driven with the right off-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Off-Page SEO Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional off-page SEO services in Goodmayes, helping businesses improve website authority, search rankings, and organic visibility through strategic link building and brand promotion. We deliver complete off-page SEO solutions including high-quality backlink building, guest posting, digital outreach, citation building, brand mentions, competitor backlink analysis, and authority-building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Higher Google Rankings? We Make It Easy',
+                        'description' => 'Managing off-page SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your off-page strategy is fully optimized, ethical, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Off-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Authority Link Building',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Guest Posting & Outreach',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Citation Building Services',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Off-Page SEO Services',
+                        'description' => 'Looking to improve your website authority and search rankings? We provide tailored off-page SEO solutions designed to help businesses build trust, increase visibility, and improve organic search performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Off-Page SEO Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different SEO goals. That’s why we create tailored off-page SEO strategies designed to maximise authority, rankings, and organic growth.',
+
+                        'sub_intro' => "Whether you're targeting local customers or scaling nationally, we offer:",
+
+                        'list' => [
+                            'High-Quality Link Building',
+                            'Guest Posting Services',
+                            'Digital PR & Outreach Campaigns',
+                            'Brand Mention Building',
+                            'Citation Building',
+                            'Competitor Backlink Analysis',
+                            'Reputation Management Support',
+                            'Content Promotion Strategies',
+                            'Local & National Authority Building',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing off-page SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Off-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools, backlink analysis, and competitor insights to ensure your off-page SEO campaigns deliver maximum impact. Our off-page SEO services include:',
+
+                        'list' => [
+                            'Backlink audits',
+                            'Competitor link analysis',
+                            'Authority-building strategies',
+                            'Outreach campaign execution',
+                            'Performance tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better authority, increased traffic, and higher rankings.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Off-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective off-page SEO services in Goodmayes?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and budget.',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable off-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making off-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing off-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is off-page SEO?',
+                                'a' => 'Off-page SEO refers to activities outside your website that improve search rankings, authority, and trust.'
+                            ],
+                            [
+                                'q' => 'Why is off-page SEO important?',
+                                'a' => 'It helps build backlinks, improve domain authority, and increase your website’s credibility in search engines.'
+                            ],
+                            [
+                                'q' => 'What does off-page SEO include?',
+                                'a' => 'It includes link building, guest posting, digital PR, citation building, and brand mentions.'
+                            ],
+                            [
+                                'q' => 'Can off-page SEO improve rankings?',
+                                'a' => 'Yes, high-quality backlinks and authority signals can significantly improve Google rankings.'
+                            ],
+                            [
+                                'q' => 'Do you provide link building services?',
+                                'a' => 'Yes, we provide ethical white-hat link building and outreach services.'
+                            ],
+                            [
+                                'q' => 'Do you provide off-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering backlinks, authority growth, and SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'Off-Page SEO Services Hainault | Link Building Agency',
+                'meta_description' => 'Off-page SEO services in Hainault focused on quality backlinks, authority building, outreach and organic ranking growth for businesses online today near you.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Off-Page SEO Services Hainault | Professional Link Building & SEO Solutions',
+                        'subtitle' => 'Improving your website authority and search rankings can be simple and results-driven with the right off-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Off-Page SEO Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional off-page SEO services in Hainault, helping businesses improve website authority, search engine rankings, and organic traffic through strategic off-page optimisation. We deliver complete off-page SEO solutions including link building, digital outreach, citation management, brand mentions, content promotion, and authority-building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Authority? We Make It Easy',
+                        'description' => 'Managing off-page SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your off-page SEO strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Off-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Authority Link Building',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Digital Outreach Campaigns',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Citation Building Services',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Off-Page SEO Services',
+                        'description' => 'Looking to improve your search rankings and domain authority? We provide tailored off-page SEO solutions designed to help businesses build trust, improve visibility, and increase organic search performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Off-Page SEO Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different SEO goals. That’s why we create tailored off-page SEO strategies designed to maximise authority, search visibility, and organic growth.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'Authority Link Building',
+                            'Guest Posting Services',
+                            'Digital PR & Outreach',
+                            'Citation Building',
+                            'Brand Mention Campaigns',
+                            'Competitor Backlink Analysis',
+                            'Local Citation Management',
+                            'Content Promotion Strategies',
+                            'Reputation Management',
+                            'Referral Traffic Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing off-page SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Off-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, backlink analysis, and competitor insights to ensure your off-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our off-page SEO services include:',
+
+                        'list' => [
+                            'Backlink profile audits',
+                            'Competitor link analysis',
+                            'Authority-building strategies',
+                            'SEO outreach campaigns',
+                            'Performance tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better authority, increased traffic, and higher rankings.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Off-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective off-page SEO services in Hainault? Cloud Technologies Ltd offers flexible and scalable off-page SEO solutions tailored to your business goals and SEO strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable off-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making off-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your SEO growth partner, focused on delivering high-performing off-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is off-page SEO?',
+                                'a' => 'Off-page SEO refers to activities outside your website that help improve search engine rankings, authority, and online visibility.'
+                            ],
+                            [
+                                'q' => 'Why is off-page SEO important?',
+                                'a' => 'Off-page SEO helps build website authority, trust, backlinks, and search engine credibility, which can improve rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'What does off-page SEO include?',
+                                'a' => 'Off-page SEO includes link building, digital outreach, citation management, guest posting, brand mentions, and reputation management.'
+                            ],
+                            [
+                                'q' => 'Can off-page SEO improve Google rankings?',
+                                'a' => 'Yes, high-quality backlinks and authority-building strategies can improve search rankings and website credibility over time.'
+                            ],
+                            [
+                                'q' => 'Do you provide link building services?',
+                                'a' => 'Yes, we provide ethical white-hat link building services focused on improving authority and organic search performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide off-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering backlink growth, authority improvements, rankings, and SEO campaign performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+
+
+
+
         ],
         'website-development' => [
             'ilford' => [
@@ -4261,7 +13145,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
     public function nationalSeo(string $locationSlug)
@@ -4271,7 +13156,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.national-seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
     public function internationalSeo(string $locationSlug)
@@ -4281,7 +13167,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.international-seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
 
@@ -4292,7 +13179,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.technical-seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
     public function contentSeo(string $locationSlug)
@@ -4302,7 +13190,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.content-seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
     public function imageSeo(string $locationSlug)
@@ -4312,7 +13201,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.image-seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
     public function localSeo(string $locationSlug)
@@ -4322,7 +13212,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.local-seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
     public function ecommerceSeo(string $locationSlug)
@@ -4332,7 +13223,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.ecommerce-seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
     public function onPageSeo(string $locationSlug)
@@ -4342,7 +13234,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.on-page-seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
 
@@ -4353,7 +13246,8 @@ class LocationSeoController extends Controller
         abort_if(!$page, 404);
 
         return view('web.services.locations-seo.off-page-seo-location', [
-            'page' => $page
+            'page' => $page,
+            'content' => $page['content'] ?? []
         ]);
     }
     public function websiteDevelopment(string $locationSlug)

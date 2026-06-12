@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
     @endpush
     @push('scripts')
+    <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script>
         <script src="{{ asset('assets/services/digitalMarketing/smm/js/script.js') }}" defer></script>
     @endpush
 @section('content')
@@ -520,7 +521,7 @@
                 </p>
             </div>
 
-            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+            <form class="contact-form js-validate-form" method="POST" action="{{ route('contact.submit') }}">
                 @csrf
 
                 {{-- Identifiers --}}

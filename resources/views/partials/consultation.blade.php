@@ -3,7 +3,7 @@
         {{ session('success') }}
     </div>
 @endif
-
+ <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script> 
 @php
     $brandName = $globalCompany?->brand_name ?? 'Cloud Technologies';
     $siteLogoLight = !empty($globalCompany?->logo_light_path) ? asset($globalCompany->logo_light_path) : null;
@@ -213,7 +213,7 @@
             </div>
         </div>
 
-        <form class="ct-modal__form" method="POST" action="{{ route('consultations.store') }}" id="consultationWizardForm">
+        <form class="ct-modal__form js-validate-form" method="POST" action="{{ route('consultations.store') }}" id="consultationWizardForm">
             @csrf
 
             {{-- STEP 1 --}}

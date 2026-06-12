@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
     @endpush
     @push('scripts')
+     <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script> 
         <script src="{{ asset('assets/services/digitalMarketing/js/script.js') }}" defer></script>
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
     @endpush
@@ -420,7 +421,7 @@
                 </p>
             </div>
 
-            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+            <form class="contact-form js-validate-form" method="POST" action="{{ route('contact.submit') }}">
                 @csrf
 
                 {{-- Identifiers --}}

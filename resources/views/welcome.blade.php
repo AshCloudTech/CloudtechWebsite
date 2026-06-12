@@ -10,6 +10,7 @@
     @endpush
     @push('scripts')
         <script src="{{ asset('assets/cloud-home/js/script.js') }}" defer></script>
+        <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script>
     @endpush
 
 @section('content')
@@ -630,7 +631,7 @@
                     <h3 class="cta-card__title">Get Started Today</h3>
                     <p class="cta-card__desc">Fill out the form below and our team will reach out to you.</p>
 
-                    <form class="cta-form" method="POST"
+                    <form class=" cta-form js-validate-form " method="POST" 
                         action="{{ Route::has('contact.send') ? route('contact.send') : (Route::has('contact.submit') ? route('contact.submit') : url('/contact')) }}"
                         novalidate>
                         @csrf
@@ -658,7 +659,7 @@
 
                         <div class="cta-field">
                             <label for="cta_phone">Phone Number</label>
-                            <input id="cta_phone" type="text" name="phone" placeholder="+44 20 1223-4567"
+                            <input id="cta_phone" type="text" name="phone" placeholder="+44 20 1223-4567" maxlength="13"
                                 value="{{ old('phone') }}" />
                         </div>
 
@@ -996,7 +997,7 @@
                 <p>Share a few details and our team will get back to you within one business day.</p>
             </div>
 
-            <form class="contact-form" method="POST" action="{{ route('contact.submit') }}">
+            <form class="contact-form js-validate-form " method="POST" action="{{ route('contact.submit') }}">
                 @csrf
 
                 <input type="hidden" name="form_key" value="home_page">
@@ -1026,20 +1027,20 @@
                     <div class="form-field">
                         <label for="company">Company</label>
                         <input type="text" id="company" name="company" placeholder="Company name"
-                            value="{{ old('company') }}">
+                            value="{{ old('company') }}" required>
                     </div>
 
                     <div class="form-field">
                         <label for="country">Country</label>
                         <input type="text" id="country" name="country" placeholder="United Kingdom"
-                            value="{{ old('country') }}">
+                            value="{{ old('country') }}" required>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-field form-field-full">
                         <label for="message">How can we help?</label>
-                        <textarea id="message" name="message" rows="4"
+                        <textarea id="message" name="message" rows="4" required
                             placeholder="Tell us about your project, goals, and timelines.">{{ old('message') }}</textarea>
                         @error('message')
                             <small class="text-danger">{{ $message }}</small>

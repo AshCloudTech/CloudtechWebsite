@@ -15,6 +15,7 @@
 
     @push('scripts')
         <script src="{{ asset('assets/contact/js/script.js') }}" defer></script>
+        <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script> 
     @endpush
 
 @section('content')
@@ -216,7 +217,7 @@
                 <div class="contactGrid">
 
                     {{-- FORM --}}
-                    <form class="formCard fx-reveal reveal-up" method="POST"
+                    <form class="formCard fx-reveal reveal-up js-validate-form" method="POST" id="simple_contact_form" 
                         action="{{ Route::has('contact.send') ? route('contact.send') : (Route::has('contact.submit') ? route('contact.submit') : url('/contact')) }}"
                         novalidate>
                         @csrf

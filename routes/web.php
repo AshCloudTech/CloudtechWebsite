@@ -216,7 +216,11 @@ Route::get('/meta-ads-service-{locationSlug}', [LocationSeoController::class, 'm
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/seo-service-{locationSlug}', [LocationSeoController::class, 'seo'])
     ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/seo-agency-{locationSlug}', [LocationSeoController::class, 'seo'])
+    ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/national-seo-service-{locationSlug}', [LocationSeoController::class, 'nationalSeo'])
+    ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/international-seo-agency-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/international-seo-service-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
@@ -230,39 +234,59 @@ Route::get('/local-seo-service-{locationSlug}', [LocationSeoController::class, '
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/ecommerce-seo-service-{locationSlug}', [LocationSeoController::class, 'ecommerceSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/ecommerce-seo-agency-{locationSlug}', [LocationSeoController::class, 'ecommerceSeo'])
+    ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/on-page-seo-service-{locationSlug}', [LocationSeoController::class, 'onPageSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/off-page-seo-service-{locationSlug}', [LocationSeoController::class, 'offPageSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/website-development-service-{locationSlug}', [LocationSeoController::class, 'websiteDevelopment'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/woocommerce-website-development-service-{locationSlug}', [LocationSeoController::class, 'woocommerce'])
+Route::get('/website-development-services-{locationSlug}', [LocationSeoController::class, 'websiteDevelopment'])
+    ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/woocommerce-agency-in-{locationSlug}', [LocationSeoController::class, 'woocommerce'])
+    ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/woocommerce-development-services-{locationSlug}', [LocationSeoController::class, 'woocommerce'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/shopify-website-development-service-{locationSlug}', [LocationSeoController::class, 'shopify'])
     ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/shopify-development-services-{locationSlug}', [LocationSeoController::class, 'shopify'])
+    ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/squarespace-website-development-service-{locationSlug}', [LocationSeoController::class, 'squarespace'])
+    ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/squarespace-development-services-{locationSlug}', [LocationSeoController::class, 'squarespace'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/wordpress-website-development-service-{locationSlug}', [LocationSeoController::class, 'wordpress'])
     ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/wordpress-development-services-{locationSlug}', [LocationSeoController::class, 'wordpress'])
+    ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/wix-website-development-service-{locationSlug}', [LocationSeoController::class, 'wix'])
+    ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/wix-development-services-{locationSlug}', [LocationSeoController::class, 'wix'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/godaddy-website-development-{locationSlug}', [LocationSeoController::class, 'godaddy'])
     ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/godaddy-website-builder-services-{locationSlug}', [LocationSeoController::class, 'godaddy'])
+    ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/laravel-website-development-service-{locationSlug}', [LocationSeoController::class, 'laravel'])
+    ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/laravel-development-services-{locationSlug}', [LocationSeoController::class, 'laravel'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/custom-php-website-development-service-{locationSlug}', [LocationSeoController::class, 'customPhp'])
     ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/custom-php-development-services-{locationSlug}', [LocationSeoController::class, 'customPhp'])
+    ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/cloud-health-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudhealth'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-care-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudcare'])
+Route::get('/care-home-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudcare'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-education-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudedu'])
+Route::get('/education-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudedu'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-travel-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudtravel'])
+Route::get('/travel-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudtravel'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-recruitment-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudrecruit'])
+Route::get('/recruitment-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudrecruit'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-public-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudpublic'])
+Route::get('/public-sector-seo-service-in-{locationSlug}', [LocationSeoController::class, 'cloudpublic'])
     ->where('locationSlug', '[a-z0-9-]+');
 /*
 |--------------------------------------------------------------------------

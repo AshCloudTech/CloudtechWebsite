@@ -18,7 +18,21 @@ class ProfileController extends Controller
     {
         return view('profile.edit', [
             'user' => $request->user(),
+            'layout' => $this->resolveLayout($request->user()),
         ]);
+    }
+
+    private function resolveLayout($user): string
+    {
+        if ($user && method_exists($user, 'hasAnyRole') && $user->hasAnyRole(['super-admin', 'admin'])) {
+            return 'layouts.admin';
+        }
+
+        if ($user && method_exists($user, 'hasRole') && $user->hasRole('support')) {
+            return 'layouts.support';
+        }
+
+        return 'layouts.admin';
     }
 
     /**

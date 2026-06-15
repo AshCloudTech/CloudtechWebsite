@@ -26,6 +26,15 @@ class DatabaseSeeder extends Seeder
             $super->assignRole('super-admin');
         }
 
+        $support = User::factory()->create([
+            'name' => 'Support User',
+            'email' => 'support@example.com',
+        ]);
+
+        if (method_exists($support, 'assignRole')) {
+            $support->assignRole('support');
+        }
+
         $user = User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
@@ -34,5 +43,7 @@ class DatabaseSeeder extends Seeder
         if (method_exists($user, 'assignRole')) {
             $user->assignRole('user');
         }
+
+        $this->call(BlogPostSeeder::class);
     }
 }

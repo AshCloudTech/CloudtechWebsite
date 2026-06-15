@@ -124,6 +124,12 @@
                 <p>
                     © {{ now()->year }} Made with <span class="heart" aria-hidden="true">❤️</span>
                 </p>
+
+                @guest
+                    @if (Route::has('login'))
+                        <a href="{{ route('login') }}" class="footer-login-link">Login</a>
+                    @endif
+                @endguest
             </div>
 
         </div>

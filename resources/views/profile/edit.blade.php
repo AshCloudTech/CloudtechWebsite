@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends($layout ?? 'layouts.admin')
 
 @section('title', 'My Profile')
 @section('page_title', 'My Profile')

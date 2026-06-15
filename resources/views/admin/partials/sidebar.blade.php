@@ -62,6 +62,13 @@
                 href="{{ route('admin.audit-logs.index') }}">
                 <span class="dot"></span><span>Audit Logs</span>
             </a>
+
+            @if (Route::has('support.dashboard'))
+                <a class="{{ request()->routeIs('support.*') ? 'active' : '' }}"
+                    href="{{ route('support.dashboard') }}">
+                    <span class="dot"></span><span>Support Console</span>
+                </a>
+            @endif
         </nav>
     </div>
 

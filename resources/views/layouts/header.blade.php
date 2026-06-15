@@ -331,6 +331,13 @@
                     </li>
 
                     <li>
+                        <a href="{{ route('blog.index') }}"
+                            class="{{ request()->routeIs('blog.*') ? 'active' : '' }}">
+                            Blog
+                        </a>
+                    </li>
+
+                    <li>
                         <a href="{{ route('contact.us') }}"
                             class="{{ request()->routeIs('contact.us') ? 'active' : '' }}">
                             Contact Us

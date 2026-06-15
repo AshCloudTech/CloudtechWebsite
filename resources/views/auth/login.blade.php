@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sign in • CloudTech Admin</title>
+    <title>Sign in • CloudTech Console</title>
 
 
     {{-- A) If your CSS/JS are in public/assets/... --}}
@@ -22,13 +22,13 @@
                 <div style="display:flex; align-items:center; gap:12px;">
                     <div class="logoMark"></div>
                     <div>
-                        <div style="font-weight:800; letter-spacing:.2px;">CloudTech Admin</div>
-                        <div style="color:var(--muted); font-size:12px;">Secure access • RBAC • Audit • Impersonation</div>
+                        <div style="font-weight:800; letter-spacing:.2px;">CloudTech Console</div>
+                        <div style="color:var(--muted); font-size:12px;">Admin &amp; Support access • RBAC • Secure login</div>
                     </div>
                 </div>
 
                 <h1 style="margin-top:18px;">Sign in</h1>
-                <p>Use your admin account to access CloudTech Console.</p>
+                <p>Sign in with your admin or support account.</p>
 
                 {{-- Session status (Breeze) --}}
                 @if (session('status'))
@@ -50,7 +50,7 @@
                     <div class="logoMark"></div>
                     <div>
                         <div style="font-weight:800; letter-spacing:.2px;">CloudTech</div>
-                        <div style="color:var(--muted); font-size:12px;">Admin Console</div>
+                        <div style="color:var(--muted); font-size:12px;">Admin &amp; Support</div>
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@
             </div>
 
             <h2>Sign in</h2>
-            <p>Use your admin account to access CloudTech Console.</p>
+            <p>Sign in with your admin or support account.</p>
 
             <form method="POST" action="{{ route('login') }}">
                 @csrf
@@ -117,10 +117,6 @@
 
                 <div class="authActions">
                     <div style="display:flex; gap:10px; flex-wrap:wrap;">
-                        @if (Route::has('register'))
-                            <a class="link" href="{{ route('register') }}">Create account</a>
-                        @endif
-
                         @if (Route::has('password.request'))
                             <a class="link" href="{{ route('password.request') }}">Forgot password?</a>
                         @endif

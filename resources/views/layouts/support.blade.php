@@ -1,4 +1,4 @@
-{{-- resources/views/layouts/admin.blade.php --}}
+{{-- resources/views/layouts/support.blade.php --}}
 <!doctype html>
 <html lang="en" data-theme="dark">
 <head>
@@ -9,13 +9,12 @@
     $faviconUrl = (!empty($globalCompany?->favicon_path) && file_exists(public_path($globalCompany->favicon_path)))
         ? asset($globalCompany->favicon_path)
         : asset('assets/images/favicon.png');
-@endphp
+    @endphp
 
 <link rel="icon" href="{{ $faviconUrl }}" type="image/png">
-<title>@yield('title', 'Dashboard') • {{ $globalCompany?->brand_name ?? 'CloudTech' }} Admin</title>
+<title>@yield('title', 'Dashboard') • {{ $globalCompany?->brand_name ?? 'CloudTech' }} Support</title>
 
-
-    {{-- Admin UI assets (kept separate from public site assets) --}}
+    {{-- Admin UI assets (shared with admin panel) --}}
     <link rel="stylesheet" href="{{ asset('assets/admin/css/style.css') }}">
 
     {{-- Optional per-page head additions --}}
@@ -23,14 +22,14 @@
 </head>
 
 <body>
-<div class="app" data-sidebar-context="admin">
-    @include('admin.partials.sidebar')
+<div class="app" data-sidebar-context="support">
+    @include('support.partials.sidebar')
 
     <main class="main">
         <div class="container">
             @include('admin.partials.topbar')
 
-            {{-- Flash messages (optional) --}}
+            {{-- Flash messages --}}
             @if (session('success'))
                 <div class="card" style="margin-bottom:14px; border:1px solid rgba(0, 255, 13, 0.7);">
                     <div class="cardBody">

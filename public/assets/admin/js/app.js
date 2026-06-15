@@ -147,7 +147,9 @@
 // Admin sidebar
 
 (function () {
-    const storageKey = "adminSidebarOpenGroups";
+    const context =
+        document.querySelector(".app")?.dataset.sidebarContext || "admin";
+    const storageKey = `${context}SidebarOpenGroups`;
 
     function getState() {
         try {

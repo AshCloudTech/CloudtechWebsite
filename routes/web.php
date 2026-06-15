@@ -39,10 +39,9 @@ use App\Http\Controllers\Web\ConsultationController;
 use App\Http\Controllers\Admin\BusinessResultController;
 use App\Http\Controllers\Web\AuditLeadController;
 use App\Http\Controllers\Web\LocationSeoController;
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+use App\Http\Controllers\Web\BlogController;
+use App\Http\Controllers\Support\SupportDashboardController;
+use App\Http\Controllers\Support\BlogPostController;
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -74,6 +73,10 @@ Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('p
 Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 Route::post('/consultations', [ConsultationController::class, 'store'])->name('consultations.store');
 Route::post('/audit-leads', [AuditLeadController::class, 'store'])->name('audit-leads.store');
+
+// Blog public routes
+Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
+Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
 
 /*
 |--------------------------------------------------------------------------
@@ -411,6 +414,15 @@ Route::middleware(['auth', 'verified'])->group(function () {
             });
 
             Route::resource('business-results', BusinessResultController::class);
+        });
+
+    // Support dashboard routes
+    Route::prefix('support')
+        ->name('support.')
+        ->middleware(['role:super-admin|admin|support'])
+        ->group(function () {
+            Route::get('/dashboard', [SupportDashboardController::class, 'index'])->name('dashboard');
+            Route::resource('blogs', BlogPostController::class)->except(['show']);
         });
 });
 

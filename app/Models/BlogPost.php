@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 
 class BlogPost extends Model
@@ -73,5 +74,36 @@ class BlogPost extends Model
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
+    }
+
+    /**
+     * Public URL for the featured image, or null when missing.
+     */
+    public function featuredImageUrl(): ?string
+    {
+        if (blank($this->featured_image)) {
+            return null;
+        }
+
+        $path = $this->featured_image;
+
+        if (Str::startsWith($path, ['http://', 'https://'])) {
+            return $path;
+        }
+
+        $relative = ltrim($path, '/');
+
+        if (file_exists(public_path($relative))) {
+            return asset($relative);
+        }
+
+        if (str_starts_with($relative, 'storage/')) {
+            $diskPath = Str::after($relative, 'storage/');
+            if (Storage::disk('public')->exists($diskPath)) {
+                return asset($relative);
+            }
+        }
+
+        return null;
     }
 }

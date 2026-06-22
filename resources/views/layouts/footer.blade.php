@@ -17,12 +17,12 @@
                         @if ($footerLogoLight || $footerLogoDark)
                             @if ($footerLogoLight)
                                 <img class="footer-site-logo footer-site-logo--light" src="{{ $footerLogoLight }}"
-                                    alt="{{ $brandName }} logo">
+                                    alt="{{ $brandName }} logo" decoding="async">
                             @endif
 
                             @if ($footerLogoDark)
                                 <img class="footer-site-logo footer-site-logo--dark" src="{{ $footerLogoDark }}"
-                                    alt="{{ $brandName }} logo">
+                                    alt="{{ $brandName }} logo" decoding="async">
                             @endif
                         @else
                             <span class="logo-mark">CT</span>
@@ -40,7 +40,7 @@
 
             <div class="footer-columns">
                 <div class="footer-column">
-                    <h4>Our Industries</h4>
+                    <p class="footer-column-title">Our Industries</p>
                     <ul>
                         <li><a href="{{ route('industries.cloudhealth') }}">CloudHealth</a></li>
                         <li><a href="{{ route('industries.cloudcare') }}">CloudCare</a></li>
@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="footer-column">
-                    <h4>Company</h4>
+                    <p class="footer-column-title">Company</p>
                     <ul>
                         <li><a href="{{ route('about.us') }}">About Us</a></li>
                         <li><a href="{{ route('pricing') }}">Pricing</a></li>
@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="footer-column">
-                    <h4>Stay Connected</h4>
+                    <p class="footer-column-title">Stay Connected</p>
 
                     @php
                         $socialLinks =

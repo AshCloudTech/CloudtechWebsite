@@ -1,13 +1,4 @@
 // Mobile navigation toggle
-const navToggle = document.querySelector('.nav-toggle');
-const mainNav = document.querySelector('.main-nav');
-
-if (navToggle && mainNav) {
-    navToggle.addEventListener('click', () => {
-        mainNav.classList.toggle('open');
-    });
-}
-
 // Highlight nav item on scroll
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.main-nav a');

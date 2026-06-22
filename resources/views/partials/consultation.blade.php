@@ -3,7 +3,7 @@
         {{ session('success') }}
     </div>
 @endif
- <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script> 
+
 @php
     $brandName = $globalCompany?->brand_name ?? 'Cloud Technologies';
     $siteLogoLight = !empty($globalCompany?->logo_light_path) ? asset($globalCompany->logo_light_path) : null;
@@ -225,8 +225,8 @@
                     </div>
 
                     <div class="ct-field">
-                        <label for="email">Email Address <span class="req">*</span></label>
-                        <input id="email" name="email" type="email" required value="{{ old('email') }}" placeholder="john@example.com">
+                        <label for="consultation_email">Email Address <span class="req">*</span></label>
+                        <input id="consultation_email" name="email" type="email" required value="{{ old('email') }}" placeholder="john@example.com" autocomplete="email">
                     </div>
 
                     <div class="ct-field">

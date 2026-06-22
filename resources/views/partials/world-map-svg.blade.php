@@ -1,4 +1,4 @@
-<svg class="worldMap__svg" id="worldMapSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1008 651" role="img">
+<svg class="worldMap__svg" id="worldMapSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1008 651" role="img" aria-labelledby="worldMapCaption">
 
 
     <path id="AE" title="United Arab Emirates"

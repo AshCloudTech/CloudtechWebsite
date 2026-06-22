@@ -16,11 +16,7 @@
 @section('content')
 
     @php
-        $heroImg = filled($post->featured_image)
-            ? (\Illuminate\Support\Str::startsWith($post->featured_image, ['http://', 'https://'])
-                ? $post->featured_image
-                : asset($post->featured_image))
-            : asset('assets/images/seo/seo-cloudtech.webp');
+        $heroImg = $post->featuredImageUrl() ?? asset('assets/images/seo/seo-cloudtech.webp');
     @endphp
 
     <main class="csd blog-detail">
@@ -79,9 +75,7 @@
                     <div class="grid blog-grid-ui">
                         @foreach($relatedPosts as $related)
                             @php
-                                $relatedImg = filled($related->featured_image)
-                                    ? asset($related->featured_image)
-                                    : asset('assets/images/seo/seo-cloudtech.webp');
+                                $relatedImg = $related->featuredImageUrl() ?? asset('assets/images/seo/seo-cloudtech.webp');
                             @endphp
                             <article class="caseCardUI">
                                 <a class="caseCardUI__img" href="{{ route('blog.show', $related->slug) }}">

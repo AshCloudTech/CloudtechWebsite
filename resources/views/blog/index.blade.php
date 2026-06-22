@@ -51,12 +51,7 @@
                 <div class="grid blog-grid-ui">
                     @foreach($posts as $post)
                         @php
-                            $imgPath = $post->featured_image;
-                            $imgUrl = $imgPath
-                                ? (\Illuminate\Support\Str::startsWith($imgPath, ['http://', 'https://'])
-                                    ? $imgPath
-                                    : asset($imgPath))
-                                : asset('assets/images/seo/seo-cloudtech.webp');
+                            $imgUrl = $post->featuredImageUrl() ?? asset('assets/images/seo/seo-cloudtech.webp');
                         @endphp
 
                         <article class="caseCardUI fx-reveal">

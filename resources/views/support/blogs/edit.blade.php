@@ -56,9 +56,9 @@
 
             <div class="field">
                 <label for="featured_image">Featured Image</label>
-                @if($blog->featured_image)
+                @if($blog->featuredImageUrl())
                     <div style="margin-bottom:8px;">
-                        <img src="{{ asset($blog->featured_image) }}" alt="Current image"
+                        <img src="{{ $blog->featuredImageUrl() }}" alt="Current image"
                              style="max-width:200px; max-height:120px; border-radius:8px; object-fit:cover;">
                         <div class="hint" style="margin-top:4px;">Current image — upload a new one to replace</div>
                     </div>

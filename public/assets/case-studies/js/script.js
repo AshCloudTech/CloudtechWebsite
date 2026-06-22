@@ -1,8 +1,3 @@
-// Mobile Nav Toggle
-const toggle=document.querySelector('.nav-toggle');
-const nav=document.querySelector('.main-nav');
-if(toggle){ toggle.addEventListener('click',()=>nav.classList.toggle('open')); }
-
 // tab script
 document.querySelectorAll('.filter').forEach(button => {
     button.addEventListener('click', () => {

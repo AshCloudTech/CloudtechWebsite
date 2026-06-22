@@ -22,12 +22,12 @@
                     @if ($siteLogoLight || $siteLogoDark)
                         @if ($siteLogoLight)
                             <img class="site-logo site-logo--light" src="{{ $siteLogoLight }}"
-                                alt="{{ $brandName }} logo">
+                                alt="{{ $brandName }} logo" decoding="async">
                         @endif
 
                         @if ($siteLogoDark)
                             <img class="site-logo site-logo--dark" src="{{ $siteLogoDark }}"
-                                alt="{{ $brandName }} logo">
+                                alt="{{ $brandName }} logo" decoding="async">
                         @endif
                     @else
                         <span class="logo-mark">CT</span>
@@ -348,11 +348,18 @@
 
 
             <script>
-                document.addEventListener('DOMContentLoaded', () => {
-                    if (window.lucide) lucide.createIcons();
+                document.addEventListener('DOMContentLoaded', function () {
+                    if (!document.querySelector('[data-lucide]')) return;
+
+                    var script = document.createElement('script');
+                    script.src = 'https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js';
+                    script.defer = true;
+                    script.onload = function () {
+                        if (window.lucide) window.lucide.createIcons();
+                    };
+                    document.head.appendChild(script);
                 });
             </script>
-            <script src="https://unpkg.com/lucide@latest" defer></script>
             <style>
                 .header-cta {
                     display: inline-flex;

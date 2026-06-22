@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Support;
 use App\Http\Controllers\Controller;
 use App\Models\BlogPost;
 use Illuminate\Http\Request;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
 
 class BlogPostController extends Controller
@@ -77,8 +78,9 @@ class BlogPostController extends Controller
 
         // Handle featured image upload
         if ($request->hasFile('featured_image')) {
-            $path = $request->file('featured_image')->store('blog', 'public');
-            $data['featured_image'] = 'storage/' . $path;
+            $data['featured_image'] = $this->uploadFeaturedImage(
+                $request->file('featured_image')
+            );
         }
 
         BlogPost::create($data);
@@ -135,12 +137,10 @@ class BlogPostController extends Controller
 
         // Handle featured image upload
         if ($request->hasFile('featured_image')) {
-            // Delete old image if exists
-            if ($blog->featured_image && file_exists(public_path($blog->featured_image))) {
-                unlink(public_path($blog->featured_image));
-            }
-            $path = $request->file('featured_image')->store('blog', 'public');
-            $data['featured_image'] = 'storage/' . $path;
+            $this->deleteFeaturedImage($blog->featured_image);
+            $data['featured_image'] = $this->uploadFeaturedImage(
+                $request->file('featured_image')
+            );
         }
 
         $blog->update($data);
@@ -155,15 +155,49 @@ class BlogPostController extends Controller
      */
     public function destroy(BlogPost $blog)
     {
-        // Remove featured image
-        if ($blog->featured_image && file_exists(public_path($blog->featured_image))) {
-            unlink(public_path($blog->featured_image));
-        }
+        $this->deleteFeaturedImage($blog->featured_image);
 
         $blog->delete();
 
         return redirect()
             ->route('support.blogs.index')
             ->with('success', 'Blog post deleted successfully.');
+    }
+
+    private function uploadFeaturedImage(UploadedFile $file): string
+    {
+        $dir = public_path('assets/blog');
+
+        if (! is_dir($dir)) {
+            mkdir($dir, 0755, true);
+        }
+
+        $ext = strtolower($file->getClientOriginalExtension() ?: $file->extension() ?: 'jpg');
+        $fileName = 'blog_' . time() . '_' . uniqid() . '.' . $ext;
+        $file->move($dir, $fileName);
+
+        return 'assets/blog/' . $fileName;
+    }
+
+    private function deleteFeaturedImage(?string $path): void
+    {
+        if (blank($path) || Str::startsWith($path, ['http://', 'https://'])) {
+            return;
+        }
+
+        $relative = ltrim($path, '/');
+        $fullPath = public_path($relative);
+
+        if (is_file($fullPath)) {
+            @unlink($fullPath);
+            return;
+        }
+
+        if (str_starts_with($relative, 'storage/')) {
+            $diskPath = Str::after($relative, 'storage/');
+            if (\Illuminate\Support\Facades\Storage::disk('public')->exists($diskPath)) {
+                \Illuminate\Support\Facades\Storage::disk('public')->delete($diskPath);
+            }
+        }
     }
 }

@@ -1,42 +1,27 @@
-// Mobile navigation toggle
-const navToggle = document.querySelector('.nav-toggle');
-const mainNav = document.querySelector('.main-nav');
+(() => {
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.main-nav a');
 
-if (navToggle && mainNav) {
-    navToggle.addEventListener('click', () => {
-        mainNav.classList.toggle('open');
-    });
-}
-
-// Optional: highlight nav item on scroll (simple version)
-const sections = document.querySelectorAll('section[id]');
-const navLinks = document.querySelectorAll('.main-nav a');
-
-function updateActiveNav() {
+  const updateActiveNav = () => {
     let currentId = null;
 
-    sections.forEach(section => {
-        const rect = section.getBoundingClientRect();
-        if (rect.top <= 120 && rect.bottom >= 120) {
-            currentId = section.id;
-        }
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= 120 && rect.bottom >= 120) {
+        currentId = section.id;
+      }
     });
 
-    navLinks.forEach(link => {
-        const href = link.getAttribute('href') || '';
-        const id = href.startsWith('#') ? href.substring(1) : null;
-        if (id && id === currentId) {
-            link.classList.add('active');
-        } else {
-            link.classList.remove('active');
-        }
+    navLinks.forEach((link) => {
+      const href = link.getAttribute('href') || '';
+      const id = href.startsWith('#') ? href.substring(1) : null;
+      link.classList.toggle('active', Boolean(id && id === currentId));
     });
-}
+  };
 
-window.addEventListener('scroll', updateActiveNav);
-window.addEventListener('load', updateActiveNav);
-
-
+  window.addEventListener('scroll', updateActiveNav, { passive: true });
+  window.addEventListener('load', updateActiveNav);
+})();
 
 (() => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

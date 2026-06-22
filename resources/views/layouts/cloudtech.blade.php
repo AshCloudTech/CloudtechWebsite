@@ -65,6 +65,8 @@
     <!-- Google Search Console -->
     <meta name="google-site-verification" content="rxQnU-7ZRd02KJKnFK-2P3jP4xk0WI2QDEhf1NCogz8" />
 
+    @stack('head_preloads')
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFQG0JPV04"></script>
     <script>
@@ -78,6 +80,9 @@
     </script>
 
     @yield('meta_tags')
+
+    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     @stack('styles')
 
     <link rel="stylesheet" href="{{ asset('assets/audit/audit-modal.css') }}">
@@ -102,9 +107,11 @@
         <div id="global-flash-error" data-message="{{ session('error') }}"></div>
     @endif
 
-    @stack('scripts')
+    <script src="{{ asset('assets/js/site-nav.js') }}" defer></script>
 
+    @stack('scripts')
     <script src="{{ asset('assets/js/forms-global.js') }}" defer></script>
+    <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script>
     <script src="{{ asset('assets/audit/audit-modal.js') }}" defer></script>
 
     @include('partials.audit-modal')
@@ -115,8 +122,10 @@
             <strong>We’re Online</strong><br>
             Chat With Us Now
         </span>
-        <span class="whatsapp-icon">
-            <i data-lucide="message-circle"></i>
+        <span class="whatsapp-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path d="M20.5 3.5A11 11 0 0 0 3.4 19.6L2 22l2.5-.7A11 11 0 0 0 20.5 3.5zM12 20a9 9 0 0 1-4.6-1.3l-.3-.2-2.7.7.7-2.6-.2-.3A9 9 0 1 1 12 20zm5-6.3c-.3-.1-1.7-.8-2-.9s-.5-.1-.7.1-.8.9-1 .9-.4.1-.7-.1a7.4 7.4 0 0 1-2.2-1.4 8.2 8.2 0 0 1-1.5-2c-.2-.3 0-.5.1-.6l.4-.5c.1-.2.1-.4 0-.6s-.7-1.6-.9-2.1c-.2-.6-.5-.5-.7-.5H6.4c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.3 2.4 3.7 5.9 5c.8.3 1.5.5 2 .6.8.3 1.6.2 2.2.1.7-.1 1.7-.7 2-1.4s.3-1.3.2-1.4-.3-.2-.6-.3z"/>
+            </svg>
         </span>
     </a>
 

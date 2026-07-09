@@ -1,4 +1,46 @@
 (() => {
+  const heroVideo = document.querySelector('.hero-video-fullscreen');
+  const header = document.querySelector('.site-header');
+  const video = heroVideo?.querySelector('.hero-video');
+  const desktopMq = window.matchMedia('(min-width: 769px)');
+
+  const setHeroVideoSource = () => {
+    if (!video) return;
+
+    const nextSrc = desktopMq.matches
+      ? video.dataset.desktopSrc
+      : video.dataset.mobileSrc;
+
+    if (!nextSrc || video.dataset.currentSrc === nextSrc) return;
+
+    video.dataset.currentSrc = nextSrc;
+    video.src = nextSrc;
+    video.load();
+    video.play().catch(() => {});
+  };
+
+  if (heroVideo && header) {
+    const syncHeaderHeight = () => {
+      document.documentElement.style.setProperty('--header-height', `${header.offsetHeight}px`);
+    };
+
+    const updateHeaderState = () => {
+      syncHeaderHeight();
+      const threshold = Math.max(heroVideo.offsetHeight - header.offsetHeight, 0);
+      header.classList.toggle('is-scrolled', window.scrollY > threshold);
+    };
+
+    setHeroVideoSource();
+    desktopMq.addEventListener('change', setHeroVideoSource);
+
+    window.addEventListener('scroll', updateHeaderState, { passive: true });
+    window.addEventListener('resize', updateHeaderState);
+    window.addEventListener('load', updateHeaderState);
+    updateHeaderState();
+  }
+})();
+
+(() => {
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.main-nav a');
 

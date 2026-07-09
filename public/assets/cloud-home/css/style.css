@@ -378,11 +378,99 @@ button {
     overflow: hidden;
 }
 
-.hero-bg img {
+.hero-bg img,
+.hero-bg video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
+    display: block;
+}
+
+.hero.hero-video-fullscreen {
+    padding: 0;
+    margin-top: var(--header-height, 72px);
+    min-height: calc(100vh - var(--header-height, 72px));
+    min-height: calc(100dvh - var(--header-height, 72px));
+    height: calc(100vh - var(--header-height, 72px));
+    height: calc(100dvh - var(--header-height, 72px));
+    isolation: isolate;
+    z-index: 1;
+}
+
+.hero.hero-video-fullscreen .hero-bg {
+    z-index: 0;
+}
+
+body:has(.hero-video-fullscreen) main > .section,
+body:has(.hero-video-fullscreen) main > .section-alt,
+body:has(.hero-video-fullscreen) main > .global-section,
+body:has(.hero-video-fullscreen) main > .process-section,
+body:has(.hero-video-fullscreen) main > .cta-section,
+body:has(.hero-video-fullscreen) main > .cta-sectionconsult {
+    position: relative;
+    z-index: 2;
+}
+
+body:has(.hero-video-fullscreen) main > .section,
+body:has(.hero-video-fullscreen) main > .cta-sectionconsult {
+    background-color: #f5f6fb;
+}
+
+body:has(.hero-video-fullscreen) main > .section-alt {
+    background-color: #f0f2fa;
+}
+
+/* Transparent header overlay on fullscreen video hero */
+body:has(.hero-video-fullscreen) .site-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(6, 10, 32, 0.88);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background 0.25s ease, backdrop-filter 0.25s ease, border-color 0.25s ease;
+}
+
+body:has(.hero-video-fullscreen) .site-header .main-nav a {
+    color: #ffffff;
+}
+
+body:has(.hero-video-fullscreen) .site-header .main-nav a:hover,
+body:has(.hero-video-fullscreen) .site-header .main-nav a.active {
+    color: #ff8502;
+}
+
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .site-logo--light {
+    display: block;
+}
+
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .site-logo--dark {
+    display: none;
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .main-nav a {
+    color: #000000;
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .main-nav a:hover,
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .main-nav a.active {
+    color: #ff8502;
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .site-logo--light {
+    display: none;
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .site-logo--dark {
+    display: block;
 }
 
 
@@ -392,7 +480,7 @@ button {
     background: radial-gradient(circle at top left, rgba(255, 166, 77, 0.65), transparent 55%),
                 radial-gradient(circle at bottom right, rgba(0, 94, 255, 0.65), transparent 50%),
                 linear-gradient(to bottom, rgba(6, 10, 32, 0.9), #050714);
-    z-index: -3;
+    z-index: -1;
 }
 
 .hero-content {
@@ -1042,7 +1130,7 @@ button {
 
     }
 
-    .hero {
+    .hero:not(.hero-video-fullscreen) {
         padding-top: 30px;
     }
 

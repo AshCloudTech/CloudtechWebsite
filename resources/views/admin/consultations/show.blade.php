@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 @section('title', 'Consultation #' . $consultation->id)
 @section('page_title', 'Consultation #' . $consultation->id)
 @section('content')
@@ -8,7 +8,7 @@
       <h3>Consultation #{{ $consultation->id }}</h3>
       <p>{{ $consultation->full_name }} • {{ $consultation->company_name }}</p>
     </div>
-    <a href="{{ route('admin.consultations.index') }}" class="btn btn-ghost">Back</a>
+    <a href="{{ console_route('consultations.index') }}" class="btn btn-ghost">Back</a>
   </div>
 
   <div class="cardBody">
@@ -66,7 +66,7 @@
             <h4 style="margin-top:0;">Update Status</h4>
      <div class="field">
 
-            <form method="POST" action="{{ route('admin.consultations.status', $consultation) }}">
+            <form method="POST" action="{{ console_route('consultations.status', $consultation) }}">
               @csrf
               @method('PUT')
 
@@ -87,7 +87,7 @@
             <h4 style="margin-top:0;">Add Remark</h4>
      <div class="field">
 
-            <form method="POST" action="{{ route('admin.consultations.remarks.store', $consultation) }}">
+            <form method="POST" action="{{ console_route('consultations.remarks.store', $consultation) }}">
               @csrf
               <textarea name="remark" class="form-control" style="margin-top:10px;width:100%;" rows="4" placeholder="Add internal remark..." required></textarea>
               <button class="btn btn-ghost" type="submit" style="margin-top:10px;width:100%;">Add Remark</button>

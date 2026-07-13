@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title', 'Leads')
 @section('page_title', 'Leads')
@@ -15,7 +15,7 @@
         </div>
 
         <div class="cardBody">
-            <form method="GET" action="{{ route('admin.leads.index') }}">
+            <form method="GET" action="{{ console_route('leads.index') }}">
                 <div class="grid cols-4" style="gap:12px;">
                     <div class="field">
                         <label>Search</label>
@@ -64,7 +64,7 @@
 
                 <div class="btnRow" style="margin-top:12px;">
                     <button class="btn primary" type="submit">Apply Filters</button>
-                    <a class="btn" href="{{ route('admin.leads.index') }}">Reset</a>
+                    <a class="btn" href="{{ console_route('leads.index') }}">Reset</a>
                 </div>
             </form>
         </div>
@@ -101,7 +101,7 @@
                             <td>{{ $s->email ?? '-' }}</td>
                             <td>{{ $s->status ?? '-' }}</td>
                             <td>
-                                <a class="btn" href="{{ route('admin.leads.show', $s->id) }}">View</a>
+                                <a class="btn" href="{{ console_route('leads.show', $s->id) }}">View</a>
                             </td>
                         </tr>
                     @empty

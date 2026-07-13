@@ -18,7 +18,8 @@
     <!-- HERO -->
     <section class="hero hero-video-fullscreen" id="hero">
         <div class="hero-bg" aria-hidden="true">
-            <video class="hero-video" autoplay muted loop playsinline preload="metadata"
+            <video class="hero-video is-loading" autoplay muted loop playsinline preload="auto"
+                src="{{ asset('assets/videos/home-hero-mobile.mp4') }}"
                 data-desktop-src="{{ asset('assets/videos/home-hero-desktop.mp4') }}"
                 data-mobile-src="{{ asset('assets/videos/home-hero-mobile.mp4') }}">
             </video>

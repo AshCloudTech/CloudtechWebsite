@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title', 'Add Case Study')
 @section('page_title', 'Add Case Study')
@@ -14,7 +14,7 @@
             </div>
 
             <div>
-                <a class="btn" href="{{ route('admin.case-studies.index') }}">Back</a>
+                <a class="btn" href="{{ console_route('case-studies.index') }}">Back</a>
             </div>
         </div>
 
@@ -29,7 +29,7 @@
                 </div>
             @endif
 
-            <form method="POST" action="{{ route('admin.case-studies.store') }}" enctype="multipart/form-data">
+            <form method="POST" action="{{ console_route('case-studies.store') }}" enctype="multipart/form-data">
                 @include('admin.case-studies._form', ['caseStudy' => $caseStudy, 'mode' => 'create'])
             </form>
         </div>

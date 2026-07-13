@@ -1,8 +1,19 @@
 (() => {
-  const heroVideo = document.querySelector('.hero-video-fullscreen');
+  const heroVideoSection = document.querySelector('.hero-video-fullscreen');
   const header = document.querySelector('.site-header');
-  const video = heroVideo?.querySelector('.hero-video');
+  const video = heroVideoSection?.querySelector('.hero-video');
   const desktopMq = window.matchMedia('(min-width: 769px)');
+
+  const playHeroVideo = () => {
+    if (!video) return;
+    video.play().catch(() => {});
+  };
+
+  const markVideoReady = () => {
+    if (!video) return;
+    video.classList.remove('is-loading');
+    playHeroVideo();
+  };
 
   const setHeroVideoSource = () => {
     if (!video) return;
@@ -11,27 +22,47 @@
       ? video.dataset.desktopSrc
       : video.dataset.mobileSrc;
 
-    if (!nextSrc || video.dataset.currentSrc === nextSrc) return;
+    if (!nextSrc) return;
+
+    if (video.dataset.currentSrc === nextSrc) {
+      markVideoReady();
+      return;
+    }
 
     video.dataset.currentSrc = nextSrc;
+    video.classList.add('is-loading');
     video.src = nextSrc;
     video.load();
-    video.play().catch(() => {});
+    playHeroVideo();
   };
 
-  if (heroVideo && header) {
+  if (video) {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      video.classList.remove('is-loading');
+    }
+
+    video.addEventListener('loadeddata', markVideoReady, { once: false });
+    video.addEventListener('canplay', markVideoReady, { once: false });
+    setHeroVideoSource();
+    desktopMq.addEventListener('change', setHeroVideoSource);
+
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden) {
+        playHeroVideo();
+      }
+    });
+  }
+
+  if (heroVideoSection && header) {
     const syncHeaderHeight = () => {
       document.documentElement.style.setProperty('--header-height', `${header.offsetHeight}px`);
     };
 
     const updateHeaderState = () => {
       syncHeaderHeight();
-      const threshold = Math.max(heroVideo.offsetHeight - header.offsetHeight, 0);
+      const threshold = Math.max(heroVideoSection.offsetHeight - header.offsetHeight, 0);
       header.classList.toggle('is-scrolled', window.scrollY > threshold);
     };
-
-    setHeroVideoSource();
-    desktopMq.addEventListener('change', setHeroVideoSource);
 
     window.addEventListener('scroll', updateHeaderState, { passive: true });
     window.addEventListener('resize', updateHeaderState);
@@ -42,7 +73,7 @@
 
 (() => {
   const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.main-nav a');
+  const navLinks = document.querySelectorAll('.main-nav > ul > li > a');
 
   const updateActiveNav = () => {
     let currentId = null;
@@ -69,7 +100,6 @@
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (reduceMotion) return;
 
-  // Auto-attach reveals to your existing sections/cards
   const targets = document.querySelectorAll(
     [
       '.stat-card',
@@ -91,7 +121,7 @@
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
       entry.target.classList.add('is-visible');
-      obs.unobserve(entry.target); // one-time reveal = cheapest
+      obs.unobserve(entry.target);
     });
   }, {
     threshold: 0.12,

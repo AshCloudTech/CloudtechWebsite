@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title', 'Case Studies')
 @section('page_title', 'Case Studies')
@@ -15,12 +15,12 @@
             </div>
 
             <div>
-                <a class="btn primary" href="{{ route('admin.case-studies.create') }}">+ Add Case Study</a>
+                <a class="btn primary" href="{{ console_route('case-studies.create') }}">+ Add Case Study</a>
             </div>
         </div>
 
         <div class="cardBody">
-            <form method="GET" action="{{ route('admin.case-studies.index') }}">
+            <form method="GET" action="{{ console_route('case-studies.index') }}">
                 <div class="grid cols-4" style="gap:12px;">
 
                     <div class="field">
@@ -63,7 +63,7 @@
 
                 <div class="btnRow" style="margin-top:12px;">
                     <button class="btn primary" type="submit">Apply Filters</button>
-                    <a class="btn" href="{{ route('admin.case-studies.index') }}">Reset</a>
+                    <a class="btn" href="{{ console_route('case-studies.index') }}">Reset</a>
                 </div>
             </form>
         </div>
@@ -120,9 +120,9 @@
                             <td>{{ $row->sort_order ?? 0 }}</td>
                             <td style="text-align:right;">
                                 <div style="display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;">
-                                    <a class="btn" href="{{ route('admin.case-studies.edit', $row) }}">Edit</a>
+                                    <a class="btn" href="{{ console_route('case-studies.edit', $row) }}">Edit</a>
 
-                                    <form action="{{ route('admin.case-studies.destroy', $row) }}"
+                                    <form action="{{ console_route('case-studies.destroy', $row) }}"
                                           method="POST"
                                           onsubmit="return confirm('Delete this case study?')">
                                         @csrf

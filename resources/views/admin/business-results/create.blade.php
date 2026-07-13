@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title','Add Business Result')
 @section('page_title','Add Business Result')
@@ -6,7 +6,7 @@
 @section('content')
 
 <form method="POST"
-      action="{{ route('admin.business-results.store') }}"
+      action="{{ console_route('business-results.store') }}"
       class="card">
     @csrf
 
@@ -65,7 +65,7 @@
 
     <div class="cardFooter">
         <button class="btn primary">Save Result</button>
-        <a href="{{ route('admin.business-results.index') }}" class="btn">Cancel</a>
+        <a href="{{ console_route('business-results.index') }}" class="btn">Cancel</a>
     </div>
 </form>
 

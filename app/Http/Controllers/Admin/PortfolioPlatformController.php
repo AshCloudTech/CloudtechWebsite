@@ -3,11 +3,14 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Concerns\RedirectsToConsole;
 use App\Models\PortfolioPlatform;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 class PortfolioPlatformController extends Controller
 {
+    use RedirectsToConsole;
+
      public function index(Request $request)
     {
         $q = PortfolioPlatform::query();
@@ -42,7 +45,7 @@ class PortfolioPlatformController extends Controller
 
         PortfolioPlatform::create($data);
 
-        return redirect()->route('admin.portfolio-platforms.index')->with('success', 'Platform created.');
+        return $this->consoleRedirect('portfolio-platforms.index', [], 'Platform created.');
     }
 
     public function edit(PortfolioPlatform $portfolio_platform)

@@ -39,7 +39,7 @@
 
 
 
-            <nav class="main-nav">
+            <nav class="main-nav" id="main-navigation">
                 <ul>
                     <li>
                         <a href="{{ route('home') }}" class="{{ request()->path() === '/' ? 'active' : '' }}">
@@ -360,33 +360,10 @@
                     document.head.appendChild(script);
                 });
             </script>
-            <style>
-                .header-cta {
-                    display: inline-flex;
-                    align-items: center;
-                    gap: 8px;
-                }
-
-                .header-cta i {
-                    width: 18px;
-                    height: 18px;
-                    display: inline-flex;
-                }
-            </style>
-            <button class="nav-toggle" aria-label="Toggle navigation">
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-navigation">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
         </div>
     </header>
-    <script>
-        document.querySelectorAll('.has-dropdown > a').forEach(link => {
-            link.addEventListener('click', e => {
-                if (window.innerWidth <= 768) {
-                    e.preventDefault();
-                    link.parentElement.classList.toggle('open');
-                }
-            });
-        });
-    </script>

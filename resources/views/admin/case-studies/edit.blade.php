@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title', 'Edit Case Study')
 @section('page_title', 'Edit Case Study')
@@ -14,7 +14,7 @@
             </div>
 
             <div style="display:flex;gap:8px;flex-wrap:wrap;">
-                <a class="btn" href="{{ route('admin.case-studies.index') }}">Back</a>
+                <a class="btn" href="{{ console_route('case-studies.index') }}">Back</a>
             </div>
         </div>
 
@@ -35,7 +35,7 @@
                 </div>
             @endif
 
-            <form method="POST" action="{{ route('admin.case-studies.update', $caseStudy) }}" enctype="multipart/form-data">
+            <form method="POST" action="{{ console_route('case-studies.update', $caseStudy) }}" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
 

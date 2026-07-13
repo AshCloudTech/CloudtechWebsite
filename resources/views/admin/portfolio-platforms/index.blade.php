@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title','Portfolio Platforms')
 @section('page_title','Portfolio Platforms')
@@ -13,13 +13,13 @@
       <p>Search by platform name or slug.</p>
     </div>
     <div style="display:flex;gap:8px;flex-wrap:wrap;">
-      <a class="btn primary" href="{{ route('admin.portfolio-platforms.create') }}">+ Add Platform</a>
-      <a class="btn" href="{{ route('admin.portfolio-items.index') }}">Portfolio Items</a>
+      <a class="btn primary" href="{{ console_route('portfolio-platforms.create') }}">+ Add Platform</a>
+      <a class="btn" href="{{ console_route('portfolio-items.index') }}">Portfolio Items</a>
     </div>
   </div>
 
   <div class="cardBody">
-    <form method="GET" action="{{ route('admin.portfolio-platforms.index') }}">
+    <form method="GET" action="{{ console_route('portfolio-platforms.index') }}">
       <div class="grid cols-4" style="gap:12px;">
         <div class="field" style="grid-column:1 / 4;">
           <label>Search</label>
@@ -33,7 +33,7 @@
           <label>&nbsp;</label>
           <div style="display:flex;gap:8px;">
             <button class="btn primary" type="submit">Apply</button>
-            <a class="btn" href="{{ route('admin.portfolio-platforms.index') }}">Reset</a>
+            <a class="btn" href="{{ console_route('portfolio-platforms.index') }}">Reset</a>
           </div>
         </div>
       </div>
@@ -86,9 +86,9 @@
             <td>{{ $row->sort_order }}</td>
             <td style="text-align:right;">
               <div style="display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;">
-                <a class="btn" href="{{ route('admin.portfolio-platforms.edit', $row) }}">Edit</a>
+                <a class="btn" href="{{ console_route('portfolio-platforms.edit', $row) }}">Edit</a>
 
-                <form method="POST" action="{{ route('admin.portfolio-platforms.destroy', $row) }}"
+                <form method="POST" action="{{ console_route('portfolio-platforms.destroy', $row) }}"
                       onsubmit="return confirm('Delete this platform? All linked portfolio items will also be deleted (cascade). Continue?')">
                   @csrf @method('DELETE')
                   <button class="btn" style="border-color:rgba(220,38,38,.35);color:#dc2626;">

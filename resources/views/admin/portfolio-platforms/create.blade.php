@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title','Add Portfolio Platform')
 @section('page_title','Add Portfolio Platform')
@@ -12,7 +12,7 @@
       <h3>Add Platform</h3>
       <p>Platforms appear as filter tabs (e.g. WordPress, Wix, GoDaddy).</p>
     </div>
-    <div><a class="btn" href="{{ route('admin.portfolio-platforms.index') }}">Back</a></div>
+    <div><a class="btn" href="{{ console_route('portfolio-platforms.index') }}">Back</a></div>
   </div>
 
   <div class="cardBody">
@@ -24,7 +24,7 @@
       </div>
     @endif
 
-    <form method="POST" action="{{ route('admin.portfolio-platforms.store') }}">
+    <form method="POST" action="{{ console_route('portfolio-platforms.store') }}">
       @include('admin.portfolio-platforms._form', ['platform'=>$platform, 'mode'=>'create'])
     </form>
   </div>

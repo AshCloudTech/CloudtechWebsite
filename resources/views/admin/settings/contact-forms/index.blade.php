@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title', 'Contact Forms')
 @section('page_title', 'Contact Forms')
@@ -13,7 +13,7 @@
     @endif
 
     <div class="btnRow" style="margin-bottom:12px;">
-        <a class="btn primary" href="{{ route('admin.settings.contact-forms.create') }}">Add Form</a>
+        <a class="btn primary" href="{{ console_route('settings.contact-forms.create') }}">Add Form</a>
     </div>
 
     <div class="card" style="margin:0;">
@@ -37,7 +37,7 @@
                         <td>{{ $f->recipient_to }}</td>
                         <td>{{ $f->smtpMailer?->name ?: 'Default' }}</td>
                         <td>{{ $f->is_active ? 'Active' : 'Disabled' }}</td>
-                        <td><a class="btn" href="{{ route('admin.settings.contact-forms.edit', $f) }}">Edit</a></td>
+                        <td><a class="btn" href="{{ console_route('settings.contact-forms.edit', $f) }}">Edit</a></td>
                     </tr>
                 @empty
                     <tr><td colspan="6">No forms configured yet.</td></tr>

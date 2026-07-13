@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Concerns\RedirectsToConsole;
 use App\Models\PortfolioItem;
 use App\Models\PortfolioPlatform;
 use Illuminate\Http\Request;
@@ -11,6 +12,8 @@ use Illuminate\Support\Str;
 
 class PortfolioItemController extends Controller
 {
+    use RedirectsToConsole;
+
     public function index(Request $request)
     {
         $q = PortfolioItem::query()->with('platform');
@@ -63,7 +66,7 @@ if ($request->hasFile('thumbnail_image')) {
 
         PortfolioItem::create($data);
 
-        return redirect()->route('admin.portfolio-items.index')->with('success', 'Portfolio item created.');
+        return $this->consoleRedirect('portfolio-items.index', [], 'Portfolio item created.');
     }
 
     public function edit(PortfolioItem $portfolio_item)

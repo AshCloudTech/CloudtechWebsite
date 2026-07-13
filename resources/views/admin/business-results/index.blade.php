@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title','Business Results')
 @section('page_title','Business Results')
@@ -13,7 +13,7 @@
             <p>All business result cards</p>
         </div>
 
-        <a href="{{ route('admin.business-results.create') }}" class="btn primary">
+        <a href="{{ console_route('business-results.create') }}" class="btn primary">
             Add Result
         </a>
     </div>
@@ -39,13 +39,13 @@
                         {{ $result->is_active ? 'Active' : 'Hidden' }}
                     </td>
                     <td>
-                        <a href="{{ route('admin.business-results.edit',$result) }}"
+                        <a href="{{ console_route('business-results.edit',$result) }}"
                            class="btn sm">
                             Edit
                         </a>
 
                         <form method="POST"
-                              action="{{ route('admin.business-results.destroy',$result) }}"
+                              action="{{ console_route('business-results.destroy',$result) }}"
                               style="display:inline;">
                             @csrf
                             @method('DELETE')

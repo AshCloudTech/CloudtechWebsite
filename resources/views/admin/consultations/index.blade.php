@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 @section('title', 'Consultation Requests')
 @section('page_title', 'Consultation Requests')
 @section('content')
@@ -15,7 +15,7 @@
 
      <div class="field">
 
-    <form method="GET" action="{{ route('admin.consultations.index') }}" style="display:flex;gap:10px;align-items:center;">
+    <form method="GET" action="{{ console_route('consultations.index') }}" style="display:flex;gap:10px;align-items:center;">
       <select name="status" class="form-control" style="min-width:200px;">
         <option value="">All Status</option>
         @foreach(['new','in_review','scheduled','completed','closed','spam'] as $st)
@@ -23,7 +23,7 @@
         @endforeach
       </select>
       <button class="btn btn-primary" type="submit">Filter</button>
-      <a class="btn btn-ghost" href="{{ route('admin.consultations.index') }}">Reset</a>
+      <a class="btn btn-ghost" href="{{ console_route('consultations.index') }}">Reset</a>
     </form>
 
   </div>
@@ -59,7 +59,7 @@
             <td>{{ ucfirst(str_replace('_',' ', $item->preferred_method)) }} <br> {{ optional($item->preferred_datetime)->format('d M Y, h:i A') }}</td>
             <td>{{ $item->created_at->format('d M Y') }}</td>
             <td style="text-align:right;">
-              <a href="{{ route('admin.consultations.show', $item) }}" class="btn btn-sm btn-primary">View</a>
+              <a href="{{ console_route('consultations.show', $item) }}" class="btn btn-sm btn-primary">View</a>
             </td>
           </tr>
         @empty

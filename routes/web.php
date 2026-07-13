@@ -423,6 +423,29 @@ Route::middleware(['auth', 'verified'])->group(function () {
         ->group(function () {
             Route::get('/dashboard', [SupportDashboardController::class, 'index'])->name('dashboard');
             Route::resource('blogs', BlogPostController::class)->except(['show']);
+
+            Route::prefix('settings')->name('settings.')->group(function () {
+                Route::resource('smtp', SmtpMailerController::class)->parameters(['smtp' => 'smtp'])
+                    ->names('smtp')->except([]);
+
+                Route::resource('contact-forms', ContactFormController::class)
+                    ->names('contact-forms')->except(['show', 'destroy']);
+            });
+
+            Route::resource('case-studies', AdminCaseStudyController::class);
+            Route::resource('portfolio-platforms', PortfolioPlatformController::class)->except(['show']);
+            Route::resource('portfolio-items', PortfolioItemController::class)->except(['show']);
+
+            Route::get('/leads', [ContactSubmissionController::class, 'index'])->name('leads.index');
+            Route::get('/leads/{submission}', [ContactSubmissionController::class, 'show'])->name('leads.show');
+            Route::patch('/leads/{submission}/status', [ContactSubmissionController::class, 'updateStatus'])->name('leads.status');
+
+            Route::get('/consultations', [ConsultationAdminController::class, 'index'])->name('consultations.index');
+            Route::get('/consultations/{consultation}', [ConsultationAdminController::class, 'show'])->name('consultations.show');
+            Route::put('/consultations/{consultation}/status', [ConsultationAdminController::class, 'updateStatus'])->name('consultations.status');
+            Route::post('/consultations/{consultation}/remarks', [ConsultationAdminController::class, 'addRemark'])->name('consultations.remarks.store');
+
+            Route::resource('business-results', BusinessResultController::class);
         });
 });
 

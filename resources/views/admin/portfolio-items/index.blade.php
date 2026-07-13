@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title','Portfolio Items')
 @section('page_title','Portfolio Items')
@@ -13,13 +13,13 @@
       <p>Search and filter portfolio items.</p>
     </div>
     <div style="display:flex;gap:8px;flex-wrap:wrap;">
-      <a class="btn primary" href="{{ route('admin.portfolio-items.create') }}">+ Add Item</a>
-      <a class="btn" href="{{ route('admin.portfolio-platforms.index') }}">Platforms</a>
+      <a class="btn primary" href="{{ console_route('portfolio-items.create') }}">+ Add Item</a>
+      <a class="btn" href="{{ console_route('portfolio-platforms.index') }}">Platforms</a>
     </div>
   </div>
 
   <div class="cardBody">
-    <form method="GET" action="{{ route('admin.portfolio-items.index') }}">
+    <form method="GET" action="{{ console_route('portfolio-items.index') }}">
       <div class="grid cols-4" style="gap:12px;">
         <div class="field">
           <label>Search</label>
@@ -51,7 +51,7 @@
           <label>&nbsp;</label>
           <div style="display:flex; gap:8px;">
             <button class="btn primary" type="submit">Apply</button>
-            <a class="btn" href="{{ route('admin.portfolio-items.index') }}">Reset</a>
+            <a class="btn" href="{{ console_route('portfolio-items.index') }}">Reset</a>
           </div>
         </div>
       </div>
@@ -108,8 +108,8 @@
             <td>{{ $row->sort_order }}</td>
             <td style="text-align:right;">
               <div style="display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;">
-                <a class="btn" href="{{ route('admin.portfolio-items.edit', $row) }}">Edit</a>
-                <form method="POST" action="{{ route('admin.portfolio-items.destroy', $row) }}"
+                <a class="btn" href="{{ console_route('portfolio-items.edit', $row) }}">Edit</a>
+                <form method="POST" action="{{ console_route('portfolio-items.destroy', $row) }}"
                       onsubmit="return confirm('Delete this portfolio item?')">
                   @csrf @method('DELETE')
                   <button class="btn" style="border-color:rgba(220,38,38,.35);color:#dc2626;">Delete</button>

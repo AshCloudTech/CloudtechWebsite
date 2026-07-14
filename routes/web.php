@@ -125,6 +125,37 @@ Route::get('/national-seo-service-uk', [DigitalMarkController::class, 'nationals
 
 Route::get('/international-seo-service-uk', [DigitalMarkController::class, 'internationalseo'])
     ->name('services.seo.international-seo');
+Route::get('/global-seo-services-uk', [DigitalMarkController::class, 'globalseo'])
+    ->name('services.seo.global-seo');
+    Route::get('/international-seo-company-uk', [DigitalMarkController::class, 'internationalseocompany'])
+    ->name('services.seo.international-seo-company');
+
+Route::get('/international-seo-websites-uk', [DigitalMarkController::class, 'internationalseowebsites'])
+    ->name('services.seo.international-seo-websites');
+
+Route::get('/international-seo-agency-uk', [DigitalMarkController::class, 'internationalseoagency'])
+    ->name('services.seo.international-seo-agency');
+
+Route::get('/international-seo-services-uk', [DigitalMarkController::class, 'internationalseoservices'])
+    ->name('services.seo.international-seo-services');
+
+Route::get('/international-seo-uk', [DigitalMarkController::class, 'internationalseouk'])
+    ->name('services.seo.international-seo-uk');
+
+Route::get('/international-seo-consultant-uk', [DigitalMarkController::class, 'internationalseoconsultant'])
+    ->name('services.seo.international-seo-consultant');
+
+Route::get('/international-seo-expert-uk', [DigitalMarkController::class, 'internationalseoexpert'])
+    ->name('services.seo.international-seo-expert');
+
+Route::get('/global-seo-strategy-uk', [DigitalMarkController::class, 'globalseostrategy'])
+    ->name('services.seo.global-seo-strategy');
+
+Route::get('/international-seo-strategy-uk', [DigitalMarkController::class, 'internationalseostrategy'])
+    ->name('services.seo.international-seo-strategy');
+
+Route::get('/seo-international-sites-uk', [DigitalMarkController::class, 'seointernationalsites'])
+    ->name('services.seo.seo-international-sites');
 
 Route::get('/technical-seo-service-uk', [DigitalMarkController::class, 'tecnicalseo'])
     ->name('services.seo.technical-seo');

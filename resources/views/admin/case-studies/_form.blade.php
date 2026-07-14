@@ -830,7 +830,7 @@
 
     <div class="btnRow" style="margin:0;">
       <button class="btn primary" type="submit">Save</button>
-      <a class="btn" href="{{ route('admin.case-studies.index') }}">Cancel</a>
+      <a class="btn" href="{{ console_route('case-studies.index') }}">Cancel</a>
     </div>
 
   </div>

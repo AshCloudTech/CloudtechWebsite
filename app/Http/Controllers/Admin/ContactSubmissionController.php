@@ -3,12 +3,15 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Concerns\RedirectsToConsole;
 use App\Models\ContactForm;
 use App\Models\ContactSubmission;
 use Illuminate\Http\Request;
 
 class ContactSubmissionController extends Controller
 {
+    use RedirectsToConsole;
+
      public function index(Request $request)
     {
         $forms = ContactForm::orderBy('title')->get();
@@ -50,6 +53,6 @@ class ContactSubmissionController extends Controller
         'status' => $data['status'],
     ]);
 
-    return redirect()->route('admin.leads.index')->with('success', 'Lead status updated.');
+    return $this->consoleRedirect('leads.index', [], 'Lead status updated.');
 }
 }

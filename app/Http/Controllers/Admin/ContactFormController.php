@@ -3,11 +3,14 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Concerns\RedirectsToConsole;
 use App\Models\ContactForm;
 use App\Models\SmtpMailer;
 use Illuminate\Http\Request;
 class ContactFormController extends Controller
 {
+    use RedirectsToConsole;
+
      public function index()
     {
         $forms = ContactForm::orderBy('title')->get();
@@ -25,7 +28,7 @@ class ContactFormController extends Controller
         $data = $this->validated($request);
         ContactForm::create($data);
 
-        return redirect()->route('admin.settings.contact-forms.index')->with('success', 'Contact form created.');
+        return $this->consoleRedirect('settings.contact-forms.index', [], 'Contact form created.');
     }
 
     public function edit(ContactForm $contactForm)
@@ -39,7 +42,7 @@ class ContactFormController extends Controller
         $data = $this->validated($request, true);
         $contactForm->update($data);
 
-        return redirect()->route('admin.settings.contact-forms.index')->with('success', 'Contact form updated.');
+        return $this->consoleRedirect('settings.contact-forms.index', [], 'Contact form updated.');
     }
 
     private function validated(Request $request, bool $isUpdate=false): array

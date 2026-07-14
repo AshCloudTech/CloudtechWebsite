@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Concerns\RedirectsToConsole;
 use App\Models\CaseStudy;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -10,6 +11,8 @@ use Illuminate\Support\Str;
 
 class CaseStudyController extends Controller
 {
+    use RedirectsToConsole;
+
     public function index()
     {
         $items = CaseStudy::query()->orderBy('sort_order')->orderByDesc('id')->paginate(20);
@@ -36,7 +39,7 @@ class CaseStudyController extends Controller
 
         $this->syncChildren($caseStudy, $request);
 
-        return redirect()->route('admin.case-studies.edit', $caseStudy)->with('success', 'Case study created.');
+        return $this->consoleRedirect('case-studies.edit', $caseStudy, 'Case study created.');
     }
 
     public function edit(CaseStudy $caseStudy)
@@ -75,7 +78,7 @@ class CaseStudyController extends Controller
 
         $caseStudy->delete();
 
-        return redirect()->route('admin.case-studies.index')->with('success', 'Case study deleted.');
+        return $this->consoleRedirect('case-studies.index', [], 'Case study deleted.');
     }
 
     private function validated(Request $request, ?int $ignoreId = null): array

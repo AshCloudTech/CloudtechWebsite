@@ -3,11 +3,14 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Concerns\RedirectsToConsole;
 use App\Models\BusinessResult;
 use Illuminate\Http\Request;
 
 class BusinessResultController extends Controller
 {
+    use RedirectsToConsole;
+
     /**
      * List all result cards
      */
@@ -51,9 +54,7 @@ class BusinessResultController extends Controller
             'sort_order' => BusinessResult::max('sort_order') + 1,
         ]);
 
-        return redirect()
-            ->route('admin.business-results.index')
-            ->with('success', 'Business result added successfully.');
+        return $this->consoleRedirect('business-results.index', [], 'Business result added successfully.');
     }
 
     /**
@@ -88,9 +89,7 @@ class BusinessResultController extends Controller
             'is_active' => $request->boolean('is_active'),
         ]);
 
-        return redirect()
-            ->route('admin.business-results.index')
-            ->with('success', 'Business result updated successfully.');
+        return $this->consoleRedirect('business-results.index', [], 'Business result updated successfully.');
     }
 
     /**
@@ -100,8 +99,6 @@ class BusinessResultController extends Controller
     {
         $businessResult->delete();
 
-        return redirect()
-            ->route('admin.business-results.index')
-            ->with('success', 'Business result deleted successfully.');
+        return $this->consoleRedirect('business-results.index', [], 'Business result deleted successfully.');
     }
 }

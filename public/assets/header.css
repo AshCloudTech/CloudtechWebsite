@@ -1,11 +1,36 @@
+/* ==========================================================================
+   Site header & navigation (single source of truth)
+   Loaded globally via layouts/cloudtech.blade.php
+   ========================================================================== */
+
+:root {
+  --nav-text: #000000;
+  --nav-text-inverse: #ffffff;
+  --nav-accent: #ff8502;
+  --nav-dropdown-bg: rgba(255, 255, 255, 0.98);
+  --nav-dropdown-text: #121826;
+  --nav-dropdown-border: rgba(15, 23, 42, 0.1);
+  --nav-dropdown-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+  --nav-gradient: linear-gradient(135deg, #ff8c3a, #ff5a00);
+  --header-bg: rgba(255, 255, 255, 0.92);
+  --header-border: rgba(0, 0, 0, 0.06);
+}
+
 .site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.92);
+  background: var(--header-bg);
   backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--header-border);
   padding: 0 10px;
+}
+
+body:has(.hero-video-fullscreen) .site-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .header-inner {
@@ -15,42 +40,58 @@
   min-height: 72px;
 }
 
-
 .logo-link {
   margin-right: auto;
 }
 
-
 .main-nav {
-  /* margin-left: auto; */
   margin-right: auto;
 }
-
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .logo-mark {
   width: 32px;
   height: 32px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #ff8c3a, #ff5a00);
+  background: var(--nav-gradient);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: var(--nav-text-inverse);
   font-weight: 700;
   font-size: 14px;
 }
 
 .logo-text {
-  color: #ffffff;
+  color: var(--nav-text-inverse);
   font-weight: 600;
   letter-spacing: 0.04em;
   font-size: 15px;
+}
+
+.site-logo {
+  height: 40px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.site-logo--dark {
+  display: none;
+}
+
+html[data-theme="dark"] .site-logo--light {
+  display: none;
+}
+
+html[data-theme="dark"] .site-logo--dark {
+  display: block;
 }
 
 .main-nav ul {
@@ -60,92 +101,273 @@
   font-size: 15px;
 }
 
-.main-nav a {
-  color: #000000;
+.main-nav > ul > li > a {
+  color: var(--nav-text);
   position: relative;
   padding-bottom: 2px;
 }
 
-.main-nav a::after {
+.main-nav > ul > li > a::after {
   content: "";
   position: absolute;
   left: 50%;
   bottom: -4px;
   width: 0;
   height: 2px;
-  background: linear-gradient(135deg, #ff8c3a, #ff5a00);
+  background: var(--nav-gradient);
   transform: translateX(-50%);
   transition: width 0.18s ease;
 }
 
-.main-nav a.active::after {
+.main-nav > ul > li > a:hover::after,
+.main-nav > ul > li > a.active::after,
+.has-dropdown.active > a::after {
   width: 18px;
-  color:#ff8502;
 }
-.main-nav a.active { color:#ff8502; }
+
+.main-nav > ul > li > a.active,
+.has-dropdown.active > a {
+  color: var(--nav-accent);
+}
 
 .header-cta {
   margin-left: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-cta i {
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
 }
 
 .btn-accent {
-    /* background-color: #0b1020; */
-    background: linear-gradient(356deg, #008a1e, #04ff0f);
-    color: #ffffff;
-    border-radius: 999px;
+  background: linear-gradient(356deg, #008a1e, #04ff0f);
+  color: var(--nav-text-inverse);
+  border-radius: 999px;
 }
+
 .btn-sm {
-    padding: 8px 18px;
-    font-size: 13px;
+  padding: 8px 18px;
+  font-size: 13px;
 }
-/* Mobile toggle */
+
 .nav-toggle {
   display: none;
   flex-direction: column;
   gap: 4px;
   width: 22px;
   height: 18px;
-  background: black;
+  background: #000;
   border: none;
   padding: 0;
+  cursor: pointer;
 }
 
 .nav-toggle span {
   height: 2px;
   width: 100%;
   border-radius: 999px;
-  background-color: #ffffff;
-}
-.nav-toggle {
-    display: none;
+  background-color: var(--nav-text-inverse);
 }
 
-/* Mobile Styles */
-@media (max-width: 768px) {
-
-    .main-nav ul {
-        flex-direction: column;
-        gap: 20px;
-        padding-left: 20px;
-    }
-
-    .main-nav a {
-        color: #000000;
-    }
-    .main-nav ul li ul.dropdown li a{
-      color: #000000;
-    }
-
-    /* When menu is open */
-    .main-nav.nav-open {
-        right: 0;
-    }
+/* Dropdown menus */
+.has-dropdown {
+  position: relative;
 }
 
-/* Header Responsive (from style.css) */
+.main-nav ul li ul.dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 4px;
+  min-width: 260px;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  background: var(--nav-dropdown-bg);
+  border: 1px solid var(--nav-dropdown-border);
+  border-radius: 12px;
+  box-shadow: var(--nav-dropdown-shadow);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+  z-index: 999;
+}
+
+.main-nav ul li ul.dropdown li {
+  width: 100%;
+}
+
+.main-nav ul li ul.dropdown li a {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  color: var(--nav-dropdown-text);
+  font-size: 13px;
+  border-radius: 8px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.main-nav ul li ul.dropdown li a:hover,
+.main-nav ul li ul.dropdown li a:focus-visible,
+.main-nav ul li ul.dropdown li a.active {
+  background: var(--nav-gradient);
+  color: var(--nav-text-inverse);
+  outline: none;
+}
+
+.main-nav ul li ul.dropdown li a::after {
+  display: none;
+}
+
+@media (hover: hover) and (min-width: 769px) {
+  .site-header,
+  .main-nav,
+  .main-nav > ul {
+    overflow: visible;
+  }
+
+  .main-nav > ul > li.has-dropdown {
+    z-index: 2;
+  }
+
+  .main-nav > ul > li.has-dropdown:hover,
+  .main-nav > ul > li.has-dropdown.is-flyout-open {
+    z-index: 1000;
+  }
+
+  /* Top-level menus: hover only (prevents overlap with :focus-within) */
+  .main-nav > ul > li.has-dropdown:hover > ul.dropdown,
+  .main-nav > ul > li.has-dropdown.is-flyout-open > ul.dropdown {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  /* Nested flyout menus inside a dropdown panel */
+  .main-nav ul li ul.dropdown li.has-dropdown:hover > ul.dropdown,
+  .main-nav ul li ul.dropdown li.has-dropdown.is-flyout-open > ul.dropdown {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .main-nav > ul > li.has-dropdown > ul.dropdown::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    height: 12px;
+  }
+
+  .main-nav ul li ul.dropdown li.has-dropdown > ul.dropdown {
+    top: 0;
+    left: calc(100% + 8px);
+  }
+
+  .main-nav ul li ul.dropdown li.has-dropdown > ul.dropdown::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 10px;
+    height: 100%;
+  }
+}
+
+/* Hero video: transparent header over fullscreen video */
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) {
+  background: rgba(6, 10, 32, 0.88);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background 0.25s ease, backdrop-filter 0.25s ease, border-color 0.25s ease;
+}
+
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .main-nav > ul > li > a {
+  color: var(--nav-text-inverse);
+}
+
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .main-nav > ul > li > a:hover,
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .main-nav > ul > li > a.active,
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .has-dropdown.active > a {
+  color: var(--nav-accent);
+}
+
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .nav-toggle {
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .nav-toggle span {
+  background-color: var(--nav-text-inverse);
+}
+
+body:has(.hero-video-fullscreen) .site-header .main-nav ul li ul.dropdown li a {
+  color: var(--nav-dropdown-text);
+}
+
+body:has(.hero-video-fullscreen) .site-header .main-nav ul li ul.dropdown li a:hover,
+body:has(.hero-video-fullscreen) .site-header .main-nav ul li ul.dropdown li a:focus-visible,
+body:has(.hero-video-fullscreen) .site-header .main-nav ul li ul.dropdown li a.active {
+  color: var(--nav-text-inverse);
+}
+
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .site-logo--light {
+  display: block;
+}
+
+body:has(.hero-video-fullscreen) .site-header:not(.is-scrolled) .site-logo--dark {
+  display: none;
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled {
+  background: var(--header-bg);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--header-border);
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .main-nav > ul > li > a {
+  color: var(--nav-text);
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .main-nav > ul > li > a:hover,
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .main-nav > ul > li > a.active,
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .has-dropdown.active > a {
+  color: var(--nav-accent);
+}
+
+/* Keep light logo on white header when no dark variant exists */
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .site-logo--light {
+  display: block;
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .site-logo--dark {
+  display: none;
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .logo:has(.site-logo--dark) .site-logo--light {
+  display: none;
+}
+
+body:has(.hero-video-fullscreen) .site-header.is-scrolled .logo:has(.site-logo--dark) .site-logo--dark {
+  display: block;
+}
+
+/* Mobile navigation */
 @media (max-width: 768px) {
   .header-inner {
     gap: 10px;
+    position: relative;
   }
 
   .main-nav {
@@ -157,6 +379,8 @@
     max-height: 0;
     overflow: auto;
     transition: max-height 0.2s ease;
+    z-index: 1000;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
   }
 
   .main-nav.open {
@@ -165,8 +389,98 @@
 
   .main-nav ul {
     flex-direction: column;
-    padding: 10px 20px 14px 20px;
+    gap: 20px;
+    padding: 10px 20px 14px;
     align-items: flex-start;
+  }
+
+  .main-nav > ul > li > a,
+  .main-nav ul li ul.dropdown li a {
+    color: var(--nav-dropdown-text);
+  }
+
+  .main-nav > ul > li > a.active,
+  .main-nav .has-dropdown.active > a {
+    color: var(--nav-accent);
+  }
+
+  .main-nav > ul > li > a::after {
+    display: none;
+  }
+
+  .main-nav .has-dropdown {
+    width: 100%;
+  }
+
+  .main-nav .has-dropdown > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    min-height: 44px;
+    padding-right: 2px;
+  }
+
+  .main-nav .has-dropdown > a::after {
+    display: block;
+    content: "";
+    position: static;
+    left: auto;
+    bottom: auto;
+    width: 8px;
+    height: 8px;
+    margin-left: auto;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    background: none;
+    border-radius: 0;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .main-nav .has-dropdown.open > a::after {
+    transform: rotate(-135deg);
+  }
+
+  /* Hero overlay: mobile drawer always uses dark text on white panel */
+  body:has(.hero-video-fullscreen) .site-header .main-nav.open > ul > li > a,
+  body:has(.hero-video-fullscreen) .site-header .main-nav.open ul li ul.dropdown li a {
+    color: var(--nav-dropdown-text);
+  }
+
+  body:has(.hero-video-fullscreen) .site-header .main-nav.open > ul > li > a.active,
+  body:has(.hero-video-fullscreen) .site-header .main-nav.open .has-dropdown.active > a {
+    color: var(--nav-accent);
+  }
+
+  body:has(.hero-video-fullscreen) .site-header.is-scrolled .nav-toggle {
+    background: #000;
+    border-color: transparent;
+  }
+
+  body:has(.hero-video-fullscreen) .site-header.is-scrolled .nav-toggle span {
+    background-color: var(--nav-text-inverse);
+  }
+
+  .main-nav ul li ul.dropdown {
+    position: static;
+    transform: none;
+    box-shadow: none;
+    background: transparent;
+    border: 0;
+    padding: 0 0 0 12px;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .main-nav ul li.open > ul.dropdown {
+    display: grid;
   }
 
   .header-cta {
@@ -175,194 +489,87 @@
 
   .nav-toggle {
     display: flex;
+    margin-right: 15px;
+    flex-shrink: 0;
   }
 }
 
-/* =========================
-   HEADER LOGO (LIGHT/DARK)
-   ========================= */
-
-.logo{ display:flex; align-items:center; gap:10px; }
-
-.site-logo{
-  height: 40px;
-  width: auto;
-  max-width: 200px;
-  object-fit: contain;
-  flex-shrink: 0;
+@media (prefers-reduced-motion: reduce) {
+  .main-nav ul li ul.dropdown,
+  .main-nav > ul > li > a::after,
+  .site-header,
+  .main-nav {
+    transition: none;
+  }
 }
 
-/* Default: show light logo, hide dark */
-.site-logo--dark{ display:none; }
-
-/* When dark theme: switch */
-html[data-theme="dark"] .site-logo--light{ display:none; }
-html[data-theme="dark"] .site-logo--dark{ display:block; }
-
-
-
-.has-dropdown {
-  position: relative;
-}
-
-.has-dropdown.active > a {
-    color: #ff8502;
-    /* font-weight: 600; */
-}
-
-
-.main-nav ul li ul.dropdown {
-  position: absolute;
-  top: calc(100% + 10px);
-  left: 0;
-
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 4px;
-
-  min-width: 260px;
-  background: rgba(255, 255, 255, 0.98);
-  border: 1px solid rgba(255,255,255,0.06);
-  border-radius: 12px;
-  box-shadow: 0 18px 40px rgba(0,0,0,0.35);
-  padding: 10px;
-
-  
-  visibility: hidden;
-  transform: translateY(6px);
-  transition: all 0.2s ease;
-  z-index: 999;
-}
-.has-dropdown.active > a::after {
-    width: 18px;
-}
-
-.main-nav ul li:hover > ul.dropdown {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.main-nav ul li ul.dropdown li {
-  width: 100%;
-}
-
-.main-nav ul li ul.dropdown li a {
+/* WhatsApp float */
+.whatsapp-float {
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
   display: flex;
   align-items: center;
-  padding: 10px 14px;
-  /* color: black; */
-  font-size: 13px;
-  border-radius: 8px;
-}
-
-.main-nav ul li ul.dropdown li a:hover {
-  background: linear-gradient(135deg, #ff8c3a, #ff5a00);
-  color:#ffffff;
-}
-.main-nav ul li ul.dropdown li a.active {
-  background: linear-gradient(135deg, #ff8c3a, #ff5a00);
-  color:#ffffff;
-}
-
-.main-nav ul li ul.dropdown li a.active::after {
-  width: 18px;
-  color: #ff8c3a;
-}
-
-@media (min-width: 769px) {
-  /* Second-level dropdown (Services -> Digital Marketing/Web/SEO) */
-  .main-nav ul li ul.dropdown li.has-dropdown > ul.dropdown {
-    top: 0;
-    left: calc(100% + 10px);
-  }
-}
-
-@media (max-width: 768px) { 
-  .main-nav ul li ul.dropdown { 
-    position: static;
-    transform: none;
-    box-shadow: none; 
-    background: transparent; 
-    border: 0; 
-    padding-left: 12px; 
-    display: none; 
-    opacity: 1; 
-    visibility: visible; 
-  } 
-  .main-nav ul li.open > ul.dropdown { 
-    display: block; 
-  } 
-}
-
-.whatsapp-float {
-    position: fixed;
-    right: 20px;
-    bottom: 25px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    background: #25D366;
-    color: #fff;
-    padding: 12px 18px;
-    border-radius: 50px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-    text-decoration: none;
-    z-index: 9999;
-    transition: all 0.3s ease;
-    animation: floatUp 0.6s ease;
+  gap: 12px;
+  background: #25d366;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 50px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  z-index: 9999;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: floatUp 0.6s ease;
 }
 
 .whatsapp-float:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
 
 .whatsapp-text {
-    font-size: 13px;
-    line-height: 1.3;
+  font-size: 13px;
+  line-height: 1.3;
 }
 
 .whatsapp-icon {
-    background: rgba(255,255,255,0.2);
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .whatsapp-icon i {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
-/* Mobile version */
 @media (max-width: 768px) {
-    .whatsapp-text {
-        display: none;
-    }
+  .whatsapp-text {
+    display: none;
+  }
 
-    .whatsapp-float {
-        padding: 14px;
-        border-radius: 50%;
-    }
+  .whatsapp-float {
+    padding: 14px;
+    border-radius: 50%;
+  }
 
-    .whatsapp-icon {
-        width: 48px;
-        height: 48px;
-    }
+  .whatsapp-icon {
+    width: 48px;
+    height: 48px;
+  }
 }
 
-/* Animation */
 @keyframes floatUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

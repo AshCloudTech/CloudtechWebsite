@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title','Edit Portfolio Item')
 @section('page_title','Edit Portfolio Item')
@@ -12,7 +12,7 @@
       <h3>Edit: {{ $item->title }}</h3>
       <p>Changes reflect immediately on the public portfolio page (if published).</p>
     </div>
-    <div><a class="btn" href="{{ route('admin.portfolio-items.index') }}">Back</a></div>
+    <div><a class="btn" href="{{ console_route('portfolio-items.index') }}">Back</a></div>
   </div>
 
   <div class="cardBody">
@@ -28,7 +28,7 @@
       </div>
     @endif
 
-    <form method="POST" action="{{ route('admin.portfolio-items.update', $item) }}" enctype="multipart/form-data">
+    <form method="POST" action="{{ console_route('portfolio-items.update', $item) }}" enctype="multipart/form-data">
       @csrf @method('PUT')
       @include('admin.portfolio-items._form', ['item'=>$item,'platforms'=>$platforms,'mode'=>'edit'])
     </form>

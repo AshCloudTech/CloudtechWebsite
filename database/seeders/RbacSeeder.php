@@ -22,6 +22,13 @@ class RbacSeeder extends Seeder
             'impersonate-users',
             'view-support',
             'manage-blogs',
+            'manage-smtp',
+            'manage-contact-forms',
+            'manage-leads',
+            'manage-case-studies',
+            'manage-consultations',
+            'manage-portfolio',
+            'manage-business-results',
         ];
 
         foreach ($permissions as $name) {
@@ -45,12 +52,26 @@ class RbacSeeder extends Seeder
             'view-audit-logs',
             'view-support',
             'manage-blogs',
+            'manage-smtp',
+            'manage-contact-forms',
+            'manage-leads',
+            'manage-case-studies',
+            'manage-consultations',
+            'manage-portfolio',
+            'manage-business-results',
         ]);
 
-        // Support: blog management + support dashboard
+        // Support: website content + enquiries + blog management
         $support->syncPermissions([
             'view-support',
             'manage-blogs',
+            'manage-smtp',
+            'manage-contact-forms',
+            'manage-leads',
+            'manage-case-studies',
+            'manage-consultations',
+            'manage-portfolio',
+            'manage-business-results',
         ]);
 
         $user->syncPermissions([]);

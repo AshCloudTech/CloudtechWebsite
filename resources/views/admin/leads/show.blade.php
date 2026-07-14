@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title', 'Lead Details')
 @section('page_title', 'Lead Details')
@@ -18,7 +18,7 @@
                     </div>
                 </div>
 
-                <a class="btn" href="{{ route('admin.leads.index') }}">Back</a>
+                <a class="btn" href="{{ console_route('leads.index') }}">Back</a>
             </div>
             <div style="margin-top:12px;">
     <div class="card" style="margin:0;">
@@ -30,7 +30,7 @@
         </div>
 
         <div class="cardBody">
-            <form method="POST" action="{{ route('admin.leads.status', $submission->id) }}">
+            <form method="POST" action="{{ console_route('leads.status', $submission->id) }}">
                 @csrf
                 @method('PATCH')
 

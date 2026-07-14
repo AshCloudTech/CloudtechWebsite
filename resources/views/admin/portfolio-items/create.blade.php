@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title','Add Portfolio Item')
 @section('page_title','Add Portfolio Item')
@@ -12,7 +12,7 @@
       <h3>Add Item</h3>
       <p>Optional fields can be left empty — frontend will auto-adjust.</p>
     </div>
-    <div><a class="btn" href="{{ route('admin.portfolio-items.index') }}">Back</a></div>
+    <div><a class="btn" href="{{ console_route('portfolio-items.index') }}">Back</a></div>
   </div>
 
   <div class="cardBody">
@@ -24,7 +24,7 @@
       </div>
     @endif
 
-    <form method="POST" action="{{ route('admin.portfolio-items.store') }}" enctype="multipart/form-data">
+    <form method="POST" action="{{ console_route('portfolio-items.store') }}" enctype="multipart/form-data">
       @include('admin.portfolio-items._form', ['item'=>$item,'platforms'=>$platforms,'mode'=>'create'])
     </form>
   </div>

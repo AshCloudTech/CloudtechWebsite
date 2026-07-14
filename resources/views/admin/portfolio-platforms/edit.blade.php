@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title','Edit Portfolio Platform')
 @section('page_title','Edit Portfolio Platform')
@@ -12,7 +12,7 @@
       <h3>Edit: {{ $platform->name }}</h3>
       <p>Changes affect portfolio filters + item badges.</p>
     </div>
-    <div><a class="btn" href="{{ route('admin.portfolio-platforms.index') }}">Back</a></div>
+    <div><a class="btn" href="{{ console_route('portfolio-platforms.index') }}">Back</a></div>
   </div>
 
   <div class="cardBody">
@@ -29,7 +29,7 @@
       </div>
     @endif
 
-    <form method="POST" action="{{ route('admin.portfolio-platforms.update', $platform) }}">
+    <form method="POST" action="{{ console_route('portfolio-platforms.update', $platform) }}">
       @csrf @method('PUT')
       @include('admin.portfolio-platforms._form', ['platform'=>$platform, 'mode'=>'edit'])
     </form>

@@ -3,11 +3,13 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Concerns\RedirectsToConsole;
 use App\Models\SmtpMailer;
 use Illuminate\Http\Request;
 
 class SmtpMailerController extends Controller
 {
+    use RedirectsToConsole;
     public function index()
     {
         $mailers = SmtpMailer::orderByDesc('is_default')->orderByDesc('is_active')->orderBy('name')->get();
@@ -34,7 +36,7 @@ class SmtpMailerController extends Controller
 
         SmtpMailer::create($data);
 
-        return redirect()->route('admin.settings.smtp.index')->with('success', 'SMTP mailer created.');
+        return $this->consoleRedirect('settings.smtp.index', [], 'SMTP mailer created.');
     }
 
     public function edit(SmtpMailer $smtp)
@@ -61,7 +63,7 @@ class SmtpMailerController extends Controller
 
         $smtp->update($data);
 
-        return redirect()->route('admin.settings.smtp.index')->with('success', 'SMTP mailer updated.');
+        return $this->consoleRedirect('settings.smtp.index', [], 'SMTP mailer updated.');
     }
 
     private function validated(Request $request, bool $isUpdate = false): array
@@ -99,6 +101,6 @@ class SmtpMailerController extends Controller
 
         $smtp->delete();
 
-        return redirect()->route('admin.settings.smtp.index')->with('success', 'SMTP mailer deleted.');
+        return $this->consoleRedirect('settings.smtp.index', [], 'SMTP mailer deleted.');
     }
 }

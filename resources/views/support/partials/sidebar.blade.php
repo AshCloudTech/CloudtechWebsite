@@ -14,6 +14,17 @@
             !empty($globalCompany?->og_image_path) && file_exists(public_path($globalCompany->og_image_path))
                 ? asset($globalCompany->og_image_path)
                 : null;
+
+        function supportGroupActive(array $patterns): bool
+        {
+            foreach ($patterns as $pattern) {
+                if (request()->routeIs($pattern)) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
     @endphp
 
     <div class="brand">
@@ -47,7 +58,92 @@
         </nav>
     </div>
 
-    {{-- BLOG MANAGEMENT --}}
+    {{-- WEBSITE --}}
+    @php
+        $websiteOpen = supportGroupActive([
+            'support.settings.smtp.*',
+            'support.settings.contact-forms.*',
+            'support.leads.*',
+            'support.case-studies.*',
+            'support.consultations.*',
+            'support.portfolio-items.*',
+            'support.portfolio-platforms.*',
+        ]);
+    @endphp
+
+    <div class="navSection">
+        <button class="navGroupToggle {{ $websiteOpen ? 'open' : '' }}" type="button" data-nav-group="website"
+            aria-expanded="{{ $websiteOpen ? 'true' : 'false' }}">
+            <span class="navGroupTitle">
+                <span class="navGroupDot"></span>
+                <span>Website</span>
+            </span>
+            <span class="navChevron" aria-hidden="true"></span>
+        </button>
+
+        <div class="navGroupPanel {{ $websiteOpen ? 'open' : '' }}" data-nav-panel="website">
+            <nav class="nav navNested">
+                @if (Route::has('support.settings.smtp.index'))
+                    <a class="{{ request()->routeIs('support.settings.smtp.*') ? 'active' : '' }}"
+                        href="{{ route('support.settings.smtp.index') }}">
+                        <span class="dot"></span><span>SMTP Mailers</span>
+                    </a>
+                @endif
+
+                @if (Route::has('support.settings.contact-forms.index'))
+                    <a class="{{ request()->routeIs('support.settings.contact-forms.*') ? 'active' : '' }}"
+                        href="{{ route('support.settings.contact-forms.index') }}">
+                        <span class="dot"></span><span>Contact Forms</span>
+                    </a>
+                @endif
+
+                @if (Route::has('support.leads.index'))
+                    <a class="{{ request()->routeIs('support.leads.*') ? 'active' : '' }}"
+                        href="{{ route('support.leads.index') }}">
+                        <span class="dot"></span><span>Leads</span>
+                    </a>
+                @endif
+
+                @if (Route::has('support.case-studies.index'))
+                    <a class="{{ request()->routeIs('support.case-studies.*') ? 'active' : '' }}"
+                        href="{{ route('support.case-studies.index') }}">
+                        <span class="dot"></span><span>Case Studies</span>
+                    </a>
+                @endif
+
+                @if (Route::has('support.consultations.index'))
+                    <a class="{{ request()->routeIs('support.consultations.*') ? 'active' : '' }}"
+                        href="{{ route('support.consultations.index') }}">
+                        <span class="dot"></span><span>Consultations</span>
+                    </a>
+                @endif
+
+                @if (Route::has('support.portfolio-items.index') || Route::has('support.portfolio-platforms.index'))
+                    <div style="height:6px;"></div>
+                    <div
+                        style="padding: 6px 12px; font-size:12px; opacity:.65; letter-spacing:.06em; text-transform:uppercase;">
+                        Portfolio
+                    </div>
+
+                    @if (Route::has('support.portfolio-items.index'))
+                        <a class="{{ request()->routeIs('support.portfolio-items.*') ? 'active' : '' }}"
+                            href="{{ route('support.portfolio-items.index') }}">
+                            <span class="dot"></span><span>Portfolio Items</span>
+                        </a>
+                    @endif
+
+                    @if (Route::has('support.portfolio-platforms.index'))
+                        <a class="{{ request()->routeIs('support.portfolio-platforms.*') ? 'active' : '' }}"
+                            href="{{ route('support.portfolio-platforms.index') }}">
+                            <span class="dot"></span><span>Portfolio Platforms</span>
+                        </a>
+                    @endif
+                @endif
+            </nav>
+        </div>
+    </div>
+
+    {{-- BLOG --}}
     @php
         $blogOpen = request()->routeIs('support.blogs.*');
     @endphp
@@ -73,6 +169,33 @@
                     href="{{ route('support.blogs.create') }}">
                     <span class="dot"></span><span>Add New Post</span>
                 </a>
+            </nav>
+        </div>
+    </div>
+
+    {{-- SERVICES --}}
+    @php
+        $servicesOpen = request()->routeIs('support.business-results.*');
+    @endphp
+
+    <div class="navSection">
+        <button class="navGroupToggle {{ $servicesOpen ? 'open' : '' }}" type="button" data-nav-group="services"
+            aria-expanded="{{ $servicesOpen ? 'true' : 'false' }}">
+            <span class="navGroupTitle">
+                <span class="navGroupDot"></span>
+                <span>Services</span>
+            </span>
+            <span class="navChevron" aria-hidden="true"></span>
+        </button>
+
+        <div class="navGroupPanel {{ $servicesOpen ? 'open' : '' }}" data-nav-panel="services">
+            <nav class="nav navNested">
+                @if (Route::has('support.business-results.index'))
+                    <a class="{{ request()->routeIs('support.business-results.*') ? 'active' : '' }}"
+                        href="{{ route('support.business-results.index') }}">
+                        <span class="dot"></span><span>SEO Business Results</span>
+                    </a>
+                @endif
             </nav>
         </div>
     </div>

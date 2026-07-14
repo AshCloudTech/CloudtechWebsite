@@ -5,12 +5,7 @@
 @section('meta_description', 'Looking to grow your business online? Our UK team offers SEO, web development and digital
     marketing to bring more traffic, leads and sales for business growth!')
 @section('meta_keywords', 'digital marketing, SEO, web development, UK, business growth, online marketing, search engine optimization, website design, digital solutions')
-    @push('head_preloads')
-        <link rel="preload" as="image" href="{{ asset('assets/images/banners/desktop/home-page.webp') }}"
-            fetchpriority="high" media="(min-width: 769px)">
-        <link rel="preload" as="image" href="{{ asset('assets/images/banners/mobile/home-page-banner--mobile.webp') }}"
-            fetchpriority="high" media="(max-width: 768px)">
-    @endpush
+    {{-- Banner preloads disabled while testing hero video --}}
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/cloud-home/css/style.css') }}">
     @endpush
@@ -21,52 +16,13 @@
 @section('content')
 
     <!-- HERO -->
-    <section class="hero" id="hero" style="min-height: 550px;">
-        <picture class="hero-bg" aria-hidden="true">
-            <source media="(max-width: 768px)"
-                srcset="{{ asset('assets/images/banners/mobile/home-page-banner--mobile.webp') }}">
-            <img src="{{ asset('assets/images/banners/desktop/home-page.webp') }}" alt="" width="1920"
-                height="1080" fetchpriority="high" decoding="async">
-        </picture>
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <div class="hero-text">
-                <p class="hero-eyebrow">Smart Digital Solutions for Growth & Performance</p>
-                <h1>Build. Grow. Transform.</h1>
-                <p class="hero-subtitle">
-                    All-in-one hub for digital, design, and AI solutions.
-                </p>
-
-                <div class="hero-actions">
-                    <a href="#services" class="btn btn-lg btn-primary">Explore Services</a>
-                    {{-- <a href="#ai-innovation" class="btn btn-lg btn-ghost">Chat with AI Assistant</a> --}}
-                    <a href="#consultation" class="btn btn-lg btn-ghost openConsultationModal">Schedule a Consultation</a>
-                </div>
-
-                {{-- <p class="hero-note">
-                    Delivering powerful cloud technology that helps entrepreneurs scale faster, <br> reach global markets
-                    and achieve real results.
-                </p> --}}
-            </div>
-
-            <div class="hero-stats">
-                <div class="stat-card">
-                    <span class="stat-value">200+</span>
-                    <span class="stat-label">Projects Delivered</span>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-value">£1.3M+</span>
-                    <span class="stat-label">Project Value Delivered</span>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-value">UK • UAE • India</span>
-                    <span class="stat-label">Countries Served</span>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-value">98%</span>
-                    <span class="stat-label">Client Satisfaction</span>
-                </div>
-            </div>
+    <section class="hero hero-video-fullscreen" id="hero">
+        <div class="hero-bg" aria-hidden="true">
+            <video class="hero-video is-loading" autoplay muted loop playsinline preload="auto"
+                src="{{ asset('assets/videos/home-hero-mobile.mp4') }}"
+                data-desktop-src="{{ asset('assets/videos/home-hero-desktop.mp4') }}"
+                data-mobile-src="{{ asset('assets/videos/home-hero-mobile.mp4') }}">
+            </video>
         </div>
     </section>
 
@@ -86,7 +42,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-blue">Digital Marketing</div>
                     <a href="{{ route('services.digital.marketing') }}" aria-label="Digital Marketing Services">
-                        <img src="{{ asset('assets/images/home/digital_marketing-644.webp') }}" srcset="{{ asset('assets/images/home/digital_marketing-644.webp') }} 644w, {{ asset('assets/images/home/digital_marketing.webp') }} 672w" sizes="322px" class="service-image"
+                        <img src="{{ asset('assets/images/home/digital_marketing.webp') }}" srcset="{{ asset('assets/images/home/digital_marketing.webp') }} 644w, {{ asset('assets/images/home/digital_marketing.webp') }} 672w" sizes="322px" class="service-image"
                             alt="Digital Marketing Services - Cloud Technologies Ltd"
                             title="Digital marketing services for business growth and online visibility"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -105,7 +61,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-purple">UI/UX Design</div>
                     <a href="{{ route('services.uiux') }}" aria-label="UI and UX Design Services">
-                        <img src="{{ asset('assets/images/home/ui_&_ux_design-644.webp') }}" srcset="{{ asset('assets/images/home/ui_&_ux_design-644.webp') }} 644w, {{ asset('assets/images/home/ui_&_ux_design.webp') }} 672w" sizes="322px" class="service-image"
+                        <img src="{{ asset('assets/images/home/ui_&_ux_design.webp') }}" srcset="{{ asset('assets/images/home/ui_&_ux_design.webp') }} 644w, {{ asset('assets/images/home/ui_&_ux_design.webp') }} 672w" sizes="322px" class="service-image"
                             alt="UI and UX Design Services - Cloud Technologies Ltd"
                             title="UI and UX design solutions for user-friendly digital experiences"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -124,7 +80,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-green">Web Development</div>
                     <a href="{{ route('services.web.development') }}" aria-label="Web Development Services">
-                        <img src="{{ asset('assets/images/home/web_development-644.webp') }}" srcset="{{ asset('assets/images/home/web_development-644.webp') }} 644w, {{ asset('assets/images/home/web_development.webp') }} 672w" sizes="322px" class="service-image"
+                        <img src="{{ asset('assets/images/home/web_development.webp') }}" srcset="{{ asset('assets/images/home/web_development.webp') }} 644w, {{ asset('assets/images/home/web_development.webp') }} 672w" sizes="322px" class="service-image"
                             alt="Web Development Services - Cloud Technologies Ltd"
                             title="Custom web development services for modern websites and applications"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -143,7 +99,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-orange">Branding</div>
                     <a href="{{ route('services.branding') }}" aria-label="Branding Services">
-                        <img src="{{ asset('assets/images/home/branding-644.webp') }}" srcset="{{ asset('assets/images/home/branding-644.webp') }} 644w, {{ asset('assets/images/home/branding.webp') }} 672w" sizes="322px" class="service-image"
+                        <img src="{{ asset('assets/images/home/branding.webp') }}" srcset="{{ asset('assets/images/home/branding.webp') }} 644w, {{ asset('assets/images/home/branding.webp') }} 672w" sizes="322px" class="service-image"
                             alt="Branding Services - Cloud Technologies Ltd"
                             title="Professional branding services to build strong brand identity"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -162,7 +118,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-teal">SEO</div>
                     <a href="{{ route('services.seo') }}" aria-label="SEO Services">
-                        <img src="{{ asset('assets/images/home/seo-644.webp') }}" srcset="{{ asset('assets/images/home/seo-644.webp') }} 644w, {{ asset('assets/images/home/seo.webp') }} 672w" sizes="322px" class="service-image"
+                        <img src="{{ asset('assets/images/home/seo.webp') }}" srcset="{{ asset('assets/images/home/seo.webp') }} 644w, {{ asset('assets/images/home/seo.webp') }} 672w" sizes="322px" class="service-image"
                             alt="SEO Services - Cloud Technologies Ltd"
                             title="SEO services to improve website ranking and organic traffic"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -181,7 +137,7 @@
                 <article class="card service-card">
                     <div class="card-tag tag-pink">Product Marketing</div>
                     <a href="{{ route('services.product.marketing') }}" aria-label="Product Marketing Services">
-                        <img src="{{ asset('assets/images/home/product_marketing-644.webp') }}" srcset="{{ asset('assets/images/home/product_marketing-644.webp') }} 644w, {{ asset('assets/images/home/product_marketing.webp') }} 672w" sizes="322px" class="service-image"
+                        <img src="{{ asset('assets/images/home/product_marketing.webp') }}" srcset="{{ asset('assets/images/home/product_marketing.webp') }} 644w, {{ asset('assets/images/home/product_marketing.webp') }} 672w" sizes="322px" class="service-image"
                             alt="Product Marketing Services - Cloud Technologies Ltd"
                             title="Product marketing strategies to promote and grow businesses"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -324,7 +280,7 @@
                 <article class="card industry-card">
                     <div class="card-tag tag-blue">Healthcare Solutions</div>
                     <a href="{{ route('industries.cloudhealth') }}" aria-label="Healthcare Technology Solutions">
-                        <img src="{{ asset('assets/images/home/healthcare_solutions-644.webp') }}" srcset="{{ asset('assets/images/home/healthcare_solutions-644.webp') }} 644w, {{ asset('assets/images/home/healthcare_solutions.webp') }} 672w" sizes="322px" class="industry-image"
+                        <img src="{{ asset('assets/images/home/healthcare_solutions.webp') }}" srcset="{{ asset('assets/images/home/healthcare_solutions.webp') }} 644w, {{ asset('assets/images/home/healthcare_solutions.webp') }} 672w" sizes="322px" class="industry-image"
                             alt="Healthcare Technology Solutions - Cloud Technologies Ltd"
                             title="Healthcare technology solutions for digital transformation in healthcare"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -341,7 +297,7 @@
                 <article class="card industry-card">
                     <div class="card-tag tag-purple">Care Dashboard Management</div>
                     <a href="{{ route('industries.cloudcare') }}" aria-label="Care Dashboard Management System">
-                        <img src="{{ asset('assets/images/home/care_dashboard_management-644.webp') }}" srcset="{{ asset('assets/images/home/care_dashboard_management-644.webp') }} 644w, {{ asset('assets/images/home/care_dashboard_management.webp') }} 672w" sizes="322px"
+                        <img src="{{ asset('assets/images/home/care_dashboard_management.webp') }}" srcset="{{ asset('assets/images/home/care_dashboard_management.webp') }} 644w, {{ asset('assets/images/home/care_dashboard_management.webp') }} 672w" sizes="322px"
                             class="industry-image" alt="Care Dashboard Management System - Cloud Technologies Ltd"
                             title="Care dashboard management system for efficient care operations"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -358,7 +314,7 @@
                 <article class="card industry-card">
                     <div class="card-tag tag-green">Education Technology</div>
                     <a href="{{ route('industries.cloudedu') }}" aria-label="Education Technology Solutions">
-                        <img src="{{ asset('assets/images/home/education_technology-644.webp') }}" srcset="{{ asset('assets/images/home/education_technology-644.webp') }} 644w, {{ asset('assets/images/home/education_technology.webp') }} 672w" sizes="322px" class="industry-image"
+                        <img src="{{ asset('assets/images/home/education_technology.webp') }}" srcset="{{ asset('assets/images/home/education_technology.webp') }} 644w, {{ asset('assets/images/home/education_technology.webp') }} 672w" sizes="322px" class="industry-image"
                             alt="Education Technology Solutions - Cloud Technologies Ltd"
                             title="Education technology solutions for modern learning platforms"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -375,7 +331,7 @@
                 <article class="card industry-card">
                     <div class="card-tag tag-orange">Travel &amp; Tourism</div>
                     <a href="{{ route('industries.cloudtravel') }}" aria-label="Travel and Tourism Technology Solutions">
-                        <img src="{{ asset('assets/images/home/travel_&_tourism-644.webp') }}" srcset="{{ asset('assets/images/home/travel_&_tourism-644.webp') }} 644w, {{ asset('assets/images/home/travel_&_tourism.webp') }} 672w" sizes="322px" class="industry-image"
+                        <img src="{{ asset('assets/images/home/travel_&_tourism.webp') }}" srcset="{{ asset('assets/images/home/travel_&_tourism.webp') }} 644w, {{ asset('assets/images/home/travel_&_tourism.webp') }} 672w" sizes="322px" class="industry-image"
                             alt="Travel and Tourism Technology Solutions - Cloud Technologies Ltd"
                             title="Travel and tourism technology solutions for digital experiences"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -392,7 +348,7 @@
                 <article class="card industry-card">
                     <div class="card-tag tag-teal">Recruitment Solutions</div>
                     <a href="{{ route('industries.cloudrecruit') }}" aria-label="Recruitment Solutions">
-                        <img src="{{ asset('assets/images/home/recruitment_solutions-644.webp') }}" srcset="{{ asset('assets/images/home/recruitment_solutions-644.webp') }} 644w, {{ asset('assets/images/home/recruitment_solutions.webp') }} 672w" sizes="322px" class="industry-image"
+                        <img src="{{ asset('assets/images/home/recruitment_solutions.webp') }}" srcset="{{ asset('assets/images/home/recruitment_solutions.webp') }} 644w, {{ asset('assets/images/home/recruitment_solutions.webp') }} 672w" sizes="322px" class="industry-image"
                             alt="Recruitment Solutions - Cloud Technologies Ltd"
                             title="Recruitment solutions for hiring and talent management"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -409,7 +365,7 @@
                 <article class="card industry-card">
                     <div class="card-tag tag-pink">Public Sector</div>
                     <a href="{{ route('industries.cloudpublic') }}" aria-label="Public Sector Technology Solutions">
-                        <img src="{{ asset('assets/images/home/public_sector-644.webp') }}" srcset="{{ asset('assets/images/home/public_sector-644.webp') }} 644w, {{ asset('assets/images/home/public_sector.webp') }} 672w" sizes="322px" class="industry-image"
+                        <img src="{{ asset('assets/images/home/public_sector.webp') }}" srcset="{{ asset('assets/images/home/public_sector.webp') }} 644w, {{ asset('assets/images/home/public_sector.webp') }} 672w" sizes="322px" class="industry-image"
                             alt="Public Sector Technology Solutions - Cloud Technologies Ltd"
                             title="Public sector technology solutions for government services"
                             width="322" height="215" loading="lazy" decoding="async">
@@ -439,7 +395,7 @@
             <div class="grid grid-3 ai-grid">
                 <article class="card ai-card">
                     <div class="card-tag tag-blue">AI Chatbot Assistant</div>
-                    <img src="{{ asset('assets/images/home/ai_chatbot_assistant-644.webp') }}" srcset="{{ asset('assets/images/home/ai_chatbot_assistant-644.webp') }} 644w, {{ asset('assets/images/home/ai_chatbot_assistant.webp') }} 672w" sizes="322px" class="service-image"
+                    <img src="{{ asset('assets/images/home/ai_chatbot_assistant.webp') }}" srcset="{{ asset('assets/images/home/ai_chatbot_assistant.webp') }} 644w, {{ asset('assets/images/home/ai_chatbot_assistant.webp') }} 672w" sizes="322px" class="service-image"
                         alt="AI Chatbot Assistant - Cloud Technologies Ltd"
                         title="AI chatbot assistant for automated customer support"
                         width="322" height="215" loading="lazy" decoding="async">
@@ -454,7 +410,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-purple">AI Recruiter</div>
-                    <img src="{{ asset('assets/images/home/ai_recruiter-644.webp') }}" srcset="{{ asset('assets/images/home/ai_recruiter-644.webp') }} 644w, {{ asset('assets/images/home/ai_recruiter.webp') }} 672w" sizes="322px" class="service-image"
+                    <img src="{{ asset('assets/images/home/ai_recruiter.webp') }}" srcset="{{ asset('assets/images/home/ai_recruiter.webp') }} 644w, {{ asset('assets/images/home/ai_recruiter.webp') }} 672w" sizes="322px" class="service-image"
                         alt="AI Recruiter Tool - Cloud Technologies Ltd"
                         title="AI recruiter tool for efficient hiring and candidate screening"
                         width="322" height="215" loading="lazy" decoding="async">
@@ -469,7 +425,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-green">AI Itinerary Builder</div>
-                    <img src="{{ asset('assets/images/home/ai_itinerary_builder-644.webp') }}" srcset="{{ asset('assets/images/home/ai_itinerary_builder-644.webp') }} 644w, {{ asset('assets/images/home/ai_itinerary_builder.webp') }} 672w" sizes="322px" class="service-image"
+                    <img src="{{ asset('assets/images/home/ai_itinerary_builder.webp') }}" srcset="{{ asset('assets/images/home/ai_itinerary_builder.webp') }} 644w, {{ asset('assets/images/home/ai_itinerary_builder.webp') }} 672w" sizes="322px" class="service-image"
                         alt="AI Itinerary Builder - Cloud Technologies Ltd"
                         title="AI itinerary builder for travel planning automation"
                         aria-label="AI Itinerary Builder"
@@ -485,7 +441,7 @@
                 <article class="card ai-card">
                     <div class="card-tag tag-orange">AI Healthcare Assistant</div>
 
-                    <img src="{{ asset('assets/images/home/ai_healthcare_assistant-644.webp') }}" srcset="{{ asset('assets/images/home/ai_healthcare_assistant-644.webp') }} 644w, {{ asset('assets/images/home/ai_healthcare_assistant.webp') }} 672w" sizes="322px" class="service-image"
+                    <img src="{{ asset('assets/images/home/ai_healthcare_assistant.webp') }}" srcset="{{ asset('assets/images/home/ai_healthcare_assistant.webp') }} 644w, {{ asset('assets/images/home/ai_healthcare_assistant.webp') }} 672w" sizes="322px" class="service-image"
                         alt="AI Healthcare Assistant - Cloud Technologies Ltd"
                         title="AI healthcare assistant for patient support and management"
                         width="322" height="215" loading="lazy" decoding="async">
@@ -498,7 +454,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-teal">AI Learning Platform</div>
-                    <img src="{{ asset('assets/images/home/ai_learning_platform-644.webp') }}" srcset="{{ asset('assets/images/home/ai_learning_platform-644.webp') }} 644w, {{ asset('assets/images/home/ai_learning_platform.webp') }} 672w" sizes="322px" class="service-image"
+                    <img src="{{ asset('assets/images/home/ai_learning_platform.webp') }}" srcset="{{ asset('assets/images/home/ai_learning_platform.webp') }} 644w, {{ asset('assets/images/home/ai_learning_platform.webp') }} 672w" sizes="322px" class="service-image"
                         alt="AI Learning Platform - Cloud Technologies Ltd"
                         title="AI learning platform for smart and interactive education"
                         aria-label="AI Learning Platform"
@@ -512,7 +468,7 @@
 
                 <article class="card ai-card">
                     <div class="card-tag tag-pink">AI Care Coordinator</div>
-                    <img src="{{ asset('assets/images/home/ai_care_coordinator-644.webp') }}" srcset="{{ asset('assets/images/home/ai_care_coordinator-644.webp') }} 644w, {{ asset('assets/images/home/ai_care_coordinator.webp') }} 672w" sizes="322px" class="service-image"
+                    <img src="{{ asset('assets/images/home/ai_care_coordinator.webp') }}" srcset="{{ asset('assets/images/home/ai_care_coordinator.webp') }} 644w, {{ asset('assets/images/home/ai_care_coordinator.webp') }} 672w" sizes="322px" class="service-image"
                         alt="AI Care Coordinator - Cloud Technologies Ltd"
                         title="AI care coordinator for medication and care plan management"
                         aria-label="AI Care Coordinator"

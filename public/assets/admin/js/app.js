@@ -19,6 +19,20 @@
         });
     }
 
+    // Password visibility toggle
+    qsa("[data-toggle-password]").forEach((btn) => {
+        const input = qs(btn.getAttribute("data-toggle-password"));
+        if (!input) return;
+
+        btn.addEventListener("click", () => {
+            const show = input.type === "password";
+            input.type = show ? "text" : "password";
+            btn.classList.toggle("is-visible", show);
+            btn.setAttribute("aria-pressed", show ? "true" : "false");
+            btn.setAttribute("aria-label", show ? "Hide password" : "Show password");
+        });
+    });
+
     // Mobile sidebar toggle
     const burger = qs("[data-sidebar-toggle]");
     const sidebar = qs(".sidebar");

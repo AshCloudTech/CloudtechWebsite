@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title', 'View SMTP')
 @section('page_title', 'SMTP Details')
@@ -7,10 +7,10 @@
 @section('content')
 
     <div class="btnRow" style="margin-bottom:12px;">
-        <a class="btn" href="{{ route('admin.settings.smtp.index') }}">Back</a>
-        <a class="btn primary" href="{{ route('admin.settings.smtp.edit', $smtp) }}">Edit</a>
+        <a class="btn" href="{{ console_route('settings.smtp.index') }}">Back</a>
+        <a class="btn primary" href="{{ console_route('settings.smtp.edit', $smtp) }}">Edit</a>
 
-        <form method="POST" action="{{ route('admin.settings.smtp.destroy', $smtp) }}" style="margin:0;"
+        <form method="POST" action="{{ console_route('settings.smtp.destroy', $smtp) }}" style="margin:0;"
               onsubmit="return confirm('Delete this SMTP mailer? This cannot be undone.');">
             @csrf
             @method('DELETE')

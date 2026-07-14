@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends(console_layout())
 
 @section('title','Edit Business Result')
 @section('page_title','Edit Business Result')
@@ -6,7 +6,7 @@
 @section('content')
 
 <form method="POST"
-      action="{{ route('admin.business-results.update',$businessResult) }}"
+      action="{{ console_route('business-results.update',$businessResult) }}"
       class="card">
     @csrf
     @method('PUT')
@@ -74,7 +74,7 @@
 
     <div class="cardFooter">
         <button class="btn primary">Update Result</button>
-        <a href="{{ route('admin.business-results.index') }}" class="btn">Back</a>
+        <a href="{{ console_route('business-results.index') }}" class="btn">Back</a>
     </div>
 </form>
 

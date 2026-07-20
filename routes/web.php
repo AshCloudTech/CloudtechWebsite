@@ -254,8 +254,8 @@ Route::get('/seo-agency-{locationSlug}', [LocationSeoController::class, 'seo'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/national-seo-service-{locationSlug}', [LocationSeoController::class, 'nationalSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/international-seo-agency-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
+// Route::get('/international-seo-agency-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
+//     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/international-seo-service-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/technical-seo-service-{locationSlug}', [LocationSeoController::class, 'technicalSeo'])
@@ -322,6 +322,35 @@ Route::get('/recruitment-seo-services-in-{locationSlug}', [LocationSeoController
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/public-sector-seo-service-in-{locationSlug}', [LocationSeoController::class, 'cloudpublic'])
     ->where('locationSlug', '[a-z0-9-]+');
+Route::get('/international-seo-company-{locationSlug}', [LocationSeoController::class, 'internationalSeoCompany'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.international.company');
+Route::get('/global-seo-services-{locationSlug}', [LocationSeoController::class, 'globalSeoServices'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.global.services');
+Route::get('/international-seo-websites-{locationSlug}', [LocationSeoController::class, 'internationalSeoWebsites'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.international.websites');
+Route::get('/international-seo-agency-{locationSlug}', [LocationSeoController::class, 'handleInternationalSeoAgencyRequest'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.international.agency.dispatcher');
+Route::get('/international-seo-services-{locationSlug}', [LocationSeoController::class, 'internationalSeoServicesPage'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.international.services.page');
+
+Route::get('/international-seo-consultant-{locationSlug}', [LocationSeoController::class, 'internationalSeoConsultantPage'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.international.consultant.page');
+Route::get('/international-seo-expert-{locationSlug}', [LocationSeoController::class, 'internationalSeoExpertPage'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.international.expert.page');
+
+Route::get('/international-seo-strategy-{locationSlug}', [LocationSeoController::class, 'internationalSeoStrategyPage'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.international.strategy.page');
+Route::get('/seo-for-international-sites-{locationSlug}', [LocationSeoController::class, 'seoForInternationalSitesPage'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.international.sites.page');
 /*
 |--------------------------------------------------------------------------
 | 301 REDIRECTS FROM OLD URLS
@@ -485,3 +514,6 @@ Route::fallback(function () {
 });
 
 require __DIR__ . '/auth.php';
+Route::get('/international-seo-{locationSlug}', [LocationSeoController::class, 'international_Seo'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.international.generic');

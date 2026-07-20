@@ -14915,9 +14915,1841 @@ class LocationSeoController extends Controller
             ],
 
         ],
+        'international-seo-company' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'International SEO Company London | Worldwide SEO Specialists',
+                    'meta_title' => 'International SEO Company London | Worldwide SEO Specialists',
+                    'meta_description' => 'Expand your global reach with our International SEO Company London. We improve multilingual rankings, boost worldwide visibility, and generate quality leads.',
+                    'meta_keywords' => 'international seo company london, international seo london, global website seo, worldwide seo specialists'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO London',
+                    'title' => 'International SEO Company London Helping <br>Businesses Grow Worldwide',
+                    'subtitle' => 'Expand your business beyond the UK with a trusted International SEO Company London that helps businesses improve global search visibility, attract qualified international traffic, and achieve sustainable business growth. Whether you\'re targeting Europe, North America, Asia, or worldwide markets, our tailored international SEO strategies help your website reach the right audience in every country.',
+                    'audit_type' => 'international-seo-company-london-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request a Custom Strategy',
+                   'banner_desktop' => 'assets/images/banners/desktop/international-seo-services.webp',
+                'banner_mobile' => 'assets/images/banners/mobile/international-seo-services.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your business across leading international markets with our data-driven SEO strategies.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Strengthen your online presence across the UK with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach high-intent customers throughout the United States with targeted international SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Increase your visibility and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Expand into Australia with localised SEO and multilingual optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Improve rankings with German-language SEO and country-specific strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking customers using localised content and SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'International SEO Spain', 'title' => 'Spain', 'desc' => 'Grow your presence across Spain with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'International SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers through multilingual optimisation and regional SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'International SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand your business into the UAE with region-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'International SEO Singapore', 'title' => 'Singapore', 'desc' => 'Improve your online visibility across Singapore with customised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Company in London?',
+                    'subtitle' => 'Partner with experienced international SEO specialists committed to helping your business succeed in global markets.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve your rankings across international search engines and worldwide markets.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to provide an exceptional experience for users in different languages.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target the right audience using localised keyword research and regional optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and enhance international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international rankings and expand into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Identify target countries, competitors, customer behaviour, and international keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Develop a customised international SEO strategy aligned with your business objectives.'],
+                        ['step' => '3', 'title' => 'Technical SEO Implementation', 'desc' => 'Optimise website structure, hreflang tags, multilingual architecture, indexing, and crawlability.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content that matches local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Strengthen your authority with high-quality backlinks from relevant international websites.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse performance, and continuously optimise your SEO campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Services',
+                    'subtitle' => 'Our comprehensive international SEO services help businesses compete successfully across global markets.',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword opportunities, technical SEO recommendations, competitor analysis, website localisation review, multilingual SEO insights, international growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multilingual SEO',
+                        'Hreflang implementation',
+                        'Country-specific SEO campaigns',
+                        'International content optimisation',
+                        'Global link-building strategies',
+                        'International eCommerce SEO',
+                        'Enterprise SEO solutions',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Choosing an International SEO Company London',
+                    'subtitle' => 'Partnering with us helps you secure a strong, scalable return on investment globally.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Improve return on investment',
+                        'Achieve sustainable long-term growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support your global growth strategy with these connected regional and technical SEO variants.',
+                    'items' => [
+                        ['url' => '/international-seo-services-london', 'label' => 'International SEO Services'],
+                        ['url' => '/international-seo-agency-london', 'label' => 'International SEO Agency'],
+                        ['url' => '/global-seo-services-london', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/content-seo-service-uk', 'label' => 'Content SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is an International SEO Company London?',
+                    'paragraphs' => [
+                        'An International SEO Company London helps businesses improve their online visibility across multiple countries, languages, and international search engines. Using advanced SEO techniques such as multilingual optimisation, technical SEO, localisation, hreflang implementation, and international keyword research, we ensure your website reaches the right audience in every target market.',
+                        'Whether your business is expanding into Europe, North America, Asia, Australia, or the Middle East, our international SEO strategies help improve rankings, increase qualified organic traffic, and support long-term global growth.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Company London?',
+                    'side_intro' => 'If your business wants to attract customers from multiple countries and languages, our International SEO Company London provides the expertise needed to achieve international success.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Professional service providers',
+                        'Technology companies',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses operating multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Is Essential for Global Growth',
+                    'paragraphs' => [
+                        'International expansion requires more than translating your website. Search engines need clear signals about your target countries, languages, and website structure to deliver the correct content to users around the world.',
+                        'Our international SEO specialists implement multilingual optimisation, website localisation, hreflang tags, technical SEO, and country-specific keyword strategies that improve international rankings, increase qualified traffic, and generate sustainable business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO Company London and unlock new opportunities across international markets with customised SEO strategies.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Experts',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a tailored international SEO strategy that improves your online visibility, attracts international customers, and delivers measurable business growth.',
+                    'key' => 'international_seo_company_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, AE, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, multi-language site setup, localized growth targets, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Company London FAQs',
+                    'items' => [
+                        ['q' => '1. What does an International SEO Company London do?', 'a' => 'An International SEO Company London helps businesses improve search visibility across multiple countries using multilingual SEO, technical optimisation, localisation, hreflang implementation, and international keyword research.'],
+                        ['q' => '2. Why should I hire an International SEO Company in London?', 'a' => 'Working with an experienced London-based team provides access to strategic international SEO expertise that helps increase global rankings, attract qualified traffic, and expand into new markets.'],
+                        ['q' => '3. How is international SEO different from standard SEO?', 'a' => 'International SEO focuses on optimising websites for multiple countries and languages, while standard SEO typically targets a single country or region.'],
+                        ['q' => '4. How long does international SEO take to produce results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, target markets, and the SEO strategy.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific keyword research, hreflang implementation, localisation, and advanced technical SEO.'],
+                        ['q' => '6. Which businesses benefit from International SEO Company London services?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, and any business looking to grow internationally.']
+                    ]
+                ]
+            ],
+        ],
+        'global-seo-services' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'Global SEO Services London | International SEO Experts',
+                    'meta_title' => 'Global SEO Services London | International SEO Experts',
+                    'meta_description' => 'Expand your business worldwide with Global SEO services in London. Increase international search visibility, improve multilingual rankings, and generate quality leads.',
+                    'meta_keywords' => 'global seo services london, international seo experts, multi-language site positioning, worldwide seo strategy'
+                ],
+                'hero' => [
+                    'eyebrow' => 'Global SEO Services London',
+                    'title' => 'Global SEO Services London That Help Your Business <br>Grow Worldwide',
+                    'subtitle' => 'Expand your business into international markets with professional Global SEO Services London designed to improve your visibility across multiple countries, languages, and search engines. Our data-driven global SEO strategies help businesses attract qualified international traffic, increase worldwide search rankings, and generate sustainable business growth. Whether you\'re targeting Europe, North America, Asia, or global markets, we help your business reach the right audience.',
+                    'audit_type' => 'global-seo-services-london-audit',
+                    'primary_btn_text' => 'Get a Free Global SEO Consultation',
+                    'secondary_btn_text' => 'Request a Custom SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/image-seo-services.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/image-seo-services.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'Global Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with our customised Global SEO Services.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'Global SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your visibility across UK search results with country-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'Global SEO United States', 'title' => 'United States', 'desc' => 'Reach high-intent customers throughout the United States with targeted global SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'Global SEO Canada', 'title' => 'Canada', 'desc' => 'Expand your online presence and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'Global SEO Australia', 'title' => 'Australia', 'desc' => 'Grow your business in Australia with localised SEO and multilingual optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'Global SEO Germany', 'title' => 'Germany', 'desc' => 'Improve rankings with German-language SEO and country-specific optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'Global SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking audiences using localised SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'Global SEO Spain', 'title' => 'Spain', 'desc' => 'Increase your visibility across Spain with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'Global SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers with multilingual optimisation and regional SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'Global SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand your business into the UAE with region-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'Global SEO Singapore', 'title' => 'Singapore', 'desc' => 'Improve your online visibility across Singapore with customised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our Global SEO Services London?',
+                    'subtitle' => 'Partner with experienced international SEO specialists committed to helping businesses achieve long-term success across global markets.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'Global SEO Expertise', 'desc' => 'Improve your rankings across international search engines and worldwide markets.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to provide an exceptional experience for users in different languages.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target the right audience using localised keyword research and regional optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and enhance international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our Global SEO Process',
+                    'subtitle' => 'Our proven SEO process helps businesses improve international rankings and expand into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'Global Market Research', 'desc' => 'Identify target countries, competitors, customer behaviour, and international keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Develop a customised global SEO strategy aligned with your business objectives.'],
+                        ['step' => '3', 'title' => 'Technical SEO Implementation', 'desc' => 'Optimise website structure, hreflang tags, multilingual architecture, indexing, and crawlability.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content that matches local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'Global Link Building', 'desc' => 'Strengthen your authority with high-quality backlinks from relevant international websites.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse performance, and continuously optimise your SEO campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete Global SEO Services',
+                    'subtitle' => 'Our comprehensive Global SEO Services help businesses compete successfully across international markets.',
+                    'list_title' => 'Global SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: Global SEO audit, international keyword opportunities, technical SEO recommendations, competitor analysis, website localisation review, multilingual SEO insights, international growth roadmap',
+                    'items' => [
+                        'Global SEO audits',
+                        'International keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multilingual SEO',
+                        'Hreflang implementation',
+                        'Country-specific SEO campaigns',
+                        'International content optimisation',
+                        'Global link-building strategies',
+                        'International eCommerce SEO',
+                        'Enterprise SEO solutions',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Choosing Global SEO Services London',
+                    'subtitle' => 'Targeting strategic cross-border markets systematically lowers acquisition overheads over time.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Improve return on investment',
+                        'Achieve sustainable long-term growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support your configuration with these highly connected regional search products.',
+                    'items' => [
+                        ['url' => '/international-seo-company-london', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-london', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-services-london', 'label' => 'International SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/content-seo-service-uk', 'label' => 'Content SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Are Global SEO Services London?',
+                    'paragraphs' => [
+                        'Global SEO Services London help businesses improve their online visibility across multiple countries, languages, and international search engines. Using advanced SEO techniques such as multilingual optimisation, technical SEO, localisation, hreflang implementation, and international keyword research, we ensure your website reaches the right audience in every target market.',
+                        'Whether your business is expanding into Europe, North America, Asia, Australia, or the Middle East, our global SEO strategies help improve rankings, increase qualified organic traffic, and support long-term business growth.'
+                    ],
+                    'side_title' => 'Who Needs Global SEO Services London?',
+                    'side_intro' => 'If your business wants to attract customers from multiple countries and languages, our Global SEO Services London provide the expertise needed to achieve international success.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Professional service providers',
+                        'Technology companies',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses operating multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why Global SEO Is Essential for Business Growth',
+                    'paragraphs' => [
+                        'Expanding internationally requires more than translating your website. Search engines need clear signals about your target countries, languages, and website structure to deliver the correct content to users around the world.',
+                        'Our Global SEO specialists implement multilingual optimisation, website localisation, hreflang tags, technical SEO, and country-specific keyword strategies that improve international rankings, increase qualified traffic, and generate sustainable business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced Global SEO specialists in London and unlock new opportunities across international markets with customised SEO strategies.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free Global SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our Global SEO Experts',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a tailored Global SEO strategy that improves your online visibility, attracts international customers, and delivers measurable business growth.',
+                    'key' => 'global_seo_services_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more leads, multi-language site, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'Global SEO Services London FAQs',
+                    'items' => [
+                        ['q' => '1. What are Global SEO Services?', 'a' => 'Global SEO Services help businesses improve search visibility across multiple countries using multilingual SEO, technical optimisation, localisation, hreflang implementation, and international keyword research.'],
+                        ['q' => '2. Why should I choose Global SEO Services London?', 'a' => 'Working with an experienced London-based SEO team provides access to proven international SEO strategies that improve global rankings, increase qualified traffic, and support worldwide business growth.'],
+                        ['q' => '3. How are Global SEO Services different from standard SEO?', 'a' => 'Global SEO focuses on optimising websites for multiple countries and languages, while standard SEO typically targets a single location or region.'],
+                        ['q' => '4. How long does Global SEO take to produce results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, target markets, and the SEO strategy.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific keyword research, hreflang implementation, localisation, and advanced technical SEO.'],
+                        ['q' => '6. Which businesses benefit from Global SEO Services London?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, and any business looking to expand into international markets.']
+                    ]
+                ]
+            ],
+        ],
+        'international-seo-websites' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'International SEO Websites London | Global Website SEO Experts',
+                    'meta_title' => 'International SEO Websites London | Global Website SEO Experts',
+                    'meta_description' => 'Optimise your website for international markets with expert International SEO website services in London. Increase global visibility, multilingual rankings, and qualified leads.',
+                    'meta_keywords' => 'international seo websites london, global website seo experts, multi-language site positioning, international search optimization'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Websites London',
+                    'title' => 'International SEO Websites London That Help Your <br>Business Grow Worldwide',
+                    'subtitle' => 'Expand your business into global markets with professionally optimised International SEO Websites London designed to improve search visibility across multiple countries, languages, and search engines. Whether you\'re launching a new international website or optimising an existing one, our tailored SEO solutions help attract qualified international traffic, improve global rankings, and generate sustainable business growth.',
+                    'audit_type' => 'international-seo-websites-london-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Website Audit',
+                    'secondary_btn_text' => 'Book a Consultation',
+                    'banner_desktop' => 'assets/images/banners/desktop/seo.webp',
+                'banner_mobile' => 'assets/images/banners/mobile/seo.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with SEO-optimised websites built for global success.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your visibility across UK search results with country-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the United States with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Expand your online presence and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve rankings with SEO strategies tailored to Australian search behaviour.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Boost visibility with multilingual SEO and German-language website optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking audiences using localised website content and SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'International SEO Spain', 'title' => 'Spain', 'desc' => 'Increase your visibility across Spain with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'International SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers through multilingual optimisation and country-specific SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'International SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand into the UAE with region-focused SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'International SEO Singapore', 'title' => 'Singapore', 'desc' => 'Strengthen your online presence across Singapore with customised international SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Websites London?',
+                    'subtitle' => 'Partner with experienced international SEO specialists who create websites designed to perform across global markets.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'SEO-Friendly International Websites', 'desc' => 'Build websites that are fully optimised for international search engines and users.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language Website Optimisation', 'desc' => 'Deliver the best user experience with multilingual SEO and professional localisation.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target customers in multiple countries using localised keywords and regional optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and enhance international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Website Process',
+                    'subtitle' => 'Our proven process helps businesses build and optimise websites for international success.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'Website Audit & Planning', 'desc' => 'Analyse your existing website, target markets, competitors, and international SEO opportunities.'],
+                        ['step' => '2', 'title' => 'International Keyword Research', 'desc' => 'Identify high-value keywords for every target country and language.'],
+                        ['step' => '3', 'title' => 'Technical Website Optimisation', 'desc' => 'Optimise website structure, hreflang tags, indexing, crawlability, page speed, and mobile performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Develop and optimise content for local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Authority Building', 'desc' => 'Strengthen your website through high-quality international backlinks and digital authority.'],
+                        ['step' => '6', 'title' => 'Ongoing SEO Optimisation', 'desc' => 'Track rankings, analyse website performance, and continuously improve international visibility.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Website Services',
+                    'subtitle' => 'Our comprehensive website optimisation services include:',
+                    'list_title' => 'International SEO Website Audit',
+                    'list_desc' => 'Receive a detailed review of your website\'s international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, technical website analysis, global keyword opportunities, competitor analysis, hreflang recommendations, website localisation review, technical SEO improvements, international growth roadmap',
+                    'items' => [
+                        'International SEO website audits',
+                        'Technical SEO optimisation',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Website localisation',
+                        'Multilingual SEO',
+                        'Hreflang implementation',
+                        'Country-specific landing pages',
+                        'International content optimisation',
+                        'Global link-building strategies',
+                        'International eCommerce SEO',
+                        'Enterprise SEO solutions',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of International SEO Websites London',
+                    'subtitle' => 'Deploying strategic structural layouts maps out clear validation benchmarks regionally.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website performance',
+                        'Strengthen domain authority',
+                        'Achieve sustainable long-term growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Link your expansion profiles cleanly using these highly contextual cross-linking assets.',
+                    'items' => [
+                        ['url' => '/international-seo-company-london', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-london', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-services-london', 'label' => 'International SEO Services'],
+                        ['url' => '/global-seo-services-london', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Are International SEO Websites?',
+                    'paragraphs' => [
+                        'International SEO Websites are websites specifically designed and optimised to perform across multiple countries, languages, and international search engines. They include multilingual SEO, website localisation, technical optimisation, hreflang implementation, and country-specific keyword targeting to ensure users see the most relevant version of your website.',
+                        'Unlike a standard website, an international SEO website is built to improve global search visibility, enhance user experience, and generate qualified organic traffic from international markets.',
+                        'Whether your business targets Europe, North America, Asia, Australia, or the Middle East, a professionally optimised international SEO website provides the foundation for sustainable international growth.'
+                    ],
+                    'side_title' => 'Who Needs International SEO Websites?',
+                    'side_intro' => 'If your business serves customers across multiple countries or languages, an International SEO Website helps maximise your global online visibility and business growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Professional service providers',
+                        'Technology companies',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses operating multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Websites Are Important',
+                    'paragraphs' => [
+                        'Expanding internationally requires more than translating your website. Search engines need clear signals about your target countries, languages, and website structure to display the right content to the right users.',
+                        'Our International SEO Website solutions include multilingual optimisation, technical SEO, website localisation, hreflang implementation, international keyword research, and ongoing optimisation. These strategies improve international rankings, increase qualified traffic, enhance user experience, and support long-term business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Build an International SEO Website?',
+                    'subtitle' => 'Partner with our experienced international SEO specialists in London and create a website that performs across global markets.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free Website Audit'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Website Experts',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a customised international SEO website strategy that improves your global visibility, attracts qualified international customers, and delivers measurable business growth.',
+                    'key' => 'international_seo_websites_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more leads, multi-language site, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Websites London FAQs',
+                    'items' => [
+                        ['q' => '1. What are International SEO Websites?', 'a' => 'International SEO Websites are websites optimised for multiple countries and languages using multilingual SEO, localisation, technical SEO, hreflang implementation, and country-specific targeting.'],
+                        ['q' => '2. Why should I choose International SEO Websites London?', 'a' => 'Working with a London-based international SEO team ensures your website is optimised for global audiences using proven SEO strategies and technical best practices.'],
+                        ['q' => '3. What features should an International SEO Website include?', 'a' => 'An international SEO website should include multilingual content, hreflang tags, country-specific landing pages, technical SEO, fast loading speeds, mobile optimisation, and localised keyword targeting.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, target markets, and SEO implementation.'],
+                        ['q' => '5. Can you optimise an existing website for international SEO?', 'a' => 'Yes. We can audit, optimise, and improve your existing website to increase its visibility across international search engines and target countries.'],
+                        ['q' => '6. Which businesses benefit from International SEO Websites London?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, and any business looking to expand into international markets.']
+                    ]
+                ]
+            ],
+        ],
+        'international-seo-agency' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'International SEO Agency London | Global Website SEO Experts',
+                    'meta_title' => 'International SEO Agency London | Global Website SEO Experts',
+                    'meta_description' => 'Optimise your website for international markets with expert International SEO agency services in London. Increase global visibility, multilingual rankings, and qualified leads.',
+                    'meta_keywords' => 'international seo agency london, global website seo experts, multi-language site structure, international search optimization'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Agency London',
+                    'title' => 'International SEO Agency London Helping <br>Businesses Grow Worldwide',
+                    'subtitle' => 'Expand your business beyond borders with a trusted International SEO Agency London that delivers data-driven SEO strategies to improve global search visibility, attract qualified international traffic, and generate sustainable business growth. Whether you\'re targeting Europe, North America, Asia, or multiple international markets, our tailored SEO campaigns help your business reach the right audience and achieve long-term success.',
+                    'audit_type' => 'international-seo-agency-london-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request a Custom SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/shopify-development-services.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/shopify-development-services.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with our expert International SEO services.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your visibility across the UK with country-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the United States with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Expand your online presence and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Grow your business in Australia with localised SEO and multilingual optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Improve rankings with German-language SEO and country-specific optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking audiences using localised SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'International SEO Spain', 'title' => 'Spain', 'desc' => 'Increase your search visibility across Spain with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'International SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers through multilingual optimisation and regional SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'International SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand your business into the UAE with region-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'International SEO Singapore', 'title' => 'Singapore', 'desc' => 'Improve your online visibility in Singapore with customised international SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Agency London?',
+                    'subtitle' => 'Partner with experienced international SEO specialists committed to delivering measurable results across global markets.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve rankings across international search engines and worldwide markets.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to provide an exceptional experience for users in different languages.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target the right audience using localised keyword research and regional optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and enhance international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international rankings and expand successfully into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Research target countries, competitors, customer behaviour, and international keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Develop a customised international SEO strategy aligned with your business goals and expansion plans.'],
+                        ['step' => '3', 'title' => 'Technical SEO Implementation', 'desc' => 'Optimise website structure, multilingual architecture, hreflang tags, indexing, crawlability, and page performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content for regional languages, cultures, and local search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Strengthen your website with high-quality international backlinks from authoritative websites.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse performance, and continuously optimise your international SEO campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Agency Services',
+                    'subtitle' => 'Our comprehensive international SEO services help businesses compete successfully across global markets.',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword opportunities, technical SEO recommendations, competitor analysis, website localisation review, multilingual SEO insights, international growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multilingual SEO',
+                        'Hreflang implementation',
+                        'Country-specific SEO campaigns',
+                        'International content optimisation',
+                        'Global link-building strategies',
+                        'International eCommerce SEO',
+                        'Enterprise SEO solutions',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Choosing an International SEO Agency London',
+                    'subtitle' => 'Targeting competitive cross-border regions securely structures long-term corporate reach.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Improve return on investment',
+                        'Achieve sustainable long-term business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Interlink your international campaigns cleanly through these alternate programmatic channels.',
+                    'items' => [
+                        ['url' => '/international-seo-company-london', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-services-london', 'label' => 'International SEO Services'],
+                        ['url' => '/global-seo-services-london', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/content-seo-service-uk', 'label' => 'Content SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is an International SEO Agency?',
+                    'paragraphs' => [
+                        'An International SEO Agency helps businesses improve their online visibility across multiple countries, languages, and international search engines. Using advanced SEO techniques such as multilingual optimisation, technical SEO, website localisation, hreflang implementation, and international keyword research, we ensure your website reaches the right audience in every target market.',
+                        'Whether your business is expanding into Europe, North America, Asia, Australia, or the Middle East, our international SEO strategies improve search rankings, increase qualified organic traffic, and support long-term global business growth.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Agency London?',
+                    'side_intro' => 'If your business serves customers in multiple countries or languages, our International SEO Agency London provides the expertise needed to maximise your international visibility and business growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Professional service providers',
+                        'Technology companies',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses operating multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Is Essential for Global Growth',
+                    'paragraphs' => [
+                        'Growing internationally requires more than translating your website. Search engines need clear signals about your target countries, languages, and website structure to display the correct content to the right users.',
+                        'Our International SEO specialists implement multilingual optimisation, website localisation, hreflang tags, technical SEO, international keyword research, and country-specific optimisation to improve rankings, increase qualified traffic, and generate sustainable business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO Agency London and unlock new opportunities across international markets with customised SEO strategies that deliver measurable results.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Specialists',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a customised international SEO strategy that improves your online visibility, attracts international customers, and delivers measurable business growth.',
+                    'key' => 'international_seo_agency_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more leads, multi-language site layout targets, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Agency London FAQs',
+                    'items' => [
+                        ['q' => '1. What does an International SEO Agency London do?', 'a' => 'An International SEO Agency London helps businesses improve search visibility across multiple countries through multilingual SEO, technical optimisation, localisation, hreflang implementation, and international keyword research.'],
+                        ['q' => '2. Why should I choose an International SEO Agency in London?', 'a' => 'A London-based international SEO agency provides expert strategies to help businesses expand into global markets, improve international rankings, and attract qualified organic traffic.'],
+                        ['q' => '3. How is an International SEO Agency different from a standard SEO agency?', 'a' => 'An International SEO Agency specialises in optimising websites for multiple countries and languages, while a standard SEO agency generally focuses on a single market.'],
+                        ['q' => '4. How long does International SEO take to deliver results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on website authority, competition, target countries, and the SEO strategy.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific keyword research, hreflang implementation, localisation, and advanced technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from an International SEO Agency London?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, technology companies, and any business looking to expand into international markets.']
+                    ]
+                ]
+            ],
+        ],
+        'international-seo-services' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'International SEO Services London | Global SEO Experts',
+                    'meta_title' => 'International SEO Services London | Global SEO Experts',
+                    'meta_description' => 'Grow your business across international markets with International SEO services in London. Improve global rankings, multilingual visibility, organic traffic, and quality leads.',
+                    'meta_keywords' => 'international seo services london, global seo experts, multi-language site positioning, international search optimization'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Services London',
+                    'title' => 'International SEO Services London That Help Your <br>Business Grow Worldwide',
+                    'subtitle' => 'Expand your business beyond borders with professional International SEO Services London designed to improve your visibility across multiple countries, languages, and search engines. Our data-driven international SEO strategies help businesses attract qualified global traffic, increase international search rankings, and generate sustainable business growth. Whether you\'re targeting Europe, North America, Asia, or worldwide markets, we help your business connect with the right audience.',
+                    'audit_type' => 'international-seo-services-london-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request a Custom SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/international-seo-services.webp',
+                'banner_mobile' => 'assets/images/banners/mobile/international-seo-services.webp',
+                    'meta_description' => 'Expand your reach worldwide with expert International SEO services in the UK. Improve multilingual rankings, increase global traffic, and generate qualified traffic.',
+                    'meta_keywords' => 'international SEO services UK, global SEO agency UK, multilingual SEO, geo-targeted SEO UK',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with our expert International SEO Services.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your visibility across the UK with country-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the United States with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Expand your online presence and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Grow your business in Australia with localised SEO and multilingual optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Improve rankings with German-language SEO and country-specific optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking audiences using localised SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'International SEO Spain', 'title' => 'Spain', 'desc' => 'Increase your search visibility across Spain with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'International SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers through multilingual optimisation and regional SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'International SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand your business into the UAE with region-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'International SEO Singapore', 'title' => 'Singapore', 'desc' => 'Improve your online visibility in Singapore with customised international SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Services London?',
+                    'subtitle' => 'Partner with experienced international SEO specialists committed to helping your business achieve measurable growth across global markets.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve your rankings across international search engines and worldwide markets.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to provide the best experience for users in different languages.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target the right audience using localised keyword research and regional optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and enhance international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international rankings and expand successfully into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Research target countries, competitors, customer behaviour, and international keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Develop a customised international SEO strategy aligned with your business objectives and expansion plans.'],
+                        ['step' => '3', 'title' => 'Technical SEO Implementation', 'desc' => 'Optimise website structure, multilingual architecture, hreflang tags, indexing, crawlability, and page performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Develop and optimise content for regional languages, cultures, and local search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Build high-quality backlinks from authoritative international websites to strengthen your online presence.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse performance, and continuously optimise your SEO campaign for long-term growth.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Services',
+                    'subtitle' => 'Our comprehensive International SEO Services help businesses compete successfully across international markets.',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword opportunities, technical SEO recommendations, competitor analysis, website localisation review, multilingual SEO insights, international growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multilingual SEO',
+                        'Hreflang implementation',
+                        'Country-specific SEO campaigns',
+                        'International content optimisation',
+                        'Global link-building strategies',
+                        'International eCommerce SEO',
+                        'Enterprise SEO solutions',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Choosing International SEO Services London',
+                    'subtitle' => 'Our structured modules ensure sustained, data-driven cross-border performance optimization.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Improve return on investment',
+                        'Achieve sustainable long-term business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Complement your business operations securely through alternate contextual marketing links.',
+                    'items' => [
+                        ['url' => '/international-seo-company-london', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-london', 'label' => 'International SEO Agency'],
+                        ['url' => '/global-seo-services-london', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/content-seo-service-uk', 'label' => 'Content SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Are International SEO Services?',
+                    'paragraphs' => [
+                        'International SEO Services help businesses improve their online visibility across multiple countries, languages, and international search engines. Using advanced SEO techniques such as multilingual optimisation, technical SEO, website localisation, hreflang implementation, and international keyword research, we ensure your website reaches the right audience in every target market.',
+                        'Whether your business is expanding into Europe, North America, Asia, Australia, or the Middle East, our international SEO strategies improve search rankings, increase qualified organic traffic, and support sustainable business growth.'
+                    ],
+                    'side_title' => 'Who Needs International SEO Services London?',
+                    'side_intro' => 'If your business serves customers in multiple countries or languages, our International SEO Services London provide the expertise needed to maximise your global visibility and business growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Professional service providers',
+                        'Technology companies',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses operating multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Is Essential for Global Growth',
+                    'paragraphs' => [
+                        'Growing internationally requires more than translating your website. Search engines need clear signals about your target countries, languages, and website structure to display the correct content to the right users.',
+                        'Our International SEO Services include multilingual optimisation, website localisation, hreflang implementation, technical SEO, international keyword research, and continuous optimisation. These strategies improve international rankings, increase qualified traffic, enhance user experience, and support long-term business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO specialists in London and unlock new opportunities across international markets with customised SEO strategies that deliver measurable results.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Specialists',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a customised international SEO strategy that improves your online visibility, attracts international customers, and drives sustainable business growth.',
+                    'key' => 'international_seo_services_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more leads, multi-language site setup, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Services London FAQs',
+                    'items' => [
+                        ['q' => '1. What are International SEO Services?', 'a' => 'International SEO Services help businesses improve search visibility across multiple countries using multilingual SEO, technical optimisation, localisation, hreflang implementation, and international keyword research.'],
+                        ['q' => '2. Why should I choose International SEO Services London?', 'a' => 'Working with a London-based international SEO team gives you access to proven strategies that improve global rankings, increase qualified traffic, and support international business growth.'],
+                        ['q' => '3. How are International SEO Services different from standard SEO?', 'a' => 'International SEO Services optimise websites for multiple countries and languages, while standard SEO generally focuses on a single country or local market.'],
+                        ['q' => '4. How long does International SEO take to produce results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, target markets, and the SEO strategy.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific keyword research, hreflang implementation, localisation, and advanced technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from International SEO Services London?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, technology companies, and any business looking to expand into international markets.']
+                    ]
+                ]
+            ],
+        ],
+        'internationalseo' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'International SEO in London | Global SEO Specialists',
+                    'meta_title' => 'International SEO in London | Global SEO Specialists',
+                    'meta_description' => 'Expand your business globally with professional International SEO services in London. Increase worldwide search visibility, improve multilingual rankings & drive organic traffic.',
+                    'meta_keywords' => 'international seo london, international seo in london, global seo specialists, multilingual ranking signals'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO in London',
+                    'title' => 'International SEO in London That Helps Your Business <br>Grow Across Global Markets',
+                    'subtitle' => 'Expand your business beyond the UK with expert International SEO in London designed to improve your visibility across multiple countries, languages, and international search engines. Our tailored SEO strategies help businesses attract qualified global traffic, increase international rankings, and achieve sustainable business growth. Whether you\'re targeting Europe, North America, Asia, or worldwide markets, our international SEO specialists help you reach the right audience.',
+                    'audit_type' => 'international-seo-london-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request a Custom Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/website-development.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/website-development.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Help You Target',
+                    'subtitle' => 'Grow your business internationally with customised SEO strategies for leading global markets.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Strengthen your online visibility across the UK with tailored SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach high-value customers throughout the United States with international SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Expand your online presence and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve your search rankings with SEO strategies tailored to Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Increase visibility through multilingual SEO and German-language optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking customers using localised SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'International SEO Spain', 'title' => 'Spain', 'desc' => 'Improve rankings across Spain with country-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'International SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers through multilingual website optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'International SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand into the UAE with regional SEO and localisation strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'International SEO Singapore', 'title' => 'Singapore', 'desc' => 'Increase your online visibility across Singapore with customised international SEO.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO in London?',
+                    'subtitle' => 'Partner with experienced international SEO professionals who understand how to grow businesses across global markets.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve rankings across international search engines and target countries.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to improve user experience and international visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target local audiences using regional keyword research and search behaviour.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses expand successfully into international markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Research target countries, competitors, customer behaviour, and global keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Develop a customised international SEO strategy aligned with your business objectives.'],
+                        ['step' => '3', 'title' => 'Technical SEO Implementation', 'desc' => 'Optimise your website with hreflang tags, multilingual architecture, technical SEO, and improved indexing.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content for local languages, cultures, and regional search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Strengthen your website\'s authority with high-quality backlinks from international websites.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse results, and continuously optimise your SEO campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Services',
+                    'subtitle' => 'Our comprehensive international SEO solutions include:',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Understand your website\'s international performance with a comprehensive SEO review.',
+                    'list_note' => 'Includes: International SEO audit, global keyword opportunities, competitor analysis, technical SEO recommendations, website localisation review, multilingual SEO insights, international growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multilingual SEO',
+                        'Hreflang implementation',
+                        'Country-specific SEO campaigns',
+                        'International content optimisation',
+                        'Global link-building strategies',
+                        'International eCommerce SEO',
+                        'Enterprise SEO solutions',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of International SEO in London',
+                    'subtitle' => 'Our strategic asset arrays configure direct structural conversion value targets over long operational milestones.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international enquiries',
+                        'Increase overseas sales and conversions',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Improve long-term return on investment',
+                        'Achieve sustainable international growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support your international cross-linking structure cleanly through these alternate data profiles.',
+                    'items' => [
+                        ['url' => '/international-seo-company-london', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-london', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-services-london', 'label' => 'International SEO Services'],
+                        ['url' => '/global-seo-services-london', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is International SEO?',
+                    'paragraphs' => [
+                        'International SEO is the process of optimising your website so it performs well across multiple countries, languages, and search engines. It combines technical SEO, multilingual optimisation, website localisation, hreflang implementation, and international keyword research to ensure the correct version of your website is displayed to users based on their language and location.',
+                        'Whether you\'re expanding into Europe, North America, Asia, Australia, or the Middle East, International SEO helps improve search visibility, attract qualified global traffic, and support long-term business growth.'
+                    ],
+                    'side_title' => 'Who Needs International SEO in London?',
+                    'side_intro' => 'If your business is looking to expand internationally, our International SEO in London services provide the expertise needed to achieve sustainable global growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Matters',
+                    'paragraphs' => [
+                        'International expansion requires more than translating website content. Search engines need clear signals about your target countries, languages, and website structure to serve the correct pages to international users.',
+                        'Our International SEO services include technical optimisation, multilingual SEO, website localisation, hreflang implementation, international keyword research, and continuous performance improvements. These strategies help improve rankings, increase qualified traffic, enhance user experience, and generate long-term business success.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO specialists in London and unlock new opportunities across international markets with customised SEO strategies that deliver measurable results.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Specialists',
+                    'subtitle' => 'Tell us about your business goals and international expansion plans. We\'ll create a tailored SEO strategy that improves your global visibility, attracts qualified international customers, and supports long-term business growth.',
+                    'key' => 'international_seo_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, international leads, multi-market scalability, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO in London FAQs',
+                    'items' => [
+                        ['q' => '1. What is International SEO?', 'a' => 'International SEO is the process of optimising a website for multiple countries and languages to improve global search visibility and attract international customers.'],
+                        ['q' => '2. Why choose International SEO in London?', 'a' => 'A London-based international SEO team provides the expertise needed to help businesses expand into global markets with proven SEO strategies.'],
+                        ['q' => '3. How is International SEO different from local SEO?', 'a' => 'Local SEO focuses on a specific city or region, while International SEO targets multiple countries, languages, and international audiences.'],
+                        ['q' => '4. How long does International SEO take to show results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, target markets, and SEO implementation.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using hreflang tags, localisation, language-specific keyword research, and advanced technical SEO.'],
+                        ['q' => '6. Which businesses benefit from International SEO in London?', 'a' => 'Our International SEO services are ideal for eCommerce businesses, SaaS companies, exporters, manufacturers, B2B organisations, franchises, and any business expanding into international markets.']
+                    ]
+                ]
+            ],
+        ],
+
+        'international-seo-consultant' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'International SEO Consultant London | Global SEO Expert',
+                    'meta_title' => 'International SEO Consultant London | Global SEO Expert',
+                    'meta_description' => 'Work with an experienced International SEO Consultant in London to expand your global reach. Improve multilingual rankings, increase international visibility, and generate quality leads.',
+                    'meta_keywords' => 'international seo consultant london, global seo expert, multi-language site auditing, international search consulting'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Consultant London',
+                    'title' => 'International SEO Consultant London Helping <br>Businesses Grow Worldwide',
+                    'subtitle' => 'Expand your business into international markets with an experienced International SEO Consultant London who delivers data-driven SEO strategies to improve global search visibility, attract qualified international traffic, and generate sustainable business growth. Whether you\'re targeting Europe, North America, Asia, or multiple global markets, our tailored SEO consultancy helps your business reach the right audience and achieve long-term success.',
+                    'audit_type' => 'international-seo-consultant-london-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request a Custom SEO Strategy',
+                   'banner_desktop' => 'assets/images/banners/desktop/website-development.webp',
+                'banner_mobile' => 'assets/images/banners/mobile/website-development.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with expert SEO consultancy.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your visibility across the UK with country-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach high-intent customers throughout the United States with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Expand your online presence and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve rankings with SEO strategies tailored to Australian search behaviour.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Boost visibility through multilingual SEO and German-language optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking audiences using localised SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'International SEO Spain', 'title' => 'Spain', 'desc' => 'Increase your search visibility across Spain with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'International SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers through multilingual optimisation and regional SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'International SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand your business into the UAE with region-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'International SEO Singapore', 'title' => 'Singapore', 'desc' => 'Improve your online visibility across Singapore with customised international SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Consultant London?',
+                    'subtitle' => 'Work with an experienced International SEO Consultant who understands how to grow businesses across global markets.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Develop strategies that improve rankings across international search engines and worldwide markets.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to enhance user experience and search performance.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target local audiences using regional keyword research and market-specific optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Consulting Process',
+                    'subtitle' => 'Our proven consulting process helps businesses expand successfully into international markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International SEO Audit', 'desc' => 'Review your website\'s technical SEO, content, and international search performance.'],
+                        ['step' => '2', 'title' => 'Market & Competitor Research', 'desc' => 'Identify target countries, competitors, customer behaviour, and international keyword opportunities.'],
+                        ['step' => '3', 'title' => 'SEO Strategy Development', 'desc' => 'Create a tailored international SEO roadmap aligned with your business goals and expansion plans.'],
+                        ['step' => '4', 'title' => 'Technical SEO Recommendations', 'desc' => 'Provide guidance on website architecture, hreflang implementation, multilingual setup, and indexing.'],
+                        ['step' => '5', 'title' => 'Content & Localisation Strategy', 'desc' => 'Develop recommendations for multilingual content and country-specific optimisation.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring & Ongoing Consultancy', 'desc' => 'Track rankings, review performance, and provide ongoing strategic recommendations for long-term growth.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'International SEO Consultant Services',
+                    'subtitle' => 'Our comprehensive consultant advisory packages systematically resolve global ranking bottlenecks.',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword opportunities, competitor analysis, technical SEO recommendations, website localisation review, multilingual SEO insights, international growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO consultancy',
+                        'Website localisation strategy',
+                        'Multilingual SEO guidance',
+                        'Hreflang implementation',
+                        'Country-specific SEO planning',
+                        'International content strategy',
+                        'Global link-building recommendations',
+                        'SEO reporting and analytics',
+                        'Ongoing SEO consultancy'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Hiring an International SEO Consultant London',
+                    'subtitle' => 'Expert strategic guidance unlocks scalable global validation benchmarks across foreign engine variations.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international enquiries',
+                        'Increase overseas sales and conversions',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Improve return on SEO investment',
+                        'Achieve sustainable long-term business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Complement your business advisory framework using these highly connected alternative programmatic links.',
+                    'items' => [
+                        ['url' => '/international-seo-company-london', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-london', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-services-london', 'label' => 'International SEO Services'],
+                        ['url' => '/global-seo-services-london', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Does an International SEO Consultant Do?',
+                    'paragraphs' => [
+                        'An International SEO Consultant helps businesses improve their online visibility across multiple countries, languages, and international search engines. Through technical SEO, multilingual optimisation, localisation, international keyword research, and country-specific strategies, a consultant ensures your website reaches the right audience in every target market.',
+                        'International SEO consultancy focuses on creating a customised strategy that improves global rankings, attracts qualified international traffic, enhances user experience, and supports long-term business growth.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Consultant London?',
+                    'side_intro' => 'If your business serves customers in multiple countries or languages, an International SEO Consultant London can help maximise your global online visibility and support successful international expansion.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses operating multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why Hire an International SEO Consultant?',
+                    'paragraphs' => [
+                        'Expanding internationally requires more than translating website content. Search engines need clear signals about your target countries, languages, and website structure to deliver the correct pages to the right audience.',
+                        'An experienced International SEO Consultant provides expert guidance on technical SEO, multilingual optimisation, website localisation, hreflang implementation, international keyword research, and ongoing performance improvements. These strategies improve rankings, increase qualified traffic, and support sustainable international business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Expand Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO Consultant London and unlock new opportunities across global markets with a customised SEO strategy.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Book Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Consultant',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a tailored international SEO strategy that improves your online visibility, attracts international customers, and drives measurable business growth.',
+                    'key' => 'international_seo_consultant_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, strategic advisory targets, infrastructure scaling advice, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Consultant London FAQs',
+                    'items' => [
+                        ['q' => '1. What does an International SEO Consultant London do?', 'a' => 'An International SEO Consultant London helps businesses improve search visibility across multiple countries through multilingual SEO, technical optimisation, localisation, hreflang implementation, and international keyword research.'],
+                        ['q' => '2. Why should I hire an International SEO Consultant in London?', 'a' => 'A London-based consultant provides strategic expertise to help businesses expand internationally, improve global rankings, and generate qualified organic traffic.'],
+                        ['q' => '3. How is an International SEO Consultant different from an SEO agency?', 'a' => 'A consultant provides strategic advice, planning, and expert guidance, while an agency may also manage implementation and ongoing campaign execution.'],
+                        ['q' => '4. How long does International SEO take to deliver results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, target markets, and the SEO strategy.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific keyword research, hreflang implementation, localisation, and advanced technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from an International SEO Consultant London?', 'a' => 'Our consultancy services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, technology companies, and any business expanding into international markets.']
+                    ]
+                ]
+            ],
+        ],
+        'international-seo-expert' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'International SEO Expert London | Global SEO Specialist',
+                    'meta_title' => 'International SEO Expert London | Global SEO Specialist',
+                    'meta_description' => 'Hire an International SEO Expert in London to grow your business worldwide. Boost multilingual search rankings, increase global visibility & drive targeted organic traffic.',
+                    'meta_keywords' => 'international seo expert london, global seo specialist, multi-language site positioning, international search expert'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Expert London',
+                    'title' => 'International SEO Expert London Helping <br>Businesses Grow Worldwide',
+                    'subtitle' => 'Expand your business into international markets with an experienced International SEO Expert London who delivers data-driven SEO strategies to improve global search visibility, attract qualified international traffic, and generate sustainable business growth. Whether you\'re targeting Europe, North America, Asia, or multiple international markets, our tailored SEO solutions help your business reach the right audience and achieve long-term success.',
+                    'audit_type' => 'international-seo-expert-london-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request a Custom SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/woocommerce-development.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/woocommerce-development.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with expert International SEO solutions.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your visibility across the UK with country-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the United States with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Expand your online presence and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve rankings with SEO strategies tailored to Australian search behaviour.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Boost visibility through multilingual SEO and German-language optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking audiences using localised SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'International SEO Spain', 'title' => 'Spain', 'desc' => 'Increase your search visibility across Spain with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'International SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers through multilingual optimisation and regional SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'International SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand your business into the UAE with region-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'International SEO Singapore', 'title' => 'Singapore', 'desc' => 'Improve your online visibility across Singapore with customised international SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Expert London?',
+                    'subtitle' => 'Work with an experienced International SEO Expert dedicated to helping businesses succeed across global markets.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve rankings across international search engines and worldwide markets.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to provide an exceptional experience for users in different languages.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target the right audience using localised keyword research and regional optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international rankings and expand successfully into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Research target countries, competitors, customer behaviour, and international keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Develop a customised international SEO strategy aligned with your business objectives and expansion plans.'],
+                        ['step' => '3', 'title' => 'Technical SEO Implementation', 'desc' => 'Optimise website structure, multilingual architecture, hreflang tags, indexing, crawlability, and page performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content for regional languages, cultures, and local search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Strengthen your website with high-quality backlinks from authoritative international websites.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse performance, and continuously optimise your SEO campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Expert Services',
+                    'subtitle' => 'Our comprehensive International SEO solutions include:',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword opportunities, competitor analysis, technical SEO recommendations, website localisation review, multilingual SEO insights, international growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multilingual SEO',
+                        'Hreflang implementation',
+                        'Country-specific SEO campaigns',
+                        'International content optimisation',
+                        'Global link-building strategies',
+                        'International eCommerce SEO',
+                        'Enterprise SEO solutions',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Hiring an International SEO Expert London',
+                    'subtitle' => 'Partnering with a dedicated specialist unlocks sustainable long-term enterprise visibility across global target layouts.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Improve return on investment',
+                        'Achieve sustainable long-term business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Unify your cross-border search properties via these closely integrated technical frameworks.',
+                    'items' => [
+                        ['url' => '/international-seo-company-london', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-london', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-services-london', 'label' => 'International SEO Services'],
+                        ['url' => '/global-seo-services-london', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Does an International SEO Expert Do?',
+                    'paragraphs' => [
+                        'An International SEO Expert helps businesses improve their online visibility across multiple countries, languages, and international search engines. By combining technical SEO, multilingual optimisation, website localisation, hreflang implementation, international keyword research, and country-specific strategies, an expert ensures your website reaches the right audience in every target market.',
+                        'Whether your business is expanding into Europe, North America, Asia, Australia, or the Middle East, an International SEO Expert develops customised SEO strategies that improve search rankings, attract qualified international traffic, and support sustainable long-term business growth.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Expert London?',
+                    'side_intro' => 'If your business serves customers in multiple countries or languages, an International SEO Expert London provides the expertise needed to maximise your international visibility and business growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Professional service providers',
+                        'Technology companies',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses operating multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why Hire an International SEO Expert?',
+                    'paragraphs' => [
+                        'International expansion requires more than translating your website. Search engines need clear signals about your target countries, languages, and website structure to display the correct content to the right audience.',
+                        'Our International SEO Experts provide advanced technical SEO, multilingual optimisation, website localisation, hreflang implementation, international keyword research, and ongoing performance improvements. These strategies improve rankings, increase qualified traffic, enhance user experience, and support sustainable global business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO Expert London and unlock new opportunities across international markets with customised SEO strategies that deliver measurable results.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Expert',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll develop a customised international SEO strategy that improves your online visibility, attracts international customers, and drives measurable business growth.',
+                    'key' => 'international_seo_expert_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more traffic, multi-language expansion frameworks, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Expert London FAQs',
+                    'items' => [
+                        ['q' => '1. What does an International SEO Expert London do?', 'a' => 'An International SEO Expert London helps businesses improve search visibility across multiple countries using multilingual SEO, technical optimisation, localisation, hreflang implementation, and international keyword research.'],
+                        ['q' => '2. Why should I hire an International SEO Expert in London?', 'a' => 'Working with an experienced SEO expert provides strategic guidance and technical expertise to improve global rankings, increase qualified traffic, and support international business growth.'],
+                        ['q' => '3. How is an International SEO Expert different from a standard SEO specialist?', 'a' => 'An International SEO Expert specialises in multilingual SEO, international website optimisation, localisation, hreflang implementation, and country-specific SEO strategies, while a standard SEO specialist usually focuses on a single market.'],
+                        ['q' => '4. How long does International SEO take to deliver results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on website authority, competition, target markets, and the SEO strategy.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific keyword research, hreflang implementation, localisation, and advanced technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from an International SEO Expert London?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, technology companies, and any business looking to expand into international markets.']
+                    ]
+                ]
+            ],
+        ],
+          //one page content left
+        'international-seo-strategy' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'International SEO Strategy London | Global SEO Specialists',
+                    'meta_title' => 'International SEO Strategy London | Global SEO Specialists',
+                    'meta_description' => 'Develop an effective International SEO strategy in London to reach global audiences. Improve multilingual search rankings, increase international visibility, and generate qualified leads.',
+                    'meta_keywords' => 'international seo strategy london, global seo specialists, multi-language site positioning, international search strategy'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Strategy London',
+                    'title' => 'International SEO Strategy London That Helps Your <br>Business Grow Worldwide',
+                    'subtitle' => 'Expand your business into international markets with a results-driven International SEO Strategy London designed to improve your visibility across multiple countries, languages, and international search engines. Our customised SEO strategies help businesses attract qualified international traffic, improve global search rankings, and achieve sustainable business growth. Whether you\'re targeting Europe, North America, Asia, or worldwide markets, we create tailored SEO strategies that help your business succeed globally.',
+                    'audit_type' => 'international-seo-strategy-london-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Strategy Consultation',
+                    'secondary_btn_text' => 'Request a Custom SEO Plan',
+                    'banner_desktop' => 'assets/images/banners/desktop/seo.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/seo.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with our proven International SEO Strategy.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your visibility across the UK with country-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the United States with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Expand your online presence and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve rankings with SEO strategies tailored to Australian search behaviour.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Boost visibility through multilingual SEO and German-language optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking audiences using localised SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'International SEO Spain', 'title' => 'Spain', 'desc' => 'Increase your search visibility across Spain with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'International SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers through multilingual optimisation and regional SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'International SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand your business into the UAE with region-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'International SEO Singapore', 'title' => 'Singapore', 'desc' => 'Improve your online visibility across Singapore with customised international SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Strategy London?',
+                    'subtitle' => 'Partner with experienced international SEO specialists who develop customised strategies for long-term global success.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Develop effective SEO strategies for multiple countries, languages, and international search engines.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to improve user experience and search visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target the right audience with localised keyword research and region-specific optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Strategy Process',
+                    'subtitle' => 'Our proven framework helps businesses improve global rankings and achieve long-term international growth.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Research target countries, competitors, customer behaviour, and international keyword opportunities.'],
+                        ['step' => '2', 'title' => 'Strategy Development', 'desc' => 'Create a customised International SEO Strategy aligned with your business goals and global expansion plans.'],
+                        ['step' => '3', 'title' => 'Technical SEO Implementation', 'desc' => 'Optimise website architecture, multilingual setup, hreflang implementation, indexing, crawlability, and website performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Develop and optimise content for regional languages, cultures, and local search intent.'],
+                        ['step' => '5', 'title' => 'International Authority Building', 'desc' => 'Strengthen your website through high-quality international backlinks and digital authority.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse performance, and continuously refine your SEO strategy.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'What\'s Included in Our International SEO Strategy',
+                    'subtitle' => 'Our comprehensive strategy includes everything needed to compete successfully in international search results.',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword opportunities, competitor analysis, technical SEO recommendations, website localisation review, multilingual SEO insights, international growth roadmap',
+                    'items' => [
+                        'International SEO audit',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multilingual SEO',
+                        'Hreflang implementation',
+                        'Country-specific SEO campaigns',
+                        'International content optimisation',
+                        'Global link-building strategy',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of an International SEO Strategy London',
+                    'subtitle' => 'Deploying clear target variables outlines reliable multi-regional validation patterns.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international enquiries',
+                        'Increase overseas sales and conversions',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Improve long-term return on investment',
+                        'Achieve sustainable international business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support your international expansion cleanly with these contextual internal links.',
+                    'items' => [
+                        ['url' => '/international-seo-company-london', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-london', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-services-london', 'label' => 'International SEO Services'],
+                        ['url' => '/global-seo-services-london', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is an International SEO Strategy?',
+                    'paragraphs' => [
+                        'An International SEO Strategy is a comprehensive plan that helps businesses improve their online visibility across multiple countries, languages, and international search engines. It combines technical SEO, multilingual optimisation, website localisation, international keyword research, hreflang implementation, and country-specific targeting to ensure your website reaches the right audience in every market.',
+                        'Whether you\'re expanding into Europe, North America, Asia, Australia, or the Middle East, an International SEO Strategy improves search rankings, increases qualified international traffic, enhances user experience, and supports sustainable business growth.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Strategy London?',
+                    'side_intro' => 'If your business serves customers across multiple countries or languages, our International SEO Strategy London provides the expertise needed to maximise your global online visibility.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Professional service providers',
+                        'Technology companies',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses operating multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why an International SEO Strategy Is Essential',
+                    'paragraphs' => [
+                        'Growing internationally requires more than translating website content. Search engines need clear signals about your target countries, languages, and website structure to deliver the correct content to users worldwide.',
+                        'Our International SEO Strategy includes multilingual optimisation, technical SEO, website localisation, hreflang implementation, international keyword research, and continuous optimisation. These strategies improve international rankings, increase qualified traffic, enhance user experience, and support sustainable global business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced international SEO specialists in London and implement an International SEO Strategy that delivers measurable results across international markets.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Strategy Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Strategy Experts',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll develop a customised International SEO Strategy that improves your international visibility, attracts qualified customers, and drives sustainable business growth.',
+                    'key' => 'international_seo_strategy_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, strategic planning roadmaps, search execution alignment, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Strategy London FAQs',
+                    'items' => [
+                        ['q' => '1. What is an International SEO Strategy?', 'a' => 'An International SEO Strategy is a long-term plan that optimises your website for multiple countries and languages to improve international search visibility and attract global customers.'],
+                        ['q' => '2. Why should I choose an International SEO Strategy in London?', 'a' => 'Working with a London-based international SEO team gives you access to strategic expertise, technical knowledge, and proven SEO methods that support successful global expansion.'],
+                        ['q' => '3. What does an International SEO Strategy include?', 'a' => 'It includes international keyword research, technical SEO, multilingual optimisation, website localisation, hreflang implementation, content optimisation, and ongoing performance monitoring.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, target markets, and SEO implementation.'],
+                        ['q' => '5. Can an International SEO Strategy support multilingual websites?', 'a' => 'Yes. It includes language-specific keyword research, localisation, hreflang implementation, and advanced technical SEO to improve multilingual search performance.'],
+                        ['q' => '6. Which businesses benefit from an International SEO Strategy London?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, technology companies, and any business expanding into international markets.']
+                    ]
+                ]
+            ],
+        ],
+        'seo-for-international-sites' => [
+            'london' => [
+                'meta' => [
+                    'title' => 'SEO for International Sites London | Global SEO Experts',
+                    'meta_title' => 'SEO for International Sites London | Global SEO Experts',
+                    'meta_description' => 'Improve the performance of your international website with expert SEO for international sites in London. Boost global rankings, increase multilingual visibility, and attract qualified traffic.',
+                    'meta_keywords' => 'seo for international sites london, global seo experts, international website seo, multilingual seo visibility'
+                ],
+                'hero' => [
+                    'eyebrow' => 'SEO for International Sites London',
+                    'title' => 'SEO for International Sites London That Helps Your <br>Business Grow Worldwide',
+                    'subtitle' => 'Expand your business into global markets with professional SEO for International Sites London designed to improve your website\'s visibility across multiple countries, languages, and international search engines. Our data-driven SEO strategies help businesses attract qualified international traffic, increase global search rankings, and generate sustainable business growth. Whether you manage a multilingual website or operate across multiple countries, we help your international website perform at its best.',
+                    'audit_type' => 'seo-for-international-sites-london-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Website Audit',
+                    'secondary_btn_text' => 'Request a Custom SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/website-development.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/website-development.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with SEO strategies built for global success.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your visibility across UK search results with country-specific SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the United States with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'SEO Canada', 'title' => 'Canada', 'desc' => 'Expand your online presence and generate qualified leads across Canada.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'SEO Australia', 'title' => 'Australia', 'desc' => 'Improve rankings with SEO strategies tailored to Australian search behaviour.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'SEO Germany', 'title' => 'Germany', 'desc' => 'Boost visibility through multilingual SEO and German-language optimisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'SEO France', 'title' => 'France', 'desc' => 'Connect with French-speaking audiences using localised SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_7.webp', 'alt' => 'SEO Spain', 'title' => 'Spain', 'desc' => 'Increase your search visibility across Spain with targeted international SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_8.webp', 'alt' => 'SEO Italy', 'title' => 'Italy', 'desc' => 'Reach Italian customers through multilingual optimisation and regional SEO.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_9.webp', 'alt' => 'SEO United Arab Emirates', 'title' => 'United Arab Emirates', 'desc' => 'Expand your business into the UAE with region-specific SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_10.webp', 'alt' => 'SEO Singapore', 'title' => 'Singapore', 'desc' => 'Improve your online visibility across Singapore with customised international SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our SEO for International Sites London?',
+                    'subtitle' => 'Partner with experienced international SEO specialists who optimise websites for long-term global success.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve rankings across international search engines and worldwide markets.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language Website Optimisation', 'desc' => 'Optimise multilingual websites for better search visibility and user experience.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target the right audience using local keyword research and regional search optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International Website SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international website performance and achieve sustainable global growth.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Website Audit', 'desc' => 'Analyse your website\'s technical SEO, content, and international search performance.'],
+                        ['step' => '2', 'title' => 'Global Keyword Research', 'desc' => 'Identify high-value keywords for every target country and language.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website architecture, indexing, hreflang implementation, page speed, mobile performance, and crawlability.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Develop and optimise content for local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Strengthen your website with high-quality international backlinks from authoritative sources.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse traffic, and continuously optimise your international SEO campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete SEO for International Sites Services',
+                    'subtitle' => 'Our comprehensive international website SEO services include:',
+                    'list_title' => 'International Website SEO Audit',
+                    'list_desc' => 'Receive a detailed review of your international website\'s SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, technical website analysis, global keyword opportunities, competitor analysis, hreflang recommendations, website localisation review, SEO improvement roadmap, international growth strategy',
+                    'items' => [
+                        'International SEO audits',
+                        'Technical SEO optimisation',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Website localisation',
+                        'Multilingual SEO',
+                        'Hreflang implementation',
+                        'Country-specific landing pages',
+                        'International content optimisation',
+                        'Global link-building strategies',
+                        'International eCommerce SEO',
+                        'Enterprise SEO solutions',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of SEO for International Sites London',
+                    'subtitle' => 'Comprehensive global parameter structures maximize structural visibility index loops over long operational milestones.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Enhance multilingual user experience',
+                        'Generate more qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website performance',
+                        'Strengthen domain authority',
+                        'Achieve sustainable long-term growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support cross-border execution plans effectively using these connected template layouts.',
+                    'items' => [
+                        ['url' => '/international-seo-company-london', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-london', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-services-london', 'label' => 'International SEO Services'],
+                        ['url' => '/global-seo-services-london', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is SEO for International Sites?',
+                    'paragraphs' => [
+                        'SEO for International Sites is the process of optimising websites to rank effectively across multiple countries, languages, and international search engines. It combines multilingual SEO, website localisation, technical optimisation, hreflang implementation, international keyword research, and country-specific targeting to ensure the correct version of your website appears for users in each region.',
+                        'Whether your business is expanding into Europe, North America, Asia, Australia, or the Middle East, international website SEO helps improve search visibility, attract qualified global traffic, and support sustainable business growth.'
+                    ],
+                    'side_title' => 'Who Needs SEO for International Sites London?',
+                    'side_intro' => 'If your website targets customers in multiple countries or languages, our SEO for International Sites London services provide the expertise needed to maximise your global online visibility.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Professional service providers',
+                        'Technology companies',
+                        'International franchises',
+                        'Travel and hospitality businesses',
+                        'Educational institutions',
+                        'Businesses operating multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why SEO for International Sites Is Important',
+                    'paragraphs' => [
+                        'Expanding internationally requires more than translating your website. Search engines need clear signals about your target countries, languages, and website structure to deliver the correct content to the right audience.',
+                        'Our SEO for International Sites services include multilingual optimisation, technical SEO, website localisation, hreflang implementation, international keyword research, and continuous optimisation. These strategies improve international rankings, increase qualified traffic, enhance user experience, and support sustainable business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Optimise Your International Website?',
+                    'subtitle' => 'Partner with our experienced international SEO specialists in London and maximise your website\'s performance across global markets.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Website Audit'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Specialists',
+                    'subtitle' => 'Tell us about your website, target countries, and business goals. We\'ll create a customised international SEO strategy that improves your global visibility, attracts qualified customers, and delivers measurable business growth.',
+                    'key' => 'seo_for_international_sites_london_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more traffic, multi-regional indexing frameworks, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'SEO for International Sites London FAQs',
+                    'items' => [
+                        ['q' => '1. What is SEO for International Sites?', 'a' => 'SEO for International Sites is the process of optimising websites for multiple countries and languages using multilingual SEO, localisation, technical SEO, hreflang implementation, and international keyword research.'],
+                        ['q' => '2. Why is SEO important for international websites?', 'a' => 'It helps improve global search visibility, attract international customers, increase qualified traffic, and support long-term international business growth.'],
+                        ['q' => '3. What does SEO for International Sites include?', 'a' => 'It includes technical SEO, multilingual optimisation, website localisation, hreflang implementation, international keyword research, content optimisation, and ongoing performance monitoring.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on website authority, competition, target countries, and SEO implementation.'],
+                        ['q' => '5. Can you optimise an existing international website?', 'a' => 'Yes. We can audit, optimise, and improve your existing international website to increase rankings, traffic, and conversions across multiple countries.'],
+                        ['q' => '6. Which businesses benefit from SEO for International Sites London?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, technology companies, and any business targeting international markets.']
+                    ]
+                ]
+            ],
+        ],
+        
 
 
     ];
+
+    /**
+     * Dynamically loads either the local layout or agency layout depending on location configuration.
+     *
+     * @param string $locationSlug
+     * @return \Illuminate\Contracts\View\View
+     */
+    public function handleInternationalSeoAgencyRequest(string $locationSlug)
+    {
+        // 1. Check if the location exists in the 'international-seo' array
+        if (isset(self::PAGES['international-seo'][$locationSlug])) {
+            $page = self::PAGES['international-seo'][$locationSlug];
+            
+            return view('web.services.locations-seo.international-seo-location', [
+                'page' => $page,
+                'content' => $page['content'] ?? []
+            ]);
+        }
+
+        // 2. Check if the location exists in the 'international-seo-agency' array
+        if (isset(self::PAGES['international-seo-agency'][$locationSlug])) {
+            $page = self::PAGES['international-seo-agency'][$locationSlug];
+            
+            return view('web.services.locations-seo.international-seo-agency', [
+                'content' => $page
+            ]);
+        }
+
+        // 3. Fallback gracefully with a 404 if neither data matrix configuration matches the slug
+        abort(404);
+    }
 
     public function digitalMarketing(string $locationSlug)
     {
@@ -15246,5 +17078,142 @@ class LocationSeoController extends Controller
         return view('web.services.locations-seo.cloudpublic-location', [
             'page' => $page
         ]);
+    }
+public function internationalSeoCompany(string $locationSlug)
+    {
+        $page = self::PAGES['international-seo-company'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+      
+        return view('web.services.locations-seo.international-seo-company', [
+            'content' => $page
+        ]);
+    }
+    public function globalSeoServices(string $locationSlug)
+    {
+        $page = self::PAGES['global-seo-services'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.global-seo-services', [
+            'content' => $page
+        ]);
+    }
+    public function internationalSeoWebsites(string $locationSlug)
+    {
+        $page = self::PAGES['international-seo-websites'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.international-seo-websites', [
+            'content' => $page
+        ]);
+    }
+    public function internationalSeoAgency(string $locationSlug)
+    {
+        $page = self::PAGES['international-seo-agency'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.international-seo-agency', [
+            'content' => $page
+        ]);
+    }
+     public function international_Seo(string $locationSlug)
+    {
+        $page = self::PAGES['internationalseo'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.international-seo', [
+            'content' => $page
+        ]);
+    }
+    public function internationalSeoServicesPage(string $locationSlug)
+    {
+        $page = self::PAGES['international-seo-services'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.international-seo-services', [
+            'content' => $page
+        ]);
+    }
+    public function internationalSeoStrategy(string $locationSlug)
+    {
+        $page = self::PAGES['international-seo-strategy'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.international-seo', [
+            'content' => $page
+        ]);
+    }
+    public function internationalSeoConsultantPage(string $locationSlug)
+    {
+        
+        $page = self::PAGES['international-seo-consultant'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.international-seo-consultant', [
+            'content' => $page
+        ]);
+    }
+    public function internationalSeoExpertPage(string $locationSlug)
+    {
+        $page = self::PAGES['international-seo-expert'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.international-seo-expert', [
+            'content' => $page
+        ]);
+    }
+    public function internationalSeoStrategyPage(string $locationSlug)
+    {
+        $page = self::PAGES['international-seo-strategy'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.international-seo-strategy', [
+            'content' => $page
+        ]);
+    }
+    public function seoForInternationalSitesPage(string $locationSlug)
+    {
+        $page = self::PAGES['seo-for-international-sites'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.seo-international-sites', [
+            'content' => $page
+        ]);
+    }
+    /**
+     * Route traffic dynamically between two different design arrays using a single URL signature.
+     *
+     * @param string $locationSlug
+     * @return \Illuminate\Contracts\View\View
+     */
+    public function internationalSeoAgencyRouter(string $locationSlug)
+    {
+        // 1. Check if the context payload exists in the generic 'internationalseo' matrix
+        if (isset(self::PAGES['internationalseo'][$locationSlug])) {
+            return view('web.services.locations-seo.international-seo', [
+                'content' => self::PAGES['internationalseo'][$locationSlug]
+            ]);
+        }
+
+        // 2. Check if the context payload falls under your dedicated agency structure
+        if (isset(self::PAGES['international-seo-agency'][$locationSlug])) {
+            return view('web.services.locations-seo.international-seo-agency', [
+                'content' => self::PAGES['international-seo-agency'][$locationSlug]
+            ]);
+        }
+
+        // 3. Fallback safely with a 404 if neither data matrix configuration matches the slug
+        abort(404);
     }
 }

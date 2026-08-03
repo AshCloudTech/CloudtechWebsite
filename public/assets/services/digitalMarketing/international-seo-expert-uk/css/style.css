@@ -151,7 +151,7 @@ button { font-family: inherit; }
 
 /* ==== EDITORIAL / ABOUT ==== */
 .editorial-about-section { background: #ffffff; }
-.editorial-split-wrapper { display: grid; grid-template-columns: minmax(0, 1.8fr) minmax(0, 1.3fr); gap: 40px; align-items: flex-start; }
+.editorial-split-wrapper { display: grid; grid-template-columns: minmax(0, 1.8fr) minmax(0, 1.3fr); gap: 40px; align-items: center; }
 .editorial-main-column h2 { font-size: 30px; margin-bottom: 18px; }
 .editorial-main-column p { margin-bottom: 14px; font-size: 15px; color: #374151; }
 .editorial-sidebar-highlight { background: var(--gradient-sidebar); padding: 24px; border-radius: 18px; border: 1px solid #bbf7d0; box-shadow: 0 15px 35px rgba(22, 163, 74, 0.08); }

@@ -344,6 +344,9 @@ Route::get('/international-seo-consultant-{locationSlug}', [LocationSeoControlle
 Route::get('/international-seo-expert-{locationSlug}', [LocationSeoController::class, 'internationalSeoExpertPage'])
     ->where('locationSlug', '[a-z0-9-]+')
     ->name('services.seo.international.expert.page');
+Route::get('/global-seo-strategy-{locationSlug}', [LocationSeoController::class, 'globalSeoStrategyPage'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.global.strategy.page');
 
 Route::get('/international-seo-strategy-{locationSlug}', [LocationSeoController::class, 'internationalSeoStrategyPage'])
     ->where('locationSlug', '[a-z0-9-]+')
@@ -351,6 +354,15 @@ Route::get('/international-seo-strategy-{locationSlug}', [LocationSeoController:
 Route::get('/seo-for-international-sites-{locationSlug}', [LocationSeoController::class, 'seoForInternationalSitesPage'])
     ->where('locationSlug', '[a-z0-9-]+')
     ->name('services.seo.international.sites.page');
+Route::get('/seo-services-{locationSlug}', [LocationSeoController::class, 'seoServices'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.services.page');
+Route::get('/seo-agency-{locationSlug}', [LocationSeoController::class, 'seoAgency'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.agency.page');
+Route::get('/seo-company-{locationSlug}', [LocationSeoController::class, 'seoCompany'])
+    ->where('locationSlug', '[a-z0-9-]+')
+    ->name('services.seo.company.page');
 /*
 |--------------------------------------------------------------------------
 | 301 REDIRECTS FROM OLD URLS

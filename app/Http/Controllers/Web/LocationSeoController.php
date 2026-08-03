@@ -15094,6 +15094,172 @@ class LocationSeoController extends Controller
                     ]
                 ]
             ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'International SEO Company Birmingham | Global SEO Experts UK',
+                    'meta_title' => 'International SEO Company Birmingham | Global SEO Experts UK',
+                    'meta_description' => 'Expand your business globally with our International SEO Company in Birmingham. Improve multilingual rankings, worldwide visibility, organic traffic, and quality leads.',
+                    'meta_keywords' => 'international seo company birmingham, international seo birmingham, global website seo, worldwide seo specialists'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Birmingham',
+                    'title' => 'International SEO Company Birmingham Helping <br>Businesses Grow Internationally',
+                    'subtitle' => 'Expand your business into global markets with our International SEO Company Birmingham. We create tailored SEO strategies that improve international search rankings, attract qualified worldwide traffic, and help your business generate more leads across multiple countries.',
+                    'audit_type' => 'international-seo-company-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Global SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/international-seo-services.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/international-seo-services.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your business across leading international markets with our data-driven SEO strategies.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Improve your visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers across the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Increase online visibility with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Company Birmingham?',
+                    'subtitle' => 'Partner with experienced international SEO specialists committed to helping businesses achieve measurable growth across global markets.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve rankings across international search engines and worldwide markets.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to provide an exceptional experience for users in different languages.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target the right audience using localised keyword research and regional optimisation.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international rankings and expand into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Research target countries, competitors, customer behaviour, and international keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Develop a customised international SEO strategy aligned with your business objectives.'],
+                        ['step' => '3', 'title' => 'Technical SEO Implementation', 'desc' => 'Optimise website structure, multilingual architecture, hreflang tags, indexing, and page performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create content that matches local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Build high-quality backlinks to strengthen your global authority.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse results, and continually improve your SEO campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Services',
+                    'subtitle' => 'Our comprehensive international SEO services help businesses compete successfully across global markets.',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword analysis, competitor review, technical SEO recommendations, website localisation review, international SEO roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link-building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Choosing an International SEO Company Birmingham',
+                    'subtitle' => 'Partnering with us helps you secure a strong, scalable return on investment globally.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate more qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support your global growth strategy with these connected regional and technical SEO variants.',
+                    'items' => [
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-consultant-birmingham', 'label' => 'International SEO Consultant'],
+                        ['url' => '/international-seo-expert-birmingham', 'label' => 'International SEO Expert'],
+                        ['url' => '/global-seo-services-birmingham', 'label' => 'Global SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is an International SEO Company?',
+                    'paragraphs' => [
+                        'An International SEO Company helps businesses improve search visibility across multiple countries and languages. Through technical SEO, multilingual optimisation, website localisation, and international keyword research, businesses can reach customers worldwide and achieve long-term organic growth.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Company Birmingham?',
+                    'side_intro' => 'If your business wants to attract customers from multiple countries and languages, our International SEO Company Birmingham provides the expertise needed to achieve international success.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Is Important',
+                    'paragraphs' => [
+                        'International SEO ensures your website is properly optimised for different countries and languages. By implementing technical SEO, localisation, hreflang tags, and international keyword targeting, your business can attract qualified global traffic and compete successfully in international markets.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO Company Birmingham and expand your business into international markets with proven SEO strategies.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Specialists',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a customised international SEO strategy that improves your visibility and delivers measurable results.',
+                    'key' => 'international_seo_company_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, AE, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, multi-language site setup, localized growth targets, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Company Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What does an International SEO Company Birmingham do?', 'a' => 'It helps businesses improve search visibility across multiple countries through multilingual SEO, technical optimisation, localisation, and international keyword research.'],
+                        ['q' => '2. Why choose an International SEO Company in Birmingham?', 'a' => 'A Birmingham-based SEO team provides expert strategies that help businesses expand into international markets and achieve sustainable growth.'],
+                        ['q' => '3. What services are included?', 'a' => 'International SEO includes technical SEO, multilingual optimisation, localisation, hreflang implementation, content optimisation, and ongoing performance monitoring.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses start seeing measurable improvements within 3–6 months, depending on competition and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, and technical best practices.'],
+                        ['q' => '6. Which businesses benefit from International SEO?', 'a' => 'International SEO is ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, and businesses targeting global customers.']
+                    ]
+                ]
+            ],
+           
         ],
         'global-seo-services' => [
             'london' => [
@@ -15271,6 +15437,171 @@ class LocationSeoController extends Controller
                         ['q' => '4. How long does Global SEO take to produce results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, target markets, and the SEO strategy.'],
                         ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific keyword research, hreflang implementation, localisation, and advanced technical SEO.'],
                         ['q' => '6. Which businesses benefit from Global SEO Services London?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, and any business looking to expand into international markets.']
+                    ]
+                ]
+            ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'Global SEO Services Birmingham | International SEO Agency UK',
+                    'meta_title' => 'Global SEO Services Birmingham | International SEO Agency UK',
+                    'meta_description' => 'Grow your business worldwide with Global SEO Services in Birmingham. Increase international visibility, multilingual rankings, traffic, and qualified leads.',
+                    'meta_keywords' => 'global seo services birmingham, international seo agency uk, global website seo, worldwide seo specialists'
+                ],
+                'hero' => [
+                    'eyebrow' => 'Global SEO Services Birmingham',
+                    'title' => 'Global SEO Services Birmingham for Worldwide <br>Business Growth',
+                    'subtitle' => 'Expand your business into international markets with our expert Global SEO Services Birmingham. We create tailored SEO strategies that improve global search visibility, attract qualified international traffic, and help your business generate more leads across multiple countries.',
+                    'audit_type' => 'global-seo-services-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free Global SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Global SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/image-seo-services.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/image-seo-services.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with our customised Global SEO Services.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'Global SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'Global SEO United States', 'title' => 'United States', 'desc' => 'Reach customers across the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'Global SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'Global SEO Australia', 'title' => 'Australia', 'desc' => 'Increase online visibility with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'Global SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'Global SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our Global SEO Services Birmingham?',
+                    'subtitle' => 'Partner with experienced global SEO specialists committed to helping businesses achieve measurable international growth.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'Global SEO Expertise', 'desc' => 'Improve rankings across international search engines and global markets.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to deliver a better user experience and stronger search performance.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target customers with localised keyword research and regional SEO strategies.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase global traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our Global SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international rankings and expand into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Research target countries, competitors, customer behaviour, and keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Develop a customised global SEO strategy aligned with your business objectives.'],
+                        ['step' => '3', 'title' => 'Technical SEO Implementation', 'desc' => 'Optimise website structure, multilingual architecture, hreflang tags, indexing, and page performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create content that matches local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'Global Link Building', 'desc' => 'Build high-quality backlinks to strengthen your international authority.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse results, and continually optimise your SEO campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete Global SEO Services',
+                    'subtitle' => 'Our comprehensive Global SEO Services help businesses compete successfully across international markets.',
+                    'list_title' => 'Global SEO Performance Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: Global SEO audit, international keyword analysis, competitor review, technical SEO recommendations, website localisation review, global SEO growth roadmap',
+                    'items' => [
+                        'Global SEO audits',
+                        'International keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link-building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Choosing Global SEO Services Birmingham',
+                    'subtitle' => 'Partnering with us helps you secure a strong, scalable return on investment globally.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate more qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Strengthen website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support your global growth strategy with these connected regional and technical SEO variants.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-consultant-birmingham', 'label' => 'International SEO Consultant'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Are Global SEO Services?',
+                    'paragraphs' => [
+                        'Global SEO Services help businesses improve their visibility across multiple countries and languages. By combining technical SEO, multilingual optimisation, website localisation, and international keyword research, businesses can attract qualified global traffic and achieve long-term international growth.'
+                    ],
+                    'side_title' => 'Who Needs Global SEO Services Birmingham?',
+                    'side_intro' => 'If your business wants to attract customers from multiple countries and languages, our Global SEO Services Birmingham provide the expertise needed to achieve international success.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why Global SEO Is Important',
+                    'paragraphs' => [
+                        'Global SEO ensures your website is optimised for users and search engines across different countries and languages. Through technical optimisation, localisation, hreflang implementation, and international keyword targeting, your business can expand into new markets and generate sustainable organic growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Expand Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced Global SEO specialists in Birmingham and grow your business across international markets with proven SEO strategies.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free Global SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our Global SEO Specialists',
+                    'subtitle' => 'Tell us about your business goals and target markets, and we\'ll create a customised global SEO strategy that improves your visibility and delivers measurable results.',
+                    'key' => 'global_seo_services_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more leads, multi-language site, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'Global SEO Services Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What are Global SEO Services?', 'a' => 'Global SEO Services help businesses improve search visibility across multiple countries using multilingual SEO, technical optimisation, localisation, and international keyword research.'],
+                        ['q' => '2. Why choose Global SEO Services in Birmingham?', 'a' => 'A Birmingham-based global SEO team provides expert strategies that help businesses expand into international markets and achieve sustainable growth.'],
+                        ['q' => '3. What services are included?', 'a' => 'Global SEO includes technical SEO, multilingual optimisation, localisation, hreflang implementation, content optimisation, and ongoing performance monitoring.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses start seeing measurable improvements within 3–6 months, depending on competition and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, and technical best practices.'],
+                        ['q' => '6. Which businesses benefit from Global SEO Services?', 'a' => 'Global SEO is ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, and businesses targeting international customers.']
                     ]
                 ]
             ],
@@ -15455,6 +15786,171 @@ class LocationSeoController extends Controller
                     ]
                 ]
             ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'International SEO Websites Birmingham | Global Website SEO',
+                    'meta_title' => 'International SEO Websites Birmingham | Global Website SEO',
+                    'meta_description' => 'Optimise your international website with expert SEO services in Birmingham. Improve multilingual visibility, global rankings, organic traffic, and conversions.',
+                    'meta_keywords' => 'international seo websites birmingham, international seo birmingham, global website seo, worldwide seo specialists'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Websites Birmingham',
+                    'title' => 'International SEO Websites Birmingham That Drive <br>Global Business Growth',
+                    'subtitle' => 'Expand your business into international markets with expertly optimised International SEO Websites Birmingham. We help businesses improve global search visibility, attract qualified international traffic, and increase enquiries through multilingual SEO, technical optimisation, and country-specific strategies.',
+                    'audit_type' => 'international-seo-websites-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Website Consultation',
+                    'secondary_btn_text' => 'Request Your Global SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/seo.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/seo.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with SEO-optimised websites built for global success.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Improve your online visibility across the UK with tailored SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO strategies designed for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Increase search visibility with SEO tailored for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers using multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Expand your business in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Websites Birmingham?',
+                    'subtitle' => 'Partner with experienced international SEO specialists who optimise websites for long-term global success.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International Website SEO', 'desc' => 'Optimise your website to perform across multiple countries and languages.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Improve multilingual websites for better user experience and search visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific Optimisation', 'desc' => 'Target local audiences with regional keyword research and SEO strategies.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International Website SEO Process',
+                    'subtitle' => 'Our proven process helps businesses build and optimise websites for international success.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'Website SEO Audit', 'desc' => 'Review your website\'s technical SEO, content, and international performance.'],
+                        ['step' => '2', 'title' => 'International Keyword Research', 'desc' => 'Identify valuable keywords for each target country and language.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website structure, multilingual setup, indexing, and page speed.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content that matches local languages and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Strengthen your website with high-quality backlinks from trusted international websites.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse performance, and continually improve your SEO campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Website Services',
+                    'subtitle' => 'Our comprehensive website optimisation services include:',
+                    'list_title' => 'International SEO Website Review',
+                    'list_desc' => 'Receive a detailed review of your website\'s international SEO performance.',
+                    'list_note' => 'Includes: International SEO website audit, global keyword analysis, competitor review, technical SEO recommendations, website localisation review, international SEO roadmap',
+                    'items' => [
+                        'International SEO website audits',
+                        'Global keyword research',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Competitor analysis',
+                        'Global link building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of International SEO Websites Birmingham',
+                    'subtitle' => 'Deploying strategic structural layouts maps out clear validation benchmarks regionally.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate qualified international leads',
+                        'Improve multilingual website performance',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Link your expansion profiles cleanly using these highly contextual cross-linking assets.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/global-seo-services-birmingham', 'label' => 'Global SEO Services'],
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Are International SEO Websites?',
+                    'paragraphs' => [
+                        'International SEO Websites are websites optimised to rank across multiple countries and languages. They use multilingual SEO, technical optimisation, localisation, hreflang implementation, and international keyword research to improve global search visibility and attract customers from different regions.'
+                    ],
+                    'side_title' => 'Who Needs International SEO Websites Birmingham?',
+                    'side_intro' => 'If your business serves customers across multiple countries or languages, an International SEO Website helps maximise your global online visibility and business growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Website Optimisation Matters',
+                    'paragraphs' => [
+                        'A well-optimised international website helps search engines deliver the right content to the right audience in every country. This improves rankings, enhances user experience, increases international traffic, and supports long-term business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our International SEO specialists in Birmingham and optimise your website for success across international markets.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Website Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Website Experts',
+                    'subtitle' => 'Share your business goals and target countries with our team, and we\'ll create a customised SEO strategy that helps your website achieve global success.',
+                    'key' => 'international_seo_websites_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more leads, multi-language site, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Websites Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What are International SEO Websites?', 'a' => 'International SEO Websites are websites optimised for multiple countries and languages using multilingual SEO, localisation, technical optimisation, and international keyword targeting.'],
+                        ['q' => '2. Why optimise an international website?', 'a' => 'Optimising an international website improves global search visibility, attracts international customers, and increases qualified organic traffic.'],
+                        ['q' => '3. What services are included?', 'a' => 'Services include technical SEO, multilingual optimisation, localisation, hreflang implementation, content optimisation, and ongoing SEO management.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition and target markets.'],
+                        ['q' => '5. Can you optimise an existing multilingual website?', 'a' => 'Yes. We optimise existing multilingual websites to improve international rankings, traffic, and conversions.'],
+                        ['q' => '6. Which businesses benefit from International SEO Websites Birmingham?', 'a' => 'These services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, and businesses targeting international customers.']
+                    ]
+                ]
+            ],
         ],
         'international-seo-agency' => [
             'london' => [
@@ -15632,6 +16128,171 @@ class LocationSeoController extends Controller
                         ['q' => '4. How long does International SEO take to deliver results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on website authority, competition, target countries, and the SEO strategy.'],
                         ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific keyword research, hreflang implementation, localisation, and advanced technical SEO best practices.'],
                         ['q' => '6. Which businesses benefit from an International SEO Agency London?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, technology companies, and any business looking to expand into international markets.']
+                    ]
+                ]
+            ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'International SEO Agency Birmingham | Worldwide SEO Experts',
+                    'meta_title' => 'International SEO Agency Birmingham | Worldwide SEO Experts',
+                    'meta_description' => 'Choose our International SEO Agency in Birmingham to improve global search rankings, multilingual SEO, international traffic, and business growth.',
+                    'meta_keywords' => 'international seo agency birmingham, international seo birmingham, global website seo, worldwide seo specialists'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Agency Birmingham',
+                    'title' => 'International SEO Agency Birmingham Helping <br>Businesses Reach Global Markets',
+                    'subtitle' => 'Expand your business worldwide with our professional International SEO Agency Birmingham. We create tailored international SEO strategies that improve global search visibility, attract qualified international traffic, and help your business generate more leads across multiple countries and languages.',
+                    'audit_type' => 'international-seo-agency-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Global SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/shopify-development-services.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/shopify-development-services.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with our expert International SEO services.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your online visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers across the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve search rankings with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Agency Birmingham?',
+                    'subtitle' => 'Partner with experienced international SEO professionals committed to helping businesses achieve sustainable global growth.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve rankings across international search engines with proven SEO strategies.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to improve user experience and international visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target local audiences with regional keyword research and market-focused SEO campaigns.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international rankings and expand successfully into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Research target countries, competitors, customer behaviour, and international keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Create a customised international SEO strategy aligned with your business goals.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website structure, multilingual setup, indexing, hreflang implementation, and page performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Develop content that matches local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Build authoritative backlinks to strengthen your global online presence.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse campaign performance, and continually optimise your SEO strategy.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Services',
+                    'subtitle' => 'Our comprehensive international SEO services help businesses compete successfully across global markets.',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword analysis, competitor review, technical SEO recommendations, website localisation review, international SEO roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Choosing an International SEO Agency Birmingham',
+                    'subtitle' => 'Targeting competitive cross-border regions securely structures long-term corporate reach.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Interlink your international campaigns cleanly through these alternate programmatic channels.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/global-seo-services-birmingham', 'label' => 'Global SEO Services'],
+                        ['url' => '/international-seo-consultant-birmingham', 'label' => 'International SEO Consultant'],
+                       ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is an International SEO Agency?',
+                    'paragraphs' => [
+                        'An International SEO Agency helps businesses improve their visibility across multiple countries and languages using multilingual SEO, technical optimisation, website localisation, hreflang implementation, and international keyword research. The goal is to increase global search rankings, attract qualified traffic, and generate long-term business growth.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Agency Birmingham?',
+                    'side_intro' => 'If your business serves customers in multiple countries or languages, our International SEO Agency Birmingham provides the expertise needed to maximise your international visibility and business growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Is Important',
+                    'paragraphs' => [
+                        'International SEO helps your website rank in different countries and languages by optimising technical SEO, localising content, implementing hreflang tags, and targeting international keywords. This enables your business to attract more global customers and expand successfully into international markets.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO Agency Birmingham and expand your business with proven international SEO strategies.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Specialists',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a customised international SEO strategy that delivers measurable global results.',
+                    'key' => 'international_seo_agency_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more leads, multi-language site layout targets, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Agency Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What does an International SEO Agency Birmingham do?', 'a' => 'An International SEO Agency Birmingham helps businesses improve search visibility across multiple countries through multilingual SEO, technical optimisation, localisation, and international keyword targeting.'],
+                        ['q' => '2. Why choose an International SEO Agency in Birmingham?', 'a' => 'A Birmingham-based agency provides expert SEO strategies that help businesses expand into international markets and achieve sustainable growth.'],
+                        ['q' => '3. What services are included?', 'a' => 'Services include technical SEO, multilingual optimisation, localisation, hreflang implementation, content optimisation, and ongoing SEO management.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, technical best practices, and international search optimisation.'],
+                        ['q' => '6. Which businesses benefit from an International SEO Agency Birmingham?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, and businesses looking to grow internationally.']
                     ]
                 ]
             ],
@@ -15817,6 +16478,173 @@ class LocationSeoController extends Controller
                     ]
                 ]
             ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'International SEO Services Birmingham | Global SEO Specialists',
+                    'meta_title' => 'International SEO Services Birmingham | Global SEO Specialists',
+                    'meta_description' => 'Expand into global markets with International SEO Services in Birmingham. Increase worldwide rankings, multilingual visibility, traffic, and quality leads.',
+                    'meta_keywords' => 'international seo services birmingham, international seo birmingham, global website seo, worldwide seo specialists'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Services Birmingham',
+                    'title' => 'International SEO Services Birmingham for Global <br>Business Growth',
+                    'subtitle' => 'Grow your business beyond the UK with our professional International SEO Services Birmingham. We help businesses improve international search visibility, attract qualified global traffic, and generate more enquiries through tailored SEO strategies for multiple countries and languages.',
+                    'audit_type' => 'international-seo-services-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Global SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/international-seo-services.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/international-seo-services.webp',
+                    'meta_description' => 'Expand into global markets with International SEO Services in Birmingham. Increase worldwide rankings, multilingual visibility, traffic, and quality leads.',
+                    'meta_keywords' => 'international seo services birmingham, global seo agency UK, multilingual SEO, geo-targeted SEO UK',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with our expert International SEO Services.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your online visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve search rankings with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Services Birmingham?',
+                    'subtitle' => 'Partner with experienced international SEO specialists dedicated to helping businesses achieve long-term global success.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve rankings across international search engines with proven SEO strategies.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to improve user experience and search visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target international customers with localised keyword research and regional SEO campaigns.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through ongoing optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international rankings and expand successfully into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International SEO Audit', 'desc' => 'Evaluate your website\'s technical performance, content, and international SEO opportunities.'],
+                        ['step' => '2', 'title' => 'Global Keyword Research', 'desc' => 'Identify high-value keywords for every target country and language.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website structure, multilingual setup, indexing, hreflang implementation, and page speed.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content that matches local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Build authoritative backlinks to strengthen your global online presence.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse SEO performance, and continually optimise your campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Services',
+                    'subtitle' => 'Our comprehensive International SEO Services help businesses compete successfully across international markets.',
+                    'list_title' => 'International SEO Performance Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword analysis, competitor review, technical SEO recommendations, website localisation review, international SEO growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of International SEO Services Birmingham',
+                    'subtitle' => 'Our structured modules ensure sustained, data-driven cross-border performance optimization.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Complement your business operations securely through alternate contextual marketing links.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/global-seo-services-birmingham', 'label' => 'Global SEO Services'],
+                       ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Are International SEO Services?',
+                    'paragraphs' => [
+                        'International SEO Services help businesses improve their visibility across multiple countries and languages through multilingual SEO, technical optimisation, website localisation, hreflang implementation, and international keyword research. These services increase global search rankings, attract qualified international traffic, and support long-term business growth.'
+                    ],
+                    'side_title' => 'Who Needs International SEO Services Birmingham?',
+                    'side_intro' => 'If your business serves customers in multiple countries or languages, our International SEO Services Birmingham provide the expertise needed to maximise your global visibility and business growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Services Matter',
+                    'paragraphs' => [
+                        'International SEO ensures your website is properly optimised for users and search engines across different countries and languages. With technical SEO, localisation, hreflang implementation, and country-specific keyword targeting, your business can expand into global markets and achieve sustainable organic growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO specialists in Birmingham and expand into international markets with proven SEO strategies.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Experts',
+                    'subtitle' => 'Tell us about your business goals and target markets, and we\'ll create a customised international SEO strategy that improves your global visibility and delivers measurable results.',
+                    'key' => 'international_seo_services_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more leads, multi-language site setup, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Services Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What are International SEO Services?', 'a' => 'International SEO Services optimise your website for multiple countries and languages using multilingual SEO, localisation, technical optimisation, and international keyword targeting.'],
+                        ['q' => '2. Why choose International SEO Services in Birmingham?', 'a' => 'A Birmingham-based international SEO team provides expert strategies to help businesses expand into global markets and achieve sustainable growth.'],
+                        ['q' => '3. What services are included?', 'a' => 'Services include technical SEO, multilingual optimisation, localisation, hreflang implementation, international keyword research, content optimisation, and ongoing SEO management.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, hreflang implementation, and technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from International SEO Services Birmingham?', 'a' => 'These services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, and businesses targeting international customers.']
+                    ]
+                ]
+            ],
         ],
         'internationalseo' => [
             'london' => [
@@ -15997,6 +16825,171 @@ class LocationSeoController extends Controller
                     ]
                 ]
             ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'International SEO in Birmingham | Global Search Experts UK',
+                    'meta_title' => 'International SEO in Birmingham | Global Search Experts UK',
+                    'meta_description' => 'Grow internationally with expert International SEO in Birmingham. Improve global search visibility, multilingual rankings, organic traffic, and conversions.',
+                    'meta_keywords' => 'international seo birmingham, international seo in birmingham, global search experts uk, multilingual ranking signals'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO in Birmingham',
+                    'title' => 'International SEO in Birmingham for Global Business <br>Growth',
+                    'subtitle' => 'Expand your business into international markets with our expert International SEO in Birmingham services. We help businesses improve global search visibility, attract qualified international traffic, and generate more enquiries through tailored SEO strategies for multiple countries and languages.',
+                    'audit_type' => 'international-seo-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Global SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/website-development.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/website-development.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your business internationally with customised SEO strategies for leading global markets.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your online visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve search rankings with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO in Birmingham?',
+                    'subtitle' => 'Partner with experienced international SEO specialists committed to helping businesses achieve long-term global success.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Improve rankings across international search engines with proven SEO strategies.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to improve user experience and international visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target global customers with localised keyword research and region-specific SEO campaigns.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses expand successfully into international markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International SEO Audit', 'desc' => 'Evaluate your website\'s technical performance, content, and international SEO opportunities.'],
+                        ['step' => '2', 'title' => 'Global Keyword Research', 'desc' => 'Identify high-value keywords for each target country and language.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website structure, multilingual setup, indexing, hreflang implementation, and page speed.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content that matches local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Build high-quality backlinks to strengthen your global authority.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse campaign performance, and continually improve your SEO strategy.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Services',
+                    'subtitle' => 'Our comprehensive international SEO solutions include:',
+                    'list_title' => 'International SEO Performance Review',
+                    'list_desc' => 'Understand your website\'s international performance with a comprehensive SEO review.',
+                    'list_note' => 'Includes: International SEO audit, global keyword analysis, competitor review, technical SEO recommendations, website localisation review, international SEO growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of International SEO in Birmingham',
+                    'subtitle' => 'Our strategic asset arrays configure direct structural conversion value targets over long operational milestones.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support your international cross-linking structure cleanly through these alternate data profiles.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/global-seo-services-birmingham', 'label' => 'Global SEO Services'],
+                       ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is International SEO?',
+                    'paragraphs' => [
+                        'International SEO is the process of optimising your website for multiple countries and languages. It combines multilingual SEO, technical optimisation, website localisation, hreflang implementation, and international keyword research to improve global search visibility and attract qualified international customers.'
+                    ],
+                    'side_title' => 'Who Needs International SEO in Birmingham?',
+                    'side_intro' => 'If your business is looking to expand internationally, our International SEO in Birmingham services provide the expertise needed to achieve sustainable global growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why International SEO Matters',
+                    'paragraphs' => [
+                        'International SEO helps your website rank across different countries by ensuring search engines display the correct version of your content to users worldwide. A well-planned strategy improves visibility, increases international traffic, and supports long-term business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO specialists in Birmingham and expand into international markets with proven SEO strategies.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Experts',
+                    'subtitle' => 'Tell us about your business goals and target markets, and we\'ll create a customised international SEO strategy that delivers measurable global results.',
+                    'key' => 'international_seo_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, international leads, multi-market scalability, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO in Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What is International SEO?', 'a' => 'International SEO optimises your website for multiple countries and languages to improve global search visibility and attract international customers.'],
+                        ['q' => '2. Why choose International SEO in Birmingham?', 'a' => 'A Birmingham-based international SEO team provides expert strategies that help businesses expand into global markets and achieve sustainable growth.'],
+                        ['q' => '3. What services are included?', 'a' => 'Services include technical SEO, multilingual optimisation, localisation, hreflang implementation, international keyword research, content optimisation, and ongoing SEO management.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, hreflang implementation, and technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from International SEO in Birmingham?', 'a' => 'These services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, and businesses targeting international customers.']
+                    ]
+                ]
+            ],
         ],
 
         'international-seo-consultant' => [
@@ -16172,6 +17165,171 @@ class LocationSeoController extends Controller
                         ['q' => '4. How long does International SEO take to deliver results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, target markets, and the SEO strategy.'],
                         ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific keyword research, hreflang implementation, localisation, and advanced technical SEO best practices.'],
                         ['q' => '6. Which businesses benefit from an International SEO Consultant London?', 'a' => 'Our consultancy services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, franchises, technology companies, and any business expanding into international markets.']
+                    ]
+                ]
+            ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'International SEO Consultant Birmingham | Global SEO Expert',
+                    'meta_title' => 'International SEO Consultant Birmingham | Global SEO Expert',
+                    'meta_description' => 'Hire an International SEO Consultant in Birmingham to improve global visibility, multilingual rankings, organic traffic, and international business growth.',
+                    'meta_keywords' => 'international seo consultant birmingham, global seo expert, multi-language site auditing, international search consulting'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Consultant Birmingham',
+                    'title' => 'International SEO Consultant Birmingham for Global <br>Business Growth',
+                    'subtitle' => 'Expand your business into international markets with our expert International SEO Consultant Birmingham services. We provide tailored SEO strategies that improve global search visibility, attract qualified international traffic, and generate more enquiries across multiple countries and languages.',
+                    'audit_type' => 'international-seo-consultant-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Global SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/website-development.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/website-development.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with expert SEO consultancy.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your online visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve search rankings with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Consultant Birmingham?',
+                    'subtitle' => 'Work with an experienced International SEO Consultant dedicated to helping your business achieve sustainable global growth.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Develop customised SEO strategies that improve rankings across international search engines.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to improve user experience and global search visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target international customers using localised keyword research and region-focused SEO campaigns.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven consulting process helps businesses expand successfully into international markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International SEO Audit', 'desc' => 'Evaluate your website\'s technical performance, content, and international SEO opportunities.'],
+                        ['step' => '2', 'title' => 'Global Keyword Research', 'desc' => 'Identify high-value keywords for each target country and language.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website structure, multilingual setup, indexing, hreflang implementation, and page speed.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content that matches local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Build high-quality backlinks to strengthen your global online authority.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse campaign performance, and continually improve your SEO strategy.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Consulting Services',
+                    'subtitle' => 'Our comprehensive consultant advisory packages systematically resolve global ranking bottlenecks.',
+                    'list_title' => 'International SEO Consultation Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword analysis, competitor review, technical SEO recommendations, website localisation review, international SEO growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO consulting'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Hiring an International SEO Consultant Birmingham',
+                    'subtitle' => 'Expert strategic guidance unlocks scalable global validation benchmarks across foreign engine variations.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Complement your business advisory framework using these highly connected alternative programmatic links.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/global-seo-services-birmingham', 'label' => 'Global SEO Services'],
+                      ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Does an International SEO Consultant Do?',
+                    'paragraphs' => [
+                        'An International SEO Consultant helps businesses improve their online visibility across multiple countries and languages. Through technical SEO, multilingual optimisation, website localisation, hreflang implementation, and international keyword research, a consultant develops strategies that increase global search rankings, attract qualified traffic, and support long-term international growth.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Consultant Birmingham?',
+                    'side_intro' => 'If your business serves customers in multiple countries or languages, an International SEO Consultant Birmingham can help maximise your global online visibility and support successful international expansion.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why Hire an International SEO Consultant?',
+                    'paragraphs' => [
+                        'An experienced International SEO Consultant helps your business expand into new markets by creating tailored SEO strategies that improve international rankings, increase qualified traffic, and maximise your return on investment through long-term organic growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO Consultant Birmingham and expand into global markets with proven SEO strategies.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Consultant',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a customised international SEO strategy that delivers measurable global results.',
+                    'key' => 'international_seo_consultant_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, strategic advisory targets, infrastructure scaling advice, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Consultant Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What does an International SEO Consultant Birmingham do?', 'a' => 'An International SEO Consultant helps businesses improve search visibility across multiple countries through multilingual SEO, technical optimisation, localisation, and international keyword research.'],
+                        ['q' => '2. Why hire an International SEO Consultant in Birmingham?', 'a' => 'A Birmingham-based consultant provides expert SEO strategies that help businesses expand internationally and achieve sustainable organic growth.'],
+                        ['q' => '3. What services are included?', 'a' => 'Services include technical SEO, multilingual optimisation, localisation, hreflang implementation, international keyword research, content optimisation, and ongoing SEO consulting.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, hreflang implementation, and technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from an International SEO Consultant Birmingham?', 'a' => 'Our consulting services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, and businesses targeting international customers.']
                     ]
                 ]
             ],
@@ -16355,8 +17513,340 @@ class LocationSeoController extends Controller
                     ]
                 ]
             ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'International SEO Expert Birmingham | Worldwide SEO Specialist',
+                    'meta_title' => 'International SEO Expert Birmingham | Worldwide SEO Specialist',
+                    'meta_description' => 'Work with an International SEO Expert in Birmingham to improve multilingual SEO, worldwide rankings, organic visibility, and international lead generation.',
+                    'meta_keywords' => 'international seo expert birmingham, global seo specialist, multi-language site positioning, international search expert'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Expert Birmingham',
+                    'title' => 'International SEO Expert Birmingham for Global <br>Business Growth',
+                    'subtitle' => 'Expand your business into international markets with our experienced International SEO Expert Birmingham. We develop customised SEO strategies that improve global search visibility, attract qualified international traffic, and generate more enquiries across multiple countries and languages.',
+                    'audit_type' => 'international-seo-expert-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Global SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/woocommerce-development.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/woocommerce-development.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with expert International SEO solutions.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your online visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve search rankings with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Expert Birmingham?',
+                    'subtitle' => 'Work with an experienced International SEO Expert dedicated to helping your business achieve sustainable global growth.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Develop customised SEO strategies that improve rankings across international search engines.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to improve user experience and international visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target international customers using localised keyword research and region-specific SEO campaigns.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international rankings and expand successfully into global markets.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International SEO Audit', 'desc' => 'Review your website\'s technical performance, content, and international SEO opportunities.'],
+                        ['step' => '2', 'title' => 'Global Keyword Research', 'desc' => 'Identify high-value keywords for each target country and language.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website structure, multilingual setup, indexing, hreflang implementation, and page speed.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content that aligns with local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Build high-quality backlinks to strengthen your global online authority.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse SEO performance, and continually optimise your campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Expert Services',
+                    'subtitle' => 'Our comprehensive International SEO solutions include:',
+                    'list_title' => 'International SEO Performance Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword analysis, competitor review, technical SEO recommendations, website localisation review, international SEO growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO support'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Hiring an International SEO Expert Birmingham',
+                    'subtitle' => 'Partnering with a dedicated specialist unlocks sustainable long-term enterprise visibility across global target layouts.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Unify your cross-border search properties via these closely integrated technical frameworks.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-consultant-birmingham', 'label' => 'International SEO Consultant'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Does an International SEO Expert Do?',
+                    'paragraphs' => [
+                        'An International SEO Expert helps businesses improve their visibility across multiple countries and languages using multilingual SEO, technical optimisation, website localisation, hreflang implementation, and international keyword research. The objective is to increase global search rankings, attract qualified international visitors, and drive long-term business growth.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Expert Birmingham?',
+                    'side_intro' => 'If your business serves customers in multiple countries or languages, an International SEO Expert Birmingham provides the expertise needed to maximise your international visibility and business growth.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why Hire an International SEO Expert?',
+                    'paragraphs' => [
+                        'An experienced International SEO Expert creates tailored SEO strategies that help businesses enter new markets, improve international rankings, increase qualified traffic, and achieve sustainable organic growth across global search engines.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO Expert Birmingham and expand into international markets with proven SEO strategies.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Expert',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a customised international SEO strategy that delivers measurable global results.',
+                    'key' => 'international_seo_expert_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more traffic, multi-language expansion frameworks, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Expert Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What does an International SEO Expert Birmingham do?', 'a' => 'An International SEO Expert helps businesses improve search visibility across multiple countries through multilingual SEO, technical optimisation, localisation, hreflang implementation, and international keyword research.'],
+                        ['q' => '2. Why hire an International SEO Expert in Birmingham?', 'a' => 'A Birmingham-based International SEO Expert provides strategic guidance and proven SEO techniques to help businesses expand into international markets and achieve sustainable growth.'],
+                        ['q' => '3. What services are included?', 'a' => 'Services include technical SEO, multilingual optimisation, website localisation, hreflang implementation, international keyword research, content optimisation, and ongoing SEO support.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on website authority, competition, and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, technical best practices, and international search optimisation.'],
+                        ['q' => '6. Which businesses benefit from an International SEO Expert Birmingham?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, technology companies, and businesses looking to grow internationally.']
+                    ]
+                ]
+            ],
         ],
-          //one page content left
+        'global-seo-strategy' => [
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'Global SEO Strategy Birmingham | International SEO Experts',
+                    'meta_title' => 'Global SEO Strategy Birmingham | International SEO Experts',
+                    'meta_description' => 'Build a winning Global SEO Strategy in Birmingham. Improve international rankings, multilingual visibility, organic traffic, and global business growth.',
+                    'meta_keywords' => 'global seo strategy birmingham, international seo birmingham, global website seo, worldwide seo specialists'
+                ],
+                'hero' => [
+                    'eyebrow' => 'Global SEO Strategy Birmingham',
+                    'title' => 'Global SEO Strategy Birmingham for International <br>Business Success',
+                    'subtitle' => 'Grow your business beyond the UK with our professional Global SEO Strategy Birmingham services. We create customised SEO strategies that improve global search visibility, attract qualified international traffic, and help your business generate more enquiries across multiple countries and languages.',
+                    'audit_type' => 'global-seo-strategy-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free Global SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Custom SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/image-seo-services.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/image-seo-services.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with our proven Global SEO Strategy.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your online visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve search rankings with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our Global SEO Strategy Birmingham?',
+                    'subtitle' => 'Partner with experienced global SEO specialists who develop strategies that deliver long-term international growth.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'Global SEO Expertise', 'desc' => 'Create effective SEO strategies that improve rankings across international search engines.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to enhance user experience and global search visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target international customers using localised keyword research and market-specific SEO campaigns.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our Global SEO Strategy Process',
+                    'subtitle' => 'Our proven framework helps businesses improve global rankings and achieve long-term international growth.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Identify target countries, competitors, customer behaviour, and keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Build a customised global SEO strategy aligned with your business goals.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website structure, multilingual setup, indexing, hreflang implementation, and website performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Develop content tailored to local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'Global Link Building', 'desc' => 'Build authoritative backlinks that strengthen your international online presence.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse results, and continuously optimise your SEO strategy.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete Global SEO Strategy Services',
+                    'subtitle' => 'Our comprehensive strategy includes everything needed to compete successfully in international search results.',
+                    'list_title' => 'Global SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: Global SEO audit, international keyword analysis, competitor review, technical SEO recommendations, website localisation review, global SEO growth roadmap',
+                    'items' => [
+                        'Global SEO audits',
+                        'International keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of Global SEO Strategy Birmingham',
+                    'subtitle' => 'Partnering with us helps you secure a strong, scalable return on investment globally.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support your global growth strategy with these connected regional and technical SEO variants.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/global-seo-services-birmingham', 'label' => 'Global SEO Services'],
+                       ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is a Global SEO Strategy?',
+                    'paragraphs' => [
+                        'A Global SEO Strategy is a structured plan that helps businesses improve their online visibility across multiple countries and languages. It combines technical SEO, multilingual optimisation, website localisation, hreflang implementation, and international keyword research to increase global rankings and attract qualified international customers.'
+                    ],
+                    'side_title' => 'Who Needs a Global SEO Strategy Birmingham?',
+                    'side_intro' => 'If your business wants to attract customers from multiple countries and languages, our Global SEO Strategy Birmingham provides the expertise needed to achieve international success.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why a Global SEO Strategy Matters',
+                    'paragraphs' => [
+                        'A strong Global SEO Strategy ensures your website reaches the right audience in every target market. By optimising technical SEO, creating localised content, and targeting country-specific keywords, your business can increase international visibility, drive qualified traffic, and achieve sustainable global growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Expand Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced Global SEO specialists in Birmingham and grow your business across international markets with a proven SEO strategy.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free Global SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our Global SEO Specialists',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a customised Global SEO Strategy that delivers measurable international results.',
+                    'key' => 'global_seo_strategy_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, strategic planning roadmaps, search execution alignment, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'Global SEO Strategy Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What is a Global SEO Strategy?', 'a' => 'A Global SEO Strategy is a plan to optimise your website for multiple countries and languages, improving international search visibility and attracting global customers.'],
+                        ['q' => '2. Why choose a Global SEO Strategy in Birmingham?', 'a' => 'A Birmingham-based SEO team provides expert guidance and tailored strategies to help businesses expand successfully into international markets.'],
+                        ['q' => '3. What does a Global SEO Strategy include?', 'a' => 'It includes technical SEO, multilingual optimisation, localisation, hreflang implementation, international keyword research, content optimisation, and ongoing performance monitoring.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, hreflang implementation, and technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from a Global SEO Strategy Birmingham?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, technology companies, and businesses expanding into international markets.']
+                    ]
+                ]
+            ],
+            
+        ],
         'international-seo-strategy' => [
             'london' => [
                 'meta' => [
@@ -16534,6 +18024,172 @@ class LocationSeoController extends Controller
                     ]
                 ]
             ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'International SEO Strategy Birmingham | Global SEO Services',
+                    'meta_title' => 'International SEO Strategy Birmingham | Global SEO Services',
+                    'meta_description' => 'Create an effective International SEO Strategy in Birmingham. Increase worldwide visibility, multilingual rankings, qualified traffic, and international leads.',
+                    'meta_keywords' => 'international seo strategy birmingham, international seo birmingham, global website seo, worldwide seo specialists'
+                ],
+                'hero' => [
+                    'eyebrow' => 'International SEO Strategy Birmingham',
+                    'title' => 'International SEO Strategy Birmingham for Global <br>Business Growth',
+                    'subtitle' => 'Expand your business into international markets with our expert International SEO Strategy Birmingham services. We develop customised SEO strategies that improve global search visibility, attract qualified international traffic, and help your business generate more enquiries across multiple countries and languages.',
+                    'audit_type' => 'international-seo-strategy-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Custom SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/seo.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/seo.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with our proven International SEO Strategy.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'International SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your online visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'International SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'International SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'International SEO Australia', 'title' => 'Australia', 'desc' => 'Improve search rankings with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'International SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'International SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our International SEO Strategy Birmingham?',
+                    'subtitle' => 'Partner with experienced international SEO specialists who create strategies that deliver measurable global growth.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International SEO Expertise', 'desc' => 'Develop customised SEO strategies that improve rankings across international search engines.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Optimise multilingual websites to improve user experience and international search visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target international customers using localised keyword research and region-specific SEO campaigns.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International SEO Strategy Process',
+                    'subtitle' => 'Our proven framework helps businesses improve global rankings and achieve long-term international growth.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Market Research', 'desc' => 'Identify target countries, competitors, customer behaviour, and keyword opportunities.'],
+                        ['step' => '2', 'title' => 'SEO Strategy Development', 'desc' => 'Create a customised international SEO strategy aligned with your business goals.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website structure, multilingual setup, indexing, hreflang implementation, and website performance.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Develop content tailored to local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Build authoritative backlinks that strengthen your global online presence.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse results, and continuously optimise your SEO strategy.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete International SEO Strategy Services',
+                    'subtitle' => 'Our comprehensive strategy includes everything needed to compete successfully in international search results.',
+                    'list_title' => 'International SEO Strategy Review',
+                    'list_desc' => 'Receive a detailed review of your international SEO performance.',
+                    'list_note' => 'Includes: International SEO audit, global keyword analysis, competitor review, technical SEO recommendations, website localisation review, international SEO growth roadmap',
+                    'items' => [
+                        'International SEO audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of International SEO Strategy Birmingham',
+                    'subtitle' => 'Deploying clear target variables outlines reliable multi-regional validation patterns.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support your international expansion cleanly with these contextual internal links.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-consultant-birmingham', 'label' => 'International SEO Consultant'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is an International SEO Strategy?',
+                    'paragraphs' => [
+                        'An International SEO Strategy is a structured plan that helps businesses improve their online visibility across multiple countries and languages. It combines technical SEO, multilingual optimisation, website localisation, hreflang implementation, and international keyword research to increase global rankings and attract qualified international customers.'
+                    ],
+                    'side_title' => 'Who Needs an International SEO Strategy Birmingham?',
+                    'side_intro' => 'If your business serves customers across multiple countries or languages, our International SEO Strategy Birmingham provides the expertise needed to maximise your global online visibility.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why an International SEO Strategy Matters',
+                    'paragraphs' => [
+                        'A strong International SEO Strategy ensures your website reaches the right audience in every target market. By optimising technical SEO, creating localised content, and targeting country-specific keywords, your business can increase international visibility, drive qualified traffic, and achieve sustainable global growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Expand Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced International SEO specialists in Birmingham and grow your business across international markets with a proven SEO strategy.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Specialists',
+                    'subtitle' => 'Tell us about your business goals and target countries, and we\'ll create a customised International SEO Strategy that delivers measurable global results.',
+                    'key' => 'international_seo_strategy_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                         'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, strategic planning roadmaps, search execution alignment, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'International SEO Strategy Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What is an International SEO Strategy?', 'a' => 'An International SEO Strategy is a plan to optimise your website for multiple countries and languages, improving international search visibility and attracting global customers.'],
+                        ['q' => '2. Why choose an International SEO Strategy in Birmingham?', 'a' => 'A Birmingham-based SEO team provides expert guidance and tailored strategies to help businesses expand successfully into international markets.'],
+                        ['q' => '3. What does an International SEO Strategy include?', 'a' => 'It includes technical SEO, multilingual optimisation, localisation, hreflang implementation, international keyword research, content optimisation, and ongoing performance monitoring.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, hreflang implementation, and technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from an International SEO Strategy Birmingham?', 'a' => 'Our services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, technology companies, and businesses expanding into international markets.']
+                    ]
+                ]
+            ],
+            
         ],
         'seo-for-international-sites' => [
             'london' => [
@@ -16714,7 +18370,1013 @@ class LocationSeoController extends Controller
                     ]
                 ]
             ],
+            'birmingham' => [
+                'meta' => [
+                    'title' => 'SEO for International Sites Birmingham | Global SEO Experts',
+                    'meta_title' => 'SEO for International Sites Birmingham | Global SEO Experts',
+                    'meta_description' => 'Improve international website performance with SEO for International Sites in Birmingham. Boost global rankings, multilingual visibility, traffic, and leads.',
+                    'meta_keywords' => 'seo for international sites birmingham, global seo experts, international website seo, multilingual seo visibility'
+                ],
+                'hero' => [
+                    'eyebrow' => 'SEO for International Sites Birmingham',
+                    'title' => 'SEO for International Sites Birmingham for Global <br>Business Growth',
+                    'subtitle' => 'Grow your business across international markets with our professional SEO for International Sites Birmingham services. We optimise multilingual and multi-regional websites to improve global search visibility, attract qualified international traffic, and generate more enquiries from customers worldwide.',
+                    'audit_type' => 'seo-for-international-sites-birmingham-audit',
+                    'primary_btn_text' => 'Get a Free International SEO Consultation',
+                    'secondary_btn_text' => 'Request Your Global SEO Strategy',
+                    'banner_desktop' => 'assets/images/banners/desktop/website-development.webp',
+                    'banner_mobile' => 'assets/images/banners/mobile/website-development.webp',
+                    'stats' => [
+                        ['value' => '25+', 'label' => 'Countries Targeted'],
+                        ['value' => '40%', 'label' => 'Average Organic Growth'],
+                        ['value' => 'Multi-Language', 'label' => 'SEO & Website Localisation']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title' => 'International Markets We Target',
+                    'subtitle' => 'Grow your online presence across leading international markets with SEO strategies built for global success.',
+                    'items' => [
+                        ['img' => 'assets/images/seo/international/international_seo_services_1.webp', 'alt' => 'SEO United Kingdom', 'title' => 'United Kingdom', 'desc' => 'Increase your online visibility across the UK with targeted SEO strategies.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_2.webp', 'alt' => 'SEO United States', 'title' => 'United States', 'desc' => 'Reach customers throughout the USA with country-specific SEO campaigns.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_3.webp', 'alt' => 'SEO Canada', 'title' => 'Canada', 'desc' => 'Grow your business with SEO tailored for the Canadian market.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_4.webp', 'alt' => 'SEO Australia', 'title' => 'Australia', 'desc' => 'Improve search rankings with SEO designed for Australian audiences.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_5.webp', 'alt' => 'SEO Germany', 'title' => 'Germany', 'desc' => 'Connect with German customers through multilingual SEO and localisation.'],
+                        ['img' => 'assets/images/seo/international/international_seo_services_6.webp', 'alt' => 'SEO France', 'title' => 'France', 'desc' => 'Expand your reach in France with professionally optimised SEO campaigns.']
+                    ]
+                ],
+                'features' => [
+                    'title' => 'Why Choose Our SEO for International Sites Birmingham?',
+                    'subtitle' => 'Partner with experienced international SEO specialists who optimise websites for long-term global success.',
+                    'items' => [
+                        ['icon' => 'globe', 'title' => 'International Website SEO', 'desc' => 'Optimise your website to perform across multiple countries and languages.'],
+                        ['icon' => 'languages', 'title' => 'Multi-Language SEO', 'desc' => 'Improve multilingual websites to enhance user experience and international visibility.'],
+                        ['icon' => 'map-pin', 'title' => 'Country-Specific SEO', 'desc' => 'Target international customers using localised keyword research and region-specific SEO campaigns.'],
+                        ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'Implement hreflang tags, optimise website architecture, improve Core Web Vitals, and strengthen international indexing.'],
+                        ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase international traffic, enquiries, and conversions through continuous optimisation.']
+                    ]
+                ],
+                'process' => [
+                    'title' => 'Our International Website SEO Process',
+                    'subtitle' => 'Our proven process helps businesses improve international website performance and achieve sustainable global growth.',
+                    'items' => [
+                        ['step' => '1', 'title' => 'International Website Audit', 'desc' => 'Evaluate your website\'s technical performance, content, and international SEO opportunities.'],
+                        ['step' => '2', 'title' => 'Global Keyword Research', 'desc' => 'Identify high-value keywords for each target country and language.'],
+                        ['step' => '3', 'title' => 'Technical SEO Optimisation', 'desc' => 'Improve website structure, multilingual setup, indexing, hreflang implementation, and page speed.'],
+                        ['step' => '4', 'title' => 'Content Localisation', 'desc' => 'Create and optimise content that matches local languages, cultures, and search intent.'],
+                        ['step' => '5', 'title' => 'International Link Building', 'desc' => 'Build high-quality backlinks to strengthen your global online presence.'],
+                        ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, analyse SEO performance, and continually optimise your campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title' => 'Complete SEO for International Sites Services',
+                    'subtitle' => 'Our comprehensive international website SEO services include:',
+                    'list_title' => 'International Website SEO Review',
+                    'list_desc' => 'Receive a detailed review of your international website\'s SEO performance.',
+                    'list_note' => 'Includes: International SEO website audit, global keyword analysis, competitor review, technical SEO recommendations, website localisation review, international SEO growth roadmap',
+                    'items' => [
+                        'International SEO website audits',
+                        'Global keyword research',
+                        'Competitor analysis',
+                        'Technical SEO optimisation',
+                        'Website localisation',
+                        'Multi-language SEO',
+                        'Hreflang implementation',
+                        'International content optimisation',
+                        'Global link building',
+                        'SEO reporting and analytics',
+                        'Conversion rate optimisation',
+                        'Ongoing SEO management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title' => 'Benefits of SEO for International Sites Birmingham',
+                    'subtitle' => 'Comprehensive global parameter structures maximize structural visibility index loops over long operational milestones.',
+                    'items' => [
+                        'Improve international search rankings',
+                        'Increase worldwide organic traffic',
+                        'Reach customers across multiple countries',
+                        'Generate qualified international leads',
+                        'Increase overseas enquiries and sales',
+                        'Build global brand awareness',
+                        'Improve website authority',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title' => 'Explore Related SEO Services',
+                    'subtitle' => 'Support cross-border execution plans effectively using these connected template layouts.',
+                    'items' => [
+                        ['url' => '/international-seo-company-birmingham', 'label' => 'International SEO Company'],
+                        ['url' => '/international-seo-agency-birmingham', 'label' => 'International SEO Agency'],
+                        ['url' => '/international-seo-consultant-birmingham', 'label' => 'International SEO Consultant'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Is SEO for International Sites?',
+                    'paragraphs' => [
+                        'SEO for International Sites is the process of optimising a website for multiple countries and languages. It combines multilingual SEO, technical optimisation, website localisation, hreflang implementation, and international keyword research to improve global search visibility and attract qualified international customers.'
+                    ],
+                    'side_title' => 'Who Needs SEO for International Sites Birmingham?',
+                    'side_intro' => 'If your website targets customers in multiple countries or languages, our SEO for International Sites Birmingham services provide the expertise needed to maximise your global online visibility.',
+                    'side_bullets' => [
+                        'eCommerce businesses',
+                        'SaaS companies',
+                        'Manufacturers and exporters',
+                        'B2B organisations',
+                        'Technology companies',
+                        'Professional service providers',
+                        'Businesses with multilingual websites'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why SEO for International Sites Matters',
+                    'paragraphs' => [
+                        'Optimising an international website ensures search engines display the correct content for users in different countries and languages. This improves international rankings, increases qualified traffic, enhances user experience, and supports sustainable global business growth.'
+                    ]
+                ],
+                'cta' => [
+                    'title' => 'Ready to Grow Your Business Worldwide?',
+                    'subtitle' => 'Partner with our experienced international SEO specialists in Birmingham and optimise your website for success across international markets.',
+                    'primary_btn' => 'Contact Us Today',
+                    'secondary_btn' => 'Request Your Free International SEO Consultation'
+                ],
+                'form' => [
+                    'title' => 'Talk to Our International SEO Experts',
+                    'subtitle' => 'Tell us about your website, business goals, and target countries, and we\'ll create a customised international SEO strategy that improves your global visibility and delivers measurable results.',
+                    'key' => 'seo_for_international_sites_birmingham_enquiry',
+                    'fields' => [
+                        'name_label' => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label' => 'Email Address',
+                        'email_placeholder' => 'name@company.com',
+                        'url_label' => 'Website URL',
+                        'url_placeholder' => 'https://',
+                        'focus_label' => 'Target Countries',
+                        'focus_placeholder' => 'US, CA, DE, FR, etc.',
+                        'msg_label' => 'What would you like to achieve globally?',
+                        'msg_placeholder' => 'Global visibility, more traffic, multi-regional indexing frameworks, etc.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title' => 'SEO for International Sites Birmingham FAQs',
+                    'items' => [
+                        ['q' => '1. What is SEO for International Sites?', 'a' => 'SEO for International Sites optimises websites for multiple countries and languages using multilingual SEO, technical optimisation, localisation, hreflang implementation, and international keyword research.'],
+                        ['q' => '2. Why choose SEO for International Sites in Birmingham?', 'a' => 'A Birmingham-based international SEO team provides expert strategies that help businesses improve global search visibility and expand into international markets.'],
+                        ['q' => '3. What services are included?', 'a' => 'Services include technical SEO, multilingual optimisation, localisation, hreflang implementation, international keyword research, content optimisation, and ongoing SEO management.'],
+                        ['q' => '4. How long does it take to see results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on website authority, competition, and target markets.'],
+                        ['q' => '5. Can you optimise multilingual websites?', 'a' => 'Yes. We optimise multilingual websites using language-specific SEO, localisation, hreflang implementation, and technical SEO best practices.'],
+                        ['q' => '6. Which businesses benefit from SEO for International Sites Birmingham?', 'a' => 'These services are ideal for eCommerce businesses, SaaS companies, manufacturers, exporters, B2B organisations, and businesses targeting international customers.']
+                    ]
+                ]
+            ],
         ],
+        'seo-services' => [
+            'manchester' => [
+                        'meta' => [
+                            'title'             => 'SEO Services Manchester | Results-Driven SEO Agency',
+                            'meta_title'        => 'SEO Services Manchester | Results-Driven SEO Agency',
+                            'meta_description'  => 'Grow your business with expert SEO services in Manchester. Our tailored Local SEO, Technical SEO and Ecommerce SEO strategies increase rankings and qualified leads.',
+                            'meta_keywords'     => 'seo services manchester, manchester seo agency, local seo manchester, ecommerce seo manchester'
+                        ],
+                        'hero' => [
+                            'eyebrow'           => 'SEO Services Manchester',
+                            'title'             => 'SEO Services Manchester for Sustainable Business <br>Growth',
+                            'subtitle'          => 'Grow your business with our professional SEO Services Manchester. We help businesses improve Google rankings, increase organic traffic, and generate more qualified leads through tailored SEO strategies designed for long-term success.',
+                            'audit_type'        => 'seo-services-manchester-audit',
+                            'primary_btn_text'  => 'Get a Free SEO Audit',
+                            'secondary_btn_text'=> 'Request Your Custom SEO Strategy',
+                            'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
+                            'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
+                            'stats' => [
+                                ['value' => '500+', 'label' => 'Websites Optimised'],
+                                ['value' => '40%',  'label' => 'Average Organic Growth'],
+                                ['value' => '100%', 'label' => 'Transparent Monthly Reporting']
+                            ]
+                        ],
+                        'showcase' => [
+                            'is_visible' => true,
+                            'title'      => 'Industries We Help',
+                            'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors.',
+                            'items'      => [
+                                ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Local Businesses', 'title' => 'Local Businesses', 'desc' => 'Improve your visibility and attract more local customers.'],
+                                ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'eCommerce Stores', 'title' => 'eCommerce Stores', 'desc' => 'Increase online sales with tailored eCommerce SEO strategies.'],
+                                ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Generate more enquiries for legal, financial, healthcare, and consulting businesses.'],
+                                ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Trades & Home Services', 'title' => 'Trades & Home Services', 'desc' => 'Reach customers searching for plumbers, electricians, builders, and other local services.'],
+                                ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Hospitality', 'title' => 'Hospitality', 'desc' => 'Grow bookings and enquiries for hotels, restaurants, and hospitality businesses.'],
+                                ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'B2B Companies', 'title' => 'B2B Companies', 'desc' => 'Increase qualified leads and strengthen your online presence.']
+                            ]
+                        ],
+                        'features' => [
+                            'title'    => 'Why Choose Our SEO Services Manchester?',
+                            'subtitle' => 'Partner with experienced SEO specialists focused on delivering measurable business growth.',
+                            'items'    => [
+                                ['icon' => 'map-pin', 'title' => 'Local SEO Expertise', 'desc' => 'Improve your visibility in local search results and Google Maps.'],
+                                ['icon' => 'settings', 'title' => 'Technical SEO', 'desc' => 'Enhance website performance, crawlability, indexing, and Core Web Vitals.'],
+                                ['icon' => 'file-text', 'title' => 'On-Page SEO', 'desc' => 'Optimise content, metadata, internal linking, and keyword targeting.'],
+                                ['icon' => 'edit-3', 'title' => 'Content Marketing', 'desc' => 'Create SEO-friendly content that attracts visitors and builds authority.'],
+                                ['icon' => 'trending-up', 'title' => 'Sustainable Organic Growth', 'desc' => 'Increase rankings, traffic, enquiries, and conversions through ongoing optimisation.']
+                            ]
+                        ],
+                        'process' => [
+                            'title'    => 'Our SEO Process',
+                            'subtitle' => 'Our step-by-step approach to improving your online visibility and search engine rankings.',
+                            'items'    => [
+                                ['step' => '1', 'title' => 'SEO Audit', 'desc' => 'Analyse your website, competitors, and current search performance.'],
+                                ['step' => '2', 'title' => 'Keyword Research', 'desc' => 'Identify high-value keywords that match your business goals.'],
+                                ['step' => '3', 'title' => 'Technical SEO', 'desc' => 'Improve website structure, speed, mobile usability, and indexing.'],
+                                ['step' => '4', 'title' => 'On-Page Optimisation', 'desc' => 'Optimise pages, content, headings, images, and internal links.'],
+                                ['step' => '5', 'title' => 'Link Building', 'desc' => 'Build high-quality backlinks to strengthen website authority.'],
+                                ['step' => '6', 'title' => 'Performance Monitoring', 'desc' => 'Track rankings, traffic, and conversions while continually improving results.']
+                            ]
+                        ],
+                        'deliverables' => [
+                            'title'     => 'Complete SEO Services',
+                            'subtitle'  => 'Comprehensive search engine optimisation tailored to your business needs.',
+                            'list_title'=> 'Free SEO Audit',
+                            'list_desc' => 'Receive a comprehensive audit and roadmap for your website.',
+                            'list_note' => 'Includes: Website SEO audit, keyword analysis, competitor review, technical SEO recommendations, local SEO review, SEO growth roadmap',
+                            'items'     => [
+                                'SEO audits',
+                                'Keyword research',
+                                'Technical SEO',
+                                'On-page SEO',
+                                'Local SEO',
+                                'Content optimisation',
+                                'Link building',
+                                'Competitor analysis',
+                                'Google Business Profile optimisation',
+                                'eCommerce SEO',
+                                'Monthly SEO reporting',
+                                'Ongoing SEO management'
+                            ]
+                        ],
+                        'additional_benefits' => [
+                            'title'   => 'Benefits of SEO Services Manchester',
+                            'subtitle'=> 'Drive real business impact through data-driven search strategy.',
+                            'items'   => [
+                                'Improve Google rankings',
+                                'Increase organic website traffic',
+                                'Generate more qualified leads',
+                                'Improve local search visibility',
+                                'Increase enquiries and sales',
+                                'Strengthen website authority',
+                                'Enhance user experience',
+                                'Achieve long-term business growth'
+                            ]
+                        ],
+                        'related_links' => [
+                            'title'   => 'Explore Related SEO Services',
+                            'subtitle'=> 'Expand your search reach with targeted complementary SEO strategies.',
+                           'items' => [
+                                ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                                ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                                ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                                ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
+                                ['url' => '/international-seo-service-uk', 'label' => 'International SEO Services'],
+                                ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation']
+                            ]
+                        ],
+                        'about' => [
+                            'main_title' => 'What Are SEO Services?',
+                            'paragraphs' => [
+                                'SEO Services help businesses improve their visibility on search engines such as Google. Through keyword research, technical SEO, on-page optimisation, content marketing, and link building, SEO increases organic traffic, improves rankings, and generates more qualified enquiries.'
+                            ],
+                            'side_title' => 'Who Needs SEO Services Manchester?',
+                            'side_intro' => 'Our tailored Manchester SEO services deliver growth across various business types:',
+                            'side_bullets' => [
+                                'Local businesses',
+                                'eCommerce stores',
+                                'Professional service providers',
+                                'Trades and home service companies',
+                                'Healthcare providers',
+                                'Hospitality businesses',
+                                'B2B organisations',
+                                'Start-ups and SMEs'
+                            ],
+                            'side_note' => ''
+                        ],
+                        'growth' => [
+                            'title' => 'Why SEO Is Important',
+                            'paragraphs' => [
+                                'SEO helps your business appear when potential customers search for your products or services online. A well-planned SEO strategy increases visibility, drives targeted traffic, improves brand credibility, and delivers long-term business growth without relying solely on paid advertising.'
+                            ]
+                        ],
+                        'cta' => [
+                            'title'         => 'Ready to Grow Your Business?',
+                            'subtitle'      => 'Partner with our experienced SEO specialists in Manchester and build a stronger online presence with a customised SEO strategy.',
+                            'primary_btn'   => 'Contact Us Today',
+                            'secondary_btn' => 'Request Your Free SEO Audit'
+                        ],
+                        'form' => [
+                            'title'   => 'Talk to Our SEO Experts',
+                            'subtitle'=> 'Tell us about your business goals, and we\'ll create a tailored SEO strategy that improves your rankings, attracts more customers, and delivers measurable results.',
+                            'key'     => 'seo_services_manchester_enquiry',
+                            'fields'  => [
+                                'name_label'       => 'Full Name',
+                                'name_placeholder' => 'Enter your name',
+                                'email_label'      => 'Email Address',
+                                'email_placeholder'=> 'name@company.com',
+                                'url_label'        => 'Website URL',
+                                'url_placeholder'  => 'https://',
+                                'focus_label'      => 'Business Goals',
+                                'focus_placeholder'=> 'Local visibility, leads, online sales, etc.',
+                                'msg_label'        => 'Tell us about your project',
+                                'msg_placeholder'  => 'Share details about your goals and current SEO performance.'
+                            ]
+                        ],
+                        'faq' => [
+                            'is_visible' => true,
+                            'title'      => 'SEO Services Manchester FAQs',
+                            'items'      => [
+                                ['q' => '1. What do SEO Services include?', 'a' => 'SEO Services include keyword research, technical SEO, on-page optimisation, content marketing, link building, local SEO, and ongoing performance monitoring.'],
+                                ['q' => '2. Why choose SEO Services in Manchester?', 'a' => 'A Manchester SEO team understands the local market and develops strategies that improve rankings, traffic, and qualified leads.'],
+                                ['q' => '3. How long does SEO take to deliver results?', 'a' => 'Most businesses begin seeing measurable improvements within 3–6 months, depending on competition, website authority, and industry.'],
+                                ['q' => '4. Do you provide Local SEO?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve visibility in local search results and Google Maps.'],
+                                ['q' => '5. Can you help eCommerce websites?', 'a' => 'Yes. We provide eCommerce SEO to improve product rankings, increase organic traffic, and generate more online sales.'],
+                                ['q' => '6. Which businesses benefit from SEO Services Manchester?', 'a' => 'Our SEO services are ideal for local businesses, eCommerce stores, professional service providers, trades, healthcare companies, hospitality businesses, and B2B organisations.']
+                            ]
+                        ]
+                    ],
+                    'cambridge' => [
+                'meta' => [
+                    'title'             => 'SEO Services Cambridge | Expert SEO Agency for Business Growth',
+                    'meta_title'        => 'SEO Services Cambridge | Expert SEO Agency for Business Growth',
+                    'meta_description'  => 'Boost your online presence with expert SEO services in Cambridge. We provide Local SEO, Technical SEO, Ecommerce SEO and content strategies that drive results.',
+                    'meta_keywords'     => 'seo services cambridge, cambridge seo agency, local seo cambridge, ecommerce seo cambridge'
+                ],
+                'hero' => [
+                    'eyebrow'           => 'SEO Services Cambridge',
+                    'title'             => 'Professional SEO Services Cambridge to Accelerate <br>Business Growth',
+                    'subtitle'          => 'Increase your online visibility with our expert SEO Services Cambridge. We help businesses achieve higher search engine rankings, attract qualified website visitors, and convert organic traffic into valuable leads. Our tailored SEO strategies combine technical expertise, high-quality content, and data-driven optimisation to deliver long-term business growth.',
+                    'audit_type'        => 'seo-services-cambridge-audit',
+                    'primary_btn_text'  => 'Free SEO Audit',
+                    'secondary_btn_text'=> 'Drive More Organic Traffic',
+                    'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
+                    'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
+                    'stats' => [
+                        ['value' => '500+', 'label' => 'SEO Campaigns Completed'],
+                        ['value' => 'Ethical', 'label' => 'SEO Practices'],
+                        ['value' => 'Monthly', 'label' => 'Performance Reports']
+                    ]
+                ],
+                'showcase' => [
+                    'is_visible' => true,
+                    'title'      => 'Industries We Help',
+                    'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors in Cambridge.',
+                   'items' => [
+                        ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Technology & Software', 'title' => 'Technology & Software', 'desc' => 'Support technology companies and SaaS businesses with SEO strategies that generate qualified leads.'],
+                        ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'eCommerce Businesses', 'title' => 'eCommerce Businesses', 'desc' => 'Increase product visibility, improve category rankings, and grow online sales.'],
+                        ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Help solicitors, accountants, consultants, and financial firms attract more potential clients.'],
+                        ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Education & Research', 'title' => 'Education & Research', 'desc' => 'Improve online visibility for schools, colleges, universities, and research organisations.'],
+                        ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Healthcare Providers', 'title' => 'Healthcare Providers', 'desc' => 'Generate more enquiries for private clinics, dentists, medical practices, and healthcare specialists.'],
+                        ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Local Service Businesses', 'title' => 'Local Service Businesses', 'desc' => 'Help trades, property companies, and local businesses reach customers searching for their services.']
+                    ]
+                ],
+                'features' => [
+                    'title'    => 'Why Choose Our SEO Services Cambridge?',
+                    'subtitle' => 'Partner with expert SEO specialists focused on delivering sustainable organic growth.',
+                    'items'    => [
+                        ['icon' => 'sliders', 'title' => 'Tailored SEO Strategies', 'desc' => 'Every campaign is customised to match your business objectives, target audience, and market competition.'],
+                        ['icon' => 'settings', 'title' => 'Technical SEO Specialists', 'desc' => 'We optimise website speed, Core Web Vitals, indexing, mobile usability, and search engine performance.'],
+                        ['icon' => 'map-pin', 'title' => 'Local & National SEO', 'desc' => 'Our strategies improve visibility in both local search results and competitive national markets.'],
+                        ['icon' => 'file-text', 'title' => 'High-Quality SEO Content', 'desc' => 'We create and optimise engaging content that improves rankings while delivering value to your audience.'],
+                        ['icon' => 'trending-up', 'title' => 'Continuous Campaign Optimisation', 'desc' => 'We monitor SEO performance regularly and refine your strategy to maximise long-term results.']
+                    ]
+                ],
+                'process' => [
+                    'title'    => 'Our SEO Process',
+                    'subtitle' => 'A proven, data-driven approach engineered to achieve higher rankings and qualified leads.',
+                    'items'    => [
+                        ['step' => '1', 'title' => 'SEO Website Audit', 'desc' => 'We analyse your website to identify technical issues, content gaps, and ranking opportunities.'],
+                        ['step' => '2', 'title' => 'Keyword & Competitor Research', 'desc' => 'Our specialists research valuable keywords and analyse competitors to build an effective SEO strategy.'],
+                        ['step' => '3', 'title' => 'Technical Website Optimisation', 'desc' => 'We improve website structure, page speed, indexing, mobile responsiveness, and internal linking.'],
+                        ['step' => '4', 'title' => 'Content Optimisation', 'desc' => 'We enhance existing content and develop new SEO-focused pages that target relevant search queries.'],
+                        ['step' => '5', 'title' => 'Authority Building', 'desc' => 'We improve your website\'s credibility through ethical link-building and digital authority strategies.'],
+                        ['step' => '6', 'title' => 'Ongoing SEO Management', 'desc' => 'We monitor rankings, traffic, and conversions while continually refining your campaign.']
+                    ]
+                ],
+                'deliverables' => [
+                    'title'     => 'Complete SEO Services',
+                    'subtitle'  => 'Comprehensive search strategies tailored to your market and growth goals.',
+                    'list_title'=> 'Free SEO Audit',
+                    'list_desc' => 'Get a complete analysis and roadmap for your Cambridge business.',
+                    'list_note' => 'Includes: Complete website analysis, technical SEO review, keyword opportunity research, competitor analysis, local SEO assessment, personalised SEO recommendations',
+                    'items'     => [
+                        'SEO Strategy Development',
+                        'Technical SEO',
+                        'Local SEO',
+                        'National SEO',
+                        'eCommerce SEO',
+                        'On-Page SEO',
+                        'Content Optimisation',
+                        'Keyword Research',
+                        'Link Building',
+                        'Google Business Profile Optimisation',
+                        'SEO Analytics & Reporting',
+                        'Ongoing SEO Management'
+                    ]
+                ],
+                'additional_benefits' => [
+                    'title'   => 'Benefits of Our SEO Services',
+                    'subtitle'=> 'Drive real business impact through data-backed organic search strategies.',
+                    'items'   => [
+                        'Improve Google rankings',
+                        'Increase organic website traffic',
+                        'Generate high-quality enquiries',
+                        'Strengthen online authority',
+                        'Improve local search visibility',
+                        'Enhance website performance',
+                        'Increase customer confidence',
+                        'Achieve sustainable business growth'
+                    ]
+                ],
+                'related_links' => [
+                    'title'   => 'Related SEO Services',
+                    'subtitle'=> 'Explore complementary services to accelerate your online growth.',
+                   'items' => [
+                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                        ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
+                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                        ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
+                        ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
+                    ]
+                ],
+                'about' => [
+                    'main_title' => 'What Are SEO Services?',
+                    'paragraphs' => [
+                        'SEO Services improve your website\'s visibility in search engines through technical optimisation, keyword research, content enhancement, and authority building. A successful SEO campaign helps attract relevant visitors, improve user experience, and generate consistent organic enquiries for your business.'
+                    ],
+                    'side_title' => 'Who Needs SEO Services Cambridge?',
+                    'side_intro' => 'Our SEO solutions are ideal for:',
+                    'side_bullets' => [
+                        'Technology companies',
+                        'Start-ups and SMEs',
+                        'eCommerce retailers',
+                        'Professional service firms',
+                        'Healthcare providers',
+                        'Educational organisations',
+                        'Local businesses',
+                        'National brands'
+                    ],
+                    'side_note' => ''
+                ],
+                'growth' => [
+                    'title' => 'Why Invest in SEO Services?',
+                    'paragraphs' => [
+                        'Search engine optimisation is one of the most effective digital marketing strategies for long-term success. By improving your website\'s rankings, SEO increases visibility, attracts potential customers at the right time, and delivers sustainable business growth without relying entirely on paid advertising.'
+                    ]
+                ],
+                'cta' => [
+                    'title'         => 'Ready to Improve Your Search Rankings?',
+                    'subtitle'      => 'Choose our professional SEO Services Cambridge to build a customised SEO strategy that increases your online visibility, attracts more customers, and supports long-term business success.',
+                    'primary_btn'   => 'Book Your Free SEO Consultation Today',
+                    'secondary_btn' => 'Custom SEO Strategy'
+                ],
+                'form' => [
+                    'title'   => 'Talk to Our SEO Experts',
+                    'subtitle'=> 'Our experienced SEO specialists will assess your business goals and create a tailored strategy designed to improve rankings, grow organic traffic, and deliver measurable results.',
+                    'key'     => 'seo_services_cambridge_enquiry',
+                    'fields'  => [
+                        'name_label'       => 'Full Name',
+                        'name_placeholder' => 'Enter your name',
+                        'email_label'      => 'Email Address',
+                        'email_placeholder'=> 'name@company.com',
+                        'url_label'        => 'Website URL',
+                        'url_placeholder'  => 'https://',
+                        'focus_label'      => 'Business Goals',
+                        'focus_placeholder'=> 'Organic growth, lead generation, technical optimization, etc.',
+                        'msg_label'        => 'How can we help?',
+                        'msg_placeholder'  => 'Tell us about your business objectives and current search performance.'
+                    ]
+                ],
+                'faq' => [
+                    'is_visible' => true,
+                    'title'      => 'SEO Services Cambridge FAQs',
+                    'items'      => [
+                        ['q' => '1. Why choose your SEO Services Cambridge?', 'a' => 'We provide customised SEO strategies that improve rankings, increase targeted traffic, and generate qualified business enquiries.'],
+                        ['q' => '2. Which industries do you work with?', 'a' => 'We support technology companies, healthcare providers, educational organisations, eCommerce businesses, professional services, and local businesses across a wide range of sectors.'],
+                        ['q' => '3. How long does SEO take to produce results?', 'a' => 'Most businesses begin seeing measurable improvements within three to six months, depending on competition, website quality, and industry.'],
+                        ['q' => '4. Do you provide Local SEO?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve local search visibility and Google Maps rankings.'],
+                        ['q' => '5. Can you optimise an existing website?', 'a' => 'Absolutely. We improve your website\'s technical SEO, content, page performance, and overall user experience to achieve stronger search rankings.'],
+                        ['q' => '6. How do you measure SEO performance?', 'a' => 'We measure campaign success through keyword rankings, organic traffic, lead generation, conversions, and overall business growth.']
+                    ]
+                ]
+            ],
+                   
+        ],
+        'seo-agency' => [
+             'reading' => [
+                                        'meta' => [
+                                            'title'             => 'SEO Agency Reading | Trusted SEO Experts for Business Growth',
+                                            'meta_title'        => 'SEO Agency Reading | Trusted SEO Experts for Business Growth',
+                                            'meta_description'  => 'Looking for an SEO agency in Reading? We help businesses improve Google rankings with Local SEO, Technical SEO, Ecommerce SEO and proven SEO strategies.',
+                                            'meta_keywords'     => 'seo agency reading, reading seo experts, local seo reading, ecommerce seo reading'
+                                        ],
+                                        'hero' => [
+                                            'eyebrow'           => 'SEO Agency Reading',
+                                            'title'             => 'Professional SEO Agency Reading for Long-Term <br>Business Growth',
+                                            'subtitle'          => 'Build a stronger online presence with our trusted SEO Agency Reading. We help businesses improve their search engine rankings, attract highly targeted visitors, and convert more website traffic into genuine enquiries.',
+                                            'audit_type'        => 'seo-agency-reading-audit',
+                                            'primary_btn_text'  => 'Free SEO Audit',
+                                            'secondary_btn_text'=> 'Custom SEO Strategy',
+                                            'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
+                                            'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
+                                            'stats' => [
+                                                ['value' => '500+', 'label' => 'SEO Campaigns Managed'],
+                                                ['value' => '100%', 'label' => 'Ethical SEO Practices'],
+                                                ['value' => 'Monthly', 'label' => 'Performance Reports']
+                                            ]
+                                        ],
+                                        'showcase' => [
+                                            'is_visible' => true,
+                                            'title'      => 'Industries We Help',
+                                            'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors.',
+                                           'items' => [
+                                                        ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Technology Companies', 'title' => 'Technology Companies', 'desc' => 'Increase online visibility and generate qualified leads for software, IT, and technology businesses.'],
+                                                        ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'Retail & eCommerce', 'title' => 'Retail & eCommerce', 'desc' => 'Improve product rankings and drive more online sales through tailored eCommerce SEO.'],
+                                                        ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Help accountants, solicitors, consultants, and financial firms reach more potential clients.'],
+                                                        ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Healthcare Providers', 'title' => 'Healthcare Providers', 'desc' => 'Enhance search visibility for clinics, dentists, healthcare professionals, and private practices.'],
+                                                        ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Trades & Property Services', 'title' => 'Trades & Property Services', 'desc' => 'Generate consistent enquiries for builders, electricians, plumbers, estate agents, and property businesses.'],
+                                                        ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Education & Training', 'title' => 'Education & Training', 'desc' => 'Support schools, colleges, training providers, and educational organisations with effective SEO strategies.']
+                                                    ]
+                                        ],
+                                        'features' => [
+                                            'title'    => 'Why Choose Our SEO Agency Reading?',
+                                            'subtitle' => 'Partner with trusted SEO experts dedicated to driving long-term, scalable growth.',
+                                            'items'    => [
+                                                ['icon' => 'sliders', 'title' => 'Bespoke SEO Solutions', 'desc' => 'Every campaign is customised to suit your business objectives, target audience, and market competition.'],
+                                                ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'We improve website speed, Core Web Vitals, indexing, crawlability, and overall search engine performance.'],
+                                                ['icon' => 'map-pin', 'title' => 'Local Search Optimisation', 'desc' => 'Increase your visibility in Reading through targeted local SEO and Google Business Profile optimisation.'],
+                                                ['icon' => 'file-text', 'title' => 'Content That Delivers Results', 'desc' => 'Our SEO content is written to improve rankings, answer customer questions, and increase conversions.'],
+                                                ['icon' => 'bar-chart-2', 'title' => 'Transparent Campaign Management', 'desc' => 'Receive regular reports with clear insights into rankings, traffic growth, and campaign performance.']
+                                            ]
+                                        ],
+                                        'process' => [
+                                            'title'    => 'Our SEO Process',
+                                            'subtitle' => 'A structured framework designed to build search authority and maximize organic growth.',
+                                            'items'    => [
+                                                ['step' => '1', 'title' => 'SEO Discovery', 'desc' => 'We review your website, competitors, and current search performance to identify opportunities.'],
+                                                ['step' => '2', 'title' => 'Keyword & Market Research', 'desc' => 'We uncover valuable keywords and analyse search intent to create an effective SEO strategy.'],
+                                                ['step' => '3', 'title' => 'Technical Improvements', 'desc' => 'Our team optimises your website structure, mobile usability, page speed, and indexing.'],
+                                                ['step' => '4', 'title' => 'Content Optimisation', 'desc' => 'We enhance existing pages and develop fresh content that targets high-value search terms.'],
+                                                ['step' => '5', 'title' => 'Authority Building', 'desc' => 'We strengthen your website through ethical backlink acquisition and digital authority strategies.'],
+                                                ['step' => '6', 'title' => 'Ongoing Performance Optimisation', 'desc' => 'We continually analyse campaign performance and refine the strategy for maximum results.']
+                                            ]
+                                        ],
+                                        'deliverables' => [
+                                            'title'     => 'Complete SEO Services',
+                                            'subtitle'  => 'Comprehensive search engine strategies designed for maximum visibility.',
+                                            'list_title'=> 'Free SEO Audit',
+                                            'list_desc' => 'Receive a comprehensive audit and roadmap for your Reading business.',
+                                            'list_note' => 'Includes: Website performance review, technical SEO analysis, keyword opportunity assessment, competitor benchmarking, local SEO evaluation, actionable SEO recommendations',
+                                            'items'     => [
+                                                'SEO Strategy Development',
+                                                'Technical SEO',
+                                                'Local SEO',
+                                                'National SEO',
+                                                'eCommerce SEO',
+                                                'On-Page SEO',
+                                                'Content Marketing',
+                                                'Keyword Research',
+                                                'Link Building',
+                                                'Google Business Profile Optimisation',
+                                                'SEO Analytics & Reporting',
+                                                'Continuous SEO Management'
+                                            ]
+                                        ],
+                                        'additional_benefits' => [
+                                            'title'   => 'Benefits of Choosing Our SEO Agency',
+                                            'subtitle'=> 'Achieve sustainable business performance with our proven search strategies.',
+                                            'items'   => [
+                                                'Improve search engine rankings',
+                                                'Increase qualified website traffic',
+                                                'Generate more enquiries',
+                                                'Build stronger online authority',
+                                                'Improve local search visibility',
+                                                'Enhance website performance',
+                                                'Increase customer confidence',
+                                                'Achieve sustainable business growth'
+                                            ]
+                                        ],
+                                        'related_links' => [
+                                            'title'   => 'Related SEO Services',
+                                            'subtitle'=> 'Explore related search services to accelerate your digital growth.',
+                                            'items' => [
+                                                ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                                                ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                                                ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
+                                                ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                                                ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
+                                                ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
+                                            ]
+                                        ],
+                                        'about' => [
+                                            'main_title' => 'What Does an SEO Agency Do?',
+                                            'paragraphs' => [
+                                                'An SEO Agency helps businesses improve their online visibility by optimising website performance, creating high-quality content, targeting relevant keywords, and building website authority. The goal is to increase organic traffic, improve search rankings, and generate more business opportunities through Google and other search engines.'
+                                            ],
+                                            'side_title' => 'Who Needs an SEO Agency Reading?',
+                                            'side_intro' => 'Our SEO services are suitable for:',
+                                            'side_bullets' => [
+                                                'Small businesses',
+                                                'Growing companies',
+                                                'eCommerce retailers',
+                                                'Professional service firms',
+                                                'Healthcare providers',
+                                                'Property businesses',
+                                                'Local service companies',
+                                                'National organisations'
+                                            ],
+                                            'side_note' => ''
+                                        ],
+                                        'growth' => [
+                                            'title' => 'Why Choose Professional SEO?',
+                                            'paragraphs' => [
+                                                'Professional SEO helps businesses reach customers at the moment they are searching for products or services online. A well-managed SEO campaign increases brand visibility, delivers consistent website traffic, improves customer trust, and creates long-term business growth without relying solely on paid advertising.'
+                                            ]
+                                        ],
+                                        'cta' => [
+                                            'title'         => 'Ready to Grow Your Business?',
+                                            'subtitle'      => 'Partner with our experienced SEO Agency Reading and discover how a tailored SEO strategy can help your business achieve higher rankings, attract more customers, and increase revenue.',
+                                            'primary_btn'   => 'Book Your Free SEO Consultation Today',
+                                            'secondary_btn' => 'Grow Your Business Online'
+                                        ],
+                                        'form' => [
+                                            'title'   => 'Talk to Our SEO Experts',
+                                            'subtitle'=> 'Our SEO specialists are ready to discuss your business objectives and create a customised strategy that delivers measurable improvements in visibility, traffic, and lead generation.',
+                                            'key'     => 'seo_agency_reading_enquiry',
+                                            'fields'  => [
+                                                'name_label'       => 'Full Name',
+                                                'name_placeholder' => 'Enter your name',
+                                                'email_label'      => 'Email Address',
+                                                'email_placeholder'=> 'name@company.com',
+                                                'url_label'        => 'Website URL',
+                                                'url_placeholder'  => 'https://',
+                                                'focus_label'      => 'Business Goals',
+                                                'focus_placeholder'=> 'Local leads, ecommerce sales, brand growth, etc.',
+                                                'msg_label'        => 'How can we help?',
+                                                'msg_placeholder'  => 'Tell us about your business goals and current online presence.'
+                                            ]
+                                        ],
+                                        'faq' => [
+                                            'is_visible' => true,
+                                            'title'      => 'SEO Agency Reading FAQs',
+                                            'items'      => [
+                                                ['q' => '1. Why should I choose your SEO Agency Reading?', 'a' => 'We develop customised SEO strategies that improve rankings, increase organic traffic, and generate qualified business enquiries.'],
+                                                ['q' => '2. Which industries do you work with?', 'a' => 'We work with technology companies, retailers, healthcare providers, professional services, property businesses, educational organisations, and many other sectors.'],
+                                                ['q' => '3. How soon will I see SEO results?', 'a' => 'Many businesses begin seeing measurable improvements within three to six months, depending on their industry, competition, and website performance.'],
+                                                ['q' => '4. Do you provide Local SEO?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve visibility in local search results and Google Maps.'],
+                                                ['q' => '5. Can you optimise an existing website?', 'a' => 'Yes. We improve website structure, technical SEO, content quality, and user experience to maximise search performance.'],
+                                                ['q' => '6. How do you measure SEO success?', 'a' => 'Success is measured through keyword rankings, organic traffic, website enquiries, conversions, and overall business growth.']
+                                            ]
+                                        ]
+                                    ],
+                                    'harrow' => [
+    'meta' => [
+        'title'             => 'SEO Agency Harrow | Trusted SEO Experts for Growth',
+        'meta_title'        => 'SEO Agency Harrow | Trusted SEO Experts for Growth',
+        'meta_description'  => 'Partner with our SEO agency in Harrow to improve Google rankings, increase organic traffic and generate more leads through expert SEO strategies.',
+        'meta_keywords'     => 'seo agency harrow, harrow seo experts, local seo harrow, ecommerce seo harrow'
+    ],
+    'hero' => [
+        'eyebrow'           => 'SEO Agency Harrow',
+        'title'             => 'Trusted SEO Agency Harrow for Sustainable Business <br>Growth',
+        'subtitle'          => 'Strengthen your online presence with our professional SEO Agency Harrow. We help businesses improve their Google rankings, attract targeted website visitors, and convert more searches into valuable enquiries. Our customised SEO strategies are designed to increase visibility, enhance user experience, and deliver long-term growth for businesses across Harrow.',
+        'audit_type'        => 'seo-agency-harrow-audit',
+        'primary_btn_text'  => 'Free SEO Audit',
+        'secondary_btn_text'=> 'Increase Organic Traffic',
+        'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
+        'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
+        'stats' => [
+            ['value' => '500+', 'label' => 'SEO Campaigns Delivered'],
+            ['value' => 'Proven', 'label' => 'SEO Methods'],
+            ['value' => 'Monthly', 'label' => 'Transparent Reporting']
+        ]
+    ],
+    'showcase' => [
+        'is_visible' => true,
+        'title'      => 'Industries We Help',
+        'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors in Harrow.',
+        'items' => [
+                ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Local Businesses', 'title' => 'Local Businesses', 'desc' => 'Increase your visibility in local search results and attract customers searching for nearby services.'],
+                ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'eCommerce Stores', 'title' => 'eCommerce Stores', 'desc' => 'Boost online sales by improving product, category, and shopping search rankings.'],
+                ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Generate more enquiries for solicitors, accountants, consultants, and financial advisers.'],
+                ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Home Improvement & Trades', 'title' => 'Home Improvement & Trades', 'desc' => 'Help plumbers, electricians, roofers, builders, and contractors reach more local customers.'],
+                ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Healthcare Providers', 'title' => 'Healthcare Providers', 'desc' => 'Improve online visibility for dental clinics, medical practices, physiotherapists, and healthcare professionals.'],
+                ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Hospitality & Retail', 'title' => 'Hospitality & Retail', 'desc' => 'Increase bookings, footfall, and enquiries for restaurants, cafés, hotels, and retail businesses.']
+            ]
+    ],
+    'features' => [
+        'title'    => 'Why Choose Our SEO Agency Harrow?',
+        'subtitle' => 'Partner with dedicated SEO specialists focused on delivering measurable, long-term business growth.',
+        'items'    => [
+            ['icon' => 'sliders', 'title' => 'Tailored SEO Campaigns', 'desc' => 'Every SEO strategy is designed around your business goals, audience, and local competition.'],
+            ['icon' => 'settings', 'title' => 'Technical SEO Expertise', 'desc' => 'We improve website speed, indexing, Core Web Vitals, mobile performance, and overall website health.'],
+            ['icon' => 'map-pin', 'title' => 'Local SEO Specialists', 'desc' => 'Our local SEO strategies help your business rank higher in Google Search and Google Maps.'],
+            ['icon' => 'file-text', 'title' => 'Content That Drives Results', 'desc' => 'We optimise existing content and create valuable new pages that improve rankings and engage your audience.'],
+            ['icon' => 'trending-up', 'title' => 'Ongoing Performance Optimisation', 'desc' => 'Your SEO campaign is regularly monitored and refined to achieve continuous improvements.']
+        ]
+    ],
+    'process' => [
+        'title'    => 'Our SEO Process',
+        'subtitle' => 'A proven framework engineered to increase search performance and organic revenue.',
+        'items'    => [
+            ['step' => '1', 'title' => 'Website Analysis', 'desc' => 'We assess your website\'s performance, identify technical issues, and discover SEO opportunities.'],
+            ['step' => '2', 'title' => 'Keyword Strategy', 'desc' => 'Our specialists research relevant search terms that your ideal customers are actively using.'],
+            ['step' => '3', 'title' => 'Technical Optimisation', 'desc' => 'We improve website architecture, page speed, indexing, mobile usability, and structured data.'],
+            ['step' => '4', 'title' => 'Content Enhancement', 'desc' => 'We optimise website content and develop new SEO-focused pages to increase organic visibility.'],
+            ['step' => '5', 'title' => 'Authority Development', 'desc' => 'We strengthen your online reputation through ethical backlink building and digital authority strategies.'],
+            ['step' => '6', 'title' => 'Continuous SEO Growth', 'desc' => 'We analyse campaign data, monitor keyword performance, and optimise your strategy for long-term success.']
+        ]
+    ],
+    'deliverables' => [
+        'title'     => 'Complete SEO Services',
+        'subtitle'  => 'Comprehensive search strategies tailored to your market and audience.',
+        'list_title'=> 'Free SEO Audit',
+        'list_desc' => 'Get a comprehensive audit and roadmap for your Harrow business.',
+        'list_note' => 'Includes: Complete website SEO review, technical performance analysis, keyword opportunity research, competitor evaluation, local SEO assessment, personalised SEO recommendations',
+        'items'     => [
+            'SEO Strategy & Planning',
+            'Technical SEO',
+            'Local SEO',
+            'National SEO',
+            'eCommerce SEO',
+            'On-Page SEO',
+            'Content Optimisation',
+            'Keyword Research',
+            'Link Building',
+            'Google Business Profile Optimisation',
+            'SEO Performance Reporting',
+            'Ongoing SEO Management'
+        ]
+    ],
+    'additional_benefits' => [
+        'title'   => 'Benefits of Choosing Our SEO Agency',
+        'subtitle'=> 'Drive meaningful, long-term impact through search visibility.',
+        'items'   => [
+            'Improve Google rankings',
+            'Increase organic website traffic',
+            'Generate more qualified enquiries',
+            'Build stronger online authority',
+            'Improve local search visibility',
+            'Enhance website performance',
+            'Increase customer trust',
+            'Achieve sustainable business growth'
+        ]
+    ],
+    'related_links' => [
+        'title'   => 'Related SEO Services',
+        'subtitle'=> 'Explore complementary search services to enhance your digital presence.',
+        'items' => [
+            ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+            ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+            ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
+            ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+            ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
+            ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
+        ]
+    ],
+    'about' => [
+        'main_title' => 'What Does an SEO Agency Do?',
+        'paragraphs' => [
+            'An SEO Agency improves your website\'s visibility by optimising technical performance, creating valuable content, targeting relevant keywords, and building online authority. These strategies help your website attract qualified visitors, improve rankings, and generate more business opportunities through organic search.'
+        ],
+        'side_title' => 'Who Needs an SEO Agency Harrow?',
+        'side_intro' => 'Our SEO services are ideal for:',
+        'side_bullets' => [
+            'Small businesses',
+            'Local service providers',
+            'eCommerce retailers',
+            'Professional service firms',
+            'Healthcare organisations',
+            'Property companies',
+            'Construction businesses',
+            'Growing national brands'
+        ],
+        'side_note' => ''
+    ],
+    'growth' => [
+        'title' => 'Why Invest in SEO?',
+        'paragraphs' => [
+            'SEO is one of the most effective long-term marketing strategies for businesses looking to attract customers online. By improving your search engine visibility, SEO generates consistent traffic, increases brand credibility, and helps convert website visitors into loyal customers.'
+        ]
+    ],
+    'cta' => [
+        'title'         => 'Ready to Grow Your Business Online?',
+        'subtitle'      => 'Work with our experienced SEO Agency Harrow to build a customised SEO strategy that improves search rankings, increases targeted traffic, and delivers measurable business growth.',
+        'primary_btn'   => 'Book Your Free SEO Consultation Today',
+        'secondary_btn' => 'Tailored SEO Strategy'
+    ],
+    'form' => [
+        'title'   => 'Talk to Our SEO Experts',
+        'subtitle'=> 'Our SEO specialists are ready to understand your business goals and create a tailored strategy that helps you achieve long-term success through higher rankings, increased visibility, and better-quality leads.',
+        'key'     => 'seo_agency_harrow_enquiry',
+        'fields'  => [
+            'name_label'       => 'Full Name',
+            'name_placeholder' => 'Enter your name',
+            'email_label'      => 'Email Address',
+            'email_placeholder'=> 'name@company.com',
+            'url_label'        => 'Website URL',
+            'url_placeholder'  => 'https://',
+            'focus_label'      => 'Business Goals',
+            'focus_placeholder'=> 'Local traffic, lead generation, higher rankings, etc.',
+            'msg_label'        => 'How can we help?',
+            'msg_placeholder'  => 'Tell us about your business goals and current SEO performance.'
+        ]
+    ],
+    'faq' => [
+        'is_visible' => true,
+        'title'      => 'SEO Agency Harrow FAQs',
+        'items'      => [
+            ['q' => '1. Why choose your SEO Agency Harrow?', 'a' => 'We create bespoke SEO campaigns tailored to your business objectives, helping you improve rankings, increase organic traffic, and generate more enquiries.'],
+            ['q' => '2. What types of businesses do you work with?', 'a' => 'We work with local businesses, eCommerce stores, professional service providers, healthcare companies, construction firms, hospitality businesses, and many other industries.'],
+            ['q' => '3. How long does SEO take to show results?', 'a' => 'Most SEO campaigns begin delivering measurable improvements within three to six months, depending on your industry, website, and competition.'],
+            ['q' => '4. Do you provide Local SEO services?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve local search rankings and increase visibility on Google Maps.'],
+            ['q' => '5. Can you optimise my existing website?', 'a' => 'Yes. We improve your website\'s technical SEO, content quality, page performance, and overall user experience to achieve better search rankings.'],
+            ['q' => '6. How do you measure SEO success?', 'a' => 'We track keyword rankings, organic traffic, lead generation, conversions, and overall business growth to measure the success of every SEO campaign.']
+        ]
+    ]
+],
+
+
+        ],
+        'seo-company' => [
+            'southampton' => [
+                                    'meta' => [
+                                        'title'             => 'SEO Company Southampton | Professional SEO Specialists',
+                                        'meta_title'        => 'SEO Company Southampton | Professional SEO Specialists',
+                                        'meta_description'  => 'Increase rankings and generate more enquiries with our SEO company in Southampton. We deliver Local SEO, Technical SEO, Ecommerce SEO and content optimisation.',
+                                        'meta_keywords'     => 'seo company southampton, southampton seo specialists, local seo southampton, ecommerce seo southampton'
+                                    ],
+                                    'hero' => [
+                                        'eyebrow'           => 'SEO Company Southampton',
+                                        'title'             => 'Expert SEO Company Southampton Helping Businesses <br>Grow Online',
+                                        'subtitle'          => 'Your customers are searching online every day, and a strong SEO strategy helps them find your business before your competitors. As a trusted SEO Company Southampton, we deliver tailored search engine optimisation solutions that improve website visibility, increase qualified traffic, and generate valuable enquiries.',
+                                        'audit_type'        => 'seo-company-southampton-audit',
+                                        'primary_btn_text'  => 'Free SEO Consultation',
+                                        'secondary_btn_text'=> 'Book Your Free SEO Consultation Today',
+                                        'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
+                                        'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
+                                        'stats' => [
+                                            ['value' => '500+', 'label' => 'SEO Projects Delivered'],
+                                            ['value' => '100%', 'label' => 'Data-Driven Strategies'],
+                                            ['value' => 'Monthly', 'label' => 'Transparent Reporting']
+                                        ]
+                                    ],
+                                    'showcase' => [
+                                        'is_visible' => true,
+                                        'title'      => 'Industries We Help',
+                                        'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors in Southampton.',
+                                      'items' => [
+                                                    ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Local Service Businesses', 'title' => 'Local Service Businesses', 'desc' => 'Increase your visibility in local searches and attract customers looking for trusted services in Southampton.'],
+                                                    ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'eCommerce Businesses', 'title' => 'eCommerce Businesses', 'desc' => 'Drive more product sales by improving category, product, and shopping search rankings.'],
+                                                    ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Help solicitors, accountants, consultants, and financial firms reach clients searching online.'],
+                                                    ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Healthcare & Medical', 'title' => 'Healthcare & Medical', 'desc' => 'Improve online visibility for healthcare providers, clinics, dentists, and private practices.'],
+                                                    ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Construction & Trades', 'title' => 'Construction & Trades', 'desc' => 'Generate quality enquiries for builders, electricians, plumbers, roofers, and contractors.'],
+                                                    ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Hospitality & Tourism', 'title' => 'Hospitality & Tourism', 'desc' => 'Increase bookings and enquiries for hotels, restaurants, cafés, and tourism businesses.']
+                                                ]
+                                    ],
+                                    'features' => [
+                                        'title'    => 'Why Choose Our SEO Company Southampton?',
+                                        'subtitle' => 'Partner with dedicated SEO specialists focused on delivering measurable, long-term business growth.',
+                                        'items'    => [
+                                            ['icon' => 'sliders', 'title' => 'Tailored SEO Strategies', 'desc' => 'Every campaign is built around your business objectives, target audience, and competitive market.'],
+                                            ['icon' => 'settings', 'title' => 'Technical SEO Excellence', 'desc' => 'We optimise website speed, indexing, Core Web Vitals, and site architecture for better search performance.'],
+                                            ['icon' => 'map-pin', 'title' => 'Local Search Optimisation', 'desc' => 'Our local SEO strategies help your business appear in Google Maps and location-based searches.'],
+                                            ['icon' => 'file-text', 'title' => 'High-Quality SEO Content', 'desc' => 'We create informative, keyword-focused content that improves rankings and engages your audience.'],
+                                            ['icon' => 'bar-chart-2', 'title' => 'Performance Tracking', 'desc' => 'Monthly reports provide clear insights into keyword rankings, traffic growth, and lead generation.']
+                                        ]
+                                    ],
+                                    'process' => [
+                                        'title'    => 'Our SEO Process',
+                                        'subtitle' => 'A structured, step-by-step methodology to achieve long-term search engine visibility.',
+                                        'items'    => [
+                                            ['step' => '1', 'title' => 'Website Performance Review', 'desc' => 'We analyse your website\'s technical health, content quality, and current SEO performance.'],
+                                            ['step' => '2', 'title' => 'Search Intent & Keyword Research', 'desc' => 'Our team identifies the keywords your potential customers are actively searching for.'],
+                                            ['step' => '3', 'title' => 'Website Optimisation', 'desc' => 'We improve technical SEO, metadata, internal linking, mobile usability, and page performance.'],
+                                            ['step' => '4', 'title' => 'Content Development', 'desc' => 'Existing pages are enhanced, and new SEO-focused content is created to target valuable search terms.'],
+                                            ['step' => '5', 'title' => 'Authority Growth', 'desc' => 'We strengthen your online reputation through ethical link-building and digital authority strategies.'],
+                                            ['step' => '6', 'title' => 'Continuous SEO Improvements', 'desc' => 'We monitor campaign performance and make ongoing adjustments to maximise long-term growth.']
+                                        ]
+                                    ],
+                                    'deliverables' => [
+                                        'title'     => 'Complete SEO Services',
+                                        'subtitle'  => 'Comprehensive search strategies tailored to your market and growth goals.',
+                                        'list_title'=> 'Free SEO Audit',
+                                        'list_desc' => 'Get a detailed review and actionable growth plan for your business.',
+                                        'list_note' => 'Includes: Complete website health check, technical SEO analysis, keyword opportunity research, competitor comparison, local SEO assessment, personalised SEO recommendations',
+                                        'items'     => [
+                                            'SEO Strategy & Planning',
+                                            'Technical SEO',
+                                            'Local SEO',
+                                            'National SEO',
+                                            'eCommerce SEO',
+                                            'On-Page SEO',
+                                            'Content Optimisation',
+                                            'Keyword Research',
+                                            'Link Building',
+                                            'Google Business Profile Optimisation',
+                                            'SEO Reporting',
+                                            'Ongoing SEO Management'
+                                        ]
+                                    ],
+                                    'additional_benefits' => [
+                                        'title'   => 'Benefits of Choosing Our SEO Company',
+                                        'subtitle'=> 'Drive real business impact through performance-oriented search optimization.',
+                                        'items'   => [
+                                            'Improve Google search rankings',
+                                            'Increase organic website traffic',
+                                            'Generate high-quality business enquiries',
+                                            'Build long-term online authority',
+                                            'Improve local search visibility',
+                                            'Enhance website performance',
+                                            'Increase customer trust',
+                                            'Deliver sustainable business growth'
+                                        ]
+                                    ],
+                                    'related_links' => [
+                                        'title'   => 'Related SEO Services',
+                                        'subtitle'=> 'Explore complementary services to further strengthen your online presence.',
+                                        'items' => [
+                                            ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                                            ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                                            ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
+                                            ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                                            ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
+                                            ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
+                                        ]
+                                    ],
+                                    'about' => [
+                                        'main_title' => 'What Does an SEO Company Do?',
+                                        'paragraphs' => [
+                                            'An SEO Company improves your website\'s ability to rank in search engines through technical optimisation, content development, keyword targeting, and authority building. The objective is to attract relevant visitors, improve user experience, and generate more enquiries without relying solely on paid advertising.'
+                                        ],
+                                        'side_title' => 'Who Needs an SEO Company Southampton?',
+                                        'side_intro' => 'Our SEO services are suitable for:',
+                                        'side_bullets' => [
+                                            'Small and medium-sized businesses',
+                                            'Local companies',
+                                            'Online retailers',
+                                            'Professional service providers',
+                                            'Healthcare organisations',
+                                            'Construction companies',
+                                            'Hospitality businesses',
+                                            'Growing national brands'
+                                        ],
+                                        'side_note' => ''
+                                    ],
+                                    'growth' => [
+                                        'title' => 'Why Invest in Professional SEO?',
+                                        'paragraphs' => [
+                                            'Search engine optimisation provides long-term value by increasing your online visibility and helping customers find your business when they need your services. A well-planned SEO strategy delivers consistent traffic, quality leads, improved brand credibility, and measurable return on investment.'
+                                        ]
+                                    ],
+                                    'cta' => [
+                                        'title'         => 'Ready to Improve Your Online Visibility?',
+                                        'subtitle'      => 'Choose our experienced SEO Company Southampton to build a customised strategy that helps your business achieve stronger rankings, increased traffic, and sustainable growth.',
+                                        'primary_btn'   => 'Book Your Free SEO Consultation Today',
+                                        'secondary_btn' => 'Results-Driven Campaigns'
+                                    ],
+                                    'form' => [
+                                        'title'   => 'Talk to Our SEO Experts',
+                                        'subtitle'=> 'Speak with our SEO specialists to discuss your business goals. We\'ll create a tailored strategy designed to improve search visibility, attract more customers, and help your business grow with confidence.',
+                                        'key'     => 'seo_company_southampton_enquiry',
+                                        'fields'  => [
+                                            'name_label'       => 'Full Name',
+                                            'name_placeholder' => 'Enter your name',
+                                            'email_label'      => 'Email Address',
+                                            'email_placeholder'=> 'name@company.com',
+                                            'url_label'        => 'Website URL',
+                                            'url_placeholder'  => 'https://',
+                                            'focus_label'      => 'Business Goals',
+                                            'focus_placeholder'=> 'Local visibility, lead generation, sales growth, etc.',
+                                            'msg_label'        => 'How can we help?',
+                                            'msg_placeholder'  => 'Tell us about your business goals and current SEO status.'
+                                        ]
+                                    ],
+                                    'faq' => [
+                                        'is_visible' => true,
+                                        'title'      => 'SEO Company Southampton FAQs',
+                                        'items'      => [
+                                            ['q' => '1. Why should I choose your SEO Company Southampton?', 'a' => 'We create tailored SEO campaigns based on your business goals, helping you improve rankings, increase organic traffic, and generate more qualified enquiries.'],
+                                            ['q' => '2. What industries do you work with?', 'a' => 'We work with businesses across retail, healthcare, construction, hospitality, professional services, eCommerce, and many other industries.'],
+                                            ['q' => '3. How long does SEO usually take?', 'a' => 'SEO is a long-term investment, with many businesses seeing noticeable improvements within three to six months depending on competition and website performance.'],
+                                            ['q' => '4. Do you provide Local SEO services?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve local rankings and attract nearby customers.'],
+                                            ['q' => '5. Can you improve an existing website?', 'a' => 'Absolutely. We audit your current website, resolve technical issues, optimise content, and implement strategies to improve search performance.'],
+                                            ['q' => '6. How do you measure SEO success?', 'a' => 'We measure success through keyword rankings, organic traffic, lead generation, conversion growth, and overall return on investment.']
+                                        ]
+                                    ]
+                                ],
+
+        ],
+        
         
 
 
@@ -17191,6 +19853,36 @@ public function internationalSeoCompany(string $locationSlug)
             'content' => $page
         ]);
     }
+    public function SeoServices(string $locationSlug)
+    {
+        $page = self::PAGES['seo-services'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.seo-services', [
+            'content' => $page
+        ]);
+    }
+    public function SeoAgency(string $locationSlug)
+    {
+        $page = self::PAGES['seo-agency'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.seo-agency', [
+            'content' => $page
+        ]);
+    }
+    public function SeoCompany(string $locationSlug)
+    {
+        $page = self::PAGES['seo-company'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.seo-company', [
+            'content' => $page
+        ]);
+    }
     /**
      * Route traffic dynamically between two different design arrays using a single URL signature.
      *
@@ -17215,5 +19907,15 @@ public function internationalSeoCompany(string $locationSlug)
 
         // 3. Fallback safely with a 404 if neither data matrix configuration matches the slug
         abort(404);
+    }
+    public function globalSeoStrategyPage(string $locationSlug)
+    {
+        $page = self::PAGES['global-seo-strategy'][$locationSlug] ?? null;
+
+        abort_if(!$page, 404);
+
+        return view('web.services.locations-seo.global-seo-strategy', [
+            'content' => $page
+        ]);
     }
 }

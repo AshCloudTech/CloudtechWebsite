@@ -297,4 +297,8 @@
         </section>
     @endif
 
+
+@if(!empty($content['schema']))
+    {!! $content['schema'] !!}
+@endif
 @endsection

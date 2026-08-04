@@ -18701,512 +18701,1410 @@ class LocationSeoController extends Controller
                                 ['q' => '5. Can you help eCommerce websites?', 'a' => 'Yes. We provide eCommerce SEO to improve product rankings, increase organic traffic, and generate more online sales.'],
                                 ['q' => '6. Which businesses benefit from SEO Services Manchester?', 'a' => 'Our SEO services are ideal for local businesses, eCommerce stores, professional service providers, trades, healthcare companies, hospitality businesses, and B2B organisations.']
                             ]
+                        ],
+                        'schema' => '<script type="application/ld+json">  
+                                {  
+                                "@context":"https://schema.org",  
+                                "@type":"Service",  
+                                "@id":"https://www.cloudtechnologiesltd.co.uk/seo-services-manchester#service",  
+                                "name":"SEO Services Manchester",  
+                                "alternateName":[  
+                                "SEO Company Manchester",  
+                                "SEO Agency Manchester",  
+                                "Manchester SEO Services",  
+                                "Local SEO Manchester",  
+                                "Technical SEO Manchester"  
+                                ],  
+                                "description":"Professional SEO Services in Manchester helping businesses improve   
+                                Google rankings, increase organic traffic, generate qualified leads and achieve sustainable   
+                                business growth through Local SEO, Technical SEO, On-Page SEO, Off-Page SEO,   
+                                Ecommerce SEO and Google Business Profile Optimisation.",  
+                                "url":"https://www.cloudtechnologiesltd.co.uk/seo-services-manchester",  
+                                "serviceType":"Search Engine Optimization",  
+                                "category":"Digital Marketing",  
+                                "provider":{  
+                                "@type":"Organization",  
+                                "@id":"https://www.cloudtechnologiesltd.co.uk/#organization",  
+                                "name":"Cloud Technologies Ltd",  
+                                "url":"https://www.cloudtechnologiesltd.co.uk/",  
+                                "email":"contact@cloudtechnologiesltd.co.uk",  
+                                "telephone":"+44 7427547394"  
+                                },  
+                                "areaServed":[  
+                                {  
+                                "@type":"City",  
+                                "name":"Manchester"  
+                                },
+                                {  
+                                "@type":"AdministrativeArea",  
+                                "name":"Greater Manchester"  
+                                },  
+                                {  
+                                "@type":"Country",  
+                                "name":"United Kingdom"  
+                                }  
+                                ],  
+                                "audience":{  
+                                "@type":"BusinessAudience",  
+                                "audienceType":"Small Businesses, Medium Businesses, Enterprises"  
+                                },  
+                                "availableChannel":{  
+                                "@type":"ServiceChannel",  
+                                "serviceUrl":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                "servicePhone":{  
+                                "@type":"ContactPoint",  
+                                "telephone":"+44 7427547394",  
+                                "contactType":"Sales",  
+                                "email":"contact@cloudtechnologiesltd.co.uk",  
+                                "availableLanguage":[  
+                                "English"  
+                                ]  
+                                }  
+                                },  
+                                "hoursAvailable":{  
+                                "@type":"OpeningHoursSpecification",  
+                                "dayOfWeek":[  
+                                "Monday",  
+                                "Tuesday",  
+                                "Wednesday",  
+                                "Thursday",  
+                                "Friday"  
+                                ],  
+                                "opens":"09:00",  
+                                "closes":"18:00"
+                                },  
+                                "offers":{  
+                                "@type":"Offer",  
+                                "name":"SEO Services Manchester",  
+                                "url":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                "availability":"https://schema.org/InStock",  
+                                "priceCurrency":"GBP"  
+                                },  
+                                "hasOfferCatalog":{  
+                                "@type":"OfferCatalog",  
+                                "name":"SEO Services Manchester",  
+                                "itemListElement":[  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",  
+                                "name":"Local SEO"  
+                                }  
+                                },  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",  
+                                "name":"Technical SEO"  
+                                }  
+                                },  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",  
+                                "name":"On-Page SEO"  
+                                }  
+                                },  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",
+                                "name":"Off-Page SEO"  
+                                }  
+                                },  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",  
+                                "name":"Content SEO"  
+                                }  
+                                },  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",  
+                                "name":"Ecommerce SEO"  
+                                }  
+                                },  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",  
+                                "name":"Google Business Profile Optimisation"  
+                                }  
+                                },  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",  
+                                "name":"SEO Audit"  
+                                }  
+                                },  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",  
+                                "name":"Keyword Research"  
+                                }
+                                },  
+                                {  
+                                "@type":"Offer",  
+                                "itemOffered":{  
+                                "@type":"Service",  
+                                "name":"Link Building"  
+                                }  
+                                }  
+                                ]  
+                                },  
+                                "keywords":[  
+                                "SEO Services Manchester",  
+                                "SEO Company Manchester",  
+                                "SEO Agency Manchester",  
+                                "Manchester SEO",  
+                                "Local SEO Manchester",  
+                                "Technical SEO Manchester",  
+                                "SEO Consultant Manchester",  
+                                "Ecommerce SEO Manchester",  
+                                "Google Business Profile Optimisation Manchester",  
+                                "Digital Marketing Manchester"  
+                                ],  
+                                "termsOfService":"https://www.cloudtechnologiesltd.co.uk/terms-and-conditions",  
+                                "potentialAction":[  
+                                {  
+                                "@type":"ContactAction",  
+                                "name":"Get Free SEO Consultation",  
+                                "target":"https://www.cloudtechnologiesltd.co.uk/contact-us"  
+                                },  
+                                {  
+                                "@type":"CommunicateAction",  
+                                "name":"Chat on WhatsApp",  
+                                
+                                "target":"https://api.whatsapp.com/send/?phone=7427547394&text&type=phone_number  
+                                &app_absent=0"  
+                                }  
+                                ]
+                                }  
+                                </script>  ',
+                         
+                       ],
+                'cambridge' => [
+                    'meta' => [
+                        'title'             => 'SEO Services Cambridge | Expert SEO Agency for Business Growth',
+                        'meta_title'        => 'SEO Services Cambridge | Expert SEO Agency for Business Growth',
+                        'meta_description'  => 'Boost your online presence with expert SEO services in Cambridge. We provide Local SEO, Technical SEO, Ecommerce SEO and content strategies that drive results.',
+                        'meta_keywords'     => 'seo services cambridge, cambridge seo agency, local seo cambridge, ecommerce seo cambridge'
+                    ],
+                    'hero' => [
+                        'eyebrow'           => 'SEO Services Cambridge',
+                        'title'             => 'Professional SEO Services Cambridge to Accelerate <br>Business Growth',
+                        'subtitle'          => 'Increase your online visibility with our expert SEO Services Cambridge. We help businesses achieve higher search engine rankings, attract qualified website visitors, and convert organic traffic into valuable leads. Our tailored SEO strategies combine technical expertise, high-quality content, and data-driven optimisation to deliver long-term business growth.',
+                        'audit_type'        => 'seo-services-cambridge-audit',
+                        'primary_btn_text'  => 'Free SEO Audit',
+                        'secondary_btn_text'=> 'Drive More Organic Traffic',
+                        'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
+                        'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
+                        'stats' => [
+                            ['value' => '500+', 'label' => 'SEO Campaigns Completed'],
+                            ['value' => 'Ethical', 'label' => 'SEO Practices'],
+                            ['value' => 'Monthly', 'label' => 'Performance Reports']
                         ]
                     ],
-                    'cambridge' => [
-                'meta' => [
-                    'title'             => 'SEO Services Cambridge | Expert SEO Agency for Business Growth',
-                    'meta_title'        => 'SEO Services Cambridge | Expert SEO Agency for Business Growth',
-                    'meta_description'  => 'Boost your online presence with expert SEO services in Cambridge. We provide Local SEO, Technical SEO, Ecommerce SEO and content strategies that drive results.',
-                    'meta_keywords'     => 'seo services cambridge, cambridge seo agency, local seo cambridge, ecommerce seo cambridge'
-                ],
-                'hero' => [
-                    'eyebrow'           => 'SEO Services Cambridge',
-                    'title'             => 'Professional SEO Services Cambridge to Accelerate <br>Business Growth',
-                    'subtitle'          => 'Increase your online visibility with our expert SEO Services Cambridge. We help businesses achieve higher search engine rankings, attract qualified website visitors, and convert organic traffic into valuable leads. Our tailored SEO strategies combine technical expertise, high-quality content, and data-driven optimisation to deliver long-term business growth.',
-                    'audit_type'        => 'seo-services-cambridge-audit',
-                    'primary_btn_text'  => 'Free SEO Audit',
-                    'secondary_btn_text'=> 'Drive More Organic Traffic',
-                    'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
-                    'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
-                    'stats' => [
-                        ['value' => '500+', 'label' => 'SEO Campaigns Completed'],
-                        ['value' => 'Ethical', 'label' => 'SEO Practices'],
-                        ['value' => 'Monthly', 'label' => 'Performance Reports']
-                    ]
-                ],
-                'showcase' => [
-                    'is_visible' => true,
-                    'title'      => 'Industries We Help',
-                    'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors in Cambridge.',
-                   'items' => [
-                        ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Technology & Software', 'title' => 'Technology & Software', 'desc' => 'Support technology companies and SaaS businesses with SEO strategies that generate qualified leads.'],
-                        ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'eCommerce Businesses', 'title' => 'eCommerce Businesses', 'desc' => 'Increase product visibility, improve category rankings, and grow online sales.'],
-                        ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Help solicitors, accountants, consultants, and financial firms attract more potential clients.'],
-                        ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Education & Research', 'title' => 'Education & Research', 'desc' => 'Improve online visibility for schools, colleges, universities, and research organisations.'],
-                        ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Healthcare Providers', 'title' => 'Healthcare Providers', 'desc' => 'Generate more enquiries for private clinics, dentists, medical practices, and healthcare specialists.'],
-                        ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Local Service Businesses', 'title' => 'Local Service Businesses', 'desc' => 'Help trades, property companies, and local businesses reach customers searching for their services.']
-                    ]
-                ],
-                'features' => [
-                    'title'    => 'Why Choose Our SEO Services Cambridge?',
-                    'subtitle' => 'Partner with expert SEO specialists focused on delivering sustainable organic growth.',
-                    'items'    => [
-                        ['icon' => 'sliders', 'title' => 'Tailored SEO Strategies', 'desc' => 'Every campaign is customised to match your business objectives, target audience, and market competition.'],
-                        ['icon' => 'settings', 'title' => 'Technical SEO Specialists', 'desc' => 'We optimise website speed, Core Web Vitals, indexing, mobile usability, and search engine performance.'],
-                        ['icon' => 'map-pin', 'title' => 'Local & National SEO', 'desc' => 'Our strategies improve visibility in both local search results and competitive national markets.'],
-                        ['icon' => 'file-text', 'title' => 'High-Quality SEO Content', 'desc' => 'We create and optimise engaging content that improves rankings while delivering value to your audience.'],
-                        ['icon' => 'trending-up', 'title' => 'Continuous Campaign Optimisation', 'desc' => 'We monitor SEO performance regularly and refine your strategy to maximise long-term results.']
-                    ]
-                ],
-                'process' => [
-                    'title'    => 'Our SEO Process',
-                    'subtitle' => 'A proven, data-driven approach engineered to achieve higher rankings and qualified leads.',
-                    'items'    => [
-                        ['step' => '1', 'title' => 'SEO Website Audit', 'desc' => 'We analyse your website to identify technical issues, content gaps, and ranking opportunities.'],
-                        ['step' => '2', 'title' => 'Keyword & Competitor Research', 'desc' => 'Our specialists research valuable keywords and analyse competitors to build an effective SEO strategy.'],
-                        ['step' => '3', 'title' => 'Technical Website Optimisation', 'desc' => 'We improve website structure, page speed, indexing, mobile responsiveness, and internal linking.'],
-                        ['step' => '4', 'title' => 'Content Optimisation', 'desc' => 'We enhance existing content and develop new SEO-focused pages that target relevant search queries.'],
-                        ['step' => '5', 'title' => 'Authority Building', 'desc' => 'We improve your website\'s credibility through ethical link-building and digital authority strategies.'],
-                        ['step' => '6', 'title' => 'Ongoing SEO Management', 'desc' => 'We monitor rankings, traffic, and conversions while continually refining your campaign.']
-                    ]
-                ],
-                'deliverables' => [
-                    'title'     => 'Complete SEO Services',
-                    'subtitle'  => 'Comprehensive search strategies tailored to your market and growth goals.',
-                    'list_title'=> 'Free SEO Audit',
-                    'list_desc' => 'Get a complete analysis and roadmap for your Cambridge business.',
-                    'list_note' => 'Includes: Complete website analysis, technical SEO review, keyword opportunity research, competitor analysis, local SEO assessment, personalised SEO recommendations',
-                    'items'     => [
-                        'SEO Strategy Development',
-                        'Technical SEO',
-                        'Local SEO',
-                        'National SEO',
-                        'eCommerce SEO',
-                        'On-Page SEO',
-                        'Content Optimisation',
-                        'Keyword Research',
-                        'Link Building',
-                        'Google Business Profile Optimisation',
-                        'SEO Analytics & Reporting',
-                        'Ongoing SEO Management'
-                    ]
-                ],
-                'additional_benefits' => [
-                    'title'   => 'Benefits of Our SEO Services',
-                    'subtitle'=> 'Drive real business impact through data-backed organic search strategies.',
-                    'items'   => [
-                        'Improve Google rankings',
-                        'Increase organic website traffic',
-                        'Generate high-quality enquiries',
-                        'Strengthen online authority',
-                        'Improve local search visibility',
-                        'Enhance website performance',
-                        'Increase customer confidence',
-                        'Achieve sustainable business growth'
-                    ]
-                ],
-                'related_links' => [
-                    'title'   => 'Related SEO Services',
-                    'subtitle'=> 'Explore complementary services to accelerate your online growth.',
-                   'items' => [
-                        ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
-                        ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
-                        ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
-                        ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
-                        ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
-                        ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
-                    ]
-                ],
-                'about' => [
-                    'main_title' => 'What Are SEO Services?',
-                    'paragraphs' => [
-                        'SEO Services improve your website\'s visibility in search engines through technical optimisation, keyword research, content enhancement, and authority building. A successful SEO campaign helps attract relevant visitors, improve user experience, and generate consistent organic enquiries for your business.'
+                    'showcase' => [
+                        'is_visible' => true,
+                        'title'      => 'Industries We Help',
+                        'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors in Cambridge.',
+                    'items' => [
+                            ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Technology & Software', 'title' => 'Technology & Software', 'desc' => 'Support technology companies and SaaS businesses with SEO strategies that generate qualified leads.'],
+                            ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'eCommerce Businesses', 'title' => 'eCommerce Businesses', 'desc' => 'Increase product visibility, improve category rankings, and grow online sales.'],
+                            ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Help solicitors, accountants, consultants, and financial firms attract more potential clients.'],
+                            ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Education & Research', 'title' => 'Education & Research', 'desc' => 'Improve online visibility for schools, colleges, universities, and research organisations.'],
+                            ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Healthcare Providers', 'title' => 'Healthcare Providers', 'desc' => 'Generate more enquiries for private clinics, dentists, medical practices, and healthcare specialists.'],
+                            ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Local Service Businesses', 'title' => 'Local Service Businesses', 'desc' => 'Help trades, property companies, and local businesses reach customers searching for their services.']
+                        ]
                     ],
-                    'side_title' => 'Who Needs SEO Services Cambridge?',
-                    'side_intro' => 'Our SEO solutions are ideal for:',
-                    'side_bullets' => [
-                        'Technology companies',
-                        'Start-ups and SMEs',
-                        'eCommerce retailers',
-                        'Professional service firms',
-                        'Healthcare providers',
-                        'Educational organisations',
-                        'Local businesses',
-                        'National brands'
+                    'features' => [
+                        'title'    => 'Why Choose Our SEO Services Cambridge?',
+                        'subtitle' => 'Partner with expert SEO specialists focused on delivering sustainable organic growth.',
+                        'items'    => [
+                            ['icon' => 'sliders', 'title' => 'Tailored SEO Strategies', 'desc' => 'Every campaign is customised to match your business objectives, target audience, and market competition.'],
+                            ['icon' => 'settings', 'title' => 'Technical SEO Specialists', 'desc' => 'We optimise website speed, Core Web Vitals, indexing, mobile usability, and search engine performance.'],
+                            ['icon' => 'map-pin', 'title' => 'Local & National SEO', 'desc' => 'Our strategies improve visibility in both local search results and competitive national markets.'],
+                            ['icon' => 'file-text', 'title' => 'High-Quality SEO Content', 'desc' => 'We create and optimise engaging content that improves rankings while delivering value to your audience.'],
+                            ['icon' => 'trending-up', 'title' => 'Continuous Campaign Optimisation', 'desc' => 'We monitor SEO performance regularly and refine your strategy to maximise long-term results.']
+                        ]
                     ],
-                    'side_note' => ''
+                    'process' => [
+                        'title'    => 'Our SEO Process',
+                        'subtitle' => 'A proven, data-driven approach engineered to achieve higher rankings and qualified leads.',
+                        'items'    => [
+                            ['step' => '1', 'title' => 'SEO Website Audit', 'desc' => 'We analyse your website to identify technical issues, content gaps, and ranking opportunities.'],
+                            ['step' => '2', 'title' => 'Keyword & Competitor Research', 'desc' => 'Our specialists research valuable keywords and analyse competitors to build an effective SEO strategy.'],
+                            ['step' => '3', 'title' => 'Technical Website Optimisation', 'desc' => 'We improve website structure, page speed, indexing, mobile responsiveness, and internal linking.'],
+                            ['step' => '4', 'title' => 'Content Optimisation', 'desc' => 'We enhance existing content and develop new SEO-focused pages that target relevant search queries.'],
+                            ['step' => '5', 'title' => 'Authority Building', 'desc' => 'We improve your website\'s credibility through ethical link-building and digital authority strategies.'],
+                            ['step' => '6', 'title' => 'Ongoing SEO Management', 'desc' => 'We monitor rankings, traffic, and conversions while continually refining your campaign.']
+                        ]
+                    ],
+                    'deliverables' => [
+                        'title'     => 'Complete SEO Services',
+                        'subtitle'  => 'Comprehensive search strategies tailored to your market and growth goals.',
+                        'list_title'=> 'Free SEO Audit',
+                        'list_desc' => 'Get a complete analysis and roadmap for your Cambridge business.',
+                        'list_note' => 'Includes: Complete website analysis, technical SEO review, keyword opportunity research, competitor analysis, local SEO assessment, personalised SEO recommendations',
+                        'items'     => [
+                            'SEO Strategy Development',
+                            'Technical SEO',
+                            'Local SEO',
+                            'National SEO',
+                            'eCommerce SEO',
+                            'On-Page SEO',
+                            'Content Optimisation',
+                            'Keyword Research',
+                            'Link Building',
+                            'Google Business Profile Optimisation',
+                            'SEO Analytics & Reporting',
+                            'Ongoing SEO Management'
+                        ]
+                    ],
+                    'additional_benefits' => [
+                        'title'   => 'Benefits of Our SEO Services',
+                        'subtitle'=> 'Drive real business impact through data-backed organic search strategies.',
+                        'items'   => [
+                            'Improve Google rankings',
+                            'Increase organic website traffic',
+                            'Generate high-quality enquiries',
+                            'Strengthen online authority',
+                            'Improve local search visibility',
+                            'Enhance website performance',
+                            'Increase customer confidence',
+                            'Achieve sustainable business growth'
+                        ]
+                    ],
+                    'related_links' => [
+                        'title'   => 'Related SEO Services',
+                        'subtitle'=> 'Explore complementary services to accelerate your online growth.',
+                    'items' => [
+                            ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                            ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                            ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
+                            ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                            ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
+                            ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
+                        ]
+                    ],
+                    'about' => [
+                        'main_title' => 'What Are SEO Services?',
+                        'paragraphs' => [
+                            'SEO Services improve your website\'s visibility in search engines through technical optimisation, keyword research, content enhancement, and authority building. A successful SEO campaign helps attract relevant visitors, improve user experience, and generate consistent organic enquiries for your business.'
+                        ],
+                        'side_title' => 'Who Needs SEO Services Cambridge?',
+                        'side_intro' => 'Our SEO solutions are ideal for:',
+                        'side_bullets' => [
+                            'Technology companies',
+                            'Start-ups and SMEs',
+                            'eCommerce retailers',
+                            'Professional service firms',
+                            'Healthcare providers',
+                            'Educational organisations',
+                            'Local businesses',
+                            'National brands'
+                        ],
+                        'side_note' => ''
+                    ],
+                    'growth' => [
+                        'title' => 'Why Invest in SEO Services?',
+                        'paragraphs' => [
+                            'Search engine optimisation is one of the most effective digital marketing strategies for long-term success. By improving your website\'s rankings, SEO increases visibility, attracts potential customers at the right time, and delivers sustainable business growth without relying entirely on paid advertising.'
+                        ]
+                    ],
+                    'cta' => [
+                        'title'         => 'Ready to Improve Your Search Rankings?',
+                        'subtitle'      => 'Choose our professional SEO Services Cambridge to build a customised SEO strategy that increases your online visibility, attracts more customers, and supports long-term business success.',
+                        'primary_btn'   => 'Book Your Free SEO Consultation Today',
+                        'secondary_btn' => 'Custom SEO Strategy'
+                    ],
+                    'form' => [
+                        'title'   => 'Talk to Our SEO Experts',
+                        'subtitle'=> 'Our experienced SEO specialists will assess your business goals and create a tailored strategy designed to improve rankings, grow organic traffic, and deliver measurable results.',
+                        'key'     => 'seo_services_cambridge_enquiry',
+                        'fields'  => [
+                            'name_label'       => 'Full Name',
+                            'name_placeholder' => 'Enter your name',
+                            'email_label'      => 'Email Address',
+                            'email_placeholder'=> 'name@company.com',
+                            'url_label'        => 'Website URL',
+                            'url_placeholder'  => 'https://',
+                            'focus_label'      => 'Business Goals',
+                            'focus_placeholder'=> 'Organic growth, lead generation, technical optimization, etc.',
+                            'msg_label'        => 'How can we help?',
+                            'msg_placeholder'  => 'Tell us about your business objectives and current search performance.'
+                        ]
+                    ],
+                    'faq' => [
+                        'is_visible' => true,
+                        'title'      => 'SEO Services Cambridge FAQs',
+                        'items'      => [
+                            ['q' => '1. Why choose your SEO Services Cambridge?', 'a' => 'We provide customised SEO strategies that improve rankings, increase targeted traffic, and generate qualified business enquiries.'],
+                            ['q' => '2. Which industries do you work with?', 'a' => 'We support technology companies, healthcare providers, educational organisations, eCommerce businesses, professional services, and local businesses across a wide range of sectors.'],
+                            ['q' => '3. How long does SEO take to produce results?', 'a' => 'Most businesses begin seeing measurable improvements within three to six months, depending on competition, website quality, and industry.'],
+                            ['q' => '4. Do you provide Local SEO?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve local search visibility and Google Maps rankings.'],
+                            ['q' => '5. Can you optimise an existing website?', 'a' => 'Absolutely. We improve your website\'s technical SEO, content, page performance, and overall user experience to achieve stronger search rankings.'],
+                            ['q' => '6. How do you measure SEO performance?', 'a' => 'We measure campaign success through keyword rankings, organic traffic, lead generation, conversions, and overall business growth.']
+                        ]
+                    ],
+                    'schema' => '<script type="application/ld+json">  
+                                    {  
+                                    "@context":"https://schema.org",  
+                                    "@graph":[  
+                                    {  
+                                    "@type":"Service",  
+                                    "@id":"https://www.cloudtechnologiesltd.co.uk/seo-services-cambridge/#service",  
+                                    "name":"SEO Services Cambridge",  
+                                    "alternateName":[  
+                                    "SEO Company Cambridge",  
+                                    "SEO Agency Cambridge",  
+                                    "Cambridge SEO Services",  
+                                    "Local SEO Cambridge",  
+                                    "Technical SEO Cambridge"  
+                                    ],  
+                                    "url":"https://www.cloudtechnologiesltd.co.uk/seo-services-cambridge/",  
+                                    "description":"Cloud Technologies Ltd provides professional SEO Services in Cambridge   
+                                    to help businesses improve Google rankings, increase organic traffic, generate qualified   
+                                    leads and achieve sustainable business growth through ethical, data-driven SEO   
+                                    strategies.",  
+                                    "serviceType":"Search Engine Optimization",  
+                                    "category":"Digital Marketing",  
+                                    "provider":{
+                                    "@type":"Organization",  
+                                    "@id":"https://www.cloudtechnologiesltd.co.uk/#organization",  
+                                    "name":"Cloud Technologies Ltd",  
+                                    "url":"https://www.cloudtechnologiesltd.co.uk/",  
+                                    "email":"contact@cloudtechnologiesltd.co.uk",  
+                                    "telephone":"+44 7427547394"  
+                                    },  
+                                    "areaServed":[  
+                                    {  
+                                    "@type":"City",  
+                                    "name":"Cambridge"  
+                                    },  
+                                    {  
+                                    "@type":"AdministrativeArea",  
+                                    "name":"Cambridgeshire"  
+                                    },  
+                                    {  
+                                    "@type":"Country",  
+                                    "name":"United Kingdom"  
+                                    }  
+                                    ],  
+                                    "audience":{  
+                                    "@type":"BusinessAudience",  
+                                    "audienceType":"Small Businesses, Medium Businesses, Enterprises"  
+                                    },  
+                                    "keywords":[  
+                                    "SEO Services Cambridge",  
+                                    "SEO Company Cambridge",  
+                                    "SEO Agency Cambridge",  
+                                    "Cambridge SEO",  
+                                    "Local SEO Cambridge",  
+                                    "Technical SEO Cambridge",  
+                                    "SEO Consultant Cambridge",  
+                                    "Ecommerce SEO Cambridge",  
+                                    "Google Business Profile Optimisation Cambridge",  
+                                    "Digital Marketing Cambridge"  
+                                    ],
+                                    "offers":{  
+                                    "@type":"Offer",  
+                                    "name":"SEO Services Cambridge",  
+                                    "url":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                    "availability":"https://schema.org/InStock",  
+                                    "priceCurrency":"GBP"  
+                                    },  
+                                    "availableChannel":{  
+                                    "@type":"ServiceChannel",  
+                                    "serviceUrl":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                    "servicePhone":{  
+                                    "@type":"ContactPoint",  
+                                    "telephone":"+44 7427547394",  
+                                    "contactType":"Sales",  
+                                    "email":"contact@cloudtechnologiesltd.co.uk",  
+                                    "availableLanguage":"English"  
+                                    }  
+                                    },  
+                                    "hoursAvailable":{  
+                                    "@type":"OpeningHoursSpecification",  
+                                    "dayOfWeek":[  
+                                    "Monday",  
+                                    "Tuesday",  
+                                    "Wednesday",  
+                                    "Thursday",  
+                                    "Friday"  
+                                    ],  
+                                    "opens":"09:00",  
+                                    "closes":"18:00"  
+                                    },  
+                                    "hasOfferCatalog":{  
+                                    "@type":"OfferCatalog",  
+                                    "name":"SEO Services Cambridge",  
+                                    "itemListElement":[  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{
+                                    "@type":"Service",  
+                                    "name":"Local SEO"  
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"Technical SEO"  
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"On-Page SEO"  
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"Off-Page SEO"  
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"Content SEO"  
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"Ecommerce SEO"
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"National SEO"  
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"International SEO"  
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"Google Business Profile Optimisation"  
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"SEO Audit"  
+                                    }  
+                                    },  
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"Keyword Research"  
+                                    }  
+                                    },
+                                    {  
+                                    "@type":"Offer",  
+                                    "itemOffered":{  
+                                    "@type":"Service",  
+                                    "name":"Link Building"  
+                                    }  
+                                    }  
+                                    ]  
+                                    },  
+                                    "potentialAction":[  
+                                    {  
+                                    "@type":"ContactAction",  
+                                    "name":"Request Free SEO Consultation",  
+                                    "target":"https://www.cloudtechnologiesltd.co.uk/contact-us"  
+                                    },  
+                                    {  
+                                    "@type":"CommunicateAction",  
+                                    "name":"WhatsApp Consultation",  
+                                    
+                                    "target":"https://api.whatsapp.com/send/?phone=7427547394&text&type=phone_number  
+                                    &app_absent=0"  
+                                    }  
+                                    ]  
+                                    },  
+                                    {  
+                                    "@type":"WebPage",  
+                                    "@id":"https://www.cloudtechnologiesltd.co.uk/seo-services-cambridge/#webpage",  
+                                    "url":"https://www.cloudtechnologiesltd.co.uk/seo-services-cambridge/",  
+                                    "name":"SEO Services Cambridge",  
+                                    "description":"Professional SEO Services in Cambridge helping businesses improve   
+                                    rankings, increase organic traffic and generate qualified enquiries through Local SEO,   
+                                    Technical SEO and content marketing.",  
+                                    "about":{  
+                                    "@id":"https://www.cloudtechnologiesltd.co.uk/seo-services-cambridge/#service"  
+                                    },  
+                                    "primaryImageOfPage":{  
+                                    "@type":"ImageObject",
+                                    "url":"https://www.cloudtechnologiesltd.co.uk/logo.png"  
+                                    },  
+                                    "inLanguage":"en-GB"  
+                                    },  
+                                    {  
+                                    "@type":"BreadcrumbList",  
+                                    "@id":"https://www.cloudtechnologiesltd.co.uk/seo-services-cambridge/#breadcrumb",  
+                                    "itemListElement":[  
+                                    {  
+                                    "@type":"ListItem",  
+                                    "position":1,  
+                                    "name":"Home",  
+                                    "item":"https://www.cloudtechnologiesltd.co.uk/"  
+                                    },  
+                                    {  
+                                    "@type":"ListItem",  
+                                    "position":2,  
+                                    "name":"SEO Services",  
+                                    "item":"https://www.cloudtechnologiesltd.co.uk/seo-service-uk/"  
+                                    },  
+                                    {  
+                                    "@type":"ListItem",  
+                                    "position":3,  
+                                    "name":"SEO Services Cambridge",  
+                                    "item":"https://www.cloudtechnologiesltd.co.uk/seo-services-cambridge/"  
+                                    }  
+                                    ]  
+                                    }  
+                                    ]  
+                                    }  
+                                    </script>'
+                   
                 ],
-                'growth' => [
-                    'title' => 'Why Invest in SEO Services?',
-                    'paragraphs' => [
-                        'Search engine optimisation is one of the most effective digital marketing strategies for long-term success. By improving your website\'s rankings, SEO increases visibility, attracts potential customers at the right time, and delivers sustainable business growth without relying entirely on paid advertising.'
-                    ]
-                ],
-                'cta' => [
-                    'title'         => 'Ready to Improve Your Search Rankings?',
-                    'subtitle'      => 'Choose our professional SEO Services Cambridge to build a customised SEO strategy that increases your online visibility, attracts more customers, and supports long-term business success.',
-                    'primary_btn'   => 'Book Your Free SEO Consultation Today',
-                    'secondary_btn' => 'Custom SEO Strategy'
-                ],
-                'form' => [
-                    'title'   => 'Talk to Our SEO Experts',
-                    'subtitle'=> 'Our experienced SEO specialists will assess your business goals and create a tailored strategy designed to improve rankings, grow organic traffic, and deliver measurable results.',
-                    'key'     => 'seo_services_cambridge_enquiry',
-                    'fields'  => [
-                        'name_label'       => 'Full Name',
-                        'name_placeholder' => 'Enter your name',
-                        'email_label'      => 'Email Address',
-                        'email_placeholder'=> 'name@company.com',
-                        'url_label'        => 'Website URL',
-                        'url_placeholder'  => 'https://',
-                        'focus_label'      => 'Business Goals',
-                        'focus_placeholder'=> 'Organic growth, lead generation, technical optimization, etc.',
-                        'msg_label'        => 'How can we help?',
-                        'msg_placeholder'  => 'Tell us about your business objectives and current search performance.'
-                    ]
-                ],
-                'faq' => [
-                    'is_visible' => true,
-                    'title'      => 'SEO Services Cambridge FAQs',
-                    'items'      => [
-                        ['q' => '1. Why choose your SEO Services Cambridge?', 'a' => 'We provide customised SEO strategies that improve rankings, increase targeted traffic, and generate qualified business enquiries.'],
-                        ['q' => '2. Which industries do you work with?', 'a' => 'We support technology companies, healthcare providers, educational organisations, eCommerce businesses, professional services, and local businesses across a wide range of sectors.'],
-                        ['q' => '3. How long does SEO take to produce results?', 'a' => 'Most businesses begin seeing measurable improvements within three to six months, depending on competition, website quality, and industry.'],
-                        ['q' => '4. Do you provide Local SEO?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve local search visibility and Google Maps rankings.'],
-                        ['q' => '5. Can you optimise an existing website?', 'a' => 'Absolutely. We improve your website\'s technical SEO, content, page performance, and overall user experience to achieve stronger search rankings.'],
-                        ['q' => '6. How do you measure SEO performance?', 'a' => 'We measure campaign success through keyword rankings, organic traffic, lead generation, conversions, and overall business growth.']
-                    ]
-                ]
-            ],
                    
         ],
         'seo-agency' => [
-             'reading' => [
-                                        'meta' => [
-                                            'title'             => 'SEO Agency Reading | Trusted SEO Experts for Business Growth',
-                                            'meta_title'        => 'SEO Agency Reading | Trusted SEO Experts for Business Growth',
-                                            'meta_description'  => 'Looking for an SEO agency in Reading? We help businesses improve Google rankings with Local SEO, Technical SEO, Ecommerce SEO and proven SEO strategies.',
-                                            'meta_keywords'     => 'seo agency reading, reading seo experts, local seo reading, ecommerce seo reading'
-                                        ],
-                                        'hero' => [
-                                            'eyebrow'           => 'SEO Agency Reading',
-                                            'title'             => 'Professional SEO Agency Reading for Long-Term <br>Business Growth',
-                                            'subtitle'          => 'Build a stronger online presence with our trusted SEO Agency Reading. We help businesses improve their search engine rankings, attract highly targeted visitors, and convert more website traffic into genuine enquiries.',
-                                            'audit_type'        => 'seo-agency-reading-audit',
-                                            'primary_btn_text'  => 'Free SEO Audit',
-                                            'secondary_btn_text'=> 'Custom SEO Strategy',
-                                            'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
-                                            'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
-                                            'stats' => [
-                                                ['value' => '500+', 'label' => 'SEO Campaigns Managed'],
-                                                ['value' => '100%', 'label' => 'Ethical SEO Practices'],
-                                                ['value' => 'Monthly', 'label' => 'Performance Reports']
-                                            ]
-                                        ],
-                                        'showcase' => [
-                                            'is_visible' => true,
-                                            'title'      => 'Industries We Help',
-                                            'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors.',
-                                           'items' => [
-                                                        ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Technology Companies', 'title' => 'Technology Companies', 'desc' => 'Increase online visibility and generate qualified leads for software, IT, and technology businesses.'],
-                                                        ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'Retail & eCommerce', 'title' => 'Retail & eCommerce', 'desc' => 'Improve product rankings and drive more online sales through tailored eCommerce SEO.'],
-                                                        ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Help accountants, solicitors, consultants, and financial firms reach more potential clients.'],
-                                                        ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Healthcare Providers', 'title' => 'Healthcare Providers', 'desc' => 'Enhance search visibility for clinics, dentists, healthcare professionals, and private practices.'],
-                                                        ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Trades & Property Services', 'title' => 'Trades & Property Services', 'desc' => 'Generate consistent enquiries for builders, electricians, plumbers, estate agents, and property businesses.'],
-                                                        ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Education & Training', 'title' => 'Education & Training', 'desc' => 'Support schools, colleges, training providers, and educational organisations with effective SEO strategies.']
-                                                    ]
-                                        ],
-                                        'features' => [
-                                            'title'    => 'Why Choose Our SEO Agency Reading?',
-                                            'subtitle' => 'Partner with trusted SEO experts dedicated to driving long-term, scalable growth.',
-                                            'items'    => [
-                                                ['icon' => 'sliders', 'title' => 'Bespoke SEO Solutions', 'desc' => 'Every campaign is customised to suit your business objectives, target audience, and market competition.'],
-                                                ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'We improve website speed, Core Web Vitals, indexing, crawlability, and overall search engine performance.'],
-                                                ['icon' => 'map-pin', 'title' => 'Local Search Optimisation', 'desc' => 'Increase your visibility in Reading through targeted local SEO and Google Business Profile optimisation.'],
-                                                ['icon' => 'file-text', 'title' => 'Content That Delivers Results', 'desc' => 'Our SEO content is written to improve rankings, answer customer questions, and increase conversions.'],
-                                                ['icon' => 'bar-chart-2', 'title' => 'Transparent Campaign Management', 'desc' => 'Receive regular reports with clear insights into rankings, traffic growth, and campaign performance.']
-                                            ]
-                                        ],
-                                        'process' => [
-                                            'title'    => 'Our SEO Process',
-                                            'subtitle' => 'A structured framework designed to build search authority and maximize organic growth.',
-                                            'items'    => [
-                                                ['step' => '1', 'title' => 'SEO Discovery', 'desc' => 'We review your website, competitors, and current search performance to identify opportunities.'],
-                                                ['step' => '2', 'title' => 'Keyword & Market Research', 'desc' => 'We uncover valuable keywords and analyse search intent to create an effective SEO strategy.'],
-                                                ['step' => '3', 'title' => 'Technical Improvements', 'desc' => 'Our team optimises your website structure, mobile usability, page speed, and indexing.'],
-                                                ['step' => '4', 'title' => 'Content Optimisation', 'desc' => 'We enhance existing pages and develop fresh content that targets high-value search terms.'],
-                                                ['step' => '5', 'title' => 'Authority Building', 'desc' => 'We strengthen your website through ethical backlink acquisition and digital authority strategies.'],
-                                                ['step' => '6', 'title' => 'Ongoing Performance Optimisation', 'desc' => 'We continually analyse campaign performance and refine the strategy for maximum results.']
-                                            ]
-                                        ],
-                                        'deliverables' => [
-                                            'title'     => 'Complete SEO Services',
-                                            'subtitle'  => 'Comprehensive search engine strategies designed for maximum visibility.',
-                                            'list_title'=> 'Free SEO Audit',
-                                            'list_desc' => 'Receive a comprehensive audit and roadmap for your Reading business.',
-                                            'list_note' => 'Includes: Website performance review, technical SEO analysis, keyword opportunity assessment, competitor benchmarking, local SEO evaluation, actionable SEO recommendations',
-                                            'items'     => [
-                                                'SEO Strategy Development',
-                                                'Technical SEO',
-                                                'Local SEO',
-                                                'National SEO',
-                                                'eCommerce SEO',
-                                                'On-Page SEO',
-                                                'Content Marketing',
-                                                'Keyword Research',
-                                                'Link Building',
-                                                'Google Business Profile Optimisation',
-                                                'SEO Analytics & Reporting',
-                                                'Continuous SEO Management'
-                                            ]
-                                        ],
-                                        'additional_benefits' => [
-                                            'title'   => 'Benefits of Choosing Our SEO Agency',
-                                            'subtitle'=> 'Achieve sustainable business performance with our proven search strategies.',
-                                            'items'   => [
-                                                'Improve search engine rankings',
-                                                'Increase qualified website traffic',
-                                                'Generate more enquiries',
-                                                'Build stronger online authority',
-                                                'Improve local search visibility',
-                                                'Enhance website performance',
-                                                'Increase customer confidence',
-                                                'Achieve sustainable business growth'
-                                            ]
-                                        ],
-                                        'related_links' => [
-                                            'title'   => 'Related SEO Services',
-                                            'subtitle'=> 'Explore related search services to accelerate your digital growth.',
-                                            'items' => [
-                                                ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
-                                                ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
-                                                ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
-                                                ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
-                                                ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
-                                                ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
-                                            ]
-                                        ],
-                                        'about' => [
-                                            'main_title' => 'What Does an SEO Agency Do?',
-                                            'paragraphs' => [
-                                                'An SEO Agency helps businesses improve their online visibility by optimising website performance, creating high-quality content, targeting relevant keywords, and building website authority. The goal is to increase organic traffic, improve search rankings, and generate more business opportunities through Google and other search engines.'
-                                            ],
-                                            'side_title' => 'Who Needs an SEO Agency Reading?',
-                                            'side_intro' => 'Our SEO services are suitable for:',
-                                            'side_bullets' => [
-                                                'Small businesses',
-                                                'Growing companies',
-                                                'eCommerce retailers',
-                                                'Professional service firms',
-                                                'Healthcare providers',
-                                                'Property businesses',
-                                                'Local service companies',
-                                                'National organisations'
-                                            ],
-                                            'side_note' => ''
-                                        ],
-                                        'growth' => [
-                                            'title' => 'Why Choose Professional SEO?',
-                                            'paragraphs' => [
-                                                'Professional SEO helps businesses reach customers at the moment they are searching for products or services online. A well-managed SEO campaign increases brand visibility, delivers consistent website traffic, improves customer trust, and creates long-term business growth without relying solely on paid advertising.'
-                                            ]
-                                        ],
-                                        'cta' => [
-                                            'title'         => 'Ready to Grow Your Business?',
-                                            'subtitle'      => 'Partner with our experienced SEO Agency Reading and discover how a tailored SEO strategy can help your business achieve higher rankings, attract more customers, and increase revenue.',
-                                            'primary_btn'   => 'Book Your Free SEO Consultation Today',
-                                            'secondary_btn' => 'Grow Your Business Online'
-                                        ],
-                                        'form' => [
-                                            'title'   => 'Talk to Our SEO Experts',
-                                            'subtitle'=> 'Our SEO specialists are ready to discuss your business objectives and create a customised strategy that delivers measurable improvements in visibility, traffic, and lead generation.',
-                                            'key'     => 'seo_agency_reading_enquiry',
-                                            'fields'  => [
-                                                'name_label'       => 'Full Name',
-                                                'name_placeholder' => 'Enter your name',
-                                                'email_label'      => 'Email Address',
-                                                'email_placeholder'=> 'name@company.com',
-                                                'url_label'        => 'Website URL',
-                                                'url_placeholder'  => 'https://',
-                                                'focus_label'      => 'Business Goals',
-                                                'focus_placeholder'=> 'Local leads, ecommerce sales, brand growth, etc.',
-                                                'msg_label'        => 'How can we help?',
-                                                'msg_placeholder'  => 'Tell us about your business goals and current online presence.'
-                                            ]
-                                        ],
-                                        'faq' => [
-                                            'is_visible' => true,
-                                            'title'      => 'SEO Agency Reading FAQs',
-                                            'items'      => [
-                                                ['q' => '1. Why should I choose your SEO Agency Reading?', 'a' => 'We develop customised SEO strategies that improve rankings, increase organic traffic, and generate qualified business enquiries.'],
-                                                ['q' => '2. Which industries do you work with?', 'a' => 'We work with technology companies, retailers, healthcare providers, professional services, property businesses, educational organisations, and many other sectors.'],
-                                                ['q' => '3. How soon will I see SEO results?', 'a' => 'Many businesses begin seeing measurable improvements within three to six months, depending on their industry, competition, and website performance.'],
-                                                ['q' => '4. Do you provide Local SEO?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve visibility in local search results and Google Maps.'],
-                                                ['q' => '5. Can you optimise an existing website?', 'a' => 'Yes. We improve website structure, technical SEO, content quality, and user experience to maximise search performance.'],
-                                                ['q' => '6. How do you measure SEO success?', 'a' => 'Success is measured through keyword rankings, organic traffic, website enquiries, conversions, and overall business growth.']
-                                            ]
-                                        ]
-                                    ],
-                                    'harrow' => [
-    'meta' => [
-        'title'             => 'SEO Agency Harrow | Trusted SEO Experts for Growth',
-        'meta_title'        => 'SEO Agency Harrow | Trusted SEO Experts for Growth',
-        'meta_description'  => 'Partner with our SEO agency in Harrow to improve Google rankings, increase organic traffic and generate more leads through expert SEO strategies.',
-        'meta_keywords'     => 'seo agency harrow, harrow seo experts, local seo harrow, ecommerce seo harrow'
-    ],
-    'hero' => [
-        'eyebrow'           => 'SEO Agency Harrow',
-        'title'             => 'Trusted SEO Agency Harrow for Sustainable Business <br>Growth',
-        'subtitle'          => 'Strengthen your online presence with our professional SEO Agency Harrow. We help businesses improve their Google rankings, attract targeted website visitors, and convert more searches into valuable enquiries. Our customised SEO strategies are designed to increase visibility, enhance user experience, and deliver long-term growth for businesses across Harrow.',
-        'audit_type'        => 'seo-agency-harrow-audit',
-        'primary_btn_text'  => 'Free SEO Audit',
-        'secondary_btn_text'=> 'Increase Organic Traffic',
-        'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
-        'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
-        'stats' => [
-            ['value' => '500+', 'label' => 'SEO Campaigns Delivered'],
-            ['value' => 'Proven', 'label' => 'SEO Methods'],
-            ['value' => 'Monthly', 'label' => 'Transparent Reporting']
-        ]
-    ],
-    'showcase' => [
-        'is_visible' => true,
-        'title'      => 'Industries We Help',
-        'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors in Harrow.',
-        'items' => [
-                ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Local Businesses', 'title' => 'Local Businesses', 'desc' => 'Increase your visibility in local search results and attract customers searching for nearby services.'],
-                ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'eCommerce Stores', 'title' => 'eCommerce Stores', 'desc' => 'Boost online sales by improving product, category, and shopping search rankings.'],
-                ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Generate more enquiries for solicitors, accountants, consultants, and financial advisers.'],
-                ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Home Improvement & Trades', 'title' => 'Home Improvement & Trades', 'desc' => 'Help plumbers, electricians, roofers, builders, and contractors reach more local customers.'],
-                ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Healthcare Providers', 'title' => 'Healthcare Providers', 'desc' => 'Improve online visibility for dental clinics, medical practices, physiotherapists, and healthcare professionals.'],
-                ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Hospitality & Retail', 'title' => 'Hospitality & Retail', 'desc' => 'Increase bookings, footfall, and enquiries for restaurants, cafés, hotels, and retail businesses.']
-            ]
-    ],
-    'features' => [
-        'title'    => 'Why Choose Our SEO Agency Harrow?',
-        'subtitle' => 'Partner with dedicated SEO specialists focused on delivering measurable, long-term business growth.',
-        'items'    => [
-            ['icon' => 'sliders', 'title' => 'Tailored SEO Campaigns', 'desc' => 'Every SEO strategy is designed around your business goals, audience, and local competition.'],
-            ['icon' => 'settings', 'title' => 'Technical SEO Expertise', 'desc' => 'We improve website speed, indexing, Core Web Vitals, mobile performance, and overall website health.'],
-            ['icon' => 'map-pin', 'title' => 'Local SEO Specialists', 'desc' => 'Our local SEO strategies help your business rank higher in Google Search and Google Maps.'],
-            ['icon' => 'file-text', 'title' => 'Content That Drives Results', 'desc' => 'We optimise existing content and create valuable new pages that improve rankings and engage your audience.'],
-            ['icon' => 'trending-up', 'title' => 'Ongoing Performance Optimisation', 'desc' => 'Your SEO campaign is regularly monitored and refined to achieve continuous improvements.']
-        ]
-    ],
-    'process' => [
-        'title'    => 'Our SEO Process',
-        'subtitle' => 'A proven framework engineered to increase search performance and organic revenue.',
-        'items'    => [
-            ['step' => '1', 'title' => 'Website Analysis', 'desc' => 'We assess your website\'s performance, identify technical issues, and discover SEO opportunities.'],
-            ['step' => '2', 'title' => 'Keyword Strategy', 'desc' => 'Our specialists research relevant search terms that your ideal customers are actively using.'],
-            ['step' => '3', 'title' => 'Technical Optimisation', 'desc' => 'We improve website architecture, page speed, indexing, mobile usability, and structured data.'],
-            ['step' => '4', 'title' => 'Content Enhancement', 'desc' => 'We optimise website content and develop new SEO-focused pages to increase organic visibility.'],
-            ['step' => '5', 'title' => 'Authority Development', 'desc' => 'We strengthen your online reputation through ethical backlink building and digital authority strategies.'],
-            ['step' => '6', 'title' => 'Continuous SEO Growth', 'desc' => 'We analyse campaign data, monitor keyword performance, and optimise your strategy for long-term success.']
-        ]
-    ],
-    'deliverables' => [
-        'title'     => 'Complete SEO Services',
-        'subtitle'  => 'Comprehensive search strategies tailored to your market and audience.',
-        'list_title'=> 'Free SEO Audit',
-        'list_desc' => 'Get a comprehensive audit and roadmap for your Harrow business.',
-        'list_note' => 'Includes: Complete website SEO review, technical performance analysis, keyword opportunity research, competitor evaluation, local SEO assessment, personalised SEO recommendations',
-        'items'     => [
-            'SEO Strategy & Planning',
-            'Technical SEO',
-            'Local SEO',
-            'National SEO',
-            'eCommerce SEO',
-            'On-Page SEO',
-            'Content Optimisation',
-            'Keyword Research',
-            'Link Building',
-            'Google Business Profile Optimisation',
-            'SEO Performance Reporting',
-            'Ongoing SEO Management'
-        ]
-    ],
-    'additional_benefits' => [
-        'title'   => 'Benefits of Choosing Our SEO Agency',
-        'subtitle'=> 'Drive meaningful, long-term impact through search visibility.',
-        'items'   => [
-            'Improve Google rankings',
-            'Increase organic website traffic',
-            'Generate more qualified enquiries',
-            'Build stronger online authority',
-            'Improve local search visibility',
-            'Enhance website performance',
-            'Increase customer trust',
-            'Achieve sustainable business growth'
-        ]
-    ],
-    'related_links' => [
-        'title'   => 'Related SEO Services',
-        'subtitle'=> 'Explore complementary search services to enhance your digital presence.',
-        'items' => [
-            ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
-            ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
-            ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
-            ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
-            ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
-            ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
-        ]
-    ],
-    'about' => [
-        'main_title' => 'What Does an SEO Agency Do?',
-        'paragraphs' => [
-            'An SEO Agency improves your website\'s visibility by optimising technical performance, creating valuable content, targeting relevant keywords, and building online authority. These strategies help your website attract qualified visitors, improve rankings, and generate more business opportunities through organic search.'
-        ],
-        'side_title' => 'Who Needs an SEO Agency Harrow?',
-        'side_intro' => 'Our SEO services are ideal for:',
-        'side_bullets' => [
-            'Small businesses',
-            'Local service providers',
-            'eCommerce retailers',
-            'Professional service firms',
-            'Healthcare organisations',
-            'Property companies',
-            'Construction businesses',
-            'Growing national brands'
-        ],
-        'side_note' => ''
-    ],
-    'growth' => [
-        'title' => 'Why Invest in SEO?',
-        'paragraphs' => [
-            'SEO is one of the most effective long-term marketing strategies for businesses looking to attract customers online. By improving your search engine visibility, SEO generates consistent traffic, increases brand credibility, and helps convert website visitors into loyal customers.'
-        ]
-    ],
-    'cta' => [
-        'title'         => 'Ready to Grow Your Business Online?',
-        'subtitle'      => 'Work with our experienced SEO Agency Harrow to build a customised SEO strategy that improves search rankings, increases targeted traffic, and delivers measurable business growth.',
-        'primary_btn'   => 'Book Your Free SEO Consultation Today',
-        'secondary_btn' => 'Tailored SEO Strategy'
-    ],
-    'form' => [
-        'title'   => 'Talk to Our SEO Experts',
-        'subtitle'=> 'Our SEO specialists are ready to understand your business goals and create a tailored strategy that helps you achieve long-term success through higher rankings, increased visibility, and better-quality leads.',
-        'key'     => 'seo_agency_harrow_enquiry',
-        'fields'  => [
-            'name_label'       => 'Full Name',
-            'name_placeholder' => 'Enter your name',
-            'email_label'      => 'Email Address',
-            'email_placeholder'=> 'name@company.com',
-            'url_label'        => 'Website URL',
-            'url_placeholder'  => 'https://',
-            'focus_label'      => 'Business Goals',
-            'focus_placeholder'=> 'Local traffic, lead generation, higher rankings, etc.',
-            'msg_label'        => 'How can we help?',
-            'msg_placeholder'  => 'Tell us about your business goals and current SEO performance.'
-        ]
-    ],
-    'faq' => [
-        'is_visible' => true,
-        'title'      => 'SEO Agency Harrow FAQs',
-        'items'      => [
-            ['q' => '1. Why choose your SEO Agency Harrow?', 'a' => 'We create bespoke SEO campaigns tailored to your business objectives, helping you improve rankings, increase organic traffic, and generate more enquiries.'],
-            ['q' => '2. What types of businesses do you work with?', 'a' => 'We work with local businesses, eCommerce stores, professional service providers, healthcare companies, construction firms, hospitality businesses, and many other industries.'],
-            ['q' => '3. How long does SEO take to show results?', 'a' => 'Most SEO campaigns begin delivering measurable improvements within three to six months, depending on your industry, website, and competition.'],
-            ['q' => '4. Do you provide Local SEO services?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve local search rankings and increase visibility on Google Maps.'],
-            ['q' => '5. Can you optimise my existing website?', 'a' => 'Yes. We improve your website\'s technical SEO, content quality, page performance, and overall user experience to achieve better search rankings.'],
-            ['q' => '6. How do you measure SEO success?', 'a' => 'We track keyword rankings, organic traffic, lead generation, conversions, and overall business growth to measure the success of every SEO campaign.']
-        ]
-    ]
-],
-
-
-        ],
+                'reading' => [
+                                                        'meta' => [
+                                                            'title'             => 'SEO Agency Reading | Trusted SEO Experts for Business Growth',
+                                                            'meta_title'        => 'SEO Agency Reading | Trusted SEO Experts for Business Growth',
+                                                            'meta_description'  => 'Looking for an SEO agency in Reading? We help businesses improve Google rankings with Local SEO, Technical SEO, Ecommerce SEO and proven SEO strategies.',
+                                                            'meta_keywords'     => 'seo agency reading, reading seo experts, local seo reading, ecommerce seo reading'
+                                                        ],
+                                                        'hero' => [
+                                                            'eyebrow'           => 'SEO Agency Reading',
+                                                            'title'             => 'Professional SEO Agency Reading for Long-Term <br>Business Growth',
+                                                            'subtitle'          => 'Build a stronger online presence with our trusted SEO Agency Reading. We help businesses improve their search engine rankings, attract highly targeted visitors, and convert more website traffic into genuine enquiries.',
+                                                            'audit_type'        => 'seo-agency-reading-audit',
+                                                            'primary_btn_text'  => 'Free SEO Audit',
+                                                            'secondary_btn_text'=> 'Custom SEO Strategy',
+                                                            'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
+                                                            'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
+                                                            'stats' => [
+                                                                ['value' => '500+', 'label' => 'SEO Campaigns Managed'],
+                                                                ['value' => '100%', 'label' => 'Ethical SEO Practices'],
+                                                                ['value' => 'Monthly', 'label' => 'Performance Reports']
+                                                            ]
+                                                        ],
+                                                        'showcase' => [
+                                                            'is_visible' => true,
+                                                            'title'      => 'Industries We Help',
+                                                            'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors.',
+                                                        'items' => [
+                                                                        ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Technology Companies', 'title' => 'Technology Companies', 'desc' => 'Increase online visibility and generate qualified leads for software, IT, and technology businesses.'],
+                                                                        ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'Retail & eCommerce', 'title' => 'Retail & eCommerce', 'desc' => 'Improve product rankings and drive more online sales through tailored eCommerce SEO.'],
+                                                                        ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Help accountants, solicitors, consultants, and financial firms reach more potential clients.'],
+                                                                        ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Healthcare Providers', 'title' => 'Healthcare Providers', 'desc' => 'Enhance search visibility for clinics, dentists, healthcare professionals, and private practices.'],
+                                                                        ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Trades & Property Services', 'title' => 'Trades & Property Services', 'desc' => 'Generate consistent enquiries for builders, electricians, plumbers, estate agents, and property businesses.'],
+                                                                        ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Education & Training', 'title' => 'Education & Training', 'desc' => 'Support schools, colleges, training providers, and educational organisations with effective SEO strategies.']
+                                                                    ]
+                                                        ],
+                                                        'features' => [
+                                                            'title'    => 'Why Choose Our SEO Agency Reading?',
+                                                            'subtitle' => 'Partner with trusted SEO experts dedicated to driving long-term, scalable growth.',
+                                                            'items'    => [
+                                                                ['icon' => 'sliders', 'title' => 'Bespoke SEO Solutions', 'desc' => 'Every campaign is customised to suit your business objectives, target audience, and market competition.'],
+                                                                ['icon' => 'settings', 'title' => 'Advanced Technical SEO', 'desc' => 'We improve website speed, Core Web Vitals, indexing, crawlability, and overall search engine performance.'],
+                                                                ['icon' => 'map-pin', 'title' => 'Local Search Optimisation', 'desc' => 'Increase your visibility in Reading through targeted local SEO and Google Business Profile optimisation.'],
+                                                                ['icon' => 'file-text', 'title' => 'Content That Delivers Results', 'desc' => 'Our SEO content is written to improve rankings, answer customer questions, and increase conversions.'],
+                                                                ['icon' => 'bar-chart-2', 'title' => 'Transparent Campaign Management', 'desc' => 'Receive regular reports with clear insights into rankings, traffic growth, and campaign performance.']
+                                                            ]
+                                                        ],
+                                                        'process' => [
+                                                            'title'    => 'Our SEO Process',
+                                                            'subtitle' => 'A structured framework designed to build search authority and maximize organic growth.',
+                                                            'items'    => [
+                                                                ['step' => '1', 'title' => 'SEO Discovery', 'desc' => 'We review your website, competitors, and current search performance to identify opportunities.'],
+                                                                ['step' => '2', 'title' => 'Keyword & Market Research', 'desc' => 'We uncover valuable keywords and analyse search intent to create an effective SEO strategy.'],
+                                                                ['step' => '3', 'title' => 'Technical Improvements', 'desc' => 'Our team optimises your website structure, mobile usability, page speed, and indexing.'],
+                                                                ['step' => '4', 'title' => 'Content Optimisation', 'desc' => 'We enhance existing pages and develop fresh content that targets high-value search terms.'],
+                                                                ['step' => '5', 'title' => 'Authority Building', 'desc' => 'We strengthen your website through ethical backlink acquisition and digital authority strategies.'],
+                                                                ['step' => '6', 'title' => 'Ongoing Performance Optimisation', 'desc' => 'We continually analyse campaign performance and refine the strategy for maximum results.']
+                                                            ]
+                                                        ],
+                                                        'deliverables' => [
+                                                            'title'     => 'Complete SEO Services',
+                                                            'subtitle'  => 'Comprehensive search engine strategies designed for maximum visibility.',
+                                                            'list_title'=> 'Free SEO Audit',
+                                                            'list_desc' => 'Receive a comprehensive audit and roadmap for your Reading business.',
+                                                            'list_note' => 'Includes: Website performance review, technical SEO analysis, keyword opportunity assessment, competitor benchmarking, local SEO evaluation, actionable SEO recommendations',
+                                                            'items'     => [
+                                                                'SEO Strategy Development',
+                                                                'Technical SEO',
+                                                                'Local SEO',
+                                                                'National SEO',
+                                                                'eCommerce SEO',
+                                                                'On-Page SEO',
+                                                                'Content Marketing',
+                                                                'Keyword Research',
+                                                                'Link Building',
+                                                                'Google Business Profile Optimisation',
+                                                                'SEO Analytics & Reporting',
+                                                                'Continuous SEO Management'
+                                                            ]
+                                                        ],
+                                                        'additional_benefits' => [
+                                                            'title'   => 'Benefits of Choosing Our SEO Agency',
+                                                            'subtitle'=> 'Achieve sustainable business performance with our proven search strategies.',
+                                                            'items'   => [
+                                                                'Improve search engine rankings',
+                                                                'Increase qualified website traffic',
+                                                                'Generate more enquiries',
+                                                                'Build stronger online authority',
+                                                                'Improve local search visibility',
+                                                                'Enhance website performance',
+                                                                'Increase customer confidence',
+                                                                'Achieve sustainable business growth'
+                                                            ]
+                                                        ],
+                                                        'related_links' => [
+                                                            'title'   => 'Related SEO Services',
+                                                            'subtitle'=> 'Explore related search services to accelerate your digital growth.',
+                                                            'items' => [
+                                                                ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                                                                ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                                                                ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
+                                                                ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                                                                ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
+                                                                ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
+                                                            ]
+                                                        ],
+                                                        'about' => [
+                                                            'main_title' => 'What Does an SEO Agency Do?',
+                                                            'paragraphs' => [
+                                                                'An SEO Agency helps businesses improve their online visibility by optimising website performance, creating high-quality content, targeting relevant keywords, and building website authority. The goal is to increase organic traffic, improve search rankings, and generate more business opportunities through Google and other search engines.'
+                                                            ],
+                                                            'side_title' => 'Who Needs an SEO Agency Reading?',
+                                                            'side_intro' => 'Our SEO services are suitable for:',
+                                                            'side_bullets' => [
+                                                                'Small businesses',
+                                                                'Growing companies',
+                                                                'eCommerce retailers',
+                                                                'Professional service firms',
+                                                                'Healthcare providers',
+                                                                'Property businesses',
+                                                                'Local service companies',
+                                                                'National organisations'
+                                                            ],
+                                                            'side_note' => ''
+                                                        ],
+                                                        'growth' => [
+                                                            'title' => 'Why Choose Professional SEO?',
+                                                            'paragraphs' => [
+                                                                'Professional SEO helps businesses reach customers at the moment they are searching for products or services online. A well-managed SEO campaign increases brand visibility, delivers consistent website traffic, improves customer trust, and creates long-term business growth without relying solely on paid advertising.'
+                                                            ]
+                                                        ],
+                                                        'cta' => [
+                                                            'title'         => 'Ready to Grow Your Business?',
+                                                            'subtitle'      => 'Partner with our experienced SEO Agency Reading and discover how a tailored SEO strategy can help your business achieve higher rankings, attract more customers, and increase revenue.',
+                                                            'primary_btn'   => 'Book Your Free SEO Consultation Today',
+                                                            'secondary_btn' => 'Grow Your Business Online'
+                                                        ],
+                                                        'form' => [
+                                                            'title'   => 'Talk to Our SEO Experts',
+                                                            'subtitle'=> 'Our SEO specialists are ready to discuss your business objectives and create a customised strategy that delivers measurable improvements in visibility, traffic, and lead generation.',
+                                                            'key'     => 'seo_agency_reading_enquiry',
+                                                            'fields'  => [
+                                                                'name_label'       => 'Full Name',
+                                                                'name_placeholder' => 'Enter your name',
+                                                                'email_label'      => 'Email Address',
+                                                                'email_placeholder'=> 'name@company.com',
+                                                                'url_label'        => 'Website URL',
+                                                                'url_placeholder'  => 'https://',
+                                                                'focus_label'      => 'Business Goals',
+                                                                'focus_placeholder'=> 'Local leads, ecommerce sales, brand growth, etc.',
+                                                                'msg_label'        => 'How can we help?',
+                                                                'msg_placeholder'  => 'Tell us about your business goals and current online presence.'
+                                                            ]
+                                                        ],
+                                                        'faq' => [
+                                                            'is_visible' => true,
+                                                            'title'      => 'SEO Agency Reading FAQs',
+                                                            'items'      => [
+                                                                ['q' => '1. Why should I choose your SEO Agency Reading?', 'a' => 'We develop customised SEO strategies that improve rankings, increase organic traffic, and generate qualified business enquiries.'],
+                                                                ['q' => '2. Which industries do you work with?', 'a' => 'We work with technology companies, retailers, healthcare providers, professional services, property businesses, educational organisations, and many other sectors.'],
+                                                                ['q' => '3. How soon will I see SEO results?', 'a' => 'Many businesses begin seeing measurable improvements within three to six months, depending on their industry, competition, and website performance.'],
+                                                                ['q' => '4. Do you provide Local SEO?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve visibility in local search results and Google Maps.'],
+                                                                ['q' => '5. Can you optimise an existing website?', 'a' => 'Yes. We improve website structure, technical SEO, content quality, and user experience to maximise search performance.'],
+                                                                ['q' => '6. How do you measure SEO success?', 'a' => 'Success is measured through keyword rankings, organic traffic, website enquiries, conversions, and overall business growth.']
+                                                            ]
+                                                        ],
+                                                          'schema' => '<script type="application/ld+json">  
+                                                                        {  
+                                                                        "@context":"https://schema.org",  
+                                                                        "@graph":[  
+                                                                        {  
+                                                                        "@type":"Service",  
+                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-reading/#service",  
+                                                                        "name":"SEO Agency Reading",  
+                                                                        "alternateName":[  
+                                                                        "SEO Services Reading",  
+                                                                        "SEO Company Reading",  
+                                                                        "Reading SEO Agency",  
+                                                                        "Local SEO Reading",  
+                                                                        "Technical SEO Reading"  
+                                                                        ],  
+                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/seo-agency-reading/",  
+                                                                        "description":"Cloud Technologies Ltd provides professional SEO Agency services in   
+                                                                        Reading to help businesses improve Google rankings, increase organic traffic, generate   
+                                                                        qualified leads and achieve long-term business growth through data-driven SEO   
+                                                                        strategies.",  
+                                                                        "serviceType":"Search Engine Optimization",  
+                                                                        "category":"Digital Marketing",  
+                                                                        "provider":{  
+                                                                        "@type":"Organization",  
+                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/#organization"
+                                                                        },  
+                                                                        "areaServed":[  
+                                                                        {  
+                                                                        "@type":"City",  
+                                                                        "name":"Reading"  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"AdministrativeArea",  
+                                                                        "name":"Berkshire"  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Country",  
+                                                                        "name":"United Kingdom"  
+                                                                        }  
+                                                                        ],  
+                                                                        "audience":{  
+                                                                        "@type":"BusinessAudience",  
+                                                                        "audienceType":"Small Businesses, Medium Businesses, Enterprises"  
+                                                                        },  
+                                                                        "keywords":[  
+                                                                        "SEO Agency Reading",  
+                                                                        "SEO Services Reading",  
+                                                                        "SEO Company Reading",  
+                                                                        "Reading SEO Agency",  
+                                                                        "Local SEO Reading",  
+                                                                        "Technical SEO Reading",  
+                                                                        "On Page SEO Reading",  
+                                                                        "Off Page SEO Reading",  
+                                                                        "Ecommerce SEO Reading",  
+                                                                        "SEO Consultant Reading",  
+                                                                        "Google Business Profile Optimisation Reading",  
+                                                                        "Digital Marketing Reading"  
+                                                                        ],  
+                                                                        "offers":{  
+                                                                        "@type":"Offer",  
+                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                                                        "availability":"https://schema.org/InStock",
+                                                                        "priceCurrency":"GBP"  
+                                                                        },  
+                                                                        "availableChannel":{  
+                                                                        "@type":"ServiceChannel",  
+                                                                        "serviceUrl":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                                                        "servicePhone":{  
+                                                                        "@type":"ContactPoint",  
+                                                                        "telephone":"+44 7427547394",  
+                                                                        "contactType":"Sales",  
+                                                                        "email":"contact@cloudtechnologiesltd.co.uk",  
+                                                                        "availableLanguage":"English"  
+                                                                        }  
+                                                                        },  
+                                                                        "hoursAvailable":{  
+                                                                        "@type":"OpeningHoursSpecification",  
+                                                                        "dayOfWeek":[  
+                                                                        "Monday",  
+                                                                        "Tuesday",  
+                                                                        "Wednesday",  
+                                                                        "Thursday",  
+                                                                        "Friday"  
+                                                                        ],  
+                                                                        "opens":"09:00",  
+                                                                        "closes":"18:00"  
+                                                                        },  
+                                                                        "hasOfferCatalog":{  
+                                                                        "@type":"OfferCatalog",  
+                                                                        "name":"SEO Agency Reading Services",  
+                                                                        "itemListElement":[  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"Local SEO"  
+                                                                        }  
+                                                                        },  
+                                                                        {
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"Technical SEO"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"On-Page SEO"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"Off-Page SEO"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"Content SEO"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"Ecommerce SEO"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{
+                                                                        "@type":"Service",  
+                                                                        "name":"National SEO"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"International SEO"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"Google Business Profile Optimisation"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"SEO Audit"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"Keyword Research"  
+                                                                        }  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"Offer",  
+                                                                        "itemOffered":{  
+                                                                        "@type":"Service",  
+                                                                        "name":"Link Building"
+                                                                        }  
+                                                                        }  
+                                                                        ]  
+                                                                        },  
+                                                                        "potentialAction":[  
+                                                                        {  
+                                                                        "@type":"ContactAction",  
+                                                                        "name":"Request Free SEO Consultation",  
+                                                                        "target":"https://www.cloudtechnologiesltd.co.uk/contact-us"  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"CommunicateAction",  
+                                                                        "name":"WhatsApp Consultation",  
+                                                                        
+                                                                        "target":"https://api.whatsapp.com/send/?phone=7427547394&text&type=phone_number  
+                                                                        &app_absent=0"  
+                                                                        }  
+                                                                        ]  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"WebPage",  
+                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-reading/#webpage",  
+                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/seo-agency-reading/",  
+                                                                        "name":"SEO Agency Reading",  
+                                                                        "description":"Professional SEO Agency in Reading delivering Local SEO, Technical SEO,   
+                                                                        Ecommerce SEO and Google Business Profile Optimisation to improve rankings, traffic and   
+                                                                        enquiries.",  
+                                                                        "primaryImageOfPage":{  
+                                                                        "@type":"ImageObject",  
+                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/logo.png"  
+                                                                        },  
+                                                                        "about":{  
+                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-reading/#service"  
+                                                                        },  
+                                                                        "inLanguage":"en-GB"  
+                                                                        },
+                                                                        {  
+                                                                        "@type":"BreadcrumbList",  
+                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-reading/#breadcrumb",  
+                                                                        "itemListElement":[  
+                                                                        {  
+                                                                        "@type":"ListItem",  
+                                                                        "position":1,  
+                                                                        "name":"Home",  
+                                                                        "item":"https://www.cloudtechnologiesltd.co.uk/"  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"ListItem",  
+                                                                        "position":2,  
+                                                                        "name":"SEO Services",  
+                                                                        "item":"https://www.cloudtechnologiesltd.co.uk/seo-service-uk/"  
+                                                                        },  
+                                                                        {  
+                                                                        "@type":"ListItem",  
+                                                                        "position":3,  
+                                                                        "name":"SEO Agency Reading",  
+                                                                        "item":"https://www.cloudtechnologiesltd.co.uk/seo-agency-reading/"  
+                                                                        }  
+                                                                        ]  
+                                                                        }  
+                                                                        ]  
+                                                                        }  
+                                                                        </script>'
+                                                    ],
+                'harrow' => [
+                                                                        'meta' => [
+                                                                            'title'             => 'SEO Agency Harrow | Trusted SEO Experts for Growth',
+                                                                            'meta_title'        => 'SEO Agency Harrow | Trusted SEO Experts for Growth',
+                                                                            'meta_description'  => 'Partner with our SEO agency in Harrow to improve Google rankings, increase organic traffic and generate more leads through expert SEO strategies.',
+                                                                            'meta_keywords'     => 'seo agency harrow, harrow seo experts, local seo harrow, ecommerce seo harrow'
+                                                                        ],
+                                                                        'hero' => [
+                                                                            'eyebrow'           => 'SEO Agency Harrow',
+                                                                            'title'             => 'Trusted SEO Agency Harrow for Sustainable Business <br>Growth',
+                                                                            'subtitle'          => 'Strengthen your online presence with our professional SEO Agency Harrow. We help businesses improve their Google rankings, attract targeted website visitors, and convert more searches into valuable enquiries. Our customised SEO strategies are designed to increase visibility, enhance user experience, and deliver long-term growth for businesses across Harrow.',
+                                                                            'audit_type'        => 'seo-agency-harrow-audit',
+                                                                            'primary_btn_text'  => 'Free SEO Audit',
+                                                                            'secondary_btn_text'=> 'Increase Organic Traffic',
+                                                                            'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
+                                                                            'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
+                                                                            'stats' => [
+                                                                                ['value' => '500+', 'label' => 'SEO Campaigns Delivered'],
+                                                                                ['value' => 'Proven', 'label' => 'SEO Methods'],
+                                                                                ['value' => 'Monthly', 'label' => 'Transparent Reporting']
+                                                                            ]
+                                                                        ],
+                                                                        'showcase' => [
+                                                                            'is_visible' => true,
+                                                                            'title'      => 'Industries We Help',
+                                                                            'subtitle'   => 'Tailored SEO strategies designed to drive results across diverse sectors in Harrow.',
+                                                                            'items' => [
+                                                                                    ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Local Businesses', 'title' => 'Local Businesses', 'desc' => 'Increase your visibility in local search results and attract customers searching for nearby services.'],
+                                                                                    ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'eCommerce Stores', 'title' => 'eCommerce Stores', 'desc' => 'Boost online sales by improving product, category, and shopping search rankings.'],
+                                                                                    ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Professional Services', 'title' => 'Professional Services', 'desc' => 'Generate more enquiries for solicitors, accountants, consultants, and financial advisers.'],
+                                                                                    ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'Home Improvement & Trades', 'title' => 'Home Improvement & Trades', 'desc' => 'Help plumbers, electricians, roofers, builders, and contractors reach more local customers.'],
+                                                                                    ['img' => 'assets/images/digitalmark/google-business.webp', 'alt' => 'Healthcare Providers', 'title' => 'Healthcare Providers', 'desc' => 'Improve online visibility for dental clinics, medical practices, physiotherapists, and healthcare professionals.'],
+                                                                                    ['img' => 'assets/images/digitalmark/googlebusiness.webp', 'alt' => 'Hospitality & Retail', 'title' => 'Hospitality & Retail', 'desc' => 'Increase bookings, footfall, and enquiries for restaurants, cafés, hotels, and retail businesses.']
+                                                                                ]
+                                                                        ],
+                                                                        'features' => [
+                                                                            'title'    => 'Why Choose Our SEO Agency Harrow?',
+                                                                            'subtitle' => 'Partner with dedicated SEO specialists focused on delivering measurable, long-term business growth.',
+                                                                            'items'    => [
+                                                                                ['icon' => 'sliders', 'title' => 'Tailored SEO Campaigns', 'desc' => 'Every SEO strategy is designed around your business goals, audience, and local competition.'],
+                                                                                ['icon' => 'settings', 'title' => 'Technical SEO Expertise', 'desc' => 'We improve website speed, indexing, Core Web Vitals, mobile performance, and overall website health.'],
+                                                                                ['icon' => 'map-pin', 'title' => 'Local SEO Specialists', 'desc' => 'Our local SEO strategies help your business rank higher in Google Search and Google Maps.'],
+                                                                                ['icon' => 'file-text', 'title' => 'Content That Drives Results', 'desc' => 'We optimise existing content and create valuable new pages that improve rankings and engage your audience.'],
+                                                                                ['icon' => 'trending-up', 'title' => 'Ongoing Performance Optimisation', 'desc' => 'Your SEO campaign is regularly monitored and refined to achieve continuous improvements.']
+                                                                            ]
+                                                                        ],
+                                                                        'process' => [
+                                                                            'title'    => 'Our SEO Process',
+                                                                            'subtitle' => 'A proven framework engineered to increase search performance and organic revenue.',
+                                                                            'items'    => [
+                                                                                ['step' => '1', 'title' => 'Website Analysis', 'desc' => 'We assess your website\'s performance, identify technical issues, and discover SEO opportunities.'],
+                                                                                ['step' => '2', 'title' => 'Keyword Strategy', 'desc' => 'Our specialists research relevant search terms that your ideal customers are actively using.'],
+                                                                                ['step' => '3', 'title' => 'Technical Optimisation', 'desc' => 'We improve website architecture, page speed, indexing, mobile usability, and structured data.'],
+                                                                                ['step' => '4', 'title' => 'Content Enhancement', 'desc' => 'We optimise website content and develop new SEO-focused pages to increase organic visibility.'],
+                                                                                ['step' => '5', 'title' => 'Authority Development', 'desc' => 'We strengthen your online reputation through ethical backlink building and digital authority strategies.'],
+                                                                                ['step' => '6', 'title' => 'Continuous SEO Growth', 'desc' => 'We analyse campaign data, monitor keyword performance, and optimise your strategy for long-term success.']
+                                                                            ]
+                                                                        ],
+                                                                        'deliverables' => [
+                                                                            'title'     => 'Complete SEO Services',
+                                                                            'subtitle'  => 'Comprehensive search strategies tailored to your market and audience.',
+                                                                            'list_title'=> 'Free SEO Audit',
+                                                                            'list_desc' => 'Get a comprehensive audit and roadmap for your Harrow business.',
+                                                                            'list_note' => 'Includes: Complete website SEO review, technical performance analysis, keyword opportunity research, competitor evaluation, local SEO assessment, personalised SEO recommendations',
+                                                                            'items'     => [
+                                                                                'SEO Strategy & Planning',
+                                                                                'Technical SEO',
+                                                                                'Local SEO',
+                                                                                'National SEO',
+                                                                                'eCommerce SEO',
+                                                                                'On-Page SEO',
+                                                                                'Content Optimisation',
+                                                                                'Keyword Research',
+                                                                                'Link Building',
+                                                                                'Google Business Profile Optimisation',
+                                                                                'SEO Performance Reporting',
+                                                                                'Ongoing SEO Management'
+                                                                            ]
+                                                                        ],
+                                                                        'additional_benefits' => [
+                                                                            'title'   => 'Benefits of Choosing Our SEO Agency',
+                                                                            'subtitle'=> 'Drive meaningful, long-term impact through search visibility.',
+                                                                            'items'   => [
+                                                                                'Improve Google rankings',
+                                                                                'Increase organic website traffic',
+                                                                                'Generate more qualified enquiries',
+                                                                                'Build stronger online authority',
+                                                                                'Improve local search visibility',
+                                                                                'Enhance website performance',
+                                                                                'Increase customer trust',
+                                                                                'Achieve sustainable business growth'
+                                                                            ]
+                                                                        ],
+                                                                        'related_links' => [
+                                                                            'title'   => 'Related SEO Services',
+                                                                            'subtitle'=> 'Explore complementary search services to enhance your digital presence.',
+                                                                            'items' => [
+                                                                                ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                                                                                ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Services'],
+                                                                                ['url' => '/national-seo-service-uk', 'label' => 'National SEO Services'],
+                                                                                ['url' => '/ecommerce-seo-service-uk', 'label' => 'eCommerce SEO Services'],
+                                                                                ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
+                                                                                ['url' => '/digital-marketing-service-uk', 'label' => 'Digital Marketing Services']
+                                                                            ]
+                                                                        ],
+                                                                        'about' => [
+                                                                            'main_title' => 'What Does an SEO Agency Do?',
+                                                                            'paragraphs' => [
+                                                                                'An SEO Agency improves your website\'s visibility by optimising technical performance, creating valuable content, targeting relevant keywords, and building online authority. These strategies help your website attract qualified visitors, improve rankings, and generate more business opportunities through organic search.'
+                                                                            ],
+                                                                            'side_title' => 'Who Needs an SEO Agency Harrow?',
+                                                                            'side_intro' => 'Our SEO services are ideal for:',
+                                                                            'side_bullets' => [
+                                                                                'Small businesses',
+                                                                                'Local service providers',
+                                                                                'eCommerce retailers',
+                                                                                'Professional service firms',
+                                                                                'Healthcare organisations',
+                                                                                'Property companies',
+                                                                                'Construction businesses',
+                                                                                'Growing national brands'
+                                                                            ],
+                                                                            'side_note' => ''
+                                                                        ],
+                                                                        'growth' => [
+                                                                            'title' => 'Why Invest in SEO?',
+                                                                            'paragraphs' => [
+                                                                                'SEO is one of the most effective long-term marketing strategies for businesses looking to attract customers online. By improving your search engine visibility, SEO generates consistent traffic, increases brand credibility, and helps convert website visitors into loyal customers.'
+                                                                            ]
+                                                                        ],
+                                                                        'cta' => [
+                                                                            'title'         => 'Ready to Grow Your Business Online?',
+                                                                            'subtitle'      => 'Work with our experienced SEO Agency Harrow to build a customised SEO strategy that improves search rankings, increases targeted traffic, and delivers measurable business growth.',
+                                                                            'primary_btn'   => 'Book Your Free SEO Consultation Today',
+                                                                            'secondary_btn' => 'Tailored SEO Strategy'
+                                                                        ],
+                                                                        'form' => [
+                                                                            'title'   => 'Talk to Our SEO Experts',
+                                                                            'subtitle'=> 'Our SEO specialists are ready to understand your business goals and create a tailored strategy that helps you achieve long-term success through higher rankings, increased visibility, and better-quality leads.',
+                                                                            'key'     => 'seo_agency_harrow_enquiry',
+                                                                            'fields'  => [
+                                                                                'name_label'       => 'Full Name',
+                                                                                'name_placeholder' => 'Enter your name',
+                                                                                'email_label'      => 'Email Address',
+                                                                                'email_placeholder'=> 'name@company.com',
+                                                                                'url_label'        => 'Website URL',
+                                                                                'url_placeholder'  => 'https://',
+                                                                                'focus_label'      => 'Business Goals',
+                                                                                'focus_placeholder'=> 'Local traffic, lead generation, higher rankings, etc.',
+                                                                                'msg_label'        => 'How can we help?',
+                                                                                'msg_placeholder'  => 'Tell us about your business goals and current SEO performance.'
+                                                                            ]
+                                                                        ],
+                                                                        'faq' => [
+                                                                            'is_visible' => true,
+                                                                            'title'      => 'SEO Agency Harrow FAQs',
+                                                                            'items'      => [
+                                                                                ['q' => '1. Why choose your SEO Agency Harrow?', 'a' => 'We create bespoke SEO campaigns tailored to your business objectives, helping you improve rankings, increase organic traffic, and generate more enquiries.'],
+                                                                                ['q' => '2. What types of businesses do you work with?', 'a' => 'We work with local businesses, eCommerce stores, professional service providers, healthcare companies, construction firms, hospitality businesses, and many other industries.'],
+                                                                                ['q' => '3. How long does SEO take to show results?', 'a' => 'Most SEO campaigns begin delivering measurable improvements within three to six months, depending on your industry, website, and competition.'],
+                                                                                ['q' => '4. Do you provide Local SEO services?', 'a' => 'Yes. We optimise your website and Google Business Profile to improve local search rankings and increase visibility on Google Maps.'],
+                                                                                ['q' => '5. Can you optimise my existing website?', 'a' => 'Yes. We improve your website\'s technical SEO, content quality, page performance, and overall user experience to achieve better search rankings.'],
+                                                                                ['q' => '6. How do you measure SEO success?', 'a' => 'We track keyword rankings, organic traffic, lead generation, conversions, and overall business growth to measure the success of every SEO campaign.']
+                                                                            ]
+                                                                        ],
+                                                                        'schema' => '<script type="application/ld+json">  
+                                                                                        {  
+                                                                                        "@context":"https://schema.org",  
+                                                                                        "@graph":[  
+                                                                                        {  
+                                                                                        "@type":"Service",  
+                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#service",  
+                                                                                        "name":"SEO Agency Harrow",  
+                                                                                        "alternateName":[
+                                                                                        "SEO Services Harrow",  
+                                                                                        "SEO Company Harrow",  
+                                                                                        "Harrow SEO Agency",  
+                                                                                        "Local SEO Harrow",  
+                                                                                        "Technical SEO Harrow"  
+                                                                                        ],  
+                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/",  
+                                                                                        "description":"Cloud Technologies Ltd provides professional SEO Agency services in   
+                                                                                        Harrow, helping businesses improve Google rankings, increase organic traffic, generate   
+                                                                                        qualified leads and achieve long-term business growth through ethical, data-driven SEO   
+                                                                                        strategies.",  
+                                                                                        "serviceType":"Search Engine Optimization",  
+                                                                                        "category":"Digital Marketing",  
+                                                                                        "provider":{  
+                                                                                        "@type":"Organization",  
+                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/#organization",  
+                                                                                        "name":"Cloud Technologies Ltd",  
+                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/",  
+                                                                                        "email":"contact@cloudtechnologiesltd.co.uk",  
+                                                                                        "telephone":"+44 7427547394"  
+                                                                                        },  
+                                                                                        "areaServed":[  
+                                                                                        {  
+                                                                                        "@type":"City",  
+                                                                                        "name":"Harrow"  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"AdministrativeArea",  
+                                                                                        "name":"Greater London"  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Country",  
+                                                                                        "name":"United Kingdom"  
+                                                                                        }  
+                                                                                        ],  
+                                                                                        "audience":{  
+                                                                                        "@type":"BusinessAudience",
+                                                                                        "audienceType":"Small Businesses, Medium Businesses, Enterprises"  
+                                                                                        },  
+                                                                                        "keywords":[  
+                                                                                        "SEO Agency Harrow",  
+                                                                                        "SEO Services Harrow",  
+                                                                                        "SEO Company Harrow",  
+                                                                                        "Harrow SEO Agency",  
+                                                                                        "Local SEO Harrow",  
+                                                                                        "Technical SEO Harrow",  
+                                                                                        "SEO Consultant Harrow",  
+                                                                                        "Ecommerce SEO Harrow",  
+                                                                                        "Google Business Profile Optimisation Harrow",  
+                                                                                        "Digital Marketing Harrow"  
+                                                                                        ],  
+                                                                                        "offers":{  
+                                                                                        "@type":"Offer",  
+                                                                                        "name":"SEO Agency Harrow",  
+                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                                                                        "availability":"https://schema.org/InStock",  
+                                                                                        "priceCurrency":"GBP"  
+                                                                                        },  
+                                                                                        "availableChannel":{  
+                                                                                        "@type":"ServiceChannel",  
+                                                                                        "serviceUrl":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                                                                        "servicePhone":{  
+                                                                                        "@type":"ContactPoint",  
+                                                                                        "telephone":"+44 7427547394",  
+                                                                                        "contactType":"Sales",  
+                                                                                        "email":"contact@cloudtechnologiesltd.co.uk",  
+                                                                                        "availableLanguage":"English"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        "hoursAvailable":{  
+                                                                                        "@type":"OpeningHoursSpecification",  
+                                                                                        "dayOfWeek":[  
+                                                                                        "Monday",  
+                                                                                        "Tuesday",
+                                                                                        "Wednesday",  
+                                                                                        "Thursday",  
+                                                                                        "Friday"  
+                                                                                        ],  
+                                                                                        "opens":"09:00",  
+                                                                                        "closes":"18:00"  
+                                                                                        },  
+                                                                                        "hasOfferCatalog":{  
+                                                                                        "@type":"OfferCatalog",  
+                                                                                        "name":"SEO Agency Harrow Services",  
+                                                                                        "itemListElement":[  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"Local SEO"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"Technical SEO"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"On-Page SEO"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"Off-Page SEO"
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"Content SEO"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"Ecommerce SEO"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"National SEO"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"International SEO"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"Google Business Profile Optimisation"  
+                                                                                        }  
+                                                                                        },
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"SEO Audit"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"Keyword Research"  
+                                                                                        }  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"Offer",  
+                                                                                        "itemOffered":{  
+                                                                                        "@type":"Service",  
+                                                                                        "name":"Link Building"  
+                                                                                        }  
+                                                                                        }  
+                                                                                        ]  
+                                                                                        },  
+                                                                                        "potentialAction":[  
+                                                                                        {  
+                                                                                        "@type":"ContactAction",  
+                                                                                        "name":"Request Free SEO Consultation",  
+                                                                                        "target":"https://www.cloudtechnologiesltd.co.uk/contact-us"  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"CommunicateAction",  
+                                                                                        "name":"WhatsApp Consultation",  
+                                                                                        
+                                                                                        "target":"https://api.whatsapp.com/send/?phone=7427547394&text&type=phone_number  
+                                                                                        &app_absent=0"  
+                                                                                        }  
+                                                                                        ]
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"WebPage",  
+                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#webpage",  
+                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/",  
+                                                                                        "name":"SEO Agency Harrow",  
+                                                                                        "description":"Professional SEO Agency in Harrow delivering Local SEO, Technical SEO,   
+                                                                                        Ecommerce SEO and Google Business Profile Optimisation to increase rankings, traffic   
+                                                                                        and enquiries.",  
+                                                                                        "about":{  
+                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#service"  
+                                                                                        },  
+                                                                                        "primaryImageOfPage":{  
+                                                                                        "@type":"ImageObject",  
+                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/logo.png"  
+                                                                                        },  
+                                                                                        "inLanguage":"en-GB"  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"BreadcrumbList",  
+                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#breadcrumb",  
+                                                                                        "itemListElement":[  
+                                                                                        {  
+                                                                                        "@type":"ListItem",  
+                                                                                        "position":1,  
+                                                                                        "name":"Home",  
+                                                                                        "item":"https://www.cloudtechnologiesltd.co.uk/"  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"ListItem",  
+                                                                                        "position":2,  
+                                                                                        "name":"SEO Services",  
+                                                                                        "item":"https://www.cloudtechnologiesltd.co.uk/seo-service-uk"  
+                                                                                        },  
+                                                                                        {  
+                                                                                        "@type":"ListItem",  
+                                                                                        "position":3,
+                                                                                        "name":"SEO Agency Harrow",  
+                                                                                        "item":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/"  
+                                                                                        }  
+                                                                                        ]  
+                                                                                        }  
+                                                                                        ]  
+                                                                                        }  
+                                                                                        </script>'
+                ],
+                
+               ],
         'seo-company' => [
             'southampton' => [
                                     'meta' => [
@@ -19372,7 +20270,247 @@ class LocationSeoController extends Controller
                                             ['q' => '5. Can you improve an existing website?', 'a' => 'Absolutely. We audit your current website, resolve technical issues, optimise content, and implement strategies to improve search performance.'],
                                             ['q' => '6. How do you measure SEO success?', 'a' => 'We measure success through keyword rankings, organic traffic, lead generation, conversion growth, and overall return on investment.']
                                         ]
-                                    ]
+                                    ],
+                                     'schema' => '<script type="application/ld+json">  
+                                                    {  
+                                                    "@context":"https://schema.org",  
+                                                    "@graph":[  
+                                                    {  
+                                                    "@type":"Service",  
+                                                    "@id":"https://www.cloudtechnologiesltd.co.uk/seo-company-southampton/#service",  
+                                                    "name":"SEO Company Southampton",  
+                                                    "alternateName":[  
+                                                    "SEO Services Southampton",  
+                                                    "SEO Agency Southampton",  
+                                                    "Southampton SEO Company",  
+                                                    "Local SEO Southampton",  
+                                                    "Technical SEO Southampton"  
+                                                    ],  
+                                                    "url":"https://www.cloudtechnologiesltd.co.uk/seo-company-southampton/",  
+                                                    "description":"Cloud Technologies Ltd provides professional SEO Company services in   
+                                                    Southampton, helping businesses improve Google rankings, increase organic traffic,   
+                                                    generate qualified leads and grow online through ethical, data-driven SEO strategies.",  
+                                                    "serviceType":"Search Engine Optimization",  
+                                                    "category":"Digital Marketing",  
+                                                    "provider":{  
+                                                    "@type":"Organization",  
+                                                    "@id":"https://www.cloudtechnologiesltd.co.uk/#organization",  
+                                                    "name":"Cloud Technologies Ltd",  
+                                                    "url":"https://www.cloudtechnologiesltd.co.uk/",  
+                                                    "email":"contact@cloudtechnologiesltd.co.uk",  
+                                                    "telephone":"+44 7427547394"  
+                                                    },  
+                                                    "areaServed":[  
+                                                    {  
+                                                    "@type":"City",  
+                                                    "name":"Southampton"  
+                                                    },
+                                                    {  
+                                                    "@type":"AdministrativeArea",  
+                                                    "name":"Hampshire"  
+                                                    },  
+                                                    {  
+                                                    "@type":"Country",  
+                                                    "name":"United Kingdom"  
+                                                    }  
+                                                    ],  
+                                                    "audience":{  
+                                                    "@type":"BusinessAudience",  
+                                                    "audienceType":"Small Businesses, Medium Businesses, Enterprises"  
+                                                    },  
+                                                    "keywords":[  
+                                                    "SEO Company Southampton",  
+                                                    "SEO Services Southampton",  
+                                                    "SEO Agency Southampton",  
+                                                    "Southampton SEO",  
+                                                    "Local SEO Southampton",  
+                                                    "Technical SEO Southampton",  
+                                                    "SEO Consultant Southampton",  
+                                                    "Ecommerce SEO Southampton",  
+                                                    "Google Business Profile Optimisation Southampton",  
+                                                    "Digital Marketing Southampton"  
+                                                    ],  
+                                                    "offers":{  
+                                                    "@type":"Offer",  
+                                                    "name":"SEO Company Southampton",  
+                                                    "url":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                                    "availability":"https://schema.org/InStock",  
+                                                    "priceCurrency":"GBP"  
+                                                    },  
+                                                    "availableChannel":{  
+                                                    "@type":"ServiceChannel",  
+                                                    "serviceUrl":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                                    "servicePhone":{  
+                                                    "@type":"ContactPoint",
+                                                    "telephone":"+44 7427547394",  
+                                                    "contactType":"Sales",  
+                                                    "email":"contact@cloudtechnologiesltd.co.uk",  
+                                                    "availableLanguage":"English"  
+                                                    }  
+                                                    },  
+                                                    "hoursAvailable":{  
+                                                    "@type":"OpeningHoursSpecification",  
+                                                    "dayOfWeek":[  
+                                                    "Monday",  
+                                                    "Tuesday",  
+                                                    "Wednesday",  
+                                                    "Thursday",  
+                                                    "Friday"  
+                                                    ],  
+                                                    "opens":"09:00",  
+                                                    "closes":"18:00"  
+                                                    },  
+                                                    "hasOfferCatalog":{  
+                                                    "@type":"OfferCatalog",  
+                                                    "name":"SEO Company Southampton Services",  
+                                                    "itemListElement":[  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"Local SEO"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"Technical SEO"  
+                                                    }  
+                                                    },  
+                                                    {
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"On-Page SEO"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"Off-Page SEO"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"Content SEO"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"Ecommerce SEO"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"National SEO"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{
+                                                    "@type":"Service",  
+                                                    "name":"International SEO"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"Google Business Profile Optimisation"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"SEO Audit"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"Keyword Research"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"Offer",  
+                                                    "itemOffered":{  
+                                                    "@type":"Service",  
+                                                    "name":"Link Building"  
+                                                    }  
+                                                    }  
+                                                    ]  
+                                                    },  
+                                                    "potentialAction":[  
+                                                    {  
+                                                    "@type":"ContactAction",
+                                                    "name":"Request Free SEO Consultation",  
+                                                    "target":"https://www.cloudtechnologiesltd.co.uk/contact-us"  
+                                                    },  
+                                                    {  
+                                                    "@type":"CommunicateAction",  
+                                                    "name":"WhatsApp Consultation",  
+                                                    
+                                                    "target":"https://api.whatsapp.com/send/?phone=7427547394&text&type=phone_number  
+                                                    &app_absent=0"  
+                                                    }  
+                                                    ]  
+                                                    },  
+                                                    {  
+                                                    "@type":"WebPage",  
+                                                    "@id":"https://www.cloudtechnologiesltd.co.uk/seo-company
+                                                    southampton/#webpage",  
+                                                    "url":"https://www.cloudtechnologiesltd.co.uk/seo-company-southampton/",  
+                                                    "name":"SEO Company Southampton",  
+                                                    "description":"Professional SEO Company in Southampton delivering Local SEO,   
+                                                    Technical SEO, Ecommerce SEO and Google Business Profile Optimisation to increase   
+                                                    rankings, traffic and qualified enquiries.",  
+                                                    "about":{  
+                                                    "@id":"https://www.cloudtechnologiesltd.co.uk/seo-company-southampton/#service"  
+                                                    },  
+                                                    "inLanguage":"en-GB",  
+                                                    "primaryImageOfPage":{  
+                                                    "@type":"ImageObject",  
+                                                    "url":"https://www.cloudtechnologiesltd.co.uk/logo.png"  
+                                                    }  
+                                                    },  
+                                                    {  
+                                                    "@type":"BreadcrumbList",  
+                                                    "@id":"https://www.cloudtechnologiesltd.co.uk/seo-company
+                                                    southampton/#breadcrumb",  
+                                                    "itemListElement":[  
+                                                    {  
+                                                    "@type":"ListItem",
+                                                    "position":1,  
+                                                    "name":"Home",  
+                                                    "item":"https://www.cloudtechnologiesltd.co.uk/"  
+                                                    },  
+                                                    {  
+                                                    "@type":"ListItem",  
+                                                    "position":2,  
+                                                    "name":"SEO Services",  
+                                                    "item":"https://www.cloudtechnologiesltd.co.uk/seo-service-uk/"  
+                                                    },  
+                                                    {  
+                                                    "@type":"ListItem",  
+                                                    "position":3,  
+                                                    "name":"SEO Company Southampton",  
+                                                    "item":"https://www.cloudtechnologiesltd.co.uk/seo-company-southampton/"  
+                                                    }  
+                                                    ]  
+                                                    }  
+                                                    ]  
+                                                    }  
+                                                    </script>'
                                 ],
 
         ],

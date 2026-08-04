@@ -526,6 +526,344 @@ class LocationSeoController extends Controller
 
                 ],
             ],
+            'hainault' => [
+               'meta_title' => 'Digital Marketing Agency in Hainault | Services & Advertising',
+                'meta_description' => 'Digital marketing agency in Hainault offering services and advertising solutions to grow traffic, leads, and sales for your business with proven online results.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Digital Marketing Services in Hainault | Professional Online Marketing Solutions',
+                        'subtitle' => 'Achieving online growth can be simple and results-driven with the right digital strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Digital Marketing Agency in Hainault',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional digital marketing services in Hainault, helping businesses grow their online presence, attract targeted traffic, and increase conversions. We offer complete digital solutions including SEO, paid advertising, social media marketing, and local optimisation, ensuring measurable success from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Growing Your Business Online? We Make It Easy',
+                        'description' => 'Building a strong online presence can feel overwhelming, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are a startup, small business, or established brand, our expert team ensures your digital marketing campaigns are effective, scalable, and results-driven.',
+                        'cta' => 'Get Free Consultation'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Digital Marketing Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Google Business Profile',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Meta Ads Services',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'PPC Services',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SMM Services',
+                                'route' => 'services.digi-marketing.smm-services',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International Digital Marketing Services',
+                        'description' => 'Planning to expand globally? We also provide trusted and effective international digital marketing services. Whether you want to target global audiences or enter new markets, our team ensures strategic campaigns, precise targeting, and consistent growth across borders.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Digital Marketing Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business is unique. That’s why we provide tailored digital marketing solutions designed to meet your specific goals, ensuring consistent growth and strong online performance.',
+
+                        'sub_intro' => "Whether you're targeting local customers or scaling beyond Hainault, we offer:",
+
+                        'list' => [
+                            'Search Engine Optimization (SEO)',
+                            'Pay-Per-Click (PPC) Advertising',
+                            'Social Media Marketing (SMM)',
+                            'Google Business Profile Optimization',
+                            'Content Marketing and Strategy',
+                        ],
+
+                        'bottom_text' => 'Our team works efficiently, uses data-driven insights, and focuses on delivering measurable results with no guesswork.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Digital Marketing Solutions',
+
+                        'intro' => 'Looking to boost your visibility and conversions? At Cloud Technologies Ltd, we use advanced tools and proven strategies to ensure your campaigns perform at their best.',
+
+                        'sub_intro' => 'Our digital marketing services include:',
+
+                        'list' => [
+                            'Targeted campaign planning',
+                            'Keyword and audience research',
+                            'Performance tracking and optimization',
+                            'Conversion-focused strategies',
+                            'Transparent reporting',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves consistent growth, improved visibility, and higher ROI.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Digital Marketing Solutions',
+
+                        'intro' => 'Looking for cost-effective digital marketing services in Hainault? Cloud Technologies Ltd offers flexible and affordable solutions tailored to suit businesses of all sizes.',
+
+                        'sub_intro' => 'Our marketing solutions include:',
+
+                        'list' => [
+                            'Flexible campaign plans',
+                            'Transparent pricing',
+                            'Scalable services for all budgets',
+                        ],
+
+                        'bottom_text' => 'We are committed to delivering high-quality results without unnecessary costs, making digital growth simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just a digital marketing agency. We are your growth partner, focused on delivering real results and long-term success.',
+
+                        'description_2' => 'Our experienced team is dedicated to providing high-quality marketing strategies with attention to detail in every campaign.',
+
+                        'cta' => 'Get Free Consultation'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional marketing experts',
+                            'Data-driven digital marketing strategies',
+                            'Advanced tools and technologies',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and surrounding area coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What are digital marketing services and how do they help my business?',
+                                'a' => 'Digital marketing services include SEO, PPC advertising, social media marketing, and content marketing. These services help improve your online visibility, attract targeted traffic, and generate more leads and sales for your business.'
+                            ],
+                            [
+                                'q' => 'How long does it take to see results from digital marketing?',
+                                'a' => 'The timeline depends on the strategy used. SEO typically takes 3–6 months to show significant results, while PPC and social media advertising can generate immediate traffic and leads.'
+                            ],
+                            [
+                                'q' => 'Why is SEO important for my business?',
+                                'a' => 'SEO (Search Engine Optimization) helps your website rank higher on search engines like Google. This increases organic traffic, builds credibility, and drives long-term growth without ongoing ad costs.'
+                            ],
+                            [
+                                'q' => 'What is the difference between SEO and PPC?',
+                                'a' => 'SEO focuses on improving your website’s organic rankings over time, while PPC (Pay-Per-Click) involves paid ads that generate instant visibility and traffic. Both strategies work best when combined for maximum results.'
+                            ],
+                            [
+                                'q' => 'How much do digital marketing services cost in Hainault?',
+                                'a' => 'The cost varies depending on your business goals, competition, and services required. Most digital marketing agencies offer flexible packages to suit different budgets, ensuring cost-effective solutions.'
+                            ],
+                            [
+                                'q' => 'Can digital marketing help local businesses in Hainault grow?',
+                                'a' => 'Yes, digital marketing is highly effective for local businesses in Hainault. Services like local SEO and Google Business Profile optimization help you appear in local searches, attract nearby customers, and increase enquiries and sales.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Digital Marketing Agency in Goodmayes | Services & Advertising',
+                'meta_description' => 'Digital marketing agency in Goodmayes offering services and advertising solutions to grow traffic, leads, and sales for your business with proven o',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Digital Marketing Services in Goodmayes | Professional Online Marketing Solutions',
+                        'subtitle' => 'Achieving online growth can be simple and results-driven with the right digital strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Digital Marketing Agency in Goodmayes',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional digital marketing services in Goodmayes, helping businesses grow their online presence, attract targeted traffic, and increase conversions. We offer complete digital solutions including SEO, paid advertising, social media marketing, and local optimisation, ensuring measurable success from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Growing Your Business Online? We Make It Easy',
+                        'description' => 'Building a strong online presence can feel overwhelming, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are a startup, small business, or established brand, our expert team ensures your digital marketing campaigns are effective, scalable, and results-driven.',
+                        'cta' => 'Get Free Consultation'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Digital Marketing Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Google Business Profile',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Meta Ads Services',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'PPC Services',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SMM Services',
+                                'route' => 'services.digi-marketing.smm-services',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International Digital Marketing Services',
+                        'description' => 'Planning to expand globally? We also provide trusted and effective international digital marketing services. Whether you want to target global audiences or enter new markets, our team ensures strategic campaigns, precise targeting, and consistent growth across borders.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Digital Marketing Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business is unique. That’s why we provide tailored digital marketing solutions designed to meet your specific goals, ensuring consistent growth and strong online performance.',
+
+                        'sub_intro' => "Whether you're targeting local customers or scaling beyond Goodmayes, we offer:",
+
+                        'list' => [
+                            'Search Engine Optimization (SEO)',
+                            'Pay-Per-Click (PPC) Advertising',
+                            'Social Media Marketing (SMM)',
+                            'Google Business Profile Optimization',
+                            'Content Marketing and Strategy',
+                        ],
+
+                        'bottom_text' => 'Our team works efficiently, uses data-driven insights, and focuses on delivering measurable results with no guesswork.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Digital Marketing Solutions',
+
+                        'intro' => 'Looking to boost your visibility and conversions? At Cloud Technologies Ltd, we use advanced tools and proven strategies to ensure your campaigns perform at their best.',
+
+                        'sub_intro' => 'Our digital marketing services include:',
+
+                        'list' => [
+                            'Targeted campaign planning',
+                            'Keyword and audience research',
+                            'Performance tracking and optimization',
+                            'Conversion-focused strategies',
+                            'Transparent reporting',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves consistent growth, improved visibility, and higher ROI.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Digital Marketing Solutions',
+
+                        'intro' => 'Looking for cost-effective digital marketing services in Goodmayes? Cloud Technologies Ltd offers flexible and affordable solutions tailored to suit businesses of all sizes.',
+
+                        'sub_intro' => 'Our marketing solutions include:',
+
+                        'list' => [
+                            'Flexible campaign plans',
+                            'Transparent pricing',
+                            'Scalable services for all budgets',
+                        ],
+
+                        'bottom_text' => 'We are committed to delivering high-quality results without unnecessary costs, making digital growth simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just a digital marketing agency. We are your growth partner, focused on delivering real results and long-term success.',
+
+                        'description_2' => 'Our experienced team is dedicated to providing high-quality marketing strategies with attention to detail in every campaign.',
+
+                        'cta' => 'Get Free Consultation'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional marketing experts',
+                            'Data-driven digital marketing strategies',
+                            'Advanced tools and technologies',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and surrounding area coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What are digital marketing services and how do they help my business?',
+                                'a' => 'Digital marketing services include SEO, PPC advertising, social media marketing, and content marketing. These services help improve your online visibility, attract targeted traffic, and generate more leads and sales for your business.'
+                            ],
+                            [
+                                'q' => 'How long does it take to see results from digital marketing?',
+                                'a' => 'The timeline depends on the strategy used. SEO typically takes 3–6 months to show significant results, while PPC and social media advertising can generate immediate traffic and leads.'
+                            ],
+                            [
+                                'q' => 'Why is SEO important for my business?',
+                                'a' => 'SEO (Search Engine Optimization) helps your website rank higher on search engines like Google. This increases organic traffic, builds credibility, and drives long-term growth without ongoing ad costs.'
+                            ],
+                            [
+                                'q' => 'What is the difference between SEO and PPC?',
+                                'a' => 'SEO focuses on improving your website’s organic rankings over time, while PPC (Pay-Per-Click) involves paid ads that generate instant visibility and traffic. Both strategies work best when combined for maximum results.'
+                            ],
+                            [
+                                'q' => 'How much do digital marketing services cost in Goodmayes?',
+                                'a' => 'The cost varies depending on your business goals, competition, and services required. Most digital marketing agencies offer flexible packages to suit different budgets, ensuring cost-effective solutions.'
+                            ],
+                            [
+                                'q' => 'Can digital marketing help local businesses in Goodmayes grow?',
+                                'a' => 'Yes, digital marketing is highly effective for local businesses in Goodmayes. Services like local SEO and Google Business Profile optimization help you appear in local searches, attract nearby customers, and increase enquiries and sales.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
 
         ],
 
@@ -1069,6 +1407,354 @@ class LocationSeoController extends Controller
 
                 ],
             ],
+            'hainault' => [
+                'meta_title' => 'Social Media Marketing Agency in Hainault | Marketing & Advertising',
+                'meta_description' => 'Social media marketing agency in Hainault offering management, advertising, and strategy on Facebook, Instagram, and TikTok to grow traffic, leac',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Social Media Marketing Services in Hainault | Professional SMM Solutions',
+                        'subtitle' => 'Growing your brand online can be simple and results-driven with the right social media strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Social Media Marketing Agency in Hainault',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional social media marketing services in Hainault, helping businesses increase brand visibility, engage audiences, and drive real business results. We deliver complete social media solutions including content creation, paid campaigns, community management, and analytics, ensuring consistent growth from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want to Grow Your Brand on Social Media? We Make It Easy',
+
+                        'description' => 'Managing social media can feel overwhelming, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are a small business or an established brand, our expert team ensures your social media presence is engaging, consistent, and results-driven.',
+
+                        'cta' => 'Get Social Media Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Social Media Marketing Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Content Creation',
+                                'route' => 'services.digi-marketing.smm-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Social Media Strategy',
+                                'route' => 'services.digi-marketing.smm-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Paid Social Campaigns',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Community Management',
+                                'route' => 'services.digi-marketing.smm-services',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International Social Media Marketing Services',
+
+                        'description' => 'Looking to expand beyond Hainault? We also provide international social media marketing services to help brands reach global audiences and build strong engagement across multiple regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Social Media Marketing Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business is unique. That’s why we provide tailored social media strategies designed to increase visibility, engagement, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Hainault or growing globally, we offer:",
+
+                        'list' => [
+                            'Facebook, Instagram, LinkedIn & TikTok Marketing',
+                            'Content Creation & Brand Development',
+                            'Paid Advertising Campaigns',
+                            'Community Management & Engagement',
+                            'Analytics & Performance Tracking',
+                        ],
+
+                        'bottom_text' => 'Our team ensures your social media channels are fully optimized for growth and consistent performance.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Social Media Solutions',
+
+                        'intro' => 'Looking to improve engagement and ROI? At Cloud Technologies Ltd, we use advanced insights and analytics to create high-performing social media campaigns.',
+
+                        'sub_intro' => 'Our services include:',
+
+                        'list' => [
+                            'Audience research and targeting',
+                            'Content planning and scheduling',
+                            'Performance tracking and reporting',
+                            'Campaign optimisation and testing',
+                            'Brand monitoring and reputation management',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your brand achieves better engagement, increased followers, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Social Media Marketing Solutions',
+
+                        'intro' => 'Looking for cost-effective social media marketing services in Hainault? Cloud Technologies Ltd offers flexible and scalable solutions tailored to your business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible service packages',
+                            'Transparent pricing',
+                            'Scalable marketing strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong results without unnecessary costs, making social media growth simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just a social media agency. We are your growth partner, focused on building your brand, increasing engagement, and driving real results.',
+
+                        'description_2' => 'Our experienced team ensures every campaign is strategically planned, creatively executed, and continuously optimized.',
+
+                        'cta' => 'Get Social Media Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional social media experts',
+                            'Data-driven marketing strategies',
+                            'High-quality content and creative campaigns',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and global campaign coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is social media marketing and how does it help my business?',
+                                'a' => 'Social media marketing involves promoting your brand on platforms like Facebook, Instagram, LinkedIn, and TikTok to increase visibility, engagement, and sales.'
+                            ],
+                            [
+                                'q' => 'How quickly can I see results from social media marketing?',
+                                'a' => 'Results can vary, but paid campaigns can generate immediate engagement, while organic growth typically improves over time with consistent strategy.'
+                            ],
+                            [
+                                'q' => 'Which social media platforms should my business use?',
+                                'a' => 'It depends on your target audience and goals. We help you choose the best platforms to maximise reach and engagement.'
+                            ],
+                            [
+                                'q' => 'Do you create content for social media?',
+                                'a' => 'Yes, we create high-quality graphics, videos, and written content tailored to your brand and audience.'
+                            ],
+                            [
+                                'q' => 'Can social media marketing generate leads and sales?',
+                                'a' => 'Yes, with the right strategy and targeted campaigns, social media can drive high-quality leads and increase conversions.'
+                            ],
+                            [
+                                'q' => 'Do you provide performance reports?',
+                                'a' => 'Yes, we provide detailed analytics and reports to track engagement, growth, and campaign performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Social Media Marketing Agency in Goodmayes | Marketing & Advertising',
+                'meta_description' => 'Social media marketing agency in Goodmayes offering management, advertising, and strategy on Facebook, Instagram, and TikTok to grow traffic,',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Social Media Marketing Services in Goodmayes | Professional SMM Solutions',
+                        'subtitle' => 'Growing your brand online can be simple and results-driven with the right social media strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Social Media Marketing Agency in Goodmayes',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional social media marketing services in Goodmayes, helping businesses increase brand visibility, engage audiences, and drive real business results. We deliver complete social media solutions including content creation, paid campaigns, community management, and analytics, ensuring consistent growth from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want to Grow Your Brand on Social Media? We Make It Easy',
+
+                        'description' => 'Managing social media can feel overwhelming, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are a small business or an established brand, our expert team ensures your social media presence is engaging, consistent, and results-driven.',
+
+                        'cta' => 'Get Social Media Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Social Media Marketing Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Content Creation',
+                                'route' => 'services.digi-marketing.smm-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Social Media Strategy',
+                                'route' => 'services.digi-marketing.smm-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Paid Social Campaigns',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Community Management',
+                                'route' => 'services.digi-marketing.smm-services',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International Social Media Marketing Services',
+
+                        'description' => 'Looking to expand beyond Goodmayes? We also provide international social media marketing services to help brands reach global audiences and build strong engagement across multiple regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Social Media Marketing Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business is unique. That’s why we provide tailored social media strategies designed to increase visibility, engagement, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Goodmayes or growing globally, we offer:",
+
+                        'list' => [
+                            'Facebook, Instagram, LinkedIn & TikTok Marketing',
+                            'Content Creation & Brand Development',
+                            'Paid Advertising Campaigns',
+                            'Community Management & Engagement',
+                            'Analytics & Performance Tracking',
+                        ],
+
+                        'bottom_text' => 'Our team ensures your social media channels are fully optimized for growth and consistent performance.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Social Media Solutions',
+
+                        'intro' => 'Looking to improve engagement and ROI? At Cloud Technologies Ltd, we use advanced insights and analytics to create high-performing social media campaigns.',
+
+                        'sub_intro' => 'Our services include:',
+
+                        'list' => [
+                            'Audience research and targeting',
+                            'Content planning and scheduling',
+                            'Performance tracking and reporting',
+                            'Campaign optimisation and testing',
+                            'Brand monitoring and reputation management',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your brand achieves better engagement, increased followers, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Social Media Marketing Solutions',
+
+                        'intro' => 'Looking for cost-effective social media marketing services in Goodmayes? Cloud Technologies Ltd offers flexible and scalable solutions tailored to your business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible service packages',
+                            'Transparent pricing',
+                            'Scalable marketing strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong results without unnecessary costs, making social media growth simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just a social media agency. We are your growth partner, focused on building your brand, increasing engagement, and driving real results.',
+
+                        'description_2' => 'Our experienced team ensures every campaign is strategically planned, creatively executed, and continuously optimized.',
+
+                        'cta' => 'Get Social Media Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional social media experts',
+                            'Data-driven marketing strategies',
+                            'High-quality content and creative campaigns',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and global campaign coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is social media marketing and how does it help my business?',
+                                'a' => 'Social media marketing involves promoting your brand on platforms like Facebook, Instagram, LinkedIn, and TikTok to increase visibility, engagement, and sales.'
+                            ],
+                            [
+                                'q' => 'How quickly can I see results from social media marketing?',
+                                'a' => 'Results can vary, but paid campaigns can generate immediate engagement, while organic growth typically improves over time with consistent strategy.'
+                            ],
+                            [
+                                'q' => 'Which social media platforms should my business use?',
+                                'a' => 'It depends on your target audience and goals. We help you choose the best platforms to maximise reach and engagement.'
+                            ],
+                            [
+                                'q' => 'Do you create content for social media?',
+                                'a' => 'Yes, we create high-quality graphics, videos, and written content tailored to your brand and audience.'
+                            ],
+                            [
+                                'q' => 'Can social media marketing generate leads and sales?',
+                                'a' => 'Yes, with the right strategy and targeted campaigns, social media can drive high-quality leads and increase conversions.'
+                            ],
+                            [
+                                'q' => 'Do you provide performance reports?',
+                                'a' => 'Yes, we provide detailed analytics and reports to track engagement, growth, and campaign performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
 
         ],
         'ppc-advertising' => [
@@ -1563,6 +2249,354 @@ class LocationSeoController extends Controller
                             [
                                 'q' => 'What budget do I need for PPC campaigns?',
                                 'a' => 'Budgets vary depending on your goals, competition, and industry. We offer flexible PPC solutions to suit small, medium, and large businesses in Redbridge.'
+                            ],
+                            [
+                                'q' => 'Can you target specific audiences with PPC ads?',
+                                'a' => 'Yes, PPC advertising allows highly targeted campaigns based on keywords, location, demographics, interests, and user behaviour to reach the right audience.'
+                            ],
+                            [
+                                'q' => 'Do you provide PPC reports and insights?',
+                                'a' => 'Yes, we provide detailed reports showing clicks, impressions, conversions, and overall campaign performance to help you track ROI and growth.'
+                            ],
+                            [
+                                'q' => 'Are PPC management services suitable for all businesses?',
+                                'a' => 'Yes, PPC advertising is suitable for most businesses looking to increase brand visibility, generate leads, and drive sales through targeted online advertising.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'hainault' => [
+                'meta_title' => 'PPC Advertising Agency in Hainault | Pay Per Click Experts',
+                'meta_description' => 'PPC agency in Hainault offering Google Ads and pay-per-click campaigns to increase traffic, leads, and sales with expert advertising strategies.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'PPC Management Services in Hainault | Professional Pay-Per-Click Advertising Solutions',
+                        'subtitle' => 'Growing your business through paid advertising can be simple and results-driven with the right PPC strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted PPC Management Agency in Hainault',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional PPC management services in Hainault, helping businesses reach the right audience, generate qualified leads, and increase conversions. We deliver complete PPC advertising solutions across Google Ads, Bing Ads, display networks, and remarketing campaigns, ensuring measurable growth from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Results from PPC Campaigns? We Make It Easy',
+
+                        'description' => 'Managing successful PPC campaigns can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching your first ad campaign or scaling existing campaigns, our expert team ensures your PPC ads are optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get PPC Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our PPC Management Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Campaign Strategy & Planning',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Keyword Research & Targeting',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Ad Copy & Creative Optimisation',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Performance Tracking & Reporting',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International PPC Advertising Services',
+
+                        'description' => 'Looking to scale beyond Hainault? We also provide international PPC advertising services to help businesses reach global audiences with precision targeting and high-performing campaigns across multiple regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete PPC Management Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique goals. That’s why we create tailored PPC advertising strategies designed to maximise visibility, clicks, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Hainault or expanding further, we offer:",
+
+                        'list' => [
+                            'Google Ads Management',
+                            'Bing Ads Campaigns',
+                            'Display & Remarketing Advertising',
+                            'Shopping Ads Campaigns',
+                            'Conversion Tracking & Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven PPC Advertising Solutions',
+
+                        'intro' => 'Looking to improve your ad performance and ROI? At Cloud Technologies Ltd, we use advanced data insights and testing strategies to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our PPC management services include:',
+
+                        'list' => [
+                            'Keyword research and competitor analysis',
+                            'A/B testing and campaign optimisation',
+                            'Budget management and allocation',
+                            'Conversion tracking and reporting',
+                            'Continuous performance improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your campaigns achieve better visibility, more leads, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable PPC Management Solutions',
+
+                        'intro' => 'Looking for cost-effective PPC management services in Hainault? Cloud Technologies Ltd offers flexible and scalable advertising solutions tailored to your business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible campaign budgets',
+                            'Transparent pricing',
+                            'Scalable PPC advertising strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong results without unnecessary spend, making paid advertising simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just a PPC management agency. We are your growth partner, focused on delivering high-performing PPC campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get PPC Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional PPC experts',
+                            'Data-driven advertising strategies',
+                            'High-converting ad campaigns',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and global campaign coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What are PPC management services and how do they work?',
+                                'a' => 'PPC (Pay-Per-Click) management services involve creating, managing, and optimising paid advertising campaigns on platforms like Google Ads and Bing Ads. These campaigns help businesses attract targeted traffic, generate leads, and increase sales.'
+                            ],
+                            [
+                                'q' => 'How quickly can I see results from PPC advertising?',
+                                'a' => 'PPC campaigns can generate traffic and leads almost immediately after launch. Performance typically improves over time through ongoing optimisation and testing.'
+                            ],
+                            [
+                                'q' => 'What budget do I need for PPC campaigns?',
+                                'a' => 'Budgets vary depending on your goals, competition, and industry. We offer flexible PPC solutions to suit small, medium, and large businesses in Hainault.'
+                            ],
+                            [
+                                'q' => 'Can you target specific audiences with PPC ads?',
+                                'a' => 'Yes, PPC advertising allows highly targeted campaigns based on keywords, location, demographics, interests, and user behaviour to reach the right audience.'
+                            ],
+                            [
+                                'q' => 'Do you provide PPC reports and insights?',
+                                'a' => 'Yes, we provide detailed reports showing clicks, impressions, conversions, and overall campaign performance to help you track ROI and growth.'
+                            ],
+                            [
+                                'q' => 'Are PPC management services suitable for all businesses?',
+                                'a' => 'Yes, PPC advertising is suitable for most businesses looking to increase brand visibility, generate leads, and drive sales through targeted online advertising.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'PPC Advertising Agency in Goodmayes | Pay Per Click Experts',
+                'meta_description' => 'PPC agency in Goodmayes offering Google Ads and pay-per-click campaigns to increase traffic, leads, and sales with expert advertising strategies.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'PPC Management Services in Goodmayes | Professional Pay-Per-Click Advertising Solutions',
+                        'subtitle' => 'Growing your business through paid advertising can be simple and results-driven with the right PPC strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted PPC Management Agency in Goodmayes',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional PPC management services in Goodmayes, helping businesses reach the right audience, generate qualified leads, and increase conversions. We deliver complete PPC advertising solutions across Google Ads, Bing Ads, display networks, and remarketing campaigns, ensuring measurable growth from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Results from PPC Campaigns? We Make It Easy',
+
+                        'description' => 'Managing successful PPC campaigns can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching your first ad campaign or scaling existing campaigns, our expert team ensures your PPC ads are optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get PPC Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our PPC Management Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Campaign Strategy & Planning',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Keyword Research & Targeting',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Ad Copy & Creative Optimisation',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Performance Tracking & Reporting',
+                                'route' => 'services.digi-marketing.ppc-services',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International PPC Advertising Services',
+
+                        'description' => 'Looking to scale beyond Goodmayes? We also provide international PPC advertising services to help businesses reach global audiences with precision targeting and high-performing campaigns across multiple regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete PPC Management Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique goals. That’s why we create tailored PPC advertising strategies designed to maximise visibility, clicks, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Goodmayes or expanding further, we offer:",
+
+                        'list' => [
+                            'Google Ads Management',
+                            'Bing Ads Campaigns',
+                            'Display & Remarketing Advertising',
+                            'Shopping Ads Campaigns',
+                            'Conversion Tracking & Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven PPC Advertising Solutions',
+
+                        'intro' => 'Looking to improve your ad performance and ROI? At Cloud Technologies Ltd, we use advanced data insights and testing strategies to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our PPC management services include:',
+
+                        'list' => [
+                            'Keyword research and competitor analysis',
+                            'A/B testing and campaign optimisation',
+                            'Budget management and allocation',
+                            'Conversion tracking and reporting',
+                            'Continuous performance improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your campaigns achieve better visibility, more leads, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable PPC Management Solutions',
+
+                        'intro' => 'Looking for cost-effective PPC management services in Goodmayes? Cloud Technologies Ltd offers flexible and scalable advertising solutions tailored to your business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible campaign budgets',
+                            'Transparent pricing',
+                            'Scalable PPC advertising strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong results without unnecessary spend, making paid advertising simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just a PPC management agency. We are your growth partner, focused on delivering high-performing PPC campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get PPC Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional PPC experts',
+                            'Data-driven advertising strategies',
+                            'High-converting ad campaigns',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and global campaign coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What are PPC management services and how do they work?',
+                                'a' => 'PPC (Pay-Per-Click) management services involve creating, managing, and optimising paid advertising campaigns on platforms like Google Ads and Bing Ads. These campaigns help businesses attract targeted traffic, generate leads, and increase sales.'
+                            ],
+                            [
+                                'q' => 'How quickly can I see results from PPC advertising?',
+                                'a' => 'PPC campaigns can generate traffic and leads almost immediately after launch. Performance typically improves over time through ongoing optimisation and testing.'
+                            ],
+                            [
+                                'q' => 'What budget do I need for PPC campaigns?',
+                                'a' => 'Budgets vary depending on your goals, competition, and industry. We offer flexible PPC solutions to suit small, medium, and large businesses in Goodmayes.'
                             ],
                             [
                                 'q' => 'Can you target specific audiences with PPC ads?',
@@ -2113,6 +3147,354 @@ class LocationSeoController extends Controller
 
                 ],
             ],
+            'hainault' => [
+                'meta_title' => 'Google Business Profile Services in Hainault | Local SEO Experts',
+                'meta_description' => 'Google Business Profile management in Hainault to improve local SEO, visibility, calls, and leads while helping your business attract more local cus',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Google Business Profile Services in Hainault | Professional Local SEO Solutions',
+                        'subtitle' => 'Improving your local visibility can be simple and results-driven with the right optimisation strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Google Business Profile Experts in Hainault',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional Google Business Profile services in Hainault, helping businesses improve their local presence, attract nearby customers, and increase enquiries. We offer complete optimisation solutions including profile setup, content optimisation, review management, and performance tracking, ensuring measurable local growth from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want More Local Customers? We Make It Easy',
+
+                        'description' => 'Getting found by local customers can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are a small business or an established company, our expert team ensures your Google Business Profile is fully optimised, visible, and results-driven.',
+
+                        'cta' => 'Get Free Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Google Business Profile Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Profile Setup & Verification',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content Optimisation',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Review Management',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Q&A Management',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International Local SEO Support',
+
+                        'description' => 'Looking to expand your visibility beyond Hainault? We also provide strategic local SEO solutions for businesses targeting multiple locations. Our team ensures consistent optimisation, accurate listings, and improved visibility across different regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Google Business Profile Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business is different. That’s why we provide tailored Google Business Profile solutions designed to maximise your local visibility and customer engagement.',
+
+                        'sub_intro' => "Whether you're targeting customers in Hainault or nearby areas, we offer:",
+
+                        'list' => [
+                            'Google Business Profile Setup & Verification',
+                            'Content Optimisation & Enhancement',
+                            'Review Management & Responses',
+                            'Posts & Updates Publishing',
+                            'Q&A Management & Monitoring',
+                        ],
+
+                        'bottom_text' => 'Our team works efficiently, using proven local SEO strategies to improve your visibility and drive real customer actions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Local SEO Solutions',
+
+                        'intro' => 'Looking to boost your local rankings and customer engagement? At Cloud Technologies Ltd, we use advanced tools and insights to optimise your Google Business Profile for maximum performance.',
+
+                        'sub_intro' => 'Our services include:',
+
+                        'list' => [
+                            'Keyword and local search optimisation',
+                            'Customer engagement tracking',
+                            'Performance monitoring and reporting',
+                            'Conversion-focused optimisation',
+                            'Continuous profile improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves better visibility, more enquiries, and higher local conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Google Business Profile Solutions',
+
+                        'intro' => 'Looking for cost-effective Google Business Profile services in Hainault? Cloud Technologies Ltd offers flexible and affordable solutions tailored to suit businesses of all sizes.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible service plans',
+                            'Transparent pricing',
+                            'Scalable local SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We are committed to delivering high-quality optimisation without unnecessary costs, making local growth simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just a local SEO agency. We are your growth partner, focused on helping your business stand out in local search results and attract more customers.',
+
+                        'description_2' => 'Our experienced team is dedicated to delivering high-quality optimisation with attention to detail for every profile.',
+
+                        'cta' => 'Get Free Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional local SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Advanced tools and insights',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and surrounding area coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is Google Business Profile and why is it important?',
+                                'a' => 'Google Business Profile is a free tool that helps your business appear in local search results and Google Maps. It improves your visibility, builds trust, and helps customers find and contact your business easily.'
+                            ],
+                            [
+                                'q' => 'How does Google Business Profile help my business grow?',
+                                'a' => 'An optimised profile increases your chances of appearing in local searches, attracting more clicks, calls, and visits from nearby customers.'
+                            ],
+                            [
+                                'q' => 'How long does it take to see results from optimisation?',
+                                'a' => 'You can start seeing improvements within a few weeks, but consistent optimisation delivers the best long-term results in local rankings and customer engagement.'
+                            ],
+                            [
+                                'q' => 'Can you manage and respond to customer reviews?',
+                                'a' => 'Yes, we help manage your reviews by responding professionally, improving your reputation, and building customer trust.'
+                            ],
+                            [
+                                'q' => 'Do you provide reports and insights?',
+                                'a' => 'Yes, we provide detailed insights and performance reports showing views, clicks, and customer actions to help you track growth.'
+                            ],
+                            [
+                                'q' => 'Is Google Business Profile suitable for all businesses?',
+                                'a' => 'Yes, it is ideal for any business targeting local customers, including service providers, shops, and professional services in Hainault.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Google Business Profile Services in Goodmayes | Local SEO Experts',
+                'meta_description' => 'Google Business Profile management in Goodmayes to improve local SEO, visibility, calls, and leads while helping your business attract more local customers',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Google Business Profile Services in Goodmayes | Professional Local SEO Solutions',
+                        'subtitle' => 'Improving your local visibility can be simple and results-driven with the right optimisation strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Google Business Profile Experts in Goodmayes',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional Google Business Profile services in Goodmayes, helping businesses improve their local presence, attract nearby customers, and increase enquiries. We offer complete optimisation solutions including profile setup, content optimisation, review management, and performance tracking, ensuring measurable local growth from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want More Local Customers? We Make It Easy',
+
+                        'description' => 'Getting found by local customers can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are a small business or an established company, our expert team ensures your Google Business Profile is fully optimised, visible, and results-driven.',
+
+                        'cta' => 'Get Free Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Google Business Profile Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Profile Setup & Verification',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content Optimisation',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Review Management',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Q&A Management',
+                                'route' => 'services.digi-marketing.google-my-business-optimisation',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International Local SEO Support',
+
+                        'description' => 'Looking to expand your visibility beyond Goodmayes? We also provide strategic local SEO solutions for businesses targeting multiple locations. Our team ensures consistent optimisation, accurate listings, and improved visibility across different regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Google Business Profile Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business is different. That’s why we provide tailored Google Business Profile solutions designed to maximise your local visibility and customer engagement.',
+
+                        'sub_intro' => "Whether you're targeting customers in Goodmayes or nearby areas, we offer:",
+
+                        'list' => [
+                            'Google Business Profile Setup & Verification',
+                            'Content Optimisation & Enhancement',
+                            'Review Management & Responses',
+                            'Posts & Updates Publishing',
+                            'Q&A Management & Monitoring',
+                        ],
+
+                        'bottom_text' => 'Our team works efficiently, using proven local SEO strategies to improve your visibility and drive real customer actions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Local SEO Solutions',
+
+                        'intro' => 'Looking to boost your local rankings and customer engagement? At Cloud Technologies Ltd, we use advanced tools and insights to optimise your Google Business Profile for maximum performance.',
+
+                        'sub_intro' => 'Our services include:',
+
+                        'list' => [
+                            'Keyword and local search optimisation',
+                            'Customer engagement tracking',
+                            'Performance monitoring and reporting',
+                            'Conversion-focused optimisation',
+                            'Continuous profile improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves better visibility, more enquiries, and higher local conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Google Business Profile Solutions',
+
+                        'intro' => 'Looking for cost-effective Google Business Profile services in Goodmayes? Cloud Technologies Ltd offers flexible and affordable solutions tailored to suit businesses of all sizes.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible service plans',
+                            'Transparent pricing',
+                            'Scalable local SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We are committed to delivering high-quality optimisation without unnecessary costs, making local growth simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just a local SEO agency. We are your growth partner, focused on helping your business stand out in local search results and attract more customers.',
+
+                        'description_2' => 'Our experienced team is dedicated to delivering high-quality optimisation with attention to detail for every profile.',
+
+                        'cta' => 'Get Free Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional local SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Advanced tools and insights',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and surrounding area coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is Google Business Profile and why is it important?',
+                                'a' => 'Google Business Profile is a free tool that helps your business appear in local search results and Google Maps. It improves your visibility, builds trust, and helps customers find and contact your business easily.'
+                            ],
+                            [
+                                'q' => 'How does Google Business Profile help my business grow?',
+                                'a' => 'An optimised profile increases your chances of appearing in local searches, attracting more clicks, calls, and visits from nearby customers.'
+                            ],
+                            [
+                                'q' => 'How long does it take to see results from optimisation?',
+                                'a' => 'You can start seeing improvements within a few weeks, but consistent optimisation delivers the best long-term results in local rankings and customer engagement.'
+                            ],
+                            [
+                                'q' => 'Can you manage and respond to customer reviews?',
+                                'a' => 'Yes, we help manage your reviews by responding professionally, improving your reputation, and building customer trust.'
+                            ],
+                            [
+                                'q' => 'Do you provide reports and insights?',
+                                'a' => 'Yes, we provide detailed insights and performance reports showing views, clicks, and customer actions to help you track growth.'
+                            ],
+                            [
+                                'q' => 'Is Google Business Profile suitable for all businesses?',
+                                'a' => 'Yes, it is ideal for any business targeting local customers, including service providers, shops, and professional services in Goodmayes.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
 
         ],
 
@@ -2640,6 +4022,354 @@ class LocationSeoController extends Controller
 
                 ],
             ],
+            'hainault' => [
+                'meta_title' => 'Meta Ads Services in Hainault | Facebook & Instagram Ads Experts',
+                'meta_description' => 'Meta Ads services in Hainault offering Facebook and Instagram advertising to increase traffic, leads, and sales with targeted campaigns and expert',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Meta Ads Services in Hainault | Professional Social Media Advertising Solutions',
+                        'subtitle' => 'Growing your business through paid social media can be simple and results-driven with the right advertising strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Meta Advertising Agency in Hainault',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional Meta Ads services in Hainault, helping businesses reach the right audience, increase engagement, and drive conversions. We deliver complete advertising solutions across Meta platforms including Facebook, Instagram, Messenger, and Audience Network, ensuring measurable growth from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Results from Paid Social? We Make It Easy',
+
+                        'description' => 'Running successful ad campaigns can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching your first campaign or scaling existing ads, our expert team ensures your Meta Ads are optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Meta Ads Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Meta Ads Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Campaign Strategy & Planning',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Audience Targeting',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Ad Creative & Copywriting',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Performance Tracking',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International Meta Advertising Services',
+
+                        'description' => 'Looking to scale beyond Hainault? We also provide international Meta advertising services to help businesses reach global audiences with precision targeting and high-performing campaigns across multiple regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Meta Ads Services in Hainault',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique goals. That’s why we create tailored Meta advertising strategies designed to maximise reach, engagement, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Hainault or expanding further, we offer:",
+
+                        'list' => [
+                            'Facebook & Instagram Advertising',
+                            'Messenger & Audience Network Ads',
+                            'Campaign Setup & Management',
+                            'Retargeting & Remarketing Campaigns',
+                            'Conversion Tracking & Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Meta Advertising Solutions',
+
+                        'intro' => 'Looking to improve your ad performance and ROI? At Cloud Technologies Ltd, we use advanced data insights and testing strategies to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our Meta Ads services include:',
+
+                        'list' => [
+                            'Audience research and segmentation',
+                            'A/B testing and campaign optimisation',
+                            'Budget management and allocation',
+                            'Conversion tracking and reporting',
+                            'Continuous performance improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your campaigns achieve better engagement, more leads, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Meta Ads Solutions',
+
+                        'intro' => 'Looking for cost-effective Meta Ads services in Hainault? Cloud Technologies Ltd offers flexible and scalable advertising solutions tailored to your business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible campaign budgets',
+                            'Transparent pricing',
+                            'Scalable advertising strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong results without unnecessary spend, making paid advertising simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an advertising agency. We are your growth partner, focused on delivering high-performing Meta campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Meta Ads Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional Meta Ads experts',
+                            'Data-driven advertising strategies',
+                            'High-converting ad creatives and campaigns',
+                            'Affordable pricing with no hidden costs',
+                            'Hainault and global campaign coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What are Meta Ads and how do they work?',
+                                'a' => 'Meta Ads are paid advertisements run on platforms like Facebook, Instagram, Messenger, and Audience Network. They help businesses reach targeted audiences, increase engagement, and drive conversions.'
+                            ],
+                            [
+                                'q' => 'How quickly can I see results from Meta Ads?',
+                                'a' => 'Meta Ads can deliver results almost immediately after launching campaigns, with performance improving over time through optimization and testing.'
+                            ],
+                            [
+                                'q' => 'What budget do I need for Meta Ads?',
+                                'a' => 'Budgets can vary depending on your goals and competition. We offer flexible solutions to suit small, medium, and large businesses in Hainault.'
+                            ],
+                            [
+                                'q' => 'Can you target specific audiences?',
+                                'a' => 'Yes, Meta Ads allow highly precise targeting based on demographics, interests, behaviours, and custom audiences to reach the right people.'
+                            ],
+                            [
+                                'q' => 'Do you provide reporting and insights?',
+                                'a' => 'Yes, we provide detailed reports showing impressions, clicks, conversions, and campaign performance to track your ROI.'
+                            ],
+                            [
+                                'q' => 'Are Meta Ads suitable for all businesses?',
+                                'a' => 'Yes, Meta Ads are ideal for most businesses looking to increase brand awareness, generate leads, and drive sales online.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'goodmayes' => [
+                'meta_title' => 'Meta Ads Services in Goodmayes | Facebook & Instagram Ads Experts',
+                'meta_description' => 'Meta Ads services in Goodmayes offering Facebook and Instagram advertising to increase traffic, leads, and sales with targeted campaigns and ex',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Meta Ads Services in Goodmayes | Professional Social Media Advertising Solutions',
+                        'subtitle' => 'Growing your business through paid social media can be simple and results-driven with the right advertising strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Meta Advertising Agency in Goodmayes',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional Meta Ads services in Goodmayes, helping businesses reach the right audience, increase engagement, and drive conversions. We deliver complete advertising solutions across Meta platforms including Facebook, Instagram, Messenger, and Audience Network, ensuring measurable growth from start to finish.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Results from Paid Social? We Make It Easy',
+
+                        'description' => 'Running successful ad campaigns can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching your first campaign or scaling existing ads, our expert team ensures your Meta Ads are optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Meta Ads Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Meta Ads Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Campaign Strategy & Planning',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Audience Targeting',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Ad Creative & Copywriting',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Performance Tracking',
+                                'route' => 'services.digi-marketing.meta-ads-services',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International Meta Advertising Services',
+
+                        'description' => 'Looking to scale beyond Goodmayes? We also provide international Meta advertising services to help businesses reach global audiences with precision targeting and high-performing campaigns across multiple regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Meta Ads Services in Goodmayes',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique goals. That’s why we create tailored Meta advertising strategies designed to maximise reach, engagement, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Goodmayes or expanding further, we offer:",
+
+                        'list' => [
+                            'Facebook & Instagram Advertising',
+                            'Messenger & Audience Network Ads',
+                            'Campaign Setup & Management',
+                            'Retargeting & Remarketing Campaigns',
+                            'Conversion Tracking & Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Meta Advertising Solutions',
+
+                        'intro' => 'Looking to improve your ad performance and ROI? At Cloud Technologies Ltd, we use advanced data insights and testing strategies to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our Meta Ads services include:',
+
+                        'list' => [
+                            'Audience research and segmentation',
+                            'A/B testing and campaign optimisation',
+                            'Budget management and allocation',
+                            'Conversion tracking and reporting',
+                            'Continuous performance improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your campaigns achieve better engagement, more leads, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Meta Ads Solutions',
+
+                        'intro' => 'Looking for cost-effective Meta Ads services in Goodmayes? Cloud Technologies Ltd offers flexible and scalable advertising solutions tailored to your business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible campaign budgets',
+                            'Transparent pricing',
+                            'Scalable advertising strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong results without unnecessary spend, making paid advertising simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an advertising agency. We are your growth partner, focused on delivering high-performing Meta campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Meta Ads Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional Meta Ads experts',
+                            'Data-driven advertising strategies',
+                            'High-converting ad creatives and campaigns',
+                            'Affordable pricing with no hidden costs',
+                            'Goodmayes and global campaign coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What are Meta Ads and how do they work?',
+                                'a' => 'Meta Ads are paid advertisements run on platforms like Facebook, Instagram, Messenger, and Audience Network. They help businesses reach targeted audiences, increase engagement, and drive conversions.'
+                            ],
+                            [
+                                'q' => 'How quickly can I see results from Meta Ads?',
+                                'a' => 'Meta Ads can deliver results almost immediately after launching campaigns, with performance improving over time through optimization and testing.'
+                            ],
+                            [
+                                'q' => 'What budget do I need for Meta Ads?',
+                                'a' => 'Budgets can vary depending on your goals and competition. We offer flexible solutions to suit small, medium, and large businesses in Goodmayes.'
+                            ],
+                            [
+                                'q' => 'Can you target specific audiences?',
+                                'a' => 'Yes, Meta Ads allow highly precise targeting based on demographics, interests, behaviours, and custom audiences to reach the right people.'
+                            ],
+                            [
+                                'q' => 'Do you provide reporting and insights?',
+                                'a' => 'Yes, we provide detailed reports showing impressions, clicks, conversions, and campaign performance to track your ROI.'
+                            ],
+                            [
+                                'q' => 'Are Meta Ads suitable for all businesses?',
+                                'a' => 'Yes, Meta Ads are ideal for most businesses looking to increase brand awareness, generate leads, and drive sales online.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
         ],
 
         'seo' => [
@@ -2826,185 +4556,185 @@ class LocationSeoController extends Controller
 
                 ],
             ],
-            'harrow' => [
-                'meta_title' => 'SEO Agency in Harrow | Expert SEO Services',
+            // 'harrow' => [
+            //     'meta_title' => 'SEO Agency in Harrow | Expert SEO Services',
 
-                'meta_description' => 'Professional SEO agency in Harrow offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
+            //     'meta_description' => 'Professional SEO agency in Harrow offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
 
-                'content' => [
+            //     'content' => [
 
-                    'hero' => [
-                        'title' => 'SEO Agency in Harrow | Professional SEO Services for Business Growth',
-                        'subtitle' => 'Growing your business online can be simple and results-driven with the right SEO strategy.',
-                    ],
+            //         'hero' => [
+            //             'title' => 'SEO Agency in Harrow | Professional SEO Services for Business Growth',
+            //             'subtitle' => 'Growing your business online can be simple and results-driven with the right SEO strategy.',
+            //         ],
 
-                    'trust' => [
-                        'title' => 'Trusted SEO Agency in Harrow',
+            //         'trust' => [
+            //             'title' => 'Trusted SEO Agency in Harrow',
 
-                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional SEO services in Harrow, helping businesses improve search rankings, increase website traffic, and generate more qualified leads. We deliver complete SEO solutions including Local SEO, Technical SEO, On-Page SEO, Content Optimisation, and Link Building strategies designed for long-term growth and measurable results.'
-                    ],
+            //             'description' => 'At Cloud Technologies Ltd, we provide reliable and professional SEO services in Harrow, helping businesses improve search rankings, increase website traffic, and generate more qualified leads. We deliver complete SEO solutions including Local SEO, Technical SEO, On-Page SEO, Content Optimisation, and Link Building strategies designed for long-term growth and measurable results.'
+            //         ],
 
-                    'growth' => [
-                        'title' => 'Want Better Google Rankings? We Make It Easy',
+            //         'growth' => [
+            //             'title' => 'Want Better Google Rankings? We Make It Easy',
 
-                        'description' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+            //             'description' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
 
-                        'cta' => 'Get Free SEO Audit'
-                    ],
+            //             'cta' => 'Get Free SEO Audit'
+            //         ],
 
-                    'services_glance' => [
-                        'title' => 'Our SEO Services at a Glance',
+            //         'services_glance' => [
+            //             'title' => 'Our SEO Services at a Glance',
 
-                        'items' => [
-                            [
-                                'title' => 'Local SEO Services',
-                                'route' => 'services.seo.local-seo',
-                                'cta' => 'Explore Now'
-                            ],
-                            [
-                                'title' => 'Technical SEO Optimisation',
-                                'route' => 'services.seo.technical-seo',
-                                'cta' => 'Explore Now'
-                            ],
-                            [
-                                'title' => 'Content & On-Page SEO',
-                                'route' => 'services.seo.on-page-seo',
-                                'cta' => 'Explore Now'
-                            ],
-                            [
-                                'title' => 'SEO Performance Tracking',
-                                'route' => 'services.seo.national-seo',
-                                'cta' => 'Explore Now'
-                            ],
-                        ]
-                    ],
+            //             'items' => [
+            //                 [
+            //                     'title' => 'Local SEO Services',
+            //                     'route' => 'services.seo.local-seo',
+            //                     'cta' => 'Explore Now'
+            //                 ],
+            //                 [
+            //                     'title' => 'Technical SEO Optimisation',
+            //                     'route' => 'services.seo.technical-seo',
+            //                     'cta' => 'Explore Now'
+            //                 ],
+            //                 [
+            //                     'title' => 'Content & On-Page SEO',
+            //                     'route' => 'services.seo.on-page-seo',
+            //                     'cta' => 'Explore Now'
+            //                 ],
+            //                 [
+            //                     'title' => 'SEO Performance Tracking',
+            //                     'route' => 'services.seo.national-seo',
+            //                     'cta' => 'Explore Now'
+            //                 ],
+            //             ]
+            //         ],
 
-                    'international' => [
-                        'title' => 'International SEO Services',
+            //         'international' => [
+            //             'title' => 'International SEO Services',
 
-                        'description' => 'Looking to expand beyond Harrow? We also provide international SEO services to help businesses improve search visibility and reach customers across multiple countries and regions.',
+            //             'description' => 'Looking to expand beyond Harrow? We also provide international SEO services to help businesses improve search visibility and reach customers across multiple countries and regions.',
 
-                        'cta' => 'Get a Quote'
-                    ],
+            //             'cta' => 'Get a Quote'
+            //         ],
 
-                    'complete_services' => [
-                        'title' => 'Complete SEO Services in Harrow',
+            //         'complete_services' => [
+            //             'title' => 'Complete SEO Services in Harrow',
 
-                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
+            //             'intro' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
 
-                        'sub_intro' => "Whether you're targeting customers in Harrow or expanding further, we offer:",
+            //             'sub_intro' => "Whether you're targeting customers in Harrow or expanding further, we offer:",
 
-                        'list' => [
-                            'Local SEO Campaigns',
-                            'Technical SEO Audits',
-                            'On-Page SEO Optimisation',
-                            'Keyword Research & Strategy',
-                            'Content Optimisation',
-                            'Link Building Services',
-                            'Google Business Profile Optimisation',
-                            'Ecommerce SEO Solutions',
-                        ],
+            //             'list' => [
+            //                 'Local SEO Campaigns',
+            //                 'Technical SEO Audits',
+            //                 'On-Page SEO Optimisation',
+            //                 'Keyword Research & Strategy',
+            //                 'Content Optimisation',
+            //                 'Link Building Services',
+            //                 'Google Business Profile Optimisation',
+            //                 'Ecommerce SEO Solutions',
+            //             ],
 
-                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+            //             'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
 
-                        'cta' => 'Get a Quote'
-                    ],
+            //             'cta' => 'Get a Quote'
+            //         ],
 
-                    'data_driven' => [
-                        'title' => 'Data-Driven SEO Solutions',
+            //         'data_driven' => [
+            //             'title' => 'Data-Driven SEO Solutions',
 
-                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+            //             'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
 
-                        'sub_intro' => 'Our SEO services include:',
+            //             'sub_intro' => 'Our SEO services include:',
 
-                        'list' => [
-                            'Website SEO audits',
-                            'Competitor keyword analysis',
-                            'Technical performance improvements',
-                            'SEO content optimisation',
-                            'Conversion tracking and reporting',
-                            'Continuous SEO improvements',
-                        ],
+            //             'list' => [
+            //                 'Website SEO audits',
+            //                 'Competitor keyword analysis',
+            //                 'Technical performance improvements',
+            //                 'SEO content optimisation',
+            //                 'Conversion tracking and reporting',
+            //                 'Continuous SEO improvements',
+            //             ],
 
-                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+            //             'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
 
-                        'cta' => 'Get a Quote'
-                    ],
+            //             'cta' => 'Get a Quote'
+            //         ],
 
-                    'affordable' => [
-                        'title' => 'Affordable SEO Services in Harrow',
+            //         'affordable' => [
+            //             'title' => 'Affordable SEO Services in Harrow',
 
-                        'intro' => 'Looking for cost-effective SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+            //             'intro' => 'Looking for cost-effective SEO services in Harrow? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
 
-                        'sub_intro' => 'Our solutions include:',
+            //             'sub_intro' => 'Our solutions include:',
 
-                        'list' => [
-                            'Flexible SEO packages',
-                            'Transparent pricing',
-                            'Scalable SEO campaigns',
-                        ],
+            //             'list' => [
+            //                 'Flexible SEO packages',
+            //                 'Transparent pricing',
+            //                 'Scalable SEO campaigns',
+            //             ],
 
-                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making SEO simple, effective, and affordable.',
+            //             'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making SEO simple, effective, and affordable.',
 
-                        'cta' => 'Get a Quote'
-                    ],
+            //             'cta' => 'Get a Quote'
+            //         ],
 
-                    'why_choose' => [
-                        'title' => 'Why Choose Cloud Technologies Ltd',
+            //         'why_choose' => [
+            //             'title' => 'Why Choose Cloud Technologies Ltd',
 
-                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+            //             'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
 
-                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+            //             'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
 
-                        'cta' => 'Get Free SEO Audit'
-                    ],
+            //             'cta' => 'Get Free SEO Audit'
+            //         ],
 
-                    'promise' => [
-                        'title' => 'What We Promise Our Clients',
+            //         'promise' => [
+            //             'title' => 'What We Promise Our Clients',
 
-                        'items' => [
-                            'Experienced and professional SEO experts',
-                            'Data-driven SEO strategies',
-                            'Ethical white-hat SEO practices',
-                            'Affordable pricing with no hidden costs',
-                            'Harrow and UK-wide SEO coverage',
-                            'Friendly and reliable support team',
-                        ]
-                    ],
+            //             'items' => [
+            //                 'Experienced and professional SEO experts',
+            //                 'Data-driven SEO strategies',
+            //                 'Ethical white-hat SEO practices',
+            //                 'Affordable pricing with no hidden costs',
+            //                 'Harrow and UK-wide SEO coverage',
+            //                 'Friendly and reliable support team',
+            //             ]
+            //         ],
 
-                    'faq' => [
-                        'title' => 'FAQ',
+            //         'faq' => [
+            //             'title' => 'FAQ',
 
-                        'items' => [
-                            [
-                                'q' => 'What is SEO and how does it work?',
-                                'a' => 'SEO improves your website’s visibility on search engines like Google to help attract more organic traffic, leads, and customers.'
-                            ],
-                            [
-                                'q' => 'How long does SEO take to show results?',
-                                'a' => 'Most businesses begin seeing measurable SEO improvements within 3 to 6 months depending on competition and website condition.'
-                            ],
-                            [
-                                'q' => 'Do you provide local SEO services?',
-                                'a' => 'Yes, we provide local SEO services in Harrow to help businesses improve visibility in local Google searches and Google Maps results.'
-                            ],
-                            [
-                                'q' => 'Can SEO help generate more leads?',
-                                'a' => 'Yes, effective SEO helps attract targeted visitors actively searching for your products or services online.'
-                            ],
-                            [
-                                'q' => 'Do you provide SEO reports?',
-                                'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'
-                            ],
-                            [
-                                'q' => 'Do you follow Google-approved SEO practices?',
-                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable rankings and long-term growth.'
-                            ],
-                        ]
-                    ],
+            //             'items' => [
+            //                 [
+            //                     'q' => 'What is SEO and how does it work?',
+            //                     'a' => 'SEO improves your website’s visibility on search engines like Google to help attract more organic traffic, leads, and customers.'
+            //                 ],
+            //                 [
+            //                     'q' => 'How long does SEO take to show results?',
+            //                     'a' => 'Most businesses begin seeing measurable SEO improvements within 3 to 6 months depending on competition and website condition.'
+            //                 ],
+            //                 [
+            //                     'q' => 'Do you provide local SEO services?',
+            //                     'a' => 'Yes, we provide local SEO services in Harrow to help businesses improve visibility in local Google searches and Google Maps results.'
+            //                 ],
+            //                 [
+            //                     'q' => 'Can SEO help generate more leads?',
+            //                     'a' => 'Yes, effective SEO helps attract targeted visitors actively searching for your products or services online.'
+            //                 ],
+            //                 [
+            //                     'q' => 'Do you provide SEO reports?',
+            //                     'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'
+            //                 ],
+            //                 [
+            //                     'q' => 'Do you follow Google-approved SEO practices?',
+            //                     'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable rankings and long-term growth.'
+            //                 ],
+            //             ]
+            //         ],
 
-                ],
-            ],
+            //     ],
+            // ],
             'collier-row' => [
                 'meta_title' => 'SEO Agency in Collier Row | Expert SEO Services',
                 'meta_description' => 'Professional SEO agency in Collier Row offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
@@ -3684,6 +5414,362 @@ class LocationSeoController extends Controller
                             [
                                 'q' => 'Do you provide local SEO services?',
                                 'a' => 'Yes, we provide local SEO services in Loughton to help businesses improve visibility in local Google searches and Google Maps results.'
+                            ],
+                            [
+                                'q' => 'Can SEO help generate more leads?',
+                                'a' => 'Yes, effective SEO helps attract targeted visitors actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'SEO Agency in Buckhurst Hill | Expert SEO Services',
+                'meta_description' => 'Professional SEO agency in Buckhurst Hill offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'SEO Agency in Buckhurst Hill | Professional SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted SEO Agency in Buckhurst Hill',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional SEO services in Buckhurst Hill, helping businesses improve search rankings, increase website traffic, and generate qualified leads. We deliver complete SEO solutions including Local SEO, Technical SEO, On-Page SEO, Content Optimisation, and Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+
+                        'description' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Local SEO Services',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+
+                        'description' => 'Looking to expand beyond Buckhurst Hill? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete SEO Services in Buckhurst Hill',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Buckhurst Hill or expanding further, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Link Building Services',
+                            'Google Business Profile Optimisation',
+                            'Ecommerce SEO Solutions',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable SEO Services in Buckhurst Hill',
+
+                        'intro' => 'Looking for cost-effective SEO services in Buckhurst Hill? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hill and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is SEO and how does it work?',
+                                'a' => 'SEO improves your website’s visibility on search engines like Google to help attract more organic traffic, leads, and customers.'
+                            ],
+                            [
+                                'q' => 'How long does SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable SEO improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO services?',
+                                'a' => 'Yes, we provide local SEO services in Buckhurst Hill to help businesses improve visibility in local Google searches and Google Maps results.'
+                            ],
+                            [
+                                'q' => 'Can SEO help generate more leads?',
+                                'a' => 'Yes, effective SEO helps attract targeted visitors actively searching for your products or services online.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable rankings and long-term growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'chigwell' => [
+                'meta_title' => 'SEO Agency in Chigwell | Expert SEO Services',
+                'meta_description' => 'Professional SEO agency in Chigwell offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'SEO Agency in Chigwell | Professional SEO Services for Business Growth',
+                        'subtitle' => 'Growing your business online can be simple and results-driven with the right SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted SEO Agency in Loughton',
+
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional SEO services in Loughton, helping businesses improve search rankings, increase website traffic, and generate qualified leads. We deliver complete SEO solutions including Local SEO, Technical SEO, On-Page SEO, Content Optimisation, and Link Building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+
+                        'description' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Local SEO Services',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'Explore Now'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+
+                        'description' => 'Looking to expand beyond Loughton? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting customers in Chigwellor expanding further, we offer:",
+
+                        'list' => [
+                            'Local SEO Campaigns',
+                            'Technical SEO Audits',
+                            'On-Page SEO Optimisation',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Link Building Services',
+                            'Google Business Profile Optimisation',
+                            'Ecommerce SEO Solutions',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable SEO Services in Loughton',
+
+                        'intro' => 'Looking for cost-effective SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is SEO and how does it work?',
+                                'a' => 'SEO improves your website’s visibility on search engines like Google to help attract more organic traffic, leads, and customers.'
+                            ],
+                            [
+                                'q' => 'How long does SEO take to show results?',
+                                'a' => 'Most businesses begin seeing measurable SEO improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO services?',
+                                'a' => 'Yes, we provide local SEO services in Chigwellto help businesses improve visibility in local Google searches and Google Maps results.'
                             ],
                             [
                                 'q' => 'Can SEO help generate more leads?',
@@ -4772,6 +6858,352 @@ class LocationSeoController extends Controller
 
                 ],
             ],
+            'chigwell' => [
+                'meta_title' => 'National SEO Services Chigwell | UK SEO Experts',
+                'meta_description' => 'National SEO services in Chigwell helping businesses increase nationwide rankings, organic traffic and leads with scalable SEO strategies across the UK.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'National SEO Services Chigwell | Professional UK-Wide SEO Solutions',
+                        'subtitle' => 'Growing your business across the UK can be simple and results-driven with the right national SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted National SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional national SEO services in Loughton, helping businesses improve search visibility, increase organic traffic, and generate qualified leads across the UK. We deliver complete national SEO solutions including technical SEO, on-page SEO, content optimisation, link building, and nationwide keyword targeting designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better UK-Wide Rankings? We Make It Easy',
+                        'description' => 'Managing national SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or scaling your business across the UK, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our National SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'National Keyword Targeting',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+                        'description' => 'Looking to expand beyond the UK? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete National SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique growth goals. That’s why we create tailored national SEO strategies designed to maximise visibility, traffic, and conversions across competitive UK search markets.',
+
+                        'sub_intro' => "Whether you're targeting local customers or scaling nationwide, we offer:",
+
+                        'list' => [
+                            'National SEO Campaigns',
+                            'Technical SEO Audits',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Authority Link Building',
+                            'SEO Content Creation',
+                            'Conversion Optimisation',
+                            'Ecommerce National SEO',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven National SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact across the UK.',
+
+                        'sub_intro' => 'Our national SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable National SEO Services',
+
+                        'intro' => 'Looking for cost-effective national SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable national SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making national SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your national growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is national SEO?',
+                                'a' => 'National SEO is the process of optimizing your website to rank for competitive keywords across the entire UK rather than targeting only local areas.'
+                            ],
+                            [
+                                'q' => 'How is national SEO different from local SEO?',
+                                'a' => 'Local SEO focuses on specific geographic areas, while national SEO targets broader audiences across the country.'
+                            ],
+                            [
+                                'q' => 'How long does national SEO take?',
+                                'a' => 'Most businesses start seeing measurable improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Can national SEO increase sales?',
+                                'a' => 'Yes, national SEO helps attract high-intent users from across the UK, improving leads and online sales.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including rankings, traffic performance, and campaign insights.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed for long-term rankings and sustainable growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'National SEO Services Buckhurst Hill | UK SEO Experts',
+                'meta_description' => 'National SEO services in Buckhurst Hill helping businesses increase nationwide rankings, organic traffic and leads with scalable SEO strategies across the UK.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'National SEO Services Buckhurst Hill | Professional UK-Wide SEO Solutions',
+                        'subtitle' => 'Growing your business across the UK can be simple and results-driven with the right national SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted National SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional national SEO services in Loughton, helping businesses improve search visibility, increase organic traffic, and generate qualified leads across the UK. We deliver complete national SEO solutions including technical SEO, on-page SEO, content optimisation, link building, and nationwide keyword targeting designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better UK-Wide Rankings? We Make It Easy',
+                        'description' => 'Managing national SEO campaigns can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or scaling your business across the UK, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our National SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'National Keyword Targeting',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Technical SEO Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Content & On-Page SEO',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.national-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'International SEO Services',
+                        'description' => 'Looking to expand beyond the UK? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete National SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has unique growth goals. That’s why we create tailored national SEO strategies designed to maximise visibility, traffic, and conversions across competitive UK search markets.',
+
+                        'sub_intro' => "Whether you're targeting local customers or scaling nationwide, we offer:",
+
+                        'list' => [
+                            'National SEO Campaigns',
+                            'Technical SEO Audits',
+                            'Keyword Research & Strategy',
+                            'Content Optimisation',
+                            'Authority Link Building',
+                            'SEO Content Creation',
+                            'Conversion Optimisation',
+                            'Ecommerce National SEO',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven National SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact across the UK.',
+
+                        'sub_intro' => 'Our national SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Competitor keyword analysis',
+                            'Technical performance improvements',
+                            'SEO content optimisation',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable National SEO Services',
+
+                        'intro' => 'Looking for cost-effective national SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable national SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making national SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your national growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hilland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is national SEO?',
+                                'a' => 'National SEO is the process of optimizing your website to rank for competitive keywords across the entire UK rather than targeting only local areas.'
+                            ],
+                            [
+                                'q' => 'How is national SEO different from local SEO?',
+                                'a' => 'Local SEO focuses on specific geographic areas, while national SEO targets broader audiences across the country.'
+                            ],
+                            [
+                                'q' => 'How long does national SEO take?',
+                                'a' => 'Most businesses start seeing measurable improvements within 3 to 6 months depending on competition and website condition.'
+                            ],
+                            [
+                                'q' => 'Can national SEO increase sales?',
+                                'a' => 'Yes, national SEO helps attract high-intent users from across the UK, improving leads and online sales.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed SEO reports including rankings, traffic performance, and campaign insights.'
+                            ],
+                            [
+                                'q' => 'Do you follow Google-approved SEO practices?',
+                                'a' => 'Yes, we use ethical white-hat SEO strategies designed for long-term rankings and sustainable growth.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
 
 
 
@@ -5811,6 +8243,354 @@ class LocationSeoController extends Controller
                             'Ethical white-hat SEO practices',
                             'Affordable pricing with no hidden costs',
                             'Loughton and global SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is international SEO?',
+                                'a' => 'International SEO is the process of optimizing your website to rank in multiple countries and languages across global search engines.'
+                            ],
+                            [
+                                'q' => 'How does international SEO work?',
+                                'a' => 'It involves multilingual optimisation, country targeting, hreflang setup, international keyword research, and global content strategies.'
+                            ],
+                            [
+                                'q' => 'How long does international SEO take?',
+                                'a' => 'Most businesses see improvements within 3 to 6 months depending on competition and target countries.'
+                            ],
+                            [
+                                'q' => 'Do you provide multilingual SEO?',
+                                'a' => 'Yes, we provide multilingual SEO services to help businesses rank in different languages and regions.'
+                            ],
+                            [
+                                'q' => 'Can international SEO increase global sales?',
+                                'a' => 'Yes, it helps attract international customers and improves conversions across multiple markets.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed international SEO reports including rankings, traffic, and global performance insights.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'chigwell' => [
+                'meta_title' => 'International SEO Agency Chigwell | Global SEO Experts',
+                'meta_description' => 'International SEO agency in Chigwell providing multilingual SEO, global targeting and search optimization for worldwide business growth online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'International SEO Agency Chigwell | Global SEO Services for Business Growth',
+                        'subtitle' => 'Expanding your business globally can be simple and results-driven with the right international SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted International SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional international SEO services in Loughton, helping businesses improve global search visibility, increase international website traffic, and generate qualified leads across multiple countries. We deliver complete international SEO solutions including multilingual SEO, technical SEO, on-page optimisation, international keyword targeting, hreflang implementation, and global link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Global Rankings? We Make It Easy',
+                        'description' => 'Managing international SEO campaigns can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are entering new markets or scaling globally, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our International SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'International Keyword Strategy',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Multilingual SEO Optimisation',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Global Technical SEO',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Global SEO Services',
+                        'description' => 'Looking to expand your business beyond the UK? We provide scalable international SEO services designed to help businesses rank in multiple countries and reach global audiences through tailored SEO strategies.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete International SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different global goals. That’s why we create tailored international SEO strategies designed to maximise worldwide visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting one country or multiple international markets, we offer:",
+
+                        'list' => [
+                            'International SEO Campaigns',
+                            'Multilingual SEO Optimisation',
+                            'Country-Specific Keyword Research',
+                            'Technical SEO Audits',
+                            'Hreflang Tag Implementation',
+                            'Global Content Optimisation',
+                            'International Link Building',
+                            'Ecommerce International SEO',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real global business growth.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven International SEO Solutions',
+
+                        'intro' => 'Looking to improve your global rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and international market insights to ensure your campaigns deliver maximum impact worldwide.',
+
+                        'sub_intro' => 'Our international SEO services include:',
+
+                        'list' => [
+                            'International SEO audits',
+                            'Global keyword analysis',
+                            'Multilingual content optimisation',
+                            'Technical SEO improvements',
+                            'International performance tracking',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better global rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable International SEO Services',
+
+                        'intro' => 'Looking for cost-effective international SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your global expansion goals.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable international SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making international SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your global growth partner, focused on delivering high-performing international SEO campaigns that drive real worldwide business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional international SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland global SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is international SEO?',
+                                'a' => 'International SEO is the process of optimizing your website to rank in multiple countries and languages across global search engines.'
+                            ],
+                            [
+                                'q' => 'How does international SEO work?',
+                                'a' => 'It involves multilingual optimisation, country targeting, hreflang setup, international keyword research, and global content strategies.'
+                            ],
+                            [
+                                'q' => 'How long does international SEO take?',
+                                'a' => 'Most businesses see improvements within 3 to 6 months depending on competition and target countries.'
+                            ],
+                            [
+                                'q' => 'Do you provide multilingual SEO?',
+                                'a' => 'Yes, we provide multilingual SEO services to help businesses rank in different languages and regions.'
+                            ],
+                            [
+                                'q' => 'Can international SEO increase global sales?',
+                                'a' => 'Yes, it helps attract international customers and improves conversions across multiple markets.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO reports?',
+                                'a' => 'Yes, we provide detailed international SEO reports including rankings, traffic, and global performance insights.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'International SEO Agency Buckhurst Hill | Global SEO Experts',
+                'meta_description' => 'International SEO agency in Buckhurst Hill providing multilingual SEO, global targeting and search optimization for worldwide business growth online and tral',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'International SEO Agency Buckhurst Hill | Global SEO Services for Business Growth',
+                        'subtitle' => 'Expanding your business globally can be simple and results-driven with the right international SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted International SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional international SEO services in Loughton, helping businesses improve global search visibility, increase international website traffic, and generate qualified leads across multiple countries. We deliver complete international SEO solutions including multilingual SEO, technical SEO, on-page optimisation, international keyword targeting, hreflang implementation, and global link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Global Rankings? We Make It Easy',
+                        'description' => 'Managing international SEO campaigns can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are entering new markets or scaling globally, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our International SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'International Keyword Strategy',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Multilingual SEO Optimisation',
+                                'route' => 'services.seo.international-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Global Technical SEO',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Global SEO Services',
+                        'description' => 'Looking to expand your business beyond the UK? We provide scalable international SEO services designed to help businesses rank in multiple countries and reach global audiences through tailored SEO strategies.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete International SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different global goals. That’s why we create tailored international SEO strategies designed to maximise worldwide visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting one country or multiple international markets, we offer:",
+
+                        'list' => [
+                            'International SEO Campaigns',
+                            'Multilingual SEO Optimisation',
+                            'Country-Specific Keyword Research',
+                            'Technical SEO Audits',
+                            'Hreflang Tag Implementation',
+                            'Global Content Optimisation',
+                            'International Link Building',
+                            'Ecommerce International SEO',
+                            'Conversion Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO campaigns that generate real global business growth.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven International SEO Solutions',
+
+                        'intro' => 'Looking to improve your global rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and international market insights to ensure your campaigns deliver maximum impact worldwide.',
+
+                        'sub_intro' => 'Our international SEO services include:',
+
+                        'list' => [
+                            'International SEO audits',
+                            'Global keyword analysis',
+                            'Multilingual content optimisation',
+                            'Technical SEO improvements',
+                            'International performance tracking',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better global rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable International SEO Services',
+
+                        'intro' => 'Looking for cost-effective international SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your global expansion goals.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable international SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making international SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your global growth partner, focused on delivering high-performing international SEO campaigns that drive real worldwide business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional international SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hilland global SEO coverage',
                             'Friendly and reliable support team',
                         ]
                     ],
@@ -6938,6 +9718,360 @@ class LocationSeoController extends Controller
 
 
             ],
+            'chigwell' => [
+                'meta_title' => 'Technical SEO Services Chigwell | Website SEO Specialists',
+                'meta_description' => 'Technical SEO services in Chigwell improving website speed, indexing, crawlability, Core Web Vitals and search engine performance for better rankings.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Technical SEO Services Chigwell | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website performance and search visibility can be simple and results-driven with the right technical SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Technical SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional technical SEO services in Loughton, helping businesses improve website structure, fix SEO errors, and enhance search engine performance. We deliver complete technical SEO solutions including website audits, crawl optimisation, indexing fixes, page speed improvements, mobile optimisation, structured data implementation, and Core Web Vitals enhancements designed for long-term SEO success.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+                        'description' => 'Technical SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or fixing existing SEO issues, our technical SEO specialists ensure your website is fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Technical SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Technical SEO Audits',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Website Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Crawl & Indexing Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Technical SEO Services',
+                        'description' => 'Looking to improve your website’s technical foundation and Google performance? We provide advanced technical SEO solutions designed to improve crawlability, indexing, website speed, and overall search engine visibility.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Technical SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different technical challenges. That’s why we create tailored technical SEO strategies designed to maximise performance, visibility, and search rankings.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or large platform, we offer:",
+
+                        'list' => [
+                            'Technical SEO Audits',
+                            'Website Crawl Analysis',
+                            'Indexing Optimisation',
+                            'XML Sitemap Optimisation',
+                            'Robots.txt Configuration',
+                            'Core Web Vitals Optimisation',
+                            'Page Speed Improvements',
+                            'Mobile SEO Optimisation',
+                            'Structured Data & Schema Markup',
+                            'HTTPS & Security Checks',
+                            'Canonical Tag Optimisation',
+                            'Broken Link Fixing',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering technical SEO improvements that support stronger rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Technical SEO Solutions',
+
+                        'intro' => 'Looking to improve your SEO performance and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify website issues and implement improvements that deliver measurable results. Our technical SEO services include:',
+
+                        'list' => [
+                            'Full website SEO audits',
+                            'Crawl error analysis',
+                            'Indexing and visibility improvements',
+                            'Page speed optimisation',
+                            'Technical issue resolution',
+                            'Continuous SEO monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website performs efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Technical SEO Services',
+
+                        'intro' => 'Looking for cost-effective technical SEO services in Loughton?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable technical SEO solutions tailored to your website goals and business needs. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable technical SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong technical SEO performance without unnecessary costs, making website optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your technical SEO growth partner, focused on improving website performance, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every technical SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional technical SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is technical SEO?',
+                                'a' => 'Technical SEO focuses on improving your website’s backend structure so search engines can crawl, index, and rank your site more effectively.'
+                            ],
+                            [
+                                'q' => 'Why is technical SEO important?',
+                                'a' => 'It improves website performance, speed, mobile usability, indexing, and overall search visibility.'
+                            ],
+                            [
+                                'q' => 'What does a technical SEO audit include?',
+                                'a' => 'A technical SEO audit includes crawl analysis, indexing checks, page speed testing, mobile optimisation, structured data review, and error fixing.'
+                            ],
+                            [
+                                'q' => 'Can technical SEO improve Google rankings?',
+                                'a' => 'Yes, fixing technical issues can significantly improve rankings, visibility, and user experience.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Core Web Vitals?',
+                                'a' => 'Yes, we optimise Core Web Vitals including loading speed, responsiveness, and visual stability.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical SEO reports?',
+                                'a' => 'Yes, we provide detailed reports showing technical issues, improvements, and ongoing SEO performance tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'Technical SEO Services Buckhurst Hill | Website SEO Specialists',
+                'meta_description' => 'Technical SEO services in Buckhurst Hill improving website speed, indexing, crawlability, Core Web Vitals and search engine performance for better rankin',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Technical SEO Services Buckhurst Hill | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website performance and search visibility can be simple and results-driven with the right technical SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Technical SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional technical SEO services in Loughton, helping businesses improve website structure, fix SEO errors, and enhance search engine performance. We deliver complete technical SEO solutions including website audits, crawl optimisation, indexing fixes, page speed improvements, mobile optimisation, structured data implementation, and Core Web Vitals enhancements designed for long-term SEO success.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+                        'description' => 'Technical SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or fixing existing SEO issues, our technical SEO specialists ensure your website is fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Technical SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Technical SEO Audits',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Website Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Crawl & Indexing Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Technical SEO Services',
+                        'description' => 'Looking to improve your website’s technical foundation and Google performance? We provide advanced technical SEO solutions designed to improve crawlability, indexing, website speed, and overall search engine visibility.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Technical SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different technical challenges. That’s why we create tailored technical SEO strategies designed to maximise performance, visibility, and search rankings.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or large platform, we offer:",
+
+                        'list' => [
+                            'Technical SEO Audits',
+                            'Website Crawl Analysis',
+                            'Indexing Optimisation',
+                            'XML Sitemap Optimisation',
+                            'Robots.txt Configuration',
+                            'Core Web Vitals Optimisation',
+                            'Page Speed Improvements',
+                            'Mobile SEO Optimisation',
+                            'Structured Data & Schema Markup',
+                            'HTTPS & Security Checks',
+                            'Canonical Tag Optimisation',
+                            'Broken Link Fixing',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering technical SEO improvements that support stronger rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Technical SEO Solutions',
+
+                        'intro' => 'Looking to improve your SEO performance and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify website issues and implement improvements that deliver measurable results. Our technical SEO services include:',
+
+                        'list' => [
+                            'Full website SEO audits',
+                            'Crawl error analysis',
+                            'Indexing and visibility improvements',
+                            'Page speed optimisation',
+                            'Technical issue resolution',
+                            'Continuous SEO monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website performs efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Technical SEO Services',
+
+                        'intro' => 'Looking for cost-effective technical SEO services in Loughton?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable technical SEO solutions tailored to your website goals and business needs. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable technical SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong technical SEO performance without unnecessary costs, making website optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your technical SEO growth partner, focused on improving website performance, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every technical SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional technical SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hilland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is technical SEO?',
+                                'a' => 'Technical SEO focuses on improving your website’s backend structure so search engines can crawl, index, and rank your site more effectively.'
+                            ],
+                            [
+                                'q' => 'Why is technical SEO important?',
+                                'a' => 'It improves website performance, speed, mobile usability, indexing, and overall search visibility.'
+                            ],
+                            [
+                                'q' => 'What does a technical SEO audit include?',
+                                'a' => 'A technical SEO audit includes crawl analysis, indexing checks, page speed testing, mobile optimisation, structured data review, and error fixing.'
+                            ],
+                            [
+                                'q' => 'Can technical SEO improve Google rankings?',
+                                'a' => 'Yes, fixing technical issues can significantly improve rankings, visibility, and user experience.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Core Web Vitals?',
+                                'a' => 'Yes, we optimise Core Web Vitals including loading speed, responsiveness, and visual stability.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical SEO reports?',
+                                'a' => 'Yes, we provide detailed reports showing technical issues, improvements, and ongoing SEO performance tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
 
         ],
 
@@ -8015,6 +11149,356 @@ class LocationSeoController extends Controller
                 ],
 
 
+            ],
+            'chigwell' => [
+                'meta_title' => 'Content SEO Services Chigwell | SEO Content Agency',
+                'meta_description' => 'Content SEO services in Chigwell focused on keyword strategy, SEO content writing, topic optimization and organic traffic growth for businesses and visibility.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Content SEO Services Chigwell | Professional SEO Content Optimisation Solutions',
+                        'subtitle' => 'Creating high-quality SEO content can be simple and results-driven with the right content strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Content SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional content SEO services in Loughton, helping businesses improve search visibility, attract targeted audiences, and increase organic traffic through strategic content optimisation. We deliver complete content SEO solutions including keyword research, SEO copywriting, blog content creation, landing page optimisation, content audits, and on-page content improvements designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Rankings Through Content? We Make It Easy',
+                        'description' => 'Creating and optimizing SEO content can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you need new website content or improvements to existing pages, our SEO specialists ensure your content is fully optimized, engaging, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Content SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'SEO Content Strategy',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Copywriting',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Blog Content Creation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Content Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Content SEO Services',
+                        'description' => 'Looking to improve your website content and search visibility? We provide tailored content SEO solutions designed to help businesses rank higher, attract qualified traffic, and increase conversions through strategic content optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Content SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different content goals. That’s why we create tailored content SEO strategies designed to maximise rankings, traffic, and engagement.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'SEO Content Writing',
+                            'Blog Content Creation',
+                            'Landing Page Optimisation',
+                            'Website Content Optimisation',
+                            'Keyword Research & Targeting',
+                            'SEO Copywriting Services',
+                            'Ecommerce Content SEO',
+                            'Meta Title & Description Optimisation',
+                            'Internal Linking Strategy',
+                            'Content Audits & Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO content that generates real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Content SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and content ROI? At Cloud Technologies Ltd, we use advanced SEO tools, keyword research, competitor analysis, and content insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our content SEO services include:',
+
+                        'list' => [
+                            'Content SEO audits',
+                            'Competitor content analysis',
+                            'Keyword-focused content planning',
+                            'SEO content optimisation',
+                            'Performance tracking and reporting',
+                            'Continuous content improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your content achieves better rankings, increased traffic, and higher engagement.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Content SEO Services',
+
+                        'intro' => 'Looking for cost-effective content SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable content SEO solutions tailored to your business goals and content marketing strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable content SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO content performance without unnecessary costs, making content optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your content growth partner, focused on delivering high-performing SEO content strategies that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every content campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO content experts',
+                            'Data-driven content strategies',
+                            'SEO-friendly and engaging content creation',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is content SEO?',
+                                'a' => 'Content SEO is the process of creating and optimizing website content to improve search engine rankings, increase organic traffic, and attract targeted visitors.'
+                            ],
+                            [
+                                'q' => 'Why is content SEO important?',
+                                'a' => 'It helps search engines understand your content while improving visibility, engagement, and conversions.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO copywriting services?',
+                                'a' => 'Yes, we provide professional SEO copywriting services including blogs, landing pages, service pages, and website content.'
+                            ],
+                            [
+                                'q' => 'Can content SEO improve rankings?',
+                                'a' => 'Yes, high-quality optimized content can significantly improve keyword rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'How often should website content be updated?',
+                                'a' => 'Regular updates help maintain rankings, improve relevance, and support long-term SEO growth.'
+                            ],
+                            [
+                                'q' => 'Do you provide content SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering content performance, keyword rankings, traffic growth, and optimisation improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'Content SEO Services Buckhurst Hill | SEO Content Agency',
+                'meta_description' => 'Content SEO services in Buckhurst Hill focused on keyword strategy, SEO content writing, topic optimization and organic traffic growth for businesses and',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Content SEO Services Buckhurst Hill | Professional SEO Content Optimisation Solutions',
+                        'subtitle' => 'Creating high-quality SEO content can be simple and results-driven with the right content strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Content SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional content SEO services in Loughton, helping businesses improve search visibility, attract targeted audiences, and increase organic traffic through strategic content optimisation. We deliver complete content SEO solutions including keyword research, SEO copywriting, blog content creation, landing page optimisation, content audits, and on-page content improvements designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Rankings Through Content? We Make It Easy',
+                        'description' => 'Creating and optimizing SEO content can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you need new website content or improvements to existing pages, our SEO specialists ensure your content is fully optimized, engaging, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Content SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'SEO Content Strategy',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Copywriting',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Blog Content Creation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Content Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Content SEO Services',
+                        'description' => 'Looking to improve your website content and search visibility? We provide tailored content SEO solutions designed to help businesses rank higher, attract qualified traffic, and increase conversions through strategic content optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Content SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different content goals. That’s why we create tailored content SEO strategies designed to maximise rankings, traffic, and engagement.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'SEO Content Writing',
+                            'Blog Content Creation',
+                            'Landing Page Optimisation',
+                            'Website Content Optimisation',
+                            'Keyword Research & Targeting',
+                            'SEO Copywriting Services',
+                            'Ecommerce Content SEO',
+                            'Meta Title & Description Optimisation',
+                            'Internal Linking Strategy',
+                            'Content Audits & Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO content that generates real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Content SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and content ROI? At Cloud Technologies Ltd, we use advanced SEO tools, keyword research, competitor analysis, and content insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our content SEO services include:',
+
+                        'list' => [
+                            'Content SEO audits',
+                            'Competitor content analysis',
+                            'Keyword-focused content planning',
+                            'SEO content optimisation',
+                            'Performance tracking and reporting',
+                            'Continuous content improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your content achieves better rankings, increased traffic, and higher engagement.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Content SEO Services',
+
+                        'intro' => 'Looking for cost-effective content SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable content SEO solutions tailored to your business goals and content marketing strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable content SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO content performance without unnecessary costs, making content optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your content growth partner, focused on delivering high-performing SEO content strategies that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every content campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO content experts',
+                            'Data-driven content strategies',
+                            'SEO-friendly and engaging content creation',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hilland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is content SEO?',
+                                'a' => 'Content SEO is the process of creating and optimizing website content to improve search engine rankings, increase organic traffic, and attract targeted visitors.'
+                            ],
+                            [
+                                'q' => 'Why is content SEO important?',
+                                'a' => 'It helps search engines understand your content while improving visibility, engagement, and conversions.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO copywriting services?',
+                                'a' => 'Yes, we provide professional SEO copywriting services including blogs, landing pages, service pages, and website content.'
+                            ],
+                            [
+                                'q' => 'Can content SEO improve rankings?',
+                                'a' => 'Yes, high-quality optimized content can significantly improve keyword rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'How often should website content be updated?',
+                                'a' => 'Regular updates help maintain rankings, improve relevance, and support long-term SEO growth.'
+                            ],
+                            [
+                                'q' => 'Do you provide content SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering content performance, keyword rankings, traffic growth, and optimisation improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
             ],
 
 
@@ -9101,6 +12585,358 @@ class LocationSeoController extends Controller
 
 
             ],
+            'chigwell' => [
+                'meta_title' => 'Image SEO Services Chigwell | Image Optimisation Experts',
+                'meta_description' => 'Image SEO services in Chigwell improving image rankings, page speed, alt tags, visibility and website performance for better SEO results online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Image SEO Services Chigwell | Professional Image Optimisation Solutions',
+                        'subtitle' => 'Improving your website speed and search visibility can be simple and results-driven with the right image SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Image SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional image SEO services in Loughton, helping businesses improve website performance, search visibility, and Google Image rankings through advanced image optimisation techniques. We deliver complete image SEO solutions including image compression, alt text optimisation, file naming structure, WebP conversion, lazy loading implementation, structured data for images, and image indexing improvements designed for long-term SEO success.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Faster Websites & Better Rankings? We Make It Easy',
+                        'description' => 'Optimising images can feel technical, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are building a new website or improving existing performance, our SEO specialists ensure your images are fully optimized, lightweight, and search-engine friendly.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Image SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Image Compression & Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Alt Tag & Metadata Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Page Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Image SEO Reporting',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Image SEO Services',
+                        'description' => 'Looking to improve your website performance and Google Image visibility? We provide tailored image SEO solutions designed to help businesses improve rankings, enhance page speed, and increase organic search performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Image SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different image optimisation needs. That’s why we create tailored image SEO strategies designed to maximise performance, visibility, and user experience.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or portfolio site, we offer:",
+
+                        'list' => [
+                            'Image Compression & Optimisation',
+                            'Alt Text Optimisation',
+                            'Image File Naming Optimisation',
+                            'WebP & Next-Gen Image Formats',
+                            'Lazy Loading Implementation',
+                            'Image Sitemap Creation',
+                            'Structured Image Data',
+                            'Mobile Image Optimisation',
+                            'Google Image Search Optimisation',
+                            'Ecommerce Product Image SEO',
+                            'Page Speed Enhancements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering image SEO improvements that support stronger rankings and better website performance.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Image SEO Solutions',
+
+                        'intro' => 'Looking to improve your SEO performance and ROI? At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify image-related issues and implement improvements that deliver measurable results.',
+
+                        'sub_intro' => 'Our image SEO services include:',
+
+                        'list' => [
+                            'Image SEO audits',
+                            'Page speed analysis',
+                            'Image indexing optimisation',
+                            'Technical image fixes',
+                            'Search visibility tracking',
+                            'Continuous optimisation monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website images perform efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Image SEO Services',
+
+                        'intro' => 'Looking for cost-effective image SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable image SEO solutions tailored to your website goals and business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable image optimisation strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong image SEO performance without unnecessary costs, making image optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website performance partner, focused on improving image optimisation, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every image SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional image SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is image SEO?',
+                                'a' => 'Image SEO is the process of optimizing website images to improve loading speed, search visibility, and Google Image rankings.'
+                            ],
+                            [
+                                'q' => 'Why is image SEO important?',
+                                'a' => 'It improves page speed, user experience, and helps your website rank better in both Google Search and Google Images.'
+                            ],
+                            [
+                                'q' => 'What does image optimisation include?',
+                                'a' => 'It includes compression, alt text optimisation, file naming, WebP conversion, and structured image data.'
+                            ],
+                            [
+                                'q' => 'Can image SEO improve Google rankings?',
+                                'a' => 'Yes, optimized images improve page speed and relevance, which can positively impact search rankings.'
+                            ],
+                            [
+                                'q' => 'Do you optimise ecommerce product images?',
+                                'a' => 'Yes, we optimise product images to improve ecommerce visibility and performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide image SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering image performance, optimisation improvements, and SEO tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'Image SEO Services Buckhurst Hill | Image Optimisation Experts',
+                'meta_description' => 'Image SEO services in Buckhurst Hill improving image rankings, page speed, alt tags, visibility and website performance for better SEO results online and traffic.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Image SEO Services Buckhurst Hill | Professional Image Optimisation Solutions',
+                        'subtitle' => 'Improving your website speed and search visibility can be simple and results-driven with the right image SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Image SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional image SEO services in Loughton, helping businesses improve website performance, search visibility, and Google Image rankings through advanced image optimisation techniques. We deliver complete image SEO solutions including image compression, alt text optimisation, file naming structure, WebP conversion, lazy loading implementation, structured data for images, and image indexing improvements designed for long-term SEO success.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Faster Websites & Better Rankings? We Make It Easy',
+                        'description' => 'Optimising images can feel technical, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are building a new website or improving existing performance, our SEO specialists ensure your images are fully optimized, lightweight, and search-engine friendly.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Image SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Image Compression & Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Alt Tag & Metadata Optimisation',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Page Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Image SEO Reporting',
+                                'route' => 'services.seo.image-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Image SEO Services',
+                        'description' => 'Looking to improve your website performance and Google Image visibility? We provide tailored image SEO solutions designed to help businesses improve rankings, enhance page speed, and increase organic search performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Image SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different image optimisation needs. That’s why we create tailored image SEO strategies designed to maximise performance, visibility, and user experience.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or portfolio site, we offer:",
+
+                        'list' => [
+                            'Image Compression & Optimisation',
+                            'Alt Text Optimisation',
+                            'Image File Naming Optimisation',
+                            'WebP & Next-Gen Image Formats',
+                            'Lazy Loading Implementation',
+                            'Image Sitemap Creation',
+                            'Structured Image Data',
+                            'Mobile Image Optimisation',
+                            'Google Image Search Optimisation',
+                            'Ecommerce Product Image SEO',
+                            'Page Speed Enhancements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering image SEO improvements that support stronger rankings and better website performance.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Image SEO Solutions',
+
+                        'intro' => 'Looking to improve your SEO performance and ROI? At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify image-related issues and implement improvements that deliver measurable results.',
+
+                        'sub_intro' => 'Our image SEO services include:',
+
+                        'list' => [
+                            'Image SEO audits',
+                            'Page speed analysis',
+                            'Image indexing optimisation',
+                            'Technical image fixes',
+                            'Search visibility tracking',
+                            'Continuous optimisation monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website images perform efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Image SEO Services',
+
+                        'intro' => 'Looking for cost-effective image SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable image SEO solutions tailored to your website goals and business needs.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable image optimisation strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong image SEO performance without unnecessary costs, making image optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website performance partner, focused on improving image optimisation, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every image SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional image SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hilland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is image SEO?',
+                                'a' => 'Image SEO is the process of optimizing website images to improve loading speed, search visibility, and Google Image rankings.'
+                            ],
+                            [
+                                'q' => 'Why is image SEO important?',
+                                'a' => 'It improves page speed, user experience, and helps your website rank better in both Google Search and Google Images.'
+                            ],
+                            [
+                                'q' => 'What does image optimisation include?',
+                                'a' => 'It includes compression, alt text optimisation, file naming, WebP conversion, and structured image data.'
+                            ],
+                            [
+                                'q' => 'Can image SEO improve Google rankings?',
+                                'a' => 'Yes, optimized images improve page speed and relevance, which can positively impact search rankings.'
+                            ],
+                            [
+                                'q' => 'Do you optimise ecommerce product images?',
+                                'a' => 'Yes, we optimise product images to improve ecommerce visibility and performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide image SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering image performance, optimisation improvements, and SEO tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
 
         ],
 
@@ -10178,6 +14014,356 @@ class LocationSeoController extends Controller
                 ],
 
 
+            ],
+            'chigwell' => [
+                'meta_title' => 'Local SEO Services Chigwell | Google Business SEO',
+                'meta_description' => 'Local SEO services in Chigwell helping businesses improve Google Maps rankings, local visibility, leads and customer enquiries across nearby areas.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Local SEO Services Chigwell | Professional Google Maps & Local Ranking Solutions',
+                        'subtitle' => 'Growing your local business visibility can be simple and results-driven with the right local SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Local SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional local SEO services in Loughton, helping businesses appear in Google Maps, local search results, and “near me” searches to attract more nearby customers. We deliver complete local SEO solutions including Google Business Profile optimisation, local keyword targeting, citation building, review management, local content optimisation, and Google Maps SEO designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want More Local Customers? We Make It Easy',
+                        'description' => 'Managing local SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are a new business or looking to improve your local presence, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Local SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Google Business Profile Optimisation',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Local Keyword Targeting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Citation Building & Listings',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Review & Reputation Management',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Local SEO Services',
+                        'description' => 'Looking to improve your visibility in Google Maps and local search results? We provide tailored local SEO solutions designed to help businesses attract nearby customers, improve rankings, and increase enquiries.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Local SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every local business has different goals. That’s why we create tailored local SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting Chigwellor surrounding areas, we offer:",
+
+                        'list' => [
+                            'Google Business Profile Optimisation',
+                            'Google Maps Ranking Optimisation',
+                            'Local Keyword Research',
+                            'Citation Building Services',
+                            'Local Landing Page Optimisation',
+                            'Review Generation Strategy',
+                            'Local Content Creation',
+                            'Mobile Local SEO Optimisation',
+                            'Competitor Local SEO Analysis',
+                            'Local SEO Tracking & Reporting',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing local SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Local SEO Solutions',
+
+                        'intro' => 'Looking to improve your local rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and local search insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our local SEO services include:',
+
+                        'list' => [
+                            'Local SEO audits',
+                            'Google Business Profile optimisation',
+                            'Competitor local analysis',
+                            'Map pack ranking improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO optimisation',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves better local visibility, increased traffic, and more customer enquiries.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Local SEO Services',
+
+                        'intro' => 'Looking for cost-effective local SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable local SEO solutions tailored to your business goals and budget.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable local SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong local SEO performance without unnecessary costs, making local SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your local growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every local SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional local SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is local SEO?',
+                                'a' => 'Local SEO is the process of improving your business visibility in local search results and Google Maps to attract nearby customers.'
+                            ],
+                            [
+                                'q' => 'Why is local SEO important?',
+                                'a' => 'It helps businesses appear in “near me” searches and increases calls, visits, and local leads.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Google Business Profile?',
+                                'a' => 'Yes, we fully optimise Google Business Profiles for better map rankings and visibility.'
+                            ],
+                            [
+                                'q' => 'Can local SEO increase calls and enquiries?',
+                                'a' => 'Yes, local SEO helps attract high-intent customers searching for your services nearby.'
+                            ],
+                            [
+                                'q' => 'How long does local SEO take?',
+                                'a' => 'Most businesses start seeing improvements within 2 to 6 months depending on competition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, Google Maps performance, and lead generation.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'Local SEO Services Buckhurst Hill | Google Business SEO',
+                'meta_description' => 'Local SEO services in Buckhurst Hill helping businesses improve Google Maps rankings, local visibility, leads and customer enquiries across nearby areas.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Local SEO Services Buckhurst Hill | Professional Google Maps & Local Ranking Solutions',
+                        'subtitle' => 'Growing your local business visibility can be simple and results-driven with the right local SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Local SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional local SEO services in Loughton, helping businesses appear in Google Maps, local search results, and “near me” searches to attract more nearby customers. We deliver complete local SEO solutions including Google Business Profile optimisation, local keyword targeting, citation building, review management, local content optimisation, and Google Maps SEO designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want More Local Customers? We Make It Easy',
+                        'description' => 'Managing local SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are a new business or looking to improve your local presence, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Local SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Google Business Profile Optimisation',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Local Keyword Targeting',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Citation Building & Listings',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Review & Reputation Management',
+                                'route' => 'services.seo.local-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Local SEO Services',
+                        'description' => 'Looking to improve your visibility in Google Maps and local search results? We provide tailored local SEO solutions designed to help businesses attract nearby customers, improve rankings, and increase enquiries.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Local SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every local business has different goals. That’s why we create tailored local SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're targeting Buckhurst Hillor surrounding areas, we offer:",
+
+                        'list' => [
+                            'Google Business Profile Optimisation',
+                            'Google Maps Ranking Optimisation',
+                            'Local Keyword Research',
+                            'Citation Building Services',
+                            'Local Landing Page Optimisation',
+                            'Review Generation Strategy',
+                            'Local Content Creation',
+                            'Mobile Local SEO Optimisation',
+                            'Competitor Local SEO Analysis',
+                            'Local SEO Tracking & Reporting',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing local SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Local SEO Solutions',
+
+                        'intro' => 'Looking to improve your local rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and local search insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our local SEO services include:',
+
+                        'list' => [
+                            'Local SEO audits',
+                            'Google Business Profile optimisation',
+                            'Competitor local analysis',
+                            'Map pack ranking improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO optimisation',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your business achieves better local visibility, increased traffic, and more customer enquiries.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Local SEO Services',
+
+                        'intro' => 'Looking for cost-effective local SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable local SEO solutions tailored to your business goals and budget.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable local SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong local SEO performance without unnecessary costs, making local SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your local growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every local SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional local SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hilland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is local SEO?',
+                                'a' => 'Local SEO is the process of improving your business visibility in local search results and Google Maps to attract nearby customers.'
+                            ],
+                            [
+                                'q' => 'Why is local SEO important?',
+                                'a' => 'It helps businesses appear in “near me” searches and increases calls, visits, and local leads.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Google Business Profile?',
+                                'a' => 'Yes, we fully optimise Google Business Profiles for better map rankings and visibility.'
+                            ],
+                            [
+                                'q' => 'Can local SEO increase calls and enquiries?',
+                                'a' => 'Yes, local SEO helps attract high-intent customers searching for your services nearby.'
+                            ],
+                            [
+                                'q' => 'How long does local SEO take?',
+                                'a' => 'Most businesses start seeing improvements within 2 to 6 months depending on competition.'
+                            ],
+                            [
+                                'q' => 'Do you provide local SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, Google Maps performance, and lead generation.'
+                            ],
+                        ]
+                    ],
+
+                ],
             ],
 
         ],
@@ -11262,6 +15448,358 @@ class LocationSeoController extends Controller
 
 
             ],
+            'chigwell' => [
+                'meta_title' => 'Ecommerce SEO Agency Chigwell | Shopify & WooCommerce SEO',
+                'meta_description' => 'Ecommerce SEO agency in Chigwell providing Shopify, WooCommerce and Magento SEO services to increase traffic, product visibility and online sales.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Ecommerce SEO Agency Chigwell | Professional Ecommerce SEO Services',
+                        'subtitle' => 'Growing your online store can be simple and results-driven with the right ecommerce SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Ecommerce SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional ecommerce SEO services in Loughton, helping online stores improve search rankings, increase website traffic, and generate more sales through strategic optimisation. We deliver complete ecommerce SEO solutions including product page optimisation, category page SEO, technical SEO, keyword research, content optimisation, and link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want More Online Sales? We Make It Easy',
+                        'description' => 'Managing ecommerce SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new online store or scaling an existing ecommerce website, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Ecommerce SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Product Page Optimisation',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Category Page SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Technical Ecommerce SEO',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Ecommerce SEO Reporting',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Ecommerce SEO Services',
+                        'description' => 'Looking to improve your online store visibility and increase sales? We provide tailored ecommerce SEO solutions designed to help businesses rank higher, attract targeted shoppers, and improve conversion rates.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Ecommerce SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every ecommerce business has unique goals. That’s why we create tailored ecommerce SEO strategies designed to maximise visibility, traffic, and online revenue.',
+
+                        'sub_intro' => "Whether you're running a small online store or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'Ecommerce SEO Campaigns',
+                            'Product Page Optimisation',
+                            'Category Page SEO',
+                            'Technical SEO Audits',
+                            'Ecommerce Keyword Research',
+                            'SEO Content Optimisation',
+                            'Internal Linking Strategy',
+                            'Schema Markup for Products',
+                            'Conversion Rate Optimisation',
+                            'Mobile Ecommerce SEO',
+                            'Site Speed Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing ecommerce SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Ecommerce SEO Solutions',
+
+                        'intro' => 'Looking to improve your ecommerce rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and ecommerce insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our ecommerce SEO services include:',
+
+                        'list' => [
+                            'Ecommerce SEO audits',
+                            'Product keyword analysis',
+                            'Competitor research',
+                            'Technical SEO improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO optimisation',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your ecommerce store achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Ecommerce SEO Services',
+
+                        'intro' => 'Looking for cost-effective ecommerce SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable ecommerce SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable ecommerce SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making ecommerce SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your ecommerce growth partner, focused on delivering high-performing SEO campaigns that drive real online business success.',
+
+                        'description_2' => 'Our experienced team ensures every ecommerce SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional ecommerce SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is ecommerce SEO?',
+                                'a' => 'Ecommerce SEO is the process of optimizing an online store to improve product rankings, increase organic traffic, and generate more online sales.'
+                            ],
+                            [
+                                'q' => 'Why is ecommerce SEO important?',
+                                'a' => 'Ecommerce SEO helps online stores improve visibility in search engines, attract targeted shoppers, and increase conversions without relying only on paid ads.'
+                            ],
+                            [
+                                'q' => 'Do you optimise product and category pages?',
+                                'a' => 'Yes, we optimise product pages, category pages, metadata, content, and internal linking structures.'
+                            ],
+                            [
+                                'q' => 'Can ecommerce SEO increase sales?',
+                                'a' => 'Yes, effective ecommerce SEO improves visibility, attracts high-intent customers, and increases conversions and revenue.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical ecommerce SEO?',
+                                'a' => 'Yes, we provide technical ecommerce SEO including crawl optimisation, site speed improvements, schema markup, and mobile SEO.'
+                            ],
+                            [
+                                'q' => 'Do you provide ecommerce SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, conversions, and ecommerce SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'Ecommerce SEO Agency Buckhurst Hill | Shopify & WooCommerce SEO',
+                'meta_description' => 'Ecommerce SEO agency in Buckhurst Hill providing Shopify, WooCommerce and Magento SEO services to increase traffic, product visibility and online sa',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Ecommerce SEO Agency Buckhurst Hill | Professional Ecommerce SEO Services',
+                        'subtitle' => 'Growing your online store can be simple and results-driven with the right ecommerce SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Ecommerce SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional ecommerce SEO services in Loughton, helping online stores improve search rankings, increase website traffic, and generate more sales through strategic optimisation. We deliver complete ecommerce SEO solutions including product page optimisation, category page SEO, technical SEO, keyword research, content optimisation, and link building designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want More Online Sales? We Make It Easy',
+                        'description' => 'Managing ecommerce SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new online store or scaling an existing ecommerce website, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Ecommerce SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Product Page Optimisation',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Category Page SEO',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Technical Ecommerce SEO',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Ecommerce SEO Reporting',
+                                'route' => 'services.seo.ecommerce-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Ecommerce SEO Services',
+                        'description' => 'Looking to improve your online store visibility and increase sales? We provide tailored ecommerce SEO solutions designed to help businesses rank higher, attract targeted shoppers, and improve conversion rates.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Ecommerce SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every ecommerce business has unique goals. That’s why we create tailored ecommerce SEO strategies designed to maximise visibility, traffic, and online revenue.',
+
+                        'sub_intro' => "Whether you're running a small online store or a large ecommerce platform, we offer:",
+
+                        'list' => [
+                            'Ecommerce SEO Campaigns',
+                            'Product Page Optimisation',
+                            'Category Page SEO',
+                            'Technical SEO Audits',
+                            'Ecommerce Keyword Research',
+                            'SEO Content Optimisation',
+                            'Internal Linking Strategy',
+                            'Schema Markup for Products',
+                            'Conversion Rate Optimisation',
+                            'Mobile Ecommerce SEO',
+                            'Site Speed Optimisation',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing ecommerce SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Ecommerce SEO Solutions',
+
+                        'intro' => 'Looking to improve your ecommerce rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and ecommerce insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our ecommerce SEO services include:',
+
+                        'list' => [
+                            'Ecommerce SEO audits',
+                            'Product keyword analysis',
+                            'Competitor research',
+                            'Technical SEO improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO optimisation',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your ecommerce store achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Ecommerce SEO Services',
+
+                        'intro' => 'Looking for cost-effective ecommerce SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable ecommerce SEO solutions tailored to your business goals and growth plans.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable ecommerce SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making ecommerce SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your ecommerce growth partner, focused on delivering high-performing SEO campaigns that drive real online business success.',
+
+                        'description_2' => 'Our experienced team ensures every ecommerce SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional ecommerce SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hilland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is ecommerce SEO?',
+                                'a' => 'Ecommerce SEO is the process of optimizing an online store to improve product rankings, increase organic traffic, and generate more online sales.'
+                            ],
+                            [
+                                'q' => 'Why is ecommerce SEO important?',
+                                'a' => 'Ecommerce SEO helps online stores improve visibility in search engines, attract targeted shoppers, and increase conversions without relying only on paid ads.'
+                            ],
+                            [
+                                'q' => 'Do you optimise product and category pages?',
+                                'a' => 'Yes, we optimise product pages, category pages, metadata, content, and internal linking structures.'
+                            ],
+                            [
+                                'q' => 'Can ecommerce SEO increase sales?',
+                                'a' => 'Yes, effective ecommerce SEO improves visibility, attracts high-intent customers, and increases conversions and revenue.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical ecommerce SEO?',
+                                'a' => 'Yes, we provide technical ecommerce SEO including crawl optimisation, site speed improvements, schema markup, and mobile SEO.'
+                            ],
+                            [
+                                'q' => 'Do you provide ecommerce SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering rankings, traffic, conversions, and ecommerce SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
 
         ],
         'on-page-seo' => [
@@ -12343,6 +16881,357 @@ class LocationSeoController extends Controller
 
 
             ],
+            'chigwell' => [
+                'meta_title' => 'On-Page SEO Services Chigwell | Website Optimisation',
+                'meta_description' => 'On-page SEO services in Chigwell improving website structure, content, internal links, metadata and keyword optimization for higher Google rankings for us',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'On-Page SEO Services Chigwell | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website rankings can be simple and results-driven with the right on-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted On-Page SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional on-page SEO services in Loughton, helping businesses improve website visibility, keyword rankings, and user experience through strategic on-page optimisation. We deliver complete on-page SEO solutions including keyword optimisation, meta title and description optimisation, header structure improvements, content optimisation, internal linking, URL structure optimisation, and image SEO integration designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+                        'description' => 'Managing on-page SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing pages, our SEO specialists ensure your pages are fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our On-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Keyword Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Meta Tags Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Content Optimisation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Internal Linking Strategy',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced On-Page SEO Services',
+                        'description' => 'Looking to improve your website visibility and search rankings? We provide tailored on-page SEO solutions designed to help businesses rank higher, attract targeted traffic, and improve conversions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete On-Page SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has unique optimisation needs. That’s why we create tailored on-page SEO strategies designed to maximise search visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're running a business website or an ecommerce store, we offer:",
+
+                        'list' => [
+                            'On-Page SEO Audits',
+                            'Keyword Research & Targeting',
+                            'Meta Title & Description Optimisation',
+                            'Header Tag Optimisation (H1, H2, H3)',
+                            'Content Optimisation',
+                            'Internal Linking Strategy',
+                            'URL Structure Optimisation',
+                            'Image SEO Integration',
+                            'Mobile Optimisation Support',
+                            'User Experience Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing on-page SEO improvements that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven On-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and content insights to ensure your on-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our on-page SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Keyword gap analysis',
+                            'Content optimisation strategy',
+                            'Technical on-page improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable On-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective on-page SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and budget.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable on-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making on-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website growth partner, focused on delivering high-performing on-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is on-page SEO?',
+                                'a' => 'On-page SEO is the process of optimizing individual web pages to improve search engine rankings and user experience.'
+                            ],
+                            [
+                                'q' => 'Why is on-page SEO important?',
+                                'a' => 'It helps search engines understand your content and improves visibility, rankings, and organic traffic.'
+                            ],
+                            [
+                                'q' => 'What does on-page SEO include?',
+                                'a' => 'It includes keyword optimisation, meta tags, content updates, internal linking, URL structure, and header optimisation.'
+                            ],
+                            [
+                                'q' => 'Can on-page SEO improve rankings?',
+                                'a' => 'Yes, properly optimised pages can significantly improve Google rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'Do you optimise website content?',
+                                'a' => 'Yes, we optimise website content, headings, and structure to improve SEO performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide on-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports including keyword rankings, page performance, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'On-Page SEO Services Buckhurst Hill | Website Optimisation',
+                'meta_description' => 'On-page SEO services in Buckhurst Hill improving website structure, content, internal links, metadata and keyword optimization for higher Google rankings',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'On-Page SEO Services Buckhurst Hill | Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website rankings can be simple and results-driven with the right on-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted On-Page SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional on-page SEO services in Loughton, helping businesses improve website visibility, keyword rankings, and user experience through strategic on-page optimisation. We deliver complete on-page SEO solutions including keyword optimisation, meta title and description optimisation, header structure improvements, content optimisation, internal linking, URL structure optimisation, and image SEO integration designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Google Rankings? We Make It Easy',
+                        'description' => 'Managing on-page SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing pages, our SEO specialists ensure your pages are fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our On-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Keyword Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Meta Tags Optimisation',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Content Optimisation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Internal Linking Strategy',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced On-Page SEO Services',
+                        'description' => 'Looking to improve your website visibility and search rankings? We provide tailored on-page SEO solutions designed to help businesses rank higher, attract targeted traffic, and improve conversions.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete On-Page SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has unique optimisation needs. That’s why we create tailored on-page SEO strategies designed to maximise search visibility, traffic, and conversions.',
+
+                        'sub_intro' => "Whether you're running a business website or an ecommerce store, we offer:",
+
+                        'list' => [
+                            'On-Page SEO Audits',
+                            'Keyword Research & Targeting',
+                            'Meta Title & Description Optimisation',
+                            'Header Tag Optimisation (H1, H2, H3)',
+                            'Content Optimisation',
+                            'Internal Linking Strategy',
+                            'URL Structure Optimisation',
+                            'Image SEO Integration',
+                            'Mobile Optimisation Support',
+                            'User Experience Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing on-page SEO improvements that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven On-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and content insights to ensure your on-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our on-page SEO services include:',
+
+                        'list' => [
+                            'Website SEO audits',
+                            'Keyword gap analysis',
+                            'Content optimisation strategy',
+                            'Technical on-page improvements',
+                            'Conversion tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable On-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective on-page SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and budget.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable on-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making on-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your website growth partner, focused on delivering high-performing on-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hilland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is on-page SEO?',
+                                'a' => 'On-page SEO is the process of optimizing individual web pages to improve search engine rankings and user experience.'
+                            ],
+                            [
+                                'q' => 'Why is on-page SEO important?',
+                                'a' => 'It helps search engines understand your content and improves visibility, rankings, and organic traffic.'
+                            ],
+                            [
+                                'q' => 'What does on-page SEO include?',
+                                'a' => 'It includes keyword optimisation, meta tags, content updates, internal linking, URL structure, and header optimisation.'
+                            ],
+                            [
+                                'q' => 'Can on-page SEO improve rankings?',
+                                'a' => 'Yes, properly optimised pages can significantly improve Google rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'Do you optimise website content?',
+                                'a' => 'Yes, we optimise website content, headings, and structure to improve SEO performance.'
+                            ],
+                            [
+                                'q' => 'Do you provide on-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports including keyword rankings, page performance, and SEO improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            
 
 
 
@@ -13423,6 +18312,354 @@ class LocationSeoController extends Controller
                 ],
 
 
+            ],
+            'chigwell' => [
+                'meta_title' => 'Off-Page SEO Services Chigwell | Link Building Agency',
+                'meta_description' => 'Off-page SEO services in Chigwell focused on quality backlinks, authority building, outreach and organic ranking growth for businesses online today near y',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Off-Page SEO Services Chigwell | Professional Link Building & Authority Building Solutions',
+                        'subtitle' => 'Building your website authority can be simple and results-driven with the right off-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Off-Page SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional off-page SEO services in Loughton, helping businesses improve website authority, search rankings, and organic visibility through strategic link building and brand promotion. We deliver complete off-page SEO solutions including high-quality backlink building, guest posting, digital outreach, citation building, brand mentions, competitor backlink analysis, and authority-building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Higher Google Rankings? We Make It Easy',
+                        'description' => 'Managing off-page SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your off-page strategy is fully optimized, ethical, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Off-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Authority Link Building',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Guest Posting & Outreach',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Citation Building Services',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Off-Page SEO Services',
+                        'description' => 'Looking to improve your website authority and search rankings? We provide tailored off-page SEO solutions designed to help businesses build trust, increase visibility, and improve organic search performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Off-Page SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different SEO goals. That’s why we create tailored off-page SEO strategies designed to maximise authority, rankings, and organic growth.',
+
+                        'sub_intro' => "Whether you're targeting local customers or scaling nationally, we offer:",
+
+                        'list' => [
+                            'High-Quality Link Building',
+                            'Guest Posting Services',
+                            'Digital PR & Outreach Campaigns',
+                            'Brand Mention Building',
+                            'Citation Building',
+                            'Competitor Backlink Analysis',
+                            'Reputation Management Support',
+                            'Content Promotion Strategies',
+                            'Local & National Authority Building',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing off-page SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Off-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, backlink analysis, and competitor insights to ensure your off-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our off-page SEO services include:',
+
+                        'list' => [
+                            'Backlink audits',
+                            'Competitor link analysis',
+                            'Authority-building strategies',
+                            'Outreach campaign execution',
+                            'Performance tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better authority, increased traffic, and higher rankings.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Off-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective off-page SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and budget.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable off-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making off-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing off-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Chigwelland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is off-page SEO?',
+                                'a' => 'Off-page SEO refers to activities outside your website that improve search rankings, authority, and trust.'
+                            ],
+                            [
+                                'q' => 'Why is off-page SEO important?',
+                                'a' => 'It helps build backlinks, improve domain authority, and increase your website’s credibility in search engines.'
+                            ],
+                            [
+                                'q' => 'What does off-page SEO include?',
+                                'a' => 'It includes link building, guest posting, digital PR, citation building, and brand mentions.'
+                            ],
+                            [
+                                'q' => 'Can off-page SEO improve rankings?',
+                                'a' => 'Yes, high-quality backlinks and authority signals can significantly improve Google rankings.'
+                            ],
+                            [
+                                'q' => 'Do you provide link building services?',
+                                'a' => 'Yes, we provide ethical white-hat link building and outreach services.'
+                            ],
+                            [
+                                'q' => 'Do you provide off-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering backlinks, authority growth, and SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ],
+            'buckhurst-hill' => [
+                'meta_title' => 'Off-Page SEO Services Buckhurst Hill | Link Building Agency',
+                'meta_description' => 'Off-page SEO services in Buckhurst Hill focused on quality backlinks, authority building, outreach and organic ranking growth for businesses online today n',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Off-Page SEO Services Buckhurst Hill | Professional Link Building & Authority Building Solutions',
+                        'subtitle' => 'Building your website authority can be simple and results-driven with the right off-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Off-Page SEO Agency in Loughton',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional off-page SEO services in Loughton, helping businesses improve website authority, search rankings, and organic visibility through strategic link building and brand promotion. We deliver complete off-page SEO solutions including high-quality backlink building, guest posting, digital outreach, citation building, brand mentions, competitor backlink analysis, and authority-building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Higher Google Rankings? We Make It Easy',
+                        'description' => 'Managing off-page SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your off-page strategy is fully optimized, ethical, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Off-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Authority Link Building',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Guest Posting & Outreach',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'Citation Building Services',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Off-Page SEO Services',
+                        'description' => 'Looking to improve your website authority and search rankings? We provide tailored off-page SEO solutions designed to help businesses build trust, increase visibility, and improve organic search performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Off-Page SEO Services in Loughton',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different SEO goals. That’s why we create tailored off-page SEO strategies designed to maximise authority, rankings, and organic growth.',
+
+                        'sub_intro' => "Whether you're targeting local customers or scaling nationally, we offer:",
+
+                        'list' => [
+                            'High-Quality Link Building',
+                            'Guest Posting Services',
+                            'Digital PR & Outreach Campaigns',
+                            'Brand Mention Building',
+                            'Citation Building',
+                            'Competitor Backlink Analysis',
+                            'Reputation Management Support',
+                            'Content Promotion Strategies',
+                            'Local & National Authority Building',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing off-page SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Off-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, backlink analysis, and competitor insights to ensure your off-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our off-page SEO services include:',
+
+                        'list' => [
+                            'Backlink audits',
+                            'Competitor link analysis',
+                            'Authority-building strategies',
+                            'Outreach campaign execution',
+                            'Performance tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better authority, increased traffic, and higher rankings.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Off-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective off-page SEO services in Loughton? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and budget.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable off-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making off-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing off-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Buckhurst Hilland UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is off-page SEO?',
+                                'a' => 'Off-page SEO refers to activities outside your website that improve search rankings, authority, and trust.'
+                            ],
+                            [
+                                'q' => 'Why is off-page SEO important?',
+                                'a' => 'It helps build backlinks, improve domain authority, and increase your website’s credibility in search engines.'
+                            ],
+                            [
+                                'q' => 'What does off-page SEO include?',
+                                'a' => 'It includes link building, guest posting, digital PR, citation building, and brand mentions.'
+                            ],
+                            [
+                                'q' => 'Can off-page SEO improve rankings?',
+                                'a' => 'Yes, high-quality backlinks and authority signals can significantly improve Google rankings.'
+                            ],
+                            [
+                                'q' => 'Do you provide link building services?',
+                                'a' => 'Yes, we provide ethical white-hat link building and outreach services.'
+                            ],
+                            [
+                                'q' => 'Do you provide off-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering backlinks, authority growth, and SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
             ],
 
 
@@ -19864,246 +25101,245 @@ class LocationSeoController extends Controller
                                                                             ]
                                                                         ],
                                                                         'schema' => '<script type="application/ld+json">  
-                                                                                        {  
-                                                                                        "@context":"https://schema.org",  
-                                                                                        "@graph":[  
-                                                                                        {  
-                                                                                        "@type":"Service",  
-                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#service",  
-                                                                                        "name":"SEO Agency Harrow",  
-                                                                                        "alternateName":[
-                                                                                        "SEO Services Harrow",  
-                                                                                        "SEO Company Harrow",  
-                                                                                        "Harrow SEO Agency",  
-                                                                                        "Local SEO Harrow",  
-                                                                                        "Technical SEO Harrow"  
-                                                                                        ],  
-                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/",  
-                                                                                        "description":"Cloud Technologies Ltd provides professional SEO Agency services in   
-                                                                                        Harrow, helping businesses improve Google rankings, increase organic traffic, generate   
-                                                                                        qualified leads and achieve long-term business growth through ethical, data-driven SEO   
-                                                                                        strategies.",  
-                                                                                        "serviceType":"Search Engine Optimization",  
-                                                                                        "category":"Digital Marketing",  
-                                                                                        "provider":{  
-                                                                                        "@type":"Organization",  
-                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/#organization",  
-                                                                                        "name":"Cloud Technologies Ltd",  
-                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/",  
-                                                                                        "email":"contact@cloudtechnologiesltd.co.uk",  
-                                                                                        "telephone":"+44 7427547394"  
-                                                                                        },  
-                                                                                        "areaServed":[  
-                                                                                        {  
-                                                                                        "@type":"City",  
-                                                                                        "name":"Harrow"  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"AdministrativeArea",  
-                                                                                        "name":"Greater London"  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Country",  
-                                                                                        "name":"United Kingdom"  
-                                                                                        }  
-                                                                                        ],  
-                                                                                        "audience":{  
-                                                                                        "@type":"BusinessAudience",
-                                                                                        "audienceType":"Small Businesses, Medium Businesses, Enterprises"  
-                                                                                        },  
-                                                                                        "keywords":[  
-                                                                                        "SEO Agency Harrow",  
-                                                                                        "SEO Services Harrow",  
-                                                                                        "SEO Company Harrow",  
-                                                                                        "Harrow SEO Agency",  
-                                                                                        "Local SEO Harrow",  
-                                                                                        "Technical SEO Harrow",  
-                                                                                        "SEO Consultant Harrow",  
-                                                                                        "Ecommerce SEO Harrow",  
-                                                                                        "Google Business Profile Optimisation Harrow",  
-                                                                                        "Digital Marketing Harrow"  
-                                                                                        ],  
-                                                                                        "offers":{  
-                                                                                        "@type":"Offer",  
-                                                                                        "name":"SEO Agency Harrow",  
-                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
-                                                                                        "availability":"https://schema.org/InStock",  
-                                                                                        "priceCurrency":"GBP"  
-                                                                                        },  
-                                                                                        "availableChannel":{  
-                                                                                        "@type":"ServiceChannel",  
-                                                                                        "serviceUrl":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
-                                                                                        "servicePhone":{  
-                                                                                        "@type":"ContactPoint",  
-                                                                                        "telephone":"+44 7427547394",  
-                                                                                        "contactType":"Sales",  
-                                                                                        "email":"contact@cloudtechnologiesltd.co.uk",  
-                                                                                        "availableLanguage":"English"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        "hoursAvailable":{  
-                                                                                        "@type":"OpeningHoursSpecification",  
-                                                                                        "dayOfWeek":[  
-                                                                                        "Monday",  
-                                                                                        "Tuesday",
-                                                                                        "Wednesday",  
-                                                                                        "Thursday",  
-                                                                                        "Friday"  
-                                                                                        ],  
-                                                                                        "opens":"09:00",  
-                                                                                        "closes":"18:00"  
-                                                                                        },  
-                                                                                        "hasOfferCatalog":{  
-                                                                                        "@type":"OfferCatalog",  
-                                                                                        "name":"SEO Agency Harrow Services",  
-                                                                                        "itemListElement":[  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"Local SEO"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"Technical SEO"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"On-Page SEO"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"Off-Page SEO"
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"Content SEO"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"Ecommerce SEO"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"National SEO"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"International SEO"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"Google Business Profile Optimisation"  
-                                                                                        }  
-                                                                                        },
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"SEO Audit"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"Keyword Research"  
-                                                                                        }  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"Offer",  
-                                                                                        "itemOffered":{  
-                                                                                        "@type":"Service",  
-                                                                                        "name":"Link Building"  
-                                                                                        }  
-                                                                                        }  
-                                                                                        ]  
-                                                                                        },  
-                                                                                        "potentialAction":[  
-                                                                                        {  
-                                                                                        "@type":"ContactAction",  
-                                                                                        "name":"Request Free SEO Consultation",  
-                                                                                        "target":"https://www.cloudtechnologiesltd.co.uk/contact-us"  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"CommunicateAction",  
-                                                                                        "name":"WhatsApp Consultation",  
-                                                                                        
-                                                                                        "target":"https://api.whatsapp.com/send/?phone=7427547394&text&type=phone_number  
-                                                                                        &app_absent=0"  
-                                                                                        }  
-                                                                                        ]
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"WebPage",  
-                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#webpage",  
-                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/",  
-                                                                                        "name":"SEO Agency Harrow",  
-                                                                                        "description":"Professional SEO Agency in Harrow delivering Local SEO, Technical SEO,   
-                                                                                        Ecommerce SEO and Google Business Profile Optimisation to increase rankings, traffic   
-                                                                                        and enquiries.",  
-                                                                                        "about":{  
-                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#service"  
-                                                                                        },  
-                                                                                        "primaryImageOfPage":{  
-                                                                                        "@type":"ImageObject",  
-                                                                                        "url":"https://www.cloudtechnologiesltd.co.uk/logo.png"  
-                                                                                        },  
-                                                                                        "inLanguage":"en-GB"  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"BreadcrumbList",  
-                                                                                        "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#breadcrumb",  
-                                                                                        "itemListElement":[  
-                                                                                        {  
-                                                                                        "@type":"ListItem",  
-                                                                                        "position":1,  
-                                                                                        "name":"Home",  
-                                                                                        "item":"https://www.cloudtechnologiesltd.co.uk/"  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"ListItem",  
-                                                                                        "position":2,  
-                                                                                        "name":"SEO Services",  
-                                                                                        "item":"https://www.cloudtechnologiesltd.co.uk/seo-service-uk"  
-                                                                                        },  
-                                                                                        {  
-                                                                                        "@type":"ListItem",  
-                                                                                        "position":3,
-                                                                                        "name":"SEO Agency Harrow",  
-                                                                                        "item":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/"  
-                                                                                        }  
-                                                                                        ]  
-                                                                                        }  
-                                                                                        ]  
-                                                                                        }  
-                                                                                        </script>'
-                ],
-                
+                                                                                {  
+                                                                                "@context":"https://schema.org",  
+                                                                                "@graph":[  
+                                                                                {  
+                                                                                "@type":"Service",  
+                                                                                "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#service",  
+                                                                                "name":"SEO Agency Harrow",  
+                                                                                "alternateName":[
+                                                                                "SEO Services Harrow",  
+                                                                                "SEO Company Harrow",  
+                                                                                "Harrow SEO Agency",  
+                                                                                "Local SEO Harrow",  
+                                                                                "Technical SEO Harrow"  
+                                                                                ],  
+                                                                                "url":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/",  
+                                                                                "description":"Cloud Technologies Ltd provides professional SEO Agency services in   
+                                                                                Harrow, helping businesses improve Google rankings, increase organic traffic, generate   
+                                                                                qualified leads and achieve long-term business growth through ethical, data-driven SEO   
+                                                                                strategies.",  
+                                                                                "serviceType":"Search Engine Optimization",  
+                                                                                "category":"Digital Marketing",  
+                                                                                "provider":{  
+                                                                                "@type":"Organization",  
+                                                                                "@id":"https://www.cloudtechnologiesltd.co.uk/#organization",  
+                                                                                "name":"Cloud Technologies Ltd",  
+                                                                                "url":"https://www.cloudtechnologiesltd.co.uk/",  
+                                                                                "email":"contact@cloudtechnologiesltd.co.uk",  
+                                                                                "telephone":"+44 7427547394"  
+                                                                                },  
+                                                                                "areaServed":[  
+                                                                                {  
+                                                                                "@type":"City",  
+                                                                                "name":"Harrow"  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"AdministrativeArea",  
+                                                                                "name":"Greater London"  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Country",  
+                                                                                "name":"United Kingdom"  
+                                                                                }  
+                                                                                ],  
+                                                                                "audience":{  
+                                                                                "@type":"BusinessAudience",
+                                                                                "audienceType":"Small Businesses, Medium Businesses, Enterprises"  
+                                                                                },  
+                                                                                "keywords":[  
+                                                                                "SEO Agency Harrow",  
+                                                                                "SEO Services Harrow",  
+                                                                                "SEO Company Harrow",  
+                                                                                "Harrow SEO Agency",  
+                                                                                "Local SEO Harrow",  
+                                                                                "Technical SEO Harrow",  
+                                                                                "SEO Consultant Harrow",  
+                                                                                "Ecommerce SEO Harrow",  
+                                                                                "Google Business Profile Optimisation Harrow",  
+                                                                                "Digital Marketing Harrow"  
+                                                                                ],  
+                                                                                "offers":{  
+                                                                                "@type":"Offer",  
+                                                                                "name":"SEO Agency Harrow",  
+                                                                                "url":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                                                                "availability":"https://schema.org/InStock",  
+                                                                                "priceCurrency":"GBP"  
+                                                                                },  
+                                                                                "availableChannel":{  
+                                                                                "@type":"ServiceChannel",  
+                                                                                "serviceUrl":"https://www.cloudtechnologiesltd.co.uk/contact-us",  
+                                                                                "servicePhone":{  
+                                                                                "@type":"ContactPoint",  
+                                                                                "telephone":"+44 7427547394",  
+                                                                                "contactType":"Sales",  
+                                                                                "email":"contact@cloudtechnologiesltd.co.uk",  
+                                                                                "availableLanguage":"English"  
+                                                                                }  
+                                                                                },  
+                                                                                "hoursAvailable":{  
+                                                                                "@type":"OpeningHoursSpecification",  
+                                                                                "dayOfWeek":[  
+                                                                                "Monday",  
+                                                                                "Tuesday",
+                                                                                "Wednesday",  
+                                                                                "Thursday",  
+                                                                                "Friday"  
+                                                                                ],  
+                                                                                "opens":"09:00",  
+                                                                                "closes":"18:00"  
+                                                                                },  
+                                                                                "hasOfferCatalog":{  
+                                                                                "@type":"OfferCatalog",  
+                                                                                "name":"SEO Agency Harrow Services",  
+                                                                                "itemListElement":[  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"Local SEO"  
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"Technical SEO"  
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"On-Page SEO"  
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"Off-Page SEO"
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"Content SEO"  
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"Ecommerce SEO"  
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"National SEO"  
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"International SEO"  
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"Google Business Profile Optimisation"  
+                                                                                }  
+                                                                                },
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"SEO Audit"  
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"Keyword Research"  
+                                                                                }  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"Offer",  
+                                                                                "itemOffered":{  
+                                                                                "@type":"Service",  
+                                                                                "name":"Link Building"  
+                                                                                }  
+                                                                                }  
+                                                                                ]  
+                                                                                },  
+                                                                                "potentialAction":[  
+                                                                                {  
+                                                                                "@type":"ContactAction",  
+                                                                                "name":"Request Free SEO Consultation",  
+                                                                                "target":"https://www.cloudtechnologiesltd.co.uk/contact-us"  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"CommunicateAction",  
+                                                                                "name":"WhatsApp Consultation",  
+                                                                                
+                                                                                "target":"https://api.whatsapp.com/send/?phone=7427547394&text&type=phone_number  
+                                                                                &app_absent=0"  
+                                                                                }  
+                                                                                ]
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"WebPage",  
+                                                                                "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#webpage",  
+                                                                                "url":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/",  
+                                                                                "name":"SEO Agency Harrow",  
+                                                                                "description":"Professional SEO Agency in Harrow delivering Local SEO, Technical SEO,   
+                                                                                Ecommerce SEO and Google Business Profile Optimisation to increase rankings, traffic   
+                                                                                and enquiries.",  
+                                                                                "about":{  
+                                                                                "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#service"  
+                                                                                },  
+                                                                                "primaryImageOfPage":{  
+                                                                                "@type":"ImageObject",  
+                                                                                "url":"https://www.cloudtechnologiesltd.co.uk/logo.png"  
+                                                                                },  
+                                                                                "inLanguage":"en-GB"  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"BreadcrumbList",  
+                                                                                "@id":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/#breadcrumb",  
+                                                                                "itemListElement":[  
+                                                                                {  
+                                                                                "@type":"ListItem",  
+                                                                                "position":1,  
+                                                                                "name":"Home",  
+                                                                                "item":"https://www.cloudtechnologiesltd.co.uk/"  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"ListItem",  
+                                                                                "position":2,  
+                                                                                "name":"SEO Services",  
+                                                                                "item":"https://www.cloudtechnologiesltd.co.uk/seo-service-uk"  
+                                                                                },  
+                                                                                {  
+                                                                                "@type":"ListItem",  
+                                                                                "position":3,
+                                                                                "name":"SEO Agency Harrow",  
+                                                                                "item":"https://www.cloudtechnologiesltd.co.uk/seo-agency-harrow/"  
+                                                                                }  
+                                                                                ]  
+                                                                                }  
+                                                                                ]  
+                                                                                }  
+                                                                                </script>'
+                ],            
                ],
         'seo-company' => [
             'southampton' => [
@@ -20548,6 +25784,27 @@ class LocationSeoController extends Controller
         }
 
         // 3. Fallback gracefully with a 404 if neither data matrix configuration matches the slug
+        abort(404);
+    }
+    /**
+     * Dispatcher to handle /seo-agency-{locationSlug} URL for both 'seo' and 'seo-agency' arrays.
+     *
+     * @param string $locationSlug
+     * @return \Illuminate\Contracts\View\View
+     */
+    public function handleSeoAgencyRequest(string $locationSlug)
+    {
+        // 1. Check if the location exists in the 'seo' array
+        if (isset(self::PAGES['seo'][$locationSlug])) {
+            return $this->seo($locationSlug);
+        }
+
+        // 2. Check if the location exists in the 'seo-agency' array
+        if (isset(self::PAGES['seo-agency'][$locationSlug])) {
+            return $this->SeoAgency($locationSlug);
+        }
+
+        // 3. Fallback gracefully with a 404 if neither array matches the slug
         abort(404);
     }
 

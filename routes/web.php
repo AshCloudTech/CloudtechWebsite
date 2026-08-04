@@ -250,7 +250,7 @@ Route::get('/meta-ads-service-{locationSlug}', [LocationSeoController::class, 'm
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/seo-service-{locationSlug}', [LocationSeoController::class, 'seo'])
     ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/seo-agency-{locationSlug}', [LocationSeoController::class, 'seo'])
+Route::get('/seo-agency-{locationSlug}', [LocationSeoController::class, 'handleSeoAgencyRequest'])
     ->where('locationSlug', '[a-z0-9-]+');
 Route::get('/national-seo-service-{locationSlug}', [LocationSeoController::class, 'nationalSeo'])
     ->where('locationSlug', '[a-z0-9-]+');
@@ -357,9 +357,9 @@ Route::get('/seo-for-international-sites-{locationSlug}', [LocationSeoController
 Route::get('/seo-services-{locationSlug}', [LocationSeoController::class, 'seoServices'])
     ->where('locationSlug', '[a-z0-9-]+')
     ->name('services.seo.services.page');
-Route::get('/seo-agency-{locationSlug}', [LocationSeoController::class, 'seoAgency'])
-    ->where('locationSlug', '[a-z0-9-]+')
-    ->name('services.seo.agency.page');
+// Route::get('/seo-agency-{locationSlug}', [LocationSeoController::class, 'seoAgency'])
+//     ->where('locationSlug', '[a-z0-9-]+')
+//     ->name('services.seo.agency.page');
 Route::get('/seo-company-{locationSlug}', [LocationSeoController::class, 'seoCompany'])
     ->where('locationSlug', '[a-z0-9-]+')
     ->name('services.seo.company.page');

@@ -5,16 +5,26 @@
 @section('meta_description', $content['meta']['meta_description'])
 @section('meta_keywords', $content['meta']['meta_keywords'])
 
+
 @push('styles')
+    @if (!empty($content['meta']['gsc_verification']))
+        <meta name="google-site-verification" content="{{ $content['meta']['gsc_verification'] }}" />
+    @endif
     <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/global-seo-strategy-uk/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/faq.css') }}">
+
     <!-- Dynamic Banner Delivery Injector -->
     <style>
-        .hero-section .hero-bg { background-image: url("{{ asset($content['hero']['banner_desktop']) }}"); }
+        .hero-section .hero-bg {
+            background-image: url("{{ asset($content['hero']['banner_desktop']) }}");
+        }
+
         @media (max-width: 768px) {
-            .hero-section .hero-bg { background-image: url("{{ asset($content['hero']['banner_mobile']) }}"); }
+            .hero-section .hero-bg {
+                background-image: url("{{ asset($content['hero']['banner_mobile']) }}");
+            }
         }
     </style>
 @endpush
@@ -37,13 +47,15 @@
                 <p class="hero-subtitle-text">{{ $content['hero']['subtitle'] }}</p>
 
                 <div class="hero-btn-group">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="{{ $content['hero']['audit_type'] }}">{{ $content['hero']['primary_btn_text'] }}</a>
-                    <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">{{ $content['hero']['secondary_btn_text'] }}</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit"
+                        data-audit-type="{{ $content['hero']['audit_type'] }}">{{ $content['hero']['primary_btn_text'] }}</a>
+                    <a href="#contact-form"
+                        class="btn btn-lg btn-ghost hero-ghost-light">{{ $content['hero']['secondary_btn_text'] }}</a>
                 </div>
 
-                @if(!empty($content['hero']['stats']))
+                @if (!empty($content['hero']['stats']))
                     <div class="hero-statistics-container">
-                        @foreach($content['hero']['stats'] as $stat)
+                        @foreach ($content['hero']['stats'] as $stat)
                             <div class="stat-badge-pill">
                                 <span class="stat-badge-value">{{ $stat['value'] }}</span>
                                 <span class="stat-badge-label">{{ $stat['label'] }}</span>
@@ -56,7 +68,7 @@
     </section>
 
     <!-- VISUAL GALLERY SHOWCASE GRID (e.g. Target Markets) -->
-    @if(!empty($content['showcase']['is_visible']) && $content['showcase']['is_visible'] === true)
+    @if (!empty($content['showcase']['is_visible']) && $content['showcase']['is_visible'] === true)
         <section class="content-section" id="showcase-gallery">
             <div class="container">
                 <div class="content-section-header">
@@ -65,9 +77,10 @@
                 </div>
 
                 <div class="showcase-showcase-grid">
-                    @foreach($content['showcase']['items'] as $item)
+                    @foreach ($content['showcase']['items'] as $item)
                         <article class="card showcase-display-card">
-                            <img src="{{ asset($item['img']) }}" alt="{{ $item['alt'] }}" title="{{ $item['title'] }}" loading="lazy" decoding="async">
+                            <img src="{{ asset($item['img']) }}" alt="{{ $item['alt'] }}" title="{{ $item['title'] }}"
+                                loading="lazy" decoding="async">
                             <h3>{{ $item['title'] }}</h3>
                             <p>{{ $item['desc'] }}</p>
                         </article>
@@ -82,11 +95,13 @@
         <div class="container">
             <div class="content-section-header">
                 <h2>{{ $content['features']['title'] }}</h2>
-                @if(!empty($content['features']['subtitle'])) <p>{{ $content['features']['subtitle'] }}</p> @endif
+                @if (!empty($content['features']['subtitle']))
+                    <p>{{ $content['features']['subtitle'] }}</p>
+                @endif
             </div>
 
             <div class="features-grid">
-                @foreach($content['features']['items'] as $item)
+                @foreach ($content['features']['items'] as $item)
                     <article class="card element-card">
                         <div class="element-card-icon" aria-hidden="true">
                             <i data-lucide="{{ $item['icon'] }}"></i>
@@ -104,11 +119,13 @@
         <div class="container">
             <div class="content-section-header">
                 <h2>{{ $content['process']['title'] }}</h2>
-                @if(!empty($content['process']['subtitle'])) <p>{{ $content['process']['subtitle'] }}</p> @endif
+                @if (!empty($content['process']['subtitle']))
+                    <p>{{ $content['process']['subtitle'] }}</p>
+                @endif
             </div>
 
             <div class="process-steps-grid">
-                @foreach($content['process']['items'] as $item)
+                @foreach ($content['process']['items'] as $item)
                     <article class="card step-card">
                         <div class="step-card-badge">{{ $item['step'] }}</div>
                         <h3>{{ $item['title'] }}</h3>
@@ -130,7 +147,7 @@
             <div class="split-layout-grid">
                 <div class="split-layout-content">
                     <ul class="deliverables-checklist text-white">
-                        @foreach($content['deliverables']['items'] as $item)
+                        @foreach ($content['deliverables']['items'] as $item)
                             <li>{{ $item }}</li>
                         @endforeach
                     </ul>
@@ -140,7 +157,7 @@
                     <div class="card deliverables-display-card info-dark-panel">
                         <h3>{{ $content['deliverables']['list_title'] }}</h3>
                         <p>{{ $content['deliverables']['list_desc'] }}</p>
-                        @if(!empty($content['deliverables']['list_note']))
+                        @if (!empty($content['deliverables']['list_note']))
                             <p class="sidebar-panel-note-text">{{ $content['deliverables']['list_note'] }}</p>
                         @endif
                     </div>
@@ -158,7 +175,7 @@
             </div>
 
             <div class="cross-sell-links-grid">
-                @foreach($content['related_links']['items'] as $link)
+                @foreach ($content['related_links']['items'] as $link)
                     <a class="cross-sell-navigation-card" href="{{ $link['url'] }}" aria-label="{{ $link['label'] }}">
                         <span>{{ $link['label'] }}</span>
                         <span class="cross-sell-card-arrow" aria-hidden="true">→</span>
@@ -174,17 +191,19 @@
             <div class="editorial-split-wrapper">
                 <div class="editorial-main-column">
                     <h2>{{ $content['about']['main_title'] }}</h2>
-                    @foreach($content['about']['paragraphs'] as $para)
+                    @foreach ($content['about']['paragraphs'] as $para)
                         <p>{{ $para }}</p>
                     @endforeach
                 </div>
 
                 <div class="editorial-sidebar-highlight">
                     <h3>{{ $content['about']['side_title'] }}</h3>
-                    @if(!empty($content['about']['side_intro'])) <p>{{ $content['about']['side_intro'] }}</p> @endif
+                    @if (!empty($content['about']['side_intro']))
+                        <p>{{ $content['about']['side_intro'] }}</p>
+                    @endif
 
                     <ul class="sidebar-bullet-list">
-                        @foreach($content['about']['side_bullets'] as $bullet)
+                        @foreach ($content['about']['side_bullets'] as $bullet)
                             <li>{{ $bullet }}</li>
                         @endforeach
                     </ul>
@@ -201,7 +220,7 @@
             </div>
 
             <div class="value-proposition-hero-card">
-                @foreach($content['growth']['paragraphs'] as $para)
+                @foreach ($content['growth']['paragraphs'] as $para)
                     <p>{{ $para }}</p>
                 @endforeach
             </div>
@@ -240,31 +259,36 @@
                 <div class="form-row">
                     <div class="form-field">
                         <label for="neutral_field_name">{{ $content['form']['fields']['name_label'] }}</label>
-                        <input type="text" id="neutral_field_name" name="name" placeholder="{{ $content['form']['fields']['name_placeholder'] }}" required>
+                        <input type="text" id="neutral_field_name" name="name"
+                            placeholder="{{ $content['form']['fields']['name_placeholder'] }}" required>
                     </div>
 
                     <div class="form-field">
                         <label for="neutral_field_email">{{ $content['form']['fields']['email_label'] }}</label>
-                        <input type="email" id="neutral_field_email" name="email" placeholder="{{ $content['form']['fields']['email_placeholder'] }}" required>
+                        <input type="email" id="neutral_field_email" name="email"
+                            placeholder="{{ $content['form']['fields']['email_placeholder'] }}" required>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-field">
                         <label for="neutral_field_website">{{ $content['form']['fields']['url_label'] }}</label>
-                        <input type="url" id="neutral_field_website" name="payload[website]" placeholder="{{ $content['form']['fields']['url_placeholder'] }}">
+                        <input type="url" id="neutral_field_website" name="payload[website]"
+                            placeholder="{{ $content['form']['fields']['url_placeholder'] }}">
                     </div>
 
                     <div class="form-field">
                         <label for="neutral_field_focus">{{ $content['form']['fields']['focus_label'] }}</label>
-                        <input type="text" id="neutral_field_focus" name="payload[focus_target]" placeholder="{{ $content['form']['fields']['focus_placeholder'] }}">
+                        <input type="text" id="neutral_field_focus" name="payload[focus_target]"
+                            placeholder="{{ $content['form']['fields']['focus_placeholder'] }}">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-field form-field-full">
                         <label for="neutral_field_message">{{ $content['form']['fields']['msg_label'] }}</label>
-                        <textarea id="neutral_field_message" name="message" rows="4" placeholder="{{ $content['form']['fields']['msg_placeholder'] }}" required></textarea>
+                        <textarea id="neutral_field_message" name="message" rows="4"
+                            placeholder="{{ $content['form']['fields']['msg_placeholder'] }}" required></textarea>
                     </div>
                 </div>
 
@@ -274,7 +298,7 @@
     </section>
 
     <!-- FAQ MODULE SECTION -->
-    @if(!empty($content['faq']['is_visible']) && $content['faq']['is_visible'] === true)
+    @if (!empty($content['faq']['is_visible']) && $content['faq']['is_visible'] === true)
         <section class="content-section section-bg-alt accordion-faq-section" id="faq">
             <div class="container">
                 <div class="content-section-header">
@@ -283,7 +307,7 @@
 
                 <div class="faq-central-wrap">
                     <div class="faq-clean-list">
-                        @foreach($content['faq']['items'] as $index => $faq)
+                        @foreach ($content['faq']['items'] as $index => $faq)
                             <details class="faq-interactive-item" {{ $index === 0 ? 'open' : '' }}>
                                 <summary><strong>{{ $faq['q'] }}</strong></summary>
                                 <div class="faq-collapse-content">
@@ -298,7 +322,7 @@
     @endif
 
 
-@if(!empty($content['schema']))
-    {!! $content['schema'] !!}
-@endif
+    @if (!empty($content['schema']))
+        {!! $content['schema'] !!}
+    @endif
 @endsection

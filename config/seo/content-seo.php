@@ -1424,4 +1424,179 @@ return [
 
                 ],
             ],
+            'greater-london' => [
+                'meta_title' => 'Content SEO Services Greater London | SEO Content Agency',
+                'meta_description' => 'Content SEO services in Greater London focused on keyword strategy, SEO content writing, topic optimisation and organic traffic growth for businesses and online visibility.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Content SEO Services Greater London| Professional SEO Content Optimisation Solutions',
+                        'subtitle' => 'Creating high-quality SEO content can be simple and results-driven with the right content strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Content SEO Agency in Greater London',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional content SEO services in Greater London, helping businesses improve search visibility, attract targeted audiences, and increase organic traffic through strategic content optimisation. We deliver complete content SEO solutions including keyword research, SEO copywriting, blog content creation, landing page optimisation, content audits, and on-page content improvements designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Rankings Through Content? We Make It Easy',
+                        'description' => 'Creating and optimizing SEO content can feel challenging, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you need new website content or improvements to existing pages, our SEO specialists ensure your content is fully optimized, engaging, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Content SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'SEO Content Strategy',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                            [
+                                'title' => 'SEO Copywriting',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                            [
+                                'title' => 'Blog Content Creation',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                            [
+                                'title' => 'Content Performance Tracking',
+                                'route' => 'services.seo.content-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Content SEO Services',
+                        'description' => 'Looking to improve your website content and search visibility? We provide tailored content SEO solutions designed to help businesses rank higher, attract qualified traffic, and increase conversions through strategic content optimisation.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Content SEO Services in Greater London',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different content goals. That’s why we create tailored content SEO strategies designed to maximise rankings, traffic, and engagement.',
+
+                        'sub_intro' => "Whether you're targeting local customers or national audiences, we offer:",
+
+                        'list' => [
+                            'SEO Content Writing',
+                            'Blog Content Creation',
+                            'Landing Page Optimisation',
+                            'Website Content Optimisation',
+                            'Keyword Research & Targeting',
+                            'SEO Copywriting Services',
+                            'Ecommerce Content SEO',
+                            'Meta Title & Description Optimisation',
+                            'Internal Linking Strategy',
+                            'Content Audits & Improvements',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing SEO content that generates real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Content SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and content ROI? At Cloud Technologies Ltd, we use advanced SEO tools, keyword research, competitor analysis, and content insights to ensure your campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our content SEO services include:',
+
+                        'list' => [
+                            'Content SEO audits',
+                            'Competitor content analysis',
+                            'Keyword-focused content planning',
+                            'SEO content optimisation',
+                            'Performance tracking and reporting',
+                            'Continuous content improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your content achieves better rankings, increased traffic, and higher engagement.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Content SEO Services',
+
+                        'intro' => 'Looking for cost-effective content SEO services in Greater London? Cloud Technologies Ltd offers flexible and scalable content SEO solutions tailored to your business goals and content marketing strategy.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable content SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO content performance without unnecessary costs, making content optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your content growth partner, focused on delivering high-performing SEO content strategies that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every content campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO content experts',
+                            'Data-driven content strategies',
+                            'SEO-friendly and engaging content creation',
+                            'Affordable pricing with no hidden costs',
+                            'Greater London and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is content SEO?',
+                                'a' => 'Content SEO is the process of creating and optimizing website content to improve search engine rankings, increase organic traffic, and attract targeted visitors.'
+                            ],
+                            [
+                                'q' => 'Why is content SEO important?',
+                                'a' => 'It helps search engines understand your content while improving visibility, engagement, and conversions.'
+                            ],
+                            [
+                                'q' => 'Do you provide SEO copywriting services?',
+                                'a' => 'Yes, we provide professional SEO copywriting services including blogs, landing pages, service pages, and website content.'
+                            ],
+                            [
+                                'q' => 'Can content SEO improve rankings?',
+                                'a' => 'Yes, high-quality optimized content can significantly improve keyword rankings and organic traffic.'
+                            ],
+                            [
+                                'q' => 'How often should website content be updated?',
+                                'a' => 'Regular updates help maintain rankings, improve relevance, and support long-term SEO growth.'
+                            ],
+                            [
+                                'q' => 'Do you provide content SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering content performance, keyword rankings, traffic growth, and optimisation improvements.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ]
 ];

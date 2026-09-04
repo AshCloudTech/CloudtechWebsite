@@ -1423,5 +1423,179 @@ return [
 
                 ],
             ],
+            'greater-london' => [
+                'meta_title' => 'Off-Page SEO Services Greater London | Link Building Agency',
+                'meta_description' => 'Off-page SEO services in Greater London focused on quality backlinks, authority building, outreach and organic ranking growth for businesses.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Off-Page SEO Services Greater London| Professional Link Building & Authority Building Solutions',
+                        'subtitle' => 'Building your website authority can be simple and results-driven with the right off-page SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Off-Page SEO Agency in Greater London',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional off-page SEO services in Greater London, helping businesses improve website authority, search rankings, and organic visibility through strategic link building and brand promotion. We deliver complete off-page SEO solutions including high-quality backlink building, guest posting, digital outreach, citation building, brand mentions, competitor backlink analysis, and authority-building strategies designed for long-term growth and measurable results.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Higher Google Rankings? We Make It Easy',
+                        'description' => 'Managing off-page SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your off-page strategy is fully optimized, ethical, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Off-Page SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Authority Link Building',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                            [
+                                'title' => 'Guest Posting & Outreach',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                            [
+                                'title' => 'Citation Building Services',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.off-page-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Off-Page SEO Services',
+                        'description' => 'Looking to improve your website authority and search rankings? We provide tailored off-page SEO solutions designed to help businesses build trust, increase visibility, and improve organic search performance.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Off-Page SEO Services in Greater London',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every business has different SEO goals. That’s why we create tailored off-page SEO strategies designed to maximise authority, rankings, and organic growth.',
+
+                        'sub_intro' => "Whether you're targeting local customers or scaling nationally, we offer:",
+
+                        'list' => [
+                            'High-Quality Link Building',
+                            'Guest Posting Services',
+                            'Digital PR & Outreach Campaigns',
+                            'Brand Mention Building',
+                            'Citation Building',
+                            'Competitor Backlink Analysis',
+                            'Reputation Management Support',
+                            'Content Promotion Strategies',
+                            'Local & National Authority Building',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering high-performing off-page SEO campaigns that generate real business results.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Off-Page SEO Solutions',
+
+                        'intro' => 'Looking to improve your rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, backlink analysis, and competitor insights to ensure your off-page SEO campaigns deliver maximum impact.',
+
+                        'sub_intro' => 'Our off-page SEO services include:',
+
+                        'list' => [
+                            'Backlink audits',
+                            'Competitor link analysis',
+                            'Authority-building strategies',
+                            'Outreach campaign execution',
+                            'Performance tracking and reporting',
+                            'Continuous SEO improvements',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website achieves better authority, increased traffic, and higher rankings.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Off-Page SEO Services',
+
+                        'intro' => 'Looking for cost-effective off-page SEO services in Greater London? Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and budget.',
+
+                        'sub_intro' => 'Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable off-page SEO campaigns',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong SEO performance without unnecessary costs, making off-page SEO simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing off-page SEO campaigns that drive real business success.',
+
+                        'description_2' => 'Our experienced team ensures every SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional SEO experts',
+                            'Data-driven SEO strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Greater London and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is off-page SEO?',
+                                'a' => 'Off-page SEO refers to activities outside your website that improve search rankings, authority, and trust.'
+                            ],
+                            [
+                                'q' => 'Why is off-page SEO important?',
+                                'a' => 'It helps build backlinks, improve domain authority, and increase your website’s credibility in search engines.'
+                            ],
+                            [
+                                'q' => 'What does off-page SEO include?',
+                                'a' => 'It includes link building, guest posting, digital PR, citation building, and brand mentions.'
+                            ],
+                            [
+                                'q' => 'Can off-page SEO improve rankings?',
+                                'a' => 'Yes, high-quality backlinks and authority signals can significantly improve Google rankings.'
+                            ],
+                            [
+                                'q' => 'Do you provide link building services?',
+                                'a' => 'Yes, we provide ethical white-hat link building and outreach services.'
+                            ],
+                            [
+                                'q' => 'Do you provide off-page SEO reports?',
+                                'a' => 'Yes, we provide detailed reports covering backlinks, authority growth, and SEO performance.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ]
 
 ];

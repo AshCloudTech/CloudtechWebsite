@@ -227,9 +227,6 @@ Route::get('/cloud-recruitment-digital-service-uk', [IndustryController::class, 
 Route::get('/cloud-public-digital-service-uk', [IndustryController::class, 'cloudpublic'])
     ->name('industries.cloudpublic');
 
-Route::get('/international-seo-company-{locationSlug}', [LocationSeoController::class, 'internationalSeoCompany'])
-    ->where('locationSlug', '[a-z0-9-]+')
-    ->name('services.seo.international.company');
 /*
 |--------------------------------------------------------------------------
 | 301 REDIRECTS FROM OLD URLS
@@ -278,6 +275,8 @@ Route::redirect('/industries/cloudedu', '/cloud-education-digital-service-uk', 3
 Route::redirect('/industries/cloudtravel', '/cloud-travel-digital-service-uk', 301);
 Route::redirect('/industries/cloudrecruit', '/cloud-recruitment-digital-service-uk', 301);
 Route::redirect('/industries/cloudpublic', '/cloud-public-digital-service-uk', 301);
+Route::redirect('/cloud-care-marketing-service', '/cloud-care-digital-service-uk', 301);
+Route::redirect('/industries/cloud-education', '/cloud-education-digital-service-uk', 301);
 
 // In case typo URL was already shared anywhere
 Route::redirect('/cloud-traval-digital-service-uk', '/cloud-travel-digital-service-uk', 301);

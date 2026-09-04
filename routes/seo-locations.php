@@ -36,13 +36,6 @@ Route::middleware('web')->group(function () {
     Route::get('/national-seo-service-{locationSlug}', [LocationSeoController::class, 'nationalSeo'])
         ->where('locationSlug', '[a-z0-9-]+');
 
-    Route::get('/international-seo-service-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
-        ->where('locationSlug', '[a-z0-9-]+');
-
-    Route::get('/international-seo-{locationSlug}', [LocationSeoController::class, 'international_Seo'])
-        ->where('locationSlug', '[a-z0-9-]+')
-        ->name('services.seo.international.generic');
-
     Route::get('/technical-seo-service-{locationSlug}', [LocationSeoController::class, 'technicalSeo'])
         ->where('locationSlug', '[a-z0-9-]+');
 
@@ -143,6 +136,17 @@ Route::middleware('web')->group(function () {
         ->where('locationSlug', '[a-z0-9-]+')
         ->name('services.seo.global.services');
 
+    Route::get('/global-seo-strategy-{locationSlug}', [LocationSeoController::class, 'globalSeoStrategyPage'])
+        ->where('locationSlug', '[a-z0-9-]+')
+        ->name('services.seo.global.strategy.page');
+
+    Route::get('/international-seo-service-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
+        ->where('locationSlug', '[a-z0-9-]+');
+
+    Route::get('/international-seo-company-{locationSlug}', [LocationSeoController::class, 'internationalSeoCompany'])
+        ->where('locationSlug', '[a-z0-9-]+')
+        ->name('services.seo.international.company');
+
     Route::get('/international-seo-websites-{locationSlug}', [LocationSeoController::class, 'internationalSeoWebsites'])
         ->where('locationSlug', '[a-z0-9-]+')
         ->name('services.seo.international.websites');
@@ -163,13 +167,14 @@ Route::middleware('web')->group(function () {
         ->where('locationSlug', '[a-z0-9-]+')
         ->name('services.seo.international.expert.page');
 
-    Route::get('/global-seo-strategy-{locationSlug}', [LocationSeoController::class, 'globalSeoStrategyPage'])
-        ->where('locationSlug', '[a-z0-9-]+')
-        ->name('services.seo.global.strategy.page');
-
     Route::get('/international-seo-strategy-{locationSlug}', [LocationSeoController::class, 'internationalSeoStrategyPage'])
         ->where('locationSlug', '[a-z0-9-]+')
         ->name('services.seo.international.strategy.page');
+
+    // Generic international-seo-{locationSlug} must come after all specific prefixes
+    Route::get('/international-seo-{locationSlug}', [LocationSeoController::class, 'international_Seo'])
+        ->where('locationSlug', '[a-z0-9-]+')
+        ->name('services.seo.international.generic');
 
     Route::get('/seo-for-international-sites-{locationSlug}', [LocationSeoController::class, 'seoForInternationalSitesPage'])
         ->where('locationSlug', '[a-z0-9-]+')

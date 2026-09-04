@@ -1425,4 +1425,189 @@ return [
 
                 ],
             ],
+           'greater-london' => [
+            'meta_title' => 'Local SEO Services Greater London | Google Business SEO',
+            'meta_description' => 'Local SEO services in Greater London helping businesses improve Google Maps rankings, local visibility, leads and customer enquiries across nearby areas.',
+
+            'content' => [
+
+                'hero' => [
+                    'title' => 'Local SEO Services Greater London| Professional Google Maps & Local Ranking Solutions',
+                    'subtitle' => 'Growing your local business visibility can be simple and results-driven with the right local SEO strategy.',
+                ],
+
+                'performance_snapshot' => [
+                    'title' => 'Local SEO Performance Snapshot',
+                    'description' => 'A visual overview of Google Business Profile rankings, local keyword visibility, map pack performance, website traffic, and customer enquiries across your SEO campaigns. Designed for businesses that want clarity on how local SEO is driving real leads and local growth.',
+                ],
+
+                'trust' => [
+                    'title' => 'Trusted Local SEO Agency in Greater London',
+                    'description' => 'At Cloud Technologies Ltd, we provide reliable and professional local SEO services in Greater London, helping businesses appear in Google Maps, local search results, and “near me” searches to attract more nearby customers. We deliver complete local SEO solutions including Google Business Profile optimisation, local keyword targeting, citation building, review management, local content optimisation, and Google Maps SEO designed for long-term growth and measurable results.'
+                ],
+
+                'growth' => [
+                    'title' => 'Want More Local Customers? We Make It Easy',
+                    'description' => 'Managing local SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are a new business or looking to improve your local presence, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                    'cta' => 'Get Free SEO Audit'
+                ],
+
+                'services_glance' => [
+                    'title' => 'Our Local SEO Services at a Glance',
+
+                    'items' => [
+                        [
+                            'title' => 'Google Business Profile Optimisation',
+                            'route' => 'services.seo.local-seo',
+                            'cta' => 'EXPLORE NOW →'
+                        ],
+                        [
+                            'title' => 'Local Keyword Targeting',
+                            'route' => 'services.seo.local-seo',
+                            'cta' => 'EXPLORE NOW →'
+                        ],
+                        [
+                            'title' => 'Citation Building & Listings',
+                            'route' => 'services.seo.local-seo',
+                            'cta' => 'EXPLORE NOW →'
+                        ],
+                        [
+                            'title' => 'Review & Reputation Management',
+                            'route' => 'services.seo.local-seo',
+                            'cta' => 'EXPLORE NOW →'
+                        ],
+                    ]
+                ],
+
+                'international' => [
+                    'title' => 'Advanced Local SEO Services',
+                    'description' => 'Looking to improve your visibility in Google Maps and local search results? We provide tailored local SEO solutions designed to help businesses attract nearby customers, improve rankings, and increase enquiries.',
+                    'cta' => 'Get a Quote'
+                ],
+
+                'complete_services' => [
+                    'title' => 'Complete Local SEO Services in Greater London',
+
+                    'intro' => 'At Cloud Technologies Ltd, we understand that every local business has different goals. That’s why we create tailored local SEO strategies designed to maximise visibility, traffic, and conversions.',
+
+                    'sub_intro' => "Whether you're targeting Greater London or surrounding areas, we offer:",
+
+                    'list' => [
+                        'Google Business Profile Optimisation',
+                        'Google Maps Ranking Optimisation',
+                        'Local Keyword Research',
+                        'Citation Building Services',
+                        'Local Landing Page Optimisation',
+                        'Review Generation Strategy',
+                        'Local Content Creation',
+                        'Mobile Local SEO Optimisation',
+                        'Competitor Local SEO Analysis',
+                        'Local SEO Tracking & Reporting',
+                    ],
+
+                    'bottom_text' => 'Our team focuses on delivering high-performing local SEO campaigns that generate real business results.',
+
+                    'cta' => 'Get a Quote'
+                ],
+
+                'data_driven' => [
+                    'title' => 'Data-Driven Local SEO Solutions',
+
+                    'intro' => 'Looking to improve your local rankings and ROI? At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and local search insights to ensure your campaigns deliver maximum impact.',
+
+                    'sub_intro' => 'Our local SEO services include:',
+
+                    'list' => [
+                        'Local SEO audits',
+                        'Google Business Profile optimisation',
+                        'Competitor local analysis',
+                        'Map pack ranking improvements',
+                        'Conversion tracking and reporting',
+                        'Continuous SEO optimisation',
+                    ],
+
+                    'bottom_text' => 'Our experienced team ensures your business achieves better local visibility, increased traffic, and more customer enquiries.',
+
+                    'cta' => 'Get a Quote'
+                ],
+
+                'affordable' => [
+                    'title' => 'Affordable Local SEO Services',
+
+                    'intro' => 'Looking for cost-effective local SEO services in Greater London? Cloud Technologies Ltd offers flexible and scalable local SEO solutions tailored to your business goals and budget.',
+
+                    'sub_intro' => 'Our solutions include:',
+
+                    'list' => [
+                        'Flexible SEO packages',
+                        'Transparent pricing',
+                        'Scalable local SEO campaigns',
+                    ],
+
+                    'bottom_text' => 'We focus on delivering strong local SEO performance without unnecessary costs, making local SEO simple, effective, and affordable.',
+
+                    'cta' => 'Get a Quote'
+                ],
+
+                'why_choose' => [
+                    'title' => 'Why Choose Cloud Technologies Ltd',
+
+                    'description_1' => 'We are more than just an SEO agency. We are your local growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+
+                    'description_2' => 'Our experienced team ensures every local SEO campaign is strategically planned, professionally managed, and continuously optimized.',
+
+                    'cta' => 'Get Free SEO Audit'
+                ],
+
+                'promise' => [
+                    'title' => 'What We Promise Our Clients',
+
+                    'items' => [
+                        'Experienced and professional local SEO experts',
+                        'Data-driven SEO strategies',
+                        'Ethical white-hat SEO practices',
+                        'Affordable pricing with no hidden costs',
+                        'Greater London and UK-wide SEO coverage',
+                        'Friendly and reliable support team',
+                    ]
+                ],
+
+                'request_audit' => [
+                    'title' => 'Request Your Free SEO Audit',
+                    'description' => "Tell us about your business and we'll send tailored recommendations to improve your local search visibility, rankings, and customer enquiries.",
+                ],
+
+                'faq' => [
+                    'title' => 'FAQ',
+
+                    'items' => [
+                        [
+                            'q' => 'What is local SEO?',
+                            'a' => 'Local SEO is the process of improving your business visibility in local search results and Google Maps to attract nearby customers.'
+                        ],
+                        [
+                            'q' => 'Why is local SEO important?',
+                            'a' => 'It helps businesses appear in “near me” searches and increases calls, visits, and local leads.'
+                        ],
+                        [
+                            'q' => 'Do you optimise Google Business Profile?',
+                            'a' => 'Yes, we fully optimise Google Business Profiles for better map rankings and visibility.'
+                        ],
+                        [
+                            'q' => 'Can local SEO increase calls and enquiries?',
+                            'a' => 'Yes, local SEO helps attract high-intent customers searching for your services nearby.'
+                        ],
+                        [
+                            'q' => 'How long does local SEO take?',
+                            'a' => 'Most businesses start seeing improvements within 2 to 6 months depending on competition.'
+                        ],
+                        [
+                            'q' => 'Do you provide local SEO reports?',
+                            'a' => 'Yes, we provide detailed reports covering rankings, traffic, Google Maps performance, and lead generation.'
+                        ],
+                    ]
+                ],
+
+            ],
+],
 ];

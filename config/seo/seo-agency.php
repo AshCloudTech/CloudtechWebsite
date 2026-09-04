@@ -807,4 +807,169 @@ return [
                                                                                 }  
                                                                                 </script>'
                 ], 
+                'greater-london' => [
+                                                        'meta' => [
+                                                            'title'             => 'SEO Agency in Greater London| Professional SEO Services for Business Growth',
+                                                            'meta_title'        => 'SEO Agency in Greater London | Expert SEO Services',
+                                                            'meta_description'  => 'Professional SEO agency in Greater London offering local, technical, ecommerce and national SEO services to improve Google rankings, traffic, leads and online growth.',
+                                                            'meta_keywords'     => 'seo agency greater london, professional seo services greater london, local seo greater london, technical seo greater london'
+                                                        ],
+                                                        'hero' => [
+                                                            'eyebrow'           => 'SEO Agency in Greater London',
+                                                            'title'             => 'Trusted SEO Agency in Greater London <br>Professional SEO Services for Business Growth',
+                                                            'subtitle'          => 'Growing your business online can be simple and results-driven with the right SEO strategy. At Cloud Technologies Ltd, we provide reliable and professional SEO services in Greater London, helping businesses improve search rankings, increase website traffic, and generate qualified leads.',
+                                                            'audit_type'        => 'seo-agency-greater-london-audit',
+                                                            'primary_btn_text'  => 'Get Free SEO Audit',
+                                                            'secondary_btn_text'=> 'Book SEO Strategy Call',
+                                                            'banner_desktop'    => 'assets/images/banners/desktop/image-seo-services.webp',
+                                                            'banner_mobile'     => 'assets/images/banners/mobile/image-seo-services.webp',
+                                                            'stats' => [
+                                                                ['value' => '500+', 'label' => 'SEO Campaigns Managed'],
+                                                                ['value' => '100%', 'label' => 'Ethical SEO Practices'],
+                                                                ['value' => 'Monthly', 'label' => 'Performance Reports']
+                                                            ]
+                                                        ],
+                                                        'showcase' => [
+                                                            'is_visible' => true,
+                                                            'title'      => 'SEO Performance Snapshot',
+                                                            'subtitle'   => 'A visual overview of keyword rankings, organic traffic, search visibility, and website performance across your SEO campaigns. Designed for businesses that want clarity on how SEO is driving real business growth.',
+                                                        'items' => [
+                                                                        ['img' => 'assets/images/digitalmark/google-business-profile.webp', 'alt' => 'Local SEO Services', 'title' => 'Local SEO Services', 'desc' => 'EXPLORE NOW '],
+                                                                        ['img' => 'assets/images/digitalmark/eCommerce.webp', 'alt' => 'Technical SEO Optimisation', 'title' => 'Technical SEO Optimisation', 'desc' => 'EXPLORE NOW '],
+                                                                        ['img' => 'assets/images/digitalmark/best-meta-ads-services.webp', 'alt' => 'Content & On-Page SEO', 'title' => 'Content & On-Page SEO', 'desc' => 'EXPLORE NOW '],
+                                                                        ['img' => 'assets/images/digitalmark/marketing.webp', 'alt' => 'SEO Performance Tracking', 'title' => 'SEO Performance Tracking', 'desc' => 'EXPLORE NOW ']
+                                                                    ]
+                                                        ],
+                                                        'features' => [
+                                                            'title'    => 'Want Better Google Rankings? We Make It Easy',
+                                                            'subtitle' => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                                                            'items'    => [
+                                                                ['icon' => 'sliders', 'title' => 'Local SEO Campaigns', 'desc' => 'We create tailored SEO strategies designed to maximise visibility, traffic, and conversions.'],
+                                                                ['icon' => 'settings', 'title' => 'Technical SEO Audits', 'desc' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.'],
+                                                                ['icon' => 'map-pin', 'title' => 'On-Page SEO Optimisation', 'desc' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.'],
+                                                                ['icon' => 'file-text', 'title' => 'Keyword Research & Strategy', 'desc' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.'],
+                                                                ['icon' => 'bar-chart-2', 'title' => 'Content Optimisation', 'desc' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.']
+                                                            ]
+                                                        ],
+                                                        'process' => [
+                                                            'title'    => 'Complete SEO Services in Greater London',
+                                                            'subtitle' => 'At Cloud Technologies Ltd, we understand that every business has different goals. That’s why we create tailored SEO strategies designed to maximise visibility, traffic, and conversions.',
+                                                            'items'    => [
+                                                                ['step' => '1', 'title' => 'Local SEO Campaigns', 'desc' => 'We create tailored SEO strategies designed to maximise visibility, traffic, and conversions.'],
+                                                                ['step' => '2', 'title' => 'Technical SEO Audits', 'desc' => 'Our team focuses on delivering high-performing SEO campaigns that generate real business results.'],
+                                                                ['step' => '3', 'title' => 'On-Page SEO Optimisation', 'desc' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.'],
+                                                                ['step' => '4', 'title' => 'Keyword Research & Strategy', 'desc' => 'Cloud Technologies Ltd offers flexible and scalable SEO solutions tailored to your business goals and growth plans.'],
+                                                                ['step' => '5', 'title' => 'Content Optimisation', 'desc' => 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.'],
+                                                                ['step' => '6', 'title' => 'Link Building Services', 'desc' => 'Our experienced team ensures your website achieves better rankings, increased traffic, and higher conversions.']
+                                                            ]
+                                                        ],
+                                                        'deliverables' => [
+                                                            'title'     => 'Data-Driven SEO Solutions',
+                                                            'subtitle'  => 'Looking to improve your rankings and ROI?',
+                                                            'list_title'=> 'Get a Quote',
+                                                            'list_desc' => 'At Cloud Technologies Ltd, we use advanced SEO tools, competitor analysis, and data insights to ensure your campaigns deliver maximum impact.',
+                                                            'list_note' => 'Includes: Website SEO audits, Competitor keyword analysis, Technical performance improvements, SEO content optimisation, Conversion tracking and reporting, Continuous SEO improvements',
+                                                            'items'     => [
+                                                                'Website SEO audits',
+                                                                'Competitor keyword analysis',
+                                                                'Technical performance improvements',
+                                                                'SEO content optimisation',
+                                                                'Conversion tracking and reporting',
+                                                                'Continuous SEO improvements',
+                                                                'Local SEO Campaigns',
+                                                                'Technical SEO Audits',
+                                                                'On-Page SEO Optimisation',
+                                                                'Keyword Research & Strategy',
+                                                                'Content Optimisation',
+                                                                'Link Building Services'
+                                                            ]
+                                                        ],
+                                                        'additional_benefits' => [
+                                                            'title'   => 'Affordable SEO Services in Greater London',
+                                                            'subtitle'=> 'Looking for cost-effective SEO services in Greater London?',
+                                                            'items'   => [
+                                                                'Flexible SEO packages',
+                                                                'Transparent pricing',
+                                                                'Scalable SEO campaigns',
+                                                                'Website SEO audits',
+                                                                'Competitor keyword analysis',
+                                                                'Technical performance improvements',
+                                                                'SEO content optimisation',
+                                                                'Conversion tracking and reporting'
+                                                            ]
+                                                        ],
+                                                        'related_links' => [
+                                                            'title'   => 'Why Choose Cloud Technologies Ltd',
+                                                            'subtitle'=> 'We are more than just an SEO agency. We are your growth partner, focused on delivering high-performing SEO campaigns that drive real business success.',
+                                                            'items' => [
+                                                                ['url' => '/local-seo-service-uk', 'label' => 'Local SEO Services'],
+                                                                ['url' => '/technical-seo-service-uk', 'label' => 'Technical SEO Optimisation'],
+                                                                ['url' => '/national-seo-service-uk', 'label' => 'Content & On-Page SEO'],
+                                                                ['url' => '/ecommerce-seo-service-uk', 'label' => 'SEO Performance Tracking'],
+                                                                ['url' => '/google-business-profile-service-uk', 'label' => 'Google Business Profile Optimisation'],
+                                                                ['url' => '/digital-marketing-service-uk', 'label' => 'Ecommerce SEO Solutions']
+                                                            ]
+                                                        ],
+                                                        'about' => [
+                                                            'main_title' => 'International SEO Services',
+                                                            'paragraphs' => [
+                                                                'Looking to expand beyond Greater London? We also provide international SEO services to help businesses improve global search visibility and reach customers across multiple countries and regions.'
+                                                            ],
+                                                            'side_title' => 'What We Promise Our Clients',
+                                                            'side_intro' => 'Our solutions include:',
+                                                            'side_bullets' => [
+                                                                'Experienced and professional SEO experts',
+                                                                'Data-driven SEO strategies',
+                                                                'Ethical white-hat SEO practices',
+                                                                'Affordable pricing with no hidden costs',
+                                                                'Greater London and UK-wide SEO coverage',
+                                                                'Friendly and reliable support team',
+                                                                'Flexible SEO packages',
+                                                                'Transparent pricing'
+                                                            ],
+                                                            'side_note' => ''
+                                                        ],
+                                                        'growth' => [
+                                                            'title' => 'Request Your Free SEO Audit',
+                                                            'paragraphs' => [
+                                                                'Tell us about your business and we\'ll send tailored recommendations to improve your rankings, increase organic traffic, and grow your online visibility.'
+                                                            ]
+                                                        ],
+                                                        'cta' => [
+                                                            'title'         => 'Want Better Google Rankings? We Make It Easy',
+                                                            'subtitle'      => 'SEO can feel complicated, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or improving existing rankings, our SEO specialists ensure your strategy is fully optimized, targeted, and performance-driven.',
+                                                            'primary_btn'   => 'Get Free SEO Audit',
+                                                            'secondary_btn' => 'Get a Quote'
+                                                        ],
+                                                        'form' => [
+                                                            'title'   => 'Request Your Free SEO Audit',
+                                                            'subtitle'=> 'Tell us about your business and we\'ll send tailored recommendations to improve your rankings, increase organic traffic, and grow your online visibility.',
+                                                            'key'     => 'seo_agency_greater_london_enquiry',
+                                                            'fields'  => [
+                                                                'name_label'       => 'Full Name',
+                                                                'name_placeholder' => 'Enter your name',
+                                                                'email_label'      => 'Email Address',
+                                                                'email_placeholder'=> 'name@company.com',
+                                                                'url_label'        => 'Website URL',
+                                                                'url_placeholder'  => 'https://',
+                                                                'focus_label'      => 'Business Goals',
+                                                                'focus_placeholder'=> 'Local traffic, lead generation, higher rankings, etc.',
+                                                                'msg_label'        => 'How can we help?',
+                                                                'msg_placeholder'  => 'Tell us about your business goals and current online presence.'
+                                                            ]
+                                                        ],
+                                                        'faq' => [
+                                                            'is_visible' => true,
+                                                            'title'      => 'FAQ',
+                                                            'items'      => [
+                                                                ['q' => 'What is SEO and how does it work?', 'a' => 'SEO improves your website’s visibility on search engines like Google to help attract more organic traffic, leads, and customers.'],
+                                                                ['q' => 'How long does SEO take to show results?', 'a' => 'Most businesses begin seeing measurable SEO improvements within 3 to 6 months depending on competition and website condition.'],
+                                                                ['q' => 'Do you provide local SEO services?', 'a' => 'Yes, we provide local SEO services in Greater London to help businesses improve visibility in local Google searches and Google Maps results.'],
+                                                                ['q' => 'Can SEO help generate more leads?', 'a' => 'Yes, effective SEO helps attract targeted visitors actively searching for your products or services online.'],
+                                                                ['q' => 'Do you provide SEO reports?', 'a' => 'Yes, we provide detailed SEO reports including keyword rankings, traffic performance, technical insights, and campaign progress.'],
+                                                                ['q' => 'Do you follow Google-approved SEO practices?', 'a' => 'Yes, we use ethical white-hat SEO strategies designed to achieve sustainable rankings and long-term growth.']
+                                                            ]
+                                                        ],
+                                                          
+              ]
 ];

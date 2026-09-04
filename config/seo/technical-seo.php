@@ -1440,5 +1440,182 @@ return [
 
                 ],
             ],
+            'greater-london' => [
+                'meta_title' => 'Technical SEO Services Greater London | Website SEO Specialists',
+                'meta_description' => 'Technical SEO services in Greater London improving website speed, indexing, crawlability, Core Web Vitals and search engine performance for better rankings.',
+
+                'content' => [
+
+                    'hero' => [
+                        'title' => 'Technical SEO Services Greater London| Professional Website Optimisation Solutions',
+                        'subtitle' => 'Improving your website performance and search visibility can be simple and results-driven with the right technical SEO strategy.',
+                    ],
+
+                    'trust' => [
+                        'title' => 'Trusted Technical SEO Agency in Greater London',
+                        'description' => 'At Cloud Technologies Ltd, we provide reliable and professional technical SEO services in Greater London, helping businesses improve website structure, fix SEO errors, and enhance search engine performance. We deliver complete technical SEO solutions including website audits, crawl optimisation, indexing fixes, page speed improvements, mobile optimisation, structured data implementation, and Core Web Vitals enhancements designed for long-term SEO success.'
+                    ],
+
+                    'growth' => [
+                        'title' => 'Want Better Website Performance? We Make It Easy',
+                        'description' => 'Technical SEO can feel complex, but with Cloud Technologies Ltd, it doesn’t have to be. Whether you are launching a new website or fixing existing SEO issues, our technical SEO specialists ensure your website is fully optimized, search-engine friendly, and performance-driven.',
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'services_glance' => [
+                        'title' => 'Our Technical SEO Services at a Glance',
+
+                        'items' => [
+                            [
+                                'title' => 'Technical SEO Audits',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                            [
+                                'title' => 'Website Speed Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                            [
+                                'title' => 'Crawl & Indexing Optimisation',
+                                'route' => 'services.seo.technical-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                            [
+                                'title' => 'SEO Performance Tracking',
+                                'route' => 'services.seo.on-page-seo',
+                                'cta' => 'EXPLORE NOW →'
+                            ],
+                        ]
+                    ],
+
+                    'international' => [
+                        'title' => 'Advanced Technical SEO Services',
+                        'description' => 'Looking to improve your website’s technical foundation and Google performance? We provide advanced technical SEO solutions designed to improve crawlability, indexing, website speed, and overall search engine visibility.',
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'complete_services' => [
+                        'title' => 'Complete Technical SEO Services in Greater London',
+
+                        'intro' => 'At Cloud Technologies Ltd, we understand that every website has different technical challenges. That’s why we create tailored technical SEO strategies designed to maximise performance, visibility, and search rankings.',
+
+                        'sub_intro' => "Whether you're running a business website, ecommerce store, or large platform, we offer:",
+
+                        'list' => [
+                            'Technical SEO Audits',
+                            'Website Crawl Analysis',
+                            'Indexing Optimisation',
+                            'XML Sitemap Optimisation',
+                            'Robots.txt Configuration',
+                            'Core Web Vitals Optimisation',
+                            'Page Speed Improvements',
+                            'Mobile SEO Optimisation',
+                            'Structured Data & Schema Markup',
+                            'HTTPS & Security Checks',
+                            'Canonical Tag Optimisation',
+                            'Broken Link Fixing',
+                        ],
+
+                        'bottom_text' => 'Our team focuses on delivering technical SEO improvements that support stronger rankings and better user experience.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'data_driven' => [
+                        'title' => 'Data-Driven Technical SEO Solutions',
+
+                        'intro' => 'Looking to improve your SEO performance and ROI?',
+
+                        'sub_intro' => 'At Cloud Technologies Ltd, we use advanced SEO tools and technical analysis to identify website issues and implement improvements that deliver measurable results. Our technical SEO services include:',
+
+                        'list' => [
+                            'Full website SEO audits',
+                            'Crawl error analysis',
+                            'Indexing and visibility improvements',
+                            'Page speed optimisation',
+                            'Technical issue resolution',
+                            'Continuous SEO monitoring',
+                        ],
+
+                        'bottom_text' => 'Our experienced team ensures your website performs efficiently while supporting long-term SEO success.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'affordable' => [
+                        'title' => 'Affordable Technical SEO Services',
+
+                        'intro' => 'Looking for cost-effective technical SEO services in Greater London?',
+
+                        'sub_intro' => 'Cloud Technologies Ltd offers flexible and scalable technical SEO solutions tailored to your website goals and business needs. Our solutions include:',
+
+                        'list' => [
+                            'Flexible SEO packages',
+                            'Transparent pricing',
+                            'Scalable technical SEO strategies',
+                        ],
+
+                        'bottom_text' => 'We focus on delivering strong technical SEO performance without unnecessary costs, making website optimisation simple, effective, and affordable.',
+
+                        'cta' => 'Get a Quote'
+                    ],
+
+                    'why_choose' => [
+                        'title' => 'Why Choose Cloud Technologies Ltd',
+
+                        'description_1' => 'We are more than just an SEO agency. We are your technical SEO growth partner, focused on improving website performance, search visibility, and long-term online success.',
+
+                        'description_2' => 'Our experienced team ensures every technical SEO project is strategically planned, professionally managed, and continuously optimized.',
+
+                        'cta' => 'Get Free SEO Audit'
+                    ],
+
+                    'promise' => [
+                        'title' => 'What We Promise Our Clients',
+
+                        'items' => [
+                            'Experienced and professional technical SEO experts',
+                            'Data-driven optimisation strategies',
+                            'Ethical white-hat SEO practices',
+                            'Affordable pricing with no hidden costs',
+                            'Greater London and UK-wide SEO coverage',
+                            'Friendly and reliable support team',
+                        ]
+                    ],
+
+                    'faq' => [
+                        'title' => 'FAQ',
+
+                        'items' => [
+                            [
+                                'q' => 'What is technical SEO?',
+                                'a' => 'Technical SEO focuses on improving your website’s backend structure so search engines can crawl, index, and rank your site more effectively.'
+                            ],
+                            [
+                                'q' => 'Why is technical SEO important?',
+                                'a' => 'It improves website performance, speed, mobile usability, indexing, and overall search visibility.'
+                            ],
+                            [
+                                'q' => 'What does a technical SEO audit include?',
+                                'a' => 'A technical SEO audit includes crawl analysis, indexing checks, page speed testing, mobile optimisation, structured data review, and error fixing.'
+                            ],
+                            [
+                                'q' => 'Can technical SEO improve Google rankings?',
+                                'a' => 'Yes, fixing technical issues can significantly improve rankings, visibility, and user experience.'
+                            ],
+                            [
+                                'q' => 'Do you optimise Core Web Vitals?',
+                                'a' => 'Yes, we optimise Core Web Vitals including loading speed, responsiveness, and visual stability.'
+                            ],
+                            [
+                                'q' => 'Do you provide technical SEO reports?',
+                                'a' => 'Yes, we provide detailed reports showing technical issues, improvements, and ongoing SEO performance tracking.'
+                            ],
+                        ]
+                    ],
+
+                ],
+            ]
 
 ];

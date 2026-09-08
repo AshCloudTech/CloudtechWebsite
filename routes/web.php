@@ -69,6 +69,7 @@ Route::get('/careers/{slug}', [HomeController::class, 'careerDetail'])->name('ca
 
 Route::get('/terms-of-service', [HomeController::class, 'termsOfService'])->name('terms.of.service');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy.policy');
+Route::get('/cookie-policy', [HomeController::class, 'cookiePolicy'])->name('cookie.policy');
 
 Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 Route::post('/consultations', [ConsultationController::class, 'store'])->name('consultations.store');

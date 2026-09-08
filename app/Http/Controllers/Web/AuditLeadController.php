@@ -35,10 +35,15 @@ class AuditLeadController extends Controller
             'user_agent' => substr((string) $request->userAgent(), 0, 500),
         ]);
 
-        // Admin notification email (set AUDIT_LEADS_TO in .env)
-        $to = config('audit.leads_to', config('mail.from.address'));
-        if ($to) {
-            Mail::to($to)->send(new AuditLeadAdminNotification($lead));
+        // AUDIT_LEADS_TO supports a comma-separated list of primary recipients.
+        $to = config('audit.lead_recipients') ?: [config('mail.from.address')];
+        $cc = config('enquiries.copy_recipients', []);
+        if (array_filter($to)) {
+            $mail = Mail::to($to);
+            if ($cc !== []) {
+                $mail->cc($cc);
+            }
+            $mail->send(new AuditLeadAdminNotification($lead));
         }
 
         // Optional: user confirmation

@@ -100,13 +100,17 @@ class ContactController extends Controller
             ]);
         }
 
-        $to = $form->recipient_to ?: config('mail.from.address');
+        $to = $this->emailAddresses($form->recipient_to ?: config('mail.from.address'));
+        $cc = array_values(array_unique([
+            ...$this->emailAddresses($form->recipient_cc),
+            ...config('enquiries.copy_recipients', []),
+        ]));
 
         // Send admin notification
-        if ($to) {
+        if ($to !== []) {
             $mailer = $smtp ? Mail::mailer('dynamic') : Mail::mailer(config('mail.default'));
             $mailer->to($to)
-                ->when($form->recipient_cc, fn($m) => $m->cc(array_map('trim', explode(',', $form->recipient_cc))))
+                ->when($cc !== [], fn($m) => $m->cc($cc))
                 ->when($form->recipient_bcc, fn($m) => $m->bcc(array_map('trim', explode(',', $form->recipient_bcc))))
                 ->send(new ContactSubmissionReceived($submission));
         }
@@ -121,5 +125,10 @@ return redirect()->back()
     ->withFragment('contact')
     ->with('success', 'Submitted successfully! We will contact you soon.');
         
+    }
+
+    private function emailAddresses(?string $addresses): array
+    {
+        return array_values(array_filter(array_map('trim', explode(',', (string) $addresses))));
     }
 }

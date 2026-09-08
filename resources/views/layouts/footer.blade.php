@@ -125,11 +125,19 @@
                     © {{ now()->year }} Made with <span class="heart" aria-hidden="true">❤️</span>
                 </p>
 
+                <nav class="footer-legal-links" aria-label="Legal">
+                    <a href="{{ route('privacy.policy') }}">Privacy Policy</a>
+                    <a href="{{ route('terms.of.service') }}">Terms &amp; Conditions</a>
+                    <a href="{{ route('cookie.policy') }}">Cookie Policy</a>
+                    
+
                 @guest
                     @if (Route::has('login'))
                         <a href="{{ route('login') }}" class="footer-login-link">Login</a>
                     @endif
                 @endguest
+                </nav>
+
             </div>
 
         </div>

@@ -54,7 +54,9 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about-us', [AboutUsController::class, 'index'])->name('about.us');
 
 Route::get('/case-studies', [CaseStudyController::class, 'index'])->name('case.studies');
-Route::get('/case-studies/{slug}', [CaseStudyController::class, 'detail'])->name('case.studies.detail');
+Route::get('/case-studies/{slug}', function ($slug) {
+    return view('case-study-detail', ['slug' => $slug]);
+})->name('case.studies.detail');
 
 Route::get('/contact-us', [ContactUsController::class, 'index'])->name('contact.us');
 Route::post('/contact-us/submit', [ContactUsController::class, 'submit'])->name('contact.us.submit');

@@ -125,6 +125,37 @@ Route::get('/national-seo-service-uk', [DigitalMarkController::class, 'nationals
 
 Route::get('/international-seo-service-uk', [DigitalMarkController::class, 'internationalseo'])
     ->name('services.seo.international-seo');
+Route::get('/global-seo-services-uk', [DigitalMarkController::class, 'globalseo'])
+    ->name('services.seo.global-seo');
+Route::get('/international-seo-company-uk', [DigitalMarkController::class, 'internationalseocompany'])
+    ->name('services.seo.international-seo-company');
+
+Route::get('/international-seo-websites-uk', [DigitalMarkController::class, 'internationalseowebsites'])
+    ->name('services.seo.international-seo-websites');
+
+Route::get('/international-seo-agency-uk', [DigitalMarkController::class, 'internationalseoagency'])
+    ->name('services.seo.international-seo-agency');
+
+Route::get('/international-seo-services-uk', [DigitalMarkController::class, 'internationalseoservices'])
+    ->name('services.seo.international-seo-services');
+
+Route::get('/international-seo-uk', [DigitalMarkController::class, 'internationalseouk'])
+    ->name('services.seo.international-seo-uk');
+
+Route::get('/international-seo-consultant-uk', [DigitalMarkController::class, 'internationalseoconsultant'])
+    ->name('services.seo.international-seo-consultant');
+
+Route::get('/international-seo-expert-uk', [DigitalMarkController::class, 'internationalseoexpert'])
+    ->name('services.seo.international-seo-expert');
+
+Route::get('/global-seo-strategy-uk', [DigitalMarkController::class, 'globalseostrategy'])
+    ->name('services.seo.global-seo-strategy');
+
+Route::get('/international-seo-strategy-uk', [DigitalMarkController::class, 'internationalseostrategy'])
+    ->name('services.seo.international-seo-strategy');
+
+Route::get('/seo-international-sites-uk', [DigitalMarkController::class, 'seointernationalsites'])
+    ->name('services.seo.seo-international-sites');
 
 Route::get('/technical-seo-service-uk', [DigitalMarkController::class, 'tecnicalseo'])
     ->name('services.seo.technical-seo');
@@ -196,101 +227,6 @@ Route::get('/cloud-recruitment-digital-service-uk', [IndustryController::class, 
 Route::get('/cloud-public-digital-service-uk', [IndustryController::class, 'cloudpublic'])
     ->name('industries.cloudpublic');
 
-
-
-
-
-/*
-|--------------------------------------------------------------------------
-| Dynamic Location SEO Routes
-|--------------------------------------------------------------------------
-*/
-
-Route::get('/digital-marketing-service-{locationSlug}', [LocationSeoController::class, 'digitalMarketing'])
-    ->where('locationSlug', '[a-z0-9-]+')
-    ->name('services.digital.marketing.location');
-Route::get('/social-media-marketing-service-{locationSlug}', [LocationSeoController::class, 'socialMediaMarketing'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/ppc-advertising-service-{locationSlug}', [LocationSeoController::class, 'ppcAdvertising'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/google-business-profile-service-{locationSlug}', [LocationSeoController::class, 'googleBusinessProfile'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/meta-ads-service-{locationSlug}', [LocationSeoController::class, 'metaAds'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/seo-service-{locationSlug}', [LocationSeoController::class, 'seo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/seo-agency-{locationSlug}', [LocationSeoController::class, 'seo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/national-seo-service-{locationSlug}', [LocationSeoController::class, 'nationalSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/international-seo-agency-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/international-seo-service-{locationSlug}', [LocationSeoController::class, 'internationalSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/technical-seo-service-{locationSlug}', [LocationSeoController::class, 'technicalSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/content-seo-service-{locationSlug}', [LocationSeoController::class, 'contentSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/image-seo-service-{locationSlug}', [LocationSeoController::class, 'imageSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/local-seo-service-{locationSlug}', [LocationSeoController::class, 'localSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/ecommerce-seo-service-{locationSlug}', [LocationSeoController::class, 'ecommerceSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/ecommerce-seo-agency-{locationSlug}', [LocationSeoController::class, 'ecommerceSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/on-page-seo-service-{locationSlug}', [LocationSeoController::class, 'onPageSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/off-page-seo-service-{locationSlug}', [LocationSeoController::class, 'offPageSeo'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/website-development-service-{locationSlug}', [LocationSeoController::class, 'websiteDevelopment'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/website-development-services-{locationSlug}', [LocationSeoController::class, 'websiteDevelopment'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/woocommerce-agency-in-{locationSlug}', [LocationSeoController::class, 'woocommerce'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/woocommerce-development-services-{locationSlug}', [LocationSeoController::class, 'woocommerce'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/shopify-website-development-service-{locationSlug}', [LocationSeoController::class, 'shopify'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/shopify-development-services-{locationSlug}', [LocationSeoController::class, 'shopify'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/squarespace-website-development-service-{locationSlug}', [LocationSeoController::class, 'squarespace'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/squarespace-development-services-{locationSlug}', [LocationSeoController::class, 'squarespace'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/wordpress-website-development-service-{locationSlug}', [LocationSeoController::class, 'wordpress'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/wordpress-development-services-{locationSlug}', [LocationSeoController::class, 'wordpress'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/wix-website-development-service-{locationSlug}', [LocationSeoController::class, 'wix'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/wix-development-services-{locationSlug}', [LocationSeoController::class, 'wix'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/godaddy-website-development-{locationSlug}', [LocationSeoController::class, 'godaddy'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/godaddy-website-builder-services-{locationSlug}', [LocationSeoController::class, 'godaddy'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/laravel-website-development-service-{locationSlug}', [LocationSeoController::class, 'laravel'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/laravel-development-services-{locationSlug}', [LocationSeoController::class, 'laravel'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/custom-php-website-development-service-{locationSlug}', [LocationSeoController::class, 'customPhp'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/custom-php-development-services-{locationSlug}', [LocationSeoController::class, 'customPhp'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/cloud-health-digital-service-{locationSlug}', [LocationSeoController::class, 'cloudhealth'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/care-home-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudcare'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/education-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudedu'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/travel-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudtravel'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/recruitment-seo-services-in-{locationSlug}', [LocationSeoController::class, 'cloudrecruit'])
-    ->where('locationSlug', '[a-z0-9-]+');
-Route::get('/public-sector-seo-service-in-{locationSlug}', [LocationSeoController::class, 'cloudpublic'])
-    ->where('locationSlug', '[a-z0-9-]+');
 /*
 |--------------------------------------------------------------------------
 | 301 REDIRECTS FROM OLD URLS
@@ -339,6 +275,8 @@ Route::redirect('/industries/cloudedu', '/cloud-education-digital-service-uk', 3
 Route::redirect('/industries/cloudtravel', '/cloud-travel-digital-service-uk', 301);
 Route::redirect('/industries/cloudrecruit', '/cloud-recruitment-digital-service-uk', 301);
 Route::redirect('/industries/cloudpublic', '/cloud-public-digital-service-uk', 301);
+Route::redirect('/cloud-care-marketing-service', '/cloud-care-digital-service-uk', 301);
+Route::redirect('/industries/cloud-education', '/cloud-education-digital-service-uk', 301);
 
 // In case typo URL was already shared anywhere
 Route::redirect('/cloud-traval-digital-service-uk', '/cloud-travel-digital-service-uk', 301);
@@ -448,9 +386,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Route::resource('business-results', BusinessResultController::class);
         });
 });
-
+require __DIR__ . '/seo-locations.php';
 Route::fallback(function () {
     return response()->view('404', [], 404);
 });
-
 require __DIR__ . '/auth.php';

@@ -28,10 +28,10 @@
         <meta name="keywords" content="@yield('meta_keywords')">
     @endif
 
-    <meta name="robots" content="index, follow">
+   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 
     <!-- Canonical -->
-    <link rel="canonical" href="{{ url()->current() }}" />
+    {{-- <link rel="canonical" href="{{ url()->current() }}" /> --}}
 
     @php
         $faviconUrl = !empty($globalCompany?->favicon_path)
@@ -48,27 +48,27 @@
     <link rel="apple-touch-icon" href="{{ $faviconUrl }}">
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website">
+    {{-- <meta property="og:type" content="website">
     <meta property="og:site_name" content="Cloud Technologies Ltd">
     <meta property="og:locale" content="en_GB">
     <meta property="og:title" content="{{ $finalTitle }}">
     <meta property="og:description" content="{{ $pageDescription }}">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ $ogImageUrl }}">
+    <meta property="og:image" content="{{ $ogImageUrl }}"> --}}
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
+    {{-- <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ $finalTitle }}">
     <meta name="twitter:description" content="{{ $pageDescription }}">
-    <meta name="twitter:image" content="{{ $ogImageUrl }}">
+    <meta name="twitter:image" content="{{ $ogImageUrl }}"> --}}
 
     <!-- Google Search Console -->
-    <meta name="google-site-verification" content="rxQnU-7ZRd02KJKnFK-2P3jP4xk0WI2QDEhf1NCogz8" />
+    {{-- <meta name="google-site-verification" content="rxQnU-7ZRd02KJKnFK-2P3jP4xk0WI2QDEhf1NCogz8" /> --}}
 
     @stack('head_preloads')
 
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFQG0JPV04"></script>
+    {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFQG0JPV04"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -77,9 +77,9 @@
         }
         gtag('js', new Date());
         gtag('config', 'G-QFQG0JPV04');
-    </script>
+    </script> --}}
 
-    @yield('meta_tags')
+    {{-- @yield('meta_tags') --}}
 
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">

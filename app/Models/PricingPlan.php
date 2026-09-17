@@ -7,15 +7,31 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class PricingPlan extends Model
 {
-     protected $fillable = [
-        'key','badge_text','badge_variant','title','subtitle','description',
-        'is_featured','sort_order','is_active',
-        'cta_text','cta_url','cta_variant',
+    protected $fillable = [
+        'key',
+        'category',
+        'badge_text',
+        'badge_variant',
+        'title',
+        'subtitle',
+        'ideal',
+        'currency_symbol',
+        'price_amount',
+        'price_period',
+        'description',
+        'is_featured',
+        'sort_order',
+        'is_active',
+        'cta_text',
+        'cta_url',
+        'cta_variant',
+        'btn_class',
     ];
 
     protected $casts = [
         'is_featured' => 'boolean',
         'is_active' => 'boolean',
+        'sort_order' => 'integer',
     ];
 
     public function prices(): HasMany

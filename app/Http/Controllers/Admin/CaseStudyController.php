@@ -13,9 +13,43 @@ class CaseStudyController extends Controller
 {
     use RedirectsToConsole;
 
-    public function index()
+    public function index(Request $request)
     {
-        $items = CaseStudy::query()->orderBy('sort_order')->orderByDesc('id')->paginate(20);
+        $query = CaseStudy::query();
+
+        if ($request->filled('search')) {
+            $s = $request->search;
+            $query->where(function ($q) use ($s) {
+                $q->where('title', 'like', "%{$s}%")
+                  ->orWhere('slug', 'like', "%{$s}%")
+                  ->orWhere('client_name', 'like', "%{$s}%")
+                  ->orWhere('location', 'like', "%{$s}%");
+            });
+        }
+
+        if ($request->filled('status')) {
+            if ($request->status === 'published') {
+                $query->where('is_published', true);
+            } elseif ($request->status === 'draft') {
+                $query->where('is_published', false);
+            }
+        }
+
+        if ($request->filled('industry')) {
+            $query->where('industry', 'like', '%' . $request->industry . '%');
+        }
+
+        $sort = $request->input('sort', 'order');
+        if ($sort === 'latest') {
+            $query->orderByDesc('id');
+        } elseif ($sort === 'oldest') {
+            $query->orderBy('id');
+        } else {
+            $query->orderBy('sort_order')->orderByDesc('id');
+        }
+
+        $items = $query->paginate(20)->withQueryString();
+
         return view('admin.case-studies.index', compact('items'));
     }
 
@@ -44,7 +78,18 @@ class CaseStudyController extends Controller
 
     public function edit(CaseStudy $caseStudy)
     {
-        $caseStudy->load(['stats','features','impacts','techStacks','points','testimonials']);
+        $caseStudy->load([
+            'stats',
+            'kpis',
+            'chartTrends',
+            'chartBreakdowns',
+            'tasks',
+            'features',
+            'impacts',
+            'techStacks',
+            'points',
+            'testimonials',
+        ]);
         return view('admin.case-studies.edit', compact('caseStudy'));
     }
 
@@ -84,95 +129,140 @@ class CaseStudyController extends Controller
     private function validated(Request $request, ?int $ignoreId = null): array
     {
         return $request->validate([
-            'title' => ['required','string','max:180'],
-            'slug' => ['nullable','string','max:200', 'unique:case_studies,slug'.($ignoreId ? ',' . $ignoreId : '')],
+            'title' => ['required', 'string', 'max:180'],
+            'slug' => ['nullable', 'string', 'max:200', 'unique:case_studies,slug' . ($ignoreId ? ',' . $ignoreId : '')],
+            'type' => ['nullable', 'string', 'max:50'],
 
-            'subtitle' => ['nullable','string','max:255'],
-            'excerpt' => ['nullable','string','max:255'],
-            'industry' => ['nullable','string','max:120'],
-            'industry_tag_color' => ['nullable','string','max:30'],
-            'client_name' => ['nullable','string','max:150'],
-            'year' => ['nullable','string','max:10'],
+            'subtitle' => ['nullable', 'string', 'max:255'],
+            'excerpt' => ['nullable', 'string'],
+            'industry' => ['nullable', 'string', 'max:120'],
+            'industry_tag_color' => ['nullable', 'string', 'max:30'],
+            'location' => ['nullable', 'string', 'max:120'],
+            'client_name' => ['nullable', 'string', 'max:150'],
+            'website' => ['nullable', 'string', 'max:255'],
+            'year' => ['nullable', 'string', 'max:10'],
+            'duration' => ['nullable', 'string', 'max:60'],
 
-            'card_image' => ['nullable','image','mimes:jpg,jpeg,png,webp','max:4096'],
-            'hero_image' => ['nullable','image','mimes:jpg,jpeg,png,webp','max:4096'],
+            'card_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:4096'],
+            'hero_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:4096'],
 
-            'challenge_title' => ['nullable','string','max:120'],
-            'challenge_body' => ['nullable','string'],
+            // Hero section
+            'hero_title_main' => ['nullable', 'string', 'max:255'],
+            'hero_title_em' => ['nullable', 'string', 'max:255'],
+            'hero_lead' => ['nullable', 'string'],
+            'hero_quote' => ['nullable', 'string'],
 
-            'solution_title' => ['nullable','string','max:120'],
-            'solution_body' => ['nullable','string'],
+            // Charts labels
+            'chart_trend_label' => ['nullable', 'string', 'max:255'],
+            'chart_breakdown_label' => ['nullable', 'string', 'max:255'],
 
-            'features_heading' => ['nullable','string','max:120'],
-            'features_subheading' => ['nullable','string','max:255'],
+            // Challenge / Solution
+            'challenge_title' => ['nullable', 'string', 'max:120'],
+            'challenge_body' => ['nullable', 'string'],
 
-            'impact_heading' => ['nullable','string','max:120'],
-            'impact_subheading' => ['nullable','string','max:255'],
+            'solution_title' => ['nullable', 'string', 'max:120'],
+            'solution_body' => ['nullable', 'string'],
+
+            'features_heading' => ['nullable', 'string', 'max:120'],
+            'features_subheading' => ['nullable', 'string', 'max:255'],
+
+            'impact_heading' => ['nullable', 'string', 'max:120'],
+            'impact_subheading' => ['nullable', 'string', 'max:255'],
+
+            // CTA section
+            'cta_title' => ['nullable', 'string', 'max:255'],
+            'cta_btn_text' => ['nullable', 'string', 'max:120'],
 
             // legacy single testimonial fields (optional)
-            'testimonial_badge' => ['nullable','string','max:10'],
-            'testimonial_quote' => ['nullable','string'],
-            'testimonial_author_name' => ['nullable','string','max:120'],
-            'testimonial_author_title' => ['nullable','string','max:180'],
+            'testimonial_badge' => ['nullable', 'string', 'max:10'],
+            'testimonial_quote' => ['nullable', 'string'],
+            'testimonial_author_name' => ['nullable', 'string', 'max:120'],
+            'testimonial_author_title' => ['nullable', 'string', 'max:180'],
 
-            'meta_title' => ['nullable','string','max:255'],
-            'meta_description' => ['nullable','string','max:255'],
+            'meta_title' => ['nullable', 'string', 'max:255'],
+            'meta_description' => ['nullable', 'string', 'max:255'],
 
-            'is_published' => ['nullable','boolean'],
-            'sort_order' => ['nullable','integer','min:0'],
+            'is_published' => ['nullable', 'boolean'],
+            'sort_order' => ['nullable', 'integer', 'min:0'],
 
             // ---------- Dynamic Blocks ----------
-            'stats' => ['nullable','array'],
-            'stats.*.icon' => ['nullable','string','max:80'],
-            'stats.*.value' => ['nullable','string','max:60'],
-            'stats.*.label' => ['nullable','string','max:140'],
-            'stats.*.sort_order' => ['nullable','integer','min:0'],
+            // Card stats
+            'stats' => ['nullable', 'array'],
+            'stats.*.icon' => ['nullable', 'string', 'max:80'],
+            'stats.*.value' => ['nullable', 'string', 'max:60'],
+            'stats.*.label' => ['nullable', 'string', 'max:140'],
+            'stats.*.sort_order' => ['nullable', 'integer', 'min:0'],
 
-            'points' => ['nullable','array'],
-            'points.*.section' => ['nullable','in:challenge,solution'],
-            'points.*.icon' => ['nullable','string','max:80'],
-            'points.*.text' => ['nullable','string','max:255'],
-            'points.*.sort_order' => ['nullable','integer','min:0'],
+            // KPIs
+            'kpis' => ['nullable', 'array'],
+            'kpis.*.label' => ['nullable', 'string', 'max:120'],
+            'kpis.*.value' => ['nullable', 'string', 'max:60'],
+            'kpis.*.formatted' => ['nullable', 'string', 'max:60'],
+            'kpis.*.sub' => ['nullable', 'string', 'max:180'],
+            'kpis.*.delta' => ['nullable', 'string', 'max:180'],
+            'kpis.*.sort_order' => ['nullable', 'integer', 'min:0'],
 
-            'features' => ['nullable','array'],
-            'features.*.icon' => ['nullable','string','max:80'],
-            'features.*.title' => ['nullable','string','max:140'],
-            'features.*.description' => ['nullable','string','max:255'],
-            'features.*.sort_order' => ['nullable','integer','min:0'],
+            // Chart Trends
+            'trends' => ['nullable', 'array'],
+            'trends.*.label' => ['nullable', 'string', 'max:120'],
+            'trends.*.value' => ['nullable', 'string', 'max:60'],
+            'trends.*.height' => ['nullable', 'string', 'max:30'],
+            'trends.*.sort_order' => ['nullable', 'integer', 'min:0'],
 
-            'impacts' => ['nullable','array'],
-            'impacts.*.metric' => ['nullable','string','max:60'],
-            'impacts.*.title' => ['nullable','string','max:140'],
-            'impacts.*.description' => ['nullable','string','max:255'],
-            'impacts.*.sort_order' => ['nullable','integer','min:0'],
+            // Chart Breakdowns
+            'breakdowns' => ['nullable', 'array'],
+            'breakdowns.*.label' => ['nullable', 'string', 'max:150'],
+            'breakdowns.*.pct' => ['nullable', 'string', 'max:40'],
+            'breakdowns.*.sort_order' => ['nullable', 'integer', 'min:0'],
 
-            'tech' => ['nullable','array'],
-            'tech.*.name' => ['nullable','string','max:80'],
-            'tech.*.sort_order' => ['nullable','integer','min:0'],
+            // What We Executed (Tasks)
+            'tasks' => ['nullable', 'array'],
+            'tasks.*.task' => ['nullable', 'string', 'max:255'],
+            'tasks.*.sort_order' => ['nullable', 'integer', 'min:0'],
 
-            // ---------- Testimonials ----------
-            'testimonials' => ['nullable','array'],
-            'testimonials.*.badge' => ['nullable','string','max:60'],
-            'testimonials.*.quote' => ['nullable','string'],
-            'testimonials.*.author_name' => ['nullable','string','max:120'],
-            'testimonials.*.author_title' => ['nullable','string','max:180'],
-            'testimonials.*.author_company' => ['nullable','string','max:180'],
+            // Points
+            'points' => ['nullable', 'array'],
+            'points.*.section' => ['nullable', 'in:challenge,solution,task,what_we_did'],
+            'points.*.icon' => ['nullable', 'string', 'max:80'],
+            'points.*.text' => ['nullable', 'string', 'max:255'],
+            'points.*.sort_order' => ['nullable', 'integer', 'min:0'],
 
-            'testimonials.*.rating' => ['nullable','integer','min:1','max:5'],
-            'testimonials.*.source' => ['nullable','string','max:120'],
-            'testimonials.*.source_url' => ['nullable','url','max:255'],
+            // Features
+            'features' => ['nullable', 'array'],
+            'features.*.icon' => ['nullable', 'string', 'max:80'],
+            'features.*.title' => ['nullable', 'string', 'max:140'],
+            'features.*.description' => ['nullable', 'string', 'max:255'],
+            'features.*.sort_order' => ['nullable', 'integer', 'min:0'],
 
-            'testimonials.*.is_featured' => ['nullable','boolean'],
-            'testimonials.*.is_published' => ['nullable','boolean'],
-            'testimonials.*.sort_order' => ['nullable','integer','min:0'],
+            // Impacts
+            'impacts' => ['nullable', 'array'],
+            'impacts.*.metric' => ['nullable', 'string', 'max:60'],
+            'impacts.*.title' => ['nullable', 'string', 'max:140'],
+            'impacts.*.description' => ['nullable', 'string', 'max:255'],
+            'impacts.*.sort_order' => ['nullable', 'integer', 'min:0'],
 
-            // file inputs (nested)
-            'testimonials.*.author_avatar' => ['nullable','image','mimes:jpg,jpeg,png,webp','max:4096'],
-            'testimonials.*.company_logo' => ['nullable','image','mimes:jpg,jpeg,png,webp','max:4096'],
+            // Tech
+            'tech' => ['nullable', 'array'],
+            'tech.*.name' => ['nullable', 'string', 'max:80'],
+            'tech.*.sort_order' => ['nullable', 'integer', 'min:0'],
 
-            // keep existing images
-            'testimonials.*.author_avatar_existing' => ['nullable','string','max:255'],
-            'testimonials.*.company_logo_existing' => ['nullable','string','max:255'],
+            // Testimonials
+            'testimonials' => ['nullable', 'array'],
+            'testimonials.*.badge' => ['nullable', 'string', 'max:60'],
+            'testimonials.*.quote' => ['nullable', 'string'],
+            'testimonials.*.author_name' => ['nullable', 'string', 'max:120'],
+            'testimonials.*.author_title' => ['nullable', 'string', 'max:180'],
+            'testimonials.*.author_company' => ['nullable', 'string', 'max:180'],
+            'testimonials.*.rating' => ['nullable', 'integer', 'min:1', 'max:5'],
+            'testimonials.*.source' => ['nullable', 'string', 'max:120'],
+            'testimonials.*.source_url' => ['nullable', 'url', 'max:255'],
+            'testimonials.*.is_featured' => ['nullable', 'boolean'],
+            'testimonials.*.is_published' => ['nullable', 'boolean'],
+            'testimonials.*.sort_order' => ['nullable', 'integer', 'min:0'],
+            'testimonials.*.author_avatar' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:4096'],
+            'testimonials.*.company_logo' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:4096'],
+            'testimonials.*.author_avatar_existing' => ['nullable', 'string', 'max:255'],
+            'testimonials.*.company_logo_existing' => ['nullable', 'string', 'max:255'],
         ]);
     }
 
@@ -186,7 +276,6 @@ class CaseStudyController extends Controller
 
         foreach (['card_image', 'hero_image'] as $field) {
             if ($request->hasFile($field)) {
-
                 if ($caseStudy?->$field) {
                     $oldPath = public_path($caseStudy->$field);
                     if (file_exists($oldPath)) @unlink($oldPath);
@@ -198,7 +287,6 @@ class CaseStudyController extends Controller
 
                 $file->move($destDir, $name);
                 $data[$field] = 'assets/case-studies/' . $name;
-
             } else {
                 unset($data[$field]);
             }
@@ -212,7 +300,7 @@ class CaseStudyController extends Controller
 
     private function syncChildren(CaseStudy $caseStudy, Request $request): void
     {
-        // STATS
+        // STATS (Card stats)
         $caseStudy->stats()->delete();
         $stats = $request->input('stats', []);
         if (is_array($stats)) {
@@ -223,12 +311,76 @@ class CaseStudyController extends Controller
                     'icon' => $row['icon'] ?? null,
                     'value' => $row['value'] ?? null,
                     'label' => $row['label'] ?? null,
-                    'sort_order' => (int)($row['sort_order'] ?? $i),
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
                 ]);
             }
         }
 
-        // POINTS
+        // KPIS (Key Performance Indicators)
+        $caseStudy->kpis()->delete();
+        $kpis = $request->input('kpis', []);
+        if (is_array($kpis)) {
+            foreach ($kpis as $i => $row) {
+                if (blank($row['label'] ?? null) && blank($row['value'] ?? null)) continue;
+
+                $caseStudy->kpis()->create([
+                    'label' => $row['label'] ?? null,
+                    'value' => $row['value'] ?? null,
+                    'formatted' => $row['formatted'] ?? $row['value'] ?? null,
+                    'sub' => $row['sub'] ?? null,
+                    'delta' => $row['delta'] ?? null,
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
+                ]);
+            }
+        }
+
+        // CHART TRENDS
+        $caseStudy->chartTrends()->delete();
+        $trends = $request->input('trends', []);
+        if (is_array($trends)) {
+            foreach ($trends as $i => $row) {
+                if (blank($row['label'] ?? null) && blank($row['value'] ?? null)) continue;
+
+                $caseStudy->chartTrends()->create([
+                    'label' => $row['label'] ?? null,
+                    'value' => $row['value'] ?? '0',
+                    'height' => $row['height'] ?? '50%',
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
+                ]);
+            }
+        }
+
+        // CHART BREAKDOWNS
+        $caseStudy->chartBreakdowns()->delete();
+        $breakdowns = $request->input('breakdowns', []);
+        if (is_array($breakdowns)) {
+            foreach ($breakdowns as $i => $row) {
+                if (blank($row['label'] ?? null) && blank($row['pct'] ?? null)) continue;
+
+                $caseStudy->chartBreakdowns()->create([
+                    'label' => $row['label'] ?? null,
+                    'pct' => $row['pct'] ?? '0%',
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
+                ]);
+            }
+        }
+
+        // WHAT WE EXECUTED (Tasks)
+        $caseStudy->tasks()->delete();
+        $tasks = $request->input('tasks', []);
+        if (is_array($tasks)) {
+            foreach ($tasks as $i => $row) {
+                $taskText = is_array($row) ? ($row['task'] ?? '') : (string)$row;
+                if (blank($taskText)) continue;
+
+                $caseStudy->tasks()->create([
+                    'task' => $taskText,
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
+                ]);
+            }
+        }
+
+        // POINTS (Challenge & Solution)
         $caseStudy->points()->delete();
         $points = $request->input('points', []);
         if (is_array($points)) {
@@ -239,7 +391,7 @@ class CaseStudyController extends Controller
                     'section' => $row['section'],
                     'icon' => $row['icon'] ?? null,
                     'text' => $row['text'],
-                    'sort_order' => (int)($row['sort_order'] ?? $i),
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
                 ]);
             }
         }
@@ -255,7 +407,7 @@ class CaseStudyController extends Controller
                     'icon' => $row['icon'] ?? null,
                     'title' => $row['title'] ?? 'Untitled',
                     'description' => $row['description'] ?? null,
-                    'sort_order' => (int)($row['sort_order'] ?? $i),
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
                 ]);
             }
         }
@@ -271,7 +423,7 @@ class CaseStudyController extends Controller
                     'metric' => $row['metric'] ?? null,
                     'title' => $row['title'] ?? null,
                     'description' => $row['description'] ?? null,
-                    'sort_order' => (int)($row['sort_order'] ?? $i),
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
                 ]);
             }
         }
@@ -285,12 +437,12 @@ class CaseStudyController extends Controller
 
                 $caseStudy->techStacks()->create([
                     'name' => $row['name'],
-                    'sort_order' => (int)($row['sort_order'] ?? $i),
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
                 ]);
             }
         }
 
-        // TESTIMONIALS (with nested uploads)
+        // TESTIMONIALS
         $caseStudy->load('testimonials');
         foreach ($caseStudy->testimonials as $old) {
             if ($old->author_avatar) Storage::disk('public')->delete($old->author_avatar);
@@ -300,19 +452,15 @@ class CaseStudyController extends Controller
 
         $testimonials = $request->input('testimonials', []);
         if (is_array($testimonials)) {
-
             $destDir = public_path('assets/case-studies/testimonials');
             if (!is_dir($destDir)) @mkdir($destDir, 0755, true);
 
             foreach ($testimonials as $i => $row) {
                 $quote = trim((string)($row['quote'] ?? ''));
-
-                // if empty row → skip
                 if ($quote === '' && blank($row['author_name'] ?? null) && blank($row['author_company'] ?? null)) {
                     continue;
                 }
 
-                // avatar upload
                 $avatarPath = $row['author_avatar_existing'] ?? null;
                 if ($request->hasFile("testimonials.$i.author_avatar")) {
                     $file = $request->file("testimonials.$i.author_avatar");
@@ -322,7 +470,6 @@ class CaseStudyController extends Controller
                     $avatarPath = 'assets/case-studies/testimonials/' . $name;
                 }
 
-                // company logo upload
                 $logoPath = $row['company_logo_existing'] ?? null;
                 if ($request->hasFile("testimonials.$i.company_logo")) {
                     $file = $request->file("testimonials.$i.company_logo");
@@ -345,7 +492,7 @@ class CaseStudyController extends Controller
                     'source_url' => $row['source_url'] ?? null,
                     'is_featured' => (bool)($row['is_featured'] ?? false),
                     'is_published' => (bool)($row['is_published'] ?? true),
-                    'sort_order' => (int)($row['sort_order'] ?? $i),
+                    'sort_order' => (int)($row['sort_order'] ?? $i + 1),
                 ]);
             }
         }

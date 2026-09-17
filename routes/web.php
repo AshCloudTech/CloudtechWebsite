@@ -35,6 +35,7 @@ use App\Http\Controllers\Admin\PricingPlanController;
 use App\Http\Controllers\Admin\PricingPlanPriceController;
 use App\Http\Controllers\Admin\PricingPlanFeatureController;
 use App\Http\Controllers\Admin\PricingFaqController;
+use App\Http\Controllers\Admin\PricingServiceController;
 use App\Http\Controllers\Web\ConsultationController;
 use App\Http\Controllers\Admin\BusinessResultController;
 use App\Http\Controllers\Web\AuditLeadController;
@@ -54,9 +55,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about-us', [AboutUsController::class, 'index'])->name('about.us');
 
 Route::get('/case-studies', [CaseStudyController::class, 'index'])->name('case.studies');
-Route::get('/case-studies/{slug}', function ($slug) {
-    return view('case-study-detail', ['slug' => $slug]);
-})->name('case.studies.detail');
+Route::get('/case-studies/{slug}', [CaseStudyController::class, 'detail'])->name('case.studies.detail');
 
 Route::get('/contact-us', [ContactUsController::class, 'index'])->name('contact.us');
 Route::post('/contact-us/submit', [ContactUsController::class, 'submit'])->name('contact.us.submit');
@@ -340,6 +339,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
             Route::prefix('pricing')->name('pricing.')->group(function () {
                 Route::resource('plans', PricingPlanController::class);
+                Route::resource('services', PricingServiceController::class);
                 Route::post('prices', [PricingPlanPriceController::class, 'store'])->name('prices.store');
                 Route::post('features', [PricingPlanFeatureController::class, 'store'])->name('features.store');
                 Route::delete('features/{feature}', [PricingPlanFeatureController::class, 'destroy'])->name('features.delete');

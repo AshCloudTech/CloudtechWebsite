@@ -5,179 +5,15 @@
 @section('meta_description', 'Explore our pricing for SEO, web development and digital marketing services. Affordable plans designed to grow your traffic, leads and sales UK.')
 @section('meta_keywords', 'pricing, SEO pricing, web development pricing, digital marketing pricing, UK, affordable plans, business growth')
 
-@php
-    $seoPricing = [
-        [
-            'service' => 'Local SEO',
-            'price' => '199',
-            'prefix' => '£',
-            'per' => '/mo',
-            'model' => '£199 main area + £50/town',
-            'page' => route('services.seo.local-seo'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'National SEO',
-            'price' => '799',
-            'prefix' => '£',
-            'per' => '/mo',
-            'model' => 'Retainer · 3 tiers',
-            'page' => route('services.seo.national-seo'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'Google Maps Optimisation',
-            'price' => '199',
-            'prefix' => '£',
-            'per' => '/mo',
-            'model' => '£199 primary + £50/location',
-            'page' => route('services.digi-marketing.google-my-business-optimisation'),
-            'noindex' => false
-        ],
-    ];
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('assets/pricing/css/style.css') }}">
+@endpush
 
-    $webPricing = [
-        [
-            'service' => 'Website Design & Development',
-            'price' => '250',
-            'prefix' => '£',
-            'model' => 'Project-based',
-            'page' => route('services.web.development'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'WordPress Website Design',
-            'price' => '250',
-            'prefix' => '£',
-            'model' => 'One-off · 4 tiers',
-            'page' => route('services.website-development.wordpress'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'Shopify Website Design',
-            'price' => '750',
-            'prefix' => '£',
-            'model' => 'Build + optional retainer',
-            'page' => route('services.website-development.shopify'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'WooCommerce Development',
-            'price' => '1000',
-            'prefix' => '£',
-            'model' => 'One-off · 3 tiers',
-            'page' => route('services.website-development.woocommerce'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'Wix Website Design',
-            'price' => '250',
-            'prefix' => '£',
-            'model' => 'One-off · 3 tiers',
-            'page' => route('services.website-development.wix'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'Squarespace Website Design',
-            'price' => '300',
-            'prefix' => '£',
-            'model' => 'One-off · 3 tiers',
-            'page' => route('services.website-development.squarespace'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'GoDaddy Website Design',
-            'price' => '250',
-            'prefix' => '£',
-            'model' => 'Build / Redesign / Migration',
-            'page' => route('services.website-development.godaddy'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'Software Development',
-            'price' => '2000',
-            'prefix' => '£',
-            'model' => 'Project-based',
-            'page' => route('services.website-development.custom-php'),
-            'noindex' => false
-        ],
-        [
-            'service' => 'Ecommerce Website Design',
-            'price' => '750',
-            'prefix' => '£',
-            'model' => 'Project-based',
-            'page' => route('services.web.development'),
-            'noindex' => false
-        ],
-    ];
+@push('scripts')
+    <script src="{{ asset('assets/pricing/js/script.js') }}" defer></script>    
+@endpush
 
-    $usaPlans = [
-        [
-            'name' => 'Starter',
-            'ideal' => 'Ideal for: Local US businesses',
-            'price' => '499',
-            'symbol' => '$',
-            'per' => '/mo',
-            'desc' => 'For local US businesses beginning their SEO journey.',
-            'popular' => false,
-            'features' => [
-                'Google Business Profile setup',
-                'Local SEO — 5 keywords',
-                'On-page audit & fixes',
-                'Citation building',
-                'Monthly report'
-            ],
-            'btn_class' => 'plan-btn btn-outline',
-            'btn_text' => 'Start Your Project',
-            'url' => route('contact.us') . '#enquiry'
-        ],
-        [
-            'name' => 'Growth',
-            'ideal' => 'Ideal for: Scaling US businesses',
-            'price' => '999',
-            'symbol' => '$',
-            'per' => '/mo',
-            'desc' => 'For US businesses ready to dominate local and regional search.',
-            'popular' => true,
-            'features' => [
-                'Everything in Starter',
-                'Local + national SEO — 20 keywords',
-                'Maps Pack optimisation',
-                '2 content pages/month',
-                'Link building & review strategy'
-            ],
-            'btn_class' => 'plan-btn btn-accent',
-            'btn_text' => 'Start Your Project',
-            'url' => route('contact.us') . '#enquiry'
-        ],
-        [
-            'name' => 'Authority',
-            'ideal' => 'Ideal for: Ambitious US brands',
-            'price' => '1999',
-            'symbol' => '$',
-            'per' => '/mo',
-            'desc' => 'For ambitious US brands targeting national visibility.',
-            'popular' => false,
-            'features' => [
-                'Everything in Growth',
-                'Unlimited keywords',
-                'Website design included',
-                '6 content pages/month',
-                'Dedicated account manager'
-            ],
-            'btn_class' => 'plan-btn btn-outline',
-            'btn_text' => "Let's Discuss",
-            'url' => route('contact.us') . '#enquiry'
-        ],
-    ];
-@endphp
-       @push('styles')
-        <link rel="stylesheet" href="{{ asset('assets/pricing/css/style.css') }}">
-       @endpush
-        @push('scripts')
-        <script src="{{ asset('assets/pricing/js/script.js') }}" defer></script>    
-       @endpush
-       @section('content')
+@section('content')
 
 <section class="hero" id="hero">
   <div class="wrap">
@@ -198,7 +34,7 @@
         </div>
         <div class="actions">
           <a class="btn btn-accent" href="{{ route('contact.us') }}#enquiry">Let's Discuss</a>
-          <a class="btn btn-outline" href="tel:7427547394">📞 7427547394</a>
+         <a class="btn btn-outline" href="tel:+447427547394">📞 07427547394</a>
         </div>
         <div class="fine">🔒 Free consultation · No obligation · Reply within 4 hours</div>
       </aside>
@@ -206,10 +42,11 @@
   </div>
 </section>
 
+@if(isset($seoServices) && $seoServices->isNotEmpty())
 <section class="block">
   <div class="wrap">
     <div class="eyebrow">SEO Services</div>
-    <h2>Search That<span class="gold">Compounds</span></h2>
+    <h2>Search That <span class="gold effect-glow">Compounds</span></h2>
 
     <div class="table-wrap">
       <table class="pricing">
@@ -217,18 +54,18 @@
           <tr><th>SERVICE</th><th>STARTING PRICE</th><th>MODEL</th><th>PAGE</th></tr>
         </thead>
         <tbody>
-          @foreach($seoPricing as $item)
-            <tr @if($item['noindex']) rel="noindex" @endif>
-              <td class="service">{{ $item['service'] }}</td>
+          @foreach($seoServices as $item)
+            <tr @if($item->noindex) rel="noindex" @endif>
+              <td class="service">{{ $item->service }}</td>
               <td class="price">
-                @if(!empty($item['price']))
-                  {{ $item['prefix'] ?? '' }}<span data-count="{{ str_replace(',', '', $item['price']) }}">0</span><span class="per">{{ $item['per'] ?? '' }}</span>
+                @if(!empty($item->price))
+                  {{ $item->prefix }}<span data-count="{{ str_replace(',', '', (string)$item->price) }}">0</span><span class="per">{{ $item->per }}</span>
                 @else
-                  {{ $item['prefix'] ?? '£' }}<span class="per">{{ $item['per'] ?? '/mo' }}</span>
+                  {{ $item->prefix }}<span class="per">{{ $item->per ?: '/mo' }}</span>
                 @endif
               </td>
-              <td class="model">{{ $item['model'] }}</td>
-              <td class="page"><a href="{{ $item['page'] }}">View →</a></td>
+              <td class="model">{{ $item->model }}</td>
+              <td class="page"><a href="{{ $item->resolved_page_url }}">View →</a></td>
             </tr>
           @endforeach
         </tbody>
@@ -236,11 +73,13 @@
     </div>
   </div>
 </section>
+@endif
 
+@if(isset($webServices) && $webServices->isNotEmpty())
 <section class="block">
   <div class="wrap">
     <div class="eyebrow">Website Development — UK (£)</div>
-    <h2>Every Platform.<span class="gold">Every Budget.</span></h2>
+    <h2>Every Platform,<span class="gold"> Every Budget.</span></h2>
 
     <div class="table-wrap">
       <table class="pricing">
@@ -248,18 +87,18 @@
           <tr><th>SERVICE</th><th>STARTING PRICE</th><th>MODEL</th><th>PAGE</th></tr>
         </thead>
         <tbody>
-          @foreach($webPricing as $item)
-            <tr @if($item['noindex']) rel="noindex" @endif>
-              <td class="service">{{ $item['service'] }}</td>
+          @foreach($webServices as $item)
+            <tr @if($item->noindex) rel="noindex" @endif>
+              <td class="service">{{ $item->service }}</td>
               <td class="price">
-                @if(!empty($item['price']))
-                  {{ $item['prefix'] ?? '' }}<span data-count="{{ str_replace(',', '', $item['price']) }}">0</span>
+                @if(!empty($item->price))
+                  {{ $item->prefix }}<span data-count="{{ str_replace(',', '', (string)$item->price) }}">0</span>
                 @else
-                  {{ $item['prefix'] ?? '£' }}
+                  {{ $item->prefix }}
                 @endif
               </td>
-              <td class="model">{{ $item['model'] }}</td>
-              <td class="page"><a href="{{ $item['page'] }}">View →</a></td>
+              <td class="model">{{ $item->model }}</td>
+              <td class="page"><a href="{{ $item->resolved_page_url }}">View →</a></td>
             </tr>
           @endforeach
         </tbody>
@@ -267,7 +106,9 @@
     </div>
   </div>
 </section>
+@endif
 
+{{-- @if(isset($usaPlans) && $usaPlans->isNotEmpty())
 <section class="block">
   <div class="wrap">
     <div class="eyebrow">USA Market — USD ($)</div>
@@ -275,31 +116,42 @@
 
     <div class="plans">
       @foreach($usaPlans as $plan)
-        <div class="plan {{ $plan['popular'] ? 'popular' : '' }}">
-          @if($plan['popular'])
-            <span class="badge">Most Popular</span>
+        @php
+            $isPopular = (bool)$plan->is_featured;
+            $btnClass = $plan->btn_class ?: ($isPopular ? 'plan-btn btn-accent' : 'plan-btn btn-outline');
+            $ctaUrl = $plan->cta_url ?: (route('contact.us') . '#enquiry');
+            $ctaText = $plan->cta_text ?: ($plan->title === 'Authority' ? "Let's Discuss" : 'Start Your Project');
+        @endphp
+        <div class="plan {{ $isPopular ? 'popular' : '' }}">
+          @if($isPopular || $plan->badge_text)
+            <span class="badge">{{ $plan->badge_text ?: 'Most Popular' }}</span>
           @endif
-          <h3>{{ $plan['name'] }}</h3>
-          <div class="ideal">{{ $plan['ideal'] }}</div>
+          <h3>{{ $plan->title }}</h3>
+          @if(!empty($plan->ideal))
+            <div class="ideal">{{ $plan->ideal }}</div>
+          @endif
           <div class="price">
-            <span class="sym">{{ $plan['symbol'] }}</span>
-            <span class="num" data-count="{{ str_replace(',', '', $plan['price']) }}">0</span>
-            <span class="per">{{ $plan['per'] }}</span>
+            <span class="sym">{{ $plan->currency_symbol ?: '$' }}</span>
+            <span class="num" data-count="{{ str_replace(',', '', (string)$plan->price_amount) }}">0</span>
+            <span class="per">{{ $plan->price_period ?: '/mo' }}</span>
           </div>
-          <div class="desc">{{ $plan['desc'] }}</div>
-          <ul>
-            @foreach($plan['features'] as $feature)
-              <li>{{ $feature }}</li>
-            @endforeach
-          </ul>
+          <div class="desc">{{ $plan->description }}</div>
+          @if($plan->features->isNotEmpty())
+            <ul>
+              @foreach($plan->features as $feature)
+                <li>{{ $feature->text }}</li>
+              @endforeach
+            </ul>
+          @endif
           <div class="plan-footer">
-            <a class="btn {{ $plan['btn_class'] }}" href="{{ $plan['url'] }}">{{ $plan['btn_text'] }}</a>
+            <a class="btn {{ $btnClass }}" href="{{ $ctaUrl }}">{{ $ctaText }}</a>
           </div>
         </div>
       @endforeach
     </div>
   </div>
 </section>
+@endif --}}
 
 <section class="cta-section">
   <div class="wrap">
@@ -310,11 +162,10 @@
       </div>
       <div class="right">
         <a class="btn btn-dark" href="{{ route('contact.us') }}">Get Free Advice</a>
-        <a class="phone" href="tel:7427547394">📞 7427547394</a>
+        <a class="phone" href="tel:+447427547394">📞 07427 547394</a>
       </div>
     </div>
   </div>
 </section>
 
 @endsection
-

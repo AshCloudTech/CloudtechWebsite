@@ -30,6 +30,7 @@
             @endif
 
             <form method="POST" action="{{ console_route('case-studies.store') }}" enctype="multipart/form-data">
+                @csrf
                 @include('admin.case-studies._form', ['caseStudy' => $caseStudy, 'mode' => 'create'])
             </form>
         </div>

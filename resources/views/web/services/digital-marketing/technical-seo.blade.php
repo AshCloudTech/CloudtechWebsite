@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Technical SEO Services UK | Website SEO Experts')
-@section('meta_title', 'Technical SEO Services UK | Website SEO Experts.')
-@section('meta_description', 'Technical SEO services UK delivering improvements in speed, crawlability, indexing and
-    performance to increase rankings, traffic and user experience UK.')
+@section('title', 'Technical SEO Services UK | Technical SEO Agency')
+@section('meta_title', 'Technical SEO Services UK | Technical SEO Agency')
+@section('meta_description', 'Improve crawling, indexing, site structure, speed and technical performance with technical SEO services designed to strengthen search visibility.')
 @section('meta_keywords', 'technical SEO services UK, website SEO experts UK, site speed optimization UK, crawlability
     improvement UK, indexing fixes UK, Core Web Vitals optimization UK, mobile SEO UK, technical SEO audit UK, on-page
     technical SEO UK, SEO performance enhancement UK')

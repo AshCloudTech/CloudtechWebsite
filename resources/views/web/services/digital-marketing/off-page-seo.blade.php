@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Off-Page SEO Agency UK | Link Building Experts')
-@section('meta_title', 'Off-Page SEO Agency UK | Link Building Experts.')
-@section('meta_description', 'Off-page SEO services UK to build backlinks, improve domain authority and increase
-    rankings, traffic and online visibility for your business UK online.')
+@section('title', 'Off-Page SEO Services UK | Link Building Agency')
+@section('meta_title', 'Off-Page SEO Services UK | Link Building Agency')
+@section('meta_description', 'Strengthen your website authority with off-page SEO, link building and digital strategies designed to improve rankings, visibility and organic traffic.')
 @section('meta_keywords', 'off-page SEO agency UK, link building services UK, backlink building UK, guest posting UK,
     citation building UK, brand mentions UK, authority signals UK, domain authority improvement UK, organic visibility UK')
     @push('styles')

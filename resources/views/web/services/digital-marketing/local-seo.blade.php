@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Local SEO Services UK | Local SEO Agency & Company')
-@section('meta_title', 'Local SEO Services UK | Local SEO Agency & Company.')
-@section('meta_description', 'Local SEO services UK to improve local rankings, Google Business Profile, visibility,
-    traffic and leads for your local business growth across UK areas.')
+@section('title', 'Local SEO Services UK | Local SEO Agency')
+@section('meta_title', 'Local SEO Services UK | Local SEO Agency')
+@section('meta_description', 'Improve local search visibility with local SEO, Google Business Profile optimisation, local keyword targeting and strategies designed to generate more enquiries.')
 @section('meta_keywords', 'local SEO services UK, local SEO agency UK, local SEO company UK, Google Business Profile
     optimization UK, local search optimization UK, local SEO audit UK, local keyword targeting UK, local link building UK,
     map pack optimization UK, mobile local SEO UK, local citation building UK')

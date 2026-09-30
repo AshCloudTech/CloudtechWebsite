@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'About Our Agency | SEO, Web & Marketing Experts UK')
-@section('meta_title', 'About Our Agency | SEO, Web & Marketing Experts UK')
-@section('meta_description', 'Meet our digital agency team delivering SEO, web development and digital marketing
-    solutions to drive growth and success UK for your business with expertsupport.')
+@section('title', 'About Cloud Technologies | SEO & Digital Marketing UK')
+@section('meta_title', 'About Cloud Technologies | SEO & Digital Marketing UK')
+@section('meta_description', 'Learn about Cloud Technologies, a UK digital agency providing SEO, digital marketing and web development solutions for growing businesses.')
 @section('meta_keywords', 'about us, digital agency about, SEO about, web development about, UK, digital marketing about, business growth about')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/about/css/style.css') }}">

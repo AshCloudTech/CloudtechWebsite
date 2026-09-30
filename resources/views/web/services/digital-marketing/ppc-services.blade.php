@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'PPC Advertising Agency UK | Pay Per Click Experts')
-@section('meta_title', 'PPC Advertising Agency UK | Pay Per Click Experts.')
-@section('meta_description', 'PPC agency UK offering Google Ads and pay per click campaigns to increase traffic, leads
-    and sales with expert advertising strategies across UK markets.')
+@section('title', 'PPC Management Services UK | Google Ads Experts')
+@section('meta_title', 'PPC Management Services UK | Google Ads Experts')
+@section('meta_description', 'Generate targeted traffic and leads with PPC management services covering Google Ads, campaign optimisation, keyword targeting and conversion-focused advertising.')
 @section('meta_keywords', 'PPC advertising agency UK, pay per click experts, Google Ads management UK, PPC campaign management UK, search ads UK, display ads UK, shopping ads UK, social media ads UK, retargeting ads UK, PPC strategy UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/ppc/css/style.css') }}">

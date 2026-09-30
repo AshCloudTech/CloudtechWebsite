@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Meta Ads Services UK | Facebook & Instagram Ads Experts')
-@section('meta_title', 'Meta Ads Services UK | Facebook & Instagram Ads Experts')
-@section('meta_description', 'Meta Ads services UK offering Facebook and Instagram ads to increase traffic, leads and
-    sales with targeted campaigns and expert ad strategies UK now')
+@section('title', 'Meta Ads Services UK | Facebook & Instagram Advertising')
+@section('meta_title', 'Meta Ads Services UK | Facebook & Instagram Advertising')
+@section('meta_description', 'Reach your target audience with Meta Ads management for Facebook and Instagram, including campaign strategy, audience targeting and conversion optimisation.')
 @section('meta_keywords', 'Meta Ads services UK, Facebook Ads UK, Instagram Ads UK, social media advertising UK, Meta advertising agency, targeted ad campaigns UK, ad strategy UK, business growth UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/meta-ads/css/style.css') }}">

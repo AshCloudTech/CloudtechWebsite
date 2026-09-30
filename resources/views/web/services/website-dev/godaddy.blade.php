@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'GoDaddy Website Builder UK | Design, Pricing & Setup')
-@section('meta_title', 'GoDaddy Website Builder UK | Design, Pricing & Setup.')
-@section('meta_description', 'GoDaddy website builder UK offering website design, pricing guidance and setup to build
-    fast, responsive and SEO friendly websites UK online today now.')
+@section('title', 'GoDaddy Website Development UK | Web Design Services')
+@section('meta_title', 'GoDaddy Website Development UK | Web Design Services')
+@section('meta_description', 'Build a professional GoDaddy website with responsive design, custom development and SEO-friendly features for a stronger online presence.')
 @section('meta_keywords', 'GoDaddy website builder UK, GoDaddy website design UK, GoDaddy website pricing UK, GoDaddy
     website setup UK, affordable website builder UK, small business websites UK, SEO-friendly websites UK, responsive web
     design UK, GoDaddy hosting UK')

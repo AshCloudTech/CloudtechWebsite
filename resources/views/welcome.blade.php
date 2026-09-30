@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Digital Marketing, SEO & Web Development Company UK')
-@section('meta_title', 'Digital Marketing, SEO & Web Development Company UK')
-@section('meta_description', 'Looking to grow your business online? Our UK team offers SEO, web development and digital
-    marketing to bring more traffic, leads and sales for business growth!')
+@section('title', 'Digital Marketing & SEO Agency UK | Cloud Technologies')
+@section('meta_title', 'Digital Marketing & SEO Agency UK | Cloud Technologies')
+@section('meta_description', 'Grow your business with SEO, digital marketing and web development services designed to increase visibility, traffic, leads and online growth.')
 @section('meta_keywords', 'digital marketing, SEO, web development, UK, business growth, online marketing, search engine optimization, website design, digital solutions')
     {{-- Banner preloads disabled while testing hero video --}}
     @push('styles')

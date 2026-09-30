@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
 @section('title', 'International SEO Services UK | Global SEO Agency')
-@section('meta_title', 'International SEO Services UK | Global SEO Agency.')
-@section('meta_description', 'International SEO services UK offering multilingual and global SEO solutions to improve
-    rankings, traffic and generate leads across international markets UK.')
+@section('meta_title', 'International SEO Services UK | Global SEO Agency')
+@section('meta_description', 'Expand into international markets with SEO strategies for global visibility, multilingual targeting, international keyword research and organic growth.')
 @section('meta_keywords', 'international SEO services UK, global SEO agency UK, multilingual SEO UK, geo-targeted SEO
     UK, international keyword research UK, hreflang implementation UK, global link building UK, international SEO audit UK,
     worldwide SEO strategy UK')

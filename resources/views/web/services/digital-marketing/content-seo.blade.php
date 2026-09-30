@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Content SEO Services UK | SEO Content & Strategy Experts')
-@section('meta_title', 'Content SEO Services UK | SEO Content & Strategy Experts.')
-@section('meta_description', 'Content SEO services UK to optimise content, improve rankings and increase traffic with
-    keyword strategy, on page SEO and high quality content UK today.')
+@section('title', 'Content SEO Services UK | SEO Content Strategy')
+@section('meta_title', 'Content SEO Services UK | SEO Content Strategy')
+@section('meta_description', 'Create search-focused content with SEO strategy, keyword research, content optimisation and topic targeting designed to attract relevant organic traffic.')
 @section('meta_keywords', 'content SEO services UK, SEO content strategy UK, content optimization UK, keyword research
     UK, on-page SEO UK, content marketing UK, organic traffic UK, search rankings UK, business growth UK')
     @push('styles')

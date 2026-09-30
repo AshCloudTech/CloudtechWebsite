@@ -1,10 +1,9 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Contact Us | Digital Marketing, SEO & Web Experts UK')
-@section('meta_title', 'Contact Us | Digital Marketing, SEO & Web Experts UK')
+@section('title', 'Contact Cloud Technologies | SEO & Digital Marketing UK')
+@section('meta_title', 'Contact Cloud Technologies | SEO & Digital Marketing UK')
 @section('meta_description',
-    'Contact our digital agency for SEO, web development and digital marketing services. Speak
-    with our team and start growing your business today UK')
+    'Contact Cloud Technologies for SEO, digital marketing and web development services. Speak with our UK team about your online growth goals.')
 @section('meta_keywords', 'contact us, digital marketing contact, SEO contact, web development contact, UK, digital agency contact, business growth contact')
 
     @push('styles')

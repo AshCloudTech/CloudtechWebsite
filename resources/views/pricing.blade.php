@@ -1,8 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Pricing | Digital Marketing, SEO & Web Development UK')
-@section('meta_title', 'Pricing | Digital Marketing, SEO & Web Development UK')
-@section('meta_description', 'Explore our pricing for SEO, web development and digital marketing services. Affordable plans designed to grow your traffic, leads and sales UK.')
+@section('title', 'SEO & Digital Marketing Pricing UK | Cloud Technologies')
+@section('meta_title', 'SEO & Digital Marketing Pricing UK | Cloud Technologies')
+@section('meta_description', 'Explore pricing for SEO, digital marketing and web development services. Choose solutions designed around your business goals, visibility and growth.')
 @section('meta_keywords', 'pricing, SEO pricing, web development pricing, digital marketing pricing, UK, affordable plans, business growth')
 
 @push('styles')

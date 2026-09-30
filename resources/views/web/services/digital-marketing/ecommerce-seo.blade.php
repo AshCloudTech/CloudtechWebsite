@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Ecommerce SEO Agency UK | Online Store SEO Services')
-@section('meta_title', 'Ecommerce SEO Agency UK | Online Store SEO Services.')
-@section('meta_description', 'Ecommerce SEO agency UK offering Shopify, WooCommerce and Magento SEO services to improve
-    rankings, traffic, product visibility and online sales UK.')
+@section('title', 'Ecommerce SEO Services UK | Online Store SEO')
+@section('meta_title', 'Ecommerce SEO Services UK | Online Store SEO')
+@section('meta_description', 'Increase organic visibility and sales with ecommerce SEO for Shopify, WooCommerce and Magento, including product, category and technical optimisation.')
 @section('meta_keywords', 'ecommerce SEO agency UK, online store SEO services UK, Shopify SEO UK, WooCommerce SEO UK,
     Magento SEO UK, product page optimization UK, category page SEO UK, technical ecommerce SEO UK, ecommerce content
     strategy UK, link building for ecommerce UK, local SEO for stores UK, mobile optimization for ecommerce UK')

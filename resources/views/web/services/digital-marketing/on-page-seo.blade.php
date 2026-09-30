@@ -1,10 +1,9 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'On-Page SEO Agency UK | SEO Optimization Services')
-@section('meta_title', 'On-Page SEO Agency UK | SEO Optimization Services.')
+@section('title', 'On-Page SEO Services UK | Website Optimisation')
+@section('meta_title', 'On-Page SEO Services UK | Website Optimisation')
 @section('meta_description',
-    'On-page SEO services UK to optimise website content, meta tags, structure and keywords to
-    improve rankings, traffic and user experience across UK sites.')
+    'Improve website rankings with on-page SEO covering keywords, content, title tags, meta descriptions, headings, internal links and page structure.')
 @section('meta_keywords',
     'on-page SEO agency UK, on-page SEO services UK, SEO optimization services UK, content
     optimization UK, meta tags optimization UK, keyword placement UK, internal linking UK, schema markup UK, URL structure

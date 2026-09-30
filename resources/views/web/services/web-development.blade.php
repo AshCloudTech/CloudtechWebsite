@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Website Development Services UK | Web Design Experts')
-@section('meta_title', 'Website Development Services UK | Web Design Experts.')
-@section('meta_description', 'Website development services UK to build fast, responsive and SEO friendly websites that
-    improve user experience, traffic and business growth UK.')
+@section('title', 'Website Development Services UK | Web Design Agency')
+@section('meta_title', 'Website Development Services UK | Web Design Agency')
+@section('meta_description', 'Build fast, responsive and SEO-friendly websites with professional website development focused on usability, performance and business growth.')
 @section('meta_keywords', 'website development services UK, web design UK, responsive website design UK, website
     development company UK, SEO-friendly web development UK, custom website development UK, eCommerce website development
     UK, business website design UK')

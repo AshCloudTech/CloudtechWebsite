@@ -1,8 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies | Cloud Technologies')
-@section('meta_title', 'Case Studies | Cloud Technologies')
-@section('meta_description', 'Real clients. Real rankings. Verifiable SEO and Google Business Profile results across cities and industries.')
+@section('title', 'SEO & Digital Marketing Case Studies UK')
+@section('meta_title', 'SEO & Digital Marketing Case Studies UK')
+@section('meta_description', 'Explore our SEO, digital marketing and web development case studies, including strategies used to improve visibility, traffic, leads and growth.')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/case-studies/css/style.css') }}">

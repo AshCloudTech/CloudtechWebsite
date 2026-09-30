@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Image SEO Services UK | Image Optimization Experts')
-@section('meta_title', 'Image SEO Services UK | Image Optimization Experts.')
-@section('meta_description', 'Image SEO services UK to optimise images, improve page speed, alt tags and search
-    visibility to boost rankings, traffic and user experience UK online.')
+@section('title', 'Image SEO Services UK | Image Optimisation Experts')
+@section('meta_title', 'Image SEO Services UK | Image Optimisation Experts')
+@section('meta_description', 'Improve image visibility and website performance with image SEO, including optimisation, alt text, file sizes and search-friendly image practices.')
 @section('meta_keywords', 'Image SEO services UK, image optimization UK, alt tag optimization UK, image compression UK,
     WebP conversion UK, image sitemap UK, structured data for images UK, Google Images SEO UK, page speed optimization UK,
     Core Web Vitals UK')

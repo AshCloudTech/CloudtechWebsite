@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'WordPress Development Agency UK | Web Design Services')
-@section('meta_title', 'WordPress Development Agency UK | Web Design Services')
-@section('meta_description', 'WordPress web development UK delivering website design and development services to build
-    SEO friendly, fast and secure websites across UK markets.')
+@section('title', 'WordPress Development Agency UK | Web Experts')
+@section('meta_title', 'WordPress Development Agency UK | Web Experts')
+@section('meta_description', 'Build a fast, secure and SEO-friendly WordPress website with professional development, responsive design and solutions tailored to your business.')
 @section('meta_keywords',
     'WordPress web development UK, WordPress website development UK, WordPress pricing UK, custom
     WordPress design UK, SEO-friendly WordPress UK, mobile-responsive WordPress UK, professional WordPress websites

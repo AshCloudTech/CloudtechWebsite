@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
 @section('title', 'National SEO Services UK | Nationwide SEO Agency')
-@section('meta_title', 'National SEO Services UK | Nationwide SEO Agency.')
-@section('meta_description', 'National SEO services UK offering nationwide SEO solutions to improve rankings, increase
-    traffic and generate leads for your business across UK markets.')
+@section('meta_title', 'National SEO Services UK | Nationwide SEO Agency')
+@section('meta_description', 'Reach customers across the UK with national SEO services focused on keyword strategy, content, technical optimisation, authority and organic visibility.')
 @section('meta_keywords', 'national SEO services UK, nationwide SEO agency UK, national search engine optimization UK,
     SEO for national businesses UK, nationwide keyword targeting UK, national SEO strategy UK, improve national rankings UK,
     increase national traffic UK, generate national leads UK')

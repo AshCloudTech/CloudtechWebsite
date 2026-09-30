@@ -119,6 +119,17 @@ class LocationSeoController extends Controller
 
     public function seo(string $locationSlug)
     {
+        // 1. Case-study style locations (different sections/layout - Luton etc.)
+        //    Same URL (/seo-service-{locationSlug}), different config + view.
+        $caseStudyPage = config("seo.seo-case-study.{$locationSlug}");
+        if ($caseStudyPage) {
+            return view('web.services.locations-seo.seo-location-case-study', [
+                'page' => $caseStudyPage,
+                'content' => $caseStudyPage['content'] ?? []
+            ]);
+        }
+
+        // 2. Standard locations (config/seo/seo.php + original template)
         $page = config("seo.seo.{$locationSlug}");
 
         abort_if(!$page, 404);

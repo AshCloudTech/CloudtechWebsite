@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Squarespace Web Design UK | Website Development Agency')
-@section('meta_title', 'Squarespace Web Design UK | Website Development Agency')
-@section('meta_description', 'Squarespace web design UK offering website development, pricing guidance and custom design
-    to build fast, modern and SEO friendly websites across UK.')
+@section('title', 'Squarespace Web Design UK | Development Agency')
+@section('meta_title', 'Squarespace Web Design UK | Development Agency')
+@section('meta_description', 'Create a modern Squarespace website with responsive design, custom development and SEO-friendly features built around your business requirements.')
 @section('meta_keywords', 'Squarespace web design UK, Squarespace website development UK, Squarespace pricing UK, custom
     Squarespace design UK, SEO-friendly Squarespace UK, mobile-responsive Squarespace UK, professional Squarespace websites
     UK, Squarespace agency UK')

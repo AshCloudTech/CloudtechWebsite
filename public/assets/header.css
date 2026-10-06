@@ -4,7 +4,7 @@
    ========================================================================== */
 
 :root {
-  --nav-text: #000000;
+  --nav-text: #ffffff;
   --nav-text-inverse: #ffffff;
   --nav-accent: #ff8502;
   --nav-dropdown-bg: rgba(255, 255, 255, 0.98);
@@ -12,7 +12,7 @@
   --nav-dropdown-border: rgba(15, 23, 42, 0.1);
   --nav-dropdown-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
   --nav-gradient: linear-gradient(135deg, #ff8c3a, #ff5a00);
-  --header-bg: rgba(255, 255, 255, 0.92);
+  --header-bg: rgba(6, 10, 32, 0.88);
   --header-border: rgba(0, 0, 0, 0.06);
 }
 

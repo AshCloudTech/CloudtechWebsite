@@ -30,7 +30,9 @@
             <div class="hero-actions">
                 <a href="#contact" class="btn btn-primary">Launch Your Store</a>
                 <a href="#solutions" class="btn btn-ghost">Explore Features</a>
-            </div>
+            
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
         </div>
     </section>
 

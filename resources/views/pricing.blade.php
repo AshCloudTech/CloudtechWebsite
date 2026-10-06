@@ -34,7 +34,7 @@
         </div>
         <div class="actions">
           <a class="btn btn-accent" href="{{ route('contact.us') }}#enquiry">Let's Discuss</a>
-         <a class="btn btn-outline" href="tel:+447427547394">📞 07427547394</a>
+         <a class="btn btn-outline" href="tel:07835761525">📞 07835761525</a>
         </div>
         <div class="fine">🔒 Free consultation · No obligation · Reply within 4 hours</div>
       </aside>
@@ -162,7 +162,7 @@
       </div>
       <div class="right">
         <a class="btn btn-dark" href="{{ route('contact.us') }}">Get Free Advice</a>
-        <a class="phone" href="tel:+447427547394">📞 07427 547394</a>
+        <a class="phone" href="tel:07835761525">📞 07835 761525</a>
       </div>
     </div>
   </div>

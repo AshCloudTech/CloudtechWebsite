@@ -35,6 +35,8 @@
                 <div class="hero-actions">
                     <a href="#cta" class="btn btn-lg btn-primary">Get Free Consultation</a>
                     <a href="#services" class="btn btn-lg btn-ghost hero-ghost-light">Explore Services</a>
+                
+                  <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>  
                 </div>
 
                 <div class="hero-stats">

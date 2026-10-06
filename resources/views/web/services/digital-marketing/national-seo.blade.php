@@ -36,6 +36,8 @@
                     <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="national-seo-audit">Get
                         Free SEO Audit</a>
                     <a href="#why" class="btn btn-lg btn-ghost hero-ghost-light">Speak to an Expert</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
 
                 <div class="hero-stats">

@@ -34,7 +34,7 @@
         <div class="actions">
           <a class="btn btn-accent" href="{{ url('/#contact') }}">Let's Discuss</a>
         <div class="contact-section">
-          <a class="btn btn-outline" href="tel:+447427547394">📞 07427 547394</a>
+          <a class="btn btn-outline" href="tel:07835761525">📞 07835761525</a>
       </div>
         </div>
         <div class="fine">🔒 Free consultation · No obligation · Reply within 4 hours</div>

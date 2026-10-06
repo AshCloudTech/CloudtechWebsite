@@ -49,7 +49,9 @@
         <div class="hero-actions">
             <a href="#pricing" class="btn btn-primary jsGetAudit" data-audit-type="seo-hero">{{ $hero['cta_primary'] ?? 'Get my free SEO audit' }}</a>
             <a href="#pricing" class="btn btn-ghost">{{ $hero['cta_secondary'] ?? 'View pricing' }}</a>
-        </div>
+        
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
     </div>
 </section>
 

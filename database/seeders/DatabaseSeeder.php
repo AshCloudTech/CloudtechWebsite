@@ -45,5 +45,7 @@ class DatabaseSeeder extends Seeder
         }
 
         $this->call(BlogPostSeeder::class);
+        $this->call(CaseStudySeeder::class);
+        $this->call(PricingSeeder::class);
     }
 }

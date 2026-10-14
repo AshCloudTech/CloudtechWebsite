@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Google Business Profile Services UK | Local SEO Experts')
-@section('meta_title', 'Google Business Profile Services UK | Local SEO Experts.')
-@section('meta_description', 'Google Business Profile management UK to improve local SEO, visibility, calls and leads
-    while helping your business attract more customers across UK.')
+@section('title', 'Google Business Profile Services UK | Local SEO')
+@section('meta_title', 'Google Business Profile Services UK | Local SEO')
+@section('meta_description', 'Improve your local visibility with Google Business Profile optimisation, local SEO and profile management designed to increase searches, calls and enquiries.')
 @section('meta_keywords', 'Google Business Profile services UK, Google My Business management UK, local SEO UK, GBP optimization UK, Google Maps SEO UK, local search marketing UK, business listing management UK, online visibility UK, local customer acquisition UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/gmb/css/style.css') }}">
@@ -35,6 +34,8 @@
 
 
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Call Now</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
         </div>

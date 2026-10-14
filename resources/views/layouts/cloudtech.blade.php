@@ -16,7 +16,7 @@
     @endphp
 
     <!-- Title -->
-    <title>{{ $finalTitle }}</title>
+   <title>{{ html_entity_decode($finalTitle, ENT_QUOTES, 'UTF-8') }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -83,6 +83,9 @@
 
     <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/legal-pages.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/cookie-consent.css') }}?v={{ filemtime(public_path('assets/css/cookie-consent.css')) }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/flash-popup.css') }}?v={{ filemtime(public_path('assets/css/flash-popup.css')) }}">
     @stack('styles')
 
     <link rel="stylesheet" href="{{ asset('assets/audit/audit-modal.css') }}">
@@ -97,17 +100,19 @@
     </main>
 
     @include('layouts.footer')
+    @include('partials.cookie-consent')
     @include('partials.consultation')
 
     @if (session('success'))
-        <div id="global-flash-success" data-message="{{ session('success') }}"></div>
+        <div id="global-flash-success" data-message="{{ session('success') }}" hidden></div>
     @endif
 
     @if (session('error'))
-        <div id="global-flash-error" data-message="{{ session('error') }}"></div>
+        <div id="global-flash-error" data-message="{{ session('error') }}" hidden></div>
     @endif
 
     <script src="{{ asset('assets/js/site-nav.js') }}" defer></script>
+    <script src="{{ asset('assets/js/cookie-consent.js') }}?v={{ filemtime(public_path('assets/js/cookie-consent.js')) }}" defer></script>
 
     @stack('scripts')
     <script src="{{ asset('assets/js/forms-global.js') }}" defer></script>

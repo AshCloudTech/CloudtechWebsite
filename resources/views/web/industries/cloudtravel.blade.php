@@ -1,10 +1,9 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Travel SEO Services UK | Tourism Marketing Agency')
-@section('meta_title', 'Travel SEO Services UK | Tourism Marketing Agency.')
+@section('title', 'Travel SEO Services UK | Tourism Digital Marketing')
+@section('meta_title', 'Travel SEO Services UK | Tourism Digital Marketing')
 @section('meta_description',
-    'Travel SEO UK offering digital marketing, SEO and website development to improve rankings,
-    attract travellers and grow your travel business UK for growth today.')
+    'Grow your travel business with SEO, digital marketing and website development strategies designed to increase visibility, relevant traffic and enquiries.')
 @section('meta_keywords',
     'travel SEO services UK, tourism marketing agency UK, travel digital marketing UK, travel
     website development UK, SEO for travel businesses UK, travel search engine optimisation UK, tourism SEO strategies UK,
@@ -37,6 +36,8 @@
                 <div class="hero-actions">
                     <a href="#contact" class="btn btn-lg btn-primary">Start Your Project</a>
                     <a href="#pricing" class="btn btn-lg btn-ghost hero-ghost-light">View Platforms</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
         </div>

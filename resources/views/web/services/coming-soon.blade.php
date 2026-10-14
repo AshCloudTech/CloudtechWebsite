@@ -93,8 +93,8 @@
                         </div>
 
                         <div class="cs-field">
-                            <label for="phone">Phone (optional)</label>
-                            <input id="phone" name="phone" type="text" value="{{ old('phone') }}">
+                            <label for="phone">Phone <span class="req">*</span></label>
+                            <input id="phone" name="phone" type="text" value="{{ old('phone') }}" required>
                         </div>
 
                         <div class="cs-field">

@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Laravel Web Development UK | Laravel Agency Experts')
-@section('meta_title', 'Laravel Web Development UK | Laravel Agency Experts.')
-@section('meta_description', 'Laravel web development UK providing website development, package development and scalable
-    solutions for high performance apps UK for business growth today.')
+@section('title', 'Laravel Web Development UK | Laravel Development Agency')
+@section('meta_title', 'Laravel Web Development UK | Laravel Development Agency')
+@section('meta_description', 'Get scalable Laravel web development for high-performance websites and applications, with secure architecture and solutions tailored to your business.')
 @section('meta_keywords', 'Laravel web development UK, Laravel development services UK, Laravel package development UK,
     scalable Laravel solutions UK, high performance Laravel apps UK, Laravel web development agency UK, business growth with
     Laravel UK')
@@ -32,7 +31,9 @@
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Start Your Project</a>
                 <a href="#solutions" class="btn btn-ghost">Explore Solutions</a>
-            </div>
+            
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
         </div>
     </section>
 

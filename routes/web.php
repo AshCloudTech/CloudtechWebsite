@@ -35,6 +35,7 @@ use App\Http\Controllers\Admin\PricingPlanController;
 use App\Http\Controllers\Admin\PricingPlanPriceController;
 use App\Http\Controllers\Admin\PricingPlanFeatureController;
 use App\Http\Controllers\Admin\PricingFaqController;
+use App\Http\Controllers\Admin\PricingServiceController;
 use App\Http\Controllers\Web\ConsultationController;
 use App\Http\Controllers\Admin\BusinessResultController;
 use App\Http\Controllers\Web\AuditLeadController;
@@ -69,6 +70,7 @@ Route::get('/careers/{slug}', [HomeController::class, 'careerDetail'])->name('ca
 
 Route::get('/terms-of-service', [HomeController::class, 'termsOfService'])->name('terms.of.service');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy.policy');
+Route::get('/cookie-policy', [HomeController::class, 'cookiePolicy'])->name('cookie.policy');
 
 Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 Route::post('/consultations', [ConsultationController::class, 'store'])->name('consultations.store');
@@ -95,14 +97,14 @@ Route::get('/seo-service-uk', [ServicesController::class, 'seo'])
     ->name('services.seo');
 
 // Keep these if they are real service pages in your site
-Route::get('/ui-ux-service-uk', [ServicesController::class, 'uiux'])
-    ->name('services.uiux');
+// Route::get('/ui-ux-service-uk', [ServicesController::class, 'uiux'])
+//     ->name('services.uiux');
 
-Route::get('/branding-service-uk', [ServicesController::class, 'branding'])
-    ->name('services.branding');
+// Route::get('/branding-service-uk', [ServicesController::class, 'branding'])
+//     ->name('services.branding');
 
-Route::get('/product-marketing-service-uk', [ServicesController::class, 'productMarketing'])
-    ->name('services.product.marketing');
+// Route::get('/product-marketing-service-uk', [ServicesController::class, 'productMarketing'])
+//     ->name('services.product.marketing');
 
 
 // Digital marketing child pages
@@ -337,6 +339,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
             Route::prefix('pricing')->name('pricing.')->group(function () {
                 Route::resource('plans', PricingPlanController::class);
+                Route::resource('services', PricingServiceController::class);
                 Route::post('prices', [PricingPlanPriceController::class, 'store'])->name('prices.store');
                 Route::post('features', [PricingPlanFeatureController::class, 'store'])->name('features.store');
                 Route::delete('features/{feature}', [PricingPlanFeatureController::class, 'destroy'])->name('features.delete');

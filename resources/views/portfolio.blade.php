@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Portfolio | Digital Marketing, SEO & Web Development UK')
-@section('meta_title', 'Portfolio | Digital Marketing, SEO & Web Development UK')
-@section('meta_description', 'Explore our portfolio showcasing SEO, web development and digital marketing projects. See
-    real results in traffic, leads and business growth UK.')
+@section('title', 'Digital Marketing & Web Development Portfolio UK')
+@section('meta_title', 'Digital Marketing & Web Development Portfolio UK')
+@section('meta_description', 'View our portfolio of SEO, digital marketing and web development projects created to improve online visibility, engagement and business growth.')
 @section('meta_keywords', 'portfolio, SEO projects, web development projects, digital marketing case studies, UK, traffic growth, lead generation, business growth')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/portfolio/css/style.css') }}">

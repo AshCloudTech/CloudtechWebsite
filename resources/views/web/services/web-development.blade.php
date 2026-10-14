@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Website Development Services UK | Web Design Experts')
-@section('meta_title', 'Website Development Services UK | Web Design Experts.')
-@section('meta_description', 'Website development services UK to build fast, responsive and SEO friendly websites that
-    improve user experience, traffic and business growth UK.')
+@section('title', 'Website Development Services UK | Web Design Agency')
+@section('meta_title', 'Website Development Services UK | Web Design Agency')
+@section('meta_description', 'Build fast, responsive and SEO-friendly websites with professional website development focused on usability, performance and business growth.')
 @section('meta_keywords', 'website development services UK, web design UK, responsive website design UK, website
     development company UK, SEO-friendly web development UK, custom website development UK, eCommerce website development
     UK, business website design UK')
@@ -38,6 +37,8 @@
                 <div class="hero-actions">
                     <a href="#cta" class="btn btn-lg btn-primary">Talk to Our Team</a>
                     <a href="#services" class="btn btn-lg btn-ghost hero-ghost-light">View Development Services</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
 
                 <div class="hero-stats">

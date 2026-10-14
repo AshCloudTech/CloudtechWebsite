@@ -1,26 +1,37 @@
-<div class="grid cols-2" style="gap:12px;">
+<div class="grid cols-2" style="gap:14px;">
 
     {{-- Plan Key --}}
     <div class="field">
-        <label>Plan Key (unique)</label>
+        <label>Plan Key (unique) <span style="color:#dc2626">*</span></label>
         <input
             type="text"
             name="key"
             value="{{ old('key', $plan->key ?? '') }}"
-            placeholder="starter / growth / enterprise"
+            placeholder="usa-starter / usa-growth / usa-authority"
             required
         >
     </div>
 
     {{-- Plan Title --}}
     <div class="field">
-        <label>Plan Title</label>
+        <label>Plan Title <span style="color:#dc2626">*</span></label>
         <input
             type="text"
             name="title"
             value="{{ old('title', $plan->title ?? '') }}"
-            placeholder="Launch Website"
+            placeholder="Starter / Growth / Authority"
             required
+        >
+    </div>
+
+    {{-- Ideal Target Audience Note --}}
+    <div class="field">
+        <label>Ideal For Note</label>
+        <input
+            type="text"
+            name="ideal"
+            value="{{ old('ideal', $plan->ideal ?? '') }}"
+            placeholder="Ideal for: Local US businesses"
         >
     </div>
 
@@ -31,77 +42,125 @@
             type="text"
             name="badge_text"
             value="{{ old('badge_text', $plan->badge_text ?? '') }}"
-            placeholder="Starter / Most Popular / Custom"
+            placeholder="Most Popular / Recommended"
         >
     </div>
 
-    {{-- Badge Variant --}}
+    {{-- Currency Symbol & Price Amount --}}
     <div class="field">
-        <label>Badge Variant</label>
-        <select name="badge_variant">
-            <option value="">Default</option>
-            <option value="cyan" @selected(old('badge_variant', $plan->badge_variant ?? '') === 'cyan')>
-                Cyan
-            </option>
-            <option value="navy" @selected(old('badge_variant', $plan->badge_variant ?? '') === 'navy')>
-                Navy
-            </option>
-        </select>
+        <label>Currency Symbol</label>
+        <input
+            type="text"
+            name="currency_symbol"
+            value="{{ old('currency_symbol', $plan->currency_symbol ?? '$') }}"
+            placeholder="$"
+        >
+    </div>
+
+    <div class="field">
+        <label>Price Amount</label>
+        <input
+            type="text"
+            name="price_amount"
+            value="{{ old('price_amount', $plan->price_amount ?? '') }}"
+            placeholder="499 / 999 / 1999"
+        >
+    </div>
+
+    <div class="field">
+        <label>Price Period Suffix</label>
+        <input
+            type="text"
+            name="price_period"
+            value="{{ old('price_period', $plan->price_period ?? '/mo') }}"
+            placeholder="/mo"
+        >
+    </div>
+
+    <div class="field">
+        <label>Button Style Class</label>
+        <input
+            type="text"
+            name="btn_class"
+            value="{{ old('btn_class', $plan->btn_class ?? 'plan-btn btn-outline') }}"
+            placeholder="plan-btn btn-outline or plan-btn btn-accent"
+        >
     </div>
 
     {{-- Description (full width) --}}
-    <div class="field cols-2">
-        <label>Description (shown under title)</label>
+    <div class="field cols-2" style="grid-column: 1 / -1;">
+        <label>Description</label>
         <textarea
             name="description"
             rows="3"
-            placeholder="Best for small businesses..."
+            placeholder="Short description of the plan..."
         >{{ old('description', $plan->description ?? '') }}</textarea>
+    </div>
+
+    {{-- Features List (one per line) --}}
+    @php
+        $featuresText = old('features_list', isset($plan->features) ? $plan->features->pluck('text')->implode("\n") : '');
+    @endphp
+    <div class="field cols-2" style="grid-column: 1 / -1;">
+        <label>Plan Features (one feature per line)</label>
+        <textarea
+            name="features_list"
+            rows="6"
+            placeholder="Google Business Profile setup&#10;Local SEO — 5 keywords&#10;On-page audit & fixes"
+        >{{ $featuresText }}</textarea>
+        <div class="hint" style="font-size:12px;opacity:.7;margin-top:4px;">Enter each bullet point on a new line.</div>
     </div>
 
     {{-- CTA Text --}}
     <div class="field">
-        <label>CTA Text</label>
+        <label>CTA Button Text</label>
         <input
             type="text"
             name="cta_text"
-            value="{{ old('cta_text', $plan->cta_text ?? 'Get Started →') }}"
+            value="{{ old('cta_text', $plan->cta_text ?? 'Start Your Project') }}"
         >
     </div>
 
     {{-- CTA URL --}}
     <div class="field">
-        <label>CTA URL</label>
+        <label>CTA Target URL</label>
         <input
             type="text"
             name="cta_url"
-            value="{{ old('cta_url', $plan->cta_url ?? '/contact') }}"
+            value="{{ old('cta_url', $plan->cta_url ?? '/contact-us#enquiry') }}"
         >
     </div>
 
-    {{-- Featured --}}
+    {{-- Sort Order --}}
     <div class="field">
-        <label style="display:flex; gap:10px; align-items:center;">
+        <label>Sort Order</label>
+        <input
+            type="number"
+            name="sort_order"
+            value="{{ old('sort_order', $plan->sort_order ?? 0) }}"
+        >
+    </div>
+
+    {{-- Featured & Active --}}
+    <div class="field" style="display:flex; flex-direction:column; gap:10px; justify-content:center;">
+        <label style="display:flex; gap:10px; align-items:center; cursor:pointer;">
             <input
                 type="checkbox"
                 name="is_featured"
                 value="1"
                 @checked(old('is_featured', $plan->is_featured ?? false))
             >
-            <span>Featured plan</span>
+            <span><strong>Featured Plan (Highlighted Card)</strong></span>
         </label>
-    </div>
 
-    {{-- Active --}}
-    <div class="field">
-        <label style="display:flex; gap:10px; align-items:center;">
+        <label style="display:flex; gap:10px; align-items:center; cursor:pointer;">
             <input
                 type="checkbox"
                 name="is_active"
                 value="1"
                 @checked(old('is_active', $plan->is_active ?? true))
             >
-            <span>Active (visible on website)</span>
+            <span>Active (Visible on Pricing Page)</span>
         </label>
     </div>
 

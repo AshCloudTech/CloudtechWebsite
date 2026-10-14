@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Custom PHP Development UK | Web Development Company')
-@section('meta_title', 'Custom PHP Development UK | Web Development Company.')
-@section('meta_description', 'Custom PHP development UK offering web and website development services to build secure,
-    scalable and high performance applications UK for business growth today.')
+@section('title', 'Custom PHP Development UK | PHP Web Development')
+@section('meta_title', 'Custom PHP Development UK | PHP Web Development')
+@section('meta_description', 'Build secure, scalable and high-performance websites and applications with custom PHP development tailored to your business requirements.')
 @section('meta_keywords', 'custom PHP development UK, bespoke PHP development UK, PHP web development UK, custom web
     applications UK, PHP API development UK, legacy modernisation UK, performance optimisation UK, security hardening UK,
     PHP maintenance and support UK')
@@ -31,7 +30,9 @@
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Start Your Project</a>
                 <a href="#services" class="btn btn-ghost">Explore Services</a>
-            </div>
+            
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
         </div>
     </section>
 

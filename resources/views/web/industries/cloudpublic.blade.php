@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Public Sector SEO Service UK | Digital Service Agency')
-@section('meta_title', 'Public Sector SEO Service UK | Digital Service Agency.')
-@section('meta_description', 'Public sector SEO UK providing digital marketing, SEO and website development to improve
-    visibility and engagement UK for better digital service growth today')
+@section('title', 'Public Sector SEO Services UK | Digital Agency')
+@section('meta_title', 'Public Sector SEO Services UK | Digital Agency')
+@section('meta_description', 'Improve public sector digital visibility with SEO, digital marketing and website development services designed to support engagement and online access.')
 @section('meta_keywords', 'public sector SEO service UK, public sector digital marketing UK, public sector website
     development UK, government SEO UK, council SEO UK, public body SEO UK, digital services for public sector UK, improving
     visibility for public services UK, engaging citizens online UK')
@@ -35,6 +34,8 @@
                 <div class="hero-actions">
                     <a href="#contact" class="btn btn-lg btn-primary">Start Your Project</a>
                     <a href="#pricing" class="btn btn-lg btn-ghost hero-ghost-light">View Platforms</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
         </div>

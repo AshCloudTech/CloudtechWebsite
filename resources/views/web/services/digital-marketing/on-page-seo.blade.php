@@ -1,10 +1,9 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'On-Page SEO Agency UK | SEO Optimization Services')
-@section('meta_title', 'On-Page SEO Agency UK | SEO Optimization Services.')
+@section('title', 'On-Page SEO Services UK | Website Optimisation')
+@section('meta_title', 'On-Page SEO Services UK | Website Optimisation')
 @section('meta_description',
-    'On-page SEO services UK to optimise website content, meta tags, structure and keywords to
-    improve rankings, traffic and user experience across UK sites.')
+    'Improve website rankings with on-page SEO covering keywords, content, title tags, meta descriptions, headings, internal links and page structure.')
 @section('meta_keywords',
     'on-page SEO agency UK, on-page SEO services UK, SEO optimization services UK, content
     optimization UK, meta tags optimization UK, keyword placement UK, internal linking UK, schema markup UK, URL structure
@@ -29,18 +28,15 @@
         <div class="container hero-grid">
             <div class="hero-text">
                 <p class="hero-eyebrow">On-Page SEO Services in UK</p>
-                <h1>Professional On-Page SEO Services in the UK</h1>
+                <h1>Professional On-Page SEO Services UK for Higher Google Rankings</h1>
                 <p class="hero-subtitle">
-                    Optimise your website pages for search engines and improve rankings with expert On-Page SEO services. We
-                    enhance search visibility using keyword optimisation, meta tags, content optimisation, internal linking,
-                    schema markup, URL structure, and technical on-page improvements for better indexing and higher organic
-                    traffic.
+                    Improve your website's search visibility with expert On-Page SEO Services UK that optimise content, keywords, headings, metadata, internal links, URLs, images, schema, and page structure to improve relevance, indexing, user experience, and organic traffic.
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="on-page-seo">Get Free SEO
-                        Audit</a>
-                    <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Speak to Expert</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="on-page-seo">Get Free On-Page SEO Audit</a>
+                    <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Speak to an On-Page SEO Expert</a>
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
 
@@ -62,33 +58,43 @@
     <section class="section section-alt" id="why">
         <div class="container">
             <div class="section-header">
-                <h2>Why Choose Our On-Page SEO Services?</h2>
-                <p>Drive organic traffic across the UK with advanced on-page optimisation strategies.</p>
+                <h2>Why Choose Our On-Page SEO Services UK?</h2>
+                <p>Our On-Page SEO agency improves individual website pages so search engines can better understand their relevance, content, structure, and value for users.</p>
             </div>
 
-            <div class="why-grid why-grid-ui">
+            <div class="grid grid-3 why-grid">
                 <article class="card why-card why-card-ui">
                     <div class="why-icon"><i data-lucide="file-text"></i></div>
                     <h3>Content Optimisation</h3>
-                    <p>SEO-friendly content structure for readability and search engine understanding.</p>
+                    <p>Optimise page content, headings, structure, readability, and topical relevance to create useful pages that satisfy search intent.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
                     <div class="why-icon"><i data-lucide="search"></i></div>
                     <h3>Keyword Optimisation</h3>
-                    <p>Strategic keyword placement in titles, headings, and content for higher rankings.</p>
+                    <p>Target relevant primary, secondary, semantic, and long-tail keywords naturally across important page elements.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
                     <div class="why-icon"><i data-lucide="tag"></i></div>
                     <h3>Meta Tags Optimisation</h3>
-                    <p>Optimised title tags and meta descriptions to improve CTR and relevance.</p>
+                    <p>Optimise title tags and meta descriptions around search intent and page relevance to improve visibility and click-through rates.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
+                    <div class="why-icon"><i data-lucide="link"></i></div>
+                    <h3>Internal Linking</h3>
+                    <p>Build a logical internal linking structure that helps users and search engines discover important pages and understand relationships between topics.</p>
+                </article>
+                <article class="card why-card why-card-ui">
+                    <div class="why-icon"><i data-lucide="code-2"></i></div>
+                    <h3>Schema Markup</h3>
+                    <p>Implement relevant structured data to help search engines understand your pages and support eligible enhanced search features.</p>
+                </article>
+                <article class="card why-card why-card-ui">
                     <div class="why-icon"><i data-lucide="trending-up"></i></div>
                     <h3>Higher Search Rankings</h3>
-                    <p>Improve page relevance to rank better in Google search results.</p>
+                    <p>Improve page relevance, content quality, structure, and optimisation to strengthen your potential to rank for valuable search terms.</p>
                 </article>
             </div>
         </div>
@@ -99,33 +105,33 @@
     <section class="section section-process" id="process">
         <div class="container">
             <div class="section-header section-header-light">
-                <h2>Our On-Page SEO Process</h2>
-                <p>A strategic approach to optimise website pages for search engines.</p>
+                <h2>How Our On-Page SEO Process Works</h2>
+                <p>Our proven On-Page SEO process combines keyword research, search-intent analysis, content optimisation, technical page improvements, internal linking, and ongoing performance tracking.</p>
             </div>
 
             <div class="process-grid process-grid-ui">
                 <article class="card process-card process-card-ui">
                     <div class="process-icon"><i data-lucide="keyboard"></i></div>
-                    <h3>Website Audit</h3>
-                    <p>Analyse pages for keyword gaps, meta issues, and content structure problems.</p>
+                    <h3>On-Page SEO Audit</h3>
+                    <p>We analyse your pages for keyword gaps, metadata issues, content quality, heading structure, internal links, URLs, images, schema, and optimisation opportunities.</p>
                 </article>
 
                 <article class="card process-card process-card-ui">
                     <div class="process-icon"><i data-lucide="layout-template"></i></div>
-                    <h3>Optimisation Strategy</h3>
-                    <p>Plan keyword mapping, meta tags, headings, internal links, and schema markup.</p>
+                    <h3>Keyword Mapping &amp; SEO Strategy</h3>
+                    <p>We map primary and supporting keywords to the right pages based on search intent, competition, relevance, and your business objectives.</p>
                 </article>
 
                 <article class="card process-card process-card-ui">
                     <div class="process-icon"><i data-lucide="settings"></i></div>
-                    <h3>Implementation</h3>
-                    <p>Apply on-page fixes including content updates, URL optimisation, and technical tags.</p>
+                    <h3>On-Page SEO Implementation</h3>
+                    <p>We optimise content, headings, metadata, URLs, internal links, images, schema markup, and other page-level elements to improve search visibility.</p>
                 </article>
 
                 <article class="card process-card process-card-ui">
                     <div class="process-icon"><i data-lucide="line-chart"></i></div>
-                    <h3>Performance Tracking</h3>
-                    <p>Monitor keyword rankings, page indexing, and organic traffic growth.</p>
+                    <h3>Performance Tracking &amp; Optimisation</h3>
+                    <p>We monitor rankings, indexing, organic traffic, engagement, and page performance to identify opportunities for continuous improvement.</p>
                 </article>
             </div>
         </div>
@@ -136,8 +142,8 @@
     <section class="section content-types" id="content-types">
         <div class="container">
             <div class="section-header">
-                <h2>Page Types We Optimise</h2>
-                <p>Comprehensive on-page SEO services for all types of website pages.</p>
+                <h2>Page Types We Optimise for SEO</h2>
+                <p>Our On-Page SEO services cover different website page types, from commercial landing pages to informational content.</p>
             </div>
 
             <div class="ct-grid ct-grid-ui">
@@ -147,14 +153,14 @@
                         <div class="ct-icon"><i data-lucide="home"></i></div>
                         <div class="ct-title">
                             <h3>Homepage Optimisation</h3>
-                            <p>Optimise homepage content, headings, and keywords for brand visibility.</p>
+                            <p>Optimise your homepage to strengthen brand relevance, primary keyword targeting, navigation, and internal linking.</p>
                         </div>
                     </div>
                     <ul class="ct-points">
                         <li>Primary keyword targeting</li>
+                        <li>SEO-friendly content structure</li>
                         <li>Internal linking</li>
-                        <li>Content structure</li>
-                        <li>Meta tags optimisation</li>
+                        <li>Title and meta description optimisation</li>
                     </ul>
                 </article>
 
@@ -162,8 +168,8 @@
                     <div class="ct-head">
                         <div class="ct-icon"><i data-lucide="layout"></i></div>
                         <div class="ct-title">
-                            <h3>Service & Landing Pages</h3>
-                            <p>Conversion-focused pages optimised for search engines and users.</p>
+                            <h3>Service &amp; Landing Page SEO</h3>
+                            <p>Optimise commercial pages to target valuable keywords while providing clear information and strong conversion opportunities.</p>
                         </div>
                     </div>
                     <ul class="ct-points">
@@ -171,6 +177,7 @@
                         <li>SEO heading structure</li>
                         <li>URL optimisation</li>
                         <li>Schema markup</li>
+                        <li>Search-intent alignment</li>
                     </ul>
                 </article>
 
@@ -178,15 +185,16 @@
                     <div class="ct-head">
                         <div class="ct-icon"><i data-lucide="shopping-bag"></i></div>
                         <div class="ct-title">
-                            <h3>Product & E-commerce Pages</h3>
-                            <p>Product pages optimised to rank and improve conversions.</p>
+                            <h3>Product &amp; eCommerce Page SEO</h3>
+                            <p>Optimise product pages to improve search visibility, product relevance, user experience, and conversion potential.</p>
                         </div>
                     </div>
                     <ul class="ct-points">
                         <li>Product keyword optimisation</li>
-                        <li>Meta data setup</li>
-                        <li>Internal links</li>
-                        <li>Content enhancement</li>
+                        <li>Title and metadata setup</li>
+                        <li>Internal linking</li>
+                        <li>Product content enhancement</li>
+                        <li>Structured data</li>
                     </ul>
                 </article>
 
@@ -194,15 +202,16 @@
                     <div class="ct-head">
                         <div class="ct-icon"><i data-lucide="book-open"></i></div>
                         <div class="ct-title">
-                            <h3>Blog & Content Pages</h3>
-                            <p>SEO-optimised blogs that drive organic traffic.</p>
+                            <h3>Blog &amp; Content Page SEO</h3>
+                            <p>Optimise informational content to increase organic visibility, topical relevance, engagement, and internal authority.</p>
                         </div>
                     </div>
                     <ul class="ct-points">
-                        <li>Topic clusters</li>
-                        <li>Keyword placement</li>
+                        <li>Topic cluster development</li>
+                        <li>Natural keyword placement</li>
                         <li>Content readability</li>
                         <li>Internal linking strategy</li>
+                        <li>Search-intent optimisation</li>
                     </ul>
                 </article>
 
@@ -215,10 +224,8 @@
     <section class="section" id="included">
         <div class="container">
             <div class="section-header">
-                <h2>What’s Included in Our On-Page SEO Service? </h2>
-                <p>
-                    Comprehensive on-page optimisation for SEO performance.
-                </p>
+                <h2>What's Included in Our On-Page SEO Services UK?</h2>
+                <p>Our complete On-Page SEO services improve the most important page-level ranking and relevance signals across your website.</p>
             </div>
 
             <div class="services-layout">
@@ -232,18 +239,20 @@
 
                 <div class="services-cards">
                     <div class="card services-card">
-                        <h3>Included deliverables</h3>
+                        <h3>On-Page SEO Deliverables</h3>
                         <ul class="services-list">
-                            <li>Complete on-page SEO audit</li>
+                            <li>Complete On-Page SEO audit</li>
                             <li>Keyword research and keyword mapping</li>
+                            <li>Search intent and content analysis</li>
                             <li>Title tag and meta description optimisation</li>
-                            <li> Header tags (H1-H6) optimisation</li>
-                            <li> Content optimisation with SEO keywords</li>
+                            <li>H1-H6 heading structure optimisation</li>
+                            <li>SEO content and semantic keyword optimisation</li>
                             <li>Internal linking structure improvement</li>
                             <li>Schema markup implementation</li>
                             <li>URL structure optimisation</li>
-                            <li> Image alt tags optimisation</li>
-                            <li>Monthly performance reports and recommendations</li>
+                            <li>Image file name and alt text optimisation</li>
+                            <li>Content quality and readability improvements</li>
+                            <li>Monthly performance reports and SEO recommendations</li>
                         </ul>
                     </div>
                 </div>
@@ -258,41 +267,31 @@
                 <div class="national-about-content">
                     <h2>What Are On-Page SEO Services?</h2>
 
-                    <p>
-                        On-page SEO services focus on optimising individual web pages so search engines can clearly
-                        understand their topic, relevance, and value to users. This includes improving content structure,
-                        keyword placement, meta tags, internal links, schema markup, URL structure, and user experience
-                        signals that directly influence rankings.
-                    </p>
+                    <p>On-Page SEO services focus on improving individual web pages so search engines can clearly understand their topic, relevance, structure, and value to users.</p>
 
-                    <p>
-                        Unlike technical SEO, which improves the site foundation, on-page SEO ensures every page is properly
-                        optimised to rank for its target keywords and satisfy search intent.
-                    </p>
+                    <p>This includes optimising content, keywords, headings, metadata, internal links, URLs, images, structured data, and other page-level elements that help align a website with search intent.</p>
+                    <p>Unlike Technical SEO, which focuses on the technical foundation of a website, On-Page SEO focuses on the content and elements within individual pages that communicate relevance to search engines and users.</p>
                 </div>
 
                 <div class="national-about-highlight">
-                    <h3>Search Intent & Content Alignment</h3>
+                    <h3>Search Intent &amp; Content Alignment</h3>
 
-                    <p>
-                        One of the most important parts of on-page SEO is matching content to what users are actually
-                        searching for.
-                    </p>
+                    <p>A successful On-Page SEO strategy starts with understanding what users expect when they search for a particular keyword.</p>
 
-                    <p>
-                        We optimise pages based on:
-                    </p>
+                    <p>We optimise pages around:</p>
 
                     <ul>
-                        <li>Informational intent (blogs and guides)</li>
-                        <li>Commercial intent (service and category pages)</li>
-                        <li>Transactional intent (product and landing pages)</li>
-                        <li>Navigational intent (homepage and brand pages)</li>
+                        <li><strong>Informational intent</strong> for blogs, guides, and educational content</li>
+                        <li><strong>Commercial intent</strong> for service, category, and comparison pages</li>
+                        <li><strong>Transactional intent</strong> for product and conversion-focused landing pages</li>
+                        <li><strong>Navigational intent</strong> for brand and key website pages</li>
                     </ul>
 
-                    <p class="national-about-note">
-                        Aligning content with intent significantly improves rankings and engagement.
-                    </p>
+                    <p class="national-about-note">Aligning content with search intent helps create more relevant pages that provide better value to users and stronger ranking potential.</p>
+
+                    <h3>Semantic SEO &amp; Topical Relevance</h3>
+                    <p>Modern search engines evaluate more than exact-match keywords. We optimise pages using related terms, entities, subtopics, questions, and supporting concepts to strengthen topical relevance.</p>
+                    <p>This helps search engines understand the overall subject of a page while allowing content to remain natural and useful for readers.</p>
                 </div>
 
             </div>
@@ -305,20 +304,14 @@
         <div class="container">
 
             <div class="section-header">
-                <h2>Why On-Page SEO Is Critical for Ranking Success</h2>
+                <h2>Why On-Page SEO Is Critical for Google Rankings</h2>
             </div>
 
             <div class="national-growth-card">
-                <p>
-                    Even with strong backlinks and technical optimisation, pages will not rank if they are not properly
-                    optimised for relevance and search intent. On-page SEO ensures every element of your page works together
-                    to signal value to search engines and users.
-                </p>
+                <p>Strong technical SEO and backlinks are important, but search engines also need clear signals about what each page is about and which searches it should rank for.</p>
 
-                <p>
-                    When done correctly, on-page SEO can significantly improve rankings without needing new content or
-                    links.
-                </p>
+                <p>On-Page SEO brings together keyword targeting, content quality, search intent, headings, metadata, internal linking, structured data, and page structure to create a more relevant search experience.</p>
+                <p>When these elements work together, your pages have a stronger foundation for ranking, attracting qualified organic traffic, and supporting conversions.</p>
             </div>
 
         </div>
@@ -328,33 +321,32 @@
     <section class="section section-related-links" id="related-services">
         <div class="container">
             <div class="section-header">
-                <h2>Explore Related Services</h2>
-                <p>Strengthen your on-page SEO performance with connected SEO and web development services.</p>
+                <h2>Explore Our Related SEO Services</h2>
+                <p>Strengthen your website's search performance with these connected SEO and web development services.</p>
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO Services UK">
                     <span>SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/content-seo-service-uk" aria-label="Content SEO services UK">
+                <a class="related-link-card" href="/content-seo-service-uk" aria-label="Content SEO Services UK">
                     <span>Content SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/technical-seo-service-uk" aria-label="Technical SEO services UK">
+                <a class="related-link-card" href="/technical-seo-service-uk" aria-label="Technical SEO Services UK">
                     <span>Technical SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/off-page-seo-service-uk" aria-label="Off-Page SEO services UK">
+                <a class="related-link-card" href="/off-page-seo-service-uk" aria-label="Off-Page SEO Services UK">
                     <span>Off-Page SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/website-development-service-uk"
-                    aria-label="Website development services UK">
+                <a class="related-link-card" href="/website-development-service-uk" aria-label="Website Development Services UK">
                     <span>Website Development Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
@@ -369,14 +361,11 @@
             <div class="cta-inner onpage-cta-inner">
                 <div class="cta-main">
                     <h2>Ready to Optimise Your Website Pages for Search?</h2>
-                    <p>
-                        Get a free On-Page SEO audit and improve your Google rankings and organic traffic.
-                    </p>
+                    <p>Improve your page relevance, Google visibility, organic traffic, and search performance with expert On-Page SEO Services UK built around your website and target keywords.</p>
                 </div>
                 <div class="cta-actions onpage-cta-actions">
-                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="on-page-seo">Get Free SEO
-                        Audit</a>
-                    <a href="#process" class="btn btn-outline-light">View Our Process</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="on-page-seo">Get Free On-Page SEO Audit</a>
+                    <a href="#contact-form" class="btn btn-outline-light">Speak to an On-Page SEO Expert</a>
                 </div>
             </div>
         </div>
@@ -440,5 +429,59 @@
     </section>
 
 
+    <!-- FAQ -->
+    <section class="section section-alt section-faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions About On-Page SEO Services UK</h2>
+            </div>
+
+            <div class="faq-wrap">
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>What Are On-Page SEO Services?</summary>
+                        <div class="faq-content">
+                            <p>On-Page SEO services optimise individual website pages to improve search visibility and relevance. This can include keyword research, content optimisation, metadata, headings, internal linking, URLs, images, schema markup, and search-intent alignment.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How Does On-Page SEO Improve Google Rankings?</summary>
+                        <div class="faq-content">
+                            <p>On-Page SEO helps search engines understand the topic, relevance, structure, and value of your pages. Optimising content, keywords, headings, metadata, internal links, and other page elements can strengthen a page's ranking potential.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>What Is Included in an On-Page SEO Audit?</summary>
+                        <div class="faq-content">
+                            <p>An On-Page SEO audit can review keyword targeting, search intent, title tags, meta descriptions, headings, content quality, URLs, internal links, images, schema markup, page structure, and other optimisation opportunities.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>What Is the Difference Between On-Page SEO and Technical SEO?</summary>
+                        <div class="faq-content">
+                            <p>On-Page SEO focuses primarily on the content and elements within individual pages, while Technical SEO focuses on the website's technical foundation, including crawling, indexing, site speed, architecture, and technical performance.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How Long Does On-Page SEO Take to Show Results?</summary>
+                        <div class="faq-content">
+                            <p>The time required depends on keyword competition, website authority, existing optimisation, content quality, technical performance, and the search market. Improvements can be seen at different rates as search engines recrawl and reassess optimised pages.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Why Choose an On-Page SEO Agency in the UK?</summary>
+                        <div class="faq-content">
+                            <p>A UK On-Page SEO agency can develop strategies around relevant UK search terms, competitors, search intent, and business goals. Professional optimisation can help improve page relevance, organic visibility, qualified traffic, and long-term search performance.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
 
 @endsection

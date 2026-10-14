@@ -1475,3 +1475,49 @@ html[data-theme="dark"] .footer-site-logo--dark{ display:block; }
   aspect-ratio: 322 / 215;
   object-fit: cover;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero.hero-video-fullscreen {
+        min-height: 0;
+       
+        height: 56.25vw; 
+    }
+}
+
+/* ==============================================================
+   TABLET & IPAD FIX
+   ============================================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero.hero-video-fullscreen {
+        min-height: 0;
+        height: auto;
+        
+        aspect-ratio: 16 / 9; 
+    }
+    
+    .hero-bg img,
+    .hero-bg video {
+        object-fit: cover;
+       
+        object-position: center top !important; 
+    }
+}
+/* ==============================================================
+   MOBILE FIX
+   ============================================================== */
+@media (max-width: 767px) {
+    .hero.hero-video-fullscreen {
+     
+        min-height: 0;
+        height: auto;
+        
+       
+        aspect-ratio: 9 / 16; 
+    }
+    
+    .hero-bg img,
+    .hero-bg video {
+        object-fit: cover;
+        object-position: center; 
+    }
+}

@@ -42,7 +42,9 @@
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Start Your Project</a>
                 <a href="#services" class="btn btn-ghost">Explore Services</a>
-            </div>
+            
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
         </div>
     </section>
 @if(!$hasDynamicContent)

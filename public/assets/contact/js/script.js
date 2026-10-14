@@ -97,3 +97,45 @@
   focus.classList.add('is-active');
   start();
 })();
+
+
+/* Contact page entrance animation with staggered form fields */
+(() => {
+  const page = document.querySelector('.ct-contact-page');
+  if (!page) return;
+
+  const targets = Array.from(page.querySelectorAll(
+    '.ct-contact-hero__inner, .ct-contact-details, .ct-message-panel, .ct-london-office'
+  ));
+  if (!targets.length) return;
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion || !('IntersectionObserver' in window)) {
+    targets.forEach((el) => el.classList.add('ct-fade-in'));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+
+      const target = entry.target;
+      target.classList.add('ct-fade-in');
+
+      if (target.classList.contains('ct-message-panel')) {
+        target.querySelectorAll('.ct-input-wrap').forEach((field, index) => {
+          field.style.setProperty('--ct-field-delay', `${Math.min(index * 65, 390)}ms`);
+          field.classList.add('ct-field-fade-in');
+        });
+      }
+
+      obs.unobserve(target);
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -4% 0px' });
+
+  targets.forEach((el, index) => {
+    el.style.setProperty('--ct-fade-delay', `${index * 80}ms`);
+    observer.observe(el);
+  });
+})();
+

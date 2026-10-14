@@ -176,7 +176,7 @@
     </div>
     {{-- PRICING (dropdown) --}}
     @php
-        $pricingOpen = isGroupActive(['admin.pricing.plans.*', 'admin.pricing.faq.*']);
+        $pricingOpen = isGroupActive(['admin.pricing.plans.*', 'admin.pricing.services.*', 'admin.pricing.faq.*']);
     @endphp
 
     <div class="navSection">
@@ -198,6 +198,15 @@
                         href="{{ route('admin.pricing.plans.index') }}">
                         <span class="dot"></span>
                         <span>Plans</span>
+                    </a>
+                @endif
+
+                {{-- Pricing Services (SEO & Web) --}}
+                @if (Route::has('admin.pricing.services.index'))
+                    <a class="{{ request()->routeIs('admin.pricing.services.*') ? 'active' : '' }}"
+                        href="{{ route('admin.pricing.services.index') }}">
+                        <span class="dot"></span>
+                        <span>Services (Tables)</span>
                     </a>
                 @endif
 

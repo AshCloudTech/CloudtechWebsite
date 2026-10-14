@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Social Media Marketing Agency UK | Marketing & Advertising')
-@section('meta_title', 'Social Media Marketing Agency UK | Marketing & Advertising.')
-@section('meta_description', 'Social media marketing agency UK offering management, advertising and strategy on
-    Facebook, Instagram and TikTok to grow traffic, leads and sales online UK now.')
+@section('title', 'Social Media Marketing Agency UK | SMM Services')
+@section('meta_title', 'Social Media Marketing Agency UK | SMM Services')
+@section('meta_description', 'Build your brand and reach more customers with social media marketing across Facebook, Instagram and TikTok, including strategy, management and advertising.')
 @section('meta_keywords', 'social media marketing agency UK, social media management UK, Facebook marketing UK, Instagram marketing UK, TikTok marketing UK, social media advertising UK, content creation UK, community management UK, social strategy UK')
 
     @push('styles')
@@ -36,6 +35,8 @@
                     <a href="#audit" class="btn btn-lg btn-accent jsGetAudit" data-audit-type="social-media-audit">Get
                         Social Media Audit</a>
                     <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Strategy Call</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
         </div>

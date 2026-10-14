@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Ecommerce SEO Agency UK | Online Store SEO Services')
-@section('meta_title', 'Ecommerce SEO Agency UK | Online Store SEO Services.')
-@section('meta_description', 'Ecommerce SEO agency UK offering Shopify, WooCommerce and Magento SEO services to improve
-    rankings, traffic, product visibility and online sales UK.')
+@section('title', 'Ecommerce SEO Services UK | Online Store SEO')
+@section('meta_title', 'Ecommerce SEO Services UK | Online Store SEO')
+@section('meta_description', 'Increase organic visibility and sales with ecommerce SEO for Shopify, WooCommerce and Magento, including product, category and technical optimisation.')
 @section('meta_keywords', 'ecommerce SEO agency UK, online store SEO services UK, Shopify SEO UK, WooCommerce SEO UK,
     Magento SEO UK, product page optimization UK, category page SEO UK, technical ecommerce SEO UK, ecommerce content
     strategy UK, link building for ecommerce UK, local SEO for stores UK, mobile optimization for ecommerce UK')
@@ -28,15 +27,15 @@
         <div class="container hero-grid">
             <div class="hero-text">
                 <p class="hero-eyebrow">eCommerce SEO Services</p>
-                <h1>Grow Your Online Store with eCommerce SEO</h1>
+                <h1>eCommerce SEO Services UK for Higher Rankings, Traffic &amp; Sales</h1>
                 <p class="hero-subtitle">
-                    Improve product visibility, attract high-intent shoppers, and increase revenue with a practical,
-                    conversion-focused eCommerce SEO strategy.
+                    Grow your online store with powerful, results-driven eCommerce SEO Services UK that improve product visibility, attract high-intent shoppers, increase organic traffic, and generate more online sales.
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#cta" class="btn btn-lg btn-primary">Grow My Online Store</a>
-                    <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Talk to an Expert</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="ecommerce-seo">Get Free eCommerce SEO Audit</a>
+                    <a href="#contact-form" class="btn btn-lg btn-primary hero-ghost-light">Speak to an eCommerce SEO Expert</a>
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
 
@@ -84,51 +83,39 @@
     <section class="section section-alt" id="benefits">
         <div class="container">
             <div class="section-header">
-                <h2>Why eCommerce SEO Matters</h2>
-                <p>eCommerce SEO helps your store rank higher, attract buyers, and grow revenue organically.</p>
+                <h2>Why Choose Our eCommerce SEO Services UK?</h2>
+                <p>Our eCommerce SEO agency combines technical optimisation, product SEO, category optimisation, content strategy, and conversion-focused search marketing to help online stores grow.</p>
             </div>
 
             <div class="grid grid-3 benefits-grid">
                 <article class="card benefit-card">
-                    <h3>Increased Sales</h3>
-                    <p>
-                        SEO brings high-intent shoppers to your store, boosting conversions and long-term sales growth.
-                    </p>
+                    <h3>Increase Organic eCommerce Sales</h3>
+                    <p>Attract high-intent shoppers searching for your products and turn organic search traffic into qualified customers and long-term revenue.</p>
                 </article>
 
                 <article class="card benefit-card">
-                    <h3>Product Visibility</h3>
-                    <p>
-                        Improve how your products appear in search results, helping customers find you faster.
-                    </p>
+                    <h3>Improve Product Search Visibility</h3>
+                    <p>Optimise product pages, titles, descriptions, images, internal links, and structured data to help your products appear for relevant searches.</p>
                 </article>
 
                 <article class="card benefit-card">
-                    <h3>Better ROI</h3>
-                    <p>
-                        Organic traffic cuts ad costs and delivers higher long-term returns on your marketing investment.
-                    </p>
+                    <h3>Build a Scalable eCommerce SEO Strategy</h3>
+                    <p>Create an SEO-friendly website structure that supports large product inventories, categories, collections, variations, and future store growth.</p>
                 </article>
 
                 <article class="card benefit-card">
-                    <h3>Brand Authority</h3>
-                    <p>
-                        Rankings build trust, positioning your eCommerce brand as a reliable market leader.
-                    </p>
+                    <h3>Target High-Intent Buyer Keywords</h3>
+                    <p>Identify commercial and transactional keywords that customers use when researching products and preparing to make a purchase.</p>
                 </article>
 
                 <article class="card benefit-card">
-                    <h3>Market Expansion</h3>
-                    <p>
-                        Reach wider audiences and new markets through strategic, scalable search optimization.
-                    </p>
+                    <h3>Strengthen Your Online Store Authority</h3>
+                    <p>Build topical relevance, quality backlinks, useful content, and strong internal linking to improve your website's authority and competitive visibility.</p>
                 </article>
 
                 <article class="card benefit-card">
-                    <h3>Competitive Edge</h3>
-                    <p>
-                        Outrank competitors and capture more customers with powerful SEO strategies.
-                    </p>
+                    <h3>Outperform eCommerce Competitors</h3>
+                    <p>Analyse competing online stores to identify keyword gaps, content opportunities, technical weaknesses, and strategies that can improve your search performance.</p>
                 </article>
             </div>
         </div>
@@ -138,69 +125,69 @@
     <section class="section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2>Complete eCommerce SEO Services</h2>
-                <p>Full-service eCommerce SEO to boost rankings, traffic, conversions, and store growth.</p>
+                <h2>Complete eCommerce SEO Services UK</h2>
+                <p>Our full-service eCommerce SEO solutions improve rankings, product visibility, organic traffic, conversions, and long-term online store growth.</p>
             </div>
 
             <div class="grid grid-3 services-grid">
                 <article class="card service-card">
-                    <h3>Product Page Optimisation</h3>
-                    <p>Optimize product titles, descriptions, images, and keywords for maximum conversions.</p>
+                    <h3>Product Page SEO</h3>
+                    <p>Optimise product titles, descriptions, images, URLs, internal links, and structured data to improve search visibility and conversions.</p>
                 </article>
 
                 <article class="card service-card">
                     <h3>Category Page SEO</h3>
-                    <p>Improve category structure, filters, and metadata to enhance search visibility.</p>
+                    <p>Optimise category and collection pages around broader commercial keywords while creating a clear structure for users and search engines.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>Technical SEO</h3>
-                    <p>Fix speed, indexing, site architecture, and crawl issues for stronger performance.</p>
+                    <h3>Technical eCommerce SEO</h3>
+                    <p>Fix crawling, indexing, site speed, duplicate content, canonicalisation, site architecture, and other technical issues affecting search performance.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>Keyword Research</h3>
-                    <p>Identify buyer-intent keywords that drive relevant traffic and high conversions.</p>
+                    <h3>eCommerce Keyword Research</h3>
+                    <p>Identify commercial, transactional, and long-tail keywords based on search volume, competition, buyer intent, and revenue potential.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>Content Strategy</h3>
-                    <p>Create valuable content that boosts rankings, trust, and product discovery.</p>
+                    <h3>eCommerce Content Strategy</h3>
+                    <p>Create useful SEO content that supports product discovery, builds topical authority, answers customer questions, and attracts qualified organic traffic.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>Link Building</h3>
-                    <p>Earn high-quality backlinks to strengthen domain authority and search rankings.</p>
+                    <h3>eCommerce Link Building</h3>
+                    <p>Build relevant, high-quality backlinks that strengthen website authority and improve the ranking potential of important commercial pages.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>Local SEO for Stores</h3>
-                    <p>Boost visibility for local shoppers with optimized maps, listings, and citations.</p>
+                    <h3>Local SEO for Physical Stores</h3>
+                    <p>Improve local search visibility for businesses with physical stores through Google Business Profile optimisation, location targeting, citations, and local SEO.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>Mobile Optimisation</h3>
-                    <p>Enhance mobile performance to improve user experience and boost mobile sales.</p>
+                    <h3>Mobile eCommerce SEO</h3>
+                    <p>Optimise your online store for mobile users with improved speed, usability, navigation, responsive design, and mobile search performance.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>Schema Markup</h3>
-                    <p>Add rich snippets to improve click-through rates and product visibility in search.</p>
+                    <h3>Product Schema Markup</h3>
+                    <p>Implement structured data for products, prices, availability, reviews, ratings, and other information to support enhanced search visibility.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>Review Optimisation</h3>
-                    <p>Leverage product reviews to build trust, increase CTR, and boost conversions.</p>
+                    <h3>Review &amp; Reputation Optimisation</h3>
+                    <p>Use customer reviews and product ratings to strengthen trust, support search visibility, improve click-through rates, and increase purchase confidence.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>International SEO</h3>
-                    <p>Optimize your store for global audiences with multilingual and geo-targeted SEO.</p>
+                    <h3>International eCommerce SEO</h3>
+                    <p>Expand into international markets with country targeting, multilingual SEO, international keyword research, and appropriate technical optimisation.</p>
                 </article>
 
                 <article class="card service-card">
-                    <h3>Analytics &amp; Reporting</h3>
-                    <p>Track rankings, traffic, and sales metrics with transparent performance reporting.</p>
+                    <h3>eCommerce Analytics &amp; Reporting</h3>
+                    <p>Track rankings, organic traffic, product visibility, conversions, revenue, and other performance metrics through transparent SEO reporting.</p>
                 </article>
             </div>
         </div>
@@ -210,57 +197,45 @@
     <section class="section section-process" id="process">
         <div class="container">
             <div class="section-header section-header-light">
-                <h2>Our eCommerce SEO Process</h2>
-                <p>A proven SEO process that audits your store, improves rankings, drives traffic, and scales long-term
-                    growth.</p>
+                <h2>How Our eCommerce SEO Process Works</h2>
+                <p>Our proven eCommerce SEO process combines technical analysis, keyword research, on-page optimisation, content, authority building, and ongoing performance improvements.</p>
             </div>
 
             <div class="grid grid-3 process-grid">
                 <article class="card process-card">
                     <div class="process-step">1</div>
-                    <h3>Store Audit</h3>
-                    <p>
-                        Comprehensive review of technical, on-page, and UX factors affecting rankings.
-                    </p>
+                    <h3>eCommerce SEO Audit</h3>
+                    <p>We analyse your store's technical SEO, product pages, category structure, site architecture, indexing, speed, content, and user experience.</p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">2</div>
-                    <h3>Competitor Research</h3>
-                    <p>
-                        Analyze competitors’ strengths to uncover ranking opportunities and gaps.
-                    </p>
+                    <h3>Competitor &amp; Market Research</h3>
+                    <p>We analyse competing eCommerce websites to identify ranking opportunities, keyword gaps, content strategies, product visibility, and technical advantages.</p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">3</div>
-                    <h3>Keyword Strategy</h3>
-                    <p>
-                        Build a keyword plan focused on high-intent, high-value eCommerce searches.
-                    </p>
+                    <h3>eCommerce Keyword Strategy</h3>
+                    <p>We build a targeted keyword strategy around commercial, transactional, product, category, and long-tail searches that can generate valuable customers.</p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">4</div>
-                    <h3>On-Page Optimisation</h3>
-                    <p>
-                        Optimize pages with targeted keywords, clean structure, and strong metadata.
-                    </p>
+                    <h3>Product &amp; Category Optimisation</h3>
+                    <p>We optimise product and category pages with relevant keywords, unique content, strong metadata, internal links, images, and structured data.</p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">5</div>
-                    <h3>Content Creation</h3>
-                    <p>
-                        Develop SEO-focused content that drives visibility, trust, and conversions.
+                    <h3>Content &amp; Authority Building</h3>
+                    <p>We create valuable SEO content and implement internal linking and quality link-building strategies to strengthen topical relevance and website authority.</p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">6</div>
-                    <h3>Growth &amp; Scaling</h3>
-                    <p>
-                        Scale traffic and sales through advanced SEO strategies and continuous optimization.
-                    </p>
+                    <h3>Performance Tracking &amp; Growth</h3>
+                    <p>We monitor rankings, organic traffic, conversions, product visibility, and revenue-related SEO metrics to continuously improve and scale your campaign.</p>
                 </article>
             </div>
         </div>
@@ -273,17 +248,10 @@
                 <div class="national-about-content">
                     <h2>What Is eCommerce SEO?</h2>
 
-                    <p>
-                        eCommerce SEO is the process of optimising an online store so product pages, category pages, and
-                        collections rank in search engines for high-intent buying keywords. Unlike standard SEO, eCommerce
-                        SEO must handle large numbers of pages, product variations, filters, and technical challenges that
-                        affect how search engines crawl and index your store.
-                    </p>
+                    <p>eCommerce SEO is the process of optimising an online store so product pages, category pages, collections, and supporting content can rank higher in search engines for relevant buying keywords.</p>
 
-                    <p>
-                        A successful eCommerce SEO strategy ensures your products are easy to find, fast to load, properly
-                        structured, and optimised for shoppers ready to purchase.
-                    </p>
+                    <p>Unlike standard SEO, eCommerce websites often contain hundreds or thousands of pages, product variations, filters, sorting parameters, duplicate URLs, and technical challenges that can affect crawling and indexing.</p>
+                    <p>A successful eCommerce SEO strategy ensures your products are easy for search engines to discover, understand, crawl, and index while providing shoppers with a fast, useful, and conversion-focused experience.</p>
                     <div class="national-about-highlight" aria-hidden="true">
                         <img src="{{ asset('assets/images/seo/ecommerce/ecommerce_seo.webp') }}"
                             alt="eCommerce SEO Services – Cloud Technologies Ltd"
@@ -293,33 +261,29 @@
                 </div>
 
                 <div class="national-about-highlight">
-                    <h3>Product & Category Page SEO Strategy</h3>
+                    <h3>Product &amp; Category Page SEO Strategy</h3>
 
-                    <p>
-                        We treat category pages as high-value landing pages and product pages as conversion assets.
-                    </p>
+                    <p>We treat category pages as valuable commercial landing pages and product pages as conversion-focused assets.</p>
 
                     <h4>Category Pages</h4>
 
                     <ul>
-                        <li>Optimised for broader buying keywords</li>
-                        <li>SEO content above and below product grids</li>
-                        <li>Internal links to key products</li>
-                        <li>Clean filter handling and canonical setup</li>
+                        <li>Optimised for broader commercial and transactional keywords</li>
+                        <li>Useful SEO content supporting product collections</li>
+                        <li>Internal links to priority products and related categories</li>
+                        <li>Clean navigation, filtering, canonicalisation, and URL structures</li>
                     </ul>
 
                     <h4>Product Pages</h4>
 
                     <ul>
-                        <li>Unique descriptions (not manufacturer copy)</li>
-                        <li>Schema markup for price, stock, and reviews</li>
-                        <li>Optimised images and alt text</li>
-                        <li>Cross-links to related products and categories</li>
+                        <li>Unique product descriptions instead of copied manufacturer content</li>
+                        <li>Product structured data for price, availability, ratings, and reviews</li>
+                        <li>Optimised product images, file names, and alt text</li>
+                        <li>Internal links to related products, categories, and supporting content</li>
                     </ul>
 
-                    <p class="national-about-note">
-                        This structure improves both rankings and conversions.
-                    </p>
+                    <p class="national-about-note">This structure helps improve both organic rankings and the customer journey towards purchase.</p>
                 </div>
 
             </div>
@@ -332,28 +296,25 @@
         <div class="container">
 
             <div class="section-header">
-                <h2>Technical eCommerce SEO That Improves Crawl & Indexing</h2>
+                <h2>Technical eCommerce SEO for Better Crawling &amp; Indexing</h2>
             </div>
 
             <div class="national-growth-card">
 
-                <p>
-                    We optimise the technical foundation of your store:
-                </p>
+                <p>We optimise the technical foundation of your online store to help search engines focus on pages that matter most.</p>
 
                 <ul>
-                    <li>Canonical tags for variants and filters</li>
-                    <li>Noindex rules for low-value pages</li>
-                    <li>XML sitemaps for products and categories</li>
-                    <li>Internal linking structure for authority flow</li>
-                    <li>Core Web Vitals optimisation for large image libraries</li>
-                    <li>Structured data for products, reviews, price, availability</li>
-                    <li>Crawl budget optimisation for large inventories</li>
+                    <li>Canonical tags for product variations, filters, and duplicate URLs</li>
+                    <li>Noindex controls for low-value, thin, or unnecessary pages</li>
+                    <li>XML sitemaps for important products, categories, and content</li>
+                    <li>Internal linking to improve navigation and authority distribution</li>
+                    <li>Core Web Vitals and page speed optimisation for better user experience</li>
+                    <li>Product, review, price, and availability structured data</li>
+                    <li>Crawl budget optimisation for large product inventories</li>
+                    <li>Mobile-first optimisation for shoppers using smartphones</li>
                 </ul>
 
-                <p>
-                    This ensures Google focuses on the pages that generate revenue.
-                </p>
+                <p>These technical improvements help Google discover, understand, and prioritise the pages that can generate organic traffic and revenue.</p>
             </div>
 
         </div>
@@ -365,20 +326,14 @@
         <div class="container">
 
             <div class="section-header">
-                <h2>Why eCommerce SEO Delivers Long-Term Sales Growth</h2>
+                <h2>Why eCommerce SEO Is Essential for Online Store Growth</h2>
             </div>
 
             <div class="national-growth-card">
-                <p>
-                    Paid ads stop when the budget stops. eCommerce SEO builds organic visibility that continues to bring
-                    high-intent shoppers to your store every day.
-                </p>
+                <p>Customers increasingly use search engines to discover products, compare options, research brands, and make purchasing decisions. If your products are not visible for relevant searches, competitors can capture that demand.</p>
 
-                <p>
-                    By ranking your categories and products for buyer keywords, your store attracts customers who are
-                    actively searching to purchase, leading to consistent traffic, higher conversions, and scalable revenue
-                    growth.
-                </p>
+                <p>Paid advertising can generate immediate traffic, but the traffic stops when advertising spend stops. eCommerce SEO builds organic search visibility that can continue attracting high-intent shoppers over time.</p>
+                <p>By ranking product and category pages for valuable buyer keywords, your online store can increase qualified traffic, improve product discovery, generate more conversions, and build scalable long-term revenue.</p>
             </div>
 
         </div>
@@ -388,35 +343,32 @@
     <section class="section section-related-links" id="related-services">
         <div class="container">
             <div class="section-header">
-                <h2>Explore Related Services</h2>
+                <h2>Explore Our Related SEO Services</h2>
                 <p>Support your eCommerce growth with connected SEO, development, and digital marketing services.</p>
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/shopify-website-development-service-uk"
-                    aria-label="Shopify development services UK">
+                <a class="related-link-card" href="/shopify-website-development-service-uk" aria-label="Shopify Development Services UK">
                     <span>Shopify Development Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/wordpress-website-development-service-uk"
-                    aria-label="WooCommerce development services UK">
+                <a class="related-link-card" href="/wordpress-website-development-service-uk" aria-label="WooCommerce Development Services UK">
                     <span>WooCommerce Development Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO Services UK">
                     <span>SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/technical-seo-service-uk" aria-label="Technical SEO services UK">
+                <a class="related-link-card" href="/technical-seo-service-uk" aria-label="Technical SEO Services UK">
                     <span>Technical SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/digital-marketing-service-uk"
-                    aria-label="Digital marketing services UK">
+                <a class="related-link-card" href="/digital-marketing-service-uk" aria-label="Digital Marketing Services UK">
                     <span>Digital Marketing Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
@@ -431,13 +383,11 @@
             <div class="cta-inner ecommerce-cta-inner">
                 <div class="cta-main">
                     <h2>Ready to Grow Your Online Store?</h2>
-                    <p>
-                        Let us help you increase visibility, drive more traffic and boost your eCommerce sales.
-                    </p>
+                    <p>Improve product visibility, attract more high-intent shoppers, increase organic traffic, and grow your online sales with expert eCommerce SEO Services UK built around your store and business goals.</p>
                 </div>
                 <div class="cta-actions ecommerce-cta-actions">
-                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="ecommerce-seo">Get eCommerce
-                        SEO Audit</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="ecommerce-seo">Get eCommerce SEO Audit</a>
+                    <a href="#contact-form" class="btn btn-outline-light">Speak to an eCommerce SEO Expert</a>
                 </div>
             </div>
         </div>
@@ -505,67 +455,50 @@
     <section class="section section-alt section-faq" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2>eCommerce SEO Service FAQs</h2>
+                <h2>Frequently Asked Questions About eCommerce SEO Services UK</h2>
             </div>
 
             <div class="faq-wrap">
                 <div class="faq-list">
                     <details class="faq-item">
-                        <summary>1. What is eCommerce SEO?</summary>
+                        <summary>What Are eCommerce SEO Services?</summary>
                         <div class="faq-content">
-                            <p>
-                                eCommerce SEO is the process of optimizing online stores to improve product visibility,
-                                increase organic traffic, and boost sales by ranking higher in search engine results.
-                            </p>
+                            <p>eCommerce SEO services improve the search visibility of online stores, product pages, category pages, and supporting content. They can include keyword research, technical SEO, product optimisation, content, internal linking, structured data, and link building.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>2.Why do online stores need eCommerce SEO?</summary>
+                        <summary>How Does eCommerce SEO Increase Online Sales?</summary>
                         <div class="faq-content">
-                            <p>
-                                Without SEO, your products remain buried in search results. eCommerce SEO helps drive
-                                high-intent shoppers, improves visibility, enhances user experience, and increases
-                                conversions.</p>
+                            <p>eCommerce SEO helps your products appear for relevant searches made by potential customers. By attracting high-intent organic traffic to optimised product and category pages, SEO can increase product discovery, conversions, and long-term sales opportunities.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>3. How is eCommerce SEO different from regular SEO?</summary>
+                        <summary>What Is the Difference Between Product SEO and Category SEO?</summary>
                         <div class="faq-content">
-                            <p>
-                                Regular SEO focuses on informational websites, while eCommerce SEO targets product pages,
-                                category pages, structured data, conversion optimization, and large inventories.
-                            </p>
+                            <p>Product SEO focuses on individual products and specific buying searches, while category SEO targets broader commercial keywords and groups related products. Both are important for creating a strong eCommerce website structure and search strategy.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>4. What does an eCommerce SEO agency do?</summary>
+                        <summary>How Long Does eCommerce SEO Take to Show Results?</summary>
                         <div class="faq-content">
-                            <p>
-                                An eCommerce SEO agency optimizes your product pages, improves site speed, enhances category
-                                structure, builds backlinks, implements schema, and boosts your store’s search rankings.
-                            </p>
+                            <p>The time required depends on competition, website authority, technical performance, product inventory, content quality, and target keywords. Consistent optimisation and performance monitoring can improve organic rankings and traffic over time.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>5. How long does eCommerce SEO take to show results?</summary>
+                        <summary>What Is Included in an eCommerce SEO Campaign?</summary>
                         <div class="faq-content">
-                            <p>Most stores begin seeing improvements within 2–3 months, with significant growth typically
-                                within 4–6 months, depending on competition, platform, and website health.
-                            </p>
+                            <p>An eCommerce SEO campaign can include technical SEO, keyword research, product page optimisation, category SEO, content strategy, internal linking, schema markup, image optimisation, link building, competitor analysis, analytics, and ongoing reporting.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>6. Do you offer SEO services for Shopify stores? </summary>
+                        <summary>Why Choose an eCommerce SEO Agency in the UK?</summary>
                         <div class="faq-content">
-                            <p>
-                                Yes. Our Shopify SEO Services include product optimization, speed improvements, app cleanup,
-                                keyword targeting, and fixing Shopify-specific SEO issues.
-                            </p>
+                            <p>A UK eCommerce SEO agency understands the competitive search environment and can create strategies around UK shoppers, commercial search intent, competitors, products, categories, and business goals. Professional SEO support can help build sustainable organic visibility and online store growth.</p>
                         </div>
                     </details>
                 </div>

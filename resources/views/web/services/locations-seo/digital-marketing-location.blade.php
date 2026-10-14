@@ -54,7 +54,9 @@
             <div class="hero-actions">
                 <a href="/contact-us" class="btn btn-lg btn-primary">Get Free Consultation</a>
                 <a href="#services" class="btn btn-lg btn-ghost hero-ghost-light">Explore Services</a>
-            </div>
+            
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
 
             {{-- KEEP STATIC (design consistency) --}}
             <div class="hero-stats">

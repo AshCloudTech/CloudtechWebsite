@@ -1,119 +1,133 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Case Studies | Digital Marketing, SEO & Web Development UK')
-@section('meta_title', 'Case Studies | Digital Marketing, SEO & Web Development UK')
-@section('meta_description', 'Explore our case studies showcasing SEO, web development and digital marketing results.
-    See how we increased traffic, leads and sales UK.')
-@section('meta_keywords', 'case studies, SEO case studies, web development case studies, digital marketing case studies, UK, traffic growth, lead generation, sales growth')
-    @push('styles')
-        <link rel="stylesheet" href="{{ asset('assets/case-studies/css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    @endpush
-    @push('scripts')
-        <script src="{{ asset('assets/case-studies/js/script.js') }}" defer></script>
-    @endpush
+@section('title', 'SEO & Digital Marketing Case Studies UK')
+@section('meta_title', 'SEO & Digital Marketing Case Studies UK')
+@section('meta_description', 'Explore our SEO, digital marketing and web development case studies, including strategies used to improve visibility, traffic, leads and growth.')
+
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('assets/case-studies/css/style.css') }}">
+@endpush
+
+@push('scripts')
+    <script src="{{ asset('assets/case-studies/js/script.js') }}" defer></script>    
+@endpush
 
 @section('content')
 
-    <section class="hero cs-hero" id="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <h1>Success Stories That Inspire</h1>
-            <p class="subtitle">Discover how we've helped businesses across industries achieve remarkable digital
-                transformation and growth</p>
-            <div class="cs-stats">
-                <span>150+ Projects Delivered</span>
-                <span>95% Client Satisfaction</span>
-                <span>300% Average Growth</span>
-            </div>
+<section class="hero" id="hero">
+  <div class="wrap">
+    <div class="crumbs"><a href="{{ url('/') }}">Home</a><span>›</span>Case Studies</div>
+
+    <div class="hero-grid">
+      <div>
+        <h1 class="headline reveal">Real Clients.<span class="gold">Real Rankings.</span></h1>
+        <p class="dek reveal">Verifiable results across cities and industries — matched to the businesses we serve.</p>
+      </div>
+
+      <aside class="stat-card reveal">
+        <div class="grid4">
+          <div><div class="num" data-count="200" data-suffix="+">0</div><div class="lbl">Clients Served</div></div>
+          <div><div class="num" data-count="50" data-suffix="+">0</div><div class="lbl">UK Cities Ranked</div></div>
+          <div><div class="num" data-count="100" data-suffix="+">0</div><div class="lbl">Websites Delivered</div></div>
+          <div><div class="num" data-count="4.8" data-suffix="★">0</div><div class="lbl">Google Rating</div></div>
         </div>
-    </section>
-
-    <section class="section" id="list">
-        <div class="container">
-            <h2 class="center">Browse Our Case Studies</h2>
-            <p class="center muted">Filter by industry to see relevant success stories</p>
-
-            <div class="filter-bar">
-                <button class="filter active" data-filter="all">All</button>
-                @foreach ($industries as $industry)
-                    <button class="filter" data-filter="{{ $industry }}">{{ $industry }}</button>
-                @endforeach
-            </div>
-
-
-            <div class="grid grid-2 case-grid case-grid-ui">
-                @foreach ($caseStudies as $case)
-                    @php
-                        $tagClass = match ($case->industry_tag_color) {
-                            'purple' => 'tag-pill--purple',
-                            'green' => 'tag-pill--green',
-                            'orange' => 'tag-pill--orange',
-                            default => 'tag-pill--orange', // screenshot uses orange
-                        };
-
-                        // Image (prefer card_image, fallback hero_image)
-                        $imgPath = $case->card_image ?: $case->hero_image;
-                        $imgUrl = $imgPath
-                            ? (\Illuminate\Support\Str::startsWith($imgPath, ['http://', 'https://'])
-                                ? $imgPath
-                                : asset($imgPath))
-                            : null;
-
-                        // Right small text in screenshot (client/project)
-                        $metaRight = $case->client_name ?: ($case->subtitle ?: '');
-                    @endphp
-
-                    <article class="caseCardUI fx-reveal">
-                        <a class="caseCardUI__img" href="{{ route('case.studies.detail', $case->slug) }}"
-                            aria-label="View {{ $case->title }}">
-                            @if ($imgUrl)
-                                <img src="{{ $imgUrl }}" alt="{{ $case->title }} case study" loading="lazy"
-                                    decoding="async">
-                            @else
-                                <img src="{{ asset('assets/case-studies/img/placeholder.png') }}"
-                                    alt="{{ $case->title }} case study" loading="lazy" decoding="async"
-                                    style="filter: grayscale(100%); opacity: 0.5;object-fit: contain;">
-                            @endif
-                        </a>
-
-                        <div class="caseCardUI__body">
-                            <div class="caseCardUI__meta">
-                                @if ($case->industry)
-                                    <span class="tag-pill {{ $tagClass }}">{{ $case->industry }}</span>
-                                @endif
-
-                                @if (!empty($metaRight))
-                                    <span class="caseCardUI__metaRight">{{ $metaRight }}</span>
-                                @endif
-                            </div>
-
-                            <h3 class="caseCardUI__title">{{ $case->title }}</h3>
-
-                            @if ($case->excerpt)
-                                <p class="caseCardUI__desc">{{ $case->excerpt }}</p>
-                            @endif
-
-                            <a href="{{ route('case.studies.detail', $case->slug) }}" class="caseCardUI__link">
-                                View Case Study <span aria-hidden="true">→</span>
-                            </a>
-                        </div>
-                    </article>
-                @endforeach
-            </div>
+        <div class="actions">
+          <a class="btn btn-accent" href="{{ url('/#contact') }}">Let's Discuss</a>
+        <div class="contact-section">
+          <a class="btn btn-outline" href="tel:07835761525">📞 07835761525</a>
+      </div>
         </div>
-    </section>
+        <div class="fine">🔒 Free consultation · No obligation · Reply within 4 hours</div>
+      </aside>
+    </div>
 
-    <section class="cta" id="cta">
-        <div class="container cta-inner">
-            <h2>Ready to Create Your Success Story?</h2>
-            <p>Let's discuss how we can help transform your business with our proven digital solutions</p>
-            <div class="cta-actions">
-                <a href="{{ url('services/web-development/#contact-form') }}" class="btn btn-primary">Start Your
-                    Project</a>
-                <a href="{{ url('/#contact') }}" class="btn btn-light">Schedule Consultation</a>
+    @if(!empty($industries) && count($industries) > 0)
+      <div class="industries-heading">{{ count($caseStudies) }} CASE STUDIES ACROSS THESE INDUSTRIES</div>
+      <div class="tag-grid">
+        @foreach($industries as $ind)
+          <span class="tag">{{ $ind }}</span>
+        @endforeach
+      </div>
+    @endif
+    <div class="rating-line"><span class="stars">★★★★★</span> 4.8 average across 200+ clients</div>
+  </div>
+</section>
+
+<section class="cards-section">
+  <div class="wrap">
+    <div class="cards-grid">
+      @foreach($caseStudies as $case)
+        @php
+            $cardImg = $case->card_image ?: $case->hero_image;
+            $cardStats = $case->stats->isNotEmpty() ? $case->stats : $case->kpis;
+        @endphp
+        <article class="case-card">
+          <div class="photo">
+            @if(!empty($cardImg))
+              <img src="{{ asset($cardImg) }}" alt="{{ $case->title }}" loading="lazy">
+            @endif
+            @if(!empty($case->industry))
+              <span class="badge">{{ $case->industry }}</span>
+            @endif
+          </div>
+          <div class="body">
+            
+            {{-- Meta Header (One line, colored) --}}
+            <div class="meta" title="{{ $case->location }} • {{ $case->industry }}">
+              <span class="icon-pin">📍</span> 
+              <span class="loc-text">{{ strtoupper($case->location ?: 'UK') }}</span> 
+              @if(!empty($case->industry))
+                <span class="separator">•</span> 
+                <span class="ind-text">{{ strtoupper($case->industry) }}</span>
+              @endif
             </div>
+
+            <h3>{{ $case->title }}</h3>
+            <p class="desc">{{ $case->excerpt ?: $case->subtitle }}</p>
+            <div class="stats3">
+              @foreach($cardStats->take(3) as $stat)
+                @php
+                    $val = (string)($stat->formatted ?? $stat->value);
+                    $numericClean = preg_replace('/[^0-9]/', '', (string)$stat->value);
+                    $isPureNumber = $numericClean !== '' && preg_match('/^[0-9,]+$/', trim((string)$stat->value));
+                @endphp
+                <div>
+                  @if($isPureNumber)
+                    <div class="num" data-count="{{ str_replace(',', '', (string)$stat->value) }}">0</div>
+                  @else
+                    <div class="num">{{ $val }}</div>
+                  @endif
+                  <div class="lbl">{{ $stat->label }}</div>
+                </div>
+              @endforeach
+            </div>
+            
+            {{-- Action Link --}}
+            <a class="view" href="{{ route('case.studies.detail', $case->slug) }}">
+                View case study <span>→</span>
+            </a>
+            
+          </div>
+        </article>
+      @endforeach
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="wrap">
+    <div class="cta-banner">
+      <div class="left">
+        <div class="icon-circle">🔄</div>
+        <h3>Ready to Achieve <em>Results Like These?</em></h3>
+        <div class="points">
+          <span>🌐 Proven SEO Strategies</span>
+          <span>🏢 Higher Rankings</span>
         </div>
-    </section>
+      </div>
+      <a class="btn btn-dark" href="{{ url('/contact-us') }}">✆ Book a Free Consultation Today!</a>
+    </div>
+  </div>
+</section>
+
 @endsection

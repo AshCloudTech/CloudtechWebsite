@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Care Home SEO Services UK | Care Home Marketing Agency Services')
-@section('meta_title', 'Care Home SEO Services UK | Care Home Marketing Agency Services.')
-@section('meta_description', 'SEO for care homes UK providing digital marketing, SEO and website development to increase
-    enquiries and occupancy rates UK for business growth today.')
+@section('title', 'Care Home SEO Services UK | Care Home Marketing')
+@section('meta_title', 'Care Home SEO Services UK | Care Home Marketing')
+@section('meta_description', 'Grow your care business online with SEO, digital marketing and website services designed to improve visibility, enquiries and care home occupancy.')
 @section('meta_keywords', 'care home SEO services UK, care home marketing agency UK, SEO for care homes UK, digital
     marketing for care homes UK, care home website development UK, local SEO for care homes UK, care home online marketing
     UK, care home search engine optimisation UK, care home digital strategy UK')
@@ -36,6 +35,8 @@
                 <div class="hero-actions">
                     <a href="#contact" class="btn btn-lg btn-primary">Start Your Project</a>
                     <a href="#pricing" class="btn btn-lg btn-ghost hero-ghost-light">Explore Features</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
         </div>

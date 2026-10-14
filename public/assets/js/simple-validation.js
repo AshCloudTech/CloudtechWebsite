@@ -5,7 +5,7 @@
     forms.forEach((form) => {
         const showError = (field, message) => {
             let container = field.closest(
-                ".cta-field, .field, .form-field, .ct-field, .cs-field , .auditField",
+                ".cta-field, .field, .form-field, .ct-field, .cs-field, .auditField, .ct-input-wrap",
             );
             if (!container) return;
 
@@ -20,12 +20,19 @@
             }
 
             error.textContent = message;
+            container.classList.add("has-error");
             field.classList.add("is-invalid");
+            field.setAttribute("aria-invalid", "true");
+
+            if (!error.id) {
+                error.id = `${field.id || field.name || "form-field"}-error`;
+            }
+            field.setAttribute("aria-describedby", error.id);
         };
 
         const clearError = (field) => {
             let container = field.closest(
-                ".cta-field, .field, .form-field, .ct-field, .auditField",
+                ".cta-field, .field, .form-field, .ct-field, .auditField, .ct-input-wrap",
             );
             if (!container) return;
 
@@ -33,8 +40,20 @@
                 container.querySelector(".auditError") ||
                 container.querySelector(".field-error");
 
-            if (error) error.textContent = "";
+            if (error) {
+                if (container.classList.contains("ct-input-wrap") && error.classList.contains("field-error")) {
+                    error.remove();
+                } else {
+                    error.textContent = "";
+                }
+            }
+
+            container.classList.remove("has-error");
             field.classList.remove("is-invalid");
+            field.removeAttribute("aria-invalid");
+            if (error && field.getAttribute("aria-describedby") === error.id) {
+                field.removeAttribute("aria-describedby");
+            }
         };
         //  INPUT RESTRICTION (PHONE)
         const phoneField = form.querySelector('input[name="phone"]');
@@ -93,6 +112,11 @@
             clearError(field);
             const value = field.value.trim();
 
+            if (field.required && value === "") {
+                showError(field, "This field is required.");
+                return false;
+            }
+
             // NAME
             if (field.name === "name" || field.name === "full_name") {
                 if (!isValidName(value)) {
@@ -108,6 +132,19 @@
             if (field.name === "email") {
                 if (!isValidEmail(value)) {
                     showError(field, "Enter a valid email address.");
+                    return false;
+                }
+            }
+
+            // OPTIONAL WEBSITE URL
+            if (field.name === "website" && value !== "") {
+                try {
+                    const parsedUrl = new URL(value);
+                    if (!["http:", "https:"].includes(parsedUrl.protocol) || !parsedUrl.hostname.includes(".")) {
+                        throw new Error("Invalid URL");
+                    }
+                } catch (_) {
+                    showError(field, "Enter a valid website URL (include https://).");
                     return false;
                 }
             }
@@ -133,19 +170,23 @@
         };
 
         // LIVE VALIDATION (ONLY EMAIL + PHONE)
-        form.querySelectorAll("input, textarea").forEach((field) => {
+        form.querySelectorAll("input, textarea, select").forEach((field) => {
             field.addEventListener("input", () => {
-                clearError(field);
-
-                if (
+                const shouldRevalidate =
+                    field.classList.contains("is-invalid") ||
                     field.name === "email" ||
                     field.name === "phone" ||
-                    field.name === "name"
-                ) {
+                    field.name === "name" ||
+                    field.name === "website";
+
+                clearError(field);
+
+                if (shouldRevalidate) {
                     validateField(field);
                 }
             });
 
+            field.addEventListener("change", () => validateField(field));
             field.addEventListener("blur", () => validateField(field));
         });
 

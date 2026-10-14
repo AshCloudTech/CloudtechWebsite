@@ -1,10 +1,9 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Healthcare SEO Service UK | Medical Marketing Agency')
-@section('meta_title', 'Healthcare SEO Service UK | Medical Marketing Agency.')
+@section('title', 'Healthcare SEO Services UK | Medical Digital Marketing')
+@section('meta_title', 'Healthcare SEO Services UK | Medical Digital Marketing')
 @section('meta_description',
-    'Healthcare SEO UK offering medical SEO, digital marketing and website development to
-    improve rankings, attract patients and grow your practice UK online success!.')
+    'Improve online visibility for healthcare businesses with SEO, digital marketing and website development services designed to attract relevant patients.')
 @section('meta_keywords',
     'healthcare SEO UK, medical SEO UK, healthcare digital marketing UK, medical marketing agency
     UK, healthcare website development UK, patient acquisition UK, local SEO for healthcare UK, healthcare online marketing
@@ -38,6 +37,8 @@
                 <div class="hero-actions">
                     <a href="#contact" class="btn btn-lg btn-primary">Start Your Project</a>
                     <a href="#contact" class="btn btn-lg btn-ghost hero-ghost-light">Book Consultation</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
         </div>

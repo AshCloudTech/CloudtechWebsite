@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'WooCommerce Agency UK | Web Development Services')
-@section('meta_title', 'WooCommerce Agency UK | Web Development Services')
-@section('meta_description', 'WooCommerce agency UK offering web development services to build responsive, secure and
-    SEO friendly ecommerce websites for your business growth UK.')
+@section('title', 'WooCommerce Development Agency UK | Ecommerce Experts')
+@section('meta_title', 'WooCommerce Development Agency UK | Ecommerce Experts')
+@section('meta_description', 'Build a high-performing WooCommerce website with responsive development, ecommerce functionality, SEO-friendly architecture and a better customer experience.')
 @section('meta_keywords', 'WooCommerce agency UK, WooCommerce web development UK, ecommerce website development UK,
     WooCommerce store setup UK, custom WooCommerce development UK, responsive WooCommerce design UK, secure WooCommerce
     development UK, SEO-friendly WooCommerce UK, online store development UK')
@@ -31,7 +30,9 @@
             <div class="hero-actions">
                 <a href="#contact" class="btn btn-primary">Launch Your Store</a>
                 <a href="#solutions" class="btn btn-ghost">Explore Features</a>
-            </div>
+            
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
         </div>
     </section>
 

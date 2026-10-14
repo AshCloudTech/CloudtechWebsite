@@ -1,27 +1,30 @@
-@csrf
-
 @php
     $mode = $mode ?? 'edit';
 
-    $stats    = old('stats', $caseStudy->stats?->toArray() ?? []);
-    $points   = old('points', $caseStudy->points?->toArray() ?? []);
-    $features = old('features', $caseStudy->features?->toArray() ?? []);
-    $impacts  = old('impacts', $caseStudy->impacts?->toArray() ?? []);
-    $tech     = old('tech', $caseStudy->techStacks?->toArray() ?? []);
+    $stats       = old('stats', $caseStudy->stats?->toArray() ?? []);
+    $kpis        = old('kpis', $caseStudy->kpis?->toArray() ?? []);
+    $trends      = old('trends', $caseStudy->chartTrends?->toArray() ?? []);
+    $breakdowns  = old('breakdowns', $caseStudy->chartBreakdowns?->toArray() ?? []);
+    $tasks       = old('tasks', $caseStudy->tasks?->toArray() ?? []);
+    $points      = old('points', $caseStudy->points?->toArray() ?? []);
+    $features    = old('features', $caseStudy->features?->toArray() ?? []);
+    $impacts     = old('impacts', $caseStudy->impacts?->toArray() ?? []);
+    $tech        = old('tech', $caseStudy->techStacks?->toArray() ?? []);
+    $testimonials = old('testimonials', $caseStudy->testimonials?->toArray() ?? []);
 
     $blockGap = '14px';
     $rowGap   = '12px';
 
-    // helper: safe count
-    $statsCount = max(1, count($stats));
-    $pointsCount = max(1, count($points));
-    $featuresCount = max(1, count($features));
-    $impactsCount = max(1, count($impacts));
-    $techCount = max(1, count($tech));
-
-    $testimonials = old('testimonials', $caseStudy->testimonials?->toArray() ?? []);
+    $statsCount       = max(1, count($stats));
+    $kpisCount        = max(1, count($kpis));
+    $trendsCount      = max(1, count($trends));
+    $breakdownsCount  = max(1, count($breakdowns));
+    $tasksCount       = max(1, count($tasks));
+    $pointsCount      = max(1, count($points));
+    $featuresCount    = max(1, count($features));
+    $impactsCount     = max(1, count($impacts));
+    $techCount        = max(1, count($tech));
     $testimonialsCount = max(1, count($testimonials));
-
 @endphp
 
 <style>
@@ -51,7 +54,6 @@
   .csForm .tag.req{ border-color:rgba(220,38,38,.25); color:#b91c1c; background:rgba(220,38,38,.06); }
   .csForm .tag.opt{ border-color:rgba(2,132,199,.22); color:#075985; background:rgba(2,132,199,.06); }
 
-  /* Layout: left content + right sidebar, then full-width sections */
   .csForm .twoColWrap{
     display:grid;
     grid-template-columns: 1fr 420px;
@@ -69,7 +71,6 @@
     .csForm .cols-4{ grid-template-columns: 1fr 1fr !important; }
   }
 
-  /* Section header within Dynamic Blocks */
   .csForm .dynHead{
     display:flex;
     align-items:center;
@@ -109,7 +110,6 @@
     margin: 14px 0;
   }
 
-  /* Row card */
   .csForm .rowBox{
     border:1px solid rgba(0,0,0,.06);
     border-radius:12px;
@@ -118,26 +118,6 @@
     margin-top:10px;
   }
 
-  /* Icon picker */
-  .csForm .iconPick{
-    display:flex;
-    align-items:center;
-    gap:10px;
-  }
-  .csForm .iconBadge{
-    width:38px;
-    height:38px;
-    border-radius:12px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border:1px solid rgba(0,0,0,.08);
-    background: rgba(0,0,0,.02);
-    flex:0 0 auto;
-  }
-  .csForm .iconBadge i{ width:18px; height:18px; opacity:.9; }
-
-  /* tiny remove button */
   .csForm .miniBtn{
     border:1px solid rgba(0,0,0,.10);
     background: rgba(0,0,0,.02);
@@ -149,103 +129,26 @@
     line-height:1;
   }
   .csForm .miniBtn.danger{
-    border-color: rgba(220,38,38,.22);
+    border-color: rgba(220,38,38,.20);
     background: rgba(220,38,38,.06);
-    color:#b91c1c;
+    color: #b91c1c;
   }
 </style>
 
-{{-- Lucide CDN + live preview --}}
-<script src="https://unpkg.com/lucide@latest"></script>
-<script>
-  function csRefreshLucide(){
-    if (!window.lucide) return;
-    lucide.createIcons();
-  }
-
-  function csWireRow(root){
-    // remove row
-    root.querySelectorAll('[data-remove-row]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const row = btn.closest('[data-row]');
-        if (row) row.remove();
-        csRefreshLucide();
-      });
-    });
-  }
-
-  function csAddRow(section){
-    const container = document.querySelector(`[data-section="${section}"]`);
-    const tpl = document.querySelector(`#tpl-${section}`);
-    if (!container || !tpl) return;
-
-    const next = parseInt(container.getAttribute('data-next-index') || '0', 10);
-    const html = tpl.innerHTML.replaceAll('__INDEX__', String(next));
-    const wrap = document.createElement('div');
-    wrap.innerHTML = html.trim();
-
-    const node = wrap.firstElementChild;
-    container.appendChild(node);
-
-    container.setAttribute('data-next-index', String(next + 1));
-
-    csWireRow(node);
-    csRefreshLucide();
-  }
-
-  document.addEventListener('input', function(e){
-    if (!e.target.matches('[data-lucide-input]')) return;
-    const wrap = e.target.closest('.iconPick');
-    if (!wrap) return;
-
-    const icon = (e.target.value || '').trim();
-    const holder = wrap.querySelector('[data-lucide-preview]');
-    if (holder) holder.setAttribute('data-lucide', icon || 'circle');
-
-    csRefreshLucide();
-  });
-
-  document.addEventListener('DOMContentLoaded', function(){
-    // add-row buttons
-    document.querySelectorAll('[data-add-row]').forEach(btn => {
-      btn.addEventListener('click', () => csAddRow(btn.getAttribute('data-add-row')));
-    });
-
-    // wire existing rows
-    document.querySelectorAll('[data-row]').forEach(csWireRow);
-
-    csRefreshLucide();
-  });
-</script>
-
-<datalist id="lucideIconList">
-  <option value="check"></option><option value="x"></option><option value="sparkles"></option>
-  <option value="star"></option><option value="zap"></option><option value="shield-check"></option>
-  <option value="users"></option><option value="user"></option><option value="badge-check"></option>
-  <option value="award"></option><option value="rocket"></option><option value="target"></option>
-  <option value="trending-up"></option><option value="line-chart"></option><option value="bar-chart-3"></option>
-  <option value="pie-chart"></option><option value="clock"></option><option value="calendar"></option>
-  <option value="globe"></option><option value="search"></option><option value="settings"></option>
-  <option value="layout-dashboard"></option><option value="layers"></option><option value="cpu"></option>
-  <option value="database"></option><option value="server"></option><option value="cloud"></option>
-  <option value="lock"></option><option value="key"></option><option value="mail"></option>
-  <option value="phone"></option><option value="map-pin"></option><option value="file-text"></option>
-  <option value="clipboard-check"></option><option value="wallet"></option>
-</datalist>
-
 <div class="csForm">
 
+  {{-- TOP 2 COLUMNS --}}
   <div class="twoColWrap">
 
-    {{-- LEFT --}}
+    {{-- LEFT COLUMN --}}
     <div>
 
-      {{-- CORE --}}
+      {{-- CORE DETAILS --}}
       <div class="card" style="margin:0;">
         <div class="cardHeader">
           <div>
-            <h3>Core</h3>
-            <p>Primary details used on the public listing and detail hero.</p>
+            <h3>Core Details</h3>
+            <p>Primary information displayed on cards and hero eyebrow.</p>
           </div>
           <div style="display:flex; gap:8px; flex-wrap:wrap;">
             <span class="tag req">Required</span>
@@ -257,24 +160,102 @@
           <div class="grid cols-2" style="gap:var(--gap);">
             <div class="field" style="grid-column:1 / -1;">
               <label>Title <span style="color:#dc2626">*</span></label>
-              <input name="title" value="{{ old('title', $caseStudy->title) }}" required placeholder="Case study title">
-              <div class="hint"><b>Used in:</b> listing card + hero heading.</div>
+              <input name="title" value="{{ old('title', $caseStudy->title) }}" required placeholder="e.g. London Legal Practice">
+              <div class="hint">Main client / project title.</div>
+            </div>
+
+            <div class="field">
+              <label>Slug <span class="tag opt">Auto-generated</span></label>
+              <input name="slug" value="{{ old('slug', $caseStudy->slug) }}" placeholder="e.g. london-legal-practice">
+            </div>
+
+            <div class="field">
+              <label>Location</label>
+              <input name="location" value="{{ old('location', $caseStudy->location) }}" placeholder="e.g. London / Ilford / UK-Wide">
+            </div>
+
+            <div class="field">
+              <label>Industry</label>
+              <input name="industry" value="{{ old('industry', $caseStudy->industry) }}" placeholder="e.g. Legal Services / House Removals">
+            </div>
+
+            <div class="field">
+              <label>Duration</label>
+              <input name="duration" value="{{ old('duration', $caseStudy->duration) }}" placeholder="e.g. 3 Months / 15 Days">
             </div>
 
             <div class="field" style="grid-column:1 / -1;">
-              <label>Slug <span class="tag opt" style="margin-left:6px;">Optional</span></label>
-              <input name="slug" value="{{ old('slug', $caseStudy->slug) }}" placeholder="learning-compass">
-              <div class="hint">Leave blank to auto-generate from title.</div>
+              <label>Website URL (optional)</label>
+              <input name="website" value="{{ old('website', $caseStudy->website) }}" placeholder="https://example.com">
             </div>
 
             <div class="field" style="grid-column:1 / -1;">
-              <label>Subtitle <span class="tag opt" style="margin-left:6px;">Optional</span></label>
-              <input name="subtitle" value="{{ old('subtitle', $caseStudy->subtitle) }}" placeholder="1–2 lines supporting hero text">
+              <label>Description / Excerpt</label>
+              <textarea name="excerpt" rows="3" placeholder="Short overview used in listing cards">{{ old('excerpt', $caseStudy->excerpt) }}</textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sectionSpace"></div>
+
+      {{-- HERO SECTION --}}
+      <div class="card" style="margin:0;">
+        <div class="cardHeader">
+          <div>
+            <h3>Detail Page Hero</h3>
+            <p>Main showcase copy on the single case study detail page.</p>
+          </div>
+          <div><span class="tag opt">Optional</span></div>
+        </div>
+
+        <div class="cardBody">
+          <div class="grid cols-2" style="gap:var(--gap);">
+            <div class="field">
+              <label>Hero Title (Main)</label>
+              <input name="hero_title_main" value="{{ old('hero_title_main', $caseStudy->hero_title_main) }}" placeholder="e.g. We Help Legal Firms Get Found.">
+            </div>
+
+            <div class="field">
+              <label>Hero Title Highlight (Italic/Em)</label>
+              <input name="hero_title_em" value="{{ old('hero_title_em', $caseStudy->hero_title_em) }}" placeholder="e.g. We Drive Results.">
             </div>
 
             <div class="field" style="grid-column:1 / -1;">
-              <label>Excerpt <span class="tag opt" style="margin-left:6px;">Optional</span></label>
-              <input name="excerpt" value="{{ old('excerpt', $caseStudy->excerpt) }}" placeholder="Used in listing card (short summary)">
+              <label>Hero Lead Story</label>
+              <textarea name="hero_lead" rows="3" placeholder="1-3 sentences introducing the partnership and achievement...">{{ old('hero_lead', $caseStudy->hero_lead) }}</textarea>
+            </div>
+
+            <div class="field" style="grid-column:1 / -1;">
+              <label>Hero Key Quote / Highlight</label>
+              <input name="hero_quote" value="{{ old('hero_quote', $caseStudy->hero_quote) }}" placeholder="e.g. &quot;Stronger visibility. More enquiries. Business growth.&quot;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sectionSpace"></div>
+
+      {{-- CALL TO ACTION --}}
+      <div class="card" style="margin:0;">
+        <div class="cardHeader">
+          <div>
+            <h3>Detail Bottom Call-To-Action</h3>
+            <p>Banner at the bottom of the case study detail page.</p>
+          </div>
+          <div><span class="tag opt">Optional</span></div>
+        </div>
+
+        <div class="cardBody">
+          <div class="grid cols-2" style="gap:var(--gap);">
+            <div class="field" style="grid-column:1 / -1;">
+              <label>CTA Title (Supports &lt;em&gt; tag)</label>
+              <input name="cta_title" value="{{ old('cta_title', $caseStudy->cta_title) }}" placeholder="Want Results &lt;em&gt;Like London Legal Practice?&lt;/em&gt;">
+            </div>
+
+            <div class="field" style="grid-column:1 / -1;">
+              <label>CTA Button Text</label>
+              <input name="cta_btn_text" value="{{ old('cta_btn_text', $caseStudy->cta_btn_text) }}" placeholder="Book a Free Consultation Today">
             </div>
           </div>
         </div>
@@ -286,8 +267,8 @@
       <div class="card" style="margin:0;">
         <div class="cardHeader">
           <div>
-            <h3>SEO</h3>
-            <p>Metadata for search engines.</p>
+            <h3>SEO Metadata</h3>
+            <p>Meta title and description for search engines.</p>
           </div>
           <div><span class="tag opt">Optional</span></div>
         </div>
@@ -296,131 +277,50 @@
           <div class="grid cols-2" style="gap:var(--gap);">
             <div class="field" style="grid-column:1 / -1;">
               <label>Meta Title</label>
-              <input name="meta_title" value="{{ old('meta_title', $caseStudy->meta_title) }}" placeholder="Custom meta title (optional)">
+              <input name="meta_title" value="{{ old('meta_title', $caseStudy->meta_title) }}" placeholder="London Legal Practice - Case Study">
             </div>
 
             <div class="field" style="grid-column:1 / -1;">
               <label>Meta Description</label>
-              <textarea name="meta_description" rows="3" placeholder="Meta description (optional)">{{ old('meta_description', $caseStudy->meta_description) }}</textarea>
-              <div class="hint">If empty, frontend can fallback to excerpt or first paragraph.</div>
+              <textarea name="meta_description" rows="3" placeholder="Meta description for search engines">{{ old('meta_description', $caseStudy->meta_description) }}</textarea>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="sectionSpace"></div>
-
-      {{-- CHALLENGE / SOLUTION --}}
-      <div class="card" style="margin:0;">
-        <div class="cardHeader">
-          <div>
-            <h3>Challenge &amp; Solution</h3>
-            <p>Two panels shown on the public detail page.</p>
-          </div>
-          <div><span class="tag opt">Optional</span></div>
-        </div>
-
-        <div class="cardBody">
-          <div class="hint" style="margin-top:0; margin-bottom:10px;">
-            <b>Frontend rule:</b> If a panel has no title and no body and no points, hide the entire panel.
-          </div>
-
-          <div class="grid cols-2" style="gap:var(--gap);">
-            <div class="card" style="margin:0;">
-              <div class="cardHeader">
-                <div>
-                  <h3 style="font-size:14px;">Challenge</h3>
-                  <p>Left panel text.</p>
-                </div>
-              </div>
-              <div class="cardBody">
-                <div class="field">
-                  <label>Title</label>
-                  <input name="challenge_title" value="{{ old('challenge_title', $caseStudy->challenge_title) }}" placeholder="The Challenge">
-                </div>
-
-                <div class="field" style="margin-top:var(--gap);">
-                  <label>Body</label>
-                  <textarea name="challenge_body" rows="5" placeholder="Describe the problem to solve...">{{ old('challenge_body', $caseStudy->challenge_body) }}</textarea>
-                </div>
-              </div>
-            </div>
-
-            <div class="card" style="margin:0;">
-              <div class="cardHeader">
-                <div>
-                  <h3 style="font-size:14px;">Solution</h3>
-                  <p>Right panel text.</p>
-                </div>
-              </div>
-              <div class="cardBody">
-                <div class="field">
-                  <label>Title</label>
-                  <input name="solution_title" value="{{ old('solution_title', $caseStudy->solution_title) }}" placeholder="Our Solution">
-                </div>
-
-                <div class="field" style="margin-top:var(--gap);">
-                  <label>Body</label>
-                  <textarea name="solution_body" rows="5" placeholder="Describe what we delivered...">{{ old('solution_body', $caseStudy->solution_body) }}</textarea>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
 
     </div>
 
-    {{-- RIGHT --}}
+    {{-- RIGHT COLUMN --}}
     <div class="rightSticky">
 
       {{-- Publishing --}}
       <div class="card" style="margin:0;">
         <div class="cardHeader">
           <div>
-            <h3>Publishing</h3>
-            <p>Controls listing display and visibility.</p>
+            <h3>Publishing &amp; Order</h3>
+            <p>Controls visibility and display priority.</p>
           </div>
-          <div><span class="tag opt">Optional</span></div>
         </div>
 
         <div class="cardBody">
           <div class="grid cols-2" style="gap:var(--gap);">
-
-            <div class="field" style="grid-column:1 / -1;">
-              <label>Industry</label>
-              <input name="industry" value="{{ old('industry', $caseStudy->industry) }}" placeholder="EdTech">
-            </div>
-
-            <div class="field" style="grid-column:1 / -1;">
-              <label>Industry Tag Color</label>
-              <input name="industry_tag_color" value="{{ old('industry_tag_color', $caseStudy->industry_tag_color) }}" placeholder="blue / purple / emerald ...">
-            </div>
-
-            <div class="field" style="grid-column:1 / -1;">
-              <label>Client Name</label>
-              <input name="client_name" value="{{ old('client_name', $caseStudy->client_name) }}" placeholder="GL Assessment">
-            </div>
-
-            <div class="field">
-              <label>Year</label>
-              <input name="year" value="{{ old('year', $caseStudy->year) }}" placeholder="2024">
-            </div>
-
             <div class="field">
               <label>Sort Order</label>
               <input type="number" name="sort_order" value="{{ old('sort_order', $caseStudy->sort_order ?? 0) }}">
             </div>
 
+            <div class="field">
+              <label>Year</label>
+              <input name="year" value="{{ old('year', $caseStudy->year) }}" placeholder="2026">
+            </div>
+
             <div class="field" style="grid-column:1 / -1;">
               <label style="display:flex;gap:10px;align-items:center;cursor:pointer;">
                 <input type="checkbox" name="is_published" value="1"
-                       {{ old('is_published', $caseStudy->is_published) ? 'checked' : '' }}>
-                Published
+                       {{ old('is_published', $caseStudy->is_published ?? true) ? 'checked' : '' }}>
+                <strong>Published (Live on Website)</strong>
               </label>
             </div>
-
           </div>
         </div>
       </div>
@@ -431,37 +331,35 @@
       <div class="card" style="margin:0;">
         <div class="cardHeader">
           <div>
-            <h3>Media</h3>
-            <p>Images used on listing card and hero.</p>
+            <h3>Images</h3>
+            <p>Card and detail hero visuals.</p>
           </div>
-          <div><span class="tag opt">Optional</span></div>
         </div>
 
         <div class="cardBody">
           <div class="field">
-            <label>Card Image</label>
+            <label>Card &amp; Detail Visual Image</label>
             <input type="file" name="card_image" accept="image/*">
-            <div class="hint">Recommended: WebP, 672×448 or similar.</div>
+            <div class="hint">Recommended: WebP or PNG format (e.g. assets/images/case-studies/...).</div>
 
             @if($caseStudy->card_image)
               <div style="margin-top:10px;">
-                <div class="hint">Current</div>
+                <div class="hint">Current Card Image:</div>
                 <img src="{{ asset($caseStudy->card_image) }}" alt="Card image"
-                     style="max-width:100%;border:1px solid rgba(0,0,0,.08);border-radius:10px;">
+                     style="max-width:100%; border:1px solid rgba(0,0,0,.08); border-radius:10px; margin-top:4px;">
               </div>
             @endif
           </div>
 
-          <div class="field" style="margin-top:12px;">
-            <label>Hero Image</label>
+          <div class="field" style="margin-top:14px;">
+            <label>Hero Image (optional override)</label>
             <input type="file" name="hero_image" accept="image/*">
-            <div class="hint">Recommended: WebP, 1100×760 or similar.</div>
 
-            @if($caseStudy->hero_image)
+            @if($caseStudy->hero_image && $caseStudy->hero_image !== $caseStudy->card_image)
               <div style="margin-top:10px;">
-                <div class="hint">Current</div>
+                <div class="hint">Current Hero Image:</div>
                 <img src="{{ asset($caseStudy->hero_image) }}" alt="Hero image"
-                     style="max-width:100%;border:1px solid rgba(0,0,0,.08);border-radius:10px;">
+                     style="max-width:100%; border:1px solid rgba(0,0,0,.08); border-radius:10px; margin-top:4px;">
               </div>
             @endif
           </div>
@@ -472,61 +370,102 @@
 
   </div>
 
-  {{-- FULL WIDTH: Dynamic blocks + actions --}}
+  {{-- FULL WIDTH DYNAMIC BLOCKS --}}
   <div class="fullRow">
 
+    {{-- SECTION 1: KPIS & CARD STATS --}}
     <div class="card" style="margin:0;">
       <div class="cardHeader">
         <div>
-          <h3>Dynamic Blocks</h3>
-          <p>Optional sections on the public detail page. Use “Add” to create more rows.</p>
+          <h3>Key Metrics &amp; KPIs</h3>
+          <p>Displayed in the 3-stat cards and Key Performance Indicators grid on the detail page.</p>
         </div>
-        <div><span class="tag opt">Optional</span></div>
+        <div class="dynActions">
+          <button type="button" class="miniBtn" data-add-row="kpis">+ Add KPI</button>
+        </div>
+      </div>
+
+      <div class="cardBody">
+        <div data-section="kpis" data-next-index="{{ $kpisCount }}">
+          @foreach($kpis as $i => $row)
+            <div class="rowBox" data-row>
+              <div class="grid cols-4" style="gap:var(--row); align-items:end;">
+                <div class="field">
+                  <label>Label</label>
+                  <input name="kpis[{{ $i }}][label]" value="{{ $row['label'] ?? '' }}" placeholder="e.g. Calls / Directions">
+                </div>
+                <div class="field">
+                  <label>Numeric Value (Counter)</label>
+                  <input name="kpis[{{ $i }}][value]" value="{{ $row['value'] ?? '' }}" placeholder="e.g. 18 / 156 / 42">
+                </div>
+                <div class="field">
+                  <label>Formatted Text (Display)</label>
+                  <input name="kpis[{{ $i }}][formatted]" value="{{ $row['formatted'] ?? '' }}" placeholder="e.g. 18 / 15 Days / +300%">
+                </div>
+                <div class="field">
+                  <label>Subtext</label>
+                  <input name="kpis[{{ $i }}][sub]" value="{{ $row['sub'] ?? '' }}" placeholder="e.g. from Business Profile">
+                </div>
+                <div class="field" style="grid-column: 1 / 4;">
+                  <label>Delta / Comparison Note</label>
+                  <input name="kpis[{{ $i }}][delta]" value="{{ $row['delta'] ?? '' }}" placeholder="e.g. +1,700.0% vs Apr–Jun 2025">
+                </div>
+                <div class="field" style="display:flex; justify-content:flex-end;">
+                  <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
+                </div>
+              </div>
+            </div>
+          @endforeach
+        </div>
+      </div>
+    </div>
+
+    <div class="sectionSpace"></div>
+
+    {{-- SECTION 2: CHARTS & ANALYTICS --}}
+    <div class="card" style="margin:0;">
+      <div class="cardHeader">
+        <div>
+          <h3>Charts &amp; Visual Analytics</h3>
+          <p>Performance trends bar chart and discovery breakdown list.</p>
+        </div>
       </div>
 
       <div class="cardBody">
 
-        {{-- STATS --}}
+        {{-- Trends Bar Chart --}}
+        <div class="field">
+          <label><strong>Left Chart Heading (Trend)</strong></label>
+          <input name="chart_trend_label" value="{{ old('chart_trend_label', $caseStudy->chart_trend_label) }}" placeholder="e.g. Website Clicks Trend (Apr–Jun 2026)">
+        </div>
+
         <div class="dynHead">
           <div class="left">
-            <h4>Stats</h4>
-            <p>Top metrics strip. Icon optional. Unlimited rows.</p>
+            <h4>Trend Bars</h4>
+            <p>Bars in the left trend chart. Value (counter), height percentage, and bar label.</p>
           </div>
           <div class="dynActions">
-            <button type="button" class="miniBtn" data-add-row="stats">+ Add Stat</button>
+            <button type="button" class="miniBtn" data-add-row="trends">+ Add Trend Bar</button>
           </div>
         </div>
 
-        <div data-section="stats" data-next-index="{{ $statsCount }}">
-          @foreach($stats as $i => $row)
+        <div data-section="trends" data-next-index="{{ $trendsCount }}">
+          @foreach($trends as $i => $row)
             <div class="rowBox" data-row>
               <div class="grid cols-4" style="gap:var(--row); align-items:end;">
-
                 <div class="field">
-                  <label>Icon</label>
-                  <div class="iconPick">
-                    <span class="iconBadge">
-                      <i data-lucide="{{ ($row['icon'] ?? '') ?: 'circle' }}" data-lucide-preview></i>
-                    </span>
-                    <div style="flex:1;">
-                      <input data-lucide-input list="lucideIconList" name="stats[{{ $i }}][icon]" value="{{ $row['icon'] ?? '' }}" placeholder="users / star / shield-check">
-                      <div class="hint">Lucide icon name.</div>
-                    </div>
-                  </div>
+                  <label>Bar Label</label>
+                  <input name="trends[{{ $i }}][label]" value="{{ $row['label'] ?? '' }}" placeholder="e.g. Apr 2026 / Month 1">
                 </div>
-
                 <div class="field">
                   <label>Value</label>
-                  <input name="stats[{{ $i }}][value]" value="{{ $row['value'] ?? '' }}" placeholder="1M+">
+                  <input name="trends[{{ $i }}][value]" value="{{ $row['value'] ?? '' }}" placeholder="e.g. 10 / 380 / 4300">
                 </div>
-
                 <div class="field">
-                  <label>Label</label>
-                  <input name="stats[{{ $i }}][label]" value="{{ $row['label'] ?? '' }}" placeholder="Active Students">
+                  <label>Bar Height (%)</label>
+                  <input name="trends[{{ $i }}][height]" value="{{ $row['height'] ?? '50%' }}" placeholder="e.g. 50% / 100%">
                 </div>
-
-                <div style="display:flex; justify-content:flex-end; gap:8px;">
-                  <input type="hidden" name="stats[{{ $i }}][sort_order]" value="{{ $row['sort_order'] ?? $i }}">
+                <div class="field" style="display:flex; justify-content:flex-end;">
                   <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
                 </div>
               </div>
@@ -536,182 +475,37 @@
 
         <div class="dividerLine"></div>
 
-        {{-- POINTS --}}
+        {{-- Discovery Breakdown --}}
+        <div class="field">
+          <label><strong>Right Chart Heading (Breakdown)</strong></label>
+          <input name="chart_breakdown_label" value="{{ old('chart_breakdown_label', $caseStudy->chart_breakdown_label) }}" placeholder="e.g. How People Discovered The Legal Firm">
+        </div>
+
         <div class="dynHead">
           <div class="left">
-            <h4>Challenge / Solution Points</h4>
-            <p>Bullets inside Challenge & Solution panels. Unlimited rows.</p>
+            <h4>Breakdown Progress Rows</h4>
+            <p>Percentage bars in the right discovery breakdown chart.</p>
           </div>
           <div class="dynActions">
-            <button type="button" class="miniBtn" data-add-row="points">+ Add Point</button>
+            <button type="button" class="miniBtn" data-add-row="breakdowns">+ Add Breakdown Row</button>
           </div>
         </div>
 
-        <div data-section="points" data-next-index="{{ $pointsCount }}">
-          @foreach($points as $i => $row)
+        <div data-section="breakdowns" data-next-index="{{ $breakdownsCount }}">
+          @foreach($breakdowns as $i => $row)
             <div class="rowBox" data-row>
-              <div class="grid cols-4" style="gap:var(--row); align-items:end;">
-
+              <div class="grid cols-3" style="gap:var(--row); align-items:end;">
                 <div class="field">
-                  <label>Section</label>
-                  <select name="points[{{ $i }}][section]">
-                    <option value="">--</option>
-                    <option value="challenge" {{ ($row['section'] ?? '')==='challenge'?'selected':'' }}>challenge</option>
-                    <option value="solution"  {{ ($row['section'] ?? '')==='solution'?'selected':'' }}>solution</option>
-                  </select>
+                  <label>Channel / Discovery Label</label>
+                  <input name="breakdowns[{{ $i }}][label]" value="{{ $row['label'] ?? '' }}" placeholder="e.g. Google Search — mobile">
                 </div>
-
                 <div class="field">
-                  <label>Icon</label>
-                  <div class="iconPick">
-                    <span class="iconBadge">
-                      <i data-lucide="{{ ($row['icon'] ?? '') ?: 'circle' }}" data-lucide-preview></i>
-                    </span>
-                    <div style="flex:1;">
-                      <input data-lucide-input list="lucideIconList" name="points[{{ $i }}][icon]" value="{{ $row['icon'] ?? '' }}" placeholder="check / sparkles">
-                      <div class="hint">Optional.</div>
-                    </div>
-                  </div>
+                  <label>Percentage / Value</label>
+                  <input name="breakdowns[{{ $i }}][pct]" value="{{ $row['pct'] ?? '' }}" placeholder="e.g. 68% / #1 Spot">
                 </div>
-
-                <div class="field">
-                  <label>Text</label>
-                  <input name="points[{{ $i }}][text]" value="{{ $row['text'] ?? '' }}" placeholder="Point text">
-                </div>
-
-                <div style="display:flex; justify-content:flex-end; gap:8px;">
-                  <input type="hidden" name="points[{{ $i }}][sort_order]" value="{{ $row['sort_order'] ?? $i }}">
+                <div class="field" style="display:flex; justify-content:flex-end;">
                   <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
                 </div>
-              </div>
-            </div>
-          @endforeach
-        </div>
-
-        <div class="dividerLine"></div>
-
-        {{-- FEATURES --}}
-        <div class="dynHead">
-          <div class="left">
-            <h4>Features</h4>
-            <p>Feature grid on detail page. Unlimited rows.</p>
-          </div>
-          <div class="dynActions">
-            <button type="button" class="miniBtn" data-add-row="features">+ Add Feature</button>
-          </div>
-        </div>
-
-        <div data-section="features" data-next-index="{{ $featuresCount }}">
-          @foreach($features as $i => $row)
-            <div class="rowBox" data-row>
-              <div class="grid cols-4" style="gap:var(--row); align-items:end;">
-
-                <div class="field">
-                  <label>Icon</label>
-                  <div class="iconPick">
-                    <span class="iconBadge">
-                      <i data-lucide="{{ ($row['icon'] ?? '') ?: 'circle' }}" data-lucide-preview></i>
-                    </span>
-                    <div style="flex:1;">
-                      <input data-lucide-input list="lucideIconList" name="features[{{ $i }}][icon]" value="{{ $row['icon'] ?? '' }}" placeholder="zap / layout-dashboard">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="field">
-                  <label>Title</label>
-                  <input name="features[{{ $i }}][title]" value="{{ $row['title'] ?? '' }}" placeholder="Feature title">
-                </div>
-
-                <div class="field">
-                  <label>Description</label>
-                  <input name="features[{{ $i }}][description]" value="{{ $row['description'] ?? '' }}" placeholder="Short description">
-                </div>
-
-                <div style="display:flex; justify-content:flex-end; gap:8px;">
-                  <input type="hidden" name="features[{{ $i }}][sort_order]" value="{{ $row['sort_order'] ?? $i }}">
-                  <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
-                </div>
-
-              </div>
-            </div>
-          @endforeach
-        </div>
-
-        <div class="dividerLine"></div>
-
-        {{-- IMPACT --}}
-        <div class="dynHead">
-          <div class="left">
-            <h4>Impact</h4>
-            <p>Results & impact cards. Unlimited rows.</p>
-          </div>
-          <div class="dynActions">
-            <button type="button" class="miniBtn" data-add-row="impacts">+ Add Impact</button>
-          </div>
-        </div>
-
-        <div data-section="impacts" data-next-index="{{ $impactsCount }}">
-          @foreach($impacts as $i => $row)
-            <div class="rowBox" data-row>
-              <div class="grid cols-4" style="gap:var(--row); align-items:end;">
-
-                <div class="field">
-                  <label>Metric</label>
-                  <input name="impacts[{{ $i }}][metric]" value="{{ $row['metric'] ?? '' }}" placeholder="3×">
-                </div>
-
-                <div class="field">
-                  <label>Title</label>
-                  <input name="impacts[{{ $i }}][title]" value="{{ $row['title'] ?? '' }}" placeholder="Impact title">
-                </div>
-
-                <div class="field">
-                  <label>Description</label>
-                  <input name="impacts[{{ $i }}][description]" value="{{ $row['description'] ?? '' }}" placeholder="Short description">
-                </div>
-
-                <div style="display:flex; justify-content:flex-end; gap:8px;">
-                  <input type="hidden" name="impacts[{{ $i }}][sort_order]" value="{{ $row['sort_order'] ?? $i }}">
-                  <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
-                </div>
-              </div>
-            </div>
-          @endforeach
-        </div>
-
-        <div class="dividerLine"></div>
-
-        {{-- TECH --}}
-        <div class="dynHead">
-          <div class="left">
-            <h4>Tech Stack</h4>
-            <p>Chips/badges list. Unlimited rows.</p>
-          </div>
-          <div class="dynActions">
-            <button type="button" class="miniBtn" data-add-row="tech">+ Add Tech</button>
-          </div>
-        </div>
-
-        <div data-section="tech" data-next-index="{{ $techCount }}">
-          @foreach($tech as $i => $row)
-            <div class="rowBox" data-row>
-              <div class="grid cols-3" style="gap:var(--row); align-items:end; grid-template-columns: 2fr 1fr auto;">
-
-                <div class="field">
-                  <label>Name</label>
-                  <input name="tech[{{ $i }}][name]" value="{{ $row['name'] ?? '' }}" placeholder="Laravel">
-                </div>
-
-                <div class="field">
-                  <label>Order</label>
-                  <input name="tech[{{ $i }}][sort_order]" value="{{ $row['sort_order'] ?? $i }}">
-                </div>
-
-                <div style="display:flex; justify-content:flex-end; gap:8px;">
-                  <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
-                </div>
-
               </div>
             </div>
           @endforeach
@@ -719,328 +513,159 @@
 
       </div>
     </div>
-
-    <div class="dividerLine"></div>
-
-{{-- TESTIMONIALS --}}
-<div class="dynHead">
-  <div class="left">
-    <h4>Testimonials</h4>
-    <p>Client feedback cards/slider. Supports images + rating + source. Unlimited rows.</p>
-  </div>
-  <div class="dynActions">
-    <button type="button" class="miniBtn" data-add-row="testimonials">+ Add Testimonial</button>
-  </div>
-</div>
-
-<div data-section="testimonials" data-next-index="{{ $testimonialsCount }}">
-  @foreach($testimonials as $i => $row)
-    <div class="rowBox" data-row>
-      <div class="grid cols-2" style="gap:var(--row); grid-template-columns: 1fr 1fr;">
-        <div class="field">
-          <label>Badge</label>
-          <input name="testimonials[{{ $i }}][badge]" value="{{ $row['badge'] ?? '' }}" placeholder="Client Feedback">
-        </div>
-
-        <div class="field">
-          <label>Rating (1–5)</label>
-          <input type="number" min="1" max="5" name="testimonials[{{ $i }}][rating]" value="{{ $row['rating'] ?? '' }}" placeholder="5">
-        </div>
-
-        <div class="field" style="grid-column:1 / -1;">
-          <label>Quote</label>
-          <textarea name="testimonials[{{ $i }}][quote]" rows="3" placeholder="Testimonial text...">{{ $row['quote'] ?? '' }}</textarea>
-        </div>
-
-        <div class="field">
-          <label>Author Name</label>
-          <input name="testimonials[{{ $i }}][author_name]" value="{{ $row['author_name'] ?? '' }}" placeholder="Mark Johnson">
-        </div>
-
-        <div class="field">
-          <label>Author Title</label>
-          <input name="testimonials[{{ $i }}][author_title]" value="{{ $row['author_title'] ?? '' }}" placeholder="Product Director">
-        </div>
-
-        <div class="field">
-          <label>Author Company</label>
-          <input name="testimonials[{{ $i }}][author_company]" value="{{ $row['author_company'] ?? '' }}" placeholder="GL Assessment">
-        </div>
-
-        <div class="field">
-          <label>Source</label>
-          <input name="testimonials[{{ $i }}][source]" value="{{ $row['source'] ?? '' }}" placeholder="Email / Clutch / Google">
-        </div>
-
-        <div class="field" style="grid-column:1 / -1;">
-          <label>Source URL</label>
-          <input name="testimonials[{{ $i }}][source_url]" value="{{ $row['source_url'] ?? '' }}" placeholder="https://...">
-        </div>
-
-        <div class="field">
-          <label>Author Avatar</label>
-          @if(!empty($row['author_avatar']))
-            <div class="hint" style="margin-top:0;">
-              Current: <a href="{{ asset($row['author_avatar']) }}" target="_blank" rel="noopener">View</a>
-            </div>
-            <input type="hidden" name="testimonials[{{ $i }}][author_avatar_existing]" value="{{ $row['author_avatar'] }}">
-          @endif
-          <input type="file" name="testimonials[{{ $i }}][author_avatar]" accept="image/*">
-        </div>
-
-        <div class="field">
-          <label>Company Logo</label>
-          @if(!empty($row['company_logo']))
-            <div class="hint" style="margin-top:0;">
-              Current: <a href="{{ asset($row['company_logo']) }}" target="_blank" rel="noopener">View</a>
-            </div>
-            <input type="hidden" name="testimonials[{{ $i }}][company_logo_existing]" value="{{ $row['company_logo'] }}">
-          @endif
-          <input type="file" name="testimonials[{{ $i }}][company_logo]" accept="image/*">
-        </div>
-
-        <div class="field">
-          <label>Featured</label>
-          <select name="testimonials[{{ $i }}][is_featured]">
-            <option value="0" {{ !empty($row['is_featured']) ? '' : 'selected' }}>No</option>
-            <option value="1" {{ !empty($row['is_featured']) ? 'selected' : '' }}>Yes</option>
-          </select>
-        </div>
-
-        <div class="field">
-          <label>Published</label>
-          <select name="testimonials[{{ $i }}][is_published]">
-            <option value="1" {{ (isset($row['is_published']) ? (int)$row['is_published'] : 1) === 1 ? 'selected' : '' }}>Yes</option>
-            <option value="0" {{ (isset($row['is_published']) ? (int)$row['is_published'] : 1) === 0 ? 'selected' : '' }}>No</option>
-          </select>
-        </div>
-
-        <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; grid-column:1 / -1;">
-          <input type="hidden" name="testimonials[{{ $i }}][sort_order]" value="{{ $row['sort_order'] ?? $i }}">
-          <div class="hint" style="margin:0;">Order is auto unless you change it.</div>
-          <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
-        </div>
-
-      </div>
-    </div>
-  @endforeach
-</div>
 
     <div class="sectionSpace"></div>
 
-    <div class="btnRow" style="margin:0;">
-      <button class="btn primary" type="submit">Save</button>
-      <a class="btn" href="{{ console_route('case-studies.index') }}">Cancel</a>
+    {{-- SECTION 3: STRATEGY & WHAT WE EXECUTED --}}
+    <div class="card" style="margin:0;">
+      <div class="cardHeader">
+        <div>
+          <h3>What We Executed (Strategy Checklist)</h3>
+          <p>Checklist bullets displayed in the "What We Executed" strategy card.</p>
+        </div>
+        <div class="dynActions">
+          <button type="button" class="miniBtn" data-add-row="tasks">+ Add Strategy Task</button>
+        </div>
+      </div>
+
+      <div class="cardBody">
+        <div data-section="tasks" data-next-index="{{ $tasksCount }}">
+          @foreach($tasks as $i => $row)
+            <div class="rowBox" data-row>
+              <div class="grid cols-4" style="gap:var(--row); align-items:end;">
+                <div class="field" style="grid-column: 1 / 4;">
+                  <label>Strategy / Executed Task</label>
+                  <input name="tasks[{{ $i }}][task]" value="{{ is_array($row) ? ($row['task'] ?? '') : (string)$row }}" placeholder="e.g. Google Business Profile Optimisation">
+                </div>
+                <div class="field" style="display:flex; justify-content:flex-end;">
+                  <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
+                </div>
+              </div>
+            </div>
+          @endforeach
+        </div>
+      </div>
     </div>
 
   </div>
+
+  {{-- FORM ACTION BUTTONS --}}
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-top:20px; padding:12px 0;">
+    <a href="{{ console_route('case-studies.index') }}" class="btn">Cancel</a>
+    <button type="submit" class="btn primary">{{ $mode === 'create' ? 'Create Case Study' : 'Save Changes' }}</button>
+  </div>
+
 </div>
 
-{{-- =================== ROW TEMPLATES =================== --}}
-<template id="tpl-stats">
+{{-- TEMPLATES FOR DYNAMIC ROW CREATION --}}
+<template id="tpl-kpis">
   <div class="rowBox" data-row>
     <div class="grid cols-4" style="gap:var(--row); align-items:end;">
       <div class="field">
-        <label>Icon</label>
-        <div class="iconPick">
-          <span class="iconBadge"><i data-lucide="circle" data-lucide-preview></i></span>
-          <div style="flex:1;">
-            <input data-lucide-input list="lucideIconList" name="stats[__INDEX__][icon]" value="" placeholder="users / star / shield-check">
-          </div>
-        </div>
+        <label>Label</label>
+        <input name="kpis[__INDEX__][label]" placeholder="e.g. Calls / Directions">
+      </div>
+      <div class="field">
+        <label>Numeric Value (Counter)</label>
+        <input name="kpis[__INDEX__][value]" placeholder="e.g. 18 / 156 / 42">
+      </div>
+      <div class="field">
+        <label>Formatted Text (Display)</label>
+        <input name="kpis[__INDEX__][formatted]" placeholder="e.g. 18 / 15 Days / +300%">
+      </div>
+      <div class="field">
+        <label>Subtext</label>
+        <input name="kpis[__INDEX__][sub]" placeholder="e.g. from Business Profile">
+      </div>
+      <div class="field" style="grid-column: 1 / 4;">
+        <label>Delta / Comparison Note</label>
+        <input name="kpis[__INDEX__][delta]" placeholder="e.g. +1,700.0% vs Apr–Jun 2025">
+      </div>
+      <div class="field" style="display:flex; justify-content:flex-end;">
+        <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="tpl-trends">
+  <div class="rowBox" data-row>
+    <div class="grid cols-4" style="gap:var(--row); align-items:end;">
+      <div class="field">
+        <label>Bar Label</label>
+        <input name="trends[__INDEX__][label]" placeholder="e.g. Apr 2026">
       </div>
       <div class="field">
         <label>Value</label>
-        <input name="stats[__INDEX__][value]" value="" placeholder="1M+">
+        <input name="trends[__INDEX__][value]" placeholder="e.g. 10 / 380">
       </div>
       <div class="field">
-        <label>Label</label>
-        <input name="stats[__INDEX__][label]" value="" placeholder="Active Students">
+        <label>Bar Height (%)</label>
+        <input name="trends[__INDEX__][height]" value="50%" placeholder="e.g. 50% / 100%">
       </div>
-      <div style="display:flex; justify-content:flex-end; gap:8px;">
-        <input type="hidden" name="stats[__INDEX__][sort_order]" value="__INDEX__">
+      <div class="field" style="display:flex; justify-content:flex-end;">
         <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
       </div>
     </div>
   </div>
 </template>
 
-<template id="tpl-points">
+<template id="tpl-breakdowns">
+  <div class="rowBox" data-row>
+    <div class="grid cols-3" style="gap:var(--row); align-items:end;">
+      <div class="field">
+        <label>Channel / Discovery Label</label>
+        <input name="breakdowns[__INDEX__][label]" placeholder="e.g. Google Search — mobile">
+      </div>
+      <div class="field">
+        <label>Percentage / Value</label>
+        <input name="breakdowns[__INDEX__][pct]" placeholder="e.g. 68% / #1 Spot">
+      </div>
+      <div class="field" style="display:flex; justify-content:flex-end;">
+        <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="tpl-tasks">
   <div class="rowBox" data-row>
     <div class="grid cols-4" style="gap:var(--row); align-items:end;">
-      <div class="field">
-        <label>Section</label>
-        <select name="points[__INDEX__][section]">
-          <option value="">--</option>
-          <option value="challenge">challenge</option>
-          <option value="solution">solution</option>
-        </select>
+      <div class="field" style="grid-column: 1 / 4;">
+        <label>Strategy / Executed Task</label>
+        <input name="tasks[__INDEX__][task]" placeholder="e.g. Google Business Profile Optimisation">
       </div>
-      <div class="field">
-        <label>Icon</label>
-        <div class="iconPick">
-          <span class="iconBadge"><i data-lucide="circle" data-lucide-preview></i></span>
-          <div style="flex:1;">
-            <input data-lucide-input list="lucideIconList" name="points[__INDEX__][icon]" value="" placeholder="check / sparkles">
-          </div>
-        </div>
-      </div>
-      <div class="field">
-        <label>Text</label>
-        <input name="points[__INDEX__][text]" value="" placeholder="Point text">
-      </div>
-      <div style="display:flex; justify-content:flex-end; gap:8px;">
-        <input type="hidden" name="points[__INDEX__][sort_order]" value="__INDEX__">
+      <div class="field" style="display:flex; justify-content:flex-end;">
         <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
       </div>
     </div>
   </div>
 </template>
 
-<template id="tpl-features">
-  <div class="rowBox" data-row>
-    <div class="grid cols-4" style="gap:var(--row); align-items:end;">
-      <div class="field">
-        <label>Icon</label>
-        <div class="iconPick">
-          <span class="iconBadge"><i data-lucide="circle" data-lucide-preview></i></span>
-          <div style="flex:1;">
-            <input data-lucide-input list="lucideIconList" name="features[__INDEX__][icon]" value="" placeholder="zap / layout-dashboard">
-          </div>
-        </div>
-      </div>
-      <div class="field">
-        <label>Title</label>
-        <input name="features[__INDEX__][title]" value="" placeholder="Feature title">
-      </div>
-      <div class="field">
-        <label>Description</label>
-        <input name="features[__INDEX__][description]" value="" placeholder="Short description">
-      </div>
-      <div style="display:flex; justify-content:flex-end; gap:8px;">
-        <input type="hidden" name="features[__INDEX__][sort_order]" value="__INDEX__">
-        <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
-      </div>
-    </div>
-  </div>
-</template>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('[data-add-row]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var sectionKey = btn.getAttribute('data-add-row');
+      var container = document.querySelector('[data-section="' + sectionKey + '"]');
+      var tpl = document.getElementById('tpl-' + sectionKey);
+      if (!container || !tpl) return;
 
-<template id="tpl-impacts">
-  <div class="rowBox" data-row>
-    <div class="grid cols-4" style="gap:var(--row); align-items:end;">
-      <div class="field">
-        <label>Metric</label>
-        <input name="impacts[__INDEX__][metric]" value="" placeholder="3×">
-      </div>
-      <div class="field">
-        <label>Title</label>
-        <input name="impacts[__INDEX__][title]" value="" placeholder="Impact title">
-      </div>
-      <div class="field">
-        <label>Description</label>
-        <input name="impacts[__INDEX__][description]" value="" placeholder="Short description">
-      </div>
-      <div style="display:flex; justify-content:flex-end; gap:8px;">
-        <input type="hidden" name="impacts[__INDEX__][sort_order]" value="__INDEX__">
-        <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
-      </div>
-    </div>
-  </div>
-</template>
+      var nextIndex = parseInt(container.getAttribute('data-next-index') || '0', 10);
+      container.setAttribute('data-next-index', nextIndex + 1);
 
-<template id="tpl-tech">
-  <div class="rowBox" data-row>
-    <div class="grid cols-3" style="gap:var(--row); align-items:end; grid-template-columns: 2fr 1fr auto;">
-      <div class="field">
-        <label>Name</label>
-        <input name="tech[__INDEX__][name]" value="" placeholder="Laravel">
-      </div>
-      <div class="field">
-        <label>Order</label>
-        <input name="tech[__INDEX__][sort_order]" value="__INDEX__">
-      </div>
-      <div style="display:flex; justify-content:flex-end; gap:8px;">
-        <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
-      </div>
-    </div>
-  </div>
-</template>
+      var html = tpl.innerHTML.replace(/__INDEX__/g, nextIndex);
+      var div = document.createElement('div');
+      div.innerHTML = html.trim();
+      container.appendChild(div.firstChild);
+    });
+  });
 
-<template id="tpl-testimonials">
-  <div class="rowBox" data-row>
-    <div class="grid cols-2" style="gap:var(--row); grid-template-columns: 1fr 1fr;">
-      <div class="field">
-        <label>Badge</label>
-        <input name="testimonials[__INDEX__][badge]" value="" placeholder="Client Feedback">
-      </div>
-
-      <div class="field">
-        <label>Rating (1–5)</label>
-        <input type="number" min="1" max="5" name="testimonials[__INDEX__][rating]" value="" placeholder="5">
-      </div>
-
-      <div class="field" style="grid-column:1 / -1;">
-        <label>Quote</label>
-        <textarea name="testimonials[__INDEX__][quote]" rows="3" placeholder="Testimonial text..."></textarea>
-      </div>
-
-      <div class="field">
-        <label>Author Name</label>
-        <input name="testimonials[__INDEX__][author_name]" value="" placeholder="Mark Johnson">
-      </div>
-
-      <div class="field">
-        <label>Author Title</label>
-        <input name="testimonials[__INDEX__][author_title]" value="" placeholder="Product Director">
-      </div>
-
-      <div class="field">
-        <label>Author Company</label>
-        <input name="testimonials[__INDEX__][author_company]" value="" placeholder="GL Assessment">
-      </div>
-
-      <div class="field">
-        <label>Source</label>
-        <input name="testimonials[__INDEX__][source]" value="" placeholder="Email / Clutch / Google">
-      </div>
-
-      <div class="field" style="grid-column:1 / -1;">
-        <label>Source URL</label>
-        <input name="testimonials[__INDEX__][source_url]" value="" placeholder="https://...">
-      </div>
-
-      <div class="field">
-        <label>Author Avatar</label>
-        <input type="file" name="testimonials[__INDEX__][author_avatar]" accept="image/*">
-      </div>
-
-      <div class="field">
-        <label>Company Logo</label>
-        <input type="file" name="testimonials[__INDEX__][company_logo]" accept="image/*">
-      </div>
-
-      <div class="field">
-        <label>Featured</label>
-        <select name="testimonials[__INDEX__][is_featured]">
-          <option value="0" selected>No</option>
-          <option value="1">Yes</option>
-        </select>
-      </div>
-
-      <div class="field">
-        <label>Published</label>
-        <select name="testimonials[__INDEX__][is_published]">
-          <option value="1" selected>Yes</option>
-          <option value="0">No</option>
-        </select>
-      </div>
-
-      <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; grid-column:1 / -1;">
-        <input type="hidden" name="testimonials[__INDEX__][sort_order]" value="__INDEX__">
-        <div class="hint" style="margin:0;">Order is auto unless you change it.</div>
-        <button type="button" class="miniBtn danger" data-remove-row>Remove</button>
-      </div>
-    </div>
-  </div>
-</template>
-
+  document.addEventListener('click', function (e) {
+    if (e.target && e.target.matches('[data-remove-row]')) {
+      var row = e.target.closest('[data-row]');
+      if (row) row.remove();
+    }
+  });
+});
+</script>

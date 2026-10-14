@@ -1,10 +1,9 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'SEO Services UK | Search Engine Optimization Agency')
-@section('meta_title', 'SEO Services UK | Search Engine Optimization Agency.')
+@section('title', 'SEO Services UK | SEO Agency for Business Growth')
+@section('meta_title', 'SEO Services UK | SEO Agency for Business Growth')
 @section('meta_description',
-    'Search engine optimization agency UK offering on-page, off-page and ecommerce SEO services
-    to improve rankings, traffic and leads for your website UK.')
+    'Improve your search visibility with SEO services covering technical, on-page, content, local, ecommerce and off-page optimisation for sustainable growth.')
 @section('meta_keywords', 'SEO services UK, search engine optimization agency, on-page SEO, off-page SEO, ecommerce SEO,
     local SEO, technical SEO, content SEO, image SEO, affordable SEO, UK businesses')
     @push('styles')
@@ -34,7 +33,9 @@
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Get Free SEO Review</a>
                 <a href="#services" class="btn btn-ghost">View Our Services</a>
-            </div>
+            
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
 
             <div class="hero-meta">
                 <span>5-Star Rated on Bark</span>
@@ -598,7 +599,7 @@
                 <div class="cta-cards">
                     <article class="card cta-card">
                         <h3>Call Us</h3>
-                        <p class="cta-detail">1233 445 6566</p>
+                        <p class="cta-detail">07835 761525</p>
                         <p class="cta-note">Mon–Fri, 9am–6pm</p>
                     </article>
                     <article class="card cta-card">

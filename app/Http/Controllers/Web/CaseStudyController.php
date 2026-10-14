@@ -12,6 +12,7 @@ class CaseStudyController extends Controller
     {
         $caseStudies = CaseStudy::query()
             ->where('is_published', true)
+            ->with(['stats', 'kpis'])
             ->orderBy('sort_order')
             ->orderByDesc('id')
             ->get();
@@ -32,6 +33,10 @@ class CaseStudyController extends Controller
             ->where('slug', $slug)
             ->with([
                 'stats',
+                'kpis',
+                'chartTrends',
+                'chartBreakdowns',
+                'tasks',
                 'features',
                 'impacts',
                 'techStacks',

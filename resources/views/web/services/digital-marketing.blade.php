@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Digital Marketing Agency UK | Services & Advertising')
-@section('meta_title', 'Digital Marketing Agency UK | Services & Advertising.')
-@section('meta_description', 'Digital marketing agency UK offering services and advertising solutions to grow traffic,
-    leads and sales for your business UK today with proven results online!!')
+@section('title', 'Digital Marketing Agency UK | Growth-Focused Services')
+@section('meta_title', 'Digital Marketing Agency UK | Growth-Focused Services')
+@section('meta_description', 'Grow your online presence with digital marketing services covering SEO, paid advertising, social media and strategies focused on traffic and leads.')
 @section('meta_keywords', 'digital marketing agency UK, digital marketing services UK, online advertising UK, SEO services UK, PPC services UK, social media marketing UK, content marketing UK, email marketing UK, digital strategy UK')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('assets/services/digitalMarketing/css/style.css') }}">
@@ -36,6 +35,8 @@
                 <div class="hero-actions">
                     <a href="#cta" class="btn btn-lg btn-primary">Get Free Consultation</a>
                     <a href="#services" class="btn btn-lg btn-ghost hero-ghost-light">Explore Services</a>
+                
+                  <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>  
                 </div>
 
                 <div class="hero-stats">

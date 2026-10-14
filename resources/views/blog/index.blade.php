@@ -1,8 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Blog | Digital Marketing, SEO & Web Development Insights UK')
-@section('meta_title', 'Blog | Digital Marketing, SEO & Web Development Insights UK')
-@section('meta_description', 'Read expert articles on digital marketing, SEO, web development, and AI in search from the Cloud Technologies Ltd team.')
+@section('title', 'SEO & Digital Marketing Blog UK | Cloud Technologies')
+@section('meta_title', 'SEO & Digital Marketing Blog UK | Cloud Technologies')
+@section('meta_description', 'Explore SEO, digital marketing and web development insights, strategies and tips to improve search visibility, website traffic and online growth.')
 @section('meta_keywords', 'blog, digital marketing blog, SEO tips, web development articles, AI and SEO, CloudTech blog')
 
 @push('styles')

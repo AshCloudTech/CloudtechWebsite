@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Shopify Development Agency UK | Shopify Experts Agency')
-@section('meta_title', 'Shopify Development Agency UK | Shopify Experts Agency')
-@section('meta_description', 'WooCommerce agency UK offering web development services to build responsive, secure and
-    SEO friendly ecommerce websites for your business growth UK.')
+@section('title', 'Shopify Development Agency UK | Shopify Experts')
+@section('meta_title', 'Shopify Development Agency UK | Shopify Experts')
+@section('meta_description', 'Build and optimise your Shopify store with professional development focused on performance, responsive design, ecommerce functionality and SEO.')
 @section('meta_keywords', 'Shopify development agency UK, Shopify experts UK, Shopify web development UK, eCommerce
     website development UK, Shopify store setup UK, custom Shopify themes UK, Shopify app integration UK, Shopify migration
     services UK, SEO-friendly Shopify development UK')
@@ -31,7 +30,9 @@
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Build Your Store</a>
                 <a href="#services" class="btn btn-ghost">View Services</a>
-            </div>
+            
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
         </div>
     </section>
 

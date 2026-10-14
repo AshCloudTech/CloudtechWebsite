@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Technical SEO Services UK | Website SEO Experts')
-@section('meta_title', 'Technical SEO Services UK | Website SEO Experts.')
-@section('meta_description', 'Technical SEO services UK delivering improvements in speed, crawlability, indexing and
-    performance to increase rankings, traffic and user experience UK.')
+@section('title', 'Technical SEO Services UK | Technical SEO Agency')
+@section('meta_title', 'Technical SEO Services UK | Technical SEO Agency')
+@section('meta_description', 'Improve crawling, indexing, site structure, speed and technical performance with technical SEO services designed to strengthen search visibility.')
 @section('meta_keywords', 'technical SEO services UK, website SEO experts UK, site speed optimization UK, crawlability
     improvement UK, indexing fixes UK, Core Web Vitals optimization UK, mobile SEO UK, technical SEO audit UK, on-page
     technical SEO UK, SEO performance enhancement UK')
@@ -27,32 +26,31 @@
         <div class="container hero-grid">
             <div class="hero-text">
                 <p class="hero-eyebrow">Technical SEO Services</p>
-                <h1>Expert Technical SEO Services for Higher Search Rankings</h1>
+                <h1>Expert Technical SEO Services UK for Higher Google Rankings</h1>
                 <p class="hero-subtitle">
-                    Our Technical SEO Services optimize your site’s structure, speed, and crawlability to boost search
-                    performance and organic traffic.</p>
+                    Our Technical SEO Services UK optimise your website's structure, speed, crawlability, and indexability to improve Google search performance, user experience, and organic traffic.
+                </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="technical-seo">Get
-                        Technical Audit</a>
-                    <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Speak to Expert</a>
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="technical-seo">Get Technical SEO Audit</a>
+                    <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Speak to a Technical SEO Expert</a>
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
 
                 <div class="hero-note">
-                    Solid technical foundations for fast, crawlable and error-free websites.
+                    Build a strong technical foundation for a fast, crawlable, secure, and search-engine-friendly website.
                 </div>
             </div>
 
             <div class="hero-panel">
                 <div class="hero-panel-inner">
-                    <p class="hero-panel-label">Technical Health Snapshot</p>
+                    <p class="hero-panel-label">Technical SEO Health Snapshot</p>
                     <p class="hero-panel-text">
-                        We review Core Web Vitals, crawlability, indexation and site structure to highlight the
-                        technical issues holding your rankings back.
+                        We review Core Web Vitals, crawlability, indexation, site architecture, mobile performance, and technical errors to identify the issues affecting your search rankings.
                     </p>
                     <ul class="hero-panel-list">
                         <li>Site speed &amp; performance</li>
-                        <li>Mobile experience</li>
+                        <li>Mobile usability</li>
                         <li>Crawling &amp; indexing</li>
                         <li>Core Web Vitals</li>
                     </ul>
@@ -65,43 +63,39 @@
     <section class="section section-alt" id="why">
         <div class="container">
             <div class="section-header">
-                <h2>Why Technical SEO Matters</h2>
-                <p>
-                    Technical SEO matters because it improves site speed, crawlability, user experience, and search
-                    rankings,
-                    helping your website perform at its best.
-                </p>
+                <h2>Why Technical SEO Is Important for Google Rankings</h2>
+                <p>Technical SEO improves website speed, crawlability, indexation, mobile usability, and site structure, helping search engines understand and rank your website effectively.</p>
             </div>
 
             <div class="why-grid why-grid-ui">
                 <article class="card why-card why-card-ui">
                     <div class="why-icon" aria-hidden="true"><i data-lucide="zap"></i></div>
-                    <h3>Site Speed Optimisation</h3>
-                    <p>Faster page speed improves user experience and boosts search rankings.</p>
+                    <h3>Website Speed Optimisation</h3>
+                    <p>Improve page load times and website performance to create a better user experience and support stronger Google rankings.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
                     <div class="why-icon" aria-hidden="true"><i data-lucide="settings"></i></div>
-                    <h3>Technical Optimisation</h3>
-                    <p>Technical optimisation enhances site structure for better visibility.</p>
+                    <h3>Technical Website Optimisation</h3>
+                    <p>Optimise your website structure, code, URLs, and technical elements to improve search engine visibility and performance.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
                     <div class="why-icon" aria-hidden="true"><i data-lucide="search"></i></div>
-                    <h3>Crawlability</h3>
-                    <p>Improved crawlability helps search engines index your site efficiently.</p>
+                    <h3>Crawlability &amp; Indexation</h3>
+                    <p>Improve how search engines crawl, understand, and index your website so important pages can appear in search results.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
                     <div class="why-icon" aria-hidden="true"><i data-lucide="trophy"></i></div>
-                    <h3>1st Page Rankings</h3>
-                    <p>Strong technical SEO increases your chances of first-page rankings.</p>
+                    <h3>Improve Search Rankings</h3>
+                    <p>A technically optimised website creates a stronger foundation for higher rankings, organic traffic, and long-term SEO growth.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
                     <div class="why-icon" aria-hidden="true"><i data-lucide="activity"></i></div>
-                    <h3>Core Web Vitals</h3>
-                    <p>Optimising Core Web Vitals boosts performance and overall SEO results.</p>
+                    <h3>Core Web Vitals Optimisation</h3>
+                    <p>Optimise Core Web Vitals and page experience factors to improve website performance, usability, and overall SEO performance.</p>
                 </article>
             </div>
         </div>
@@ -111,38 +105,33 @@
     <section class="section" id="issues">
         <div class="container">
             <div class="section-header">
-                <h2>Common Technical Issues We Fix</h2>
-                <p>
-                    We fix technical issues like speed problems, broken links, and indexing errors to improve website
-                    performance and search rankings.
-                </p>
+                <h2>Common Technical SEO Issues We Fix</h2>
+                <p>We identify and fix technical SEO issues such as slow page speed, broken links, crawl errors, duplicate content, and indexing problems that can affect rankings.</p>
             </div>
 
             <div class="issues-grid issues-grid-ui">
                 <article class="card issue-card issue-card-ui">
                     <div class="issue-icon" aria-hidden="true"><i data-lucide="timer"></i></div>
                     <h3>Slow Page Speed</h3>
-                    <p>Improving load speed to boost user experience, reduce bounce rates, and increase Google rankings.</p>
+                    <p>Improve page loading speed, website performance, and user experience to reduce delays and support better Google search performance.</p>
                 </article>
 
                 <article class="card issue-card issue-card-ui">
                     <div class="issue-icon" aria-hidden="true"><i data-lucide="smartphone"></i></div>
                     <h3>Poor Mobile Experience</h3>
-                    <p>Fixing mobile layout, responsiveness, and usability to improve engagement and SEO performance.</p>
+                    <p>Fix mobile layout, responsiveness, usability, and performance issues to provide a better experience across mobile devices.</p>
                 </article>
 
                 <article class="card issue-card issue-card-ui">
                     <div class="issue-icon" aria-hidden="true"><i data-lucide="bug"></i></div>
-                    <h3>Crawling Errors</h3>
-                    <p>Resolving crawl and indexing issues so search engines can access, read, and rank your website
-                        properly.</p>
+                    <h3>Crawling &amp; Indexing Errors</h3>
+                    <p>Resolve crawl and indexation issues so search engines can access, understand, and index your important website pages correctly.</p>
                 </article>
 
                 <article class="card issue-card issue-card-ui">
                     <div class="issue-icon" aria-hidden="true"><i data-lucide="copy"></i></div>
-                    <h3>Duplicate Content</h3>
-                    <p>Eliminating duplicate pages to avoid ranking loss and ensure Google sees unique, high-quality
-                        content.</p>
+                    <h3>Duplicate Content Issues</h3>
+                    <p>Identify and manage duplicate or similar pages to help search engines understand the preferred version of your content and avoid unnecessary ranking issues.</p>
                 </article>
             </div>
         </div>
@@ -153,42 +142,32 @@
         <div class="container">
             <div class="section-header">
                 <h2>Our Technical SEO Process</h2>
-                <p>
-                    We optimize your site for speed, mobile performance, and proper indexing.
-                </p>
+                <p>We optimise your website's technical foundation for faster performance, better crawlability, stronger indexation, and improved search visibility.</p>
             </div>
 
             <div class="grid grid-4 process-grid">
                 <article class="card process-card">
                     <div class="process-step">1</div>
-                    <h3>Technical Audit</h3>
-                    <p>
-                        We analyse your website to uncover performance, speed, and indexing issues.
-                    </p>
+                    <h3>Technical SEO Audit</h3>
+                    <p>We analyse your website to uncover technical errors, performance problems, crawlability issues, indexation problems, and structural SEO opportunities.</p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">2</div>
-                    <h3>Issue Identification</h3>
-                    <p>
-                        We pinpoint the exact technical problems affecting rankings and usability.
-                    </p>
+                    <h3>Technical Issue Identification</h3>
+                    <p>We prioritise the technical problems affecting search visibility, website performance, user experience, and Google rankings.</p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">3</div>
-                    <h3>Implementation</h3>
-                    <p>
-                        We fix technical errors, optimise code, improve speed, and enhance site structure.
-                    </p>
+                    <h3>Technical SEO Implementation</h3>
+                    <p>We fix technical errors, improve website speed, optimise code and site structure, strengthen internal linking, and resolve indexing issues.</p>
                 </article>
 
                 <article class="card process-card">
                     <div class="process-step">4</div>
-                    <h3>Monitoring</h3>
-                    <p>
-                        We track performance, re-check issues, and ensure long-term technical stability.
-                    </p>
+                    <h3>Technical SEO Monitoring</h3>
+                    <p>We monitor website performance, re-check technical issues, track improvements, and maintain long-term technical SEO health.</p>
                 </article>
             </div>
         </div>
@@ -199,14 +178,14 @@
         <div class="container">
             <div class="services-layout">
                 <div class="services-copy">
-                    <h2>Complete Technical SEO Services</h2>
+                    <h2>Complete Technical SEO Services UK</h2>
                     <ul class="services-list">
-                        <li>Full Technical Audit to analyze website errors and performance issues.</li>
-                        <li>Page Speed Optimisation to improve load times and Core Web Vitals.</li>
-                        <li>Mobile Optimisation to ensure a smooth, responsive mobile experience.</li>
-                        <li>Crawl & Indexing Fixes to help search engines properly access your pages.</li>
-                        <li>On-Page Technical Improvements including meta tags, URLs, and canonical fixes.</li>
-                        <li>Continuous Monitoring to maintain technical health and resolve new issues quickly.</li>
+                        <li>Full Technical SEO Audit to identify website errors, crawlability issues, and performance opportunities.</li>
+                        <li>Page Speed Optimisation to improve loading times, performance, and Core Web Vitals.</li>
+                        <li>Mobile SEO Optimisation to provide a fast, responsive, and user-friendly mobile experience.</li>
+                        <li>Crawl &amp; Indexing Fixes to help Google and other search engines access and index important pages.</li>
+                        <li>Technical On-Page Improvements including meta tags, URLs, canonical tags, redirects, and internal linking.</li>
+                        <li>Ongoing Technical SEO Monitoring to maintain website health and resolve new technical issues.</li>
 
                     </ul>
                 </div>
@@ -227,32 +206,31 @@
         <div class="container">
             <div class="section-header">
                 <h2>Explore Related SEO Services</h2>
-                <p>Strengthen technical performance with connected SEO and website-focused services.</p>
+                <p>Strengthen your website's technical performance with these connected SEO and website-focused services.</p>
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO Services UK">
                     <span>SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/on-page-seo-service-uk" aria-label="On-page SEO services UK">
+                <a class="related-link-card" href="/on-page-seo-service-uk" aria-label="On-Page SEO Services UK">
                     <span>On-Page SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/image-seo-service-uk" aria-label="Image SEO services UK">
+                <a class="related-link-card" href="/image-seo-service-uk" aria-label="Image SEO Services UK">
                     <span>Image SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/website-development-service-uk"
-                    aria-label="Website development services UK">
+                <a class="related-link-card" href="/website-development-service-uk" aria-label="Website Development Services UK">
                     <span>Website Development Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/content-seo-service-uk" aria-label="Content SEO services UK">
+                <a class="related-link-card" href="/content-seo-service-uk" aria-label="Content SEO Services UK">
                     <span>Content SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
@@ -268,47 +246,32 @@
                 <div class="national-about-content">
                     <h2>What Are Technical SEO Services?</h2>
 
-                    <p>
-                        Technical SEO services focus on optimising the foundation of your website so search engines can
-                        efficiently crawl, index, and rank your pages. While content and backlinks are important, they
-                        cannot perform effectively if your website has technical barriers that prevent search engines from
-                        accessing it properly.
-                    </p>
+                    <p>Technical SEO services focus on improving the technical foundation of your website so Google and other search engines can efficiently crawl, understand, index, and rank your pages. While content and backlinks are important, technical issues can prevent even high-quality pages from performing effectively in search results.</p>
 
-                    <p>
-                        Technical SEO includes improving site speed, Core Web Vitals, mobile usability, crawlability,
-                        indexation, site structure, and resolving errors that negatively impact search performance.
-                    </p>
+                    <p>Technical SEO includes improving site speed, Core Web Vitals, mobile usability, crawlability, indexation, site architecture, internal linking, and resolving technical errors that can negatively affect search performance.</p>
 
-                    <p>
-                        A technically optimised website creates the perfect environment for higher rankings, better user
-                        experience, and stronger organic growth.
-                    </p>
+                    <p>A technically optimised website provides a stronger foundation for higher rankings, better user experience, improved crawlability, and sustainable organic search growth.</p>
                 </div>
 
                 <div class="national-about-highlight">
                     <h3>Key Areas Covered in Technical SEO</h3>
 
-                    <p>
-                        A complete technical SEO campaign addresses:
-                    </p>
+                    <p>A complete Technical SEO campaign can address:</p>
 
                     <ul>
-                        <li>Core Web Vitals optimisation (LCP, CLS, INP)</li>
-                        <li>Crawl budget management</li>
-                        <li>XML sitemap optimisation</li>
-                        <li>Robots.txt configuration</li>
-                        <li>Canonical tag implementation</li>
-                        <li>Redirect management (301/302)</li>
-                        <li>Schema markup for enhanced search results</li>
-                        <li>URL structure and site architecture</li>
-                        <li>Mobile-first optimisation</li>
-                        <li>Indexation control and duplicate prevention</li>
+                        <li>Core Web Vitals optimisation including LCP, CLS, and INP</li>
+                        <li>Crawl budget and crawlability management</li>
+                        <li>XML sitemap creation and optimisation</li>
+                        <li>Robots.txt configuration and optimisation</li>
+                        <li>Canonical tag implementation and management</li>
+                        <li>Redirect management including 301 and 302 redirects</li>
+                        <li>Schema markup and structured data implementation</li>
+                        <li>URL structure and website architecture</li>
+                        <li>Mobile-first SEO optimisation</li>
+                        <li>Indexation control and duplicate content prevention</li>
                     </ul>
 
-                    <p class="national-about-note">
-                        These elements ensure your website is easy for search engines to understand and rank.
-                    </p>
+                    <p class="national-about-note">These technical elements help make your website easier for search engines to crawl, understand, index, and rank.</p>
                 </div>
 
             </div>
@@ -321,21 +284,13 @@
         <div class="container">
 
             <div class="section-header">
-                <h2>Why Technical SEO Is the Foundation of All SEO Success</h2>
+                <h2>Why Technical SEO Is the Foundation of SEO Success</h2>
             </div>
 
             <div class="national-growth-card">
-                <p>
-                    Many websites struggle to rank not because of poor content, but because of hidden technical issues
-                    limiting their potential. Technical SEO ensures that every page on your website can be properly crawled,
-                    indexed, and evaluated by search engines.
-                </p>
+                <p>Many websites struggle to rank not because their content is poor, but because technical issues prevent search engines from efficiently accessing and understanding important pages. Technical SEO helps ensure that your website is technically sound, crawlable, indexable, fast, and accessible.</p>
 
-                <p>
-                    Without strong technical foundations, even the best content and backlinks will underperform. With expert
-                    technical SEO, your entire website becomes easier to rank, faster to load, and more accessible to users
-                    and search engines alike.
-                </p>
+                <p>Without strong technical foundations, even high-quality content and backlinks may underperform. With expert Technical SEO, your website becomes easier for search engines to crawl and rank, while providing a faster and better experience for users.</p>
             </div>
 
         </div>
@@ -348,15 +303,11 @@
             <div class="cta-inner tech-cta-inner">
                 <div class="cta-main">
                     <h2>Fix Your Technical SEO Issues Today</h2>
-                    <p>
-                        Fix your Technical SEO issues today to improve site speed, boost indexing, enhance mobile
-                        performance, and strengthen your overall search rankings.
-                    </p>
+                    <p>Improve your website's technical foundation with expert Technical SEO Services UK designed to increase crawlability, strengthen indexation, improve site speed, enhance mobile performance, and support higher Google search rankings.</p>
                 </div>
                 <div class="cta-actions tech-cta-actions">
-                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="technical-seo">Get Technical
-                        Audit</a>
-                    <a href="#why" class="btn btn-outline-light">See Why It Matters</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="technical-seo">Get Technical SEO Audit</a>
+                    <a href="#why" class="btn btn-outline-light">See Why Technical SEO Matters</a>
                 </div>
             </div>
         </div>
@@ -423,66 +374,50 @@
     <section class="section section-alt section-faq" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2>Technical SEO FAQs</h2>
+                <h2>Frequently Asked Questions About Technical SEO Services</h2>
             </div>
 
             <div class="faq-wrap">
                 <div class="faq-list">
                     <details class="faq-item">
-                        <summary>1. What is Technical SEO?</summary>
+                        <summary>What Are Technical SEO Services?</summary>
                         <div class="faq-content">
-                            <p>
-                                Technical SEO focuses on improving a website’s backend structure—speed, indexing,
-                                crawlability, and overall performance—to help search engines understand and rank it better.
-                            </p>
+                            <p>Technical SEO services improve the technical elements of a website that affect crawling, indexing, website performance, and search rankings. This can include site speed, Core Web Vitals, mobile SEO, technical errors, XML sitemaps, robots.txt, canonical tags, and website architecture.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>2. Why is Technical SEO important?</summary>
+                        <summary>Why Is Technical SEO Important for Google Rankings?</summary>
                         <div class="faq-content">
-                            <p>
-                                Without strong technical foundations, even well-written content may not rank because search
-                                engines can’t properly crawl or index the site.
-                            </p>
+                            <p>Technical SEO helps Google crawl, understand, and index your website efficiently. Fixing technical issues can improve website performance, usability, crawlability, and the ability of important pages to appear and compete in search results.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>3. How long does it take to see results from Technical SEO?</summary>
+                        <summary>What Does a Technical SEO Audit Include?</summary>
                         <div class="faq-content">
-                            <p>
-                                Most technical improvements show results within 4–12 weeks, depending on the size of the
-                                website and the issues fixed.
-                            </p>
+                            <p>A Technical SEO audit can review site speed, Core Web Vitals, crawlability, indexation, broken links, redirects, duplicate content, XML sitemaps, robots.txt, canonical tags, mobile usability, internal linking, structured data, and website architecture.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>4. What tools do you use for Technical SEO audits?</summary>
+                        <summary>How Long Does Technical SEO Take to Show Results?</summary>
                         <div class="faq-content">
-                            <p>
-                                We use tools like Google Search Console, Screaming Frog, PageSpeed Insights, and GTmetrix to
-                                identify errors, speed issues, and indexing problems.
-                            </p>
+                            <p>Technical SEO results depend on the size of the website, severity of technical issues, competition, implementation speed, and Google crawling and reprocessing. Fixing critical technical problems can create a stronger foundation for future SEO improvements.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>5. What are the most common technical issues?</summary>
+                        <summary>What Is the Difference Between Technical SEO and On-Page SEO?</summary>
                         <div class="faq-content">
-                            <p>Slow page speed, mobile usability problems, duplicate content, broken links, crawl errors,
-                                and missing structured data are some of the most common.
-                            </p>
+                            <p>Technical SEO focuses on the website's technical foundation, including crawling, indexing, speed, architecture, and performance. On-page SEO focuses more on page content, headings, keywords, meta information, URLs, and search relevance.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>6. Do technical fixes improve rankings?</summary>
+                        <summary>Why Choose a Technical SEO Agency in the UK?</summary>
                         <div class="faq-content">
-                            <p>
-                                Yes. Better speed, cleaner code, proper indexing, and improved mobile performance all
-                                contribute directly to higher rankings and better user experience.</p>
+                            <p>A Technical SEO agency can identify complex website issues, prioritise SEO improvements, and implement technical solutions designed to improve crawlability, indexation, performance, and search visibility. A strong technical foundation supports long-term organic growth.</p>
                         </div>
                     </details>
                 </div>

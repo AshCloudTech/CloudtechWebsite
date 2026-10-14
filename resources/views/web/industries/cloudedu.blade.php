@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
 @section('title', 'Education SEO Services UK | Education Marketing Agency')
-@section('meta_title', 'Education SEO Services UK | Education Marketing Agency.')
-@section('meta_description', 'Education SEO UK offering digital marketing, SEO and website development to improve
-    rankings, attract students and grow your institution UK for growth today.')
+@section('meta_title', 'Education SEO Services UK | Education Marketing Agency')
+@section('meta_description', 'Improve your education brand's online visibility with SEO, digital marketing and web development designed to attract students and grow your institution.')
 @section('meta_keywords', 'education SEO services UK, education marketing agency UK, school SEO UK, university SEO UK,
     education digital marketing UK, student recruitment marketing UK, education website development UK, local SEO for
     schools UK, online visibility for education UK')
@@ -35,6 +34,8 @@
                 <div class="hero-actions">
                     <a href="#contact" class="btn btn-lg btn-primary">Start Your Project</a>
                     <a href="#pricing" class="btn btn-lg btn-ghost hero-ghost-light">Explore Features</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
         </div>

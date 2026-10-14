@@ -51,6 +51,8 @@
                         data-audit-type="{{ $content['hero']['audit_type'] }}">{{ $content['hero']['primary_btn_text'] }}</a>
                     <a href="#contact-form"
                         class="btn btn-lg btn-ghost hero-ghost-light">{{ $content['hero']['secondary_btn_text'] }}</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
 
                 @if (!empty($content['hero']['stats']))

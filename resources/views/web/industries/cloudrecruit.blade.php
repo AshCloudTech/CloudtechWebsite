@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Recruitment SEO Services UK | Recruitment Marketing Agency')
-@section('meta_title', 'Recruitment SEO Services UK | Recruitment Marketing Agency.')
-@section('meta_description', 'Recruitment SEO UK offering digital marketing, SEO and website development to improve
-    rankings, attract candidates and grow your agency UK for growth today.')
+@section('title', 'Recruitment SEO Services UK | Recruitment Marketing')
+@section('meta_title', 'Recruitment SEO Services UK | Recruitment Marketing')
+@section('meta_description', 'Increase your recruitment agency's online visibility with SEO, digital marketing and web development designed to attract candidates and business enquiries.')
 @section('meta_keywords', 'recruitment SEO services UK, recruitment marketing agency UK, SEO for recruitment agencies
     UK, digital marketing for recruiters UK, recruitment website development UK, candidate attraction UK, agency growth UK,
     recruitment SEO strategy UK')
@@ -35,6 +34,8 @@
                 <div class="hero-actions">
                     <a href="#contact" class="btn btn-lg btn-primary">Start Your Project</a>
                     <a href="#pricing" class="btn btn-lg btn-ghost hero-ghost-light">View Platforms</a>
+                
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
         </div>

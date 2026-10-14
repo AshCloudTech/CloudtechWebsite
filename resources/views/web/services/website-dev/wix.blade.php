@@ -1,9 +1,8 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'Wix Website Development Agency UK | Wix Website Experts')
-@section('meta_title', 'Wix Website Development Agency UK | Wix Website Experts.')
-@section('meta_description', 'Wix website development UK offering website design, pricing guidance and custom Wix
-    websites to build fast, modern and SEO friendly sites UK online.')
+@section('title', 'Wix Website Development Agency UK | Wix Experts')
+@section('meta_title', 'Wix Website Development Agency UK | Wix Experts')
+@section('meta_description', 'Create a professional Wix website with responsive design, custom development and SEO-friendly features designed to support your online business goals.')
 @section('meta_keywords', 'Wix website development UK, Wix website design UK, Wix website pricing UK, custom Wix
     websites UK, SEO-friendly Wix development UK, Wix website experts UK, affordable Wix development UK, professional Wix
     design UK')
@@ -32,7 +31,9 @@
             <div class="hero-actions">
                 <a href="#cta" class="btn btn-primary">Get Started Now</a>
                 <a href="#services" class="btn btn-secondary">View Services</a>
-            </div>
+            
+                    <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
+                </div>
         </div>
     </section>
 

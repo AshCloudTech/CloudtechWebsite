@@ -15,7 +15,7 @@
 
 @section('content')
 
-<section class="hero" id="hero">
+{{-- <section class="hero" id="hero">
   <div class="wrap">
     <div class="crumbs"><a href="{{ route('home') }}">Home</a><span>›</span>Pricing</div>
 
@@ -40,42 +40,154 @@
       </aside>
     </div>
   </div>
-</section>
+</section> --}}
 
-@if(isset($seoServices) && $seoServices->isNotEmpty())
-<section class="block">
+<section class="block seo-packages-section">
   <div class="wrap">
-    <div class="eyebrow">SEO Services</div>
-    <h2>Search That <span class="gold effect-glow">Compounds</span></h2>
+    <div class="eyebrow">SEO Pricing</div>
+    <h2>Choose the Right <span class="gold effect-glow">SEO Package.</span></h2>
+    <p class="pricing-intro">Clear, practical SEO packages designed for local businesses, growing companies and ambitious national or international brands.</p>
 
-    <div class="table-wrap">
-      <table class="pricing">
-        <thead>
-          <tr><th>SERVICE</th><th>STARTING PRICE</th><th>MODEL</th><th>PAGE</th></tr>
-        </thead>
-        <tbody>
-          @foreach($seoServices as $item)
-            <tr @if($item->noindex) rel="noindex" @endif>
-              <td class="service">{{ $item->service }}</td>
-              <td class="price">
-                @if(!empty($item->price))
-                  {{ $item->prefix }}<span data-count="{{ str_replace(',', '', (string)$item->price) }}">0</span><span class="per">{{ $item->per }}</span>
-                @else
-                  {{ $item->prefix }}<span class="per">{{ $item->per ?: '/mo' }}</span>
-                @endif
-              </td>
-              <td class="model">{{ $item->model }}</td>
-              <td class="page"><a href="{{ $item->resolved_page_url }}">View →</a></td>
-            </tr>
-          @endforeach
-        </tbody>
-      </table>
+    <div class="plans seo-pricing-grid">
+      {{-- SEO Essentials --}}
+      <article class="plan seo-plan">
+        <div class="plan-topline">SEO Essentials</div>
+        <h3>SEO Essentials</h3>
+        <div class="ideal"><strong>Best for Small Businesses &amp; Local Companies</strong></div>
+
+        <div class="price">
+          <span class="price-label">From</span>
+          <span class="sym">£</span>
+          <span class="num">109</span>
+          <span class="per">/mo</span>
+        </div>
+
+        <p class="desc">A practical SEO foundation designed to improve your visibility, rankings and local search presence.</p>
+
+        <div class="feature-group">
+          <h4>Perfect for:</h4>
+          <ul>
+            <li>Local service businesses</li>
+            <li>Startups and new businesses</li>
+            <li>Businesses building their online presence</li>
+            <li>Foundational SEO and local visibility</li>
+            <li>Businesses with smaller SEO budgets</li>
+          </ul>
+        </div>
+
+        <div class="feature-group">
+          <h4>Includes:</h4>
+          <ul>
+            <li>Technical SEO checks</li>
+            <li>Keyword research</li>
+            <li>On-page SEO optimization</li>
+            <li>Local SEO optimization</li>
+            <li>Google Business Profile support</li>
+            <li>Monthly SEO reporting</li>
+          </ul>
+        </div>
+
+        <div class="plan-footer">
+          <a class="btn plan-btn btn-outline" href="{{ route('contact.us') }}#enquiry">Get Started <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      {{-- SEO Growth --}}
+      <article class="plan seo-plan popular">
+        <span class="badge">Most Popular</span>
+        <div class="plan-topline">SEO Growth</div>
+        <h3>SEO Growth</h3>
+        <div class="ideal"><strong>Best for Growing Companies &amp; Competitive Niches</strong></div>
+
+        <div class="price">
+          <span class="price-label">From</span>
+          <span class="sym">£</span>
+          <span class="num">199</span>
+          <span class="per">/mo</span>
+        </div>
+
+        <p class="desc">A growth-focused SEO package for businesses looking to increase organic traffic, enquiries and search rankings.</p>
+
+        <div class="feature-group">
+          <h4>Perfect for:</h4>
+          <ul>
+            <li>Businesses targeting more traffic and leads</li>
+            <li>Competitive local markets</li>
+            <li>Multi-service businesses</li>
+            <li>Businesses expanding their online presence</li>
+            <li>Companies ready for consistent SEO growth</li>
+          </ul>
+        </div>
+
+        <div class="feature-group">
+          <h4>Includes:</h4>
+          <ul>
+            <li>Everything in SEO Essentials</li>
+            <li>Advanced keyword targeting</li>
+            <li>Content creation</li>
+            <li>Competitor SEO analysis</li>
+            <li>Local citation building</li>
+            <li>Link building</li>
+            <li>Technical SEO improvements</li>
+            <li>Monthly strategy review</li>
+          </ul>
+        </div>
+
+        <div class="plan-footer">
+          <a class="btn plan-btn btn-accent" href="{{ route('contact.us') }}#enquiry">Get Started <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      {{-- SEO Scale --}}
+      <article class="plan seo-plan">
+        <div class="plan-topline">SEO Scale</div>
+        <h3>SEO Scale</h3>
+        <div class="ideal"><strong>Best for National, International &amp; High-Growth Brands</strong></div>
+
+        <div class="price price-custom">
+          <span class="price-label">Custom Pricing</span>
+          <span class="sym">£</span>
+          <span class="num">249 – 749+</span>
+          <span class="per">/mo</span>
+        </div>
+
+        <p class="desc">Advanced SEO for national, international and multi-location businesses.</p>
+
+        <div class="feature-group">
+          <h4>Perfect for:</h4>
+          <ul>
+            <li>SaaS companies</li>
+            <li>E-commerce brands</li>
+            <li>National service providers</li>
+            <li>Multi-location businesses</li>
+            <li>High-ticket industries</li>
+            <li>Businesses targeting international markets</li>
+          </ul>
+        </div>
+
+        <div class="feature-group">
+          <h4>Includes:</h4>
+          <ul>
+            <li>Advanced technical SEO</li>
+            <li>National &amp; international SEO</li>
+            <li>Multi-location SEO</li>
+            <li>High-volume content strategy</li>
+            <li>Advanced competitor research</li>
+            <li>Authority and backlink development</li>
+            <li>Conversion-focused SEO</li>
+            <li>Ongoing SEO strategy and support</li>
+          </ul>
+        </div>
+
+        <div class="plan-footer">
+          <a class="btn plan-btn btn-outline" href="{{ route('contact.us') }}#enquiry">Talk to Us <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
     </div>
   </div>
 </section>
-@endif
 
-@if(isset($webServices) && $webServices->isNotEmpty())
+{{-- @if(isset($webServices) && $webServices->isNotEmpty())
 <section class="block">
   <div class="wrap">
     <div class="eyebrow">Website Development — UK (£)</div>
@@ -106,7 +218,7 @@
     </div>
   </div>
 </section>
-@endif
+@endif --}}
 
 {{-- @if(isset($usaPlans) && $usaPlans->isNotEmpty())
 <section class="block">

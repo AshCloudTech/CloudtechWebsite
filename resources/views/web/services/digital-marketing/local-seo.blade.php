@@ -26,17 +26,14 @@
         <div class="container hero-grid">
             <div class="hero-text">
                 <p class="hero-eyebrow">Local SEO Services</p>
-                <h1>Boost Your Visibility with Expert Local SEO Services</h1>
+                <h1>Local SEO Services UK for Higher Google <br>Rankings &amp; More Local Customers</h1>
                 <p class="hero-subtitle">
-                    Our Local SEO Services help your business rank higher in local searches through targeted keywords,
-                    Google Business Profile SEO, and proven Local Search Optimization strategies.
+                    Improve your local Google visibility with powerful, results-driven Local SEO Services UK that increase Map Pack rankings, strengthen Google Business Profile performance, attract nearby customers, and generate more calls, enquiries, and sales.
                 </p>
 
                 <div class="hero-actions">
-                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="local-seo">Get Local SEO
-                        Audit</a>
-                    <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Book Consultation</a>
-                
+                    <a href="#audit" class="btn btn-lg btn-primary jsGetAudit" data-audit-type="local-seo">Get Free Local SEO Audit</a>
+                    <a href="#contact-form" class="btn btn-lg btn-ghost hero-ghost-light">Speak to a Local SEO Expert</a>
                     <a href="tel:07835761525" class="btn btn-primary btn-cta-added">Call Us</a>
                 </div>
             </div>
@@ -67,19 +64,19 @@
             <div class="stats-grid">
                 <article class="stat-card">
                     <p class="stat-value">70%</p>
-                    <p class="stat-label">Shoppers use local search to compare nearby businesses.</p>
+                    <p class="stat-label">Local Search Visibility</p>
                 </article>
                 <article class="stat-card">
                     <p class="stat-value">55%</p>
-                    <p class="stat-label"> Users choose a business after viewing its local profile.</p>
+                    <p class="stat-label">More Customer Engagement</p>
                 </article>
                 <article class="stat-card">
                     <p class="stat-value">68%</p>
-                    <p class="stat-label">Searchers visit a nearby physical location after looking online.</p>
+                    <p class="stat-label">Local Visit Potential</p>
                 </article>
                 <article class="stat-card">
                     <p class="stat-value">82%</p>
-                    <p class="stat-label">Customers rely on online feedback before choosing a local business.</p>
+                    <p class="stat-label">Review Influence</p>
                 </article>
             </div>
         </div>
@@ -89,36 +86,32 @@
     <section class="section" id="process">
         <div class="container">
             <div class="section-header">
-                <h2>Our Local SEO Process</h2>
-                <p>
-                    A clear, streamlined strategy that enhances your local presence, improves visibility,
-                    and drives steady customer growth.
-                </p>
+                <h2>How Our Local SEO Services Work</h2>
+                <p>Our proven Local SEO process combines local keyword research, Google Business Profile optimisation, on-page SEO, citations, reviews, and authority building to improve local search performance.</p>
             </div>
 
-            <div class="process-grid process-grid-ui-3">
+            <div class="grid grid-4 process-grid">
                 <article class="card process-card process-card-ui">
                     <div class="process-step">1</div>
-                    <h3>Local Audit</h3>
-                    <p>
-                        We assess your local presence to identify gaps and opportunities for stronger visibility.
-                    </p>
+                    <h3>Local SEO Audit &amp; Competitor Analysis</h3>
+                    <p>We analyse your website, Google Business Profile, local rankings, citations, reviews, competitors, and local search opportunities to identify areas for improvement.</p>
                 </article>
 
                 <article class="card process-card process-card-ui">
                     <div class="process-step">2</div>
-                    <h3>Optimisation</h3>
-                    <p>
-                        We enhance key SEO elements to improve local rankings, relevance, and customer engagement.
-                    </p>
+                    <h3>Local Keyword Research &amp; Strategy</h3>
+                    <p>We identify valuable location-based keywords and search terms your customers use, then create a targeted Local SEO strategy around search intent and business goals.</p>
                 </article>
 
                 <article class="card process-card process-card-ui">
                     <div class="process-step">3</div>
-                    <h3>Growth</h3>
-                    <p>
-                        We apply targeted strategies that drive increased local traffic, leads, and ongoing growth.
-                    </p>
+                    <h3>Google Business Profile &amp; On-Page SEO</h3>
+                    <p>We optimise your Google Business Profile, website content, location pages, internal links, metadata, and other local ranking signals to improve relevance and visibility.</p>
+                </article>
+                <article class="card process-card process-card-ui">
+                    <div class="process-step">4</div>
+                    <h3>Local SEO Monitoring &amp; Reporting</h3>
+                    <p>We monitor local rankings, Google Maps visibility, organic traffic, profile performance, enquiries, and other key metrics to continually improve campaign results.</p>
                 </article>
             </div>
         </div>
@@ -129,41 +122,33 @@
     <section class="section section-alt" id="why">
         <div class="container">
             <div class="section-header">
-                <h2>Why Choose Our Local SEO Services?</h2>
-                <p>Our Local SEO agency boosts local rankings and helps you attract more nearby customers.</p>
+                <h2>Why Choose Our Local SEO Services UK?</h2>
+                <p>Our Local SEO agency helps businesses improve Google Search and Maps visibility, attract nearby customers, and compete more effectively in their target locations.</p>
             </div>
 
             <div class="why-grid why-grid-ui">
                 <article class="card why-card why-card-ui">
                     <div class="why-icon"><i data-lucide="map-pin"></i></div>
-                    <h3>Local Search Rankings</h3>
-                    <p>
-                        We improve your local SEO rankings to boost visibility and attract nearby customers.
-                    </p>
+                    <h3>Improve Your Local Google Rankings</h3>
+                    <p>Increase your visibility for location-based searches with targeted Local SEO strategies designed to improve rankings across Google Search and Maps.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
                     <div class="why-icon"><i data-lucide="building-2"></i></div>
-                    <h3>Google Business Profile</h3>
-                    <p>
-                        We optimise your Google Business Profile for stronger map visibility and local performance.
-                    </p>
+                    <h3>Optimise Your Google Business Profile</h3>
+                    <p>We optimise your Google Business Profile with relevant business information, categories, services, content, images, and local search signals to improve visibility.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
                     <div class="why-icon"><i data-lucide="users"></i></div>
-                    <h3>Community Visibility</h3>
-                    <p>
-                        We enhance your business presence across directories to strengthen your local footprint.
-                    </p>
+                    <h3>Reach Customers in Your Target Locations</h3>
+                    <p>Target high-value local keywords and location-based searches to connect your business with customers actively looking for your products or services nearby.</p>
                 </article>
 
                 <article class="card why-card why-card-ui">
                     <div class="why-icon"><i data-lucide="smartphone"></i></div>
-                    <h3>Mobile Optimisation</h3>
-                    <p>
-                        We optimise your site for mobile users to maximise local search engagement.
-                    </p>
+                    <h3>Generate More Local Leads &amp; Enquiries</h3>
+                    <p>Our Local SEO strategies focus on attracting qualified local traffic that can turn into phone calls, website enquiries, bookings, visits, and customers.</p>
                 </article>
             </div>
         </div>
@@ -175,22 +160,17 @@
         <div class="container">
             <div class="services-layout">
                 <div class="services-copy">
-                    <h2>Complete Local SEO Services</h2>
-                    <p class="services-intro">
-                        Comprehensive Local SEO solutions that improve local rankings, visibility, and customer growth.</p>
+                    <h2>What's Included in Our Local SEO Services UK?</h2>
+                    <p class="services-intro">Our Local SEO services combine Google Business Profile optimisation, local website SEO, citations, content, reviews, and authority-building strategies to strengthen your local online presence.</p>
                     <ul class="services-list">
-                        <li>Local SEO Audit</li>
-                        <li>Keyword Targeting</li>
-                        <li>Google Business Profile</li>
-                        <li>Local Citations</li>
-                        <li>On-Page Local SEO</li>
-                        <li>Local Link Building</li>
-                        <li>Map Pack optimisation</li>
-                        <li>Reputation Management</li>
-                        <li>Mobile local SEO</li>
-                        <li>Local Content Strategy</li>
-                        <li>Competitor Analysis</li>
-                        <li>Local Performance Tracking</li>
+                        <li>Local keyword research, mapping, and search-intent targeting.</li>
+                        <li>Google Business Profile optimisation for Google Search and Maps.</li>
+                        <li>Local citations and NAP consistency across relevant directories.</li>
+                        <li>On-page Local SEO for service pages, location pages, titles, headings, and content.</li>
+                        <li>Local link building and authority strategies to strengthen local relevance.</li>
+                        <li>Review and reputation strategies to support customer trust and local visibility.</li>
+                        <li>Google Map Pack optimisation and local ranking improvements.</li>
+                        <li>Local SEO reporting to track rankings, traffic, visibility, leads, and growth.</li>
                     </ul>
                 </div>
                 <div class="services-panel">
@@ -210,36 +190,32 @@
     <section class="section section-related-links" id="related-services">
         <div class="container">
             <div class="section-header">
-                <h2>Explore Related Services</h2>
-                <p>Boost your local search growth with connected SEO and digital marketing services.</p>
+                <h2>Explore Our Related SEO Services</h2>
+                <p>Strengthen your local search performance with these connected SEO and digital marketing services.</p>
             </div>
 
             <div class="related-links-grid">
-                <a class="related-link-card" href="/google-business-profile-service-uk"
-                    aria-label="Google Business Profile services UK">
+                <a class="related-link-card" href="/google-business-profile-service-uk" aria-label="Google Business Profile Services UK">
                     <span>Google Business Profile Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO services UK">
+                <a class="related-link-card" href="/seo-service-uk" aria-label="SEO Services UK">
                     <span>SEO Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/digital-marketing-service-uk"
-                    aria-label="Digital marketing services UK">
+                <a class="related-link-card" href="/digital-marketing-service-uk" aria-label="Digital Marketing Services UK">
                     <span>Digital Marketing Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/ppc-advertising-service-uk"
-                    aria-label="PPC advertising services UK">
+                <a class="related-link-card" href="/ppc-advertising-service-uk" aria-label="PPC Advertising Services UK">
                     <span>PPC Advertising Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
 
-                <a class="related-link-card" href="/social-media-marketing-service-uk"
-                    aria-label="Social media marketing services UK">
+                <a class="related-link-card" href="/social-media-marketing-service-uk" aria-label="Social Media Marketing Services UK">
                     <span>Social Media Marketing Services UK</span>
                     <span class="related-link-arrow" aria-hidden="true">→</span>
                 </a>
@@ -253,43 +229,33 @@
             <div class="national-about-wrapper">
 
                 <div class="national-about-content">
-                    <h2>What Are Local SEO Services?</h2>
+                    <h2>What Are Local SEO Services &amp; How Do They Work?</h2>
 
-                    <p>
-                        Local SEO services focus on helping your business appear in location-based searches when customers
-                        look for services “near me” or within their area. These searches often trigger Google’s map pack,
-                        where only the top three local businesses are shown prominently above regular search results.
-                    </p>
+                    <p>Local SEO services help businesses appear more prominently when customers search for products or services in a specific area. These searches can include location-based keywords such as “SEO agency in London”, “plumber near me”, or “removal company in Harrow”.</p>
 
-                    <p>
-                        Local SEO combines website optimisation, Google Business Profile enhancement, local citations,
-                        reviews, and location signals to improve your visibility where it matters most in front of nearby
-                        customers ready to buy.
-                    </p>
+                    <p>A professional Local SEO strategy improves your visibility across Google Search and Google Maps by combining Google Business Profile optimisation, local keyword targeting, website optimisation, local citations, reviews, local content, and authority-building strategies.</p>
+                    <p>Local SEO is particularly valuable for businesses that serve customers within specific cities, towns, neighbourhoods, or service areas. By improving your local search presence, your business can reach potential customers at the moment they are actively looking for your services.</p>
                 </div>
 
                 <div class="national-about-highlight">
-                    <h3>What’s Included in Professional Local SEO</h3>
+                    <h3>What's Included in Professional Local SEO?</h3>
 
-                    <p>
-                        A complete local SEO campaign includes:
-                    </p>
+                    <p>A complete Local SEO campaign can include:</p>
 
                     <ul>
                         <li>Google Business Profile optimisation</li>
-                        <li>NAP consistency across directories</li>
-                        <li>Local citation building</li>
-                        <li>Location-based keyword targeting</li>
-                        <li>On-page local landing pages</li>
-                        <li>Review acquisition strategy</li>
+                        <li>Local keyword research and targeting</li>
+                        <li>NAP consistency and citation management</li>
+                        <li>Local landing page optimisation</li>
+                        <li>Location-based content strategy</li>
+                        <li>Review and reputation management</li>
                         <li>Local link building</li>
-                        <li>Map pack optimisation</li>
+                        <li>Google Map Pack optimisation</li>
                         <li>Mobile optimisation for local searches</li>
+                        <li>Local competitor analysis</li>
                     </ul>
 
-                    <p class="national-about-note">
-                        These elements work together to strengthen your local presence across Google Search and Maps.
-                    </p>
+                    <p class="national-about-note">These elements work together to improve local relevance, search visibility, customer trust, and organic lead generation.</p>
                 </div>
 
             </div>
@@ -302,19 +268,14 @@
         <div class="container">
 
             <div class="section-header">
-                <h2>Why Local SEO Is Essential for Small and Medium Businesses</h2>
+                <h2>Why Local SEO Is Essential for Small &amp; Medium Businesses</h2>
             </div>
 
             <div class="national-growth-card">
-                <p>
-                    Most customers now search online before visiting a local business. If your company does not appear in
-                    local search results or the map pack, you are losing customers to competitors who do.
-                </p>
+                <p>Local customers increasingly use Google to find nearby businesses, compare services, read reviews, and decide where to buy. If your business is not visible when customers search locally, competitors may capture those enquiries instead.</p>
 
-                <p>
-                    Local SEO ensures your business is visible at the exact moment people are searching for your services
-                    nearby, turning searches into calls, visits, and enquiries.
-                </p>
+                <p>Local SEO helps your business appear when people are actively searching for relevant services in your target area. Strong local visibility can increase website visits, phone calls, enquiries, bookings, store visits, and customer opportunities.</p>
+                <p>For small and medium-sized businesses, a well-planned Local SEO campaign can build sustainable visibility in the locations that matter most to your business.</p>
             </div>
 
         </div>
@@ -327,14 +288,11 @@
             <div class="cta-inner local-cta-inner">
                 <div class="cta-main">
                     <h2>Ready to Attract More Local Customers?</h2>
-                    <p>
-                        Boost your local visibility and attract nearby customers with powerful Local SEO Services.
-                    </p>
+                    <p>Improve your Google rankings, strengthen your Maps visibility, and attract more customers in your target locations with expert Local SEO Services UK built around your business goals.</p>
                 </div>
                 <div class="cta-actions local-cta-actions">
-                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="local-seo">Get Free Local
-                        Audit</a>
-                    <a href="#stats" class="btn btn-outline-light">View Local Stats</a>
+                    <a href="#audit" class="btn btn-primary jsGetAudit" data-audit-type="local-seo">Request Free Local SEO Audit</a>
+                    <a href="#contact-form" class="btn btn-outline-light">Speak to a Local SEO Expert</a>
                 </div>
             </div>
         </div>
@@ -402,66 +360,50 @@
     <section class="section section-alt section-faq" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2>Local SEO Service FAQs</h2>
+                <h2>Frequently Asked Questions About Local SEO Services UK</h2>
             </div>
 
             <div class="faq-wrap">
                 <div class="faq-list">
                     <details class="faq-item">
-                        <summary>1. What Are Local SEO Services?</summary>
+                        <summary>What Are Local SEO Services?</summary>
                         <div class="faq-content">
-                            <p>
-                                Local SEO Services optimize your online presence so your business appears in local searches,
-                                map results, and “near me” queries to attract nearby customers.
-                            </p>
+                            <p>Local SEO services improve a business's visibility in location-based Google searches and Google Maps. They include Google Business Profile optimisation, local keyword targeting, citations, website optimisation, reviews, local content, and link building.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>2.Why Is Local SEO Important?</summary>
+                        <summary>How Does Local SEO Improve Google Rankings?</summary>
                         <div class="faq-content">
-                            <p>
-                                Local SEO boosts visibility, increases local traffic, and helps customers easily find and
-                                choose your business both online and offline.
-                            </p>
+                            <p>Local SEO improves relevance, authority, and location signals across your website and online profiles. Optimising your Google Business Profile, local content, citations, reviews, and website can help improve visibility for relevant local searches.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>3. How Does Local SEO Help My Business Grow?</summary>
+                        <summary>What Is Google Map Pack SEO?</summary>
                         <div class="faq-content">
-                            <p>
-                                It improves rankings, increases foot traffic, strengthens credibility, and drives more
-                                calls, visits, and inquiries from nearby customers.
-                            </p>
+                            <p>Google Map Pack SEO focuses on improving a business's visibility in the local three-pack displayed in Google Search and Maps. It involves Google Business Profile optimisation, local relevance, reviews, citations, website signals, and local authority.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>4. What Is Included in Your Local SEO Process?</summary>
+                        <summary>How Long Does Local SEO Take to Show Results?</summary>
                         <div class="faq-content">
-                            <p>
-                                Our process includes a Local Audit, Optimization phase, and Growth strategy that ensures
-                                improved visibility and lasting performance.
-                            </p>
+                            <p>The time required depends on competition, location, website authority, Google Business Profile strength, reviews, and the current local search presence. Consistent Local SEO work can improve visibility and rankings over time.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>5. What Platforms Do You Optimize for Local SEO?</summary>
+                        <summary>What Is Included in a Local SEO Campaign?</summary>
                         <div class="faq-content">
-                            <p>We optimize your Google Business Profile, local citations, directories, website pages, and
-                                mobile experience for stronger results.
-                            </p>
+                            <p>A Local SEO campaign can include local keyword research, Google Business Profile optimisation, citation building, NAP management, location page optimisation, local content, review strategies, local link building, competitor analysis, and performance tracking.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>6. How Do You Improve Local Search Rankings?</summary>
+                        <summary>Why Choose a Local SEO Agency in the UK?</summary>
                         <div class="faq-content">
-                            <p>
-                                We use keyword targeting, on-page optimization, map pack improvements, link building, and
-                                Google Business Profile enhancements.</p>
+                            <p>A UK Local SEO agency understands the competitive local search landscape and can create strategies around your target locations, customers, services, competitors, and search behaviour. Professional Local SEO support can help build stronger local visibility and sustainable organic growth.</p>
                         </div>
                     </details>
                 </div>

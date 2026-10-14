@@ -57,7 +57,7 @@
                 </article>
 
                 <!-- UI/UX Design -->
-                <article class="card service-card">
+                {{-- <article class="card service-card">
                     <div class="card-tag tag-purple">UI/UX Design</div>
                     <a href="{{ route('services.uiux') }}" aria-label="UI and UX Design Services">
                         <img src="{{ asset('assets/images/home/ui_&_ux_design.webp') }}" srcset="{{ asset('assets/images/home/ui_&_ux_design.webp') }} 644w, {{ asset('assets/images/home/ui_&_ux_design.webp') }} 672w" sizes="322px" class="service-image"
@@ -73,7 +73,7 @@
                         <li>Prototyping</li>
                         <li>Usability Testing</li>
                     </ul>
-                </article>
+                </article> --}}
 
                 <!-- Web Development -->
                 <article class="card service-card">
@@ -95,7 +95,7 @@
                 </article>
 
                 <!-- Branding -->
-                <article class="card service-card">
+                {{-- <article class="card service-card">
                     <div class="card-tag tag-orange">Branding</div>
                     <a href="{{ route('services.branding') }}" aria-label="Branding Services">
                         <img src="{{ asset('assets/images/home/branding.webp') }}" srcset="{{ asset('assets/images/home/branding.webp') }} 644w, {{ asset('assets/images/home/branding.webp') }} 672w" sizes="322px" class="service-image"
@@ -111,7 +111,7 @@
                         <li>Visual Identity</li>
                         <li>Brand Strategy</li>
                     </ul>
-                </article>
+                </article> --}}
 
                 <!-- SEO -->
                 <article class="card service-card">
@@ -133,7 +133,7 @@
                 </article>
 
                 <!-- Product Marketing -->
-                <article class="card service-card">
+                {{-- <article class="card service-card">
                     <div class="card-tag tag-pink">Product Marketing</div>
                     <a href="{{ route('services.product.marketing') }}" aria-label="Product Marketing Services">
                         <img src="{{ asset('assets/images/home/product_marketing.webp') }}" srcset="{{ asset('assets/images/home/product_marketing.webp') }} 644w, {{ asset('assets/images/home/product_marketing.webp') }} 672w" sizes="322px" class="service-image"
@@ -149,7 +149,7 @@
                         <li>Launch Campaigns</li>
                         <li>Growth Marketing</li>
                     </ul>
-                </article>
+                </article> --}}
             </div>
         </div>
     </section>
@@ -613,9 +613,9 @@
                         </div>
 
                         <div class="cta-field">
-                            <label for="cta_phone">Phone Number</label>
+                            <label for="cta_phone">Phone Number <span class="cta-required">*</span></label>
                             <input id="cta_phone" type="text" name="phone" placeholder="+44 20 1223-4567" maxlength="13"
-                                value="{{ old('phone') }}" />
+                                value="{{ old('phone') }}" required />
                         </div>
 
                         <div class="cta-field">

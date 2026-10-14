@@ -1,23 +1,25 @@
 @extends('layouts.cloudtech')
 
-@section('title', 'About Cloud Technologies | SEO & Digital Marketing UK')
-@section('meta_title', 'About Cloud Technologies | SEO & Digital Marketing UK')
-@section('meta_description', 'Learn about Cloud Technologies, a UK digital agency providing SEO, digital marketing and web development solutions for growing businesses.')
-@section('meta_keywords', 'about us, digital agency about, SEO about, web development about, UK, digital marketing about, business growth about')
-    @push('styles')
-        <link rel="stylesheet" href="{{ asset('assets/about/css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
-    @endpush
-    @push('scripts')
-        <script src="{{ asset('assets/about/js/script.js') }}" defer></script>
-          <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    @endpush
+@section('title', 'About Us | Cloud Technologies Ltd')
+@section('meta_title', 'About Us | Cloud Technologies Ltd')
+@section('meta_description', 'Learn about Cloud Technologies Ltd, a founder-led digital agency helping businesses across the UK, India and UAE grow through technology, SEO, digital marketing and web solutions.')
+@section('meta_keywords', 'Cloud Technologies Ltd, about us, digital agency, SEO, digital marketing, web development, UK, India, UAE')
+
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('assets/about/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/header.css') }}">
+@endpush
+
+@push('scripts')
+    <script src="{{ asset('assets/about/js/script.js') }}" defer></script>
+    <script src="{{ asset('assets/js/simple-validation.js') }}" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+@endpush
 
 @section('content')
 
-    <!-- HERO -->
+    <!-- HERO SECTION (UNCHANGED) -->
     <section class="hero about-hero" id="hero">
         <div class="hero-bg"></div>
         <div class="hero-overlay"></div>
@@ -26,608 +28,364 @@
                 <p class="hero-eyebrow">About Cloud Technologies</p>
                 <h1>Empowering Businesses with Innovative<br>Cloud Solutions</h1>
                 <p class="hero-subtitle">
-                    Cloud Technologies helps organisations harness cloud computing and digital transformation
-                    to drive growth, resilience, and long-term success.
+                    Cloud Technologies helps organisations harness cloud computing and digital transformation to drive growth, resilience, and long-term success.
                 </p>
-
                 <div class="hero-actions">
-                    <a href="#story" class="btn btn-lg btn-primary">Learn More</a>
-                    <a href="#solutions" class="btn btn-lg btn-ghost hero-ghost-light">Explore Our Solutions</a>
+                    <a href="#our-story" class="btn btn-lg btn-primary">Learn More</a>
+                    <a href="#services" class="btn btn-lg btn-ghost hero-ghost-light">Explore Our Solutions</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- OUR STORY -->
-    <section class="section" id="story">
+    <!-- ABOUT US SECTION -->
+    <section class="section" id="our-story">
         <div class="container story-grid">
             <div class="story-text">
-                <h2>Our Story</h2>
+                <p class="section-eyebrow">About Us</p>
+                <h2>A Founder-Led Digital Agency Built for Growth</h2>
                 <p>
-                    Cloud Technologies was founded with a vision to revolutionise the way businesses leverage
-                    cloud computing and digital transformation. From our beginnings as a small startup, we’ve
-                    grown into a global leader in cloud solutions.
+                    Cloud Technologies Ltd is a founder-led digital agency helping businesses build, improve and grow their online presence.
                 </p>
                 <p>
-                    Our team of expert engineers and consultants work tirelessly to deliver innovative solutions
-                    that drive business growth and operational efficiency. We pride ourselves on our commitment
-                    to excellence, customer satisfaction, and staying at the forefront of technological
-                    advancement.
+                    Founded in London in 2019, we now operate across the United Kingdom, India and the UAE, with a team of 40+ specialists across web development, design, SEO and digital marketing.
                 </p>
                 <p>
-                    Today, we serve clients across industries worldwide – from high-growth startups to
-                    Fortune 500 enterprises – helping them navigate cloud migration, infrastructure optimisation,
-                    and digital innovation with confidence.
+                    We combine technology, creativity and digital expertise to deliver websites and marketing strategies built around real business goals. From the first conversation to delivery and ongoing growth, we focus on quality, clear communication and measurable results.
                 </p>
             </div>
             <div class="story-image">
-                <img src="{{ asset('assets/images/about-us/ourstorydesk.png') }}"
-                    alt="Our Story – Cloud Technologies Ltd"
-                    title="Our story section showcasing the journey of Cloud Technologies Ltd"
-                    class="story-photo">
+                <img src="{{ asset('assets/images/about-us/ourstorydesk.png') }}" alt="Cloud Technologies Ltd" title="Cloud Technologies Ltd">
             </div>
         </div>
     </section>
 
-    <!-- CLOUD SOLUTIONS -->
-    <section class="section section-alt" id="solutions">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Cloud Solutions</h2>
+    <!-- MEET OUR FOUNDER SECTION -->
+    <section class="section section-alt" id="founder">
+        <div class="container story-grid">
+            <div class="founder-visual">
+                <img
+                    class="founder-image"
+                    src="{{ asset('assets/images/about-us/founder.webp') }}"
+                    alt="Karthick Subramanian, Founder and Director of Cloud Technologies Ltd"
+                    title="Karthick Subramanian — Founder &amp; Director"
+                    loading="lazy"
+                    decoding="async"
+                >
+            </div>
+            <div class="story-text">
+                <p class="section-eyebrow">Meet Our Founder</p>
+                <h2>Karthick Subramanian</h2>
+                <h3>Founder &amp; Director, Cloud Technologies Ltd</h3>
                 <p>
-                    Comprehensive cloud services tailored to your business needs, designed to accelerate
-                    digital transformation and unlock value.
+                    With 18+ years of global IT experience, Karthick Subramanian founded Cloud Technologies Ltd with a vision to bring together technology, digital expertise and business strategy to help businesses grow.
+                </p>
+                <p>
+                    His professional experience spans investment and retail banking, UK central government and defence engineering, where quality, governance, security and reliable delivery are essential.
+                </p>
+                <p>
+                    Today, Karthick leads Cloud Technologies Ltd and remains directly involved in the quality and direction of client projects. His experience in complex technology environments brings a structured, results-focused approach to every digital project.
                 </p>
             </div>
+        </div>
 
-            <div class="grid grid-3 solutions-grid solutions-grid-ui">
-
-                <article class="card feature-card feature-card-ui">
-                    <div class="svcIcon">
-                        <i data-lucide="cloud"></i>
-                    </div>
-                    <h3>Cloud Consulting</h3>
-                    <p>Expert guidance on cloud strategy, architecture design, and implementation to maximize your cloud
-                        investment and business outcomes.</p>
-                </article>
-
-                <article class="card feature-card feature-card-ui">
-                    <div class="svcIcon">
-                        <i data-lucide="database"></i>
-                    </div>
-                    <h3>Data Analytics</h3>
-                    <p>Transform your data into actionable insights with our advanced analytics solutions and business
-                        intelligence platforms.</p>
-                </article>
-
-                <article class="card feature-card feature-card-ui">
-                    <div class="svcIcon">
-                        <i data-lucide="shield-check"></i>
-                    </div>
-                    <h3>Security &amp; Compliance</h3>
-                    <p>Comprehensive security solutions to protect your cloud infrastructure and ensure regulatory
-                        compliance across all platforms.</p>
-                </article>
-
-                <article class="card feature-card feature-card-ui">
-                    <div class="svcIcon">
-                        <i data-lucide="server"></i>
-                    </div>
-                    <h3>Infrastructure</h3>
-                    <p>Scalable and reliable cloud infrastructure solutions designed to support your growing business needs
-                        and operations.</p>
-                </article>
-
-                <article class="card feature-card feature-card-ui">
-                    <div class="svcIcon">
-                        <i data-lucide="code"></i>
-                    </div>
-                    <h3>DevOps Solutions</h3>
-                    <p>Streamline your development and operations with our cutting-edge DevOps practices and automation
-                        tools.</p>
-                </article>
-
-                <article class="card feature-card feature-card-ui">
-                    <div class="svcIcon">
-                        <i data-lucide="headset"></i>
-                    </div>
-                    <h3>24/7 Support</h3>
-                    <p>Round-the-clock technical support and monitoring to ensure your systems run smoothly without
-                        interruption.</p>
-                </article>
-
+        <div class="container stats-grid about-stats">
+            <div class="stat-card">
+                <strong data-counter data-target="18" data-suffix="+">0</strong>
+                <span>Years of Global IT Experience</span>
             </div>
-
+            <div class="stat-card">
+                <strong data-counter data-target="3">0</strong>
+                <span>Countries of Operation</span>
+            </div>
+            <div class="stat-card">
+                <strong data-counter data-target="40" data-suffix="+">0</strong>
+                <span>Team Members</span>
+            </div>
+            <div class="stat-card">
+                <strong>Founder-Led</strong>
+                <span>Project Oversight</span>
+            </div>
         </div>
     </section>
 
-    <!-- WHY CHOOSE CLOUDTECH -->
-    <section class="section section-dark" id="why">
+    <!-- VISION & MISSION SECTION -->
+    <section class="section" id="vision-mission">
+        <div class="container grid grid-2">
+            <article class="card feature-card">
+                <div class="svcIcon"><i data-lucide="eye"></i></div>
+                <p class="section-eyebrow">Our Vision</p>
+                <h2>Building a smarter digital future for businesses</h2>
+                <p>
+                    Our vision is to become a trusted global digital technology partner, helping businesses of all sizes use technology, websites and digital marketing to create sustainable growth and stay competitive in a changing digital world.
+                </p>
+            </article>
+
+            <article class="card feature-card">
+                <div class="svcIcon"><i data-lucide="target"></i></div>
+                <p class="section-eyebrow">Our Mission</p>
+                <h2>Turning digital opportunities into measurable business growth</h2>
+                <p>
+                    Our mission is to deliver practical, high-quality digital solutions that solve real business challenges. We combine technology, creativity and strategic thinking to help our clients improve their online presence, reach the right audience and achieve long-term results.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- VALUES SECTION -->
+    <section class="section section-dark" id="values">
         <div class="container">
             <div class="section-header section-header-light">
-                <h2>Why Choose CloudTech</h2>
+                <p class="section-eyebrow">Our Values</p>
+                <h2>Driving business growth through quality and excellence</h2>
                 <p>
-                    Discover what sets us apart in the cloud technology landscape and why clients trust
-                    us as their long-term digital partner.
+                    We are driven by Quality, Client Focus, Transparency, Innovation, Accountability and Long-Term Thinking. We deliver high-quality work, understand our clients' goals, communicate openly, embrace new ideas, take ownership of our work and build digital solutions designed to create lasting value and sustainable business growth.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENT TRUST & LOGOS SECTION -->
+    <section class="section client-trust-section" id="clients">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">Trusted by Businesses</p>
+                <h2>Building Digital Partnerships That Last</h2>
+                <p>
+                    We work with businesses across the UK, India and UAE, supporting companies across different industries with websites, SEO, digital marketing and technology solutions.
+                </p>
+                <p>
+                    Our client relationships are built on trust, communication, expertise and measurable outcomes.
+                </p>
+            </div>
+
+            <!-- OUR CLIENTS LOGOS -->
+            <div class="section-header" style="margin-bottom: 20px;">
+                <p class="section-eyebrow">Our Clients</p>
+            </div>
+
+            <div class="client-logo-strip client-logo-marquee" aria-label="Our Clients">
+                @php
+                    $clientLogos = [
+                        ['name' => 'Book My Getaway', 'url' => 'https://bookmygetaway.co.uk/', 'image' => 'https://www.clouddigitallabs.ae/assets/images/clients/45.webp'],
+                        ['name' => 'Cash Home Buyers', 'url' => 'https://cashhomebuyers.uk/', 'image' => 'https://www.clouddigitallabs.ae/assets/images/clients/6.webp'],
+                        ['name' => 'CricCounty Stores', 'url' => 'https://www.criccounty.com/', 'image' => 'https://www.clouddigitallabs.ae/assets/images/clients/criccounty_stores_logo-scaled.webp'],
+                        ['name' => 'DJ Sax Piano', 'url' => 'https://www.djsaxpiano.co.uk/', 'image' => 'https://www.clouddigitallabs.ae/assets/images/clients/djsaxpiano.webp'],
+                        ['name' => 'Express Driveways & Patios', 'url' => 'https://www.expressdrivewaysandpatios.co.uk/', 'image' => 'https://www.clouddigitallabs.ae/assets/images/clients/ExpressDriveways&Patios.webp'],
+                        ['name' => 'Goodbrand Removals', 'url' => 'https://www.goodbrandremovals.co.uk/', 'image' => 'https://www.clouddigitallabs.ae/assets/images/clients/10.webp'],
+                    ];
+                @endphp
+
+                <div class="client-logo-marquee__viewport">
+                    <div class="client-logo-marquee__track">
+                        <div class="client-logo-marquee__group">
+                            @foreach($clientLogos as $logo)
+                                <a class="client-logo-card" href="{{ $logo['url'] }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ $logo['name'] }} website" title="{{ $logo['name'] }}">
+                                    <img src="{{ $logo['image'] }}" alt="{{ $logo['name'] }} logo" loading="lazy" decoding="async">
+                                </a>
+                            @endforeach
+                        </div>
+                        <div class="client-logo-marquee__group" aria-hidden="true">
+                            @foreach($clientLogos as $logo)
+                                <a class="client-logo-card" href="{{ $logo['url'] }}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-label="Visit {{ $logo['name'] }} website" title="{{ $logo['name'] }}">
+                                    <img src="{{ $logo['image'] }}" alt="" loading="lazy" decoding="async">
+                                </a>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TESTIMONIALS SECTION -->
+            <div class="section-header testimonial-heading">
+                <p class="section-eyebrow">What Our Clients Say</p>
+                <h2>Real Experiences From Our Clients</h2>
+                <p>
+                    We believe the best measure of our work is the experience and results of the businesses we support.
+                </p>
+            </div>
+
+            <div class="testimonial-slider" data-testimonial-slider>
+                <div class="testimonial-viewport">
+                    <div class="testimonial-track">
+                        <article class="testimonial-slide is-active">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <blockquote>“Cloud Technologies Ltd understood our requirements and delivered a professional solution that made a real difference to our business.”</blockquote>
+                            <div class="testimonial-client"><strong>London Legal Practice</strong></div>
+                        </article>
+
+                        <article class="testimonial-slide">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <blockquote>“I was impressed with the professional and helpful service from London Legal Practice. They explained everything clearly and made the whole process much easier. A reliable legal team.”</blockquote>
+                            <div class="testimonial-client"><strong>London Removals Co</strong><span>— Sarah Williams</span></div>
+                        </article>
+
+                        <article class="testimonial-slide">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <blockquote>“Excellent removals service from start to finish. The team was punctual, careful with our belongings and very professional throughout the move. I would definitely recommend them.”</blockquote>
+                            <div class="testimonial-client"><strong>London Removals Co</strong><span>— Daniel Carter</span></div>
+                        </article>
+
+                        <article class="testimonial-slide">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <blockquote>“CricCounty has been a great platform for cricket enthusiasts. The content is useful, engaging and easy to follow. A fantastic resource for anyone who loves cricket.”</blockquote>
+                            <div class="testimonial-client"><strong>CricCounty</strong><span>— Rahul Sharma</span></div>
+                        </article>
+
+                        <article class="testimonial-slide">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <blockquote>“We are very happy with the tutoring service. The lessons are well structured, and the tutor explains difficult topics in a simple and understandable way. We have already seen a positive improvement.”</blockquote>
+                            <div class="testimonial-client"><strong>Top Maths Tutors</strong><span>— Emily Johnson</span></div>
+                        </article>
+
+                        <article class="testimonial-slide">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <blockquote>“Excellent service from Minty Heating &amp; Plumbing. They responded quickly, arrived on time and completed the work professionally. The pricing was clear and the service was reliable.”</blockquote>
+                            <div class="testimonial-client"><strong>Minty Heating &amp; Plumbing</strong><span>— James Thompson</span></div>
+                        </article>
+
+                        <article class="testimonial-slide">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <blockquote>“The team made the Schengen visa process much easier for us. They provided clear guidance, helped with the documentation and answered our questions throughout the process. Very professional service.”</blockquote>
+                            <div class="testimonial-client"><strong>Schengen Visa Express</strong><span>— George Daniel</span></div>
+                        </article>
+
+                        <article class="testimonial-slide">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <blockquote>“The Learning Compass provides a supportive and professional learning experience. The guidance was clear, personalised and genuinely helpful. I would highly recommend their services.”</blockquote>
+                            <div class="testimonial-client"><strong>The Learning Compass</strong><span>— Michael Brown</span></div>
+                        </article>
+                    </div>
+                </div>
+                <button type="button" class="testimonial-arrow testimonial-arrow-prev" data-testimonial-prev aria-label="Previous testimonial">&#10094;</button>
+                <button type="button" class="testimonial-arrow testimonial-arrow-next" data-testimonial-next aria-label="Next testimonial">&#10095;</button>
+                <div class="testimonial-dots" data-testimonial-dots></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR WORK SECTION -->
+    <section class="section section-alt" id="our-work">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">Our Work</p>
+                <h2>Projects Built Around Real Business Goals</h2>
+                <p>
+                    From websites and SEO campaigns to digital marketing and technology solutions, our projects are designed to solve real business challenges and create measurable opportunities for growth.
+                </p>
+            </div>
+
+            <div class="stats-grid about-stats">
+                <div class="stat-card">
+                    <strong data-counter data-target="40" data-suffix="+">0</strong>
+                    <span>Team Members</span>
+                </div>
+                <div class="stat-card">
+                    <strong data-counter data-target="3">0</strong>
+                    <span>Countries</span>
+                </div>
+                <div class="stat-card">
+                    <strong data-counter data-target="100" data-suffix="+">0</strong>
+                    <span>Projects Delivered</span>
+                </div>
+                <div class="stat-card">
+                    <strong data-counter data-target="18" data-suffix="+">0</strong>
+                    <span>Years of IT Experience</span>
+                </div>
+            </div>
+
+            <div class="center-actions">
+                <a href="{{ url('/case-studies') }}" class="btn btn-primary">View Our Case Studies</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY BUSINESSES CHOOSE US -->
+    <section class="section" id="why-us">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">Why Businesses Choose Us</p>
             </div>
 
             <div class="grid grid-3 why-grid">
                 <article class="card why-card">
-                    <h3>Industry Expertise</h3>
-                    <p>
-                        Over a decade of experience delivering cloud solutions with a proven track record
-                        across multiple sectors.
-                    </p>
+                    <h3>Founder-Led Expertise</h3>
+                    <p>Our founder remains directly involved in project quality and direction, helping maintain high standards across every engagement.</p>
                 </article>
-
                 <article class="card why-card">
-                    <h3>Expert Team</h3>
-                    <p>
-                        Certified engineers and consultants bringing deep technical skills and best practices
-                        to every engagement.
-                    </p>
+                    <h3>One Connected Team</h3>
+                    <p>Our specialists work across web development, design, SEO and digital marketing, giving clients access to connected expertise under one team.</p>
                 </article>
-
                 <article class="card why-card">
-                    <h3>Innovation First</h3>
-                    <p>
-                        Constantly adopting the latest cloud technologies, tools, and methodologies to keep
-                        you ahead of the curve.
-                    </p>
+                    <h3>Business-Focused Solutions</h3>
+                    <p>We take the time to understand your business, market, audience and objectives before recommending the right digital solution.</p>
                 </article>
-
-                <article class="card why-card">
-                    <h3>Client-Centric</h3>
-                    <p>
-                        We align with your goals and KPIs, working collaboratively to shape solutions
-                        around real-world outcomes.
-                    </p>
-                </article>
-
-                <article class="card why-card">
-                    <h3>Global Reach</h3>
-                    <p>
-                        A presence across key regions and time zones, ensuring consistent support and
-                        delivery wherever you operate.
-                    </p>
-                </article>
-
-                <article class="card why-card">
-                    <h3>Proven Results</h3>
-                    <p>
-                        Demonstrated impact in cost savings, operational efficiency, and accelerated
-                        digital growth for our clients.
-                    </p>
-                </article>
+               
+               
             </div>
         </div>
     </section>
 
-    <!-- LEADERSHIP TEAM -->
-    <section class="section" id="leadership">
+    <!-- OUR COMPANY SECTION -->
+    <section class="section section-alt" id="company">
         <div class="container">
             <div class="section-header">
-                <h2>Leadership Team</h2>
-                <p>
-                    Meet the visionaries guiding our mission to transform businesses through cloud technology.
-                </p>
+                <p class="section-eyebrow">Our Company</p>
+                <h2>Legal Entity</h2>
+                <h3>Cloud Technologies Ltd</h3>
             </div>
 
-            <div class="grid grid-4 leadership-grid">
-                <article class="card leader-card">
-                    {{-- <div class="leader-photo leader-photo-1"></div> --}}
-                    <img src={{ asset('assets/images/about-us/michael.png') }}
-                        alt="Michael – Team Member Cloud Technologies Ltd"
-                        title="Michael from Cloud Technologies Ltd team" class="leader-photo">
-                    <h3>Michael Chen</h3>
-                    <p class="leader-role">Chief Executive Officer</p>
-                    <p class="leader-text">
-                        With over 20 years in technology leadership, Michael sets the strategic vision
-                        for innovation and growth.
-                    </p>
-                </article>
-
-                <article class="card leader-card">
-                    {{-- <div class="leader-photo leader-photo-2"></div> --}}
-                    <img src={{ asset('assets/images/about-us/sarah.png') }}
-                        alt="Sarah – Team Member Cloud Technologies Ltd"
-                        title="Sarah from Cloud Technologies Ltd team" class="leader-photo">
-                    <h3>Sarah Johnson</h3>
-                    <p class="leader-role">Chief Technology Officer</p>
-                    <p class="leader-text">
-                        Sarah leads our technical strategy, ensuring we deliver cutting-edge cloud
-                        solutions that scale.
-                    </p>
-                </article>
-
-                <article class="card leader-card">
-                    {{-- <div class="leader-photo leader-photo-3"></div> --}}
-                    <img src={{ asset('assets/images/about-us/david.png') }}
-                        alt="David – Team Member Cloud Technologies Ltd"
-                        title="David from Cloud Technologies Ltd team" class="leader-photo">
-                    <h3>David Martinez</h3>
-                    <p class="leader-role">Chief Operations Officer</p>
-                    <p class="leader-text">
-                        David oversees global operations and service delivery, maintaining excellence
-                        across every region.
-                    </p>
-                </article>
-
-                <article class="card leader-card">
-                    {{-- <div class="leader-photo leader-photo-4"></div> --}}
-                    <img src={{ asset('assets/images/about-us/emily.png') }}
-                        alt="Emily – Team Member Cloud Technologies Ltd"
-                        title="Emily from Cloud Technologies Ltd team" class="leader-photo">
-                    <h3>Emily Thompson</h3>
-                    <p class="leader-role">Chief Marketing Officer</p>
-                    <p class="leader-text">
-                        Emily shapes our brand and go-to-market strategy, connecting our solutions with
-                        organisations worldwide.
-                    </p>
-                </article>
+            <div class="company-details-grid">
+                <div><strong>Registered</strong><span>England &amp; Wales · Company No. 12036217</span></div>
+                <div><strong>Trading Since</strong><span>June 2019</span></div>
+                <div><strong>Registered Office</strong><span>174 1st Floor, The Type Building, Sugar House Island, London, England, E15 2TP</span></div>
+                <div><strong>Operating In</strong><span>United Kingdom · India · UAE</span></div>
+                <div><strong>Team</strong><span>40+ specialists across technology, design and digital marketing</span></div>
             </div>
         </div>
     </section>
 
-    <!-- CAREERS / JOIN US -->
-    <section class="section section-alt careers-section" id="careers">
-        <div class="container careers-grid">
-            <div class="careers-image">
-                <img src="{{ asset('assets/images/about-us/joinus.png') }}"
-                    alt="Join Our Team – Cloud Technologies Ltd"
-                    title="Join our team page encouraging careers at Cloud Technologies Ltd" class="careers-photo">
-                {{-- <div class="careers-photo"></div> --}}
-            </div>
-            <div class="careers-text">
-                <h2>Join Us. Elevate Your Career</h2>
-                <p>
-                    At Cloud Technologies, our people are our greatest asset. We’re always looking for
-                    talented individuals who are passionate about cloud technology and innovation.
-                </p>
-                <ul class="careers-list">
-                    <li>Competitive salary and benefits package</li>
-                    <li>Professional development and training programmes</li>
-                    <li>Flexible work arrangements and work-life balance</li>
-                    <li>Collaborative and inclusive company culture</li>
-                </ul>
-                <a href="#contact" class="btn btn-primary">View Open Positions</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- STATS + JOURNEY OF EXCELLENCE (UI MATCH) -->
-    <section class="section journey-ui" id="journey">
-        <div class="container">
-
-            {{-- Stats Grid --}}
-            <div class="journey-stats">
-                <article class="stat-box">
-                    <div class="stat-box__value">500+</div>
-                    <div class="stat-box__label">Clients Worldwide</div>
-                </article>
-
-                <article class="stat-box">
-                    <div class="stat-box__value">1000+</div>
-                    <div class="stat-box__label">Projects Completed</div>
-                </article>
-
-                <article class="stat-box">
-                    <div class="stat-box__value">98%</div>
-                    <div class="stat-box__label">Client Satisfaction</div>
-                </article>
-
-                <article class="stat-box">
-                    <div class="stat-box__value">24/7</div>
-                    <div class="stat-box__label">Support Available</div>
-                </article>
-
-                <article class="stat-box">
-                    <div class="stat-box__value">15+</div>
-                    <div class="stat-box__label">Years Experience</div>
-                </article>
-
-                <article class="stat-box">
-                    <div class="stat-box__value">200+</div>
-                    <div class="stat-box__label">Team Members</div>
-                </article>
-            </div>
-
-            {{-- Heading --}}
-            <div class="journey-head">
-                <h2>Our Journey of Excellence</h2>
-                <p>
-                    Committed to delivering exceptional results and driving innovation in cloud technology
-                    for organisations worldwide.
-                </p>
-            </div>
-
-            {{-- Feature Cards --}}
-            <div class="journey-grid-ui">
-                <article class="journey-card-ui">
-                    <div class="journey-ico" aria-hidden="true">
-                        {{-- medal --}}
-                        <svg viewBox="0 0 24 24">
-                            <path d="M12 2l3 6h-6l3-6zm-4 8h8v2.1a5 5 0 1 1-8 0V10zm2 3.1a3 3 0 1 0 4 0V12h-4v1.1z" />
-                        </svg>
-                    </div>
-                    <h3>Industry Recognition</h3>
-                    <p>Awarded Best Cloud Service Provider 2023 by Tech Innovation Awards for outstanding service delivery.
-                    </p>
-                </article>
-
-                <article class="journey-card-ui">
-                    <div class="journey-ico" aria-hidden="true">
-                        {{-- shield --}}
-                        <svg viewBox="0 0 24 24">
-                            <path
-                                d="M12 2l8 4v6c0 5-3.4 9.4-8 10-4.6-.6-8-5-8-10V6l8-4zm0 4.2L6 8v4c0 3.7 2.3 6.9 6 7.7 3.7-.8 6-4 6-7.7V8l-6-1.8z" />
-                        </svg>
-                    </div>
-                    <h3>Security Certified</h3>
-                    <p>ISO 27001 and SOC 2 Type II certified, ensuring the highest standards of data security and privacy.
-                    </p>
-                </article>
-
-                <article class="journey-card-ui">
-                    <div class="journey-ico" aria-hidden="true">
-                        {{-- globe --}}
-                        <svg viewBox="0 0 24 24">
-                            <path
-                                d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm7.9 9H16.9a16 16 0 0 0-1.3-6A8 8 0 0 1 19.9 11zM12 4c1.3 1.7 2.2 4 2.6 7H9.4c.4-3 1.3-5.3 2.6-7zM4.1 13H7.1a16 16 0 0 0 1.3 6A8 8 0 0 1 4.1 13zM7.1 11H4.1a8 8 0 0 1 4.3-6 16 16 0 0 0-1.3 6zm2.3 2h5.2c-.4 3-1.3 5.3-2.6 7-1.3-1.7-2.2-4-2.6-7zm6.2 6a16 16 0 0 0 1.3-6h3a8 8 0 0 1-4.3 6z" />
-                        </svg>
-                    </div>
-                    <h3>Global Presence</h3>
-                    <p>Operating in 25+ countries with local support teams providing seamless service worldwide.</p>
-                </article>
-
-                <article class="journey-card-ui">
-                    <div class="journey-ico" aria-hidden="true">
-                        {{-- user star --}}
-                        <svg viewBox="0 0 24 24">
-                            <path
-                                d="M12 12a4.2 4.2 0 1 0-4.2-4.2A4.2 4.2 0 0 0 12 12zm0 2c-4.2 0-8 2.2-8 5v1h16v-1c0-2.8-3.8-5-8-5zm8.2-4.7l.6 1.2 1.3.2-1 .9.2 1.3-1.1-.6-1.1.6.2-1.3-1-.9 1.3-.2.6-1.2z" />
-                        </svg>
-                    </div>
-                    <h3>Expert Team</h3>
-                    <p>Over 150 certified cloud architects and engineers with expertise across all major cloud platforms.
-                    </p>
-                </article>
-
-                <article class="journey-card-ui">
-                    <div class="journey-ico" aria-hidden="true">
-                        {{-- bulb --}}
-                        <svg viewBox="0 0 24 24">
-                            <path
-                                d="M9 21h6v-1H9v1zm3-19a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2zm3 11.6a1 1 0 0 0-.4.8V16h-5.2v-1.6a1 1 0 0 0-.4-.8A5 5 0 1 1 15 13.6z" />
-                        </svg>
-                    </div>
-                    <h3>Innovation Leader</h3>
-                    <p>Pioneering new cloud solutions and methodologies that set industry standards and best practices.</p>
-                </article>
-
-                <article class="journey-card-ui">
-                    <div class="journey-ico" aria-hidden="true">
-                        {{-- hand heart --}}
-                        <svg viewBox="0 0 24 24">
-                            <path
-                                d="M12 21s-6.7-4.4-8.7-7.6C1.7 10.8 3.3 8 6.2 8c1.4 0 2.6.7 3.3 1.7C10.2 8.7 11.4 8 12.8 8c2.9 0 4.5 2.8 2.9 5.4C18.7 16.6 12 21 12 21z" />
-                            <path
-                                d="M2 17.5h6.2l1.3.9h5.8c1.1 0 2-.9 2-2s-.9-2-2-2h-3.2l-.8-.6c-.7-.5-1.7-.5-2.4 0l-.9.6H2v3.1z" />
-                        </svg>
-                    </div>
-                    <h3>Client Success</h3>
-                    <p>Dedicated to delivering measurable business value and ROI for every client engagement.</p>
-                </article>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- TRUSTED PARTNERS -->
-    <section class="section section-alt" id="partners">
+    <!-- OUR JOURNEY SECTION -->
+    <section class="section" id="journey">
         <div class="container">
             <div class="section-header">
-                <h2>Trusted Technology Partners</h2>
-                <p>We collaborate with industry leaders to deliver best-in-class cloud solutions</p>
+                <p class="section-eyebrow">Our Journey</p>
             </div>
 
-            <div class="grid grid-3 partners-grid partners-grid--ui">
-                <article class="card partner-card partner-card--ui fx-reveal">
-                    <div class="partner-icon partner-icon--azure" aria-hidden="true">
-                        {{-- Azure: simple 2x2 tiles --}}
-                        <span class="partner-tiles">
-                            <i></i><i></i><i></i><i></i>
-                        </span>
-                    </div>
-
-                    <h3 class="partner-title">Microsoft Azure</h3>
-                    <p class="partner-badge">Gold Partner</p>
+            <div class="journey-grid">
+                <article class="card journey-card">
+                    <strong>2019 — Cloud Technologies Ltd Begins</strong>
+                    <p>Cloud Technologies Ltd starts trading in London, supporting businesses with technology and digital solutions.</p>
                 </article>
-
-                <article class="card partner-card partner-card--ui fx-reveal">
-                    <div class="partner-icon partner-icon--aws" aria-hidden="true">
-                        {{-- AWS: simple “a” mark --}}
-                        <span class="partner-letter">a</span>
-                    </div>
-
-                    <h3 class="partner-title">Amazon AWS</h3>
-                    <p class="partner-badge">Advanced Partner</p>
+                <article class="card journey-card">
+                    <strong>2025 — India Operation Expands</strong>
+                    <p>Our India operation expands our delivery capabilities and strengthens our technology, development and digital marketing services.</p>
                 </article>
-
-                <article class="card partner-card partner-card--ui fx-reveal">
-                    <div class="partner-icon partner-icon--gcp" aria-hidden="true">
-                        {{-- GCP: simple “G” mark --}}
-                        <span class="partner-letter">G</span>
-                    </div>
-
-                    <h3 class="partner-title">Google Cloud</h3>
-                    <p class="partner-badge">Premier Partner</p>
+                <article class="card journey-card">
+                    <strong>2025 — UAE Operation Launches</strong>
+                    <p>We extend our presence into the UAE, supporting businesses across the Gulf with digital and technology solutions.</p>
+                </article>
+                <article class="card journey-card">
+                    <strong>Today — Growing Across Three Markets</strong>
+                    <p>Cloud Technologies Ltd now operates across the UK, India and UAE, supported by a growing team of 40+ specialists while maintaining our founder-led approach.</p>
                 </article>
             </div>
         </div>
     </section>
 
-
-    <!-- GLOBAL PRESENCE -->
-    <section class="section" id="global">
-        <div class="container">
-            <div class="section-header">
-                <h2>Global Presence</h2>
-                <p>
-                    With offices around the world, we’re always close to our clients while providing
-                    global reach.
-                </p>
-            </div>
-
-            <div class="grid grid-3 global-grid">
-                <article class="card global-card">
-                    {{-- <div class="global-photo global-photo-1"></div> --}}
-                    <img src={{ asset('assets/images/about-us/sanfrance.png') }}
-                        alt="San Francisco Office - Cloud Technologies Ltd"
-                        title="Cloud Technologies Ltd San Francisco office location" class="global-photo">
-                    <h3>San Francisco, United States</h3>
-                    <p>123 Market Street, Suite 500</p>
-                </article>
-
-                <article class="card global-card">
-                    {{-- <div class="global-photo global-photo-2"></div> --}}
-                    <img src={{ asset('assets/images/about-us/london.png') }}
-                        alt="London Office - Cloud Technologies Ltd"
-                        title="Cloud Technologies Ltd London office location" class="global-photo">
-                    <h3>London, United Kingdom</h3>
-                    <p>45 Canary Wharf, Level 12</p>
-                </article>
-
-                <article class="card global-card">
-                    {{-- <div class="global-photo global-photo-3"></div> --}}
-                    <img src={{ asset('assets/images/about-us/singapore.png') }}
-                        alt="Singapore Office - Cloud Technologies Ltd"
-                        title="Cloud Technologies Ltd Singapore office location" class="global-photo">
-                    <h3>Singapore, Singapore</h3>
-                    <p>88 Marina Bay, Tower A</p>
-                </article>
-            </div>
-
-            <div class="worldmap-card">
-                {{-- <div class="worldmap-photo"></div> --}}
-                <img src="{{ asset('assets/images/about-us/worldmap.png') }}"
-                    alt="Global Offices Map - Cloud Technologies Ltd"
-                    title="World map showing Cloud Technologies Ltd global office presence" class="worldmap-photo">
-                <div class="worldmap-text">
-                    <h3>See Where We Are</h3>
-                    <p>
-                        Our global network spans continents, combining local expertise with a unified
-                        approach to delivery.
-                    </p>
-                </div>
+    <!-- CALL TO ACTION SECTION -->
+    <section class="section section-dark" id="ready">
+        <div class="container section-header section-header-light">
+            <p class="section-eyebrow">Ready to Grow Your Business?</p>
+            <h2>Let's Build Your Next Digital Success Story</h2>
+            <p>
+                Whether you need a new website, SEO, digital marketing or a complete digital strategy, our team is ready to help you identify the right opportunities and turn them into measurable growth.
+            </p>
+            <div class="hero-actions">
+                <a href="{{ url('/contact-us') }}" class="btn btn-lg btn-primary">Request a Consultation</a>
+                <a href="{{ url('/services') }}" class="btn btn-lg btn-ghost hero-ghost-light">Explore Our Services</a>
             </div>
         </div>
     </section>
-
-    <!-- CTA SECTION -->
-    <section class="section about-cta" id="contact">
-        <div class="container">
-
-            <!-- Top CTA -->
-            <div class="cta-inner about-cta-inner">
-                <div class="cta-main">
-                    <h2>Ready to Transform Your Business?</h2>
-                    <p>
-                        Join hundreds of companies that trust Cloud Technologies to power their
-                        digital transformation journey.
-                    </p>
-                </div>
-
-                <div class="cta-actions about-cta-actions">
-                    <a href="#contact-form" class="btn btn-primary">Get Started Today</a>
-                    <a href="#contact-form" class="btn btn-outline-light">Schedule a Demo</a>
-                </div>
-            </div>
-
-            <!-- Bottom Cards -->
-            <div class="cta-cards">
-                <div class="cta-card">
-                    <div class="cta-icon"><i class="fa-solid fa-headphones"></i></div>
-                    <h4>Free Consultation</h4>
-                    <p>Get expert advice tailored to your business needs</p>
-                </div>
-
-                <div class="cta-card">
-                    <div class="cta-icon"><i class="fa-solid fa-shield"></i></div>
-                    <h4>Secure & Reliable</h4>
-                    <p>Enterprise-grade security and 99.9% uptime SLA</p>
-                </div>
-
-                <div class="cta-card">
-                    <div class="cta-icon"><i class="fa-solid fa-rocket"></i></div>
-                    <h4>Fast Implementation</h4>
-                    <p>Quick deployment with minimal disruption</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- CONTACT FORM (SIMPLE) -->
-    <section class="section section-alt" id="contact-form">
-        <div class="container">
-            <div class="section-header">
-                <h2>Contact Our Team</h2>
-                <p>
-                    Share a few details and we’ll connect you with the right experts at
-                    {{ $globalCompany?->brand_name ?? 'Cloud Technologies' }}.
-                </p>
-            </div>
-
-            <form class="contact-form js-validate-form" method="POST" action="{{ route('contact.submit') }}">
-                @csrf
-
-                {{-- 🔐 FORM IDENTIFIERS (VERY IMPORTANT) --}}
-                <input type="hidden" name="form_key" value="contact_team">
-                <input type="hidden" name="source_page" value="{{ request()->path() }}">
-
-                <div class="form-row">
-                    <div class="form-field">
-                        <label for="name">Full Name</label>
-                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
-                    </div>
-
-                    <div class="form-field">
-                        <label for="email">Email Address</label>
-                        <input type="email" name="email" id="email" placeholder="name@company.com" required>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-field">
-                        <label for="company">Company</label>
-                        <input type="text" name="payload[company]" id="company" placeholder="Organisation name" required>
-                    </div>
-
-                    <div class="form-field">
-                        <label for="role">Your Role</label>
-                        <input type="text" name="payload[role]" id="role"
-                            placeholder="Director, CTO, Head of IT" required>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-field form-field-full">
-                        <label for="message">How can we help?</label>
-                        <textarea name="message" id="message" rows="4"
-                            placeholder="Tell us about your goals, challenges, and timelines." required></textarea>
-                    </div>
-                </div>
-
-                <button type="submit" class="btn btn-primary">
-                    Submit Request
-                </button>
-            </form>
-        </div>
-    </section>
-
 
 @endsection

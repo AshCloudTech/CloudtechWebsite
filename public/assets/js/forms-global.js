@@ -27,6 +27,31 @@
         emailField.setAttribute("autocomplete", "email");
       }
 
+      // Contact forms either use the shared contact-form class or carry a form_key.
+      // Add the required phone field to older service-page forms that do not yet render it.
+      if (form.matches(".contact-form") || form.querySelector('input[name="form_key"]')) {
+        let phoneField = form.querySelector('input[name="phone"]');
+
+        if (!phoneField) {
+          const phoneId = `phone-${document.querySelectorAll('input[name="phone"]').length + 1}`;
+          const row = document.createElement("div");
+          row.className = "form-row";
+          row.innerHTML = `
+            <div class="form-field form-field-full">
+              <label for="${phoneId}">Phone Number <span class="req">*</span></label>
+              <input id="${phoneId}" name="phone" type="tel" placeholder="+44 20 1234 5678" autocomplete="tel" required>
+            </div>
+          `;
+
+          const submitButton = form.querySelector('button[type="submit"], input[type="submit"]');
+          form.insertBefore(row, submitButton || null);
+          phoneField = row.querySelector('input[name="phone"]');
+        }
+
+        phoneField.setAttribute("required", "required");
+        phoneField.setAttribute("autocomplete", "tel");
+      }
+
       // Add a small validation message if you want
       form.addEventListener("submit", (e) => {
         // Let browser validate first
@@ -80,4 +105,3 @@
     }
   });
 })();
-

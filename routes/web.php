@@ -97,14 +97,14 @@ Route::get('/seo-service-uk', [ServicesController::class, 'seo'])
     ->name('services.seo');
 
 // Keep these if they are real service pages in your site
-Route::get('/ui-ux-service-uk', [ServicesController::class, 'uiux'])
-    ->name('services.uiux');
+// Route::get('/ui-ux-service-uk', [ServicesController::class, 'uiux'])
+//     ->name('services.uiux');
 
-Route::get('/branding-service-uk', [ServicesController::class, 'branding'])
-    ->name('services.branding');
+// Route::get('/branding-service-uk', [ServicesController::class, 'branding'])
+//     ->name('services.branding');
 
-Route::get('/product-marketing-service-uk', [ServicesController::class, 'productMarketing'])
-    ->name('services.product.marketing');
+// Route::get('/product-marketing-service-uk', [ServicesController::class, 'productMarketing'])
+//     ->name('services.product.marketing');
 
 
 // Digital marketing child pages

@@ -16,7 +16,7 @@
     @endphp
 
     <!-- Title -->
-    <title>{{ $finalTitle }}</title>
+   <title>{{ html_entity_decode($finalTitle, ENT_QUOTES, 'UTF-8') }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 

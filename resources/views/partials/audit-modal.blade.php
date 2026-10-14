@@ -35,8 +35,8 @@
         </div>
 
         <div class="auditField auditField--full">
-          <label for="audit_phone">Phone</label>
-          <input id="audit_phone" name="phone" type="tel" autocomplete="tel" maxlength="30" placeholder="+91 9xxxx xxxxx">
+          <label for="audit_phone">Phone <span class="req">*</span></label>
+          <input id="audit_phone" name="phone" type="tel" autocomplete="tel" maxlength="30" placeholder="+91 9xxxx xxxxx" required>
           <small class="auditError" data-err-for="phone"></small>
         </div>
 

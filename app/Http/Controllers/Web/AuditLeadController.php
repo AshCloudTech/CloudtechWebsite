@@ -20,7 +20,7 @@ class AuditLeadController extends Controller
 
             'name'  => ['required','string','max:120'],
             'email' => ['required','email','max:190'],
-            'phone' => ['nullable','string','max:30'],
+            'phone' => ['required','string','max:30'],
             'reason'=> ['nullable','string','max:2000'],
 
             'utm_source'   => ['nullable','string','max:100'],
